@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DEC85B52C69F7E94",
+  "filename": "expo.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/expo.py",
+  "sha256": "dec85b52c69f7e94ef51dcfdb4626d4db0dd850b9c2dc3d79a45b597d3362b8e",
+  "extractedAt": "2026-11-14T18:35:36.471Z",
+  "pageCount": 1,
+  "textSnippet": "def fact(x): if x==0: return 1 else: return x*fact(x-1) def puiss(x,y): if y==0: return 1 else: return x*puiss(x,y-1) def exp(x,eps): s1=1 s2=s1+x i=2 while abs(s2-s1)>eps: s1=s2 s2=s1+puiss(x,i)/fact(i) i=i+1 return s2 #Programme principale x=int(input(\"Donner x: \")) while x<=0: x=int(input(\"Donner x: \")) eps=float(input(\"Donner eps: \")) while 0.01<=eps<=0.00001: eps=fl",
+  "fullText": "def fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\ndef puiss(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x*puiss(x,y-1)\r\ndef exp(x,eps):\r\n    s1=1\r\n    s2=s1+x\r\n    i=2\r\n    while abs(s2-s1)>eps:\r\n        s1=s2\r\n        s2=s1+puiss(x,i)/fact(i)\r\n        i=i+1\r\n    return s2\r\n#Programme principale\r\nx=int(input(\"Donner x: \"))\r\nwhile x<=0:\r\n    x=int(input(\"Donner x: \"))\r\n\r\neps=float(input(\"Donner eps: \"))\r\nwhile 0.01<=eps<=0.00001:\r\n    eps=float(input(\"Donner eps: \"))\r\n\r\nprint(exp(x,eps))",
+  "chunks": [
+    {
+      "chunkId": "DOC-DEC85B52C69F7E94-CHK-001",
+      "text": "def fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\ndef puiss(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x*puiss(x,y-1)\r\ndef exp(x,eps):\r\n    s1=1\r\n    s2=s1+x\r\n    i=2\r\n    while abs(s2-s1)>eps:\r\n        s1=s2\r\n        s2=s1+puiss(x,i)/fact(i)\r\n        i=i+1\r\n    return s2\r\n#Programme principale\r\nx=int(input(\"Donner x: \"))\r\nwhile x<=0:\r\n    x=int(input(\"Donner x: \"))\r\n\neps=float(input(\"Donner eps: \"))\r\nwhile 0.01<=eps<=0.00001:\r\n    eps=float(input(\"Donner eps: \"))\r\n\nprint(exp(x,eps))"
+    }
+  ]
+}

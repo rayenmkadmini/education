@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-62ADC1397763CE7E",
+  "filename": "ajout.php",
+  "relPath": "bac 2025/ajout.php",
+  "sha256": "62adc1397763ce7e55ea9bbffa2eb3d3e30e833731f8a25ea379d72a34cd1f12",
+  "extractedAt": "2026-11-06T14:23:24.329Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\"); $idUtil=$_POST[\"idUtil\"]; $nomPrenom=$_POST[\"nomPrenom\"]; if($idUtil==\"\"||$nomPrenom==\"\"){ echo\"Erreur d'insertion des données\";exit; } $sql=\"INSERT INTO Utilisateur(idUtil,nomPrenom)VALUES('$idUtil','$nomPrenom')\"; if(mysqli_query($cnx,$sql)){ echo\"Utilisateur ajouté avec succès\"; } else{ echo\"Erreur d'insertion des données\"; } ?>",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\");\r\n$idUtil=$_POST[\"idUtil\"];\r\n$nomPrenom=$_POST[\"nomPrenom\"];\r\nif($idUtil==\"\"||$nomPrenom==\"\"){\r\n    echo\"Erreur d'insertion des données\";exit;\r\n}\r\n$sql=\"INSERT INTO Utilisateur(idUtil,nomPrenom)VALUES('$idUtil','$nomPrenom')\";\r\nif(mysqli_query($cnx,$sql)){\r\n    echo\"Utilisateur ajouté avec succès\";\r\n}\r\n    else{\r\n        echo\"Erreur d'insertion des données\";\r\n    }\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-62ADC1397763CE7E-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\");\r\n$idUtil=$_POST[\"idUtil\"];\r\n$nomPrenom=$_POST[\"nomPrenom\"];\r\nif($idUtil==\"\"||$nomPrenom==\"\"){\r\n    echo\"Erreur d'insertion des données\";exit;\r\n}\r\n$sql=\"INSERT INTO Utilisateur(idUtil,nomPrenom)VALUES('$idUtil','$nomPrenom')\";\r\nif(mysqli_query($cnx,$sql)){\r\n    echo\"Utilisateur ajouté avec succès\";\r\n}\r\n    else{\r\n        echo\"Erreur d'insertion des données\";\r\n    }\r\n?>"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-AFA822E480359E89",
+  "filename": "Magazine n°11 dérivabilité.pdf",
+  "relPath": "bac info/math taki/dérivabilité/Magazine n°11 dérivabilité.pdf",
+  "sha256": "afa822e480359e89bbcf65d2429eea29a9937c8ee3d2993444df039946558f19",
+  "extractedAt": "2026-11-06T14:23:48.662Z",
+  "pageCount": 4,
+  "textSnippet": "-- 1 of 4 -- On donne ci-contre la courbe   C représentative d’une fonction f . Les droites d’équation 1 x   , 2 x  et 1 y  sont des asymptotes à   C . 1) Déterminer graphiquement :  Le domaine de définition de f .  Le domaine de continuité de f .  Le domaine de dérivabilité de f . 2) a) Calculer graphiquement :   2 f  ,   0 f ,   1 f et   3 f . 3) Dresser le tableau de variation de f . 4) Déterminer graphiquement les limites suivantes :   lim x f x  ;  2 lim x f x ",
+  "fullText": "-- 1 of 4 --\n\nOn donne ci-contre la courbe  \tC représentative d’une fonction f .\nLes droites d’équation 1\tx\t  , 2\tx  et 1\ty  sont des asymptotes à  \tC .\n1) Déterminer graphiquement :\n Le domaine de définition de f .\n Le domaine de continuité de f .\n Le domaine de dérivabilité de f .\n2)\na) Calculer graphiquement :  \t2\tf  ,  \t0\tf ,  \t1\tf et  \t3\tf .\n3) Dresser le tableau de variation de f .\n4) Déterminer graphiquement les limites suivantes :  \tlim\nx\nf x\n\n;  2\nlim\nx\nf x\t\t\n\n;  2\nlim\nx\nf x\t\t\n\n;\n \tlim\nx\nf x\n\n;  2\nlim\nx\nfof x\t\t\n\n;  2\nlim\nx\nfof x\t\t\n\net   5\n1\n32\nlim 1\tx\nf x\nx\t\n\t \t \n .\nOn considère la fonction 2 2\n: 2 1\tf x x x x\t    .\n1) Etudier les variations de f et donner son tableau de variation.\n2) Montrer que l’équation   0\tf x  , admet dans  une unique solution\n et que :\n1 2\t\n\t  .\n3) Soit la fonction g définie sur  par :  \t0 0\tg  et   2\n2\n1\nsin\tg x x x\n si 0\tx  .\na) Montrer que : x\t   , on a :  2 2\nx g x x\t   .\nb) Montrer que g est continue en 0.\nc) Calculer  \tlim\nx\nf x\n\n.\nSoit f la fonction définie par :\n \n  \t \t\n2\n2 2\n3 0\n3 sin 0\n2\nf x x x si x\nf x x x si x\n   \n\n   \t\n\net soit  \tC sa courbe\nreprésentative.\n1) Etudier la continuité de f en 0.\n30 min 4pt\tExercice 3\n24 min 4 pt\tExercice 1\n24 min 4 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\n2) Montrer que f et continue sur  \t\t, 0\t .\n3) On pose : 0\tx\t  ,   2\nU x x\t et   \t \t2\nsin\tV x x\t .\na) Ecrire V sous la forme d’une fonction composée.\nb) En déduire que f est continue sur  \t\t0,  .\n4) Calculer  \tlim\nx\nf x\n\net  \tlim\nx\nf x x\n\n .\n5) Montrer que 0\tx\t  , on a :   2\t3 1\n2\nf x x\t  et en déduire  \tlim\nx\nf x\n\n.\n6) Etudier la dérivabilité de f à gauche et à droite en 0 et interpréter graphiquement.\n7)\na) Montrer que f est dérivable sur  \t\t, 0\t et calculer  \t'\tf x .\nb) Montrer que 0\tx\t  , on a :   \t \t2\n' 3 2 cos\tf x x x x\t  .\n8) Dresser le tableau de variation de f .\n2\n\n-- 3 of 4 --\n\n3\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "On donne ci-contre la courbe  \tC représentative d’une fonction f .\nLes droites d’équation 1\tx\t  , 2\tx  et 1\ty  sont des asymptotes à  \tC .\n1) Déterminer graphiquement :\n Le domaine de définition de f .\n Le domaine de continuité de f .\n Le domaine de dérivabilité de f .\n2)\na) Calculer graphiquement :  \t2\tf  ,  \t0\tf ,  \t1\tf et  \t3\tf .\n3) Dresser le tableau de variation de f .\n4) Déterminer graphiquement les limites suivantes :  \tlim\nx\nf x\n\n;  2\nlim\nx\nf x\t\t\n\n;  2\nlim\nx\nf x\t\t\n\n;\n \tlim\nx\nf x\n\n;  2\nlim\nx\nfof x\t\t\n\n;  2\nlim\nx\nfof x\t\t\n\net   5\n1\n32\nlim 1\tx\nf x\nx\t\n\t \t \n .\nOn considère la fonction 2 2\n: 2 1\tf x x x x\t    .\n1) Etudier les variations de f et donner son tableau de variation.\n2) Montrer que l’équation   0\tf x  , admet dans  une unique solution\n et que :\n1 2\t\n\t  .\n3) Soit la fonction g définie sur  par :  \t0 0\tg  et   2\n2\n1\nsin\tg x x x\n si 0\tx  .\na) Montrer que : x\t   , on a :  2 2\nx g x x\t   .\nb) Montrer que g est continue en 0.\nc) Calculer  \tlim\nx\nf x\n\n.\nSoit f la fonction définie par :\n \n  \t \t\n2\n2 2\n3 0\n3 sin 0\n2\nf x x x si x\nf x x x si x\n   \n\n   \t\n\net soit  \tC sa courbe\nreprésentative.\n1) Etudier la continuité de f en 0.\n30 min 4pt\tExercice 3\n24 min 4 pt\tExercice 1\n24 min 4 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "2) Montrer que f et continue sur  \t\t, 0\t .\n3) On pose : 0\tx\t  ,   2\nU x x\t et   \t \t2\nsin\tV x x\t .\na) Ecrire V sous la forme d’une fonction composée.\nb) En déduire que f est continue sur  \t\t0,  .\n4) Calculer  \tlim\nx\nf x\n\net  \tlim\nx\nf x x\n\n .\n5) Montrer que 0\tx\t  , on a :   2\t3 1\n2\nf x x\t  et en déduire  \tlim\nx\nf x\n\n.\n6) Etudier la dérivabilité de f à gauche et à droite en 0 et interpréter graphiquement.\n7)\na) Montrer que f est dérivable sur  \t\t, 0\t et calculer  \t'\tf x .\nb) Montrer que 0\tx\t  , on a :   \t \t2\n' 3 2 cos\tf x x x x\t  .\n8) Dresser le tableau de variation de f .\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-AFA822E480359E89-CHK-001",
+      "pageNumber": 2,
+      "text": "On donne ci-contre la courbe  \tC représentative d’une fonction f .\nLes droites d’équation 1\tx\t  , 2\tx  et 1\ty  sont des asymptotes à  \tC .\n1) Déterminer graphiquement :\n Le domaine de définition de f .\n Le domaine de continuité de f .\n Le domaine de dérivabilité de f .\n2)\na) Calculer graphiquement :  \t2\tf  ,  \t0\tf ,  \t1\tf et  \t3\tf .\n3) Dresser le tableau de variation de f .\n4) Déterminer graphiquement les limites suivantes :  \tlim\nx\nf x\n\n;  2\nlim\nx\nf x\t\t\n\n;  2\nlim\nx\nf x\t\t\n\n;\n \tlim\nx\nf x\n\n;  2\nlim\nx\nfof x\t\t\n\n;  2\nlim\nx\nfof x\t\t\n\net   5\n1\n32\nlim 1\tx\nf x\nx\t\n\t \t \n .\nOn considère la fonction 2 2\n: 2 1\tf x x x x\t    .\n1) Etudier les variations de f et donner son tableau de variation.\n2) Montrer que l’équation   0\tf x  , admet dans  une unique solution\n et que :\n1 2\t\n\t  .\n3) Soit la fonction g définie sur  par :  \t0 0\tg  et   2\n2\n1\nsin\tg x x x\n si 0\tx  .\na) Montrer que : x\t   , on a :  2 2\nx g x x\t   .\nb) Montrer que g est continue en 0.\nc) Calculer  \tlim\nx\nf x\n\n.\nSoit f la fonction définie par :\n \n  \t \t\n2\n2 2\n3 0\n3 sin 0\n2\nf x x x si x\nf x x x si x\n   \n\n   \t\n\net soit  \tC sa courbe\nreprésentative.\n1) Etudier la continuité de f en 0.\n30 min 4pt\tExercice 3\n24 min 4 pt\tExercice 1\n24 min 4 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-AFA822E480359E89-CHK-002",
+      "pageNumber": 3,
+      "text": "2) Montrer que f et continue sur  \t\t, 0\t .\n3) On pose : 0\tx\t  ,   2\nU x x\t et   \t \t2\nsin\tV x x\t .\na) Ecrire V sous la forme d’une fonction composée.\nb) En déduire que f est continue sur  \t\t0,  .\n4) Calculer  \tlim\nx\nf x\n\net  \tlim\nx\nf x x\n\n .\n5) Montrer que 0\tx\t  , on a :   2\t3 1\n2\nf x x\t  et en déduire  \tlim\nx\nf x\n\n.\n6) Etudier la dérivabilité de f à gauche et à droite en 0 et interpréter graphiquement.\n7)\na) Montrer que f est dérivable sur  \t\t, 0\t et calculer  \t'\tf x .\nb) Montrer que 0\tx\t  , on a :   \t \t2\n' 3 2 cos\tf x x x x\t  .\n8) Dresser le tableau de variation de f .\n2"
+    },
+    {
+      "chunkId": "DOC-AFA822E480359E89-CHK-003",
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ]
+}

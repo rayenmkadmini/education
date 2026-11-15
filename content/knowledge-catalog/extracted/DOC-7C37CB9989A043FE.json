@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7C37CB9989A043FE",
+  "filename": "Testt.py",
+  "relPath": "bac info/algo/Python/Testt.py",
+  "sha256": "7c37cb9989a043fe0159a160bb42cdc048cd3c6c748c1022723630080cbbb903",
+  "extractedAt": "2026-11-14T18:35:36.556Z",
+  "pageCount": 1,
+  "textSnippet": "m=[[0]*10 for i in range(10)] for i in range(10): for j in range(10): m[i][j]=i print(m[i][j])",
+  "fullText": "m=[[0]*10 for i in range(10)]\r\nfor i in range(10):\r\n    for j in range(10):\r\n        m[i][j]=i\r\n        print(m[i][j])",
+  "chunks": [
+    {
+      "chunkId": "DOC-7C37CB9989A043FE-CHK-001",
+      "text": "m=[[0]*10 for i in range(10)]\r\nfor i in range(10):\r\n    for j in range(10):\r\n        m[i][j]=i\r\n        print(m[i][j])"
+    }
+  ]
+}

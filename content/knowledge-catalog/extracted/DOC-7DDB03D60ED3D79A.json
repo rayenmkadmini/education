@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-7DDB03D60ED3D79A",
+  "filename": "epreuve_bac_pratique_2013_9h.30.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_9h.30.py",
+  "sha256": "7ddb03d60ed3d79a52900858b833c1c560a7c64848c6538f001a041a7a20331d",
+  "extractedAt": "2026-11-06T14:24:36.333Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 20) def Saisie(): b = False while not b: n = int(input('Donner le nombre de cases: ')) b = 5 <= n <= 20 return n def Remplir(N): for i in range(N): b = False while not b: T[i] = int(input('T[' + str(i) + ']= ')) b = T[i] > 0 def Derangement(T, N): list = [''] * N for i in range(N): list[i] = i + 1 ok = True i = -1 while ok and",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner le nombre de cases: '))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']= '))\r\n            b = T[i] > 0\r\n\r\n\r\ndef Derangement(T, N):\r\n    list = [''] * N\r\n    for i in range(N):\r\n        list[i] = i + 1\r\n    ok = True\r\n    i = -1\r\n    while ok and i < N - 1:\r\n        i += 1\r\n        ok = T[i] in list and T[i] != i + 1  #cette methode n'est pas accéptée\r\n    return ok\r\n\r\n\r\ndef Afficher(test):\r\n    if test:\r\n        print('T est un dérangement')\r\n    else:\r\n        print('T n\\'pas un dérangement')\r\n\r\n\r\n#######################PP#############################\r\n\r\nN = Saisie()\r\nRemplir(N)\r\ntest = Derangement(T, N)\r\nAfficher(test)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-7DDB03D60ED3D79A-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner le nombre de cases: '))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']= '))\r\n            b = T[i] > 0\r\n\ndef Derangement(T, N):\r\n    list = [''] * N\r\n    for i in range(N):\r\n        list[i] = i + 1\r\n    ok = True\r\n    i = -1\r\n    while ok and i < N - 1:\r\n        i += 1\r\n        ok = T[i] in list and T[i] != i + 1  #cette methode n'est pas accéptée\r\n    return ok\r\n\ndef Afficher(test):\r\n    if test:\r\n        print('T est un dérangement')\r\n    else:\r\n        print('T n\\'pas un dérangement')\r\n\n#######################PP#############################"
+    },
+    {
+      "chunkId": "DOC-7DDB03D60ED3D79A-CHK-002",
+      "text": "N = Saisie()\r\nRemplir(N)\r\ntest = Derangement(T, N)\r\nAfficher(test)"
+    }
+  ]
+}

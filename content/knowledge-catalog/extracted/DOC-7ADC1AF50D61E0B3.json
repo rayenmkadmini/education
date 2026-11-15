@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7ADC1AF50D61E0B3",
+  "filename": "Calcul PPCM.py",
+  "relPath": "bac info/algo/Python/Calcul PPCM.py",
+  "sha256": "7adc1af50d61e0b3d9f1d12bdcfbbea4513f8714c1314979dbd28447232d65f4",
+  "extractedAt": "2026-11-14T18:35:35.475Z",
+  "pageCount": 1,
+  "textSnippet": "def PPCM(a,b): a1=a b1=b while a!=b: if a<b: a=a+a1 else: b=b++b1 return a p=PPCM(12,8) print(p)",
+  "fullText": "def PPCM(a,b):\r\n    a1=a\r\n    b1=b\r\n    while a!=b:\r\n        if a<b:\r\n            a=a+a1\r\n        else:\r\n            b=b++b1\r\n    return a\r\np=PPCM(12,8)\r\nprint(p)",
+  "chunks": [
+    {
+      "chunkId": "DOC-7ADC1AF50D61E0B3-CHK-001",
+      "text": "def PPCM(a,b):\r\n    a1=a\r\n    b1=b\r\n    while a!=b:\r\n        if a<b:\r\n            a=a+a1\r\n        else:\r\n            b=b++b1\r\n    return a\r\np=PPCM(12,8)\r\nprint(p)"
+    }
+  ]
+}

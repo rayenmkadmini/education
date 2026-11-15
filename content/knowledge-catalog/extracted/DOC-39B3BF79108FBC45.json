@@ -1,0 +1,91 @@
+{
+  "documentId": "DOC-39B3BF79108FBC45",
+  "filename": "francais -20261106T124735Z-1-001.zip",
+  "sha256": "39b3bf79108fbc458efc058faed7dfafccc5f1b937e95dddea12691eb0df9d1e",
+  "extractedAt": "2026-11-06T14:00:27.560Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: francais -20261106T124735Z-1-001.zip Nombre d'éléments: 16",
+  "fullText": "Archive ZIP: francais -20261106T124735Z-1-001.zip\nNombre d'éléments: 16\n\n",
+  "zipEntries": [
+    {
+      "name": "francais /Module2/Sujet 4 - Enonce.pdf",
+      "sizeBytes": 1022543,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet bac 2012 - Enonce.pdf",
+      "sizeBytes": 1037825,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 7 - Enonce.pdf",
+      "sizeBytes": 1023702,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 3 - Enonce.pdf",
+      "sizeBytes": 1029983,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 5 - Enonce.pdf",
+      "sizeBytes": 1031724,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 2 - Enonce.pdf",
+      "sizeBytes": 1030231,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 6 - Enonce.pdf",
+      "sizeBytes": 1023578,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet 6 - Enonce.pdf",
+      "sizeBytes": 1034020,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet 3 - Enonce.pdf",
+      "sizeBytes": 1039412,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet 5 - Enonce.pdf",
+      "sizeBytes": 1026242,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet 1 - Enonce.pdf",
+      "sizeBytes": 1036845,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 1 - Enonce.pdf",
+      "sizeBytes": 1023450,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Sujet 4 - Enonce.pdf",
+      "sizeBytes": 1020117,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Sujet 2 - Enonce.pdf",
+      "sizeBytes": 1038082,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module1/Résumé/Module 1 - Résumé.pdf",
+      "sizeBytes": 2037367,
+      "isDirectory": false
+    },
+    {
+      "name": "francais /Module2/Résumé/Module 2 - Résumé.pdf",
+      "sizeBytes": 2044554,
+      "isDirectory": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "documentId": "DOC-137B82ADB9A3720E",
+  "filename": "936244829-68bf31103851a-Les-Fichiers-de-Donnees.pdf",
+  "sha256": "137b82adb9a3720e31d2c83a95ffcdd3566cf842030b3c7c327c98bea45024d6",
+  "extractedAt": "2026-11-06T13:57:40.926Z",
+  "pageCount": 3,
+  "textSnippet": "Algo & Prog S 4 sciences de l’informatique Série : Les Fichiers de données ------------------------- Nom du Prof : Naim Madhi -- 1 of 3 -- Anglais 1 Algo & Prog Les Fichiers de données : -- 2 of 3 -- Anglais 2 Algo & Prog Objectifs : - Création _ ouverture - Remplissage - Manipulation - Affichage Ecrire un algorithme d’un programme qui permet de créer un fichier d’entiers F (nom logique) nommé physiquement « nombre.dat » situé dans votre dossier de travail, remplir ce fichier par N entiers p",
+  "fullText": "Algo & Prog\nS\n4 sciences de l’informatique\nSérie : Les Fichiers de données\n-------------------------\nNom du Prof : Naim Madhi\n\n-- 1 of 3 --\n\nAnglais\n1\nAlgo & Prog\nLes Fichiers de données :\n\n-- 2 of 3 --\n\nAnglais\n2\nAlgo & Prog\nObjectifs :\n- Création _ ouverture\n- Remplissage\n- Manipulation\n- Affichage\nEcrire un algorithme d’un programme qui permet de créer un fichier d’entiers F\n(nom logique) nommé physiquement « nombre.dat » situé dans votre dossier de\ntravail, remplir ce fichier par N entiers positifs (3<=N<=20), afficher le contenu\nde ce fichier et calculer et afficher la somme de contenu de ce fichier.\nImplémenter cet algorithme en Python\nExemple : N=5\nnombre.dat :\nLe programme affiche :\nLa somme des éléments de ce fichier = 82\n10 8 3 60 1\n90 min\tExercice\n\n-- 3 of 3 --\n\n",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Algo & Prog\nS\n4 sciences de l’informatique\nSérie : Les Fichiers de données\n-------------------------\nNom du Prof : Naim Madhi"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Anglais\n1\nAlgo & Prog\nLes Fichiers de données :"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Anglais\n2\nAlgo & Prog\nObjectifs :\n- Création _ ouverture\n- Remplissage\n- Manipulation\n- Affichage\nEcrire un algorithme d’un programme qui permet de créer un fichier d’entiers F\n(nom logique) nommé physiquement « nombre.dat » situé dans votre dossier de\ntravail, remplir ce fichier par N entiers positifs (3<=N<=20), afficher le contenu\nde ce fichier et calculer et afficher la somme de contenu de ce fichier.\nImplémenter cet algorithme en Python\nExemple : N=5\nnombre.dat :\nLe programme affiche :\nLa somme des éléments de ce fichier = 82\n10 8 3 60 1\n90 min\tExercice"
+    }
+  ]
+}

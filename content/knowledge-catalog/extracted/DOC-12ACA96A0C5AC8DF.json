@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-12ACA96A0C5AC8DF",
+  "filename": "Valeur approché neper.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Valeur approché neper.py",
+  "sha256": "12aca96a0c5ac8df592007c77dccb4b8179df12e8158d4db6b2a9469a33405d7",
+  "extractedAt": "2026-11-14T18:35:36.507Z",
+  "pageCount": 1,
+  "textSnippet": "def fact(x): if x==0: return 1 else: return x*fact(x-1) def neper(): s1=1 s2=2 i=2 while abs(s2-s1)>0.0001: s1=s2 s2=s1+1/fact(i) i=i+1 return s2 #Programme appelant print(\"La valeur approché de point fixe avec la formule de neper est: \",neper())",
+  "fullText": "def fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\n\r\ndef neper():\r\n    s1=1\r\n    s2=2\r\n    i=2\r\n    while abs(s2-s1)>0.0001:\r\n        s1=s2\r\n        s2=s1+1/fact(i)\r\n        i=i+1\r\n    return s2\r\n#Programme appelant\r\nprint(\"La valeur approché de point fixe avec la formule de neper est: \",neper())",
+  "chunks": [
+    {
+      "chunkId": "DOC-12ACA96A0C5AC8DF-CHK-001",
+      "text": "def fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\n\ndef neper():\r\n    s1=1\r\n    s2=2\r\n    i=2\r\n    while abs(s2-s1)>0.0001:\r\n        s1=s2\r\n        s2=s1+1/fact(i)\r\n        i=i+1\r\n    return s2\r\n#Programme appelant\r\nprint(\"La valeur approché de point fixe avec la formule de neper est: \",neper())"
+    }
+  ]
+}

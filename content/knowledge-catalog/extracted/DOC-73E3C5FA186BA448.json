@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-73E3C5FA186BA448",
+  "filename": "Serie 3 - Enonce.pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/Dérivablité_/Serie 3 - Enonce.pdf",
+  "sha256": "73e3c5fa186ba4482f17b02a68ca624347caaac1753c84b990cb5805faa62c01",
+  "extractedAt": "2026-11-06T14:24:44.229Z",
+  "pageCount": 2,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Dérivabilité — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 2 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercise N°1: Exercice Dérivabilité (TAF) soit la fonction définie sur IR par C H A P I T R E N ° 6 Série d'exercices — Énoncé f(x) = 3ex − 1 1 + ex a) Montrer que f est dérivable sur IR et que b) Dresser le tableau de variation de f. 1 f ′(x) = 4ex (1 + ex)2 a) Etudier les variations de la fonction b) Montrer que l'équation admet une unique solution sur",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nDérivabilité — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 2 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercise N°1:\nExercice Dérivabilité (TAF)\nsoit la fonction définie sur IR par\nC H A P I T R E N ° 6\nSérie d'exercices — Énoncé\nf(x) = 3ex − 1\n1 + ex\na) Montrer que f est dérivable sur IR et que\nb) Dresser le tableau de variation de f.\n1 \tf ′(x) = 4ex\n(1 + ex)2\na) Etudier les variations de la fonction\nb) Montrer que l'équation \tadmet une unique solution sur IR et que\n2 \tg(x) = f(x) − x\nf(x) = x \ta \t2 < a < 3\na) Montrer que \t,\nb) En déduire que \t,\n3 \t∀x ∈ [2, 3] |f ′(x)| ⩽ 1\n2\n∀x ∈ [2, 3] |f(x) − a| ⩽ 1\n2 |x − a|\nSoit \tla suite définie par \t.\na) Montrer par récurrence que\nb) Montrer que\nc) Déduire que \t, \tpuis calculer\n4 (Vn) \t{ \t∀n ∈ N\nV0 = 3\nVn+1 = f(Vn)\n∀n ∈ N 2 ⩽ Vn ⩽ 3\n|Vn+1 − a| ⩽ 1\n2 |Vn − a|\n∀n ∈ N |Vn − a| ⩽ ( 1\n2 )\nn\nlim\nn→+∞ Vn\nMathématiques\nChapitre N°6 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nDérivabilité — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercise N°1:\nExercice Dérivabilité (TAF)\nsoit la fonction définie sur IR par\nC H A P I T R E N ° 6\nSérie d'exercices — Énoncé\nf(x) = 3ex − 1\n1 + ex\na) Montrer que f est dérivable sur IR et que\nb) Dresser le tableau de variation de f.\n1 \tf ′(x) = 4ex\n(1 + ex)2\na) Etudier les variations de la fonction\nb) Montrer que l'équation \tadmet une unique solution sur IR et que\n2 \tg(x) = f(x) − x\nf(x) = x \ta \t2 < a < 3\na) Montrer que \t,\nb) En déduire que \t,\n3 \t∀x ∈ [2, 3] |f ′(x)| ⩽ 1\n2\n∀x ∈ [2, 3] |f(x) − a| ⩽ 1\n2 |x − a|\nSoit \tla suite définie par \t.\na) Montrer par récurrence que\nb) Montrer que\nc) Déduire que \t, \tpuis calculer\n4 (Vn) \t{ \t∀n ∈ N\nV0 = 3\nVn+1 = f(Vn)\n∀n ∈ N 2 ⩽ Vn ⩽ 3\n|Vn+1 − a| ⩽ 1\n2 |Vn − a|\n∀n ∈ N |Vn − a| ⩽ ( 1\n2 )\nn\nlim\nn→+∞ Vn\nMathématiques\nChapitre N°6 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-73E3C5FA186BA448-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nDérivabilité — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-73E3C5FA186BA448-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercise N°1:\nExercice Dérivabilité (TAF)\nsoit la fonction définie sur IR par\nC H A P I T R E N ° 6\nSérie d'exercices — Énoncé\nf(x) = 3ex − 1\n1 + ex\na) Montrer que f est dérivable sur IR et que\nb) Dresser le tableau de variation de f.\n1 \tf ′(x) = 4ex\n(1 + ex)2\na) Etudier les variations de la fonction\nb) Montrer que l'équation \tadmet une unique solution sur IR et que\n2 \tg(x) = f(x) − x\nf(x) = x \ta \t2 < a < 3\na) Montrer que \t,\nb) En déduire que \t,\n3 \t∀x ∈ [2, 3] |f ′(x)| ⩽ 1\n2\n∀x ∈ [2, 3] |f(x) − a| ⩽ 1\n2 |x − a|\nSoit \tla suite définie par \t.\na) Montrer par récurrence que\nb) Montrer que\nc) Déduire que \t, \tpuis calculer\n4 (Vn) \t{ \t∀n ∈ N\nV0 = 3\nVn+1 = f(Vn)\n∀n ∈ N 2 ⩽ Vn ⩽ 3\n|Vn+1 − a| ⩽ 1\n2 |Vn − a|\n∀n ∈ N |Vn − a| ⩽ ( 1\n2 )\nn\nlim\nn→+∞ Vn\nMathématiques\nChapitre N°6 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ]
+}

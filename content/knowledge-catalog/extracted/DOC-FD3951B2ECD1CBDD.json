@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FD3951B2ECD1CBDD",
+  "filename": "nombre amis.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/nombre amis.py",
+  "sha256": "fd3951b2ecd1cbdd58e630acfae58044a5ae5b1bc62933bf985508643fb8f153",
+  "extractedAt": "2026-11-06T14:24:39.627Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): x=int(input('introduire un entier non nul')) b=x!=0 return x def somdiv(x): s=1 for i in range(2, (x //2)+1): if x % i==0: s=s+i return s def affiche(a,b,sa,sb): if a==sb and b==sa: ch=str(a)+' et '+str(b)+' sont amis ' else: ch=str(a)+' et '+ str(b)+'ne sont pas amis' print(ch) a=saisie() b=saisie() s1=somdiv(a) s2=somdiv(b) affiche(a,b,s1,s",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        b=x!=0\r\n    return x\r\ndef somdiv(x):\r\n    s=1\r\n    for i in range(2, (x //2)+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef affiche(a,b,sa,sb):\r\n    if a==sb and b==sa:\r\n        ch=str(a)+' et  '+str(b)+'  sont  amis '\r\n    else:\r\n        ch=str(a)+' et   '+ str(b)+'ne sont pas amis'\r\n    print(ch)\r\n\r\na=saisie()\r\nb=saisie()\r\ns1=somdiv(a)\r\ns2=somdiv(b)\r\naffiche(a,b,s1,s2)",
+  "chunks": [
+    {
+      "chunkId": "DOC-FD3951B2ECD1CBDD-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        b=x!=0\r\n    return x\r\ndef somdiv(x):\r\n    s=1\r\n    for i in range(2, (x //2)+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef affiche(a,b,sa,sb):\r\n    if a==sb and b==sa:\r\n        ch=str(a)+' et  '+str(b)+'  sont  amis '\r\n    else:\r\n        ch=str(a)+' et   '+ str(b)+'ne sont pas amis'\r\n    print(ch)\r\n\na=saisie()\r\nb=saisie()\r\ns1=somdiv(a)\r\ns2=somdiv(b)\r\naffiche(a,b,s1,s2)"
+    }
+  ]
+}

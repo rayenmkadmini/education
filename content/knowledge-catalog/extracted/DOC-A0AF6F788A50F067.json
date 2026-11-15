@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A0AF6F788A50F067",
+  "filename": "Ex1serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex1serie7.docx",
+  "sha256": "a0af6f788a50f067345f94cb0c69fd8ee00d3e2d480dc86e23620529a5093811",
+  "extractedAt": "2026-11-06T14:24:39.909Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex1serie7 Résultat =PROC affiche( t ,n ) t= PROC trait( t ,n ) t=PROC remplir( t ,n ) n=PROC saisie(n) Fin Ex1serie7 DEF PROC saisie (var n :entier ) Répéter Lire(n) Jusqu’à( n dans [1..105]) et (n mod 7 = 0) Fin saisie ___________________________________________________________________________ DEF PROC trait ( var t :tab ; var n :entier ) x ← n div 7 i ← 1 j ← 8 Pour c de 1 à x faire Nb ← 0 Pour k de i à j-1 faire Si t[k] =",
+  "fullText": "Nom : Ex1serie7\n\nRésultat =PROC affiche(\n\nt\n\n,n\n\n)\n\nt=  PROC trait(\n\nt\n\n,n\n\n)\n\nt=PROC remplir(\n\nt\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex1serie7\n\nDEF PROC saisie (var  n \n\n:entier\n\n) \n\nRépéter\n\n   Lire(n)\n\nJusqu’à(\n\n n dans [1..105]) et (n \n\nmod\n\n 7 = 0)\n\nFin saisie\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n t :tab ; var n :entier )\n\nx ← n \n\ndiv\n\n 7 \n\ni  ← 1\n\nj  ← 8\n\nPour c de 1 à x faire\n\n   Nb ← 0\n\n   Pour k de i à j-1 faire\n\n      Si t[k] =1\n\n         Alors  nb ← nb+1\n\n   Fin pour\n\n   Pour k de n à j \n\n( Pas\n\n = -1 ) faire\n\nt[\n\nk+1] ← t[k]\n\n   Fin pour\n\n   Si nb \n\nmod\n\n 2 = 0\n\n      Alors t[j] ← 1\n\n      Sinon t[j] ← 0\n\nFinsi\n\n   i ← i+8\n\nj\n\n ← j+8\n\nFin pour \n\nFin trait\n\n-409575-285750",
+  "chunks": [
+    {
+      "chunkId": "DOC-A0AF6F788A50F067-CHK-001",
+      "text": "Nom : Ex1serie7\n\nRésultat =PROC affiche(\n\nt\n\n,n\n\n)\n\nt=  PROC trait(\n\nt\n\n,n\n\n)\n\nt=PROC remplir(\n\nt\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex1serie7\n\nDEF PROC saisie (var  n \n\n:entier\n\n) \n\nRépéter\n\n   Lire(n)\n\nJusqu’à(\n\n n dans [1..105]) et (n \n\nmod\n\n 7 = 0)\n\nFin saisie\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n t :tab ; var n :entier )\n\nx ← n \n\ndiv\n\n 7 \n\ni  ← 1\n\nj  ← 8\n\nPour c de 1 à x faire\n\n   Nb ← 0\n\n   Pour k de i à j-1 faire\n\n      Si t[k] =1\n\n         Alors  nb ← nb+1\n\n   Fin pour\n\n   Pour k de n à j \n\n( Pas\n\n = -1 ) faire\n\nt[\n\nk+1] ← t[k]\n\n   Fin pour\n\n   Si nb \n\nmod\n\n 2 = 0\n\n      Alors t[j] ← 1\n\n      Sinon t[j] ← 0\n\nFinsi\n\n   i ← i+8\n\nj\n\n ← j+8\n\nFin pour \n\nFin trait\n\n-409575-285750"
+    }
+  ]
+}

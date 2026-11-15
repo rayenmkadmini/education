@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3D80D11510351197",
+  "filename": "Note.txt",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/INSTALLATION/Note.txt",
+  "sha256": "3d80d115103511975bf3618a07534f16f3e44b6de6c6bbeb0a055442eca8deab",
+  "extractedAt": "2026-11-06T14:24:40.357Z",
+  "pageCount": 1,
+  "textSnippet": "cette version de thonny contient la bibliothèque numpy, pyqt5, le logiciel qt designer et plusieurs autres bibliothèques",
+  "fullText": "cette version de thonny contient la bibliothèque numpy, pyqt5, le logiciel qt designer et plusieurs autres bibliothèques",
+  "chunks": [
+    {
+      "chunkId": "DOC-3D80D11510351197-CHK-001",
+      "text": "cette version de thonny contient la bibliothèque numpy, pyqt5, le logiciel qt designer et plusieurs autres bibliothèques"
+    }
+  ]
+}

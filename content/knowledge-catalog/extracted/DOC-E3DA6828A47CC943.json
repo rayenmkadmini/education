@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-E3DA6828A47CC943",
+  "filename": "image1.png",
+  "relPath": "bac info/sti/etude/Evaluation mot de passe/Evaluation mot de passe/image1.png",
+  "sha256": "e3da6828a47cc94396bf59ed2923ecad44719e7559f28b7d7f7a17e8123c822a",
+  "extractedAt": "2026-11-06T14:24:11.006Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-E3DA6828A47CC943-CHK-001",
+      "text": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

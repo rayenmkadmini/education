@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A293BB441EC433DB",
+  "filename": "connexion.php",
+  "relPath": "bac info/sti/projet 3 version élève/connexion.php",
+  "sha256": "a293bb441ec433db744dfcd6c7e2a14c36eb14bdb94783173263d1fa9d172fab",
+  "extractedAt": "2026-11-06T14:24:18.644Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\"); ?>",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\");\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-A293BB441EC433DB-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\");\r\n?>"
+    }
+  ]
+}

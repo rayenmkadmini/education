@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7ACD89EC0DD208B5",
+  "filename": "binaire.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/binaire.py",
+  "sha256": "7acd89ec0dd208b520b5a9dc332b6913ee0b23d5f7736d4d262a552e8442e663",
+  "extractedAt": "2026-11-06T14:24:40.757Z",
+  "pageCount": 1,
+  "textSnippet": "#ce programme permet de convertir un entier en sa forme binaire n=int(input(\"<\")) def binaire (x): ch = \"\" while x!=0: r = x % 2 ch = str(r) + ch x //= 2 return ch print(binaire(n))",
+  "fullText": "#ce programme permet de convertir un entier en sa forme binaire\r\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % 2\r\n        ch = str(r) + ch\r\n        x //= 2\r\n    return ch\r\nprint(binaire(n))",
+  "chunks": [
+    {
+      "chunkId": "DOC-7ACD89EC0DD208B5-CHK-001",
+      "text": "#ce programme permet de convertir un entier en sa forme binaire\r\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % 2\r\n        ch = str(r) + ch\r\n        x //= 2\r\n    return ch\r\nprint(binaire(n))"
+    }
+  ]
+}

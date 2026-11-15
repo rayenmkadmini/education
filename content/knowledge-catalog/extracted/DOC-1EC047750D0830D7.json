@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1EC047750D0830D7",
+  "filename": "Essai.py",
+  "relPath": "bac info/algo/Python/Essai.py",
+  "sha256": "1ec047750d0830d7b75ea9aa4e6362cb56972fcb20119de94af4a26c7e953a4f",
+  "extractedAt": "2026-11-14T18:35:36.316Z",
+  "pageCount": 1,
+  "textSnippet": "import numpy as np def saisir(n): n=int(input(\"donner n\")) while not(1<n<=10): n=int(input(\"donner n\")) return n def remplir(m,n): for l in range(n): for c in range(n): m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \")) while not(m[l,c]>0): m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \")) def afficher(m,n): for l in range(n): for c in range(n): print(m[l,c]) #programme principa",
+  "fullText": "import numpy as np\r\n\r\ndef saisir(n):\r\n    n=int(input(\"donner n\"))\r\n    while not(1<n<=10):\r\n        n=int(input(\"donner n\"))\r\n    return n\r\n\r\ndef remplir(m,n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \"))\r\n            while not(m[l,c]>0):\r\n                m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \"))\r\n\r\n\r\ndef afficher(m,n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            print(m[l,c])\r\n\r\n#programme principale\r\nn=saisir\r\nremplir(n)\r\naffiche(n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-1EC047750D0830D7-CHK-001",
+      "text": "import numpy as np\r\n\ndef saisir(n):\r\n    n=int(input(\"donner n\"))\r\n    while not(1<n<=10):\r\n        n=int(input(\"donner n\"))\r\n    return n\r\n\ndef remplir(m,n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \"))\r\n            while not(m[l,c]>0):\r\n                m[l,c]=int(input(\"m[\"+str(l)+\",\"+str(c)+\"] : \"))\r\n\ndef afficher(m,n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            print(m[l,c])\r\n\n#programme principale\r\nn=saisir\r\nremplir(n)\r\naffiche(n)"
+    }
+  ]
+}

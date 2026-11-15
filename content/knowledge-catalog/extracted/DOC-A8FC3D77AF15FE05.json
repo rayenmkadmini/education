@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A8FC3D77AF15FE05",
+  "filename": "ipv4.txt",
+  "relPath": "bac info/Python/fichier QtDesigner/IPV6-IPV4 S6_EX15/ipv4.txt",
+  "sha256": "a8fc3d77af15fe05cb14e2b04ff5dc665c8966f82932cddfc1bd44da4a4ca118",
+  "extractedAt": "2026-11-06T14:23:26.401Z",
+  "pageCount": 1,
+  "textSnippet": "255.16.11.20 255.16.11.20 456.32.965.148 111.231.236.18 111.231.236.18",
+  "fullText": "255.16.11.20\r\n255.16.11.20\r\n456.32.965.148\r\n111.231.236.18\r\n111.231.236.18\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-A8FC3D77AF15FE05-CHK-001",
+      "text": "255.16.11.20\r\n255.16.11.20\r\n456.32.965.148\r\n111.231.236.18\r\n111.231.236.18"
+    }
+  ]
+}

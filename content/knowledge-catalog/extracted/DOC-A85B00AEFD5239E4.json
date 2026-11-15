@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A85B00AEFD5239E4",
+  "filename": "Appro PI GREG.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Appro PI GREG.py",
+  "sha256": "a85b00aefd5239e407fcc6a3c5c0bf6b47e843b45ebcf3a52508a1f320e0e0ae",
+  "extractedAt": "2026-11-14T18:35:36.454Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def pi_greg(x): sig=-1 s2=1 i=1 while True: i=i+2 s1=s2 s2=s2+(1/i)*sig sig=sig*(-1) if(abs((s1*4)-(s2*4))<=x): break return (s2*4) print(\"La valeur approché de PI GREG à 10^-4 prés est: \",pi_greg(0.0001))",
+  "fullText": "from math import *\r\ndef pi_greg(x):\r\n    sig=-1\r\n    s2=1\r\n    i=1\r\n    while True:\r\n        i=i+2\r\n        s1=s2\r\n        s2=s2+(1/i)*sig\r\n        sig=sig*(-1)\r\n        if(abs((s1*4)-(s2*4))<=x):\r\n            break\r\n    return (s2*4)\r\nprint(\"La valeur approché de PI GREG à 10^-4 prés est: \",pi_greg(0.0001))",
+  "chunks": [
+    {
+      "chunkId": "DOC-A85B00AEFD5239E4-CHK-001",
+      "text": "from math import *\r\ndef pi_greg(x):\r\n    sig=-1\r\n    s2=1\r\n    i=1\r\n    while True:\r\n        i=i+2\r\n        s1=s2\r\n        s2=s2+(1/i)*sig\r\n        sig=sig*(-1)\r\n        if(abs((s1*4)-(s2*4))<=x):\r\n            break\r\n    return (s2*4)\r\nprint(\"La valeur approché de PI GREG à 10^-4 prés est: \",pi_greg(0.0001))"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-46E5CDC199B41703",
+  "filename": "espace_superflu2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/espace_superflu2.py",
+  "sha256": "46e5cdc199b4170352a6e9d831290726aad9f76994394832093322f63f1c946c",
+  "extractedAt": "2026-11-06T14:24:40.595Z",
+  "pageCount": 1,
+  "textSnippet": "##Supprimer tous les espaces inutiles dans une phrase. CH=str(input()) def superflu (ch): while ch[0]==\" \": ch=ch[1:] while ch.find(\" \") != -1 : x = ch.find(\" \") ch=ch[:x]+ch[x+1:] if ch[len(ch)-2]==(\" \"): ch = ch[:len(ch)-2]+ch[len(ch)-1] return ch print(superflu(CH))",
+  "fullText": "##Supprimer tous les espaces inutiles dans une phrase.\r\n\r\nCH=str(input())\r\ndef superflu (ch):\r\n    while ch[0]==\" \":\r\n        ch=ch[1:]\r\n    while ch.find(\"  \") != -1 :\r\n        x = ch.find(\"  \")\r\n        ch=ch[:x]+ch[x+1:]\r\n    if ch[len(ch)-2]==(\" \"):\r\n        ch = ch[:len(ch)-2]+ch[len(ch)-1]\r\n    return ch\r\nprint(superflu(CH))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-46E5CDC199B41703-CHK-001",
+      "text": "##Supprimer tous les espaces inutiles dans une phrase.\r\n\nCH=str(input())\r\ndef superflu (ch):\r\n    while ch[0]==\" \":\r\n        ch=ch[1:]\r\n    while ch.find(\"  \") != -1 :\r\n        x = ch.find(\"  \")\r\n        ch=ch[:x]+ch[x+1:]\r\n    if ch[len(ch)-2]==(\" \"):\r\n        ch = ch[:len(ch)-2]+ch[len(ch)-1]\r\n    return ch\r\nprint(superflu(CH))"
+    }
+  ]
+}

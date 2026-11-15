@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-D5E09D606014A460",
+  "filename": "Ex6serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex6serie7.docx",
+  "sha256": "d5e09d606014a46066eb9866474297dedab8c9c58b458a4703d126e17cdd460a",
+  "extractedAt": "2026-11-06T14:24:39.993Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex6serie7 Résultat= PROC verif ( id ,pw,Tid,Tpw,n ) Tid = PROC remplir1 ( Tid ,n ) Tpw = PROC remplir2 ( Tpw ,n ) id ,pw = PROC lecture( id,pw ) n= PROC saisie(n) Fin Ex6serie7 ____________________________________________________________________ DEF PROC remplir1 ( var Tid :tab ; n :entier ) Lire( Tid [1]) Pour i de 2 à n faire Répeter Lire( Tid [ i ]) j ← 0 Répeter j ← j+1 ok ← Tid [ i ] = Tid [j] Jusqu’à (ok=Vrai) ou (j=",
+  "fullText": "Nom : Ex6serie7\n\nRésultat= PROC \n\nverif\n\n (\n\nid\n\n,pw,Tid,Tpw,n\n\n)\n\nTid\n\n=  PROC remplir1 (\n\nTid\n\n,n\n\n)\n\nTpw\n\n= PROC remplir2 (\n\nTpw\n\n,n\n\n)\n\nid\n\n,pw\n\n= PROC lecture(\n\nid,pw\n\n)\n\nn= PROC saisie(n)\n\nFin Ex6serie7\n\n____________________________________________________________________\n\nDEF PROC remplir1 \n\n( var\n\nTid\n\n :tab ; n :entier )\n\nLire(\n\nTid\n\n[1])\n\nPour i de 2 à n faire\n\nRépeter\n\nLire(\n\nTid\n\n[\n\ni\n\n])\n\nj\n\n ← 0\n\nRépeter\n\nj\n\n ← j+1\n\nok\n\n ← \n\nTid\n\n[\n\ni\n\n] = \n\nTid\n\n[j]\n\n      Jusqu’à (ok=Vrai) ou (j=i-1)\n\n   Jusqu’à ok=faux\n\nFin remplir1\n\n____________________________________________________________________\n\nDEF PROC remplir2 \n\n( var\n\nTpw\n\n :tab ; n :entier )\n\nPour i de 1 à n faire\n\nRépeter\n\nLire(\n\nTpw\n\n[\n\ni\n\n])\n\nJusqu’à\n\nlong(\n\nTpw\n\n[\n\ni\n\n]) >=6\n\nFin remplir2\n\nFinsi\n\n4)    Fin \n\nverif\n\n____________________________________________________________________\n\nDEF PROC \n\nverif\n\n (\n\nid,pw\n\n :\n\nchaîne\n\n ; \n\nTid,Tpw:tab\n\n ; n:entier)\n\ni\n\n ← 0\n\nRépeter\n\ni\n\n ← i+1\n\nok\n\n ← id=\n\nTid\n\n[\n\ni\n\n]\n\nJusqu’à (ok=vrai) ou (i=n)\n\nSi  (ok=vrai) et (\n\nTpw\n\n[i]=\n\npw\n\n)\n\n   Alors \n\necrire\n\n(\n\n\"Bienvenue\")\n\n   Sinon \n\necrire\n\n (\"Vérifier\")\n\n2190750-161925-752475-95250",
+  "chunks": [
+    {
+      "chunkId": "DOC-D5E09D606014A460-CHK-001",
+      "text": "Nom : Ex6serie7\n\nRésultat= PROC \n\nverif\n\n (\n\nid\n\n,pw,Tid,Tpw,n\n\n)\n\nTid\n\n=  PROC remplir1 (\n\nTid\n\n,n\n\n)\n\nTpw\n\n= PROC remplir2 (\n\nTpw\n\n,n\n\n)\n\nid\n\n,pw\n\n= PROC lecture(\n\nid,pw\n\n)\n\nn= PROC saisie(n)\n\nFin Ex6serie7\n\n____________________________________________________________________\n\nDEF PROC remplir1 \n\n( var\n\nTid\n\n :tab ; n :entier )\n\nLire(\n\nTid\n\n[1])\n\nPour i de 2 à n faire\n\nRépeter\n\nLire(\n\nTid\n\n[\n\ni\n\n])\n\nj\n\n ← 0\n\nRépeter\n\nj\n\n ← j+1\n\nok\n\n ← \n\nTid\n\n[\n\ni\n\n] = \n\nTid\n\n[j]\n\n      Jusqu’à (ok=Vrai) ou (j=i-1)\n\n   Jusqu’à ok=faux\n\nFin remplir1\n\n____________________________________________________________________\n\nDEF PROC remplir2 \n\n( var\n\nTpw\n\n :tab ; n :entier )\n\nPour i de 1 à n faire\n\nRépeter\n\nLire(\n\nTpw\n\n[\n\ni\n\n])\n\nJusqu’à\n\nlong(\n\nTpw\n\n[\n\ni\n\n]) >=6\n\nFin remplir2\n\nFinsi\n\n4)    Fin \n\nverif"
+    },
+    {
+      "chunkId": "DOC-D5E09D606014A460-CHK-002",
+      "text": "____________________________________________________________________\n\nDEF PROC \n\nverif\n\n (\n\nid,pw\n\n :\n\nchaîne\n\n ; \n\nTid,Tpw:tab\n\n ; n:entier)\n\ni\n\n ← 0\n\nRépeter\n\ni\n\n ← i+1\n\nok\n\n ← id=\n\nTid\n\n[\n\ni\n\n]\n\nJusqu’à (ok=vrai) ou (i=n)\n\nSi  (ok=vrai) et (\n\nTpw\n\n[i]=\n\npw\n\n)\n\n   Alors \n\necrire\n\n(\n\n\"Bienvenue\")\n\n   Sinon \n\necrire\n\n (\"Vérifier\")\n\n2190750-161925-752475-95250"
+    }
+  ]
+}

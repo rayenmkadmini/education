@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-DC39A4AB4D1A4D6F",
+  "filename": "chiffres_romains.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/chiffres_romains.py",
+  "sha256": "dc39a4ab4d1a4d6fc7cc415e4c4a84ad48fb346430f5ae1048882ce054700707",
+  "extractedAt": "2026-11-06T14:24:33.168Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def verif(x): if len(x)!=0 : for i in range(len(x)): if x[i] in {'X','D','L','M','C','V','I'}: return True else: return False else: return False def convert(x): R = 0 if x == 'M' : R = 1000 elif x == 'D' : R = 500 elif x == 'C' : R = 100 elif x == 'L' : R = 50 elif x == 'X' : R = 10 elif",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x)!=0 :\r\n        for i in range(len(x)):\r\n            if x[i] in {'X','D','L','M','C','V','I'}:\r\n                return True\r\n            else:\r\n                return False\r\n    else:\r\n        return False\r\n    \r\ndef convert(x):\r\n    R = 0\r\n    if x == 'M' :\r\n        R = 1000\r\n    elif x == 'D' :\r\n        R = 500\r\n    elif x == 'C' :\r\n        R = 100\r\n    elif x == 'L' :\r\n        R = 50\r\n    elif x == 'X' :\r\n        R = 10\r\n    elif x == 'V' :\r\n        R = 5\r\n    elif x == 'I' :\r\n        R = 1\r\n    return R\r\ndef Romain(a):\r\n    if verif(a):\r\n        S = 0\r\n        for i in range(len(a)-1):\r\n            if convert(a[i]) < convert(a[i+1]) :\r\n                S += -convert(a[i])\r\n            else :\r\n                S += convert(a[i])\r\n        S += convert(a[len(a)-1])\r\n        p.t2.setText(str(S))   \r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")         \r\ndef Effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"chiffres_romains.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:Romain(p.t1.text()))\r\np.pb2.clicked.connect(Effacer)\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DC39A4AB4D1A4D6F-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\n\ndef verif(x):\r\n    if len(x)!=0 :\r\n        for i in range(len(x)):\r\n            if x[i] in {'X','D','L','M','C','V','I'}:\r\n                return True\r\n            else:\r\n                return False\r\n    else:\r\n        return False"
+    },
+    {
+      "chunkId": "DOC-DC39A4AB4D1A4D6F-CHK-002",
+      "text": "def convert(x):\r\n    R = 0\r\n    if x == 'M' :\r\n        R = 1000\r\n    elif x == 'D' :\r\n        R = 500\r\n    elif x == 'C' :\r\n        R = 100\r\n    elif x == 'L' :\r\n        R = 50\r\n    elif x == 'X' :\r\n        R = 10\r\n    elif x == 'V' :\r\n        R = 5\r\n    elif x == 'I' :\r\n        R = 1\r\n    return R\r\ndef Romain(a):\r\n    if verif(a):\r\n        S = 0\r\n        for i in range(len(a)-1):\r\n            if convert(a[i]) < convert(a[i+1]) :\r\n                S += -convert(a[i])\r\n            else :\r\n                S += convert(a[i])\r\n        S += convert(a[len(a)-1])\r\n        p.t2.setText(str(S))   \r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")         \r\ndef Effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t1.setFocus()"
+    },
+    {
+      "chunkId": "DOC-DC39A4AB4D1A4D6F-CHK-003",
+      "text": "app = QtWidgets.QApplication([])\r\np=uic.loadUi(\"chiffres_romains.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:Romain(p.t1.text()))\r\np.pb2.clicked.connect(Effacer)\r\napp.exec_()"
+    }
+  ]
+}

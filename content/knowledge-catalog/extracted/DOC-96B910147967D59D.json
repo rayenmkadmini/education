@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-96B910147967D59D",
+  "filename": "digipuissant.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/DEVOIRS/Devoir de control 1/digipuissant.py",
+  "sha256": "96b910147967d59d4dc274b17ce3344dff2d9525ec1ad99e1c915f35b1f8cd25",
+  "extractedAt": "2026-11-06T14:24:35.388Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): ok=False while ok==False: n=int(input(\"donner n\")) ok =10<=n<=1000 return n def puiss(x,k): p=1 for i in range(1,k+1): p=p*x return p def somme(n): ch=str(n) s=0 for i in range(len(ch)): s=s+int(ch[i]) return s def trait(n): k=0 ok=False s=somme(n) while not(ok): k=k+1 Y=puiss(s,k) ok=Y>=n or Y==1 ch=str(n)+ \" n\\'est pas digipuissant",
+  "fullText": "def saisie():\r\n    ok=False\r\n    while ok==False:\r\n        n=int(input(\"donner n\"))\r\n        ok =10<=n<=1000\r\n    return n\r\n        \r\ndef puiss(x,k):\r\n    p=1\r\n    for i in range(1,k+1):\r\n        p=p*x\r\n    return p\r\n\r\ndef somme(n):\r\n    ch=str(n)\r\n    s=0\r\n    for i in range(len(ch)):\r\n       s=s+int(ch[i])\r\n    return s\r\n\r\ndef trait(n):\r\n    k=0\r\n    ok=False\r\n    s=somme(n)\r\n    while not(ok):\r\n       k=k+1\r\n       Y=puiss(s,k)\r\n       ok=Y>=n or Y==1\r\n    ch=str(n)+ \" n\\'est pas digipuissant\"       \r\n    if Y==n:\r\n        ch=str(n)+ \" est digipuissant\"\r\n    print(ch)\r\n    \r\nn=saisie()\r\ntrait(n)\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-96B910147967D59D-CHK-001",
+      "text": "def saisie():\r\n    ok=False\r\n    while ok==False:\r\n        n=int(input(\"donner n\"))\r\n        ok =10<=n<=1000\r\n    return n\r\n\ndef puiss(x,k):\r\n    p=1\r\n    for i in range(1,k+1):\r\n        p=p*x\r\n    return p\r\n\ndef somme(n):\r\n    ch=str(n)\r\n    s=0\r\n    for i in range(len(ch)):\r\n       s=s+int(ch[i])\r\n    return s\r\n\ndef trait(n):\r\n    k=0\r\n    ok=False\r\n    s=somme(n)\r\n    while not(ok):\r\n       k=k+1\r\n       Y=puiss(s,k)\r\n       ok=Y>=n or Y==1\r\n    ch=str(n)+ \" n\\'est pas digipuissant\"       \r\n    if Y==n:\r\n        ch=str(n)+ \" est digipuissant\"\r\n    print(ch)\r\n\nn=saisie()\r\ntrait(n)"
+    }
+  ]
+}

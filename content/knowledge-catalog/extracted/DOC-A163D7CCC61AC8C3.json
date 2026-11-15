@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A163D7CCC61AC8C3",
+  "filename": "insérer_des_éléments_distincts.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/insérer_des_éléments_distincts.py",
+  "sha256": "a163d7ccc61ac8c3f142b9848ec41b24fbffdbdbde6bc86386dcec5d947cfb68",
+  "extractedAt": "2026-11-06T14:24:40.996Z",
+  "pageCount": 1,
+  "textSnippet": "#Saisir des éléments distincts dans un tableau from numpy import * t = array([int] * 20) def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): t[0] = int(input((\"t[0]=\"))) for i in range(1, n): b = False while not b: t[i] = int(input(\"t[\" + str(i) + \"] = \")) b = not (existe(t, t[i], i - 1)) def existe(t, x, p):",
+  "fullText": "#Saisir des éléments distincts dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    t[0] = int(input((\"t[0]=\")))\r\n    for i in range(1, n):\r\n        b = False\r\n        while not b:\r\n            t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n            b = not (existe(t, t[i], i - 1))\r\n\r\n\r\ndef existe(t, x, p):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < p:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\r\n\r\nn = Saisie()\r\nRemplir(n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-A163D7CCC61AC8C3-CHK-001",
+      "text": "#Saisir des éléments distincts dans un tableau\r\n\nfrom numpy import *\r\n\nt = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    t[0] = int(input((\"t[0]=\")))\r\n    for i in range(1, n):\r\n        b = False\r\n        while not b:\r\n            t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n            b = not (existe(t, t[i], i - 1))\r\n\ndef existe(t, x, p):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < p:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\nn = Saisie()\r\nRemplir(n)"
+    }
+  ]
+}

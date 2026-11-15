@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-8F4228137ED8051F",
+  "filename": "resultat.txt",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Bac 2016/resultat.txt",
+  "sha256": "8f4228137ed8051fe9680ff23e944df4276180ea79a407cd14a5c6f11fad0bd5",
+  "extractedAt": "2026-11-14T18:35:36.334Z",
+  "pageCount": 1,
+  "textSnippet": "Les 7 premiers nombres premier factorielles sont: 2 3 5 7 23 719 5039 Les 7 premiers nombres premier primoriel sont: 2 3 5 7 23 839 9239",
+  "fullText": "Les 7 premiers nombres premier factorielles sont: \r\n2\r\n3\r\n5\r\n7\r\n23\r\n719\r\n5039\r\nLes 7 premiers nombres premier primoriel sont: \r\n2\r\n3\r\n5\r\n7\r\n23\r\n839\r\n9239\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-8F4228137ED8051F-CHK-001",
+      "text": "Les 7 premiers nombres premier factorielles sont: \r\n2\r\n3\r\n5\r\n7\r\n23\r\n719\r\n5039\r\nLes 7 premiers nombres premier primoriel sont: \r\n2\r\n3\r\n5\r\n7\r\n23\r\n839\r\n9239"
+    }
+  ]
+}

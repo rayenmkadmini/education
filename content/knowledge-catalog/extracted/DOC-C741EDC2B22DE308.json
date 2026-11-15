@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-C741EDC2B22DE308",
+  "filename": "Ex1serie9.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 9/Ex1serie9.docx",
+  "sha256": "c741edc2b22de308c5d18d4eb6538e033d60e1b7ef48f4388fc7f3f0c9662360",
+  "extractedAt": "2026-11-06T14:24:40.315Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex1serie9 Résultat =PROC affiche( ind,n ) ind ,n = PROC redondance( ind,n ) ind = PROC tri( T ,ind,n ) T= PROC remplir( T ,n ) n= PROC saisie(n) Fin Ex1serie9 DEF PROC remplir (var T :entier ; n :entier) Pour i de 1 à n faire Répeter Lire(T[i]) Répeter j ← j+1 ok ← majus (T[i ][ j]) dans [\"A\"..\"Z\"] Jusqu’à (ok=faux )ou (j=long(T[i]) Jusqu’à (ok=vrai) Fin pour Fin remplir _________________________________________________",
+  "fullText": "Nom : Ex1serie9\n\nRésultat =PROC \n\naffiche(\n\nind,n\n\n)\n\nind\n\n,n\n\n= PROC redondance(\n\nind,n\n\n)\n\nind\n\n= PROC tri(\n\nT\n\n,ind,n\n\n)\n\nT= PROC remplir(\n\nT\n\n,n\n\n)\n\nn= PROC saisie(n)\n\nFin Ex1serie9\n\nDEF PROC remplir (var T \n\n:entier\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépeter\n\n      Lire(T[i])\n\nRépeter\n\nj\n\n ← j+1\n\n         ok ← \n\nmajus\n\n(T[i\n\n][\n\nj]) dans [\"A\"..\"Z\"]\n\n      Jusqu’à (ok=faux\n\n)ou\n\n(j=long(T[i])\n\n   Jusqu’à (ok=vrai)\n\nFin pour\n\nFin remplir\n\n____________________________________________________________________\n\nDEF PROC Tri (T :tab ; \n\nvar\n\nind\n\n :tab ; n :\n\nentier\n\n)\n\nPour i de 1 à n faire\n\nind\n\n[\n\ni\n\n] ← \n\nmajus\n\n(T[\n\ni\n\n][j])\n\nRépeter\n\nok\n\n ← vrai\n\n   Pour i de 1 à n-1 faire\n\n      Si T[i]>\n\nT[\n\ni+1]\n\n         Alors v ← T[i]\n\n               T[i] ← \n\nT[\n\ni+1]\n\nT[\n\ni+1] ← v\n\nok\n\n ← faux\n\nFinsi\n\n   Fin pour\n\nn\n\n ← n-1\n\nJusqu’à (ok=vrai\n\n)ou\n\n(n=1)\n\nFin tri\n\n___________________________________________________________________\n\nDEF PROC redondance (var T \n\n:tab\n\n ; var n :entier)\n\ni ← 0\n\nRépeter\n\n   i ← i+1\n\nj\n\n ← i+1\n\nTantque\n\n (T[i]=T[j]\n\n)et\n\n(j<=n) faire\n\n      Pour k de j à n-1 faire\n\n         T[k] ← \n\nT[\n\nk+1]\n\n      Fin pour\n\n   Fin \n\ntantque\n\nJusqu’à (i=n)\n\nFin redondance",
+  "chunks": [
+    {
+      "chunkId": "DOC-C741EDC2B22DE308-CHK-001",
+      "text": "Nom : Ex1serie9\n\nRésultat =PROC \n\naffiche(\n\nind,n\n\n)\n\nind\n\n,n\n\n= PROC redondance(\n\nind,n\n\n)\n\nind\n\n= PROC tri(\n\nT\n\n,ind,n\n\n)\n\nT= PROC remplir(\n\nT\n\n,n\n\n)\n\nn= PROC saisie(n)\n\nFin Ex1serie9\n\nDEF PROC remplir (var T \n\n:entier\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépeter\n\n      Lire(T[i])\n\nRépeter\n\nj\n\n ← j+1\n\n         ok ← \n\nmajus\n\n(T[i\n\n][\n\nj]) dans [\"A\"..\"Z\"]\n\n      Jusqu’à (ok=faux\n\n)ou\n\n(j=long(T[i])\n\n   Jusqu’à (ok=vrai)\n\nFin pour\n\nFin remplir\n\n____________________________________________________________________\n\nDEF PROC Tri (T :tab ; \n\nvar\n\nind\n\n :tab ; n :\n\nentier\n\n)\n\nPour i de 1 à n faire\n\nind\n\n[\n\ni\n\n] ← \n\nmajus\n\n(T[\n\ni\n\n][j])\n\nRépeter\n\nok\n\n ← vrai\n\n   Pour i de 1 à n-1 faire\n\n      Si T[i]>\n\nT[\n\ni+1]\n\n         Alors v ← T[i]\n\n               T[i] ← \n\nT[\n\ni+1]\n\nT[\n\ni+1] ← v\n\nok\n\n ← faux"
+    },
+    {
+      "chunkId": "DOC-C741EDC2B22DE308-CHK-002",
+      "text": "Finsi\n\n   Fin pour\n\nn\n\n ← n-1\n\nJusqu’à (ok=vrai\n\n)ou\n\n(n=1)\n\nFin tri\n\n___________________________________________________________________\n\nDEF PROC redondance (var T \n\n:tab\n\n ; var n :entier)\n\ni ← 0\n\nRépeter\n\n   i ← i+1\n\nj\n\n ← i+1\n\nTantque\n\n (T[i]=T[j]\n\n)et\n\n(j<=n) faire\n\n      Pour k de j à n-1 faire\n\n         T[k] ← \n\nT[\n\nk+1]\n\n      Fin pour\n\n   Fin \n\ntantque\n\nJusqu’à (i=n)\n\nFin redondance"
+    }
+  ]
+}

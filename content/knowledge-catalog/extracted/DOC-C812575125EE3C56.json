@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-C812575125EE3C56",
+  "filename": "ajoutlivre.html",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/ajoutlivre.html",
+  "sha256": "c812575125ee3c56842e3c006c3a1111b5b05934742cf918d1d80eba6c4429b2",
+  "extractedAt": "2026-11-06T14:24:19.416Z",
+  "pageCount": 1,
+  "textSnippet": "<body> <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"styles.css\"> </head> <body> <form action=\"ajoutlivre.php\" method=\"get\"> <fieldset> <legend>Ajout d'un livre</legend>",
+  "fullText": "\r\n<body>\r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"UTF-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n        <title>Document</title>\r\n        <link rel=\"stylesheet\" href=\"styles.css\">\r\n    </head>\r\n    <body>\r\n            <form action=\"ajoutlivre.php\" method=\"get\">\r\n                <fieldset>\r\n                <legend>Ajout d'un livre</legend>\r\n                <input type=\"text\" name=\"titre\" id=\"titre\" placeholder=\"Titre du livre\"><br>\r\n                <input type=\"text\" name=\"type\" id=\"type\" placeholder=\"Type du livre\"><br>\r\n                <input type=\"number\" name=\"nbr\" id=\"nbr\" placeholder=\"Nombre d'exemplaires\"><br>\r\n                <hr>\r\n                <input type=\"submit\" value=\"Ajouter\">\r\n                <input type=\"reset\" value=\"Annuler\">\r\n            </fieldset>\r\n            </form>\r\n    </body>\r\n    </html>\r\n    \r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-C812575125EE3C56-CHK-001",
+      "text": "<body>\r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"UTF-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n        <title>Document</title>\r\n        <link rel=\"stylesheet\" href=\"styles.css\">\r\n    </head>\r\n    <body>\r\n            <form action=\"ajoutlivre.php\" method=\"get\">\r\n                <fieldset>\r\n                <legend>Ajout d'un livre</legend>\r\n                <input type=\"text\" name=\"titre\" id=\"titre\" placeholder=\"Titre du livre\"><br>\r\n                <input type=\"text\" name=\"type\" id=\"type\" placeholder=\"Type du livre\"><br>\r\n                <input type=\"number\" name=\"nbr\" id=\"nbr\" placeholder=\"Nombre d'exemplaires\"><br>\r\n                <hr>\r\n                <input type=\"submit\" value=\"Ajouter\">\r\n                <input type=\"reset\" value=\"Annuler\">\r\n            </fieldset>\r\n            </form>\r\n    </body>\r\n    </html>"
+    },
+    {
+      "chunkId": "DOC-C812575125EE3C56-CHK-002",
+      "text": "</body>\r\n</html>"
+    }
+  ]
+}

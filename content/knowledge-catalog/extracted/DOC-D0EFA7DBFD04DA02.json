@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D0EFA7DBFD04DA02",
+  "filename": "Maximum.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Maximum.html",
+  "sha256": "d0efa7dbfd04da028f631e34f4ffa136d193d93f9e81d12721aede89c3731a04",
+  "extractedAt": "2026-11-14T18:35:36.487Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title>Maximum</title> <script type=\"text/javascript\"> function maximum(){ var a=Number(document.f.z1.value); var b=Number(document.f.z2.value); if(a>b){ alert(\"Maximum =\"+a); } else if(b>a){ alert(\"Maximum=\"+b); } else{ alert(a+\"=\"+b);; } } </script> </head> <body> <form name=\"f\"> <p> X= <input type=\"text\" name=\"z1\"> </p> <p> Y= <input type=\"text\" name=\"z2\"> </p> <p> <",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Maximum</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction maximum(){\r\n\t\t\tvar a=Number(document.f.z1.value);\r\n\t\t\tvar b=Number(document.f.z2.value);\r\n\t\t\tif(a>b){\r\n\t\t\t\talert(\"Maximum =\"+a);\r\n\t\t\t}\r\n\t\t\telse if(b>a){\r\n\t\t\t\talert(\"Maximum=\"+b);\r\n\t\t\t}\r\n\t\t\telse{\r\n\t\t\t\talert(a+\"=\"+b);;\r\n\t\t\t}\r\n\t\t}\r\n\r\n\t</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p> X= <input type=\"text\" name=\"z1\"> </p>\r\n\t<p> Y= <input type=\"text\" name=\"z2\"> </p>\r\n\t<p> <input type=\"submit\" name=\"b\" onclick=\"maximum()\"></p>\r\n</form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-D0EFA7DBFD04DA02-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Maximum</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction maximum(){\r\n\t\t\tvar a=Number(document.f.z1.value);\r\n\t\t\tvar b=Number(document.f.z2.value);\r\n\t\t\tif(a>b){\r\n\t\t\t\talert(\"Maximum =\"+a);\r\n\t\t\t}\r\n\t\t\telse if(b>a){\r\n\t\t\t\talert(\"Maximum=\"+b);\r\n\t\t\t}\r\n\t\t\telse{\r\n\t\t\t\talert(a+\"=\"+b);;\r\n\t\t\t}\r\n\t\t}\r\n\n\t</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p> X= <input type=\"text\" name=\"z1\"> </p>\r\n\t<p> Y= <input type=\"text\" name=\"z2\"> </p>\r\n\t<p> <input type=\"submit\" name=\"b\" onclick=\"maximum()\"></p>\r\n</form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

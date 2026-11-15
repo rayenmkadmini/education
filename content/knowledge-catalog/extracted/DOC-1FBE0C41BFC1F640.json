@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-1FBE0C41BFC1F640",
+  "filename": "accueil.html",
+  "relPath": "bac info/sti/gym/accueil.html",
+  "sha256": "1fbe0c41bfc1f640aeb51aa469a714ff8cf3791c00ae89025bfe31dd0e8460d0",
+  "extractedAt": "2026-11-06T14:24:17.639Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Document</title> <link rel=\"stylesheet\" href=\"style.css\" /> </head> <body id=\"acceuil\" class=\"centrer gras\"> <article> <details> <summary>Abonnement 6 mois</summary> <img src=\"files/ab_6_mois.jpg\" /> <p>Accés illimité</p>",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>\r\n\r\n  <body id=\"acceuil\" class=\"centrer gras\">\r\n    <article>\r\n      <details>\r\n        <summary>Abonnement 6 mois</summary>\r\n        <img src=\"files/ab_6_mois.jpg\" />\r\n        <p>Accés illimité</p>\r\n        <p>7h-22h</p>\r\n        <p>500DT</p>\r\n        <p>Accés illimité à tous les cours et les éspaces de PLANET GYM</p>\r\n      </details>\r\n    </article>\r\n    <article>\r\n      <details>\r\n        <summary>Abonnement 12 mois</summary>\r\n        <img src=\"files/ab_12_mois.jpg\" />\r\n        <p>Accés illimité</p>\r\n        <p>7h-22h</p>\r\n        <p>900DT</p>\r\n        <p>Accés illimité à tous les cours et les éspaces de PLANET GYM</p>\r\n      </details>\r\n    </article>\r\n  </body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-1FBE0C41BFC1F640-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>"
+    },
+    {
+      "chunkId": "DOC-1FBE0C41BFC1F640-CHK-002",
+      "text": "<body id=\"acceuil\" class=\"centrer gras\">\r\n    <article>\r\n      <details>\r\n        <summary>Abonnement 6 mois</summary>\r\n        <img src=\"files/ab_6_mois.jpg\" />\r\n        <p>Accés illimité</p>\r\n        <p>7h-22h</p>\r\n        <p>500DT</p>\r\n        <p>Accés illimité à tous les cours et les éspaces de PLANET GYM</p>\r\n      </details>\r\n    </article>\r\n    <article>\r\n      <details>\r\n        <summary>Abonnement 12 mois</summary>\r\n        <img src=\"files/ab_12_mois.jpg\" />\r\n        <p>Accés illimité</p>\r\n        <p>7h-22h</p>\r\n        <p>900DT</p>\r\n        <p>Accés illimité à tous les cours et les éspaces de PLANET GYM</p>\r\n      </details>\r\n    </article>\r\n  </body>\r\n</html>"
+    }
+  ]
+}

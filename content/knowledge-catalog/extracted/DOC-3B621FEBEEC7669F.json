@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3B621FEBEEC7669F",
+  "filename": "remplissage distincty.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/remplissage distincty.py",
+  "sha256": "3b621febeec7669fb88bddc9d81a2e5606ae628fd90eee0a014229a981cb5dee",
+  "extractedAt": "2026-11-14T18:35:36.374Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def remplissage_distinct(n): t=array([int()]*n) t[0]= input(\"t[0] : \") for i in range(1,n): valide=False while valide==False: t[i]=input(\"t[\"+str(i)+\"] :\") valide= (existe(t,i,t[i])==False) return t def existe(t,n,v): i=0 existe=False while existe==False and i<n: if t[i]==v: existe = True i=i+1 return existe print(remplissage_distinct(5)) def re",
+  "fullText": "from numpy import array\r\ndef remplissage_distinct(n):\r\n    t=array([int()]*n)\r\n    t[0]= input(\"t[0] : \")\r\n    for i in range(1,n):\r\n        valide=False\r\n        while valide==False:\r\n            t[i]=input(\"t[\"+str(i)+\"] :\")\r\n            valide= (existe(t,i,t[i])==False)\r\n    return t\r\ndef existe(t,n,v):\r\n    i=0\r\n    existe=False\r\n    while existe==False and i<n:\r\n        if t[i]==v:\r\n            existe = True\r\n        i=i+1\r\n    return existe\r\n    \r\nprint(remplissage_distinct(5))\r\n\r\n\r\ndef remplir(n):\r\n    t=[{}]*n\r\n    for i in range(n):\r\n        e={}\r\n        e['gibj']=i\r\n        e[\"dg\"]=i*i\r\n        t[i]=e\r\n    print(t)\r\n    \r\nremplir(5)",
+  "chunks": [
+    {
+      "chunkId": "DOC-3B621FEBEEC7669F-CHK-001",
+      "text": "from numpy import array\r\ndef remplissage_distinct(n):\r\n    t=array([int()]*n)\r\n    t[0]= input(\"t[0] : \")\r\n    for i in range(1,n):\r\n        valide=False\r\n        while valide==False:\r\n            t[i]=input(\"t[\"+str(i)+\"] :\")\r\n            valide= (existe(t,i,t[i])==False)\r\n    return t\r\ndef existe(t,n,v):\r\n    i=0\r\n    existe=False\r\n    while existe==False and i<n:\r\n        if t[i]==v:\r\n            existe = True\r\n        i=i+1\r\n    return existe\r\n\nprint(remplissage_distinct(5))\r\n\ndef remplir(n):\r\n    t=[{}]*n\r\n    for i in range(n):\r\n        e={}\r\n        e['gibj']=i\r\n        e[\"dg\"]=i*i\r\n        t[i]=e\r\n    print(t)\r\n\nremplir(5)"
+    }
+  ]
+}

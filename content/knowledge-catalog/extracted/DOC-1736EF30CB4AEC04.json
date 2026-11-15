@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1736EF30CB4AEC04",
+  "filename": "consultation.php",
+  "relPath": "bac info/sti/projet 3 version élève/consultation.php",
+  "sha256": "1736ef30cb4aec047ce9885d8db9a00190c201b6fb23df93decc075bba1fc83b",
+  "extractedAt": "2026-11-06T14:24:18.646Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"styles.css\"> </head> <body> <h2>listes des eleves inscrit</h2> <?php require \"connexion.php\"; $req=\"SELECT * from eleve\"; $res=mysqli_query($cnx,$req); $somme=mysqli_num_rows($res) ; echo \"il y a",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n<body>\r\n    <h2>listes des eleves inscrit</h2>\r\n    <?php\r\n    require \"connexion.php\";\r\n    $req=\"SELECT * from eleve\";\r\n    $res=mysqli_query($cnx,$req);\r\n    $somme=mysqli_num_rows($res) ;\r\n    echo \"il y a \".$somme.\" eleve inscrit <br>\";\r\n    echo\"\r\n    <table>\r\n    <tr>\r\n    <th>IdEleve</th>\r\n    <th>Nom Prenom</th>\r\n    <th>Date naiss</th>\r\n    <th>Genre</th>\r\n    <th>Adresse</th>\r\n    <th>Num tel</th>\r\n    </tr>\"; \r\n    while($t=mysqli_fetch_array($res)){\r\n        echo\"<tr>\r\n        <td>$t[0]</td>\r\n        <td>$t[1]</td>\r\n        <td>$t[2]</td>\r\n        <td>$t[3]</td>\r\n        <td>$t[4]</td>\r\n        <td>$t[5]</td>\r\n    </tr>\";\r\n    }\r\n    echo\"</table>\";\r\n    ?>\r\n</body>\r\n</html>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1736EF30CB4AEC04-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n<body>\r\n    <h2>listes des eleves inscrit</h2>\r\n    <?php\r\n    require \"connexion.php\";\r\n    $req=\"SELECT * from eleve\";\r\n    $res=mysqli_query($cnx,$req);\r\n    $somme=mysqli_num_rows($res) ;\r\n    echo \"il y a \".$somme.\" eleve inscrit <br>\";\r\n    echo\"\r\n    <table>\r\n    <tr>\r\n    <th>IdEleve</th>\r\n    <th>Nom Prenom</th>\r\n    <th>Date naiss</th>\r\n    <th>Genre</th>\r\n    <th>Adresse</th>\r\n    <th>Num tel</th>\r\n    </tr>\"; \r\n    while($t=mysqli_fetch_array($res)){\r\n        echo\"<tr>\r\n        <td>$t[0]</td>\r\n        <td>$t[1]</td>\r\n        <td>$t[2]</td>\r\n        <td>$t[3]</td>\r\n        <td>$t[4]</td>\r\n        <td>$t[5]</td>\r\n    </tr>\";\r\n    }\r\n    echo\"</table>\";\r\n    ?>\r\n</body>\r\n</html>"
+    }
+  ]
+}

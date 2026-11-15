@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-943CBE6701B3DA03",
+  "filename": "Calcul pi par euler.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Calcul pi par euler.py",
+  "sha256": "943cbe6701b3da03affe71c96b275c7214f136109b126fb5c17f03ead929b121",
+  "extractedAt": "2026-11-14T18:35:36.464Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def pi(): s1=1 s2=1+(1/4) i=3 while abs(sqrt(6*s1)-sqrt(6*s2)) > 0.000001: s1=s2 s2=s2+1/(i*i) i=i+1 return sqrt(6*s2) print(pi())",
+  "fullText": "from math import *\r\ndef pi():\r\n    s1=1\r\n    s2=1+(1/4)\r\n    i=3\r\n    while abs(sqrt(6*s1)-sqrt(6*s2)) > 0.000001:\r\n        s1=s2\r\n        s2=s2+1/(i*i)\r\n        i=i+1\r\n    return sqrt(6*s2)\r\n\r\nprint(pi())",
+  "chunks": [
+    {
+      "chunkId": "DOC-943CBE6701B3DA03-CHK-001",
+      "text": "from math import *\r\ndef pi():\r\n    s1=1\r\n    s2=1+(1/4)\r\n    i=3\r\n    while abs(sqrt(6*s1)-sqrt(6*s2)) > 0.000001:\r\n        s1=s2\r\n        s2=s2+1/(i*i)\r\n        i=i+1\r\n    return sqrt(6*s2)\r\n\nprint(pi())"
+    }
+  ]
+}

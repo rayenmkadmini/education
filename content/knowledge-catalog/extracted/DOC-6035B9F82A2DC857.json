@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-6035B9F82A2DC857",
+  "filename": "calcul point fixe.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/calcul point fixe.py",
+  "sha256": "6035b9f82a2dc857b5e58943364b17de5bbc0df1ed7b487e22404f4b9eab120b",
+  "extractedAt": "2026-11-14T18:35:36.338Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def f(x): return 1-sin(x) def pt_fixe(): i=0 va=1 test = True while test: i=i+1 vp=va va=f(va) if (abs(va-vp)<=eps): test = False print(\"La point fixe est: \",va,\" apres \",i,\" iteration\") eps=float(input(\"Donner eps: \")) pt_fixe()",
+  "fullText": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fixe():\r\n    i=0\r\n    va=1\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        vp=va\r\n        va=f(va)\r\n        if (abs(va-vp)<=eps):\r\n            test = False\r\n    print(\"La point fixe est: \",va,\" apres \",i,\" iteration\")\r\neps=float(input(\"Donner eps: \"))\r\npt_fixe()",
+  "chunks": [
+    {
+      "chunkId": "DOC-6035B9F82A2DC857-CHK-001",
+      "text": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fixe():\r\n    i=0\r\n    va=1\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        vp=va\r\n        va=f(va)\r\n        if (abs(va-vp)<=eps):\r\n            test = False\r\n    print(\"La point fixe est: \",va,\" apres \",i,\" iteration\")\r\neps=float(input(\"Donner eps: \"))\r\npt_fixe()"
+    }
+  ]
+}

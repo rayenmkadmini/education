@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-ACF54B3667D6A2F5",
+  "filename": "trier_les_caracteres_dune_chaine.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/trier_les_caracteres_dune_chaine.py",
+  "sha256": "acf54b3667d6a2f5058955e1cd1239b674647132df54cc637fec2d064b16232e",
+  "extractedAt": "2026-11-06T14:24:40.598Z",
+  "pageCount": 1,
+  "textSnippet": "#trier une chaine suivant l'ordre alphabetique croissant ou selon l'ordre des chiffres CH=input(\"< \") def trier(ch): i = 0 while i < len(ch) -1 : for j in range( len(ch)-1 ) : if ch[j] > ch[j+1] : # < pour l'ordre decroissant ch = ch[:j] + ch[j+1] + ch[j] + ch[j+2:] i += 1 return ch print(trier(CH))",
+  "fullText": "#trier une chaine suivant l'ordre alphabetique croissant ou selon l'ordre des chiffres\r\n\r\nCH=input(\"< \")\r\n\r\ndef trier(ch):\r\n    i = 0\r\n    while i < len(ch) -1 :\r\n        for j in range( len(ch)-1 ) :\r\n            if ch[j] > ch[j+1] : # < pour l'ordre decroissant \r\n                ch = ch[:j] + ch[j+1] + ch[j] + ch[j+2:]    \r\n        i += 1\r\n    return ch\r\n\r\nprint(trier(CH))",
+  "chunks": [
+    {
+      "chunkId": "DOC-ACF54B3667D6A2F5-CHK-001",
+      "text": "#trier une chaine suivant l'ordre alphabetique croissant ou selon l'ordre des chiffres\r\n\nCH=input(\"< \")\r\n\ndef trier(ch):\r\n    i = 0\r\n    while i < len(ch) -1 :\r\n        for j in range( len(ch)-1 ) :\r\n            if ch[j] > ch[j+1] : # < pour l'ordre decroissant \r\n                ch = ch[:j] + ch[j+1] + ch[j] + ch[j+2:]    \r\n        i += 1\r\n    return ch\r\n\nprint(trier(CH))"
+    }
+  ]
+}

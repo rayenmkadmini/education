@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-FF804C6933337376",
+  "filename": "Pratique2016 - 5.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 5.pdf",
+  "sha256": "ff804c6933337376c01bef0a0d51869119274ab2caaa0621ede221894609ac9d",
+  "extractedAt": "2026-11-06T14:24:37.874Z",
+  "pageCount": 2,
+  "textSnippet": "Devoirs et examens sur : www.Kiteb.net -- 1 of 2 -- Devoirs et examens sur : www.Kiteb.net -- 2 of 2 --",
+  "fullText": "Devoirs et examens sur : www.Kiteb.net\n\n-- 1 of 2 --\n\nDevoirs et examens sur : www.Kiteb.net\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Devoirs et examens sur : www.Kiteb.net"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Devoirs et examens sur : www.Kiteb.net"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-FF804C6933337376-CHK-001",
+      "pageNumber": 1,
+      "text": "Devoirs et examens sur : www.Kiteb.net"
+    },
+    {
+      "chunkId": "DOC-FF804C6933337376-CHK-002",
+      "pageNumber": 2,
+      "text": "Devoirs et examens sur : www.Kiteb.net"
+    }
+  ]
+}

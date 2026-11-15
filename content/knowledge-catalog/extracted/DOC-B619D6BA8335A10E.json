@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B619D6BA8335A10E",
+  "filename": "conv b_10.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/conv b_10.py",
+  "sha256": "b619d6ba8335a10eaa3bfa3fb9fe8d06cf0bd820f403131655f170c8082cd4ec",
+  "extractedAt": "2026-11-14T18:35:36.419Z",
+  "pageCount": 1,
+  "textSnippet": "def conv(ch,b): if(ch=\"\"): return 0 elif('0'<=ch[0]<='9'): return int(ch[0])+conv(ch[1:],b)*b else: return ord(ch[0])-55 +conv(ch[1:],b)*b",
+  "fullText": "def conv(ch,b):\r\n    if(ch=\"\"):\r\n        return 0\r\n    elif('0'<=ch[0]<='9'):\r\n        return int(ch[0])+conv(ch[1:],b)*b\r\n    else:\r\n        return ord(ch[0])-55 +conv(ch[1:],b)*b\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-B619D6BA8335A10E-CHK-001",
+      "text": "def conv(ch,b):\r\n    if(ch=\"\"):\r\n        return 0\r\n    elif('0'<=ch[0]<='9'):\r\n        return int(ch[0])+conv(ch[1:],b)*b\r\n    else:\r\n        return ord(ch[0])-55 +conv(ch[1:],b)*b"
+    }
+  ]
+}

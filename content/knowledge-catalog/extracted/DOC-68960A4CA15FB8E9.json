@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-68960A4CA15FB8E9",
+  "filename": "Bac 2013.py",
+  "relPath": "bac info/algo/Python/Bac 2013.py",
+  "sha256": "68960a4ca15fb8e9364c904ee992304db7639b73b879742575e20580bfd88419",
+  "extractedAt": "2026-11-14T18:35:34.505Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir(): n=int(input(\"Donner N:\")) while not(n<=50): n=int(input(\"Donner N:\")) return n def verif(ch): test=True ; i=0 while test==True and i<len(ch): test=\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \" i=i+1 if (ch[0]==\" \") or ch[len(ch)-1]==\" \" or ch.find(\" \")!=-1: test=False return test def remplir(n): F=open(\"Phrase.txt\",\"w\") for i in range(1,n+1): ch=input(\"Donner la phrase\"+str(i)) wh",
+  "fullText": "def saisir():\r\n    n=int(input(\"Donner N:\"))\r\n    while not(n<=50):\r\n        n=int(input(\"Donner N:\"))\r\n    return n\r\n\r\n\r\ndef verif(ch):\r\n    test=True ; i=0\r\n    while test==True and i<len(ch):\r\n        test=\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \"\r\n        i=i+1\r\n    if (ch[0]==\" \") or ch[len(ch)-1]==\" \" or ch.find(\"  \")!=-1:\r\n        test=False\r\n    return test \r\n\r\n\r\ndef remplir(n):\r\n    F=open(\"Phrase.txt\",\"w\")\r\n    for i in range(1,n+1):\r\n        ch=input(\"Donner la phrase\"+str(i))\r\n        while verif(ch)==False:\r\n            ch=input(\"Donner la phrase\"+str(i))\r\n        F.write(ch+\"\\n\")\r\n    F.close()\r\n    return F \r\n\r\n\r\n\r\n\r\ndef crypter(ch):\r\n    ch=ch[0:len(ch)-1] #Pour Supprimer le \\n\r\n    res=\"\"\r\n    ch=ch+\" \"\r\n    r=0\r\n    while ch!=\"\":\r\n        p=ch.find(\" \")\r\n        mot=ch[:p]\r\n        r=r+1\r\n        #.......\r\n        ch1=\"\"\r\n        for i in range (len(mot)):\r\n           c=chr(ord(mot[i].upper())+r)\r\n           if c>\"Z\":\r\n               ch1=ch1+chr(ord(mot[i])+r-26)\r\n           else:\r\n               ch1=ch1+chr(ord(mot[i])+r)\r\n        #.........\r\n        ch=ch[p+1:]\r\n        res=res+ch1+\" \"\r\n    return res   \r\n\r\ndef resultat(F,n):\r\n    F=open(\"Phrase.txt\",\"r\")\r\n    F1=open(\"Ph_crypt.txt\",\"w\")\r\n    for i in range(1,n+1):\r\n        ch=F.readline()\r\n        F1.write(crypter(ch)+\"\\n\")\r\n    F.close()\r\n    F1.close()\r\n    \r\n        \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n#Programme_Principal\r\nn=saisir()\r\nF=remplir(n)\r\nresultat(F,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-68960A4CA15FB8E9-CHK-001",
+      "text": "def saisir():\r\n    n=int(input(\"Donner N:\"))\r\n    while not(n<=50):\r\n        n=int(input(\"Donner N:\"))\r\n    return n\r\n\ndef verif(ch):\r\n    test=True ; i=0\r\n    while test==True and i<len(ch):\r\n        test=\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \"\r\n        i=i+1\r\n    if (ch[0]==\" \") or ch[len(ch)-1]==\" \" or ch.find(\"  \")!=-1:\r\n        test=False\r\n    return test \r\n\ndef remplir(n):\r\n    F=open(\"Phrase.txt\",\"w\")\r\n    for i in range(1,n+1):\r\n        ch=input(\"Donner la phrase\"+str(i))\r\n        while verif(ch)==False:\r\n            ch=input(\"Donner la phrase\"+str(i))\r\n        F.write(ch+\"\\n\")\r\n    F.close()\r\n    return F"
+    },
+    {
+      "chunkId": "DOC-68960A4CA15FB8E9-CHK-002",
+      "text": "def crypter(ch):\r\n    ch=ch[0:len(ch)-1] #Pour Supprimer le \\n\r\n    res=\"\"\r\n    ch=ch+\" \"\r\n    r=0\r\n    while ch!=\"\":\r\n        p=ch.find(\" \")\r\n        mot=ch[:p]\r\n        r=r+1\r\n        #.......\r\n        ch1=\"\"\r\n        for i in range (len(mot)):\r\n           c=chr(ord(mot[i].upper())+r)\r\n           if c>\"Z\":\r\n               ch1=ch1+chr(ord(mot[i])+r-26)\r\n           else:\r\n               ch1=ch1+chr(ord(mot[i])+r)\r\n        #.........\r\n        ch=ch[p+1:]\r\n        res=res+ch1+\" \"\r\n    return res   \r\n\ndef resultat(F,n):\r\n    F=open(\"Phrase.txt\",\"r\")\r\n    F1=open(\"Ph_crypt.txt\",\"w\")\r\n    for i in range(1,n+1):\r\n        ch=F.readline()\r\n        F1.write(crypter(ch)+\"\\n\")\r\n    F.close()\r\n    F1.close()\r\n\n#Programme_Principal\r\nn=saisir()\r\nF=remplir(n)\r\nresultat(F,n)"
+    }
+  ]
+}

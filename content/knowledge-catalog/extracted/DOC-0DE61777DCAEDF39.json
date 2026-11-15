@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-0DE61777DCAEDF39",
+  "filename": "ex6Rob.py",
+  "relPath": "bac info/Python/cours reccurent/ex6 rob/ex6Rob.py",
+  "sha256": "0de61777dcaedf3984aca54d38d0e8f73d3d6ed81bb05f0fb3c980f61824f390",
+  "extractedAt": "2026-11-06T14:23:24.680Z",
+  "pageCount": 1,
+  "textSnippet": "from pickle import dump, load def saisie(msg, vi, vf): n = int(input(msg)) while not vi <= n <= vf: n = int(input(msg)) return n def calcule_robinson(f, n, a): u = str(a) for i in range(1, n + 1): u2 = \"\" for j in range(9, -1, -1): freq = frequence(str(j), u) if freq != 0: u2 = u2 + str(freq) + str(j) u = u2 e = {} e[\"rang\"] = i e[\"term\"] = u dump(",
+  "fullText": "from pickle import dump, load\r\n\r\n\r\ndef saisie(msg, vi, vf):\r\n    n = int(input(msg))\r\n    while not vi <= n <= vf:\r\n        n = int(input(msg))\r\n    return n\r\n\r\n\r\ndef calcule_robinson(f, n, a):\r\n    u = str(a)\r\n    for i in range(1, n + 1):\r\n        u2 = \"\"\r\n        for j in range(9, -1, -1):\r\n            freq = frequence(str(j), u)\r\n            if freq != 0:\r\n                u2 = u2 + str(freq) + str(j)\r\n        u = u2\r\n        e = {}\r\n        e[\"rang\"] = i\r\n        e[\"term\"] = u\r\n        dump(e, f)\r\n    f.close()\r\n\r\n\r\ndef frequence(c, ch):\r\n    nb = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == c:\r\n            nb += 1\r\n    return nb\r\n\r\n\r\ndef affichage(f):\r\n    eof = False\r\n    while not eof:\r\n        try:\r\n            e = load(f)\r\n            print(f\"U { e['rang'] } = {e['term']}\")\r\n        except:\r\n            eof = True\r\n    f.close()\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n#\r\nn = saisie(\"n=\", 3, 999999999)\r\na = saisie(\"a=\", 0, 9)\r\nf = open(\"robinison.dat\", \"wb\")\r\ncalcule_robinson(f, n, a)\r\nf = open(\"robinison.dat\", \"rb\")\r\naffichage(f)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-0DE61777DCAEDF39-CHK-001",
+      "text": "from pickle import dump, load\r\n\ndef saisie(msg, vi, vf):\r\n    n = int(input(msg))\r\n    while not vi <= n <= vf:\r\n        n = int(input(msg))\r\n    return n\r\n\ndef calcule_robinson(f, n, a):\r\n    u = str(a)\r\n    for i in range(1, n + 1):\r\n        u2 = \"\"\r\n        for j in range(9, -1, -1):\r\n            freq = frequence(str(j), u)\r\n            if freq != 0:\r\n                u2 = u2 + str(freq) + str(j)\r\n        u = u2\r\n        e = {}\r\n        e[\"rang\"] = i\r\n        e[\"term\"] = u\r\n        dump(e, f)\r\n    f.close()\r\n\ndef frequence(c, ch):\r\n    nb = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == c:\r\n            nb += 1\r\n    return nb"
+    },
+    {
+      "chunkId": "DOC-0DE61777DCAEDF39-CHK-002",
+      "text": "def affichage(f):\r\n    eof = False\r\n    while not eof:\r\n        try:\r\n            e = load(f)\r\n            print(f\"U { e['rang'] } = {e['term']}\")\r\n        except:\r\n            eof = True\r\n    f.close()\r\n\n#\r\nn = saisie(\"n=\", 3, 999999999)\r\na = saisie(\"a=\", 0, 9)\r\nf = open(\"robinison.dat\", \"wb\")\r\ncalcule_robinson(f, n, a)\r\nf = open(\"robinison.dat\", \"rb\")\r\naffichage(f)"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-210438B1D01DC707",
+  "filename": "config.php",
+  "sha256": "210438b1d01dc707405c5797b30ff7a0519ab3523775b1fb61c6bf8e9ee8a279",
+  "extractedAt": "2026-11-06T14:00:19.364Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $localost = \"127.0.0.1\"; $user = \"root\"; $password = \"\"; $bd = \"bd_dc1_2025_2026\"; $cnx = mysqli_connect($localost, $user, $password, $bd); if (!$cnx) { alert(\"Erreur de connexion à la base de données : \" . mysqli_connect_error()); } else { alert(\" Connexion réussie à la base de données !\"; ); } ?>",
+  "fullText": "<?php\r\n$localost = \"127.0.0.1\";      \r\n$user = \"root\";      \r\n$password = \"\";            \r\n$bd = \"bd_dc1_2025_2026\"; \r\n\r\n$cnx = mysqli_connect($localost, $user, $password, $bd);\r\n\r\nif (!$cnx) {\r\n    alert(\"Erreur de connexion à la base de données : \" . mysqli_connect_error());\r\n}\r\nelse {\r\n    alert(\" Connexion réussie à la base de données !\";\r\n);\r\n}\r\n?>\r\n"
+}

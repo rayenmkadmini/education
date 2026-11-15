@@ -1,0 +1,104 @@
+{
+  "documentId": "DOC-25DA8577FDAEFE3B",
+  "filename": "enregistrement et fichier (Algo).pdf",
+  "relPath": "bac info/fichier/enregistrement et fichier (Algo).pdf",
+  "sha256": "25da8577fdaefe3b7368e71e7f9bd3b967deca060c8953a2d887337ecc3cf5cd",
+  "extractedAt": "2026-11-06T14:23:46.097Z",
+  "pageCount": 10,
+  "textSnippet": "Pensée Computationnelle et Programmation PROF : ISSAOUI LOTFI LYCEE MAHMOUD EL MESSADI -- 1 of 10 -- Activité 1 Un établissement scolaire utilise une application informatique pour gérer les données de ses élèves (exemple des données). Numéro Nom Prénom sexe moyenne 1000 cherni Sihem F 14.25 1001 Barhoumi Mourad M 12.75 … … … … … 1030 Dziri Fahmi M 16.50 Question : proposer une structure de donnée adéquate. -- 2 of 10 -- Réponse Utiliser des tableaux  Un tableau pour les Numéros  Un tableau",
+  "fullText": "Pensée Computationnelle et Programmation\nPROF : ISSAOUI LOTFI\nLYCEE MAHMOUD EL MESSADI\n\n-- 1 of 10 --\n\nActivité 1\nUn établissement scolaire utilise une application informatique\npour gérer les données de ses élèves (exemple des données).\nNuméro Nom Prénom sexe moyenne\n1000 cherni Sihem F 14.25\n1001 Barhoumi Mourad M 12.75\n… … … … …\n1030 Dziri Fahmi M 16.50\nQuestion :\nproposer une structure de donnée adéquate.\n\n-- 2 of 10 --\n\nRéponse\nUtiliser des tableaux\n Un tableau pour les Numéros\n Un tableau pour les noms\n Un tableau pour les prénoms\n Un tableau pour les moyennes\n1000 1001 …. …. 1030\nCherni Barhoumi …. …. Dziri\nCette proposition à plusieurs anomalies :\n- Espace mémoire plus important.\n- Complexité de la mise à jours et risque d’incohérence des\ndonnées.\n\n-- 3 of 10 --\n\nSolution\ngrouper toutes les données concernant un élève dans une seule\nstructure Enregistrement( en python s’appelle dictionnaire).\nNum\n(Entier)\nNom\n(Chaine)\nPrénom\n(Chaine)\nSexe\n(caractère)\nMoy\n(Réel)\nUne seule entité qui s’appelle enregistrement : E\nOn désigne par :\nE.Num : un champ qui représente le Numéro\nE.Nom : un champ qui représente le Nom\nE.Prenom : un champ qui représente le prénom\nE\n\n-- 4 of 10 --\n\nDéfinition et déclaration\nUn enregistrement est un type de données défini par l'utilisateur\net qui permet de grouper un nombre fini d'éléments (ou champs)\nde types éventuellement différents.\nDéfinition\nDéclaration\nType\nNom_type = Enregistrement\nChamp 1 : Type 1\nChamp 2 : Type 2\nChamp n : Type n\nFin\nObjet Type/Nature Rôle\nNom_var Nom_type Enregistrement\nTDNT\nTDO\n\n-- 5 of 10 --\n\nApplication 1\n Déclarez en algorithmique une structure enregistrement\n« Date » qui comporte :\n le numéro du jour (jj),\n le numéro du mois (mm)\n l'année(aa) qui est un entier.\n- Déclarez une variable nommée « D » qui permettra l'utilisation\nde cet enregistrement.\nType\nDate = Enregistrement\njj: entier\nmm : entier\naa : entier\nFin\nObjet Type/Nature\nD Date\nTDNT\nTDO\n\n-- 6 of 10 --\n\nApplication 2\nProposer une structure de données adéquate pour chaque objet :\n Chaque étudiant doit présenter les informations suivantes : CIN\n(entier), Nom et prénom (chaine de longueur max 35 cc), date\nde naissance (sou la forme jj/mois/aaaa), sexe (M/F), Discipline\n(chaine), nom de l’établissement (chaine).\n Chaque voiture à vendre doit possède les informations\nsuivantes : Matricule (chaine), Marque (chaine), Modèle\n(chaine), année de modèle, km parcouru, et prix de vente.\n Chaque médicament dans une pharmacie doit avoir les\ninformations suivantes : Référence, nom commercial, date de\nfabrication, durée de validité, et le prix.\n\n-- 7 of 10 --\n\nUtilisation des enregistrements\nAffectation\nEn algorithmique\nvariable.champ\t\n valeur\nE. Num  2520\nE . Nom  ‘Kamoun’\non peut aussi affecter un enregistrement E2 a un enregistrement\nE1. Si les deux de même type.\nOn écrit donc :\nE1  E2\nChaque champ de E1 va recevoir son homologue de E2.\n\n-- 8 of 10 --\n\nLecture\nAu niveau de l’algorithme\nLire (var.champ)\nRemarquez toujours le point entre la variable et champ.\nAu niveau de l’analyse et l’algorithme\nEcrire (var.champ)\nEcriture\nlire ( E. Num) Ecrire ( E . Nom)\nlire ( E.Prenom) Ecrire ( E. Num)\nlire ( E . Nom) Ecrire ( E.Prenom)\n\n-- 9 of 10 --\n\n5. Vecteur d'enregistrements\n• Un tableau ne peut contenir que des éléments de même type, y\ncompris le type enregistrement. Nous pouvons donc utiliser un\ntableau ou un vecteur d'enregistrements.\nApplication 3\n- Déclarez en algorithmique une structure enregistrement\n« voiture » qui comporte :\n La marque,\n Le Modèle,\n La couleur (R (rouge), N(noir), B (Bleu ) et G (gris))\n La puissance fiscale compris entre 4 et 30.\n- Écrire un algorithme d’un module qui permet de remplir un\ntableau « T » par « N (1000 au max)» voitures\n- Écrire un algorithme d’un module qui permet d’afficher les\nvoitures(toutes informations) ayant une puissance fiscale égale à 9\n\n-- 10 of 10 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Pensée Computationnelle et Programmation\nPROF : ISSAOUI LOTFI\nLYCEE MAHMOUD EL MESSADI"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Activité 1\nUn établissement scolaire utilise une application informatique\npour gérer les données de ses élèves (exemple des données).\nNuméro Nom Prénom sexe moyenne\n1000 cherni Sihem F 14.25\n1001 Barhoumi Mourad M 12.75\n… … … … …\n1030 Dziri Fahmi M 16.50\nQuestion :\nproposer une structure de donnée adéquate."
+    },
+    {
+      "pageNumber": 3,
+      "text": "Réponse\nUtiliser des tableaux\n Un tableau pour les Numéros\n Un tableau pour les noms\n Un tableau pour les prénoms\n Un tableau pour les moyennes\n1000 1001 …. …. 1030\nCherni Barhoumi …. …. Dziri\nCette proposition à plusieurs anomalies :\n- Espace mémoire plus important.\n- Complexité de la mise à jours et risque d’incohérence des\ndonnées."
+    },
+    {
+      "pageNumber": 4,
+      "text": "Solution\ngrouper toutes les données concernant un élève dans une seule\nstructure Enregistrement( en python s’appelle dictionnaire).\nNum\n(Entier)\nNom\n(Chaine)\nPrénom\n(Chaine)\nSexe\n(caractère)\nMoy\n(Réel)\nUne seule entité qui s’appelle enregistrement : E\nOn désigne par :\nE.Num : un champ qui représente le Numéro\nE.Nom : un champ qui représente le Nom\nE.Prenom : un champ qui représente le prénom\nE"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Définition et déclaration\nUn enregistrement est un type de données défini par l'utilisateur\net qui permet de grouper un nombre fini d'éléments (ou champs)\nde types éventuellement différents.\nDéfinition\nDéclaration\nType\nNom_type = Enregistrement\nChamp 1 : Type 1\nChamp 2 : Type 2\nChamp n : Type n\nFin\nObjet Type/Nature Rôle\nNom_var Nom_type Enregistrement\nTDNT\nTDO"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Application 1\n Déclarez en algorithmique une structure enregistrement\n« Date » qui comporte :\n le numéro du jour (jj),\n le numéro du mois (mm)\n l'année(aa) qui est un entier.\n- Déclarez une variable nommée « D » qui permettra l'utilisation\nde cet enregistrement.\nType\nDate = Enregistrement\njj: entier\nmm : entier\naa : entier\nFin\nObjet Type/Nature\nD Date\nTDNT\nTDO"
+    },
+    {
+      "pageNumber": 7,
+      "text": "Application 2\nProposer une structure de données adéquate pour chaque objet :\n Chaque étudiant doit présenter les informations suivantes : CIN\n(entier), Nom et prénom (chaine de longueur max 35 cc), date\nde naissance (sou la forme jj/mois/aaaa), sexe (M/F), Discipline\n(chaine), nom de l’établissement (chaine).\n Chaque voiture à vendre doit possède les informations\nsuivantes : Matricule (chaine), Marque (chaine), Modèle\n(chaine), année de modèle, km parcouru, et prix de vente.\n Chaque médicament dans une pharmacie doit avoir les\ninformations suivantes : Référence, nom commercial, date de\nfabrication, durée de validité, et le prix."
+    },
+    {
+      "pageNumber": 8,
+      "text": "Utilisation des enregistrements\nAffectation\nEn algorithmique\nvariable.champ\t\n valeur\nE. Num  2520\nE . Nom  ‘Kamoun’\non peut aussi affecter un enregistrement E2 a un enregistrement\nE1. Si les deux de même type.\nOn écrit donc :\nE1  E2\nChaque champ de E1 va recevoir son homologue de E2."
+    },
+    {
+      "pageNumber": 9,
+      "text": "Lecture\nAu niveau de l’algorithme\nLire (var.champ)\nRemarquez toujours le point entre la variable et champ.\nAu niveau de l’analyse et l’algorithme\nEcrire (var.champ)\nEcriture\nlire ( E. Num) Ecrire ( E . Nom)\nlire ( E.Prenom) Ecrire ( E. Num)\nlire ( E . Nom) Ecrire ( E.Prenom)"
+    },
+    {
+      "pageNumber": 10,
+      "text": "5. Vecteur d'enregistrements\n• Un tableau ne peut contenir que des éléments de même type, y\ncompris le type enregistrement. Nous pouvons donc utiliser un\ntableau ou un vecteur d'enregistrements.\nApplication 3\n- Déclarez en algorithmique une structure enregistrement\n« voiture » qui comporte :\n La marque,\n Le Modèle,\n La couleur (R (rouge), N(noir), B (Bleu ) et G (gris))\n La puissance fiscale compris entre 4 et 30.\n- Écrire un algorithme d’un module qui permet de remplir un\ntableau « T » par « N (1000 au max)» voitures\n- Écrire un algorithme d’un module qui permet d’afficher les\nvoitures(toutes informations) ayant une puissance fiscale égale à 9"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-001",
+      "pageNumber": 1,
+      "text": "Pensée Computationnelle et Programmation\nPROF : ISSAOUI LOTFI\nLYCEE MAHMOUD EL MESSADI"
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-002",
+      "pageNumber": 2,
+      "text": "Activité 1\nUn établissement scolaire utilise une application informatique\npour gérer les données de ses élèves (exemple des données).\nNuméro Nom Prénom sexe moyenne\n1000 cherni Sihem F 14.25\n1001 Barhoumi Mourad M 12.75\n… … … … …\n1030 Dziri Fahmi M 16.50\nQuestion :\nproposer une structure de donnée adéquate."
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-003",
+      "pageNumber": 3,
+      "text": "Réponse\nUtiliser des tableaux\n Un tableau pour les Numéros\n Un tableau pour les noms\n Un tableau pour les prénoms\n Un tableau pour les moyennes\n1000 1001 …. …. 1030\nCherni Barhoumi …. …. Dziri\nCette proposition à plusieurs anomalies :\n- Espace mémoire plus important.\n- Complexité de la mise à jours et risque d’incohérence des\ndonnées."
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-004",
+      "pageNumber": 4,
+      "text": "Solution\ngrouper toutes les données concernant un élève dans une seule\nstructure Enregistrement( en python s’appelle dictionnaire).\nNum\n(Entier)\nNom\n(Chaine)\nPrénom\n(Chaine)\nSexe\n(caractère)\nMoy\n(Réel)\nUne seule entité qui s’appelle enregistrement : E\nOn désigne par :\nE.Num : un champ qui représente le Numéro\nE.Nom : un champ qui représente le Nom\nE.Prenom : un champ qui représente le prénom\nE"
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-005",
+      "pageNumber": 5,
+      "text": "Définition et déclaration\nUn enregistrement est un type de données défini par l'utilisateur\net qui permet de grouper un nombre fini d'éléments (ou champs)\nde types éventuellement différents.\nDéfinition\nDéclaration\nType\nNom_type = Enregistrement\nChamp 1 : Type 1\nChamp 2 : Type 2\nChamp n : Type n\nFin\nObjet Type/Nature Rôle\nNom_var Nom_type Enregistrement\nTDNT\nTDO"
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-006",
+      "pageNumber": 6,
+      "text": "Application 1\n Déclarez en algorithmique une structure enregistrement\n« Date » qui comporte :\n le numéro du jour (jj),\n le numéro du mois (mm)\n l'année(aa) qui est un entier.\n- Déclarez une variable nommée « D » qui permettra l'utilisation\nde cet enregistrement.\nType\nDate = Enregistrement\njj: entier\nmm : entier\naa : entier\nFin\nObjet Type/Nature\nD Date\nTDNT\nTDO"
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-007",
+      "pageNumber": 7,
+      "text": "Application 2\nProposer une structure de données adéquate pour chaque objet :\n Chaque étudiant doit présenter les informations suivantes : CIN\n(entier), Nom et prénom (chaine de longueur max 35 cc), date\nde naissance (sou la forme jj/mois/aaaa), sexe (M/F), Discipline\n(chaine), nom de l’établissement (chaine).\n Chaque voiture à vendre doit possède les informations\nsuivantes : Matricule (chaine), Marque (chaine), Modèle\n(chaine), année de modèle, km parcouru, et prix de vente.\n Chaque médicament dans une pharmacie doit avoir les\ninformations suivantes : Référence, nom commercial, date de\nfabrication, durée de validité, et le prix."
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-008",
+      "pageNumber": 8,
+      "text": "Utilisation des enregistrements\nAffectation\nEn algorithmique\nvariable.champ\t\n valeur\nE. Num  2520\nE . Nom  ‘Kamoun’\non peut aussi affecter un enregistrement E2 a un enregistrement\nE1. Si les deux de même type.\nOn écrit donc :\nE1  E2\nChaque champ de E1 va recevoir son homologue de E2."
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-009",
+      "pageNumber": 9,
+      "text": "Lecture\nAu niveau de l’algorithme\nLire (var.champ)\nRemarquez toujours le point entre la variable et champ.\nAu niveau de l’analyse et l’algorithme\nEcrire (var.champ)\nEcriture\nlire ( E. Num) Ecrire ( E . Nom)\nlire ( E.Prenom) Ecrire ( E. Num)\nlire ( E . Nom) Ecrire ( E.Prenom)"
+    },
+    {
+      "chunkId": "DOC-25DA8577FDAEFE3B-CHK-010",
+      "pageNumber": 10,
+      "text": "5. Vecteur d'enregistrements\n• Un tableau ne peut contenir que des éléments de même type, y\ncompris le type enregistrement. Nous pouvons donc utiliser un\ntableau ou un vecteur d'enregistrements.\nApplication 3\n- Déclarez en algorithmique une structure enregistrement\n« voiture » qui comporte :\n La marque,\n Le Modèle,\n La couleur (R (rouge), N(noir), B (Bleu ) et G (gris))\n La puissance fiscale compris entre 4 et 30.\n- Écrire un algorithme d’un module qui permet de remplir un\ntableau « T » par « N (1000 au max)» voitures\n- Écrire un algorithme d’un module qui permet d’afficher les\nvoitures(toutes informations) ayant une puissance fiscale égale à 9"
+    }
+  ]
+}

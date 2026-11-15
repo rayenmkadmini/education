@@ -1,0 +1,66 @@
+{
+  "documentId": "DOC-AF31E23C485A95CD",
+  "filename": "STI-20261106T124723Z-1-001.zip",
+  "sha256": "af31e23c485a95cd002ba7a42c048df3dbc9358ce09fd54de795e8637124a191",
+  "extractedAt": "2026-11-06T13:58:06.258Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: STI-20261106T124723Z-1-001.zip Nombre d'éléments: 11",
+  "fullText": "Archive ZIP: STI-20261106T124723Z-1-001.zip\nNombre d'éléments: 11\n\n",
+  "zipEntries": [
+    {
+      "name": "STI/STI - DC3 - Énoncé.pdf",
+      "sizeBytes": 745376,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/STI - DC2 - Énoncé.pdf",
+      "sizeBytes": 1901865,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/TP corriges .pdf",
+      "sizeBytes": 3433182,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/PHP résumé .pdf",
+      "sizeBytes": 3329300,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/javaScript résumé.pdf",
+      "sizeBytes": 2665612,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/STI - DC1 - Énoncé.pdf",
+      "sizeBytes": 710695,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/Base donnée Résumé .pdf",
+      "sizeBytes": 6652102,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/Exercices theoriques .pdf",
+      "sizeBytes": 5878285,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/Examan bacclaureat.pdf",
+      "sizeBytes": 8410471,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/Css résumé .pdf",
+      "sizeBytes": 1592217,
+      "isDirectory": false
+    },
+    {
+      "name": "STI/Résumé HTML.pdf",
+      "sizeBytes": 1676448,
+      "isDirectory": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F0DE308C5CD62EBC",
+  "filename": "inscription.png",
+  "relPath": "Prototype Bac pratique 2025/DCN°6 Ressources/inscription.png",
+  "sha256": "f0de308c5cd62ebcc605cbb674201eea445e329da119ef92a45e05ce5da47ca6",
+  "extractedAt": "2026-11-06T14:22:57.910Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: inscription.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: inscription.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-F0DE308C5CD62EBC-CHK-001",
+      "text": "[Fichier Image Pédagogique: inscription.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

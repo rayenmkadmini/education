@@ -1,0 +1,36 @@
+{
+  "documentId": "DOC-20255C2D0E1FF444",
+  "filename": "Arabe -20261106T124702Z-1-001.zip",
+  "sha256": "20255c2d0e1ff4445c503e2d7a811ec08ac9dbe6b4764814a3ca50cf8130cca9",
+  "extractedAt": "2026-11-06T13:57:50.968Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: Arabe -20261106T124702Z-1-001.zip Nombre d'éléments: 5",
+  "fullText": "Archive ZIP: Arabe -20261106T124702Z-1-001.zip\nNombre d'éléments: 5\n\n",
+  "zipEntries": [
+    {
+      "name": "Arabe /Arabe BS - 7oujaj_.pdf",
+      "sizeBytes": 1153179,
+      "isDirectory": false
+    },
+    {
+      "name": "Arabe /Arabe BS - Chap 2 - Fann_.pdf",
+      "sizeBytes": 1987029,
+      "isDirectory": false
+    },
+    {
+      "name": "Arabe /Arabe BS - Chap 2 - Adab_.pdf",
+      "sizeBytes": 2260540,
+      "isDirectory": false
+    },
+    {
+      "name": "Arabe /Arabe BS 1_.pdf",
+      "sizeBytes": 2248670,
+      "isDirectory": false
+    },
+    {
+      "name": "Arabe /Arabe BS - Chap 2 - Omara_.pdf",
+      "sizeBytes": 1977789,
+      "isDirectory": false
+    }
+  ]
+}

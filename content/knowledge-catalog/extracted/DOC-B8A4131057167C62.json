@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B8A4131057167C62",
+  "filename": "Nombre Parfait 20.01.2022.py",
+  "relPath": "bac info/algo/Python/Nombre Parfait 20.01.2022.py",
+  "sha256": "b8a4131057167c62e5f6811f047ec1ca28b5984339a067d9cea3f6db0fce913c",
+  "extractedAt": "2026-11-14T18:35:36.319Z",
+  "pageCount": 1,
+  "textSnippet": "def parfait(n): s=0 for i in range(1,(n//2)+1): if n%i==0: s=s+i return s==n for i in range(1,100000): if parfait(i): print(i)",
+  "fullText": "def parfait(n):\r\n    s=0\r\n    for i in range(1,(n//2)+1):\r\n        if n%i==0:\r\n            s=s+i\r\n    return s==n\r\n\r\nfor i in range(1,100000):\r\n    if parfait(i):\r\n        print(i)\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-B8A4131057167C62-CHK-001",
+      "text": "def parfait(n):\r\n    s=0\r\n    for i in range(1,(n//2)+1):\r\n        if n%i==0:\r\n            s=s+i\r\n    return s==n\r\n\nfor i in range(1,100000):\r\n    if parfait(i):\r\n        print(i)"
+    }
+  ]
+}

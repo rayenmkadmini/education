@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-81419FAED092B048",
+  "filename": "location.html",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/location.html",
+  "sha256": "81419faed092b048ad46723b5fc1a9beb5657a599be1f6ba992dc4da9c534d97",
+  "extractedAt": "2026-11-06T14:24:10.725Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>location</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> <script src=\"controle.js\"></script> </head> <body> <form action=\"location.php\" method=\"post\" onsubmit=\"return verif2()\"> <fieldset> <legend>location d'un habit</legend> <label for=\"codehab\">code habit :</label> <inp",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>location</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"controle.js\"></script>\r\n</head>\r\n<body>\r\n    <form action=\"location.php\" method=\"post\" onsubmit=\"return verif2()\">\r\n        <fieldset>\r\n            <legend>location d'un habit</legend>\r\n            <label for=\"codehab\">code habit :</label>\r\n            <input type=\"text\" name=\"codehab\" id=\"codehab\"><br>\r\n\r\n            <label for=\"cin\">cin cliet :</label>\r\n            <input type=\"text\" name=\"cin\" id=\"cin\"><br>\r\n\r\n            <label for=\"duree\">durée location :</label>\r\n            <input type=\"text\" name=\"duree\" id=\"duree\"><br>\r\n\r\n            <input type=\"reset\" value=\"annuler\">\r\n            <input type=\"submit\" value=\"louer\">\r\n\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-81419FAED092B048-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>location</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"controle.js\"></script>\r\n</head>\r\n<body>\r\n    <form action=\"location.php\" method=\"post\" onsubmit=\"return verif2()\">\r\n        <fieldset>\r\n            <legend>location d'un habit</legend>\r\n            <label for=\"codehab\">code habit :</label>\r\n            <input type=\"text\" name=\"codehab\" id=\"codehab\"><br>\r\n\n            <label for=\"cin\">cin cliet :</label>\r\n            <input type=\"text\" name=\"cin\" id=\"cin\"><br>\r\n\n            <label for=\"duree\">durée location :</label>\r\n            <input type=\"text\" name=\"duree\" id=\"duree\"><br>"
+    },
+    {
+      "chunkId": "DOC-81419FAED092B048-CHK-002",
+      "text": "<input type=\"reset\" value=\"annuler\">\r\n            <input type=\"submit\" value=\"louer\">\r\n\n        </fieldset>\r\n    </form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

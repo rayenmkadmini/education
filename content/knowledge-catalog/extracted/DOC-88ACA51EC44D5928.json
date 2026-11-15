@@ -1,0 +1,31 @@
+{
+  "documentId": "DOC-88ACA51EC44D5928",
+  "filename": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+  "sha256": "88aca51ec44d592819def24c1360cc8d4b4911c4cd2a9d2611c7682512a090ac",
+  "extractedAt": "2026-11-06T14:00:18.510Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: bac-pratique-23052026-algo-8h30-fichiers.zip Nombre d'éléments: 4 --- FICHIER: AjoutObjet.py --- from PyQt5.uic import loadUi from PyQt5.QtWidgets import * from pickle import load,dump # Le module Valider permet de vérifier si la chaîne ch est un nombre romain valide def Valider(ch): r=\"IVXLCDM\" if ch==\"\": return False else : test=True i=0 while (i<len(ch)) and (r.find(ch[i])!=-1) and test : if ch.find",
+  "fullText": "Archive ZIP: bac-pratique-23052026-algo-8h30-fichiers.zip\nNombre d'éléments: 4\n\n--- FICHIER: AjoutObjet.py ---\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import *\r\nfrom pickle import load,dump\r\n\r\n# Le module Valider permet de vérifier si la chaîne ch est un nombre romain valide           \r\ndef Valider(ch):\r\n    r=\"IVXLCDM\"\r\n    if ch==\"\":\r\n        return False\r\n    else :\r\n        test=True\r\n        i=0\r\n        while (i<len(ch)) and (r.find(ch[i])!=-1) and test :\r\n            if ch.find(ch[i]+ch[i]+ch[i]+ch[i])!=-1:\r\n                test=False\r\n            else:\r\n                i=i+1\r\n        return i==len(ch)\r\n\r\n\r\n\r\n\r\n# Exploitation de l'interface graphique\r\napp = QApplication([])\r\nw = loadUi (\"Nom_Interface.ui\")\r\nw.show()\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\napp.exec_()\n\n--- FICHIER: Manip.py ---\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import *\r\nfrom numpy import array\r\nfrom pickle import load,dump\r\n\r\n\r\n    \r\n# Exploitation de l'interface graphique \r\napp = QApplication([])\r\nw = loadUi (\"Nom_Interface.ui\")\r\nw.show()\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\napp.exec_()\n\n",
+  "zipEntries": [
+    {
+      "name": "AjoutObjet.py",
+      "sizeBytes": 733,
+      "isDirectory": false
+    },
+    {
+      "name": "InterfAjout.ui",
+      "sizeBytes": 4270,
+      "isDirectory": false
+    },
+    {
+      "name": "InterfManipulation.ui",
+      "sizeBytes": 6675,
+      "isDirectory": false
+    },
+    {
+      "name": "Manip.py",
+      "sizeBytes": 332,
+      "isDirectory": false
+    }
+  ]
+}

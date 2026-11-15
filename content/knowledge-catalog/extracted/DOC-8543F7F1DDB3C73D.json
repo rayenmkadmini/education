@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-8543F7F1DDB3C73D",
+  "filename": "énonce-Magazine 5-(etudes des fonctions).pdf",
+  "relPath": "bac info/math taki/etude fonction/énonce-Magazine 5-(etudes des fonctions).pdf",
+  "sha256": "8543f7f1ddb3c73d87fb21c37e53fcb9f3bcd1a005b70755a125a5083d7342ad",
+  "extractedAt": "2026-11-06T14:23:52.944Z",
+  "pageCount": 4,
+  "textSnippet": "Mathématiques Classe : BAC Chapitre : Etudes des fonctions -- 1 of 4 -- 35’ min 5 pt Exercice 1 49’ min 7 pt Exercice 2 1 -- 2 of 4 -- 1) Soit la fonction f définie sur   0,  par 1 ( ) x f x x   . a) Calculer 0 lim ( ) x f x   et lim ( ) x f x  . Interpréter les résultats graphiquement. b) Montrer que f est dérivable sur   0,  et que   0, x    on a : 2 1 '( ) 1 2 f x x x x    . c) Montrer que f réalise une bijection de   0,  sur un intervalle J que l’on préci",
+  "fullText": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions\n\n-- 1 of 4 --\n\n35’ min 5 pt\tExercice 1\n49’ min 7 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\n1) Soit la fonction f définie sur  \t\t0,  par 1\n( ) x\nf x x\n\n .\na) Calculer 0\nlim ( )\nx\nf x\t\t\n\net lim ( )\nx\nf x\n\n. Interpréter les résultats graphiquement.\nb) Montrer que f est dérivable sur  \t\t0,  et que  \t\t0,\tx\t   on a :\n2\n1\n'( ) 1\n2\nf x x\nx x\n\n  .\nc) Montrer que f réalise une bijection de  \t\t0,  sur un intervalle J que l’on précisera.\nd) Expliciter  1\nf x pour tout x J\t .\n2) Soit la fonction g définie sur  \t\t0,  par ( ) ( )\tg x f x x\t  .\na) Dresser le tableau de variation de g .\nb) Montrer que l’équation ( )\tf x x\t admet une unique solution\n dans  \t\t0,  et que 1 2\t\n\t  .\n3) Soit la suite  \tn\tU définie sur ℕ par 0 1\tU  et  \t1\tn n\tU f U\t  .\na) Montrer que  \t\t1,\tx\t   on a : 1\n'( ) 2\nf x  .\nb) Montrer que ∀݊ ∈ ℕ on a : 1\tn\tU  .\n4)\na) Montrer que ∀݊ ∈ ℕ, on a : 1\tn\tU  .\nb) Montrer que ∀݊ ∈ ℕ, on a : 1\n1\n2\nn n\tU U\t\n\n\t\t    .\nc) En déduire lim n\t\nx\nU\n\n42’ min 6 pt\tExercice 3\n2\n\n-- 3 of 4 --\n\n\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "pageNumber": 2,
+      "text": "35’ min 5 pt\tExercice 1\n49’ min 7 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "1) Soit la fonction f définie sur  \t\t0,  par 1\n( ) x\nf x x\n\n .\na) Calculer 0\nlim ( )\nx\nf x\t\t\n\net lim ( )\nx\nf x\n\n. Interpréter les résultats graphiquement.\nb) Montrer que f est dérivable sur  \t\t0,  et que  \t\t0,\tx\t   on a :\n2\n1\n'( ) 1\n2\nf x x\nx x\n\n  .\nc) Montrer que f réalise une bijection de  \t\t0,  sur un intervalle J que l’on précisera.\nd) Expliciter  1\nf x pour tout x J\t .\n2) Soit la fonction g définie sur  \t\t0,  par ( ) ( )\tg x f x x\t  .\na) Dresser le tableau de variation de g .\nb) Montrer que l’équation ( )\tf x x\t admet une unique solution\n dans  \t\t0,  et que 1 2\t\n\t  .\n3) Soit la suite  \tn\tU définie sur ℕ par 0 1\tU  et  \t1\tn n\tU f U\t  .\na) Montrer que  \t\t1,\tx\t   on a : 1\n'( ) 2\nf x  .\nb) Montrer que ∀݊ ∈ ℕ on a : 1\tn\tU  .\n4)\na) Montrer que ∀݊ ∈ ℕ, on a : 1\tn\tU  .\nb) Montrer que ∀݊ ∈ ℕ, on a : 1\n1\n2\nn n\tU U\t\n\n\t\t    .\nc) En déduire lim n\t\nx\nU\n\n42’ min 6 pt\tExercice 3\n2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-8543F7F1DDB3C73D-CHK-001",
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "chunkId": "DOC-8543F7F1DDB3C73D-CHK-002",
+      "pageNumber": 2,
+      "text": "35’ min 5 pt\tExercice 1\n49’ min 7 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-8543F7F1DDB3C73D-CHK-003",
+      "pageNumber": 3,
+      "text": "1) Soit la fonction f définie sur  \t\t0,  par 1\n( ) x\nf x x\n\n .\na) Calculer 0\nlim ( )\nx\nf x\t\t\n\net lim ( )\nx\nf x\n\n. Interpréter les résultats graphiquement.\nb) Montrer que f est dérivable sur  \t\t0,  et que  \t\t0,\tx\t   on a :\n2\n1\n'( ) 1\n2\nf x x\nx x\n\n  .\nc) Montrer que f réalise une bijection de  \t\t0,  sur un intervalle J que l’on précisera.\nd) Expliciter  1\nf x pour tout x J\t .\n2) Soit la fonction g définie sur  \t\t0,  par ( ) ( )\tg x f x x\t  .\na) Dresser le tableau de variation de g .\nb) Montrer que l’équation ( )\tf x x\t admet une unique solution\n dans  \t\t0,  et que 1 2\t\n\t  .\n3) Soit la suite  \tn\tU définie sur ℕ par 0 1\tU  et  \t1\tn n\tU f U\t  .\na) Montrer que  \t\t1,\tx\t   on a : 1\n'( ) 2\nf x  .\nb) Montrer que ∀݊ ∈ ℕ on a : 1\tn\tU  .\n4)\na) Montrer que ∀݊ ∈ ℕ, on a : 1\tn\tU  .\nb) Montrer que ∀݊ ∈ ℕ, on a : 1\n1\n2\nn n\tU U\t\n\n\t\t    .\nc) En déduire lim n\t\nx\nU\n\n42’ min 6 pt\tExercice 3\n2"
+    }
+  ]
+}

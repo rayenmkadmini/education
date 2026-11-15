@@ -1,0 +1,726 @@
+{
+  "documentId": "DOC-CEB22527036C8331",
+  "filename": "drive-download-20261106T123655Z-1-001.zip",
+  "sha256": "ceb22527036c833156fd7296ab43c8ccc6a46fb28acb02dadc75fd76657d0032",
+  "extractedAt": "2026-11-06T14:00:24.828Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: drive-download-20261106T123655Z-1-001.zip Nombre d'éléments: 143 --- FICHIER: mot-de-passe.html --- <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Document</title> <script src=\"cont.js\"></script> <link rel=\"stylesheet\" href=\"style.css\" /> </head> <body> <h1>Générateur de mot de passe<",
+  "fullText": "Archive ZIP: drive-download-20261106T123655Z-1-001.zip\nNombre d'éléments: 143\n\n--- FICHIER: mot-de-passe.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Document</title>\r\n    <script src=\"cont.js\"></script>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>\r\n\r\n  <body>\r\n    <h1>Générateur de mot de passe</h1>\r\n    <hr />\r\n    <br />\r\n    <br />\r\n    <form action=\"\" onsubmit=\"return false;\">\r\n      Votre nom <span>*</span> <input type=\"text\" name=\"\" id=\"nom\" />\r\n      <br /><br />\r\n      Votre prénom <span>*</span> <input type=\"text\" name=\"\" id=\"prenom\" />\r\n      <br /><br />\r\n\r\n      <input type=\"submit\" value=\"générer\" onclick=\"generer()\" /> <br /><br />\r\n\r\n      Votre mot de passe est\r\n      <input disabled type=\"text\" name=\"\" id=\"mot-de-passe\" /> <br /><br />\r\n    </form>\r\n    <span>* Obligatoire</span>\r\n  </body>\r\n</html>\r\n\n\n--- FICHIER: imc.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>IMC</title>\r\n    <script src=\"calc.js\"></script>\r\n    <link rel=\"stylesheet\" href=\"calc.css\">\r\n</head>\r\n<body>\r\n   <fieldset><legend> Indice Masse Corporelle IMC</legend>\r\nNom: <input type=\"text\" id=\"nom\"><br>\r\nPrénom: <input type=\"text\" id=\"prénom\"><br>\r\nTaille(m): <input type=\"text\" id=\"taille\" ><br>\r\nPoids(kg): <input type=\"text\"id=\"poids\" ><br>\r\n<input type=\"submit\" value=\"Calculer\" onclick=\"imc()\" id=\"btn\">\r\n<div id=\"res\"></div>\r\n</fieldset> \r\n</body>\r\n</html>\n\n--- FICHIER: act6.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    <h1>Ma Page Web </h1>\r\n <p> Mon premier code js</p>\r\n <p id=\"pg\"></p>\r\n<p> Que fait ce code ? </p>\r\n<script>      \r\n      document.write=5+6;\r\n</script> \r\n\r\n</body>\r\n</html>\n\n--- FICHIER: Statistiques.html ---\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <title>Statistiques</title>\r\n</head>\r\n<body>\r\n\r\n<form action=\"Statistiques.php\" method=\"post\">\r\n    <fieldset>\r\n        <legend>Statistiques</legend>\r\n\r\n        <label>Thème du sondage</label>\r\n        <select name=\"theme\">\r\n            <option value=\"\">Choisir un thème</option>\r\n            <option value=\"Les réseaux sociaux\">Les réseaux sociaux</option>\r\n            <option value=\"Les jeux vidéo\">Les jeux vidéo</option>\r\n        </select>\r\n\r\n        <br><br>\r\n        <input type=\"submit\" value=\"Editer\">\r\n    </fieldset>\r\n</form>\r\n\r\n</body>\r\n</html>\n\n--- FICHIER: style(2).css ---\nbody{\r\n    font-family: arial;\r\n}\r\n.forme-carre{\r\n    height: 100px;\r\n    width: 100px;\r\n    background-color: #03C4EB;\r\n    box-sizing: border-box;\r\n}\r\n.transition-1{\r\n    transition-property: backgroud-color;\r\n    transition-duration: 2s;\r\n    }\r\n.transition-1:hover{\r\nbackground-color: #FFDD40;\r\n}\r\n.transition-2{\r\n    transition-property: border;\r\n    transition-duration: 2s;\r\n    transition-delay: 0.5s;\r\n    transition-timing-function: linear;\r\n    }\r\n.transition-2:hover{\r\n    border: 10px solid #FFDD40;\r\n    }\r\n.transition-3{\r\n    transition-property: all;\r\n    transition-duration: 2s;\r\n        }\r\n.transition-3:hover{\r\n    border-radius:50%;\r\n    background-color: #FFDD40;\r\n    }\r\n.btn{\r\n        background-color: #03C4EB;\r\n        border: 1px solid #025f72;\r\n        border-radius: 4px;\r\n        color:#025f72;\r\n        transition-property: all;\r\n        transition-duration: 0.5s;\r\n    }\r\n.btn:hover{\r\n        background-color:#FFDD40;\r\n        border-color: #025f72 ;\r\n        color:#897722; \r\n    }\r\n.btn:active{\r\n        background-color: #ef2fb2;\r\n        border-color: aquamarine;\r\n        color:#751a58;\r\n    }\r\n   \n\n--- FICHIER: animation.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Animations</title>\r\n    <link rel=\"stylesheet\" href=\"stylea.css\" />\r\n  </head>\r\n  <body>\r\n    <h1>Rainbow</h1>\r\n    <div class=\"animation1\"></div>\r\n    <h1>Animation titre</h1>\r\n    <p class=\"animation2\">\r\n        Ca s'en va et ça revient...\r\n        </p>\r\n<h1>Opacité </h1>   \r\n<div id=\"d1\"></div>\r\n<h1>Changer de forme </h1>   \r\n<div id=\"d2\"></div>  \r\n<h1>Changer de taille et de couleur </h1>   \r\n<div id=\"d3\"></div>  \r\n<h1> Texte qui clignote</h1> \r\n<div id=\"d4\">\r\n    <p> à force de forger on devient forgeron\r\n    </p>\r\n    </div>\r\n    \r\n  </body>\r\n</html>\r\n\n\n--- FICHIER: Prototype Bac pratique 2025/DCN°6_ Ressources/bdgestionjeux.sql ---\n-- phpMyAdmin SQL Dump\n-- version 4.1.14\n-- http://www.phpmyadmin.net\n--\n-- Client :  127.0.0.1\n-- Généré le :  Dim 27 Avril 2025 à 18:44\n-- Version du serveur :  5.6.17\n-- Version de PHP :  5.5.12\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8 */;\n\n--\n-- Base de données :  `bdgestionjeux`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `categorie`\n--\n\nCREATE TABLE IF NOT EXISTS `categorie` (\n  `idCategorie` int(11) NOT NULL AUTO_INCREMENT,\n  `nomCategorie` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  PRIMARY KEY (`idCategorie`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;\n\n--\n-- Contenu de la table `categorie`\n--\n\nINSERT INTO `categorie` (`idCategorie`, `nomCategorie`) VALUES\n(1, 'Monde ouvert'),\n(2, 'Jeu compétitif'),\n(3, 'Jeu compératif');\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `jeux`\n--\n\nCREATE TABLE IF NOT EXISTS `jeux` (\n  `refJeu` int(11) NOT NULL AUTO_INCREMENT,\n  `titreJeu` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `genreJeu` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  `dateSortie` date DEFAULT NULL,\n  `editeurJeu` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `imgJeu` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `prixJeu` decimal(10,2) DEFAULT NULL,\n  `plateformeJ` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `idCategorie` int(11) DEFAULT NULL,\n  PRIMARY KEY (`refJeu`),\n  KEY `idCategorie` (`idCategorie`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;\n\n--\n-- Contenu de la table `jeux`\n--\n\nINSERT INTO `jeux` (`refJeu`, `titreJeu`, `genreJeu`, `dateSortie`, `editeurJeu`, `imgJeu`, `prixJeu`, `plateformeJ`, `idCategorie`) VALUES\n(1, 'Game of War', 'Action', '2022-11-01', 'War Studios', 'game_of_war_img.png', '59.99', 'PlayStation', 1),\n(2, 'Mystery Island', 'Aventure', '2021-07-15', 'Island Studios', 'mystery_island_img.png', '49.99', 'Xbox', 2),\n(3, 'Soccer Champions', 'Sport', '2020-05-10', 'SportsPro', 'soccer_champions_img.png', '39.99', 'PlayStation', 3);\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `joueur`\n--\n\nCREATE TABLE IF NOT EXISTS `joueur` (\n  `idJ` int(11) NOT NULL AUTO_INCREMENT,\n  `nomJ` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `prenomJ` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `telJ` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `pseudoJ` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  `mailJ` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `pwdJ` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `sexeJ` char(1) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `datenaissJ` date NOT NULL,\n  `niveauJ` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  `typeConsolePrefereeJ` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  PRIMARY KEY (`idJ`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;\n\n--\n-- Contenu de la table `joueur`\n--\n\nINSERT INTO `joueur` (`idJ`, `nomJ`, `prenomJ`, `telJ`, `pseudoJ`, `mailJ`, `pwdJ`, `sexeJ`, `datenaissJ`, `niveauJ`, `typeConsolePrefereeJ`) VALUES\n(1, 'Youssefi', 'Nour', '0123456789', 'nour_youssefi', 'nour.youssefi@example.com', 'password123', 'F', '2000-03-15', 'Débutant', 'PlayStation'),\n(2, 'Abdallah', 'Yasmine', '0987654321', 'yasmine_abdallah', 'yasmine.abdallah@example.com', 'password456', 'F', '1998-08-22', 'Intermédiaire', 'Xbox');\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `partie`\n--\n\nCREATE TABLE IF NOT EXISTS `partie` (\n  `idPartie` int(11) NOT NULL AUTO_INCREMENT,\n  `datePartie` date NOT NULL,\n  `dureeMinutes` int(6) DEFAULT NULL,\n  `niveau` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `scoreObtenu` int(6) DEFAULT NULL,\n  `refJeu` int(11) DEFAULT NULL,\n  `idJoueur` int(11) DEFAULT NULL,\n  PRIMARY KEY (`idPartie`),\n  KEY `refJeu` (`refJeu`),\n  KEY `idJoueur` (`idJoueur`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;\n\n--\n-- Contenu de la table `partie`\n--\n\nINSERT INTO `partie` (`idPartie`, `datePartie`, `dureeMinutes`, `niveau`, `scoreObtenu`, `refJeu`, `idJoueur`) VALUES\n(1, '2023-12-01', 90, 'Débutant', 1500, 1, 1),\n(2, '2024-01-10', 120, 'Intermédiaire', 1800, 2, 2),\n(3, '2024-03-20', 60, 'Débutant', 1000, 3, 1);\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: stylea.css ---\n.animation1 {\r\n     width: 100px; \r\n     height: 100px;\r\n    background-color: black;\r\n     position: relative;\r\n    animation: rainbow 5s linear infinite alternate;\r\n    }\r\n    @keyframes rainbow {\r\n    0%\t{background-color:purple; left:0px; top:0px;}\r\n    25% {background-color:blue; left:200px; top:0px;}\r\n    50% {background-color:green; left:200px; top:200px;}\r\n    75% {background-color:yellow; left:0px; top:200px;}\r\n    100% {background-color:red; left:0px; top:0px;}\r\n }\r\n.animation2 {\r\n        animation: defile 3s infinite alternate;\r\n         font-size: 20px;\r\n        color: #e4087e; font-weight: bold;\r\n        }\r\n        @keyframes defile { \r\n            from {\r\n        margin-left: 100%;\r\n        width: 300%;\r\n        }\r\n        to {\r\n        margin-left: 0%;\r\n        width: 100%;\r\n        }\r\n  }\r\n  #d1 {\r\n    margin-left: 50px;\r\n    width: 200px;\r\n    height: 200px;\r\n    background-color: coral;\r\n    Animation-name : fade ;\r\n    Animation-delay : 2s;\r\n    Animation-duration : 3s;\r\n    Animation-iteration-count : infinite;\r\n    }\r\n    @keyframes fade {\r\n    From {\r\n    Opacity : 1;\r\n    }\r\n    To {\r\n    Opacity : 0;\r\n    }\r\n    }\r\n#d2 {\r\n    margin-left: 50px; width: 200px; height: 200px;\r\n    background-color: coral;\r\n    animation: square-to-circle 2s infinite alternate;\r\n    }\r\n    @keyframes square-to-circle { 0% {\r\n    border-radius:0 0 0 0; background:coral;\r\n    }\r\n    25% {\r\n    border-radius:10% 10% 10% 10%; background:darksalmon;\r\n    }\r\n    50% {\r\n    border-radius:25% 25% 25% 25%;\r\n    background:indianred;\r\n}\r\n75% {\r\nborder-radius:40% 40% 40% 40%;\r\nbackground:lightcoral;\r\n}\r\n100% {\r\nborder-radius:50%;\r\nbackground:darksalmon;\r\n}\r\n}\r\n#d3{\r\n    width: 90%; height: 200px;\r\n    margin: 0 auto 20px auto;\r\n     border: 2px solid black;\r\n    background-color: orange; \r\n    animation-name: couleur;\r\n    animation-duration: 10s;\r\n    animation-iteration-count: infinite;\r\n    }\r\n    @keyframes couleur{ from{\r\n    background-color: orange;\r\n    } 25%{\r\n    background-color: blue; width: 75%\r\n    } 50%{\r\n    background-color: purple; width: 50%\r\n    } 75%{\r\n    background-color: red; width: 75%;\r\n    }\r\n    to{\r\n    background-color: orange;\r\n    }\r\n    }\r\n#d4{\r\n    background-color: #336699;\r\n     height: 50px;\r\n    width: 300px;\r\n     text-align: center;\r\n    }\r\n    p{\r\n    font-family: \"Comic Sans MS\", cursive, sans-serif;\r\n     font-size: 15px;\r\n    padding-top: 15px;\r\n    animation: shine 5s infinite linear;\r\n    }\r\n    @keyframes shine{\r\n     0%{\r\n    color: black;\r\n    } 100%{\r\n    color: white;\r\n    }\r\n    }\r\n      \r\n    \r\n    \r\n            \n\n--- FICHIER: tp1php.php ---\n<?php\r\necho \"Bonjour \";\r\necho \"<br>\";\r\n?>\r\n<br>\r\n<?php\r\n$nom=\"TEZEGHDENTI\";\r\n$prenom='Ali';\r\necho $prenom.\" \".$nom;\r\n?>\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n  <table border=\"1\">\r\n    <tr>\r\n        <td><?php echo $prenom; ?></td>\r\n        <td>TEZEGHDENTI</td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n    <tr>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n    <tr>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n  </table>  \r\n</body>\r\n</html>\r\n<?php\r\necho \"test\";\r\n?>\n\n--- FICHIER: tri_shell.py ---\ndef saisie():\r\n    global n\r\n    test=False\r\n    while test==False:\r\n        n=int(input('Enter la taille du tableau 3-20:'))\r\n        test=3<=n<=20\r\n\r\ndef remplir(n):\r\n    global t\r\n    t=[0]*n\r\n    for i in range(n):\r\n        t[i]=int(input())\r\n\r\n\r\ndef tri_shell(t,n):\r\n    pas=0\r\n    while pas<=n:\r\n        pas=3*pas+1\r\n    while pas!=0:\r\n        pas=pas//3\r\n        for i in range (pas,n):\r\n            aux=t[i]\r\n            p=i-pas\r\n            while p>=0 and t[p]>aux:\r\n                t[p+pas]=t[p]\r\n                p=p-pas\r\n            t[p+pas]=aux\r\n            \r\ndef afficher(t,n):\r\n    print('*********** Après Le Tri *********')\r\n    for i in range(n):\r\n        print(t[i],end=' | ')\r\n############ Programme Principale ##########\r\nprint('------------ Tri Shell -----------')         \r\nsaisie()\r\nremplir(n)\r\ntri_shell(t,n)\r\nafficher(t,n)\r\n\n\n--- FICHIER: login.php ---\n<?php\n$conn = mysqli_connect(\"127.0.0.1\",\"root\",\"\",\"bd_2025_2026\");\n\n$login = $_POST['login'];\n$password = $_POST['password'];\n\n$res = mysqli_query($conn,\"SELECT * FROM users WHERE login='$login'\");\n\nif(mysqli_num_rows($res)==0){\n    echo \"Utilisateur inexistant\";\n} else {\n    $user = mysqli_fetch_assoc($res);\n    echo ($user['password']==$password) ? \"Bonjour \".$user['nom'].\" \".$user['Prenom'] : \"Mot de passe incorrect\";\n}\n\nmysqli_close($conn);\n?>\n\n\n--- FICHIER: Bac 2024/Mot de pass.txt ---\nchaque module lazmou TDOL elli homa mouch fel parenthese\n\n--- FICHIER: Statistiques.php ---\n<?php\r\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"BD123456\");\r\n\r\n$theme = $_POST[\"theme\"];\r\n\r\n$r1 = mysqli_query($conn, \"SELECT * FROM Sondage WHERE Theme='$theme'\");\r\n$s = mysqli_fetch_array($r1);\r\n\r\n$numS = $s[\"NumS\"];\r\n$dateDebut = $s[\"DateDebut\"];\r\n\r\nif ($dateDebut > date(\"Y-m-d\")) {\r\n    echo \"Sondage non encore lancé !\";\r\n} else {\r\n    $r2 = mysqli_query($conn, \"SELECT COUNT(DISTINCT IdParticipant) AS Total FROM Reponse WHERE NumS=$numS\");\r\n    $t = mysqli_fetch_array($r2);\r\n    $total = $t[\"Total\"];\r\n\r\n    if ($total == 0) {\r\n        echo \"Aucune participation enregistrée à ce moment\";\r\n    } else {\r\n        $rF = mysqli_query($conn, \"SELECT COUNT(DISTINCT R.IdParticipant) AS TotalF\r\n                                   FROM Reponse R, Participant P\r\n                                   WHERE R.IdParticipant=P.IdParticipant\r\n                                   AND R.NumS=$numS AND P.Genre='F'\");\r\n        $f = mysqli_fetch_array($rF);\r\n        $totalF = $f[\"TotalF\"];\r\n\r\n        $rM = mysqli_query($conn, \"SELECT COUNT(DISTINCT R.IdParticipant) AS TotalM\r\n                                   FROM Reponse R, Participant P\r\n                                   WHERE R.IdParticipant=P.IdParticipant\r\n                                   AND R.NumS=$numS AND P.Genre='M'\");\r\n        $m = mysqli_fetch_array($rM);\r\n        $totalM = $m[\"TotalM\"];\r\n\r\n        echo \"<h2>Statistiques du sondage</h2>\";\r\n        echo \"Nombre total des participants au sondage : \".$total.\"<br>\";\r\n        echo \"Nombre des femmes : \".$totalF.\"<br>\";\r\n        echo \"Nombre des hommes : \".$totalM.\"<br><br>\";\r\n\r\n        echo \"<table border='1'>\";\r\n        echo \"<tr>\";\r\n        echo \"<th>N°</th><th>Question</th><th>Oui</th><th>Non</th><th>Sans avis</th>\";\r\n        echo \"</tr>\";\r\n\r\n        $rq = mysqli_query($conn, \"SELECT * FROM Question WHERE NumS=$numS\");\r\n\r\n        while ($q = mysqli_fetch_array($rq)) {\r\n            $numQ = $q[\"NumQ\"];\r\n            $contenu = $q[\"Contenu\"];\r\n\r\n            $rO = mysqli_query($conn, \"SELECT COUNT(*) AS nb FROM Reponse WHERE NumS=$numS AND NumQ=$numQ AND Rep='O'\");\r\n            $o = mysqli_fetch_array($rO);\r\n            $nbO = $o[\"nb\"];\r\n\r\n            $rN = mysqli_query($conn, \"SELECT COUNT(*) AS nb FROM Reponse WHERE NumS=$numS AND NumQ=$numQ AND Rep='N'\");\r\n            $n = mysqli_fetch_array($rN);\r\n            $nbN = $n[\"nb\"];\r\n\r\n            $rS = mysqli_query($conn, \"SELECT COUNT(*) AS nb FROM Reponse WHERE NumS=$numS AND NumQ=$numQ AND Rep='S'\");\r\n            $sa = mysqli_fetch_array($rS);\r\n            $nbS = $sa[\"nb\"];\r\n\r\n            $pO = round(($nbO * 100) / $total, 2);\r\n            $pN = round(($nbN * 100) / $total, 2);\r\n            $pS = round(($nbS * 100) / $total, 2);\r\n\r\n            echo \"<tr>\";\r\n            echo \"<td>\".$numQ.\"</td>\";\r\n            echo \"<td>\".$contenu.\"</td>\";\r\n            echo \"<td>\".$pO.\"%</td>\";\r\n            echo \"<td>\".$pN.\"%</td>\";\r\n            echo \"<td>\".$pS.\"%</td>\";\r\n            echo \"</tr>\";\r\n        }\r\n\r\n        echo \"</table>\";\r\n    }\r\n}\r\n\r\nmysqli_close($conn);\r\n?>\n\n--- FICHIER: boucles.php ---\n<?php\n\necho \"boucles for \";\n?>\n<br>\n<?php\nfor ($i = 1; $i <= 10; $i++) {\n    echo $i . \" \";\n}\n?>\n<p>------------------------------------------</p><br>\n\n<?php\necho \"Nombres pairs de 1 à 20\";\n?>\n<br>\n<?php\n$i = 1;\nwhile ($i <= 20) {\n    if ($i % 2 == 0) {\n        echo $i . \" \";\n    }\n    $i++;\n}\n?>\n<p>-------------------------------------------</p>\n<br>\n<?php\n\necho \"Affichage des prénoms \";\n?>\n<br>\n<?php\n$prenoms = array(\"rayen\", \"ali\", \"hama\", \"aziz\", \"oussama\");\nforeach ($prenoms as $prenom) {\n    echo $prenom . \" \";\n}\n?>\n\n--- FICHIER: login(2).html ---\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Login</title>\n</head>\n<body>\n    <h2>Connexion</h2>\n    <form action=\"login.php\" method=\"POST\">\n        <label for=\"login\">Login :</label>\n        <input type=\"text\" id=\"login\" name=\"login\" required><br><br>\n\n        <label for=\"password\">Mot de passe :</label>\n        <input type=\"password\" id=\"password\" name=\"password\" required><br><br>\n\n        <button type=\"submit\">Se connecter</button>\n    </form>\n</body>\n</html>\n\n\n--- FICHIER: inscription(1).php ---\n<?php\n$login = $_POST[\"login\"];\n$password = $_POST[\"password\"];\n$nom = $_POST[\"nom\"];\n$prenom = $_POST[\"prenom\"];\n\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\");\n\n$sql = \"insert into users values('$login','$password','$nom','$prenom');\";\n\nif (mysqli_query($cnx, $sql)) {\n    echo \"inscription valid\";\n} else {\n    echo \"utilisateur existant\";\n}\n\nmysqli_close($cnx);\n?>\n\n\n--- FICHIER: tri fusion.py ---\nimport numpy as np\r\n\r\ndef saisie_taille():\r\n    arret=False\r\n    while not arret:\r\n        try:\r\n            n=int(input(\"Entrer la taille de T(5-10):\"))\r\n            arret=5<=n<=10\r\n        except:\r\n            arret=False\r\n            \r\n    return n\r\ndef remplir(t,n):\r\n    ## remplissage manuel\r\n    for i in range(n):\r\n        arret=False\r\n        while arret==False:\r\n            try:\r\n                t[i]=int(input(\"Entrer T[\"+str(i)+\"]=\"))\r\n                arret=True\r\n            except:\r\n                arret=False\r\n                \r\ndef tri_fusion(t,d,f):\r\n    if d<f:\r\n        milieu=(d+f)//2\r\n        tri_fusion(t,d,milieu)\r\n        tri_fusion(t,milieu+1,f)\r\n        fusion(t,d,milieu,t,milieu+1,f,t)\r\ndef fusion(t1,d1,f1,t2,d2,f2,t):\r\n    # copie de T dans un tableau temporaire\r\n    tmp=np.array([int]*n)\r\n    for i in range(n):\r\n        tmp[i]=t[i]\r\n    # initilialisations\r\n    k=d1;i=d1;j=d2\r\n    # aucun des tableau n'est terminé\r\n    while i<=f1 and j<=f2:\r\n        if t1[i]<=t2[j]:\r\n            tmp[k]=t1[i]\r\n            i=i+1\r\n        else:\r\n            tmp[k]=t2[j]\r\n            j=j+1\r\n        k=k+1\r\n    ### T1 ou T2 est terminé\r\n    # T2 est terminé \r\n    while i<=f1:\r\n        tmp[k]=t1[i]\r\n        i=i+1\r\n        k=k+1\r\n    # T1 est terminé\r\n    while j<=f2:\r\n        tmp[k]=t2[j]\r\n        j=j+1\r\n        k=k+1\r\n    ### recopie de temp dans t\r\n    for i in range(n):\r\n        t[i]=tmp[i]\r\ndef afficher(t,n):\r\n    for i in range(n):\r\n        print(t[i],\" | \",end=\"\")\r\n    print()\r\n############# PP #############\r\nn=saisie_taille()\r\nt=np.array([int]*n)\r\nremplir(t,n)\r\nprint(\"------ Avant Tri ------\")\r\nafficher(t,n)\r\ntri_fusion(t,0,n-1)\r\nprint(\"------ apres Tri ------\")\r\nafficher(t,n)\r\n\r\n\r\n\n\n--- FICHIER: login(1).php ---\n<?php\n$login = $_POST['login'] ?? '';\n$password = $_POST['password'] ?? '';\n\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\");\n$result = mysqli_query($cnx, \"SELECT nom, prenom, password FROM Users WHERE login='$login'\");\n$user = mysqli_fetch_assoc($result);\n\nif ($user && $password === $user['password']) {\n    echo \"Bonjour\" . $user['nom'] . \" \" . $user['prenom'];\n} else {\n    echo \"Login ou passwrd incorrect\";\n}\n\nmysqli_close($cnx);\n?>\n\n\n--- FICHIER: style(1).css ---\nbody{\r\n    background-color: aquamarine;\r\n    color: black;\r\n}\r\ninput{\r\n    border-radius: 25%;\r\n}\r\ninput:hover{\r\n    background-color: blueviolet;\r\n}\n\n--- FICHIER: Prototype Bac pratique 2025/DCN°6 Ressources/mesStyles.css ---\n﻿header, footer {\r\n\t\twidth:100%;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n--- FICHIER: tp trans.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Transition</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>\r\n  <body>\r\n<h1> Exercice 1</h1>\r\n<div class=\"forme-carre transition-1\"></div><hr>\r\n<div class=\"forme-carre transition-2\"></div><hr>\r\n<div class=\"forme-carre transition-3\"></div><hr>\r\n<h1> Exercice 2</h1>\r\n<a href=\"#\" class=\"btn\"> Bouton</a>\r\n</body>\r\n</html>\r\n\n\n--- FICHIER: Question.txt ---\nEcrire un programme javascript qui permet générér un mot de passe à partir de votre nom et prenom\r\nen utilisant un formulaire comme le montre l'image \"maquette.png\".\r\n\r\nle mot de passe sera généré comme suit : \r\n\t- la moitité du nom \r\n\t- suivi du nombre de lettre du nom\r\n\t- suivi la moitité du prénom \r\n\t- suivi du nombre de lettre du prénom\r\n\r\nEnregistrer le programme sous le nom \"mot-de-passe.html\" dans le dossier \"Activité 9\" dans votre dossier de travail\r\n\n\n--- FICHIER: inscription.php ---\n<?php\r\ninclude(\"config.php\"); \r\n\r\n$nom = $_POST[\"nom\"];\r\n$prenom = $_POST[\"prenom\"];\r\n$date_naissance = $_POST[\"date_naissance\"];\r\n$etablissement = $_POST[\"etablissement\"];\r\n$gouvernorat = $_POST[\"gouvernorat\"];\r\n$delegation = $_POST[\"delegation\"];\r\n$equipe = $_POST[\"equipe\"];\r\n$categorie = $_POST[\"categorie\"];\r\n$email = $_POST[\"email\"];\r\n$telephone = $_POST[\"telephone\"];\r\n$coach = $_POST[\"coach\"];\r\n\r\n\r\n$sql1 = \"INSERT INTO equipes (nom_equipe, coach, gouvernorat, delegation, categorie)\r\n         VALUES ('$equipe', '$coach', '$gouvernorat', '$delegation', '$categorie')\";\r\n\r\nif (mysqli_query($cnx, $sql1)) {\r\n    $id_equipe = mysqli_insert_id($cnx); \r\n\r\n    \r\n    $sql2 = \"INSERT INTO participants (nom, prenom, date_naissance, email, telephone, id_equipe)\r\n             VALUES ('$nom', '$prenom', '$date_naissance', '$email', '$telephone', '$id_equipe')\";\r\n\r\n    if (mysqli_query($cnx, $sql2)) {\r\n        echo \"<h3> Inscription valide !</h3>\";\r\n    } else {\r\n        echo \" Erreur d'ajout tab participant : \" . mysqli_error($cnx);\r\n    }\r\n} else {\r\n    echo \" Erreur d'ajout tab équipe : \" . mysqli_error($cnx);\r\n}\r\n\r\nmysqli_close($cnx);\r\n?>\r\n\n\n--- FICHIER: Prototype Bac pratique 2025/DCN°6_ Ressources/mesStyles.css ---\n﻿header, footer {\r\n\t\twidth:100%;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n--- FICHIER: mot masques.py ---\nimport numpy as np\r\nfrom random import randint\r\n#1er fonction\r\ndef saisie_nb_mot():\r\n    print(\"entrer le nombre de mots a placer: \")\r\n    arret=False\r\n    while arret==False:\r\n        n=int(input())\r\n        arret=4<=n<=8\r\n    return n\r\n#-----1er procedur------------\r\ndef afficher_matrice(m,n):\r\n    for l in range (8):\r\n        for c in range(8):\r\n            print(m[l,c] , end=\" \")\r\n        print()\r\n    \r\n#------2eme fonction ------------\r\ndef inverse(ch):\r\n    chinv=\"\"\r\n    for i in range(len(ch)):\r\n        chinv=ch[i]+chinv\r\n    return chinv\r\n#-------3eme fonction-----------\r\ndef placer (mot,m,nl,nc):\r\n    if randint(0,1)==1:\r\n        mot=inverse(mot)\r\n    i=0\r\n    for c in range(nc,nc+len(mot)):\r\n        m[nl,c]=mot[i].upper()\r\n        i=i+1\r\n#-----2eme procedur-------\r\ndef rempli_matrice(m,n):\r\n    deja_utilise=\"\"\r\n    print(\"entre les nombre de mot a placer :\")\r\n    for i in range (1,nb_mots +1):\r\n        arret=False\r\n        while arret ==False :\r\n            mot=input(\"mot \"+str(i)+\":\")\r\n            arret= 2<=len(mot)<=6\r\n        arret=False\r\n        while arret ==False :\r\n            nl=randint(0,7)\r\n            arret= deja_utilise.find(str(nl))==-1\r\n        deja_utilise=deja_utilise+str(nl)\r\n        nc=randint(0,8-len(mot))\r\n        placer(mot,m,nl,nc)\r\n        #-------------lettre au hasard--------------\r\n        for l in range (8):\r\n            for c in range (8):\r\n                if m[l,c]==\"\":\r\n                    m[l,c]=chr(randint(ord(\"A\"),ord(\"Z\")))\r\n#----------PROGRAMME PRICIPAL------------#\r\nm=np.array([[str()]*8]*8)\r\nnb_mots=saisie_nb_mot()\r\nrempli_matrice(m,8)\r\nafficher_matrice(m,8)\n\n--- FICHIER: tri_bulles.py ---\nfrom random import randint\n\ndef saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\n\n## module qui rempli le  tableau par des nombres aléatoires \ndef generer_tab(T,N):\n    for i in range(N):\n        T[i]=randint(-99,99)\n\ndef tri_bulles (T,N):\n    sortie=False\n    while sortie==False:\n        permut=False\n        for i in range(N-1):\n            if T[i+1]<T[i]:\n                aux=T[i+1]\n                T[i+1]=T[i]\n                T[i]=aux\n                permut=True\n        sortie=(permut==False)\n        \ndef affiche(T,N):\n    for i in range (N):\n        print(T[i],end=' | ')\n    print()\n\n############ Programme Principale ##########\nprint('------------ Tri à bulles -----------')\nsaisie()\nT=[0]*N\ngenerer_tab(T,N)\nprint(\"*** Avant le tri***\" )\naffiche(T,N)\ntri_bulles(T,N)\nprint(\"*** Après le tri***\" )\naffiche(T,N)\n\n\n\n\n\n--- FICHIER: insertion.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>TP3 PHP By Oussama TEZEGHDENTI</title>\r\n</head>\r\n<body>\r\n    <h1>TP3 PHP insertion des données dans une table </h1>\r\n    <h3>By Oussama TEZEGHDENTI lycée Tataouine</h3>\r\n    <form action=\"\" method=\"POST\" name=\"\">\r\n        <label for=\"login\"> Login: </label> \r\n        <input type=\"text\" name=\"login\" id=\"username\"> <br>\r\n\r\n        <label for=\"password\">Mot de passe :</label> \r\n        <input type=\"password\" name=\"password\" id=\"password\"> <br>\r\n\r\n        <label for=\"nom\">Nom :</label> \r\n        <input type=\"text\" name=\"nom\" id=\"name\"> <br>\r\n\r\n        <label for=\"prenom\">Prénom :</label>\r\n        <input type=\"text\" name=\"prenom\" id=\"surname\" value=\"Oussama\"> <br>\r\n\r\n      <br>\r\n\r\n        <input type=\"submit\" value=\"s'inscrire\">\r\n        <input type=\"reset\" value=\"Réinitialiser\">\r\n    </form>\r\n</body>\r\n</html>\r\n\n\n--- FICHIER: login(3).html ---\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <link rel=\"stylesheet\" href=\"style.css\">\n    <script src=\"script.js\"></script>\n    <title>Inscription</title>\n</head>\n<body>\n    <h2>Inscription</h2>\n    <form action=\"login.php\" method=\"POST\" onsubmit=\"return(virif())\">\n        <label for=\"login\">Login :</label>\n        <input type=\"text\" id=\"login\" name=\"login\" ><br><br>\n\n        <label for=\"password\">Mot de passe :</label>\n        <input type=\"password\" id=\"password\" name=\"password\" ><br><br>\n\n        <label for=\"nom\">Nom :</label>\n        <input type=\"text\" id=\"nom\" name=\"nom\" ><br><br>\n\n        <label for=\"prenom\">Prénom :</label>\n        <input type=\"text\" id=\"prenom\" name=\"prenom\" ><br><br>\n\n        <button type=\"submit\">S'inscrire</button>\n    </form>\n</body>\n</html>\n\n\n--- FICHIER: inscription(1).html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>TP5 PHP By Oussama TEZEGHDENTI</title>\r\n</head>\r\n<body>\r\n    <form action=\"\" method=\"POST\" name=\"\">\r\n        <label for=\"login\"> Login: </label> \r\n        <input type=\"text\" name=\"login\" id=\"login\"> <br>\r\n\r\n        <label for=\"password\">Mot de passe :</label> \r\n        <input type=\"password\" name=\"password\" id=\"password\"> <br>\r\n\r\n        <label for=\"nom\">Nom :</label> \r\n        <input type=\"text\" name=\"nom\" id=\"nom\"> <br>\r\n\r\n        <label for=\"prenom\">Prénom :</label>\r\n        <input type=\"text\" name=\"prenom\" id=\"prenom\" value=\"Oussama\"> <br>\r\n\r\n        <label for=\"date_naiss\">Date de Naissance :</label> \r\n        <input type=\"date\" name=\"date_naiss\" id=\"date_naiss\"> <br>\r\n\r\n        <label for=\"heure\">Heure :</label> \r\n        <input type=\"time\" name=\"heure\" id=\"heure\"> <br>\r\n\r\n        <label for=\"mail\">Email :</label> \r\n        <input type=\"email\" name=\"mail\" id=\"mail\" placeholder=\"username@server.extention\"> <br>\r\n\r\n        <fieldset>\r\n            <legend>Sexe :</legend>\r\n            <input type=\"radio\" name=\"sexe\" id=\"homme\" value=\"H\"> Homme\r\n            <input type=\"radio\" name=\"sexe\" id=\"femme\" value=\"F\"> Femme\r\n        </fieldset>\r\n        <br>\r\n\r\n        <label for=\"sports\">Sports :</label>\r\n        <input type=\"checkbox\" name=\"foot\" id=\"foot\" value=\"O\"> Football\r\n        <input type=\"checkbox\" name=\"hand\" id=\"hand\" value=\"O\"> Handball\r\n        <input type=\"checkbox\" name=\"tennis\" id=\"tennis\" value=\"O\"> Tennis\r\n        <br><br>\r\n\r\n        <label for=\"pays\">Pays :</label>\r\n        <select name=\"pays\" id=\"pays\">\r\n            <option>Veuillez choisir un pays SVP</option>\r\n            <option value=\"TN\">Tunisie</option>\r\n            <option value=\"AL\">Algérie</option>\r\n            <option value=\"LY\">Lybie</option>\r\n        </select>\r\n        <br><br>\r\n\r\n        <!-- Exemple avec datalist -->\r\n        <label for=\"ville\">Ville :</label>\r\n        <input list=\"listeVilles\" name=\"ville\" id=\"ville\" placeholder=\"Choisissez ou tapez une ville\">\r\n        <datalist id=\"listeVilles\">\r\n            <option value=\"Tataouine\">\r\n            <option value=\"Gabès\">\r\n            <option value=\"Sfax\">\r\n            <option value=\"Tunis\">\r\n            <option value=\"Djerba\">\r\n        </datalist>\r\n        <br><br>\r\n\r\n        <label for=\"remarques\">Remarques :</label><br>\r\n        <textarea name=\"remarques\" id=\"remarques\" cols=\"30\" rows=\"10\"></textarea>\r\n        <br><br>\r\n\r\n        <input type=\"button\" value=\"Mon bouton\" onclick=\"verif()\">\r\n        <input type=\"submit\" value=\"Envoyer\">\r\n        <input type=\"reset\" value=\"Réinitialiser\">\r\n    </form>\r\n</body>\r\n</html>\r\n\n\n--- FICHIER: bd_dc1_2025_2026.sql ---\n-- phpMyAdmin SQL Dump\n-- version 5.2.1\n-- https://www.phpmyadmin.net/\n--\n-- Hôte : 127.0.0.1\n-- Généré le : dim. 12 oct. 2025 à 08:59\n-- Version du serveur : 10.4.28-MariaDB\n-- Version de PHP : 8.0.28\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSTART TRANSACTION;\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8mb4 */;\n\n--\n-- Base de données : `bd_dc1_2025_2026`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `equipes`\n--\n\nCREATE TABLE `equipes` (\n  `id_equipe` int(11) NOT NULL,\n  `nom_equipe` varchar(100) NOT NULL,\n  `coach` varchar(100) NOT NULL,\n  `gouvernorat` varchar(50) NOT NULL,\n  `delegation` varchar(50) NOT NULL,\n  `categorie` varchar(1) NOT NULL CHECK (`categorie` in ('R','J','S','O'))\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `participants`\n--\n\nCREATE TABLE `participants` (\n  `id_participant` int(11) NOT NULL,\n  `nom` varchar(50) NOT NULL,\n  `prenom` varchar(50) NOT NULL,\n  `date_naissance` date NOT NULL,\n  `email` varchar(100) NOT NULL,\n  `telephone` varchar(20) NOT NULL,\n  `id_equipe` int(11) NOT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n--\n-- Index pour les tables déchargées\n--\n\n--\n-- Index pour la table `equipes`\n--\nALTER TABLE `equipes`\n  ADD PRIMARY KEY (`id_equipe`);\n\n--\n-- Index pour la table `participants`\n--\nALTER TABLE `participants`\n  ADD PRIMARY KEY (`id_participant`),\n  ADD KEY `id_equipe` (`id_equipe`);\n\n--\n-- AUTO_INCREMENT pour les tables déchargées\n--\n\n--\n-- AUTO_INCREMENT pour la table `equipes`\n--\nALTER TABLE `equipes`\n  MODIFY `id_equipe` int(11) NOT NULL AUTO_INCREMENT;\n\n--\n-- AUTO_INCREMENT pour la table `participants`\n--\nALTER TABLE `participants`\n  MODIFY `id_participant` int(11) NOT NULL AUTO_INCREMENT;\n\n--\n-- Contraintes pour les tables déchargées\n--\n\n--\n-- Contraintes pour la table `participants`\n--\nALTER TABLE `participants`\n  ADD CONSTRAINT `participants_ibfk_1` FOREIGN KEY (`id_equipe`) REFERENCES `equipes` (`id_equipe`) ON DELETE CASCADE ON UPDATE CASCADE;\nCOMMIT;\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: style.css ---\nbody{\r\n    background-color: blanchedalmond;\r\n}\r\nh1{\r\n    text-align: center;\r\n    text-decoration: wavy;\r\n    color:plum ;\r\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n    font-size: larger;\r\n    font-weight: 100;\r\n    font-style: italic;\r\n}\r\nh1:hover{\r\n    font-size: xx-large;\r\n    color: red;\r\n    text-decoration: dashed;\r\n}\r\ninput{\r\n    border: 1px dodgerblue dotted;\r\n    border-radius: 50%;\r\n    background-color: rgb(195, 226, 43);\r\n}\r\ninput:hover\r\n{\r\n    border: 10px rgb(30, 255, 41) double;\r\n    border-radius: 5%;\r\n    background-color: rgb(226, 43, 186);\r\n}\r\nlabel{\r\n    text-align: center;\r\n    text-decoration: dashed;\r\n    text-shadow: 10cap;\r\n    font-size: large;\r\n    font-weight: 200;\r\n    font-style: italic;\r\n    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;\r\n}\n\n--- FICHIER: users.sql ---\n-- phpMyAdmin SQL Dump\n-- version 5.2.1\n-- https://www.phpmyadmin.net/\n--\n-- Hôte : 127.0.0.1\n-- Généré le : dim. 21 sep. 2025 à 10:04\n-- Version du serveur : 10.4.28-MariaDB\n-- Version de PHP : 8.0.28\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSTART TRANSACTION;\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8mb4 */;\n\n--\n-- Base de données : `bd_2025_2026`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `users`\n--\n\nCREATE TABLE `users` (\n  `login` varchar(50) NOT NULL,\n  `password` varchar(30) NOT NULL,\n  `nom` varchar(60) NOT NULL,\n  `Prenom` varchar(60) NOT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n--\n-- Index pour les tables déchargées\n--\n\n--\n-- Index pour la table `users`\n--\nALTER TABLE `users`\n  ADD PRIMARY KEY (`login`);\nCOMMIT;\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: users(1).sql ---\n-- phpMyAdmin SQL Dump\n-- version 5.2.1\n-- https://www.phpmyadmin.net/\n--\n-- Hôte : 127.0.0.1\n-- Généré le : dim. 21 sep. 2025 à 10:04\n-- Version du serveur : 10.4.28-MariaDB\n-- Version de PHP : 8.0.28\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSTART TRANSACTION;\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8mb4 */;\n\n--\n-- Base de données : `bd_2025_2026`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `users`\n--\n\nCREATE TABLE `users` (\n  `login` varchar(50) NOT NULL,\n  `password` varchar(30) NOT NULL,\n  `nom` varchar(60) NOT NULL,\n  `Prenom` varchar(60) NOT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n--\n-- Index pour les tables déchargées\n--\n\n--\n-- Index pour la table `users`\n--\nALTER TABLE `users`\n  ADD PRIMARY KEY (`login`);\nCOMMIT;\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: config.php ---\n<?php\r\n$localost = \"127.0.0.1\";      \r\n$user = \"root\";      \r\n$password = \"\";            \r\n$bd = \"bd_dc1_2025_2026\"; \r\n\r\n$cnx = mysqli_connect($localost, $user, $password, $bd);\r\n\r\nif (!$cnx) {\r\n    alert(\"Erreur de connexion à la base de données : \" . mysqli_connect_error());\r\n}\r\nelse {\r\n    alert(\" Connexion réussie à la base de données !\";\r\n);\r\n}\r\n?>\r\n\n\n--- FICHIER: tri_selection.py ---\ndef saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\ndef remplir():\n    global T\n    T=[0]*20\n    for i in range(N):\n        T[i]=int(input('Nombre '+str(i+1)+' :'))\ndef tri_selection (T,N):\n    for i in range(N-1):\n        posmin=i\n        for j in range(i+1,N):\n            if T[j]<T[posmin]:\n                posmin=j\n        if posmin!=i:\n            aux=T[i]\n            T[i]=T[posmin]\n            T[posmin]=aux\ndef affiche(T,N):\n    print(\"*** aprés le tri***\" )\n    for i in range (N):\n        print(T[i])\n\n######### PP ###########\nsaisie()\nremplir()\ntri_selection(T,N)\naffiche(T,N)\n\n\n\n\n\n--- FICHIER: formulaire.php ---\n<?php\n// --------- Formulaire GET ---------\nif ($_GET['nom'] != \"\" && $_GET['prenom'] != \"\") {\n    $nom = $_GET['nom'];\n    $prenom = $_GET['prenom'];\n    echo \"<h3>Résultat du formulaire GET :</h3>\";\n    echo \"<p>Bonjour, $prenom $nom !</p>\";\n}\n\n// --------- Formulaire POST ---------\nif ($_POST['login'] != \"\" && $_POST['mdp'] != \"\") {\n    $login = $_POST['login'];\n    $password = $_POST['password'];\n\n    if ($login === \"admin\" && $mdp === \"1234\") {\n        echo \"Conexion valid \";\n    } else {\n        echo \"Login ou paaswrd incorrect\";\n    }\n}\n?>\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Formulaires </title>\n</head>\n<body>\n\n<h2>Formulaire get</h2>\n<form method=\"get\" action=\"\">\n    Nom : <input type=\"text\" name=\"nom\"><br><br>\n    Prénom : <input type=\"text\" name=\"prenom\"><br><br>\n    <input type=\"submit\" value=\"Envoyer\">\n</form>\n\n<hr>\n\n<h2>Formulaire post</h2>\n<form method=\"post\" action=\"\">\n    Login : <input type=\"text\" name=\"login\"><br><br>\n    password : <input type=\"password\" name=\"password\"><br><br>\n    <input type=\"submit\" value=\"Se connecter\">\n</form>\n\n</body>\n</html>\n\n\n--- FICHIER: inscription(3).html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Document</title>\r\n    <script src=\"cont.js\"></script>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>\r\n  <body>\r\n    <form action=\"\">\r\n      email: <input type=\"text\" id=\"email\" /> <br />\r\n      nom d'utilisateur: <input type=\"text\" id=\"nom\" /> <br />nom de serveur:\r\n      <input type=\"text\" id=\"serv\" />\r\n\r\n      <br />domaine: <input type=\"text\" id=\"dom\" />\r\n      <br />\r\n      <input type=\"button\" value=\"eclater Email\" onclick=\"ecl()\" />\r\n    </form>\r\n  </body>\r\n</html>\r\n\n\n--- FICHIER: login(1).html ---\n<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Inscription simple</title>\r\n</head>\r\n\r\n<body>\r\n    <h2>Inscription</h2>\r\n\r\n    <form action=\"login.php\" method=\"POST\" onsubmit=\"return virif()\">\r\n        Login : <input type=\"text\" id=\"login\" name=\"login\"><br><br>\r\n        Mot de passe : <input type=\"password\" id=\"password\" name=\"password\"><br><br>\r\n        Nom : <input type=\"text\" id=\"nom\" name=\"nom\"><br><br>\r\n        Prénom : <input type=\"text\" id=\"prenom\" name=\"prenom\"><br><br>\r\n        <button type=\"submit\">S'inscrire</button>\r\n    </form>\r\n\r\n    <script>\r\n        function virif() {\r\n            let login = document.getElementById('login').value;\r\n            let password = document.getElementById('password').value;\r\n            let nom = document.getElementById('nom').value;\r\n            let prenom = document.getElementById('prenom').value;\r\n\r\n            if (login === \"\") { alert(\"Le champ login est obligatoire.\"); return false; }\r\n            if (login.length < 3) { alert(\"Le login doit contenir au moins 3 caractères.\"); return false; }\r\n            if (password === \"\") { alert(\"Le champ mot de passe est obligatoire.\"); return false; }\r\n            if (password.length < 3) { alert(\"Le mot de passe doit contenir au moins 3 caractères.\"); return false; }\r\n            if (nom === \"\") { alert(\"Le champ nom est obligatoire.\"); return false; }\r\n            if (prenom === \"\") { alert(\"Le champ prénom est obligatoire.\"); return false; }\r\n            if (login === \"\") {\r\n                alert(\"Le champ login est obligatoire.\");\r\n                return false;\r\n            }\r\n            if (login.length < 3) {\r\n                alert(\"Le login doit contenir au moins 3 caractères.\");\r\n                return false;\r\n            }\r\n            if (!/^[a-zA-Z0-9]+$/.test(login)) {\r\n                alert(\"Le login doit contenir uniquement des caractères alphanumériques.\");\r\n                return false;\r\n            }\r\n            if (password === \"\") {\r\n                alert(\"Le champ mot de passe est obligatoire.\");\r\n                return false;\r\n            }\r\n            if (password.length < 8) {\r\n                alert(\"Le mot de passe doit contenir au moins 8 caractères.\");\r\n                return false;\r\n            }\r\n            if (nom === \"\") {\r\n                alert(\"Le champ nom est obligatoire.\");\r\n                return false;\r\n            }\r\n            if (prenom === \"\") {\r\n                alert(\"Le champ prénom est obligatoire.\");\r\n                return false;\r\n            }\r\n            return true;\r\n        }\r\n    </script>\r\n</body>\r\n\r\n</html>\n\n--- FICHIER: Prototype Bac pratique 2025/DCN°6 Ressources/bdgestiondelocations.sql ---\n-- phpMyAdmin SQL Dump\n-- version 4.1.14\n-- http://www.phpmyadmin.net\n--\n-- Client :  127.0.0.1\n-- Généré le :  Dim 27 Avril 2025 à 18:15\n-- Version du serveur :  5.6.17\n-- Version de PHP :  5.5.12\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8 */;\n\n--\n-- Base de données :  `bdgestiondelocations2`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `categorie`\n--\n\nCREATE TABLE IF NOT EXISTS `categorie` (\n  `idCat` int(11) NOT NULL AUTO_INCREMENT,\n  `nomCat` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  PRIMARY KEY (`idCat`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=7 ;\n\n--\n-- Contenu de la table `categorie`\n--\n\nINSERT INTO `categorie` (`idCat`, `nomCat`) VALUES\n(1, 'Électrique'),\n(2, 'Sport'),\n(3, 'Luxe'),\n(5, 'Commerciale'),\n(6, 'Familiale');\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `client`\n--\n\nCREATE TABLE IF NOT EXISTS `client` (\n  `idCl` int(11) NOT NULL AUTO_INCREMENT,\n  `nomCl` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  `prenomCl` varchar(50) COLLATE utf8_unicode_ci NOT NULL,\n  `telCl` varchar(15) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `adrCl` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `mailCl` varchar(100) COLLATE utf8_unicode_ci NOT NULL,\n  `pwdCl` varchar(6) COLLATE utf8_unicode_ci NOT NULL,\n  `sexeCl` char(1) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `professionCl` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `datenaissCl` date DEFAULT NULL,\n  `typepermisCl` varchar(30) COLLATE utf8_unicode_ci DEFAULT NULL,\n  PRIMARY KEY (`idCl`),\n  UNIQUE KEY `mailCl` (`mailCl`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;\n\n--\n-- Contenu de la table `client`\n--\n\nINSERT INTO `client` (`idCl`, `nomCl`, `prenomCl`, `telCl`, `adrCl`, `mailCl`, `pwdCl`, `sexeCl`, `professionCl`, `datenaissCl`, `typepermisCl`) VALUES\n(1, 'Youssefi', 'Bader', '22123456', '12 rue des Fleurs', 'youssefi.bader@mail.com', 'YB1985', 'M', 'Ingénieur', '1985-07-20', 'B'),\n(2, 'Abdallah', 'Yosr', '22987654', '34 avenue République', 'abdallah.yosr@mail.com', 'AY1990', 'F', 'Pédiatre', '1990-02-10', 'B');\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `location`\n--\n\nCREATE TABLE IF NOT EXISTS `location` (\n  `idLo` int(11) NOT NULL AUTO_INCREMENT,\n  `dateDLo` date DEFAULT NULL,\n  `dateFLo` date DEFAULT NULL,\n  `optionsLo` text COLLATE utf8_unicode_ci,\n  `detailsLo` text COLLATE utf8_unicode_ci,\n  `immatriculationV` varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `idCl` int(11) DEFAULT NULL,\n  PRIMARY KEY (`idLo`),\n  KEY `immatriculationV` (`immatriculationV`),\n  KEY `idCl` (`idCl`)\n) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=3 ;\n\n--\n-- Contenu de la table `location`\n--\n\nINSERT INTO `location` (`idLo`, `dateDLo`, `dateFLo`, `optionsLo`, `detailsLo`, `immatriculationV`, `idCl`) VALUES\n(1, '2025-04-01', '2025-04-05', 'Avec Chauffeur  Kilométrage illimité', 'Voyage professionnel', '1234TUN2024', 1),\n(2, '2025-04-10', '2025-04-15', 'Avec Chauffeur Annulation gratuite', 'Vacances en famille', '5678TUN2023', 2);\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `voiture`\n--\n\nCREATE TABLE IF NOT EXISTS `voiture` (\n  `immatriculationV` varchar(20) COLLATE utf8_unicode_ci NOT NULL,\n  `modeleV` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `marqueV` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `dateDCV` date DEFAULT NULL,\n  `puissanceMV` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `imgV` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,\n  `prixLV` decimal(8,2) DEFAULT NULL,\n  `disponibiliteV` char(1) COLLATE utf8_unicode_ci DEFAULT 'O',\n  `idCat` int(11) DEFAULT NULL,\n  PRIMARY KEY (`immatriculationV`),\n  KEY `idCat` (`idCat`)\n) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;\n\n--\n-- Contenu de la table `voiture`\n--\n\nINSERT INTO `voiture` (`immatriculationV`, `modeleV`, `marqueV`, `dateDCV`, `puissanceMV`, `imgV`, `prixLV`, `disponibiliteV`, `idCat`) VALUES\n('1234TUN2024', 'Clio', 'Renault', '2022-03-15', '6Cv', 'clio.jpg', '80.00', 'O', 1),\n('5678TUN2023', 'Tucson', 'Hyundai', '2023-06-20', '8Cv', 'tucson.jpg', '130.00', 'O', 2);\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: bd_rayenmkadmini.sql ---\n-- phpMyAdmin SQL Dump\n-- version 5.2.1\n-- https://www.phpmyadmin.net/\n--\n-- Hôte : 127.0.0.1\n-- Généré le : dim. 05 avr. 2026 à 21:47\n-- Version du serveur : 10.4.32-MariaDB\n-- Version de PHP : 8.2.12\n\nSET SQL_MODE = \"NO_AUTO_VALUE_ON_ZERO\";\nSTART TRANSACTION;\nSET time_zone = \"+00:00\";\n\n\n/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;\n/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;\n/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;\n/*!40101 SET NAMES utf8mb4 */;\n\n--\n-- Base de données : `bd_rayenmkadmini`\n--\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `participant`\n--\n\nCREATE TABLE `participant` (\n  `IdParticipant` int(11) NOT NULL,\n  `Mail` varchar(50) DEFAULT NULL,\n  `Mdp` varchar(6) DEFAULT NULL,\n  `Genre` char(1) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `question`\n--\n\nCREATE TABLE `question` (\n  `NumQ` int(11) NOT NULL,\n  `NumS` int(11) NOT NULL,\n  `Contenu` varchar(150) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n--\n-- Déchargement des données de la table `question`\n--\n\nINSERT INTO `question` (`NumQ`, `NumS`, `Contenu`) VALUES\n(1, 1, 'Les informations partagées sur les réseaux sociaux sont fiables'),\n(1, 2, 'Les jeux vidéo contribuent au développement de la pensée logique'),\n(2, 1, 'L\\'usage des réseaux sociaux par les enfants doit être sous le contrôle parental'),\n(3, 1, 'Les réseaux sociaux deviennent une nécessité pour les citoyens');\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `reponse`\n--\n\nCREATE TABLE `reponse` (\n  `NumQ` int(11) NOT NULL,\n  `NumS` int(11) NOT NULL,\n  `IdParticipant` int(11) NOT NULL,\n  `Rep` char(1) DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n-- --------------------------------------------------------\n\n--\n-- Structure de la table `sondage`\n--\n\nCREATE TABLE `sondage` (\n  `NumS` int(11) NOT NULL,\n  `Theme` varchar(50) DEFAULT NULL,\n  `DateDebut` date DEFAULT NULL\n) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;\n\n--\n-- Déchargement des données de la table `sondage`\n--\n\nINSERT INTO `sondage` (`NumS`, `Theme`, `DateDebut`) VALUES\n(1, 'Les réseaux sociaux', '2019-05-01'),\n(2, 'Les jeux vidéo', '2019-06-01');\n\n--\n-- Index pour les tables déchargées\n--\n\n--\n-- Index pour la table `participant`\n--\nALTER TABLE `participant`\n  ADD PRIMARY KEY (`IdParticipant`);\n\n--\n-- Index pour la table `question`\n--\nALTER TABLE `question`\n  ADD PRIMARY KEY (`NumQ`,`NumS`),\n  ADD KEY `NumS` (`NumS`);\n\n--\n-- Index pour la table `reponse`\n--\nALTER TABLE `reponse`\n  ADD PRIMARY KEY (`NumQ`,`NumS`,`IdParticipant`),\n  ADD KEY `IdParticipant` (`IdParticipant`);\n\n--\n-- Index pour la table `sondage`\n--\nALTER TABLE `sondage`\n  ADD PRIMARY KEY (`NumS`);\n\n--\n-- AUTO_INCREMENT pour les tables déchargées\n--\n\n--\n-- AUTO_INCREMENT pour la table `participant`\n--\nALTER TABLE `participant`\n  MODIFY `IdParticipant` int(11) NOT NULL AUTO_INCREMENT;\n\n--\n-- AUTO_INCREMENT pour la table `sondage`\n--\nALTER TABLE `sondage`\n  MODIFY `NumS` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;\n\n--\n-- Contraintes pour les tables déchargées\n--\n\n--\n-- Contraintes pour la table `question`\n--\nALTER TABLE `question`\n  ADD CONSTRAINT `question_ibfk_1` FOREIGN KEY (`NumS`) REFERENCES `sondage` (`NumS`);\n\n--\n-- Contraintes pour la table `reponse`\n--\nALTER TABLE `reponse`\n  ADD CONSTRAINT `reponse_ibfk_1` FOREIGN KEY (`NumQ`,`NumS`) REFERENCES `question` (`NumQ`, `NumS`),\n  ADD CONSTRAINT `reponse_ibfk_2` FOREIGN KEY (`IdParticipant`) REFERENCES `participant` (`IdParticipant`);\nCOMMIT;\n\n/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;\n/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;\n/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;\n\n\n--- FICHIER: style(3).css ---\nh1{\r\n    text-align: center;\r\n}\r\nspan{\r\ncolor:red;}\n\n--- FICHIER: mini_calc.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <script src=\"minicalc.js\"></script>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n        <h1>mini-caluclatrice</h1> <hr>\r\n        <form action=\"\">\r\n        <table><tr>\r\n        <td> <label for=\"\">Nombre1:</label></td>\r\n        <td><input\r\n        type=\"text\" id=\"nb1\"> </td>\r\n        </tr>\r\n        <tr>\r\n        <td> <label for=\"\">Nombre2:</label></td>\r\n        <td><input type=\"text\"\r\n        id=\"nb2\"></td>\r\n        </tr></table>\r\n        <input type=\"button\" value=\"+\"\r\n        onclick=\"somme()\">\r\n        <input type=\"button\" value=\"-\"\r\n        onclick=\"soustraction()\">\r\n        <input type=\"button\" value=\"*\"\r\n        onclick=\"produit()\">\r\n        <input type=\"button\" value=\"/\"\r\n        onclick=\"div()\">\r\n        <input type=\"button\" value=\"max\"\r\n        onclick=\"maximum()\">\r\n        <input type=\"button\" value=\"min\"\r\n        onclick=\"minimum()\">\r\n        <input type=\"button\"\r\n        value=\"puissance\" onclick=\"puiss()\">\r\n        <input type=\"reset\"\r\n        value=\"réinitialiser\">\r\n        <br><br>\r\n        <label for=\"\">résultat</label>\r\n        <input type=\"text\" id=\"r\"\r\n        disabled>\r\n        </form>\r\n</body>\r\n</html>\n\n--- FICHIER: Sondage.php ---\n<?php\r\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"BD123456\");\r\n\r\n$mail = $_POST[\"mail\"];\r\n$mdp = $_POST[\"mdp\"];\r\n$genre = $_POST[\"genre\"];\r\n\r\n$q1 = $_POST[\"q1\"];\r\n$q2 = $_POST[\"q2\"];\r\n$q3 = $_POST[\"q3\"];\r\n\r\n\r\n$rS = mysqli_query($conn, \"SELECT NumS FROM Sondage WHERE DateDebut <= CURDATE() ORDER BY DateDebut DESC LIMIT 1\");\r\n$sond = mysqli_fetch_array($rS);\r\n$numS = $sond[0];\r\n$r1 = mysqli_query($conn, \"SELECT * FROM Participant WHERE Mail='$mail'\");\r\n\r\nif (mysqli_num_rows($r1) > 0) {\r\n    $p = mysqli_fetch_array($r1);\r\n\r\n    if ($p[\"Mdp\"] != $mdp) {\r\n        echo \"Erreur d'authentification\";\r\n    } else {\r\n        $idp = $p[\"IdParticipant\"];\r\n\r\n        $r2 = mysqli_query($conn, \"SELECT * FROM Reponse WHERE NumS=$numS AND IdParticipant=$idp\");\r\n\r\n        $rep1 = substr($q1, 1, 1);\r\n        $rep2 = substr($q2, 1, 1);\r\n        $rep3 = substr($q3, 1, 1);\r\n\r\n        if (mysqli_num_rows($r2) > 0) {\r\n            mysqli_query($conn, \"UPDATE Reponse SET Rep='$rep1' WHERE NumQ=1 AND NumS=$numS AND IdParticipant=$idp\");\r\n            mysqli_query($conn, \"UPDATE Reponse SET Rep='$rep2' WHERE NumQ=2 AND NumS=$numS AND IdParticipant=$idp\");\r\n            mysqli_query($conn, \"UPDATE Reponse SET Rep='$rep3' WHERE NumQ=3 AND NumS=$numS AND IdParticipant=$idp\");\r\n\r\n            echo \"Mise à jour effectuée avec succès\";\r\n        } else {\r\n            mysqli_query($conn, \"INSERT INTO Reponse VALUES (1,$numS,$idp,'$rep1')\");\r\n            mysqli_query($conn, \"INSERT INTO Reponse VALUES (2,$numS,$idp,'$rep2')\");\r\n            mysqli_query($conn, \"INSERT INTO Reponse VALUES (3,$numS,$idp,'$rep3')\");\r\n\r\n            echo \"Participation au sondage effectuée avec succès\";\r\n        }\r\n    }\r\n} else {\r\n    mysqli_query($conn, \"INSERT INTO Participant VALUES (NULL,'$mail','$mdp','$genre')\");\r\n\r\n    $r3 = mysqli_query($conn, \"SELECT IdParticipant FROM Participant WHERE Mail='$mail' AND Mdp='$mdp'\");\r\n    $np = mysqli_fetch_array($r3);\r\n    $idp = $np[0];\r\n\r\n    $rep1 = substr($q1, 1, 1);\r\n    $rep2 = substr($q2, 1, 1);\r\n    $rep3 = substr($q3, 1, 1);\r\n\r\n    mysqli_query($conn, \"INSERT INTO Reponse VALUES (1,$numS,$idp,'$rep1')\");\r\n    mysqli_query($conn, \"INSERT INTO Reponse VALUES (2,$numS,$idp,'$rep2')\");\r\n    mysqli_query($conn, \"INSERT INTO Reponse VALUES (3,$numS,$idp,'$rep3')\");\r\n\r\n    echo \"Inscription et participation au sondage effectuées avec succès\";\r\n}\r\n\r\nmysqli_close($conn);\r\n?>\n\n--- FICHIER: login(2).php ---\n<?php\r\n\r\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\r\n\r\n    \r\n    $login = $_POST['login'];\r\n    $password = $_POST['password'];\r\n    $nom = $_POST['nom'];\r\n    $prenom = $_POST['prenom'];\r\n\r\n    \r\n    $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\");\r\n    if (!$cnx) {\r\n        alert(\"Erreur de connexion à la base\");\r\n    }\r\n\r\n    \r\n    $result = mysqli_query($cnx, \"SELECT login FROM users WHERE login='$login'\");\r\n    if (mysqli_num_rows($result) > 0) {\r\n        echo \"<span style='color:red;'>Utilisateur déjà existant</span>\";\r\n    } else {\r\n        \r\n        mysqli_query($cnx, \"INSERT INTO users (login, password, nom, prenom) VALUES ('$login', '$password', '$nom', '$prenom')\");\r\n        echo \"<span style='color:green;'>Inscription réussie !</span>\";\r\n    }\r\n\r\n    mysqli_close($cnx);\r\n\r\n} else {\r\n    \r\n    echo \"<span>Veuillez remplir le formulaire depuis login.html</span>\";\r\n}\r\n?>\r\n\n\n--- FICHIER: inscription(2).html ---\n<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <title>Formulaire d'inscription WRO</title>\r\n  <script src=\"fonctions.js\"></script>\r\n  \r\n  \r\n</head>\r\n<body>\r\n  <h2>Formulaire d'inscription - WRO 2026 KSA</h2>\r\n  \r\n  <form id=\"formWRO\" action=\"inscription.php\" method=\"POST\" onsubmit=\"return(verif())\">\r\n    <label for=\"nom\">Nom :</label>\r\n    <input type=\"text\" name=\"nom\" id=\"nom\" ><br><br>\r\n    \r\n    <label for=\"prenom\">Prénom :</label>\r\n    <input type=\"text\" name=\"prenom\" id=\"prenom\" ><br><br>\r\n    \r\n    <label for=\"dob\">Date de naissance :</label>\r\n    <input type=\"date\" name=\"date_naissance\" id=\"dob\" ><br><br>\r\n    \r\n    <label for=\"etab\">Établissement :</label>\r\n    <input type=\"text\" name=\"etablissement\" id=\"etab\" ><br><br>\r\n    \r\n    <label for=\"gov\">Gouvernorat :</label>\r\n    <select name=\"gouvernorat\" id=\"gov\" >\r\n      <option value=\"\">--Sélectionnez--</option>\r\n      <option>Tunis</option>\r\n      <option>Ariana</option>\r\n      <option>Ben Arous</option>\r\n      <option>Mannouba</option>\r\n      <option>Nabeul</option>\r\n      <option>Zaghouan</option>\r\n      <option>Bizerte</option>\r\n      <option>Beja</option>\r\n      <option>Jendouba</option>\r\n      <option>Kef</option>\r\n      <option>Siliana</option>\r\n      <option>Sousse</option>\r\n      <option>Monastir</option>\r\n      <option>Mahdia</option>\r\n      <option>Sfax</option>\r\n      <option>Gabes</option>\r\n      <option>Medenine</option>\r\n      <option>Tataouine</option>\r\n      <option>Gafsa</option>\r\n      <option>Tozeur</option>\r\n      <option>Kebili</option>\r\n      <option>Sidi Bouzid</option>\r\n      <option>Kairouan</option>\r\n      <option>Kasserine</option>\r\n    </select><br><br>\r\n    \r\n    <label for=\"del\">Délégation :</label>\r\n    <input list=\"delegations\" name=\"delegation\" id=\"del\" >\r\n    <datalist id=\"delegations\">\r\n      <option value=\"Tataouine Nord\">\r\n      <option value=\"Tataouine Sud\">\r\n      <option value=\"Remada\">\r\n      <option value=\"Ghomrassen\">\r\n      <option value=\"Bir Lahmar\">\r\n    </datalist><br><br>\r\n    \r\n    <label for=\"eq\">Nom de l’équipe :</label>\r\n    <input type=\"text\" name=\"equipe\" id=\"equipe\" ><br><br>\r\n    \r\n    <label>Catégorie :</label><br>\r\n    <input type=\"radio\" name=\"categorie\" id=\"cat_r\" value=\"Rookie\" required> <label for=\"cat_r\">Rookie</label>\r\n    <input type=\"radio\" name=\"categorie\" id=\"cat_j\" value=\"Junior\"> <label for=\"cat_j\">Junior</label>\r\n    <input type=\"radio\" name=\"categorie\" id=\"cat_s\" value=\"Senior\"> <label for=\"cat_s\">Senior</label>\r\n    <input type=\"radio\" name=\"categorie\" id=\"cat_o\" value=\"Open\"> <label for=\"cat_o\">Open</label><br><br>\r\n    \r\n    <label for=\"mail\">Email :</label>\r\n    <input type=\"email\" name=\"email\" id=\"email\" ><br><br>\r\n    \r\n    <label for=\"tel\">Téléphone :</label>\r\n    <input type=\"text\" name=\"telephone\" id=\"telephone\" pattern=\"[0-9]{8}\" >\r\n    <small>Format : 8 chiffres</small><br><br>\r\n    \r\n    <label for=\"coach\">Nom du coach :</label>\r\n    <input type=\"text\" name=\"coach\" id=\"coach\" ><br><br>\r\n    \r\n    <input type=\"checkbox\" name=\"termes\" id=\"terms\" > \r\n    <label for=\"terms\">J’accepte les termes et conditions</label><br><br>\r\n    \r\n    <input type=\"submit\" value=\"S'inscrire\" >\r\n    <input type=\"reset\" value=\"Rétablir\">\r\n  </form>\r\n</body>\r\n</html>\r\n\n\n--- FICHIER: tri comptage.py ---\n\r\nimport numpy as np\r\nfrom random import randint\r\ndef saisie_taille():\r\n    arret=False\r\n    while not arret:\r\n        try:\r\n            n=int(input(\"Entrer la taille de T(5-10):\"))\r\n            arret=5<=n<=10\r\n        except:\r\n            arret=False\r\n            \r\n    return n\r\ndef remplir(t,n):\r\n    ## remplissage manuel\r\n    for i in range(n):\r\n        arret=False\r\n        while not arret:\r\n            try:\r\n                t[i]=int(input(\"T[\"+str(i)+\"]=\"))\r\n                arret=True\r\n            except:\r\n                arret=False\r\n            \r\n\r\ndef afficher(t,n):\r\n    for i in range(n):\r\n        print(t[i],\" | \",end=\"\")\r\n    print()\r\ndef tri_comptage(t,n):\r\n    # initialise le tableau par des 0\r\n    rang=np.array([int()]*n) \r\n    tmp=np.array([int]*n)\r\n    for i in range(n-1):\r\n        for j in range(i+1,n):\r\n            if t[i]<t[j]:\r\n                rang[j]=rang[j]+1\r\n            else:\r\n                rang[i]=rang[i]+1\r\n    ## placer les elements de t dans tmp\r\n    for i in range(n):\r\n        tmp[rang[i] ]=t[i]\r\n    ## recopie de tmp dans t\r\n    for i in range(n):\r\n        t[i]=tmp[i]\r\n                \r\n        \r\n########### PP ########\r\nn=saisie_taille()\r\nt=np.array([int]*n)\r\nremplir(t,n)\r\nafficher(t,n)\r\ntri_comptage(t,n)\r\nprint(\"----- après Tri comptage ----\")\r\nafficher(t,n)\n\n--- FICHIER: inscription.html ---\n<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>TP5 PHP By Oussama TEZEGHDENTI</title>\r\n    <script src=\"fonctions.js\"></script>\r\n</head>\r\n<body>\r\n    <form action=\"traitement.php\" method=\"POST\" onsubmit=\"return verif();\">\r\n        <label for=\"login\"> Login: </label> \r\n        <input type=\"text\" name=\"login\" id=\"login\"> <br>\r\n\r\n        <label for=\"password\">Mot de passe :</label> \r\n        <input type=\"password\" name=\"password\" id=\"password\"> <br>\r\n\r\n        <label for=\"nom\">Nom :</label> \r\n        <input type=\"text\" name=\"nom\" id=\"nom\"> <br>\r\n\r\n        <label for=\"prenom\">Prénom :</label>\r\n        <input type=\"text\" name=\"prenom\" id=\"prenom\" value=\"Oussama\"> <br>\r\n\r\n        <label for=\"date_naiss\">Date de Naissance :</label> \r\n        <input type=\"date\" name=\"date_naiss\" id=\"date_naiss\"> <br>\r\n\r\n        <label for=\"heure\">Heure :</label> \r\n        <input type=\"time\" name=\"heure\" id=\"heure\"> <br>\r\n\r\n        <label for=\"mail\">Email :</label> \r\n        <input type=\"email\" name=\"mail\" id=\"mail\" placeholder=\"username@server.extention\"> <br>\r\n\r\n        <fieldset>\r\n            <legend>Sexe :</legend>\r\n            <input type=\"radio\" name=\"sexe\" id=\"homme\" value=\"H\"> Homme\r\n            <input type=\"radio\" name=\"sexe\" id=\"femme\" value=\"F\"> Femme\r\n        </fieldset>\r\n        <br>\r\n\r\n        <label for=\"sports\">Sports :</label>\r\n        <input type=\"checkbox\" name=\"foot\" id=\"foot\" value=\"O\"> Football\r\n        <input type=\"checkbox\" name=\"hand\" id=\"hand\" value=\"O\"> Handball\r\n        <input type=\"checkbox\" name=\"tennis\" id=\"tennis\" value=\"O\"> Tennis\r\n        <br><br>\r\n\r\n        <label for=\"pays\">Pays :</label>\r\n        <select name=\"pays\" id=\"pays\">\r\n            <option value=\"\">Veuillez choisir un pays SVP</option>\r\n            <option value=\"TN\">Tunisie</option>\r\n            <option value=\"AL\">Algérie</option>\r\n            <option value=\"LY\">Lybie</option>\r\n        </select>\r\n        <br><br>\r\n\r\n        <label for=\"ville\">Ville :</label>\r\n        <input list=\"listeVilles\" name=\"ville\" id=\"ville\" placeholder=\"Choisissez ou tapez une ville\">\r\n        <datalist id=\"listeVilles\">\r\n            <option value=\"Tataouine\">\r\n            <option value=\"Gabès\">\r\n            <option value=\"Sfax\">\r\n            <option value=\"Tunis\">\r\n            <option value=\"Djerba\">\r\n        </datalist>\r\n        <br><br>\r\n\r\n        <label for=\"remarques\">Remarques :</label><br>\r\n        <textarea name=\"remarques\" id=\"remarques\" cols=\"30\" rows=\"10\"></textarea>\r\n        <br><br>\r\n\r\n        <input type=\"submit\" value=\"Envoyer\">\r\n        <input type=\"reset\" value=\"Réinitialiser\">\r\n    </form>\r\n</body>\r\n</html>\r\n\n\n--- FICHIER: traitment.php ---\n<?php\r\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\");\r\n\r\n$login      = $_POST[\"login\"];\r\n$password   = $_POST[\"password\"];\r\n$nom        = $_POST[\"nom\"];\r\n$prenom     = $_POST[\"prenom\"];\r\n$date_naiss = $_POST[\"date_naiss\"];\r\n$heure      = $_POST[\"heure_naiss\"];\r\n$mail       = $_POST[\"mail\"];\r\n$sexe       = $_POST[\"sexe\"];\r\n$foot       = $_POST[\"foot\"];\r\n$hand       = $_POST[\"hand\"];\r\n$tennis     = $_POST[\"tennis\"];\r\n$pays       = $_POST[\"pays\"];\r\n$ville      = $_POST[\"ville\"];\r\n$remarques  = $_POST[\"remarques\"];\r\n\r\n$sql = \"INSERT INTO aparticipant \r\n(login, password, nom, prenom, date_naiss, heure_naiss, mail, sexe, foot, hand, tennis, pays, ville, remarques) \r\nVALUES \r\n('$login', '$password', '$nom', '$prenom', '$date_naiss', '$heure', '$mail', '$sexe', '$foot', '$hand', '$tennis', '$pays', '$ville', '$remarques')\";\r\n\r\nif (mysqli_query($cnx, $sql)) {\r\n    echo \" Données insérées avec succès !\";\r\n} else {\r\n    echo \" Erreur : \" ;\r\n}\r\n\r\nmysqli_close($cnx);\r\n?>\r\n\n\n--- FICHIER: tri_insertion.py ---\nfrom random import randint\ndef saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\ndef generer_tab(T,N):\n    for i in range(N):\n        T[i]=randint(-99,99)\ndef tri_insertion (T,N):\n     for i in range(1,N):\n        aux=T[i]\n        p=i-1\n        while (p>=0) and (T[p]>aux):\n            T[p+1]=T[p]\n            p=p-1\n        T[p+1]=aux\n        \ndef affiche(T,N):\n    for i in range (N):\n        print(T[i],end=' | ')\n    print()\n\n############ Programme Principale ##########\nprint('------------ Tri par insertion -----------')\nsaisie()\nT=[0]*N\ngenerer_tab(T,N)\nprint(\"*** Avant le tri***\" )\naffiche(T,N)\ntri_insertion(T,N)\nprint(\"*** Après le tri***\" )\naffiche(T,N)\n\n\n\n\n\n--- FICHIER: login.html ---\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n  <form action=\"tp2.php\" method=\"post\">\r\n    <label for=\"\">Login:</label>\r\n    <input type=\"text\" name=\"login\" id=\"login\"><br>\r\n    <label for=\"\">Password:</label>\r\n    <input type=\"password\" name=\"passwd\" id=\"passwd\"><br>\r\n    <input type=\"submit\" value=\"Connexion\">\r\n    <input type=\"reset\" value=\"Rétablir\">\r\n  </form>  \r\n</body>\r\n</html>\n\n--- FICHIER: Sondage.html ---\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <title>Sondage</title>\r\n    <script src=\"Controle.js\"></script>\r\n</head>\r\n<body>\r\n\r\n<form action=\"Sondage.php\" method=\"post\" onsubmit=\"return test();\">\r\n    <fieldset>\r\n        <legend>Sondage</legend>\r\n\r\n        <h3>Authentification / Inscription :</h3>\r\n\r\n        <label>@Mail :</label>\r\n        <input type=\"text\" name=\"mail\"><br><br>\r\n\r\n        <label>Mot de passe :</label>\r\n        <input type=\"password\" name=\"mdp\"><br><br>\r\n\r\n        <label>Genre :</label>\r\n        <select name=\"genre\">\r\n            <option value=\"\">Indiquer votre genre</option>\r\n            <option value=\"M\">Masculin</option>\r\n            <option value=\"F\">Féminin</option>\r\n        </select>\r\n\r\n        <h3>Les réseaux sociaux :</h3>\r\n\r\n        <table border=\"1\">\r\n            <tr>\r\n                <th>N°</th>\r\n                <th>Question / Affirmation</th>\r\n                <th>Oui</th>\r\n                <th>Non</th>\r\n                <th>Sans avis</th>\r\n            </tr>\r\n            <tr>\r\n                <td>1</td>\r\n                <td>Les informations partagées sur les réseaux sociaux sont fiables</td>\r\n                <td><input type=\"radio\" name=\"q1\" value=\"1O\"></td>\r\n                <td><input type=\"radio\" name=\"q1\" value=\"1N\"></td>\r\n                <td><input type=\"radio\" name=\"q1\" value=\"1S\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td>2</td>\r\n                <td>L'usage des réseaux sociaux par les enfants doit être sous le contrôle parental</td>\r\n                <td><input type=\"radio\" name=\"q2\" value=\"2O\"></td>\r\n                <td><input type=\"radio\" name=\"q2\" value=\"2N\"></td>\r\n                <td><input type=\"radio\" name=\"q2\" value=\"2S\"></td>\r\n            </tr>\r\n            <tr>\r\n                <td>3</td>\r\n                <td>Les réseaux sociaux deviennent une nécessité pour les citoyens</td>\r\n                <td><input type=\"radio\" name=\"q3\" value=\"3O\"></td>\r\n                <td><input type=\"radio\" name=\"q3\" value=\"3N\"></td>\r\n                <td><input type=\"radio\" name=\"q3\" value=\"3S\"></td>\r\n            </tr>\r\n        </table>\r\n\r\n        <br>\r\n        <input type=\"reset\" value=\"Annuler\">\r\n        <input type=\"submit\" value=\"Envoyer\">\r\n    </fieldset>\r\n</form>\r\n\r\n</body>\r\n</html>\n\n",
+  "zipEntries": [
+    {
+      "name": "Correction STI pratique/sw bac 2021(done)/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "Correction STI pratique/sw bac 2020(done)/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "Correction STI pratique/sw bac 2023(done)/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "Correction STI pratique/sw bac 2022(done)/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "Correction STI pratique/sw 2023 session rattrapage(done)/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "mot-de-passe.html",
+      "sizeBytes": 924,
+      "isDirectory": false
+    },
+    {
+      "name": "maquette.png",
+      "sizeBytes": 15234,
+      "isDirectory": false
+    },
+    {
+      "name": "imc.html",
+      "sizeBytes": 629,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/partie.png",
+      "sizeBytes": 7854,
+      "isDirectory": false
+    },
+    {
+      "name": "act6.html",
+      "sizeBytes": 370,
+      "isDirectory": false
+    },
+    {
+      "name": "Statistiques.html",
+      "sizeBytes": 627,
+      "isDirectory": false
+    },
+    {
+      "name": "style(2).css",
+      "sizeBytes": 1136,
+      "isDirectory": false
+    },
+    {
+      "name": "animation.html",
+      "sizeBytes": 792,
+      "isDirectory": false
+    },
+    {
+      "name": "Pratiquons le JavaScript  1.docx",
+      "sizeBytes": 155701,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/Annexe.png",
+      "sizeBytes": 13874,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.3_22.23_Cor.pdf",
+      "sizeBytes": 327333,
+      "isDirectory": false
+    },
+    {
+      "name": "JavaScript Display mona.docx",
+      "sizeBytes": 24668,
+      "isDirectory": false
+    },
+    {
+      "name": "Exercice1sql correction mona.docx",
+      "sizeBytes": 14174,
+      "isDirectory": false
+    },
+    {
+      "name": "enoncé TP 3 PHP insertion 4 champs formulaire.pdf",
+      "sizeBytes": 534736,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/bdgestionjeux.sql",
+      "sizeBytes": 4781,
+      "isDirectory": false
+    },
+    {
+      "name": "fonctions(1).js",
+      "sizeBytes": 505,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/controle.js",
+      "sizeBytes": 779,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.3_21.22_Cor.pdf",
+      "sizeBytes": 355084,
+      "isDirectory": false
+    },
+    {
+      "name": "stylea.css",
+      "sizeBytes": 2603,
+      "isDirectory": false
+    },
+    {
+      "name": "bac-pratique-23052011-tic-8h30 (1).pdf",
+      "sizeBytes": 460335,
+      "isDirectory": false
+    },
+    {
+      "name": "Les Fichiers Textes.png",
+      "sizeBytes": 5168140,
+      "isDirectory": false
+    },
+    {
+      "name": "tp1php.php",
+      "sizeBytes": 715,
+      "isDirectory": false
+    },
+    {
+      "name": "resume bdr sgbdr et contraintes.pdf",
+      "sizeBytes": 597716,
+      "isDirectory": false
+    },
+    {
+      "name": "4.Resume_Primitives.pdf",
+      "sizeBytes": 198473,
+      "isDirectory": false
+    },
+    {
+      "name": "tri_shell.py",
+      "sizeBytes": 850,
+      "isDirectory": false
+    },
+    {
+      "name": "login.php",
+      "sizeBytes": 453,
+      "isDirectory": false
+    },
+    {
+      "name": "Bac 2024/Mot de pass.txt",
+      "sizeBytes": 56,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.2_20.21_Cor.pdf",
+      "sizeBytes": 490896,
+      "isDirectory": false
+    },
+    {
+      "name": "Statistiques.php",
+      "sizeBytes": 3057,
+      "isDirectory": false
+    },
+    {
+      "name": "boucles.php",
+      "sizeBytes": 529,
+      "isDirectory": false
+    },
+    {
+      "name": "login(2).html",
+      "sizeBytes": 500,
+      "isDirectory": false
+    },
+    {
+      "name": "Ressources.rar",
+      "sizeBytes": 1287,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription(1).php",
+      "sizeBytes": 385,
+      "isDirectory": false
+    },
+    {
+      "name": "tri fusion.py",
+      "sizeBytes": 1721,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/inscription.png",
+      "sizeBytes": 16798,
+      "isDirectory": false
+    },
+    {
+      "name": "Controle.js",
+      "sizeBytes": 2493,
+      "isDirectory": false
+    },
+    {
+      "name": "login(1).php",
+      "sizeBytes": 453,
+      "isDirectory": false
+    },
+    {
+      "name": "style(1).css",
+      "sizeBytes": 150,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/mesStyles.css",
+      "sizeBytes": 206,
+      "isDirectory": false
+    },
+    {
+      "name": "Tp1 UI.rar",
+      "sizeBytes": 3640,
+      "isDirectory": false
+    },
+    {
+      "name": "tp trans.html",
+      "sizeBytes": 563,
+      "isDirectory": false
+    },
+    {
+      "name": "Question.txt",
+      "sizeBytes": 475,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription.php",
+      "sizeBytes": 1151,
+      "isDirectory": false
+    },
+    {
+      "name": "fonctions.js",
+      "sizeBytes": 1466,
+      "isDirectory": false
+    },
+    {
+      "name": "script.js",
+      "sizeBytes": 1032,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/mesStyles.css",
+      "sizeBytes": 206,
+      "isDirectory": false
+    },
+    {
+      "name": "mot masques.py",
+      "sizeBytes": 1631,
+      "isDirectory": false
+    },
+    {
+      "name": "tri_bulles.py",
+      "sizeBytes": 923,
+      "isDirectory": false
+    },
+    {
+      "name": "insertion.html",
+      "sizeBytes": 980,
+      "isDirectory": false
+    },
+    {
+      "name": "login(3).html",
+      "sizeBytes": 807,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription(1).html",
+      "sizeBytes": 2757,
+      "isDirectory": false
+    },
+    {
+      "name": "bd_dc1_2025_2026.sql",
+      "sizeBytes": 2540,
+      "isDirectory": false
+    },
+    {
+      "name": "style.css",
+      "sizeBytes": 898,
+      "isDirectory": false
+    },
+    {
+      "name": "users.sql",
+      "sizeBytes": 1227,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/voiture.png",
+      "sizeBytes": 14648,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO  2024/Philo_Fok_Nje7ik.pdf",
+      "sizeBytes": 114926,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/controle.js",
+      "sizeBytes": 741,
+      "isDirectory": false
+    },
+    {
+      "name": "users(1).sql",
+      "sizeBytes": 1227,
+      "isDirectory": false
+    },
+    {
+      "name": "nombre or.rar",
+      "sizeBytes": 1234,
+      "isDirectory": false
+    },
+    {
+      "name": "config.php",
+      "sizeBytes": 362,
+      "isDirectory": false
+    },
+    {
+      "name": "tri_selection.py",
+      "sizeBytes": 689,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/Joueur.png",
+      "sizeBytes": 11221,
+      "isDirectory": false
+    },
+    {
+      "name": "cont.js",
+      "sizeBytes": 384,
+      "isDirectory": false
+    },
+    {
+      "name": "4.Resume_Dérivabilité.pdf",
+      "sizeBytes": 316598,
+      "isDirectory": false
+    },
+    {
+      "name": "formulaire.php",
+      "sizeBytes": 1129,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription(3).html",
+      "sizeBytes": 714,
+      "isDirectory": false
+    },
+    {
+      "name": "Ressources EP STI 2025/Sti.rar",
+      "sizeBytes": 35758,
+      "isDirectory": false
+    },
+    {
+      "name": "login(1).html",
+      "sizeBytes": 2644,
+      "isDirectory": false
+    },
+    {
+      "name": "cont(1).js",
+      "sizeBytes": 584,
+      "isDirectory": false
+    },
+    {
+      "name": "js3.docx",
+      "sizeBytes": 956518,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/Jeu.png",
+      "sizeBytes": 11051,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/location.png",
+      "sizeBytes": 9906,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/logo.png",
+      "sizeBytes": 13328,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_.docx",
+      "sizeBytes": 106179,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/bdgestiondelocations.sql",
+      "sizeBytes": 4744,
+      "isDirectory": false
+    },
+    {
+      "name": "HEADER FOOTER ARTICLE SECTION NAV ASIDE.docx",
+      "sizeBytes": 92972,
+      "isDirectory": false
+    },
+    {
+      "name": "Correction TP3 PHP.jpg",
+      "sizeBytes": 818523,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/img.jpg",
+      "sizeBytes": 796811,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/Annexe.png",
+      "sizeBytes": 17733,
+      "isDirectory": false
+    },
+    {
+      "name": "bd_rayenmkadmini.sql",
+      "sizeBytes": 4005,
+      "isDirectory": false
+    },
+    {
+      "name": "TP4 PHP Login.pdf",
+      "sizeBytes": 420376,
+      "isDirectory": false
+    },
+    {
+      "name": "sti epreuve blanc/Sti.rar",
+      "sizeBytes": 910,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6_ Ressources/icone.png",
+      "sizeBytes": 22361,
+      "isDirectory": false
+    },
+    {
+      "name": "style(3).css",
+      "sizeBytes": 51,
+      "isDirectory": false
+    },
+    {
+      "name": "mini_calc.html",
+      "sizeBytes": 1340,
+      "isDirectory": false
+    },
+    {
+      "name": "triangle pascal .zip",
+      "sizeBytes": 1682,
+      "isDirectory": false
+    },
+    {
+      "name": "TP1_PHP_HTML.pdf",
+      "sizeBytes": 147754,
+      "isDirectory": false
+    },
+    {
+      "name": "Sondage.php",
+      "sizeBytes": 2411,
+      "isDirectory": false
+    },
+    {
+      "name": "login(2).php",
+      "sizeBytes": 915,
+      "isDirectory": false
+    },
+    {
+      "name": "Suite fibonacci.zip",
+      "sizeBytes": 1544,
+      "isDirectory": false
+    },
+    {
+      "name": "annexe javaScript v02.docx",
+      "sizeBytes": 18629,
+      "isDirectory": false
+    },
+    {
+      "name": "TD les fichiers Binaires.rar",
+      "sizeBytes": 1020,
+      "isDirectory": false
+    },
+    {
+      "name": "TP Base de données.docx",
+      "sizeBytes": 23316,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.3_22.23.pdf",
+      "sizeBytes": 444170,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription(2).html",
+      "sizeBytes": 3280,
+      "isDirectory": false
+    },
+    {
+      "name": "tri comptage.py",
+      "sizeBytes": 1311,
+      "isDirectory": false
+    },
+    {
+      "name": "sti epreuve blanc/solution TP.rar",
+      "sizeBytes": 6918,
+      "isDirectory": false
+    },
+    {
+      "name": "ds1 sti 3 si 2 mona.docx",
+      "sizeBytes": 538921,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.2_20.21.pdf",
+      "sizeBytes": 315858,
+      "isDirectory": false
+    },
+    {
+      "name": "TP2 LES BOUCLES CONDITION TABLEAU ET GET POST.pdf",
+      "sizeBytes": 425820,
+      "isDirectory": false
+    },
+    {
+      "name": "inscription.html",
+      "sizeBytes": 2733,
+      "isDirectory": false
+    },
+    {
+      "name": "TD les fichiers textes.rar",
+      "sizeBytes": 1068,
+      "isDirectory": false
+    },
+    {
+      "name": "Résume Qt  Platforms fok nje7ek2.pdf",
+      "sizeBytes": 719104,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO/المنهجية GOLDEN BAC 94193616.pdf",
+      "sizeBytes": 1973456,
+      "isDirectory": false
+    },
+    {
+      "name": "devoir-de-synthèse-n°3--2012-2013(galai).pdf",
+      "sizeBytes": 556326,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO  2024/PHILO TOUTES ANNEE.pdf",
+      "sizeBytes": 1426973,
+      "isDirectory": false
+    },
+    {
+      "name": "traitment.php",
+      "sizeBytes": 995,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6 Ressources/img.jpg",
+      "sizeBytes": 43040,
+      "isDirectory": false
+    },
+    {
+      "name": "4.G.Resume_Logarithmes.pdf",
+      "sizeBytes": 219568,
+      "isDirectory": false
+    },
+    {
+      "name": "tri_insertion.py",
+      "sizeBytes": 764,
+      "isDirectory": false
+    },
+    {
+      "name": "Prototype Bac pratique 2025/DCN°6.docx",
+      "sizeBytes": 109439,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO/الخصوصية والكونية GOLDEN BAC 94193616.pdf",
+      "sizeBytes": 1305756,
+      "isDirectory": false
+    },
+    {
+      "name": "login.html",
+      "sizeBytes": 535,
+      "isDirectory": false
+    },
+    {
+      "name": "Sondage.html",
+      "sizeBytes": 2295,
+      "isDirectory": false
+    },
+    {
+      "name": "correction bac pratique 2024-2025.rar",
+      "sizeBytes": 7750,
+      "isDirectory": false
+    },
+    {
+      "name": "2.Sc.S.3_21.22.pdf",
+      "sizeBytes": 262838,
+      "isDirectory": false
+    },
+    {
+      "name": "Systèmes et Technologies de l’Informatique 2026.pdf",
+      "sizeBytes": 1315806,
+      "isDirectory": false
+    },
+    {
+      "name": "bac 2025.rar",
+      "sizeBytes": 85571,
+      "isDirectory": false
+    },
+    {
+      "name": "sti epreuve blanc/sti epreuve.pdf",
+      "sizeBytes": 667130,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO/تمارين الانية GOLDEN BAC 94193616.pdf",
+      "sizeBytes": 3028038,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO/درس الانية و الغيرية GOLDEN BAC 94193616.pdf",
+      "sizeBytes": 4283399,
+      "isDirectory": false
+    },
+    {
+      "name": "Ressources_DC2_STI_2025_2026.rar",
+      "sizeBytes": 3253,
+      "isDirectory": false
+    },
+    {
+      "name": "bac-pratique-19052025-sti-8h30.pdf",
+      "sizeBytes": 967457,
+      "isDirectory": false
+    },
+    {
+      "name": "Ressources_Dc1_2025_2026.rar",
+      "sizeBytes": 2535,
+      "isDirectory": false
+    },
+    {
+      "name": "Annexes html css sql php js 4si v2025.pdf",
+      "sizeBytes": 4445407,
+      "isDirectory": false
+    },
+    {
+      "name": "JavaScript Annexe 2025.pdf",
+      "sizeBytes": 302239,
+      "isDirectory": false
+    },
+    {
+      "name": "Mockup Jersey 04.cdr",
+      "sizeBytes": 7567079,
+      "isDirectory": false
+    },
+    {
+      "name": "Bac 2024/Bac 2024.rar",
+      "sizeBytes": 2995349,
+      "isDirectory": false
+    },
+    {
+      "name": "RESUM2 tp1 2 3 4 ET 5.pdf",
+      "sizeBytes": 4451622,
+      "isDirectory": false
+    },
+    {
+      "name": "2025 Bac sti.pdf",
+      "sizeBytes": 6014982,
+      "isDirectory": false
+    },
+    {
+      "name": "tp 5 insertion tous les champs.pdf",
+      "sizeBytes": 4311935,
+      "isDirectory": false
+    },
+    {
+      "name": "Mathématique - 3ème année Sciences de l_Informatique.pdf",
+      "sizeBytes": 6308143,
+      "isDirectory": false
+    },
+    {
+      "name": "revision html5 css3.docx",
+      "sizeBytes": 220994,
+      "isDirectory": false
+    },
+    {
+      "name": "correction dc1 4si1 STI.pdf",
+      "sizeBytes": 10457584,
+      "isDirectory": false
+    },
+    {
+      "name": "PHILO/philo - toute l_année.pdf",
+      "sizeBytes": 21900495,
+      "isDirectory": false
+    },
+    {
+      "name": "Le.condensateur.exercises.corriges.pdf",
+      "sizeBytes": 3937768,
+      "isDirectory": false
+    },
+    {
+      "name": "livre bd.pdf",
+      "sizeBytes": 12135568,
+      "isDirectory": false
+    },
+    {
+      "name": "bacsti2024scinfo.pdf",
+      "sizeBytes": 4088680,
+      "isDirectory": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-8910B5CF3BE1F693",
+  "filename": "serie 3 ex2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex2.py",
+  "sha256": "8910b5cf3be1f693ac54b225d846f65230109bb304757112d2480d42fc36c4ed",
+  "extractedAt": "2026-11-06T14:24:39.910Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(not(b)): s=input('introduire une 1 ère chaine') b=verif(s) return s def saisie1(l): b=False while(not(b)): s=input('introduire une 2 ème chaine') b=nb_mot(s)==l and verif(s) return s def verif(s): b=(len(s)>0 ) i=-1 while (b and (i<len(s)-1)): i=i+1 c=s[i] b=('A'<=c<='Z') or c==' ' return b def nb_mot(s): s1=' ' while(s.find(s1)!=-1):",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  1 ère chaine')\r\n        b=verif(s)\r\n    return s\r\ndef saisie1(l):\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  2 ème chaine')\r\n        b=nb_mot(s)==l and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) \r\n    i=-1\r\n    while (b and (i<len(s)-1)):\r\n        i=i+1\r\n        c=s[i]\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\n\r\ndef nb_mot(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-1]==' ':\r\n        s=s[:len(s)-1]\r\n    if s[0]==' ':\r\n        s=s[1:]\r\n    nb=1\r\n    for i in range(0,len(s)):\r\n        if s[i]==' ':\r\n            nb=nb+1\r\n    return nb\r\n    \r\ndef nb_mot_commun(s1,s2):\r\n    ch=' '\r\n    nb=0\r\n    s1=s1[:]+' '\r\n    while(s1!=''):\r\n        x=s1.find(ch)\r\n        y=s1[:x]\r\n        #print('y=',y)\r\n        p=s2.find(y)\r\n        s1=s1[x+1:]\r\n        #print('s1=',s1)\r\n        if p!=-1:\r\n            nb=nb+1\r\n            s2=s2[:p]+s2[p+len(y)+1:len(s2)]\r\n        \r\n    return nb\r\n\r\ndef affiche(x,a):\r\n    b=(x/a)*100\r\n    print('b=',b)\r\n    if b>=50:\r\n        print('le texte est plagié')\r\n    else:\r\n        print('le texte n\\'est pas plagié')\r\nt1=saisie()\r\na=nb_mot(t1)\r\nt2=saisie1(a)\r\nx=nb_mot_commun(t1,t2)\r\naffiche(x,a)",
+  "chunks": [
+    {
+      "chunkId": "DOC-8910B5CF3BE1F693-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  1 ère chaine')\r\n        b=verif(s)\r\n    return s\r\ndef saisie1(l):\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  2 ème chaine')\r\n        b=nb_mot(s)==l and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) \r\n    i=-1\r\n    while (b and (i<len(s)-1)):\r\n        i=i+1\r\n        c=s[i]\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\n\ndef nb_mot(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-1]==' ':\r\n        s=s[:len(s)-1]\r\n    if s[0]==' ':\r\n        s=s[1:]\r\n    nb=1\r\n    for i in range(0,len(s)):\r\n        if s[i]==' ':\r\n            nb=nb+1\r\n    return nb"
+    },
+    {
+      "chunkId": "DOC-8910B5CF3BE1F693-CHK-002",
+      "text": "def nb_mot_commun(s1,s2):\r\n    ch=' '\r\n    nb=0\r\n    s1=s1[:]+' '\r\n    while(s1!=''):\r\n        x=s1.find(ch)\r\n        y=s1[:x]\r\n        #print('y=',y)\r\n        p=s2.find(y)\r\n        s1=s1[x+1:]\r\n        #print('s1=',s1)\r\n        if p!=-1:\r\n            nb=nb+1\r\n            s2=s2[:p]+s2[p+len(y)+1:len(s2)]\r\n\n    return nb\r\n\ndef affiche(x,a):\r\n    b=(x/a)*100\r\n    print('b=',b)\r\n    if b>=50:\r\n        print('le texte est plagié')\r\n    else:\r\n        print('le texte n\\'est pas plagié')\r\nt1=saisie()\r\na=nb_mot(t1)\r\nt2=saisie1(a)\r\nx=nb_mot_commun(t1,t2)\r\naffiche(x,a)"
+    }
+  ]
+}

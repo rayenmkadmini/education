@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-9DAAE50A58F1992A",
+  "filename": "style.css",
+  "relPath": "bac info/sti/projet 3 version élève/style.css",
+  "sha256": "9daae50a58f1992a07f0973d441800f92321948ad85af2b6d4462635b89d1fd7",
+  "extractedAt": "2026-11-06T14:24:19.050Z",
+  "pageCount": 1,
+  "textSnippet": "*{ line-height: 2; } header,footer{ background-image: url(files/ground.jpg); background-repeat: no-repeat; background-size: cover; height: 100px; } #logo{ height: 100px; } h1{ color: aqua; display: inline-block; transition:4s transform; } h1:hover{ transform:translate(500px,0); color: chocolate; } main{ display: flex; justify-content: space-between; line-height: 4px; height: 500px; background-image: url(fil",
+  "fullText": "*{\r\n    line-height: 2;\r\n}\r\nheader,footer{\r\n    background-image: url(files/ground.jpg);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    height: 100px;\r\n}\r\n#logo{\r\n    height: 100px;\r\n}\r\nh1{\r\n    color: aqua;\r\n    display: inline-block;\r\n    transition:4s transform;\r\n}\r\nh1:hover{\r\n    transform:translate(500px,0);\r\n    color: chocolate;\r\n}\r\nmain{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    line-height: 4px;\r\n    height: 500px;\r\n    background-image: url(files/bg1.png);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\niframe{\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\nnav{\r\n    width: 30%;\r\n}\r\nsection{\r\n    width: 70%;\r\n}\r\nli{\r\n    list-style: none;\r\n    color: rgb(33, 120, 126);\r\n    text-decoration: none;\r\n}\r\n#ajout{\r\n    text-decoration: none;\r\n    color: rgb(33, 120, 126);\r\n\r\n}\r\nfieldset{\r\n    display: inline-block;\r\n    justify-content: center;\r\n    border-radius: 0px 20px 0px 20px;\r\n    background-image: url(files/ground.jpg);\r\n    width: 400px;\r\n    height: 400px;\r\n    text-align: center;\r\n}\r\n.supp{\r\n    width: 300px;\r\n    height: 350px;\r\n    justify-content: center;\r\n}\r\nlegend{\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n    text-shadow: 3px 3px rgb(222, 212, 212) ;\r\n    color: aqua;\r\n    font-size: larger;\r\n    text-align: left;\r\n}\r\n.input{\r\n    width: 80%;\r\n    border-radius: 20px;\r\n    line-height: 20px;\r\n    padding: 5px;\r\n    margin: 5px;\r\n    text-align: center;\r\n    \r\n}\r\n::placeholder{\r\n    text-align: center;\r\n}\r\n.element{\r\n    color: aliceblue;\r\n    font-size: larger;\r\n    \r\n}\r\n.bt{\r\n    background-color: black;\r\n    color: white;\r\n    width: 80%;\r\n    border-radius: 20px;\r\n    padding: 1px;\r\n    margin: 3px;\r\n}\r\np{\r\n    color: cyan;\r\n    font-family: cursive;\r\n}",
+  "chunks": [
+    {
+      "chunkId": "DOC-9DAAE50A58F1992A-CHK-001",
+      "text": "*{\r\n    line-height: 2;\r\n}\r\nheader,footer{\r\n    background-image: url(files/ground.jpg);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    height: 100px;\r\n}\r\n#logo{\r\n    height: 100px;\r\n}\r\nh1{\r\n    color: aqua;\r\n    display: inline-block;\r\n    transition:4s transform;\r\n}\r\nh1:hover{\r\n    transform:translate(500px,0);\r\n    color: chocolate;\r\n}\r\nmain{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    line-height: 4px;\r\n    height: 500px;\r\n    background-image: url(files/bg1.png);\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n}\r\niframe{\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\nnav{\r\n    width: 30%;\r\n}\r\nsection{\r\n    width: 70%;\r\n}\r\nli{\r\n    list-style: none;\r\n    color: rgb(33, 120, 126);\r\n    text-decoration: none;\r\n}\r\n#ajout{\r\n    text-decoration: none;\r\n    color: rgb(33, 120, 126);"
+    },
+    {
+      "chunkId": "DOC-9DAAE50A58F1992A-CHK-002",
+      "text": "}\r\nfieldset{\r\n    display: inline-block;\r\n    justify-content: center;\r\n    border-radius: 0px 20px 0px 20px;\r\n    background-image: url(files/ground.jpg);\r\n    width: 400px;\r\n    height: 400px;\r\n    text-align: center;\r\n}\r\n.supp{\r\n    width: 300px;\r\n    height: 350px;\r\n    justify-content: center;\r\n}\r\nlegend{\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n    text-shadow: 3px 3px rgb(222, 212, 212) ;\r\n    color: aqua;\r\n    font-size: larger;\r\n    text-align: left;\r\n}\r\n.input{\r\n    width: 80%;\r\n    border-radius: 20px;\r\n    line-height: 20px;\r\n    padding: 5px;\r\n    margin: 5px;\r\n    text-align: center;\r\n\n}\r\n::placeholder{\r\n    text-align: center;\r\n}\r\n.element{\r\n    color: aliceblue;\r\n    font-size: larger;"
+    },
+    {
+      "chunkId": "DOC-9DAAE50A58F1992A-CHK-003",
+      "text": "}\r\n.bt{\r\n    background-color: black;\r\n    color: white;\r\n    width: 80%;\r\n    border-radius: 20px;\r\n    padding: 1px;\r\n    margin: 3px;\r\n}\r\np{\r\n    color: cyan;\r\n    font-family: cursive;\r\n}"
+    }
+  ]
+}

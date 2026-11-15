@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-F84894590A7E2ABB",
+  "filename": "traitment.php",
+  "sha256": "f84894590a7e2abbb80db1cbe3ec02dd3b238448eff1d22f2eef6bf88303986a",
+  "extractedAt": "2026-11-06T14:00:41.552Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\"); $login = $_POST[\"login\"]; $password = $_POST[\"password\"]; $nom = $_POST[\"nom\"]; $prenom = $_POST[\"prenom\"]; $date_naiss = $_POST[\"date_naiss\"]; $heure = $_POST[\"heure_naiss\"]; $mail = $_POST[\"mail\"]; $sexe = $_POST[\"sexe\"]; $foot = $_POST[\"foot\"]; $hand = $_POST[\"hand\"]; $tennis = $_POST[\"tennis\"]; $pays = $_POST[\"pays\"]; $ville = $_POST[\"ville\"]; $",
+  "fullText": "<?php\r\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\");\r\n\r\n$login      = $_POST[\"login\"];\r\n$password   = $_POST[\"password\"];\r\n$nom        = $_POST[\"nom\"];\r\n$prenom     = $_POST[\"prenom\"];\r\n$date_naiss = $_POST[\"date_naiss\"];\r\n$heure      = $_POST[\"heure_naiss\"];\r\n$mail       = $_POST[\"mail\"];\r\n$sexe       = $_POST[\"sexe\"];\r\n$foot       = $_POST[\"foot\"];\r\n$hand       = $_POST[\"hand\"];\r\n$tennis     = $_POST[\"tennis\"];\r\n$pays       = $_POST[\"pays\"];\r\n$ville      = $_POST[\"ville\"];\r\n$remarques  = $_POST[\"remarques\"];\r\n\r\n$sql = \"INSERT INTO aparticipant \r\n(login, password, nom, prenom, date_naiss, heure_naiss, mail, sexe, foot, hand, tennis, pays, ville, remarques) \r\nVALUES \r\n('$login', '$password', '$nom', '$prenom', '$date_naiss', '$heure', '$mail', '$sexe', '$foot', '$hand', '$tennis', '$pays', '$ville', '$remarques')\";\r\n\r\nif (mysqli_query($cnx, $sql)) {\r\n    echo \" Données insérées avec succès !\";\r\n} else {\r\n    echo \" Erreur : \" ;\r\n}\r\n\r\nmysqli_close($cnx);\r\n?>\r\n"
+}

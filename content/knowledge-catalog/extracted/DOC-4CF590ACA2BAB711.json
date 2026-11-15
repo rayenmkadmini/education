@@ -1,0 +1,46 @@
+{
+  "documentId": "DOC-4CF590ACA2BAB711",
+  "filename": "bac-pratique-19052025-sti-fichiers.zip",
+  "sha256": "4cf590aca2bab711da005c20cf79d9393e89d3973e23f33aadfae983d7700ce0",
+  "extractedAt": "2026-11-06T14:00:18.381Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: bac-pratique-19052025-sti-fichiers.zip Nombre d'éléments: 7 --- FICHIER: affichage.html --- <!DOCTYPE HTML> <html> <head> <title>Affichage des droits d’accès - Futura Horizon AI</title> </head> <body> <form action=\"\" method=\"\"> <fieldset> <legend>Les droits d'accès d'un document</legend> <label>Nom du document :</label> <select id=\"doc\" name=\"doc\" size=\"1\"> <option value=\"\" selected>Sélectionner un document",
+  "fullText": "Archive ZIP: bac-pratique-19052025-sti-fichiers.zip\nNombre d'éléments: 7\n\n--- FICHIER: affichage.html ---\n﻿<!DOCTYPE HTML>\r\n<html>\r\n<head>\r\n  <title>Affichage des droits d’accès - Futura Horizon AI</title>\r\n</head>\r\n<body>\r\n    <form action=\"\" method=\"\">\r\n        <fieldset>\r\n          <legend>Les droits d'accès d'un document</legend>\r\n            <label>Nom du document :</label>\r\n            <select id=\"doc\" name=\"doc\" size=\"1\">\r\n                <option value=\"\" selected>Sélectionner un document</option>\r\n                <option value=\"D0001\">Liste employés.pdf</option>\r\n                <option value=\"D0002\">Demande de congés.docx</option>\r\n                <option value=\"D0003\">Réclamation ouvriers.docx</option>\r\n                <option value=\"D0004\">Statistiques2024.xlsx</option>\r\n            </select>\r\n    \t\t<br>\r\n            <br>\r\n            <div id=\"divbt\">\r\n              <input name=\"\" type=\"submit\" value=\"Afficher\">&nbsp;&nbsp;<input name=\"\" type=\"reset\" value=\"Annuler\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n</html>\n\n--- FICHIER: affichage.php ---\n﻿<?php\r\n\r\n\r\n$doc=$_POST[\"doc\"];\r\n$req=\"select nomdoc from document where (iddoc='$doc')\";\r\n$res=mysqli_query($con,$req)or die(mysqli_error($con));\r\n//Affichage du nom du document sélectionné dans la page affichage.html\r\nif (mysqli_num_rows($res)!=0)\r\n{\t$enreg=mysqli_fetch_array($res);\r\n\techo \"<h2>Les droits d'accès relatifs au document : \". $enreg[\"nomdoc\"].\"</h2><br>\";\r\n}\r\n\r\n ?>\n\n--- FICHIER: droit.html ---\n﻿<!DOCTYPE HTML>\r\n<html>\r\n<head>\r\n    <title>Attribution des droits d'accès - Futura Horizon AI</title>\r\n</head>\r\n<body>\r\n    <form action=\"\" method=\"\">\r\n    <fieldset>\r\n        <legend>Attribution des droits d'accès à un document</legend>\r\n        <label>Identifiant de l'utilisateur :</label>\r\n        <input id=\"\" name=\"\" type=\"text\"> <br>\r\n        <label>Nom du document :</label>\r\n        <select id=\"\" name=\"\" size=\"1\">\r\n            <option value=\"\" selected>Sélectionner un document</option>\r\n            <option value=\"D0001\">Liste employés.pdf</option>\r\n            <option value=\"D0002\">Demande de congés.docx</option>\r\n            <option value=\"D0003\">Réclamation ouvriers.docx</option>\r\n            <option value=\"D0004\">Statistiques2024.xlsx</option>\r\n        </select><br>\r\n        <label>Droit(s) accordé(s) :</label>\r\n        <input id=\"\" name=\"\" type=\"checkbox\">Ecriture\r\n        <input id=\"\" name=\"\" type=\"checkbox\">Lecture\r\n        <input id=\"\" name=\"\" type=\"checkbox\">Impression\r\n       <br><br>\r\n        <div id=\"divbt\">\r\n        <input name=\"bt1\" type=\"submit\" value=\"Enregistrer\">&nbsp;&nbsp;<input name=\"bt2\" type=\"reset\" value=\"Annuler\">\r\n        </div>\r\n    </fieldset>\r\n    </form>\r\n</body>\r\n</html>\n\n--- FICHIER: mesStyles.css ---\n#divbt { text-align: right }\r\n\r\nh1 {\r\n    position : relative;\r\n    left : 75px;\r\n    width : 95%;\r\n    height : 60px;\r\n    padding : 20px 0px 0px 0px; \r\n}\r\n\r\nimg {\r\n    width : 70px;\r\n    height : 80px;\r\n    position : fixed;\r\n    margin: 0px 0px 20px 0px   ;\r\n}\r\n\r\nnav {\r\n    height : 450px;\r\n    position : fixed;\r\n    width : 30%;\r\n}\r\n\r\nsection {\r\n        width : 70%;\r\n        height : 450px;\r\n        position : relative;\r\n        left : 25%;\r\n        border-radius : 3px;\r\n        box-shadow : 2px 5px 10px black;\r\n}\r\n\r\niframe {\r\n        width : 100%;\r\n        height : 100%;\r\n}\r\n\r\nfooter { margin : 20px 0px 0px 0px; }\r\n\r\nlabel {\r\n\t   width: 180px;\r\n       display: inline-block  ;\r\n       margin: 10px;\r\n}\r\n\r\nlegend { font-weight: bold ;}\r\n\r\ninput[type=\"text\"] { width: 172px; }\n\n--- FICHIER: tables.sql ---\n--\n-- Création de la table `document`\n--\n\nCREATE TABLE  `document` (\n  `idDoc` varchar(5) NOT NULL,\n  `nomDoc` varchar(50) NOT NULL DEFAULT '',\n  `dateCreation` datetime  NOT NULL,\n  PRIMARY KEY (`idDoc`)\n) ENGINE=InnoDB ;\n\n--\n-- Remplissage des données de la table `document`\n--\n\nINSERT INTO `document` (`idDoc`, `nomDoc`, `dateCreation`) VALUES\n('D0001', 'Liste employés.pdf', '2025-02-15 09:14:39'),\n('D0002', 'Demande de congés.docx', '2021-10-09 08:10:09'),\n('D0003', 'Réclamation ouvriers.docx', '2022-02-07 11:00:29'),\n('D0004', 'Statistiques2024.xlsx', '2025-01-31 07:00:20');\n\n-- --------------------------------------------------------\n\n--\n-- Création de la table `utilisateur`\n--\n\nCREATE TABLE `utilisateur` (\n  `idUtil` varchar(4) NOT NULL,\n  `nomPrenom` varchar(50) NOT NULL DEFAULT '',\n  PRIMARY KEY (`idUtil`)\n) ENGINE=InnoDB ;\n\n--\n-- Remplissage des données de la table `utilisateur`\n--\n\nINSERT INTO `utilisateur` (`idUtil`, `nomPrenom`) VALUES\n('U001', 'Ali GAFSI'),\n('U002', 'Mohamed SOUSSI'),\n('U003', 'Karima TOUNSI'),\n('U004', 'Kamel SFAXI'),\n('U005', 'Houda JANDOUBI'),\n('U006', 'Taoufik BEJI');\n\n\n\n",
+  "zipEntries": [
+    {
+      "name": "affichage.html",
+      "sizeBytes": 968,
+      "isDirectory": false
+    },
+    {
+      "name": "affichage.php",
+      "sizeBytes": 387,
+      "isDirectory": false
+    },
+    {
+      "name": "droit.html",
+      "sizeBytes": 1237,
+      "isDirectory": false
+    },
+    {
+      "name": "logo.png",
+      "sizeBytes": 35131,
+      "isDirectory": false
+    },
+    {
+      "name": "mesControles.js",
+      "sizeBytes": 325,
+      "isDirectory": false
+    },
+    {
+      "name": "mesStyles.css",
+      "sizeBytes": 787,
+      "isDirectory": false
+    },
+    {
+      "name": "tables.sql",
+      "sizeBytes": 1126,
+      "isDirectory": false
+    }
+  ]
+}

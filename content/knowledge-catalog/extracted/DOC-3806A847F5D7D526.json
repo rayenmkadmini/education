@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-3806A847F5D7D526",
+  "filename": "emprunt.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/emprunt.php",
+  "sha256": "3806a847f5d7d526028ea002697bf5aa6f21e7e7cbd24eaa24ebac6c9c867dbf",
+  "extractedAt": "2026-11-06T14:24:19.593Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>emprunt</title> <link rel=\"stylesheet\" href=\"styles.css\"> </head> <body> <form action=\"emprunt2.php\" method=\"post\"> <fieldset> <legend>Emprunt d'un livre</legend> <select name=\"cin\" id=\"cin\"> <option value=\"\">Choisir un N°CIN</option> <?php",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>emprunt</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n\r\n<body>\r\n    <form action=\"emprunt2.php\" method=\"post\">\r\n        <fieldset>\r\n            <legend>Emprunt d'un livre</legend>\r\n            <select name=\"cin\" id=\"cin\">\r\n                <option value=\"\">Choisir un N°CIN</option>\r\n                <?php\r\n                require(\"connexion.php\");\r\n                $req1 = \"SELECT cin from emprunt\";\r\n                $res1 = mysqli_query($cnx, $req1) or die(\"erreur1\" . mysqli_errno($cnx));\r\n                while ($t = mysqli_fetch_array($res1)) {\r\n                    echo \"<option value=\".$t[0].\">$t[0]</option>\";\r\n                }\r\n                ?>\r\n            </select><br>\r\n            <select name=\"num\" id=\"num\">\r\n                <option value=\"\">Choisir un titre</option>\r\n                <?php\r\n                require(\"connexion.php\");\r\n                $req2 = \"SELECT * from livre\";\r\n                $res2 = mysqli_query($cnx, $req2) or die(\"erreur2\" . mysqli_errno($cnx));\r\n                while ($t = mysqli_fetch_array($res2)) {\r\n                    echo \"<option value=\".$t[0].\">$t[1]</option>\";\r\n                }\r\n                ?>\r\n            </select>\r\n            <hr>\r\n            <input type=\"submit\" value=\"Valider\">\r\n            <input type=\"reset\" value=\"Annuler\">\r\n        </fieldset>\r\n    </form>\r\n\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-3806A847F5D7D526-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>emprunt</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>"
+    },
+    {
+      "chunkId": "DOC-3806A847F5D7D526-CHK-002",
+      "text": "<body>\r\n    <form action=\"emprunt2.php\" method=\"post\">\r\n        <fieldset>\r\n            <legend>Emprunt d'un livre</legend>\r\n            <select name=\"cin\" id=\"cin\">\r\n                <option value=\"\">Choisir un N°CIN</option>\r\n                <?php\r\n                require(\"connexion.php\");\r\n                $req1 = \"SELECT cin from emprunt\";\r\n                $res1 = mysqli_query($cnx, $req1) or die(\"erreur1\" . mysqli_errno($cnx));\r\n                while ($t = mysqli_fetch_array($res1)) {\r\n                    echo \"<option value=\".$t[0].\">$t[0]</option>\";\r\n                }\r\n                ?>\r\n            </select><br>\r\n            <select name=\"num\" id=\"num\">\r\n                <option value=\"\">Choisir un titre</option>\r\n                <?php\r\n                require(\"connexion.php\");\r\n                $req2 = \"SELECT * from livre\";\r\n                $res2 = mysqli_query($cnx, $req2) or die(\"erreur2\" . mysqli_errno($cnx));\r\n                while ($t = mysqli_fetch_array($res2)) {\r\n                    echo \"<option value=\".$t[0].\">$t[1]</option>\";\r\n                }\r\n                ?>\r\n            </select>\r\n            <hr>\r\n            <input type=\"submit\" value=\"Valider\">\r\n            <input type=\"reset\" value=\"Annuler\">\r\n        </fieldset>\r\n    </form>"
+    },
+    {
+      "chunkId": "DOC-3806A847F5D7D526-CHK-003",
+      "text": "</body>\r\n\n</html>"
+    }
+  ]
+}

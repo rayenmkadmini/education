@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F716E33741391513",
+  "filename": "acceuil.txt",
+  "relPath": "bac info/sti/devoir controle n°1/files/acceuil.txt",
+  "sha256": "f716e33741391513150dd3015a576bdda89c22e1833f8f6ac69afee4dd07b60a",
+  "extractedAt": "2026-11-06T14:24:10.844Z",
+  "pageCount": 1,
+  "textSnippet": "L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif . NOURANE a pour missions : La participation à l’effort National en vue de limiter l’expansion des maladies cancéreuses en Tunisie. Le développement des actions de prévention et de sensibilisation dans le domaine de la lutte contre le cancer.",
+  "fullText": "L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif .\r\nNOURANE a pour missions :\r\n\r\nLa participation à l’effort National en vue de limiter l’expansion des maladies cancéreuses en Tunisie.\r\nLe développement des actions de prévention et de sensibilisation dans le domaine de la lutte contre le cancer.",
+  "chunks": [
+    {
+      "chunkId": "DOC-F716E33741391513-CHK-001",
+      "text": "L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif .\r\nNOURANE a pour missions :\r\n\nLa participation à l’effort National en vue de limiter l’expansion des maladies cancéreuses en Tunisie.\r\nLe développement des actions de prévention et de sensibilisation dans le domaine de la lutte contre le cancer."
+    }
+  ]
+}

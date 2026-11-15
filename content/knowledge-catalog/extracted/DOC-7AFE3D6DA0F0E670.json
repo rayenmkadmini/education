@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-7AFE3D6DA0F0E670",
+  "filename": "EPREUVE_PRATIQUE_2013_9.30h.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_9.30h.py",
+  "sha256": "7afe3d6da0f0e6707bd930861f455ddce337ff6803b177f9d1bccabc5eb8ee8e",
+  "extractedAt": "2026-11-06T14:24:36.090Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T=array([int]*25) def Saisie(): b = False while not b : n=int(input(\"Saisir le nombre des cases: \")) b = 5 <= n <= 25 return n def Remplir(N): for i in range(N): T[i]=int(input(\"T[\"+str(i)+\"]= \")) def Majoritaire(N): R = 0 for i in range (N) : x = nombre_occurence(T,N,T[i]) if x > R : S = T[i] R = x return S, R def nombre_occurence(t,n,x): p =",
+  "fullText": "from numpy import *\r\n\r\nT=array([int]*25)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Saisir le nombre des cases: \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n\r\n\r\ndef Majoritaire(N):\r\n    R = 0\r\n    for i in range (N) :\r\n        x = nombre_occurence(T,N,T[i])\r\n        if x > R :\r\n            S = T[i]\r\n            R = x\r\n    \r\n    return S, R\r\n\r\ndef nombre_occurence(t,n,x):\r\n    p = 0\r\n    for i in range (n):\r\n        if t[i] == x :\r\n            p += 1\r\n    return p \r\n\r\ndef Afficher(T,N,a,b):\r\n    if b > N - b  :    \r\n        print(\"l'élément majoritaire est \",a)\r\n    else :\r\n        print(\"Il n'existe pas un élément majoritaire dans le tableau.\")\r\n\r\n    \r\n##############PP##################\r\nN = Saisie()\r\nRemplir(N) # ça doit etre une procédure\r\na,b= Majoritaire(N)\r\nAfficher(T,N,a,b)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-7AFE3D6DA0F0E670-CHK-001",
+      "text": "from numpy import *\r\n\nT=array([int]*25)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Saisir le nombre des cases: \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n\ndef Majoritaire(N):\r\n    R = 0\r\n    for i in range (N) :\r\n        x = nombre_occurence(T,N,T[i])\r\n        if x > R :\r\n            S = T[i]\r\n            R = x\r\n\n    return S, R\r\n\ndef nombre_occurence(t,n,x):\r\n    p = 0\r\n    for i in range (n):\r\n        if t[i] == x :\r\n            p += 1\r\n    return p \r\n\ndef Afficher(T,N,a,b):\r\n    if b > N - b  :    \r\n        print(\"l'élément majoritaire est \",a)\r\n    else :\r\n        print(\"Il n'existe pas un élément majoritaire dans le tableau.\")"
+    },
+    {
+      "chunkId": "DOC-7AFE3D6DA0F0E670-CHK-002",
+      "text": "##############PP##################\r\nN = Saisie()\r\nRemplir(N) # ça doit etre une procédure\r\na,b= Majoritaire(N)\r\nAfficher(T,N,a,b)"
+    }
+  ]
+}

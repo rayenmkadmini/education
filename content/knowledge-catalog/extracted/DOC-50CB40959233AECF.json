@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-50CB40959233AECF",
+  "filename": "evaluation.php",
+  "relPath": "bac info/sti/etude/bac preatique STI 2018/evaluation.php",
+  "sha256": "50cb40959233aecf0f5cef8b424a5e5d731cd9933512fbe06b769a296e0d93eb",
+  "extractedAt": "2026-11-06T14:24:17.280Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $hot = $_POST[\"hot\"]; $acceuil = $_POST[\"accueil\"]; $res = $_POST[\"Restauration\"]; $conn = mysqli_connect(\"localhost\", \"root\", \"\"); mysqli_select_db($conn, \"bd_bac_2018\"); $date = date(\"Y-m-d\"); echo $date; $req1 = \"SELECT * FROM evaluation WHERE DateEval='$date' AND Idhotel='$hot'\"; $rep1 = mysqli_query($conn, $req1); if (mysqli_num_rows($rep1) != 0) { echo \"Cet hôtel a déjà été évalué\"; } else { $date = date(\"Y-m-d\"); $somme = 0; $ex1 = $_POST[\"Extr",
+  "fullText": "<?php\r\n$hot = $_POST[\"hot\"];\r\n$acceuil = $_POST[\"accueil\"];\r\n$res = $_POST[\"Restauration\"];\r\n\r\n$conn = mysqli_connect(\"localhost\", \"root\", \"\");\r\nmysqli_select_db($conn, \"bd_bac_2018\");\r\n\r\n$date = date(\"Y-m-d\");\r\necho $date;\r\n\r\n$req1 = \"SELECT * FROM evaluation WHERE DateEval='$date' AND Idhotel='$hot'\";\r\n$rep1 = mysqli_query($conn, $req1);\r\n\r\nif (mysqli_num_rows($rep1) != 0) {\r\n    echo \"Cet hôtel a déjà été évalué\";\r\n} else {\r\n    $date = date(\"Y-m-d\");\r\n    $somme = 0;\r\n    $ex1 = $_POST[\"Extra1\"];\r\n    $ex2 = $_POST[\"Extra2\"];\r\n    $ex3 = $_POST[\"Extra3\"];\r\n\r\n    if (isset($ex1)) $somme +=1;\r\n    if (isset($ex2)) $somme +=1;\r\n    if (isset($ex3)) $somme +=1;\r\n\r\n    echo $somme;\r\n\r\n    $req2=\"insert into evaluation values ('$date','$hot','$acceuil','$res','$somme')\";\r\n    $rep2=mysqli_query($conn, $req2);\r\n    echo \"Évaluation enregistrée avec succès\";\r\n}\r\n\r\nmysqli_close($conn);\r\n?>\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-50CB40959233AECF-CHK-001",
+      "text": "<?php\r\n$hot = $_POST[\"hot\"];\r\n$acceuil = $_POST[\"accueil\"];\r\n$res = $_POST[\"Restauration\"];\r\n\n$conn = mysqli_connect(\"localhost\", \"root\", \"\");\r\nmysqli_select_db($conn, \"bd_bac_2018\");\r\n\n$date = date(\"Y-m-d\");\r\necho $date;\r\n\n$req1 = \"SELECT * FROM evaluation WHERE DateEval='$date' AND Idhotel='$hot'\";\r\n$rep1 = mysqli_query($conn, $req1);\r\n\nif (mysqli_num_rows($rep1) != 0) {\r\n    echo \"Cet hôtel a déjà été évalué\";\r\n} else {\r\n    $date = date(\"Y-m-d\");\r\n    $somme = 0;\r\n    $ex1 = $_POST[\"Extra1\"];\r\n    $ex2 = $_POST[\"Extra2\"];\r\n    $ex3 = $_POST[\"Extra3\"];\r\n\n    if (isset($ex1)) $somme +=1;\r\n    if (isset($ex2)) $somme +=1;\r\n    if (isset($ex3)) $somme +=1;\r\n\n    echo $somme;"
+    },
+    {
+      "chunkId": "DOC-50CB40959233AECF-CHK-002",
+      "text": "$req2=\"insert into evaluation values ('$date','$hot','$acceuil','$res','$somme')\";\r\n    $rep2=mysqli_query($conn, $req2);\r\n    echo \"Évaluation enregistrée avec succès\";\r\n}\r\n\nmysqli_close($conn);\r\n?>"
+    }
+  ]
+}

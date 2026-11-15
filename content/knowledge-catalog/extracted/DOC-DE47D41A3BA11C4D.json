@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DE47D41A3BA11C4D",
+  "filename": "ajoutlivre.php",
+  "relPath": "bac info/sti/projet 4/ajoutlivre.php",
+  "sha256": "de47d41a3ba11c4d615b86f7c389544987083049be57e810f2b3290ffde278ac",
+  "extractedAt": "2026-11-06T14:24:19.251Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require($cnx); if($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\"&& $_get[\"nombre\"]!=\"\"){ } ?>",
+  "fullText": "<?php\r\n\r\n\r\nrequire($cnx);\r\n\r\nif($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\"&& $_get[\"nombre\"]!=\"\"){\r\n    \r\n}\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-DE47D41A3BA11C4D-CHK-001",
+      "text": "<?php\r\n\nrequire($cnx);\r\n\nif($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\"&& $_get[\"nombre\"]!=\"\"){\r\n\n}\r\n\n?>"
+    }
+  ]
+}

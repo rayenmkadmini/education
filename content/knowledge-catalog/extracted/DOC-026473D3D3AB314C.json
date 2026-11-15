@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-026473D3D3AB314C",
+  "filename": "2012.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/2012.pdf",
+  "sha256": "026473d3d3ab314ca5a71f85ccdb9700ff6b4833da6d3b05e071f982b2ceb864",
+  "extractedAt": "2026-11-06T14:24:35.582Z",
+  "pageCount": 2,
+  "textSnippet": "Devoirs et examens sur : www.kiteb.net -- 1 of 2 -- Devoirs et examens sur : www.kiteb.net -- 2 of 2 --",
+  "fullText": "Devoirs et examens sur : www.kiteb.net\n\n-- 1 of 2 --\n\nDevoirs et examens sur : www.kiteb.net\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Devoirs et examens sur : www.kiteb.net"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Devoirs et examens sur : www.kiteb.net"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-026473D3D3AB314C-CHK-001",
+      "pageNumber": 1,
+      "text": "Devoirs et examens sur : www.kiteb.net"
+    },
+    {
+      "chunkId": "DOC-026473D3D3AB314C-CHK-002",
+      "pageNumber": 2,
+      "text": "Devoirs et examens sur : www.kiteb.net"
+    }
+  ]
+}

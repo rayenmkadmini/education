@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-CDC8AC59E926A766",
+  "filename": "sms.dat",
+  "relPath": "bac info/Python/world cup s3/sms.dat",
+  "sha256": "cdc8ac59e926a766b7050f5278e8e0dbc0fd0071e953df306f2bf16f03ae3aa8",
+  "extractedAt": "2026-11-06T14:23:35.467Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier de données binaires / persistance pickle Bac SI: sms.dat] — Support pour exercices de fichiers.",
+  "fullText": "[Fichier de données binaires / persistance pickle Bac SI: sms.dat] — Support pour exercices de fichiers.",
+  "chunks": [
+    {
+      "chunkId": "DOC-CDC8AC59E926A766-CHK-001",
+      "text": "[Fichier de données binaires / persistance pickle Bac SI: sms.dat] — Support pour exercices de fichiers."
+    }
+  ]
+}

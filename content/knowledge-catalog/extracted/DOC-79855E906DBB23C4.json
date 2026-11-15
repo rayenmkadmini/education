@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-79855E906DBB23C4",
+  "filename": "tri insertion.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/tri insertion.py",
+  "sha256": "79855e906dbb23c400ecc1f05a09a3e797f3f725347aaf36ea0ec41422e3f0ea",
+  "extractedAt": "2026-11-14T18:35:36.443Z",
+  "pageCount": 1,
+  "textSnippet": "def tri_insertion(T,N): for i in range(1,N): v=T[i] ; j=i while (T[j-1]>v) and (j>0): T[j]=T[j-1] j=j-1 T[j]=v return T",
+  "fullText": "def tri_insertion(T,N):\r\n    for i in range(1,N):\r\n        v=T[i] ; j=i\r\n        while (T[j-1]>v) and (j>0):\r\n            T[j]=T[j-1]\r\n            j=j-1\r\n        T[j]=v\r\n    return T\r\n    ",
+  "chunks": [
+    {
+      "chunkId": "DOC-79855E906DBB23C4-CHK-001",
+      "text": "def tri_insertion(T,N):\r\n    for i in range(1,N):\r\n        v=T[i] ; j=i\r\n        while (T[j-1]>v) and (j>0):\r\n            T[j]=T[j-1]\r\n            j=j-1\r\n        T[j]=v\r\n    return T"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4C26BF630F678A89",
+  "filename": "chaine.txt",
+  "relPath": "bac info/Python/ex3s2/chaine.txt",
+  "sha256": "4c26bf630f678a8997d83a55461c305e7a0e3a3963320ab9e860eb7185c4f880",
+  "extractedAt": "2026-11-06T14:23:26.145Z",
+  "pageCount": 1,
+  "textSnippet": "azerrttyhgddvbhngfhdrfgfd5111gretg",
+  "fullText": "azerrttyhgddvbhngfhdrfgfd5111gretg",
+  "chunks": [
+    {
+      "chunkId": "DOC-4C26BF630F678A89-CHK-001",
+      "text": "azerrttyhgddvbhngfhdrfgfd5111gretg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-954FC0E4CB521A95",
+  "filename": "ajout.php",
+  "relPath": "bac info/sti/projet 3 version élève/ajout.php",
+  "sha256": "954fc0e4cb521a95d7d83300ee04b19cc6ff55b4916c268c3172277074466212",
+  "extractedAt": "2026-11-06T14:24:18.555Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\"); $id=$_POST[\"id\"]; $np=$_POST[\"np\"]; $genre=$_POST[\"genre\"]; $adr=$_POST[\"adr\"]; $tel=$_POST[\"tel\"]; $dn=$_POST[\"dn\"]; //verifier l'existence de l'enregistrement dans la table élève $req0=\"SELECT * FROM eleve WHERE IdEleve='$id'\"; $res0=mysqli_query($cnx,$req0) or die (\"Erreur 3\".mysqli_error($cnx)); if (mysqli_num_rows($res0)!=0) { die(\"Identifiant déjà existant!\"); } //création de la",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\");\r\n\r\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n$tel=$_POST[\"tel\"];\r\n$dn=$_POST[\"dn\"];\r\n\r\n\r\n//verifier l'existence de l'enregistrement dans la table élève\r\n$req0=\"SELECT * FROM eleve WHERE IdEleve='$id'\";\r\n$res0=mysqli_query($cnx,$req0) or die (\"Erreur 3\".mysqli_error($cnx));\r\nif (mysqli_num_rows($res0)!=0)\r\n{\r\ndie(\"Identifiant déjà existant!\");\r\n}\r\n\r\n//création de la requête d'insertion\r\n$req1=\"INSERT into eleve values('$id','$np','$dn','$genre','$adr','$tel')\";\r\n//exécution de la requête\r\n$res1=mysqli_query($cnx,$req1) or die (\"Erreur 2\".mysqli_error($cnx));\r\n//si le nombre de lignes affectées aprés l'exécution de la dernière requête est !=0\r\n//afficher un message de succés d'ajout\r\n//if ($res1==true){\r\nif (mysqli_affected_rows($cnx)!=0) {\r\necho \"Ajout effectué avec succés!\";\r\n}\r\nelse{\r\necho \"Echec d'ajout!\";\r\n}\r\n//Fermeture de la connexion au serveur mysql (optionnelle)\r\nmysqli_close($cnx);\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-954FC0E4CB521A95-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localHost\",\"root\",\"\",\"belle_vision\") or die(\"erreur de cnx\");\r\n\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n$tel=$_POST[\"tel\"];\r\n$dn=$_POST[\"dn\"];\r\n\n//verifier l'existence de l'enregistrement dans la table élève\r\n$req0=\"SELECT * FROM eleve WHERE IdEleve='$id'\";\r\n$res0=mysqli_query($cnx,$req0) or die (\"Erreur 3\".mysqli_error($cnx));\r\nif (mysqli_num_rows($res0)!=0)\r\n{\r\ndie(\"Identifiant déjà existant!\");\r\n}"
+    },
+    {
+      "chunkId": "DOC-954FC0E4CB521A95-CHK-002",
+      "text": "//création de la requête d'insertion\r\n$req1=\"INSERT into eleve values('$id','$np','$dn','$genre','$adr','$tel')\";\r\n//exécution de la requête\r\n$res1=mysqli_query($cnx,$req1) or die (\"Erreur 2\".mysqli_error($cnx));\r\n//si le nombre de lignes affectées aprés l'exécution de la dernière requête est !=0\r\n//afficher un message de succés d'ajout\r\n//if ($res1==true){\r\nif (mysqli_affected_rows($cnx)!=0) {\r\necho \"Ajout effectué avec succés!\";\r\n}\r\nelse{\r\necho \"Echec d'ajout!\";\r\n}\r\n//Fermeture de la connexion au serveur mysql (optionnelle)\r\nmysqli_close($cnx);\r\n?>"
+    }
+  ]
+}

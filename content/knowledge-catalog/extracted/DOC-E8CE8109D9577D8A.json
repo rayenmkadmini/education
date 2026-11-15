@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-E8CE8109D9577D8A",
+  "filename": "EPREUVE_PRATIQUE_2015_16h.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_16h.py",
+  "sha256": "e8ce8109d9577d8aa86be1b2d09984886ebf542cf704023353354d9ac26d2c6f",
+  "extractedAt": "2026-11-06T14:24:37.033Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie (): b = False while not (b) : n=int(input(\"Donner un chiffre: \")) b = 1 <= n <= 9 and n%2 == 1 return n def Traitement(E): R = str(E) print(R) while not (divisible(R)) : c = calcul(R) R = c+str(R)+c print(R) print(end=\"\") def calcul(ch): S = 0 for i in range (len(ch)): S += int(ch[i]) x = ( S + len(ch) ) % 10 return str(x) def divisible(ch): s = 0 p",
+  "fullText": "def Saisie ():\r\n    b = False\r\n    while not (b) :\r\n        n=int(input(\"Donner un chiffre: \"))\r\n        b = 1 <= n <= 9 and n%2 == 1 \r\n    return n\r\ndef Traitement(E):\r\n    R = str(E)\r\n    print(R)\r\n    while not (divisible(R)) :\r\n        c = calcul(R)\r\n        R = c+str(R)+c\r\n        print(R)\r\n        print(end=\"\")\r\n        \r\ndef calcul(ch):\r\n    S = 0\r\n    for i in range (len(ch)):\r\n        S += int(ch[i])\r\n    x = ( S + len(ch) ) % 10\r\n    return str(x) \r\ndef divisible(ch):\r\n    s = 0\r\n    p =0\r\n    for i in range(len(ch)-1,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])\r\n    for i in range(len(ch)-4,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])\r\n\r\n\r\n    ok = (s - p) % 7 == 0\r\n    return ok\r\n    \r\n    \r\n################PP###################\r\nE = Saisie()\r\nTraitement(E)\r\nprint(\"a\")",
+  "chunks": [
+    {
+      "chunkId": "DOC-E8CE8109D9577D8A-CHK-001",
+      "text": "def Saisie ():\r\n    b = False\r\n    while not (b) :\r\n        n=int(input(\"Donner un chiffre: \"))\r\n        b = 1 <= n <= 9 and n%2 == 1 \r\n    return n\r\ndef Traitement(E):\r\n    R = str(E)\r\n    print(R)\r\n    while not (divisible(R)) :\r\n        c = calcul(R)\r\n        R = c+str(R)+c\r\n        print(R)\r\n        print(end=\"\")\r\n\ndef calcul(ch):\r\n    S = 0\r\n    for i in range (len(ch)):\r\n        S += int(ch[i])\r\n    x = ( S + len(ch) ) % 10\r\n    return str(x) \r\ndef divisible(ch):\r\n    s = 0\r\n    p =0\r\n    for i in range(len(ch)-1,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])\r\n    for i in range(len(ch)-4,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])"
+    },
+    {
+      "chunkId": "DOC-E8CE8109D9577D8A-CHK-002",
+      "text": "ok = (s - p) % 7 == 0\r\n    return ok\r\n\n################PP###################\r\nE = Saisie()\r\nTraitement(E)\r\nprint(\"a\")"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-1B85532893B0757F",
+  "filename": "bac_pratique_2019_11.00.INFINISHED.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/bac_pratique_2019_11.00.INFINISHED.py",
+  "sha256": "1b85532893b0757f40244e2fcaf60099b84098f419dc002c050631de764d0d89",
+  "extractedAt": "2026-11-06T14:24:39.238Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not(b): X1=str(input(\"Donner le texte d'origine: \")) X2=str(input(\"Donner le texte à tester: \")) b = verif(X1) and verif(X2) and Nbmots(X1)==Nbmots(X2) return X1,X2 def verif(ch): ok = len(ch)<=200 and \"A\"<= ch[0] <= \"Z\" and ch[len(ch)-1]==\".\" i = 1 while ok and i < len(ch)-1: ok = \"A\"<= ch[i]<= \"Z\" or ch[i]==\" \" i += 1 return ok def Nbmots(ch): p = 1 for i in range (1,le",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not(b):\r\n        X1=str(input(\"Donner le texte d'origine: \"))\r\n        X2=str(input(\"Donner le texte à tester: \"))\r\n        b = verif(X1) and verif(X2) and  Nbmots(X1)==Nbmots(X2)\r\n    return X1,X2\r\n\r\ndef verif(ch):\r\n    ok = len(ch)<=200 and \"A\"<= ch[0] <= \"Z\" and ch[len(ch)-1]==\".\"\r\n    i = 1\r\n    while ok and i < len(ch)-1:\r\n        ok = \"A\"<= ch[i]<= \"Z\" or ch[i]==\" \"\r\n        i += 1\r\n    return ok \r\ndef Nbmots(ch):\r\n    p = 1\r\n    for i in range (1,len(ch)):\r\n        if ch[i]==\" \" and ch[i-1] != \" \":\r\n            p+=1\r\n    if ch[len(ch)-2]==\" \":\r\n        print(p-1)\r\n        return p-1\r\n    else:\r\n        print(p)\r\n        return p\r\ndef superflus(ch):\r\n    ch[len(ch)-1]==\"\"\r\n    x = ch.find(\" \")\r\n    R = ch\r\n    while R.find(\"  \")!=-1 :\r\n        s = \"\"\r\n        r = \"\"\r\n        if x != -1 :\r\n            for i in range (x):\r\n                s+=ch[i]\r\n            for i in  range (x+1,len(R)-1):\r\n                r+=ch[i]\r\n            R = s+r\r\n    return R\r\n    \r\n    \r\n    \r\n    \r\n\r\n\r\n\r\n\r\n#####################pp##########################\r\nT1,T2 = Saisie()\r\nT1 = superflus(T1)\r\nT2 = superflus(T2)\r\nprint(T1)\r\n\r\n\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1B85532893B0757F-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not(b):\r\n        X1=str(input(\"Donner le texte d'origine: \"))\r\n        X2=str(input(\"Donner le texte à tester: \"))\r\n        b = verif(X1) and verif(X2) and  Nbmots(X1)==Nbmots(X2)\r\n    return X1,X2"
+    },
+    {
+      "chunkId": "DOC-1B85532893B0757F-CHK-002",
+      "text": "def verif(ch):\r\n    ok = len(ch)<=200 and \"A\"<= ch[0] <= \"Z\" and ch[len(ch)-1]==\".\"\r\n    i = 1\r\n    while ok and i < len(ch)-1:\r\n        ok = \"A\"<= ch[i]<= \"Z\" or ch[i]==\" \"\r\n        i += 1\r\n    return ok \r\ndef Nbmots(ch):\r\n    p = 1\r\n    for i in range (1,len(ch)):\r\n        if ch[i]==\" \" and ch[i-1] != \" \":\r\n            p+=1\r\n    if ch[len(ch)-2]==\" \":\r\n        print(p-1)\r\n        return p-1\r\n    else:\r\n        print(p)\r\n        return p\r\ndef superflus(ch):\r\n    ch[len(ch)-1]==\"\"\r\n    x = ch.find(\" \")\r\n    R = ch\r\n    while R.find(\"  \")!=-1 :\r\n        s = \"\"\r\n        r = \"\"\r\n        if x != -1 :\r\n            for i in range (x):\r\n                s+=ch[i]\r\n            for i in  range (x+1,len(R)-1):\r\n                r+=ch[i]\r\n            R = s+r\r\n    return R"
+    },
+    {
+      "chunkId": "DOC-1B85532893B0757F-CHK-003",
+      "text": "#####################pp##########################\r\nT1,T2 = Saisie()\r\nT1 = superflus(T1)\r\nT2 = superflus(T2)\r\nprint(T1)"
+    }
+  ]
+}

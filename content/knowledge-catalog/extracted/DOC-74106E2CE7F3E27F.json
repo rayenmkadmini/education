@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-74106E2CE7F3E27F",
+  "filename": "pal.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/pal.py",
+  "sha256": "74106e2ce7f3e27f483ca9bbcc426e41bd32c401f572c89ab2ea29b5095e6dfc",
+  "extractedAt": "2026-11-14T18:35:36.365Z",
+  "pageCount": 1,
+  "textSnippet": "def palindrome(ch): reverse = ch[::-1] if ch == reverse: return True else: return False while True: ch=input(\"Donner la chaine à verifier : \") if (palindrome(ch)): print(\"La chaine est palindrome\") else: print(\"La chaine est non palindrome\")",
+  "fullText": "def palindrome(ch):\r\n    reverse = ch[::-1]\r\n    if ch == reverse:\r\n        return True\r\n    else:\r\n        return False\r\n    \r\nwhile True:\r\n    ch=input(\"Donner la chaine à verifier : \")\r\n    if (palindrome(ch)):\r\n        print(\"La chaine est palindrome\")\r\n    else:\r\n        print(\"La chaine est non palindrome\")",
+  "chunks": [
+    {
+      "chunkId": "DOC-74106E2CE7F3E27F-CHK-001",
+      "text": "def palindrome(ch):\r\n    reverse = ch[::-1]\r\n    if ch == reverse:\r\n        return True\r\n    else:\r\n        return False\r\n\nwhile True:\r\n    ch=input(\"Donner la chaine à verifier : \")\r\n    if (palindrome(ch)):\r\n        print(\"La chaine est palindrome\")\r\n    else:\r\n        print(\"La chaine est non palindrome\")"
+    }
+  ]
+}

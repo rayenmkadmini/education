@@ -1,0 +1,23 @@
+{
+  "documentId": "DOC-F875ED9C2CB96066",
+  "filename": "procedure_python.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/procedure_python.pdf",
+  "sha256": "f875ed9c2cb960664635a840d3000e7ff953d693881eb40df050dc8172fc10ce",
+  "extractedAt": "2026-11-06T14:24:35.230Z",
+  "pageCount": 1,
+  "textSnippet": "MEMO : LES PROCEDURES Dans un programme, il est possible d’écrire des petits programmes, ou sous programmes intermédiaires, appelés procédures. Une procédure est un sous-programme qui porte un nom et utilise zéro, une ou plusieurs variables appelées paramètres. Une procédure est un sous-programme permet de retourner 0, 1 ou plusieurs résultats au programme appelant dans ces paramètres. La définition d’une procédure : En algorithme Peocedure nom_de_la_procedure (paramètre1 : type1 ; @ paramètre2",
+  "fullText": "MEMO : LES PROCEDURES\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés procédures.\nUne procédure est un sous-programme qui porte un nom et utilise zéro, une ou plusieurs\nvariables appelées paramètres.\nUne procédure est un sous-programme permet de retourner 0, 1 ou plusieurs résultats au\nprogramme appelant dans ces paramètres.\nLa définition d’une procédure :\nEn algorithme\nPeocedure nom_de_la_procedure (paramètre1 : type1 ; @ paramètre2 : type2 ; etc)\nDébut\nInstruction(s)\nFin\nL’appel d’une procédure :\nEn algorithme\nAlgorithme : nom_programme\nDébut\n……………..\nnom_de_la_procedure (argument1,argument2,etc)\n………………..\nFin\nTDO\nObjet \tType/Nature\nnom_de_la_procedure \tProcédure\nExemple : la procédure saisie ci-contre permet à l’utilisateur de saisir un entier N entre 2 et 5 avec\ncontrôle de saisie sur la valeur introduite par l’utilisateur.\nEn algorithme\nProcedure saisie (@ n :Entier)\nDébut\nRépéter\nEcrire (\"Saisir un entier\")\nLire(N)\nJusqu’à n dans [2..5]\nFin\nParamètre2 est le porteur du résultat.\nIl doit être précédé par le symbole \"@\".\n\n-- 1 of 1 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "MEMO : LES PROCEDURES\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés procédures.\nUne procédure est un sous-programme qui porte un nom et utilise zéro, une ou plusieurs\nvariables appelées paramètres.\nUne procédure est un sous-programme permet de retourner 0, 1 ou plusieurs résultats au\nprogramme appelant dans ces paramètres.\nLa définition d’une procédure :\nEn algorithme\nPeocedure nom_de_la_procedure (paramètre1 : type1 ; @ paramètre2 : type2 ; etc)\nDébut\nInstruction(s)\nFin\nL’appel d’une procédure :\nEn algorithme\nAlgorithme : nom_programme\nDébut\n……………..\nnom_de_la_procedure (argument1,argument2,etc)\n………………..\nFin\nTDO\nObjet \tType/Nature\nnom_de_la_procedure \tProcédure\nExemple : la procédure saisie ci-contre permet à l’utilisateur de saisir un entier N entre 2 et 5 avec\ncontrôle de saisie sur la valeur introduite par l’utilisateur.\nEn algorithme\nProcedure saisie (@ n :Entier)\nDébut\nRépéter\nEcrire (\"Saisir un entier\")\nLire(N)\nJusqu’à n dans [2..5]\nFin\nParamètre2 est le porteur du résultat.\nIl doit être précédé par le symbole \"@\"."
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-F875ED9C2CB96066-CHK-001",
+      "pageNumber": 1,
+      "text": "MEMO : LES PROCEDURES\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés procédures.\nUne procédure est un sous-programme qui porte un nom et utilise zéro, une ou plusieurs\nvariables appelées paramètres.\nUne procédure est un sous-programme permet de retourner 0, 1 ou plusieurs résultats au\nprogramme appelant dans ces paramètres.\nLa définition d’une procédure :\nEn algorithme\nPeocedure nom_de_la_procedure (paramètre1 : type1 ; @ paramètre2 : type2 ; etc)\nDébut\nInstruction(s)\nFin\nL’appel d’une procédure :\nEn algorithme\nAlgorithme : nom_programme\nDébut\n……………..\nnom_de_la_procedure (argument1,argument2,etc)\n………………..\nFin\nTDO\nObjet \tType/Nature\nnom_de_la_procedure \tProcédure\nExemple : la procédure saisie ci-contre permet à l’utilisateur de saisir un entier N entre 2 et 5 avec\ncontrôle de saisie sur la valeur introduite par l’utilisateur.\nEn algorithme\nProcedure saisie (@ n :Entier)\nDébut\nRépéter\nEcrire (\"Saisir un entier\")\nLire(N)\nJusqu’à n dans [2..5]\nFin\nParamètre2 est le porteur du résultat.\nIl doit être précédé par le symbole \"@\"."
+    }
+  ]
+}

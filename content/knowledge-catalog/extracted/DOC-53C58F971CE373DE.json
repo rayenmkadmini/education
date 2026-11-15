@@ -1,0 +1,59 @@
+{
+  "documentId": "DOC-53C58F971CE373DE",
+  "filename": "énonce-Magazine2-(etudes des fonctions).pdf",
+  "relPath": "bac info/math taki/etude fonction/énonce-Magazine2-(etudes des fonctions).pdf",
+  "sha256": "53c58f971ce373de341de4fd3cf44fd33bcd624d54f125b0699a59985bb55421",
+  "extractedAt": "2026-11-06T14:23:53.934Z",
+  "pageCount": 6,
+  "textSnippet": "Mathématiques Classe : BAC Chapitre : Etudes des fonctions -- 1 of 6 -- 35’ min 5 pt Exercice 3 35’ min 5 pt Exercice 1 28’ min 4 pt Exercice 2 1 -- 2 of 6 -- 42’ min 6 pt Exercice 4 2 -- 3 of 6 -- 42’ min 6 pt Exercice 5 35’ min 5 pt Exercice 6 3 -- 4 of 6 -- 4 -- 5 of 6 -- -- 6 of 6 --",
+  "fullText": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions\n\n-- 1 of 6 --\n\n35’ min 5 pt\tExercice 3\n35’ min 5 pt\tExercice 1\n28’ min 4 pt\tExercice 2\n1\n\n-- 2 of 6 --\n\n42’ min 6 pt\tExercice 4\n2\n\n-- 3 of 6 --\n\n42’ min 6 pt\tExercice 5\n35’ min 5 pt\tExercice 6\n3\n\n-- 4 of 6 --\n\n4\n\n-- 5 of 6 --\n\n\n\n-- 6 of 6 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "pageNumber": 2,
+      "text": "35’ min 5 pt\tExercice 3\n35’ min 5 pt\tExercice 1\n28’ min 4 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "42’ min 6 pt\tExercice 4\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "42’ min 6 pt\tExercice 5\n35’ min 5 pt\tExercice 6\n3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "4"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-53C58F971CE373DE-CHK-001",
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "chunkId": "DOC-53C58F971CE373DE-CHK-002",
+      "pageNumber": 2,
+      "text": "35’ min 5 pt\tExercice 3\n35’ min 5 pt\tExercice 1\n28’ min 4 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-53C58F971CE373DE-CHK-003",
+      "pageNumber": 3,
+      "text": "42’ min 6 pt\tExercice 4\n2"
+    },
+    {
+      "chunkId": "DOC-53C58F971CE373DE-CHK-004",
+      "pageNumber": 4,
+      "text": "42’ min 6 pt\tExercice 5\n35’ min 5 pt\tExercice 6\n3"
+    },
+    {
+      "chunkId": "DOC-53C58F971CE373DE-CHK-005",
+      "pageNumber": 5,
+      "text": "4"
+    }
+  ]
+}

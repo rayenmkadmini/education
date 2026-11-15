@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-D26D43CF77B60BBF",
+  "filename": "ex3s2.py",
+  "relPath": "bac info/Python/ex3s2/ex3s2.py",
+  "sha256": "d26d43cf77b60bbf443b611d81684f04e4aca70782f9b1fe5a0c61a482c68815",
+  "extractedAt": "2026-11-06T14:23:26.174Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def remplir_f1(): f1 = open(\"chaine.txt\", \"w\") fin = False while not fin: ch = input(\"ch= \") f1.write(ch) rep = input(\"autre rep = \") while not (rep in [\"O\", \"N\"]): rep = input(\"autre rep = \") fin = (rep == \"N\") f1.close() def remplir_t(t): f1 = open(\"chaine.txt\", \"r\") ch = f1.readline() while ch != \"\": for i in range(len(ch)): if \"A\" <= ch[i].upper",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef remplir_f1():\r\n    f1 = open(\"chaine.txt\", \"w\")\r\n    fin = False\r\n    while not fin:\r\n        ch = input(\"ch= \")\r\n        f1.write(ch)\r\n        rep = input(\"autre rep = \")\r\n        while not (rep in [\"O\", \"N\"]):\r\n            rep = input(\"autre rep = \")\r\n        fin = (rep == \"N\")\r\n    f1.close()\r\n\r\n\r\ndef remplir_t(t):\r\n    f1 = open(\"chaine.txt\", \"r\")\r\n    ch = f1.readline()\r\n    while ch != \"\":\r\n        for i in range(len(ch)):\r\n            if \"A\" <= ch[i].upper() <= \"Z\":\r\n                t[ord(ch[i].upper()) - 65] += 1\r\n        ch = f1.readline()\r\n    f1.close()\r\n\r\n\r\ndef remplir_f2(t):\r\n    f2 = open(\"frequence.txt\", \"w\")\r\n    for i in range(26):\r\n        ch = \"la frequence de \" + chr(i + 65) + \"=\" + str(t[i]) + \"\\n\"\r\n        f2.write(ch)\r\n    f2.close()\r\n\r\n\r\ndef affichage():\r\n    f2 = open(\"frequence.txt\", \"r\")\r\n    \"\"\"\r\n    # methode num 1 lecture ligne par ligne\r\n    ch = f2.readline()\r\n    while ch != \"\":\r\n        print(ch)\r\n        ch = f2.readline()\r\n\r\n    f2.close()\r\n\"\"\"\r\n\r\n\r\n    #2eme methode\r\n    ch=f2.read()\r\n    print(ch)\r\n\r\n\r\n\r\n# pp\r\nt = array([int()] * 26)\r\nremplir_f1()\r\nremplir_t(t)\r\nremplir_f2(t)\r\naffichage()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-D26D43CF77B60BBF-CHK-001",
+      "text": "from numpy import array\r\n\ndef remplir_f1():\r\n    f1 = open(\"chaine.txt\", \"w\")\r\n    fin = False\r\n    while not fin:\r\n        ch = input(\"ch= \")\r\n        f1.write(ch)\r\n        rep = input(\"autre rep = \")\r\n        while not (rep in [\"O\", \"N\"]):\r\n            rep = input(\"autre rep = \")\r\n        fin = (rep == \"N\")\r\n    f1.close()\r\n\ndef remplir_t(t):\r\n    f1 = open(\"chaine.txt\", \"r\")\r\n    ch = f1.readline()\r\n    while ch != \"\":\r\n        for i in range(len(ch)):\r\n            if \"A\" <= ch[i].upper() <= \"Z\":\r\n                t[ord(ch[i].upper()) - 65] += 1\r\n        ch = f1.readline()\r\n    f1.close()\r\n\ndef remplir_f2(t):\r\n    f2 = open(\"frequence.txt\", \"w\")\r\n    for i in range(26):\r\n        ch = \"la frequence de \" + chr(i + 65) + \"=\" + str(t[i]) + \"\\n\"\r\n        f2.write(ch)\r\n    f2.close()"
+    },
+    {
+      "chunkId": "DOC-D26D43CF77B60BBF-CHK-002",
+      "text": "def affichage():\r\n    f2 = open(\"frequence.txt\", \"r\")\r\n    \"\"\"\r\n    # methode num 1 lecture ligne par ligne\r\n    ch = f2.readline()\r\n    while ch != \"\":\r\n        print(ch)\r\n        ch = f2.readline()\r\n\n    f2.close()\r\n\"\"\"\r\n\n    #2eme methode\r\n    ch=f2.read()\r\n    print(ch)\r\n\n# pp\r\nt = array([int()] * 26)\r\nremplir_f1()\r\nremplir_t(t)\r\nremplir_f2(t)\r\naffichage()"
+    }
+  ]
+}

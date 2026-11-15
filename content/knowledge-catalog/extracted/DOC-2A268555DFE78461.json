@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2A268555DFE78461",
+  "filename": "Puissance.py",
+  "relPath": "bac info/algo/Python/Puissance.py",
+  "sha256": "2a268555dfe78461c06cc6f7092818a8010f3477d3e6b5361fb82062bb4f1fa9",
+  "extractedAt": "2026-11-14T18:35:36.526Z",
+  "pageCount": 1,
+  "textSnippet": "def puis(x,y): if y==0: return 1 else: return x * puis(x,y-1) #Programme Principale print(puis(2,2))",
+  "fullText": "def puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x * puis(x,y-1)\r\n#Programme Principale\r\nprint(puis(2,2))",
+  "chunks": [
+    {
+      "chunkId": "DOC-2A268555DFE78461-CHK-001",
+      "text": "def puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x * puis(x,y-1)\r\n#Programme Principale\r\nprint(puis(2,2))"
+    }
+  ]
+}

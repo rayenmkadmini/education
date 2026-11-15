@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "cd bac-ai-studio && npm run build",
+  "outputDirectory": "bac-ai-studio/.next"
+}

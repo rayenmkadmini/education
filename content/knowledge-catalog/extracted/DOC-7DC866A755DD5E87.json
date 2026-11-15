@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7DC866A755DD5E87",
+  "filename": "emprunt2.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/emprunt2.php",
+  "sha256": "7dc866a755dd5e8718eed5df89709378caa84ee3cb302738dfa3bc38eae88c6e",
+  "extractedAt": "2026-11-06T14:24:19.600Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); if($_POST[\"cin\"]==\"\" ||$_POST[\"num\"]==\"\"){ die(\"Verifier le formule SVP\"); } $dateemprunt=date(\"Y-m-d\"); $cin=$_POST[\"cin\"]; $num=$_POST[\"num\"]; $d=strtotime(\"+2 weeks\"); $dateretour=date(\"Y-m-d\",$d); $req1=\"INSERT into emprunt values('$cin','$num','$dateemprunt','$dateretour')\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx)); if(mysqli_affected_rows($cnx)>0){ $req2=\"UPDATE livre set nbrexp",
+  "fullText": "<?php\r\nrequire(\"connexion.php\");\r\n\r\n\r\nif($_POST[\"cin\"]==\"\" ||$_POST[\"num\"]==\"\"){\r\n    die(\"Verifier le formule SVP\");\r\n}\r\n\r\n$dateemprunt=date(\"Y-m-d\");\r\n$cin=$_POST[\"cin\"];\r\n$num=$_POST[\"num\"];\r\n\r\n$d=strtotime(\"+2 weeks\");\r\n$dateretour=date(\"Y-m-d\",$d);\r\n\r\n$req1=\"INSERT into emprunt \r\n        values('$cin','$num','$dateemprunt','$dateretour')\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)>0){\r\n    $req2=\"UPDATE livre\r\n            set nbrexp=nbrexp-1\r\n            where numlivre='$num'\";\r\n    $res2=mysqli_query($cnx,$req2) or die(\"erreur3\".mysqli_error($cnx));\r\n}\r\nif(mysqli_affected_rows($cnx)>0){\r\n    die(\"Ajout effectue avec succes\");\r\n}\r\necho(\"echec d'ajout !\");\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-7DC866A755DD5E87-CHK-001",
+      "text": "<?php\r\nrequire(\"connexion.php\");\r\n\nif($_POST[\"cin\"]==\"\" ||$_POST[\"num\"]==\"\"){\r\n    die(\"Verifier le formule SVP\");\r\n}\r\n\n$dateemprunt=date(\"Y-m-d\");\r\n$cin=$_POST[\"cin\"];\r\n$num=$_POST[\"num\"];\r\n\n$d=strtotime(\"+2 weeks\");\r\n$dateretour=date(\"Y-m-d\",$d);\r\n\n$req1=\"INSERT into emprunt \r\n        values('$cin','$num','$dateemprunt','$dateretour')\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)>0){\r\n    $req2=\"UPDATE livre\r\n            set nbrexp=nbrexp-1\r\n            where numlivre='$num'\";\r\n    $res2=mysqli_query($cnx,$req2) or die(\"erreur3\".mysqli_error($cnx));\r\n}\r\nif(mysqli_affected_rows($cnx)>0){\r\n    die(\"Ajout effectue avec succes\");\r\n}\r\necho(\"echec d'ajout !\");\r\n\n?>"
+    }
+  ]
+}

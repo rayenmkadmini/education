@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D76A9F5169BB9B05",
+  "filename": "epreuve_bac_pratique_2013_sujet5.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet5.py",
+  "sha256": "d76a9f5169bb9b058e399f3210e8b4156ea6cfe8523a8efd21c9843da944f000",
+  "extractedAt": "2026-11-06T14:24:36.417Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([str] * 15) def Saisie(): b = False while not b: n = int(input('< ')) b = 5 <= n <= 15 return n def Remplir(N): for i in range(N): b = False while not b: T[i] = str(input('T[' + str(i) + ']= ')) b = len(T[i]) == 5 and T[i].isnumeric() def Urgence(T, N): p = 0 for i in range(N): if int(T[i][:2]) > p: p = int(T[i][:2]) print(\"Le plus",
+  "fullText": "from numpy import *\r\n\r\nT = array([str] * 15)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 5 <= n <= 15\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input('T[' + str(i) + ']= '))\r\n            b = len(T[i]) == 5 and T[i].isnumeric()\r\n\r\n\r\ndef Urgence(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if int(T[i][:2]) > p:\r\n            p = int(T[i][:2])\r\n    print(\"Le plus grand degré d'urgence est: \", p)\r\n    print(\"Les appartements consernés sont\")\r\n    for i in range(N):\r\n        if int(T[i][:2]) == p:\r\n            print(i + 1, \"avec une quantité de fumée=\", T[i][2:5])\r\n\r\n\r\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nUrgence(T, N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-D76A9F5169BB9B05-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([str] * 15)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 5 <= n <= 15\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input('T[' + str(i) + ']= '))\r\n            b = len(T[i]) == 5 and T[i].isnumeric()\r\n\ndef Urgence(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if int(T[i][:2]) > p:\r\n            p = int(T[i][:2])\r\n    print(\"Le plus grand degré d'urgence est: \", p)\r\n    print(\"Les appartements consernés sont\")\r\n    for i in range(N):\r\n        if int(T[i][:2]) == p:\r\n            print(i + 1, \"avec une quantité de fumée=\", T[i][2:5])\r\n\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nUrgence(T, N)"
+    }
+  ]
+}

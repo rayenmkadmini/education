@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2FE2724920B6C1F1",
+  "filename": "epreuve_pratique_2014_sujet2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet2.py",
+  "sha256": "2fe2724920b6c1f15cd98f362d67be0a46a75130aa1401517d678359160f5b3f",
+  "extractedAt": "2026-11-06T14:24:36.832Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: n = int(input('Donner n: ')) b = n >= 4 and n % 2 == 0 return n def premier(x): b = x > 1 d = 1 while b and d <= x // 2: d += 1 b = x % d != 0 return b def couples_premiers(Nb): R = '' for i in range(Nb): for j in range(Nb): if premier(i) and premier(j) and i + j == Nb: R += '(' + str(i) + ',' + str(j) + ')' return R ####",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = n >= 4 and n % 2 == 0\r\n    return n\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\r\n\r\ndef couples_premiers(Nb):\r\n    R = ''\r\n    for i in range(Nb):\r\n        for j in range(Nb):\r\n            if premier(i) and premier(j) and i + j == Nb:\r\n                R += '(' + str(i) + ',' + str(j) + ')'\r\n    return R\r\n\r\n\r\n###############PP##################\r\nNb = Saisie()\r\ncouples = couples_premiers(Nb)\r\nprint(couples)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-2FE2724920B6C1F1-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = n >= 4 and n % 2 == 0\r\n    return n\r\n\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\ndef couples_premiers(Nb):\r\n    R = ''\r\n    for i in range(Nb):\r\n        for j in range(Nb):\r\n            if premier(i) and premier(j) and i + j == Nb:\r\n                R += '(' + str(i) + ',' + str(j) + ')'\r\n    return R\r\n\n###############PP##################\r\nNb = Saisie()\r\ncouples = couples_premiers(Nb)\r\nprint(couples)"
+    }
+  ]
+}

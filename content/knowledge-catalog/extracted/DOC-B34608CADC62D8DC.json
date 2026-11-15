@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B34608CADC62D8DC",
+  "filename": "Test de la division par 137$.py",
+  "relPath": "bac info/algo/Python/Test de la division par 137$.py",
+  "sha256": "b34608cadc62d8dcbb6e8283965215ae1636315cde8709aa09f39ff0ae946fa1",
+  "extractedAt": "2026-11-14T18:35:36.554Z",
+  "pageCount": 1,
+  "textSnippet": "import pickle as pk* def saisie() with open(\"D:\\chaine.dat\",\"wb\") as f: while True: chn=str(input(\"Donner une chaine: \")) pk.dump(chn,f) c=input(\"Voulez-vous continuez ? O/N \") if(c.upper()==\"N\"): break saisie()",
+  "fullText": "import pickle as pk*\ndef saisie()\nwith open(\"D:\\chaine.dat\",\"wb\") as f:\n    while True:\n        chn=str(input(\"Donner une chaine: \"))\n        pk.dump(chn,f)\n        c=input(\"Voulez-vous continuez ? O/N \")\n        if(c.upper()==\"N\"):\n            break\nsaisie()\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-B34608CADC62D8DC-CHK-001",
+      "text": "import pickle as pk*\ndef saisie()\nwith open(\"D:\\chaine.dat\",\"wb\") as f:\n    while True:\n        chn=str(input(\"Donner une chaine: \"))\n        pk.dump(chn,f)\n        c=input(\"Voulez-vous continuez ? O/N \")\n        if(c.upper()==\"N\"):\n            break\nsaisie()"
+    }
+  ]
+}

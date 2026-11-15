@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-061E7326E30A3525",
+  "filename": "Appro PI WALLIS.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Appro PI WALLIS.py",
+  "sha256": "061e7326e30a3525db71d5ec2680fac26adfa40547569834b40e1c9aa469a7d1",
+  "extractedAt": "2026-11-14T18:35:36.455Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def pi_wallis(x): pa=1 i=0 while True: i=i+1 pp=pa pa=pa*(2*i/(2*i-1))*(2*i/(2*i+1)) if (abs(2*pa-2*pp)<=x): break return pa*2 print(\"La valeur approché de PI WALLIS à 10^-4 prés est: \",pi_wallis(0.0001))",
+  "fullText": "from math import *\r\ndef pi_wallis(x):\r\n    pa=1\r\n    i=0\r\n    while True:\r\n        i=i+1\r\n        pp=pa\r\n        pa=pa*(2*i/(2*i-1))*(2*i/(2*i+1))\r\n        if (abs(2*pa-2*pp)<=x):\r\n            break\r\n    return pa*2\r\nprint(\"La valeur approché de PI WALLIS à 10^-4 prés est: \",pi_wallis(0.0001))",
+  "chunks": [
+    {
+      "chunkId": "DOC-061E7326E30A3525-CHK-001",
+      "text": "from math import *\r\ndef pi_wallis(x):\r\n    pa=1\r\n    i=0\r\n    while True:\r\n        i=i+1\r\n        pp=pa\r\n        pa=pa*(2*i/(2*i-1))*(2*i/(2*i+1))\r\n        if (abs(2*pa-2*pp)<=x):\r\n            break\r\n    return pa*2\r\nprint(\"La valeur approché de PI WALLIS à 10^-4 prés est: \",pi_wallis(0.0001))"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "documentId": "DOC-7A8D83377D2C1909",
+  "filename": "Calculatrice.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/Calculatrice.py",
+  "sha256": "7a8d83377d2c190949ad5d90b845d16fa13f3b8a430614a6dd038a437ea913b3",
+  "extractedAt": "2026-11-06T14:24:33.012Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def verif(x): if len(x)>0 and x.isnumeric(): return True else : return False def Somme(): a=p.t1.text () b=p.t2.text () if verif(a) and verif(b) : s=int(a)+int(b) p.t3.setText(str(s)) else : p.t3.setText('erreur') def Soustraction(): a=p.t1.text () b=p.t2.text () if verif(a) and verif(b) : s=int(a)-int(b) p.t3.setText(str(s)) else : p",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x)>0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\n\r\n\r\ndef Somme():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)+int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Soustraction():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)-int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Produit():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)*int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef division():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) and b!=0 :\r\n        s=int(a)/int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\n\r\ndef PGCD():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        p.t3.setText(str(a))\r\n    \r\n    else:\r\n        p.t3.setText('Pas de PGCD')\r\ndef PPCM ():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        c = int(m / a)\r\n        p.t3.setText(str(c))\r\n    else :\r\n        p.t3.setText('Pas de PPCM')\r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"calculatrice.ui\")\r\np.show()\r\np.pb1.clicked.connect (Somme)\r\np.pb2.clicked.connect (Soustraction)\r\np.pb3.clicked.connect (Produit)\r\np.pb4.clicked.connect (division)\r\np.pb5.clicked.connect (PGCD)\r\np.pb6.clicked.connect (PPCM)\r\napp.exec_()",
+  "chunks": [
+    {
+      "chunkId": "DOC-7A8D83377D2C1909-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\n\ndef verif(x):\r\n    if len(x)>0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False"
+    },
+    {
+      "chunkId": "DOC-7A8D83377D2C1909-CHK-002",
+      "text": "def Somme():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)+int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Soustraction():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)-int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Produit():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)*int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef division():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) and b!=0 :\r\n        s=int(a)/int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')"
+    },
+    {
+      "chunkId": "DOC-7A8D83377D2C1909-CHK-003",
+      "text": "def PGCD():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        p.t3.setText(str(a))"
+    },
+    {
+      "chunkId": "DOC-7A8D83377D2C1909-CHK-004",
+      "text": "else:\r\n        p.t3.setText('Pas de PGCD')\r\ndef PPCM ():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        c = int(m / a)\r\n        p.t3.setText(str(c))\r\n    else :\r\n        p.t3.setText('Pas de PPCM')\r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"calculatrice.ui\")\r\np.show()\r\np.pb1.clicked.connect (Somme)\r\np.pb2.clicked.connect (Soustraction)\r\np.pb3.clicked.connect (Produit)\r\np.pb4.clicked.connect (division)\r\np.pb5.clicked.connect (PGCD)\r\np.pb6.clicked.connect (PPCM)\r\napp.exec_()"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-60F37F2AF271629E",
+  "filename": "tri selection.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/tri selection.py",
+  "sha256": "60f37f2af271629e7397619346e009d274716c86d8d46d04be471fc3eeac85a0",
+  "extractedAt": "2026-11-14T18:35:36.444Z",
+  "pageCount": 1,
+  "textSnippet": "def tri_selection(T,N): for i in range(N-1): maxx=i for j in range(i+1,N): if (T[j]<T[maxx]): maxx=j if (maxx!=i): aux=T[i] T[i]=T[maxx] T[maxx]=aux return T T=[5,2,52,31,20,6] print(tri_selection(T,6))",
+  "fullText": "def tri_selection(T,N):\r\n    for i in range(N-1):\r\n        maxx=i\r\n        for j in range(i+1,N):\r\n            if (T[j]<T[maxx]):\r\n                maxx=j\r\n        if (maxx!=i):\r\n            aux=T[i]\r\n            T[i]=T[maxx]\r\n            T[maxx]=aux\r\n    return T\r\n\r\nT=[5,2,52,31,20,6]\r\nprint(tri_selection(T,6))",
+  "chunks": [
+    {
+      "chunkId": "DOC-60F37F2AF271629E-CHK-001",
+      "text": "def tri_selection(T,N):\r\n    for i in range(N-1):\r\n        maxx=i\r\n        for j in range(i+1,N):\r\n            if (T[j]<T[maxx]):\r\n                maxx=j\r\n        if (maxx!=i):\r\n            aux=T[i]\r\n            T[i]=T[maxx]\r\n            T[maxx]=aux\r\n    return T\r\n\nT=[5,2,52,31,20,6]\r\nprint(tri_selection(T,6))"
+    }
+  ]
+}

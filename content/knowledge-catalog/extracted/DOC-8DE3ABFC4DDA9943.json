@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-8DE3ABFC4DDA9943",
+  "filename": "Bac2014theorique.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Bac2014theorique.py",
+  "sha256": "8de3abfc4dda99435176ad2efca7c3163c238c817f32d9e263db628e19294ff4",
+  "extractedAt": "2026-11-06T14:24:36.466Z",
+  "pageCount": 1,
+  "textSnippet": "#ERREUR FONCTION Cryptage from numpy import * T1 = array([str] * 20) T2 = array([\" \"] * 100) def Saisie(): b = False while not b: ph = input(\"Donner la phrase à crypter: \") b = verif(ph) return ph def verif(ch): ok = ch.find(\" \") == -1 i = -1 while ok and i < len(ch) - 1: i += 1 ok = ch[i] not in {\",\", \";\", \"?\", \"!\"} return ok def Remplir_T1(ph): nb = 0 i = 0 S = ph + \" \" while S.find(",
+  "fullText": "#ERREUR FONCTION Cryptage\r\nfrom numpy import *\r\n\r\nT1 = array([str] * 20)\r\nT2 = array([\" \"] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase à crypter: \")\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\r\n\r\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb\r\n\r\n\r\ndef traitement_T1(n, x):\r\n    for i in range(n):\r\n        for j in range(x - len(T1[i])):\r\n            T1[i] = T1[i] + \"*\" * (x - len(T1[i]))\r\n\r\n\r\ndef cryptage(T1, T2, x, n):\r\n    k = 0\r\n    while k < x:\r\n        for i in range(x):\r\n            for j in range(n):\r\n                #print(type(T2[j]))\r\n                T2[j] = T2[j] + T1[i][k]\r\n            k += 1\r\n\r\n\r\ndef Afficher(T2, n):\r\n    ch = \"\"\r\n    for i in range(n):\r\n        ch += ch[i] + \" \"\r\n    print(\"Les message crypté est : \")\r\n\r\n\r\n##################PP####################\r\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\ntraitement_T1(n, x)\r\ncryptage(T1, T2, x, n)\r\nfor i in range(n):\r\n    print(T1[i])\r\nfor i in range(n):\r\n    print(T2[i])\r\n#Afficher(T2,n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-8DE3ABFC4DDA9943-CHK-001",
+      "text": "#ERREUR FONCTION Cryptage\r\nfrom numpy import *\r\n\nT1 = array([str] * 20)\r\nT2 = array([\" \"] * 100)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase à crypter: \")\r\n        b = verif(ph)\r\n    return ph\r\n\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb"
+    },
+    {
+      "chunkId": "DOC-8DE3ABFC4DDA9943-CHK-002",
+      "text": "def traitement_T1(n, x):\r\n    for i in range(n):\r\n        for j in range(x - len(T1[i])):\r\n            T1[i] = T1[i] + \"*\" * (x - len(T1[i]))\r\n\ndef cryptage(T1, T2, x, n):\r\n    k = 0\r\n    while k < x:\r\n        for i in range(x):\r\n            for j in range(n):\r\n                #print(type(T2[j]))\r\n                T2[j] = T2[j] + T1[i][k]\r\n            k += 1\r\n\ndef Afficher(T2, n):\r\n    ch = \"\"\r\n    for i in range(n):\r\n        ch += ch[i] + \" \"\r\n    print(\"Les message crypté est : \")\r\n\n##################PP####################\r\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\ntraitement_T1(n, x)\r\ncryptage(T1, T2, x, n)\r\nfor i in range(n):\r\n    print(T1[i])\r\nfor i in range(n):\r\n    print(T2[i])\r\n#Afficher(T2,n)"
+    }
+  ]
+}

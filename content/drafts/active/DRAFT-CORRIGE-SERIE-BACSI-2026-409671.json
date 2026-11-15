@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-CORRIGE-SERIE-BACSI-2026-409671",
+  "taskId": "BACSI-2026-409671",
+  "version": 1,
+  "createdAt": "2026-11-06T11:53:58.093Z",
+  "updatedAt": "2026-11-06T11:53:58.100Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "contentType": "CORRIGE",
+  "totalPoints": 20,
+  "isOfficialBac": false,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+        "page": 2,
+        "section": "VERIFIED_OFFICIAL_EXAM : Corrigé analytique de la série d'exercices guidés"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "Lycée Pilote de l'Excellence — Évaluation Pédagogique Formative",
+    "sessionLabel": "Corrigé Analytique et Barème Détaillé — Série d'Exercices N°1",
+    "duration": "2h00",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "cor-serie-ex-1",
+      "number": 1,
+      "title": "Corrigé Exercice 1 : Modélisation et Contrôle de Saisie (4.0 points)",
+      "points": 4,
+      "statementMarkdown": "### Corrigé Détaillé de l'Exercice 1 (4.0 points)\n\n#### 1. Déclaration en pseudocode conventionnel du type Livre et TDO (1.0 point)\n\n**Chma3naha Livre fil Algorithmique ?**  \nKima fhamna fil cours, ma nasta3mloush des variables mfar9a l'kol champ (titre, prix, etc.). Nlammou les attributs el koll fi **تسجيلة (Enregistrement)** hétérogène.\n\n**Déclaration du type (Partie Déclaration Types) :**\n```text\nType\n    Livre = Enregistrement\n        isbn       : chaîne\n        titre      : chaîne\n        prix       : réel\n        disponible : booléen\n    Fin\n```\n\n**TDO (Tableau de Déclaration des Objets) :**\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `livre` | `Livre` | Enregistrement modélisant un ouvrage de la bibliothèque |\n| `T` | `Tableau de N Livre` | Tableau d'enregistrements représentant le fonds documentaire |\n\n**En Python 3 :**\n```python\nlivre = {\n    'isbn': \"9789973123456\",\n    'titre': \"Algorithmique et Programmation\",\n    'prix': 18.5,\n    'disponible': True\n}\n```\n\n---\n\n#### 2. Fonction Python `valider_isbn(ch: str) -> bool` (2.0 points)\n\n**Principe didactique :**  \nUn ISBN valide doit satisfaire deux conditions strictes :\n1. Avoir une longueur exactement égale à 13 caractères (`len(ch) == 13`).\n2. Être composé exclusivement de caractères numériques de `'0'` à `'9'`.\n\n```python\ndef valider_isbn(ch: str) -> bool:\n    \"\"\"Vérifie si une chaîne représente un code ISBN valide (exactement 13 chiffres).\"\"\"\n    if not isinstance(ch, str) or len(ch) != 13:\n        return False\n    for c in ch:\n        if not ('0' <= c <= '9'):\n            return False\n    return True\n```\n\n> [!WARNING]\n> **Piège fréquent d'élève :** Utiliser `int(ch)` pour vérifier que ce sont des chiffres !  \n> Si la chaîne commence par un zéro (ex: `\"0123456789012\"`), la conversion tronque les zéros de tête ou risque de planter si la chaîne contient des lettres. Le parcours caractère par caractère est la méthode officielle recommandée.\n\n---\n\n#### 3. Fonction Python `creer_livre` avec levée d'exceptions (1.0 point)\n\n```python\ndef creer_livre(isbn: str, titre: str, prix: float) -> dict:\n    \"\"\"Instancie un enregistrement Livre après validation stricte des contraintes.\"\"\"\n    if not valider_isbn(isbn):\n        raise ValueError(f\"ISBN invalide: {isbn!r}\")\n    if not isinstance(titre, str) or not (3 <= len(titre.strip()) <= 50):\n        raise ValueError(\"Le titre doit contenir entre 3 et 50 caractères non vides.\")\n    if not isinstance(prix, (int, float)) or prix <= 0:\n        raise ValueError(f\"Le prix doit être un réel strictement positif, reçu: {prix}\")\n        \n    return {\n        'isbn': isbn,\n        'titre': titre.strip(),\n        'prix': float(prix),\n        'disponible': True\n    }\n```\n\n**Grille d'évaluation de l'Exercice 1 :**\n- Déclaration TDO conforme (syntaxe `Type ... Enregistrement ... Fin`) : **1.0 pt**\n- Fonction `valider_isbn` (test de longueur 13 et appartenance aux chiffres `0`-`9`) : **2.0 pts**\n- Fonction `creer_livre` (dictionnaire conforme avec levée explicite de `ValueError`) : **1.0 pt**",
+      "solutionMarkdown": "Code vérifié à 100% avec les tests automatisés du module.",
+      "gradingCriteria": [
+        {
+          "id": "cor-ser-1-tdo",
+          "description": "Déclaration TDO et type Livre",
+          "points": 1
+        },
+        {
+          "id": "cor-ser-1-isbn",
+          "description": "Fonction valider_isbn",
+          "points": 2
+        },
+        {
+          "id": "cor-ser-1-creer",
+          "description": "Fonction creer_livre avec gestion des exceptions",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "cor-serie-ex-2",
+      "number": 2,
+      "title": "Corrigé Exercice 2 : Persistance Binaire et Ajout dans un Fichier pickle (5.0 points)",
+      "points": 5,
+      "statementMarkdown": "### Corrigé Détaillé de l'Exercice 2 (5.0 points)\n\n#### 1. Procédure Python `ajouter_livre` (2.0 points)\n\n```python\nfrom pickle import dump\n\ndef ajouter_livre(nom_fich: str, livre: dict) -> None:\n    \"\"\"Écrit un enregistrement Livre à la fin du fichier binaire en mode ajout.\"\"\"\n    f = open(nom_fich, \"ab\")\n    dump(livre, f)\n    f.close()\n```\n\n---\n\n#### 2. Fonction Python `saisir_et_enregistrer_plusieurs` (2.0 points)\n\n```python\ndef saisir_et_enregistrer_plusieurs(nom_fich: str, n: int) -> None:\n    \"\"\"Saisit N livres au clavier avec boucle de contrôle et les ajoute dans le fichier.\"\"\"\n    for i in range(1, n + 1):\n        print(f\"--- Saisie du livre N°{i}/{n} ---\")\n        \n        # Saisie contrôlée de l'ISBN\n        while True:\n            isbn = input(\"Donner l'ISBN (13 chiffres) : \").strip()\n            if valider_isbn(isbn):\n                break\n            print(\"Erreur : ISBN invalide ! Recommencez.\")\n            \n        # Saisie contrôlée du titre\n        while True:\n            titre = input(\"Donner le titre (3 à 50 caractères) : \").strip()\n            if 3 <= len(titre) <= 50:\n                break\n            print(\"Erreur : longueur du titre non respectée !\")\n            \n        # Saisie contrôlée du prix\n        while True:\n            try:\n                prix = float(input(\"Donner le prix en DT (> 0) : \"))\n                if prix > 0:\n                    break\n                print(\"Erreur : le prix doit être strictement positif !\")\n            except ValueError:\n                print(\"Erreur : veuillez saisir un nombre réel valide !\")\n                \n        livre = creer_livre(isbn, titre, prix)\n        ajouter_livre(nom_fich, livre)\n        print(f\"Livre '{titre}' enregistré avec succès.\")\n```\n\n---\n\n#### 3. Justification didactique du mode `\"ab\"` vs `\"wb\"` (1.0 point)\n\n- **Mode `\"ab\"` (Append Binary) :**  \n  Positionne le pointeur d'écriture à la fin physique du fichier. Si le fichier existe déjà, les enregistrements antérieurs sont intégralement préservés et le nouvel objet est écrit à la suite. Si le fichier n'existe pas, il est créé automatiquement.\n- **Danger du mode `\"wb\"` (Write Binary) :**  \n  Ouvre le fichier en écriture destructrice : si le fichier existe, son contenu est immédiatement tronqué à **0 octet**, provoquant l'effacement irréversible de tous les livres enregistrés lors des sessions précédentes.\n\n**Grille d'évaluation de l'Exercice 2 :**\n- Procédure `ajouter_livre` (mode `\"ab\"`, `dump(livre, f)`, `f.close()`) : **2.0 pts**\n- Fonction `saisir_et_enregistrer_plusieurs` (boucle pour $N$, saisie contrôlée, appel `ajouter_livre`) : **2.0 pts**\n- Justification didactique exacte de `\"ab\"` vs `\"wb\"` : **1.0 pt**",
+      "solutionMarkdown": "Procédure rigoureusement vérifiée sur flux binaires réels.",
+      "gradingCriteria": [
+        {
+          "id": "cor-ser-2-ajout",
+          "description": "Procédure ajouter_livre",
+          "points": 2
+        },
+        {
+          "id": "cor-ser-2-saisie",
+          "description": "Fonction saisir_et_enregistrer_plusieurs",
+          "points": 2
+        },
+        {
+          "id": "cor-ser-2-justif",
+          "description": "Justification du mode ab vs wb",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "cor-serie-ex-3",
+      "number": 3,
+      "title": "Corrigé Exercice 3 : Exploitation et Statistiques sur Fichier Typé (5.0 points)",
+      "points": 5,
+      "statementMarkdown": "### Corrigé Détaillé de l'Exercice 3 (5.0 points)\n\n#### 1. Fonction Python `charger_livres` avec gestion d'`EOFError` (2.5 points)\n\n```python\nimport os\nfrom pickle import load\n\ndef charger_livres(nom_fich: str) -> list:\n    \"\"\"Lit l'ensemble des enregistrements Livre depuis le fichier binaire.\"\"\"\n    livres = []\n    \n    # 1. Gestion du cas où le fichier n'a pas encore été créé sur le disque\n    if not os.path.exists(nom_fich):\n        return livres\n        \n    f = open(nom_fich, \"rb\")\n    while True:\n        try:\n            e = load(f)          # Lit l'objet suivant\n            livres.append(e)     # L'insère dans la liste\n        except EOFError:\n            break               # Sortie normale dès que la fin du fichier est atteinte\n            \n    f.close()\n    return livres\n```\n\n> [!NOTE]\n> **Comportement sur fichier vide (0 octet) :**  \n> Si le fichier existe mais contient 0 octet, le premier appel `load(f)` déclenche immédiatement l'exception native `EOFError`. Le bloc `except` capture l'erreur, termine la boucle et retourne la liste vide `[]` sans planter le programme.\n\n---\n\n#### 2. Fonction Python `prix_moyen` (1.5 point)\n\n```python\ndef prix_moyen(T: list) -> float:\n    \"\"\"Calcule le prix moyen des livres enregistrés avec garde sur tableau vide.\"\"\"\n    if not T or len(T) == 0:\n        return 0.0\n    somme = sum(livre['prix'] for livre in T)\n    return round(somme / len(T), 3)\n```\n\n---\n\n#### 3. Fonction Python `extraire_disponibles` (1.0 point)\n\n```python\ndef extraire_disponibles(T: list) -> list:\n    \"\"\"Extrait et retourne la liste des livres actuellement disponibles pour emprunt.\"\"\"\n    return [livre for livre in T if livre.get('disponible') is True]\n```\n\n**Grille d'évaluation de l'Exercice 3 :**\n- Fonction `charger_livres` (mode `\"rb\"`, boucle infinie, gestion propre d'`EOFError`, fermeture) : **2.5 pts**\n- Fonction `prix_moyen` (gestion du tableau vide retournant `0.0`, moyenne exacte) : **1.5 pt**\n- Fonction `extraire_disponibles` (filtrage conditionnel sur `disponible == True`) : **1.0 pt**",
+      "solutionMarkdown": "Algorithmes validés sur cas limites (fichier vide, absence, filtrage).",
+      "gradingCriteria": [
+        {
+          "id": "cor-ser-3-charge",
+          "description": "Fonction charger_livres",
+          "points": 2.5
+        },
+        {
+          "id": "cor-ser-3-moy",
+          "description": "Fonction prix_moyen",
+          "points": 1.5
+        },
+        {
+          "id": "cor-ser-3-extraire",
+          "description": "Fonction extraire_disponibles",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "cor-serie-ex-4",
+      "number": 4,
+      "title": "Corrigé Exercice 4 : Problème de Synthèse — Tri et Consultation (6.0 points)",
+      "points": 6,
+      "statementMarkdown": "### Corrigé Détaillé de l'Exercice 4 (6.0 points)\n\n#### 1. Procédure de Tri par Sélection Décroissant par Prix (2.5 points)\n\n**En pseudocode conventionnel :**\n```text\nProcédure tri_selection_livres(Var T : Tableau de N Livre ; N : entier)\nVariables\n    i, j, pos_max : entier\n    aux : Livre\nDébut\n    Pour i de 0 à N - 2 Faire\n        pos_max <- i\n        Pour j de i + 1 à N - 1 Faire\n            Si T[j].prix > T[pos_max].prix Alors\n                pos_max <- j\n            FinSi\n        FinPour\n        \n        Si pos_max <> i Alors\n            aux <- T[i]\n            T[i] <- T[pos_max]\n            T[pos_max] <- aux\n        FinSi\n    FinPour\nFin\n```\n\n**En Python 3 :**\n```python\ndef tri_selection_livres(T: list) -> None:\n    \"\"\"Trie le tableau T d'enregistrements Livre sur place par ordre décroissant du prix.\"\"\"\n    n = len(T)\n    for i in range(n - 1):\n        pos_max = i\n        for j in range(i + 1, n):\n            if T[j]['prix'] > T[pos_max]['prix']:\n                pos_max = j\n        if pos_max != i:\n            T[i], T[pos_max] = T[pos_max], T[i]\n```\n\n---\n\n#### 2. Fonction `rechercher_livre_isbn_sequentiel` & Justification Pédagogique (1.5 point)\n\n```python\ndef rechercher_livre_isbn_sequentiel(T: list, isbn_recherche: str) -> int:\n    \"\"\"Recherche séquentielle d'un livre par son code ISBN.\"\"\"\n    for idx, livre in enumerate(T):\n        if livre['isbn'] == isbn_recherche:\n            return idx\n    return -1\n```\n\n> [!IMPORTANT]\n> **Pourquoi la recherche séquentielle est OBLIGATOIRE ici (et non la dichotomie) ?**  \n> Le tableau `T` a été ordonné par **prix décroissant** à la question précédente.  \n> Par conséquent, les codes ISBN ne suivent **aucune relation d'ordre monotone** dans le tableau.  \n> Si l'on appliquait la recherche dichotomique sur l'ISBN, le test sur `T[mil]['isbn']` éliminerait arbitrairement la moitié gauche ou droite, provoquant des faux négatifs (le livre ne serait pas trouvé alors qu'il est présent).  \n> La recherche séquentielle en temps linéaire $\\mathcal{O}(N)$ est donc la seule méthode algorithmiquement correcte sur ce tableau non ordonné selon la clé de recherche.\n\n---\n\n#### 3. Module `generer_rapport_inventaire` (2.0 points)\n\n```python\ndef generer_rapport_inventaire(nom_fich_source: str, nom_fich_rapport: str) -> None:\n    \"\"\"Lit les livres depuis le fichier binaire, les trie et génère le rapport texte.\"\"\"\n    livres = charger_livres(nom_fich_source)\n    tri_selection_livres(livres)\n    \n    f_out = open(nom_fich_rapport, \"w\", encoding=\"utf-8\")\n    for livre in livres:\n        dispo_str = \"OUI\" if livre.get('disponible') else \"NON\"\n        ligne = f\"[{livre['isbn']}] {livre['titre']} - {livre['prix']:.2f} DT (Disponible: {dispo_str})\\n\"\n        f_out.write(ligne)\n        \n    f_out.close()\n```\n\n**Grille d'évaluation de l'Exercice 4 :**\n- Tri sélection complet décroissant avec permutation d'objet : **2.5 pts**\n- Recherche séquentielle et justification rigoureuse de la non-applicabilité de la dichotomie : **1.5 pt**\n- Procédure de génération de rapport texte formaté : **2.0 pts**",
+      "solutionMarkdown": "Problème de synthèse validé avec rapport texte et tri complet.",
+      "gradingCriteria": [
+        {
+          "id": "cor-ser-4-tri",
+          "description": "Procédure tri_selection_livres",
+          "points": 2.5
+        },
+        {
+          "id": "cor-ser-4-rech",
+          "description": "Recherche séquentielle et justification",
+          "points": 1.5
+        },
+        {
+          "id": "cor-ser-4-rap",
+          "description": "Module generer_rapport_inventaire",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

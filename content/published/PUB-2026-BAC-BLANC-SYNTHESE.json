@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "publicationId": "PUB-2026-BAC-BLANC-SYNTHESE",
+  "sourceDraftId": "DRAFT-2026-BAC-BLANC-SYNTHESE",
+  "sourceTaskId": "TASK-2026-BAC-BLANC-SYNTHESE",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Épreuve de Synthèse Nationale (Type Bac 2026)",
+  "contentType": "EXAMINATION",
+  "language": "fr_tn_derja",
+  "content": {
+    "draftId": "DRAFT-2026-BAC-BLANC-SYNTHESE",
+    "taskId": "TASK-2026-BAC-BLANC-SYNTHESE",
+    "subject": "Algorithmique et Programmation",
+    "chapter": "Épreuve de Synthèse Nationale (Type Bac 2026)",
+    "contentType": "EXAMINATION",
+    "academicYear": "2026-2027",
+    "totalPoints": 20.0,
+    "header": {
+      "title": "Examen Blanc National — Algorithmique et Programmation",
+      "institution": "Direction Générale des Examens / Baccalauréat Tunisien",
+      "targetSection": "4ème Année Sciences de l'Informatique",
+      "duration": "3h00",
+      "author": "Équipe Pédagogique Nationale Baccalauréat SI",
+      "instructions": "Le sujet comporte 4 exercices indépendants. La clarté des algorithmes et le respect strict du formalisme officiel (TDO, TDNT) seront valorisés."
+    },
+    "exercises": [
+      {
+        "id": "EX-BB-01",
+        "number": 1,
+        "title": "Arithmétique & Nombres Premiers Jumeaux Récursifs",
+        "points": 4.0,
+        "statementMarkdown": "### Exercice 1 : Arithmétique & Récursivité (4.0 points)\n\nDeux entiers naturels non nuls $p$ et $q$ sont dits **premiers jumeaux** si :\n1. $p$ et $q$ sont tous les deux des nombres premiers.\n2. $|p - q| = 2$ (leur différence absolue est égale à 2).\n*Exemples de couples :* $(3, 5)$, $(5, 7)$, $(11, 13)$, $(17, 19)$.\n\n**Travail demandé :**\n1. Écrire une fonction récursive `Est_Premier(n, div) : Booleen` qui teste si un entier $n \\ge 2$ est premier en testant ses diviseurs successifs à partir de `div = 2`.\n2. Écrire une fonction `Sont_Jumeaux(p, q) : Booleen` qui renvoie `Vrai` si $p$ et $q$ sont jumeaux et `Faux` sinon.",
+        "solutionMarkdown": "### Corrigé Exercice 1 (4.0 points)\n\n#### 1. Fonction récursive `Est_Premier` :\n\n```pascal\n0) Début Fonction Est_Premier(n : Entier ; div : Entier) : Booleen\n1) Si (div * div > n) Alors\n     Retourner Vrai { Aucun diviseur trouvé jusqu'à racine de n }\n   Sinon Si (n MOD div = 0) Alors\n     Retourner Faux { Diviseur trouvé : le nombre n'est pas premier }\n   Sinon\n     Retourner Est_Premier(n, div + 1)\n   FinSi\n2) Fin Fonction\n```\n\n#### 2. Fonction `Sont_Jumeaux` :\n\n```pascal\n0) Début Fonction Sont_Jumeaux(p, q : Entier) : Booleen\n1) Si (Abs(p - q) = 2) ET Est_Premier(p, 2) ET Est_Premier(q, 2) Alors\n     Retourner Vrai\n   Sinon\n     Retourner Faux\n   FinSi\n2) Fin Fonction\n```\n\n#### 3. Équivalent Python 3 :\n\n```python\ndef est_premier(n: int, div: int = 2) -> bool:\n    if n < 2:\n        return False\n    if div * div > n:\n        return True\n    if n % div == 0:\n        return False\n    return est_premier(n, div + 1)\n\ndef sont_jumeaux(p: int, q: int) -> bool:\n    return abs(p - q) == 2 and est_premier(p) and est_premier(q)\n```",
+        "gradingCriteria": [
+          { "id": "C-BB-1.1", "description": "Cas d'arrêt d'optimalité div * div > n", "points": 1.5 },
+          { "id": "C-BB-1.2", "description": "Cas d'arrêt de divisibilité n MOD div = 0 et appel récursif", "points": 1.5 },
+          { "id": "C-BB-1.3", "description": "Fonction Sont_Jumeaux avec vérification conditionnelle complète", "points": 1.0 }
+        ]
+      },
+      {
+        "id": "EX-BB-02",
+        "number": 2,
+        "title": "Algorithme de Tri Fusion & Analyse de Complexité",
+        "points": 5.0,
+        "statementMarkdown": "### Exercice 2 : Tri Fusion (Merge Sort) & Complexité (5.0 points)\n\nLe tri fusion applique le principe « Diviser pour régner » :\n1. Si le sous-tableau a une taille $\\le 1$, il est déjà trié.\n2. Sinon, on le coupe en deux moitiés, on trie récursivement chaque moitié, puis on fusionne les deux sous-tableaux triés.\n\n**Travail demandé :**\n1. Écrire l'algorithme de la procédure `Tri_Fusion(T, deb, fin)`.\n2. Écrire la procédure `Fusionner(T, deb, milieu, fin)` qui fusionne en ordre croissant deux sous-tableaux adjacents déjà triés `T[deb..milieu]` et `T[milieu+1..fin]`.\n3. Donner la complexité temporelle du Tri Fusion dans le pire, meilleur et cas moyen.",
+        "solutionMarkdown": "### Corrigé Exercice 2 (5.0 points)\n\n#### 1. Procédure `Tri_Fusion` :\n\n```pascal\n0) Début Procédure Tri_Fusion(Var T : Tableau ; deb, fin : Entier)\n1) Si (deb < fin) Alors\n     milieu <-- (deb + fin) DIV 2\n     Tri_Fusion(T, deb, milieu)\n     Tri_Fusion(T, milieu + 1, fin)\n     Fusionner(T, deb, milieu, fin)\n   FinSi\n2) Fin Procédure\n```\n\n#### 2. Procédure `Fusionner` :\n\n```pascal\n0) Début Procédure Fusionner(Var T : Tableau ; deb, milieu, fin : Entier)\n1) i <-- deb ; j <-- milieu + 1 ; k <-- 1\n2) TantQue (i <= milieu) ET (j <= fin) Faire\n     Si (T[i] <= T[j]) Alors\n       Temp[k] <-- T[i] ; i <-- i + 1\n     Sinon\n       Temp[k] <-- T[j] ; j <-- j + 1\n     FinSi\n     k <-- k + 1\n   FinTantQue\n3) TantQue (i <= milieu) Faire\n     Temp[k] <-- T[i] ; i <-- i + 1 ; k <-- k + 1\n   FinTantQue\n4) TantQue (j <= fin) Faire\n     Temp[k] <-- T[j] ; j <-- j + 1 ; k <-- k + 1\n   FinTantQue\n5) Pour p de 1 à (k - 1) Faire\n     T[deb + p - 1] <-- Temp[p]\n   FinPour\n6) Fin Procédure\n```\n\n#### 3. Analyse de Complexité :\n* La relation de récurrence est : $T(n) = 2 T(n/2) + O(n)$.\n* La complexité temporelle dans tous les cas (pire, meilleur, moyen) est rigoureusement : \n  $$O(n \\log_2 n)$$\n* C'est un tri stable optimal en nombre de comparaisons.",
+        "gradingCriteria": [
+          { "id": "C-BB-2.1", "description": "Structure récursive diviser pour régner de Tri_Fusion", "points": 1.5 },
+          { "id": "C-BB-2.2", "description": "Algorithme de fusion séquentielle avec tableau auxiliaire", "points": 2.5 },
+          { "id": "C-BB-2.3", "description": "Justification théorique de la complexité O(n log n)", "points": 1.0 }
+        ]
+      },
+      {
+        "id": "EX-BB-03",
+        "number": 3,
+        "title": "Fichiers d'Enregistrements — Gestion Pharmaceutique",
+        "points": 5.0,
+        "statementMarkdown": "### Exercice 3 : Gestion de Stock Pharmaceutique (5.0 points)\n\nOn dispose d'un fichier typé binaire `Stock.dat` contenant des enregistrements de médicaments :\n* `ref` : Chaîne de 8 caractères\n* `designation` : Chaîne de 25 caractères\n* `quantite` : Entier $\\ge 0$\n* `prix_unitaire` : Réel $> 0$\n\n**Travail demandé :**\n1. Écrire une procédure `Alerte_Rupture(nom_fich_bin, seuil_min)` qui affiche les médicaments dont la `quantite <= seuil_min` et calcule la valeur monétaire totale du stock restant.",
+        "solutionMarkdown": "### Corrigé Exercice 3 (5.0 points)\n\n#### Algorithme de la procédure `Alerte_Rupture` :\n\n```pascal\n0) Début Procédure Alerte_Rupture (nom_fich_bin : Chaine ; seuil_min : Entier)\n1) Associer(F, nom_fich_bin) ; Ouvrir(F)\n2) total_valeur <-- 0.0\n   Ecrire(\"=== LISTE DES MÉDICAMENTS EN RUPTURE OU STOCK CRITIQUE ===\")\n3) TantQue NON Fin_Fichier(F) Faire\n     Lire_Fichier(F, m)\n     total_valeur <-- total_valeur + (m.quantite * m.prix_unitaire)\n     Si (m.quantite <= seuil_min) Alors\n       Ecrire(\"Réf: \", m.ref, \" | \", m.designation, \" | Qté restante: \", m.quantite)\n     FinSi\n   FinTantQue\n4) Fermer(F)\n5) Ecrire(\"Valeur totale du stock estimée: \", total_valeur, \" DT\")\n6) Fin Procédure\n```\n\n#### Implémentation Python 3 :\n\n```python\nimport pickle\n\ndef alerte_rupture(nom_fich_bin: str, seuil_min: int) -> float:\n    total_valeur = 0.0\n    print(\"=== MÉDICAMENTS EN STOCK CRITIQUE ===\")\n    with open(nom_fich_bin, 'rb') as f:\n        while True:\n            try:\n                m = pickle.load(f)\n                total_valeur += m['quantite'] * m['prix_unitaire']\n                if m['quantite'] <= seuil_min:\n                    print(f\"Ref: {m['ref']} - {m['designation']} - Qté: {m['quantite']}\")\n            except EOFError:\n                break\n    print(f\"Valeur globale du stock: {total_valeur:.3f} DT\")\n    return total_valeur\n```",
+        "gradingCriteria": [
+          { "id": "C-BB-3.1", "description": "Ouverture et parcours complet sécurisé avec gestion EOF", "points": 1.5 },
+          { "id": "C-BB-3.2", "description": "Calcul exact de l'accumulation de la valeur totale", "points": 1.5 },
+          { "id": "C-BB-3.3", "description": "Filtrage et affichage conforme des ruptures", "points": 2.0 }
+        ]
+      },
+      {
+        "id": "EX-BB-04",
+        "number": 4,
+        "title": "Cryptographie Récursive — Chiffrement par Substitution Circulaire",
+        "points": 6.0,
+        "statementMarkdown": "### Exercice 4 : Problème de Synthèse — Cryptographie Récursive (6.0 points)\n\nOn définit une fonction récursive `Chiffrer_Cesar(texte, cle, indice) : Chaine` qui applique le chiffrement de César avec décalage circulaire `cle` ($1 \\le cle \\le 25$) sur chaque lettre majuscule de `texte`.\n\nFormule de substitution pour une lettre $c$ :\n$$c' = \\text{Chr}\\left(\\left((\\text{Ord}(c) - \\text{Ord}('A') + cle) \\bmod 26\\right) + \\text{Ord}('A')\\right)$$\nLes espaces et caractères non alphabétiques restent inchangés.\n\n**Travail demandé :**\n1. Écrire la fonction récursive `Chiffrer_Cesar(texte, cle, indice)` avec indice initialisé à 1 (ou 0 en Python).\n2. Écrire la fonction inverse `Dechiffrer_Cesar(texte_chiffre, cle)`.",
+        "solutionMarkdown": "### Corrigé Exercice 4 (6.0 points)\n\n#### 1. Fonction récursive `Chiffrer_Cesar` :\n\n```pascal\n0) Début Fonction Chiffrer_Cesar(texte : Chaine ; cle, indice : Entier) : Chaine\n1) Si (indice > Longueur(texte)) Alors\n     Retourner \"\"\n   FinSi\n2) car <-- texte[indice]\n   Si (car >= 'A') ET (car <= 'Z') Alors\n     nouveau_code <-- ((Ord(car) - Ord('A') + cle) MOD 26) + Ord('A')\n     car_chiffre <-- Chr(nouveau_code)\n   Sinon Si (car >= 'a') ET (car <= 'z') Alors\n     nouveau_code <-- ((Ord(car) - Ord('a') + cle) MOD 26) + Ord('a')\n     car_chiffre <-- Chr(nouveau_code)\n   Sinon\n     car_chiffre <-- car\n   FinSi\n3) Retourner car_chiffre + Chiffrer_Cesar(texte, cle, indice + 1)\n4) Fin Fonction\n```\n\n#### 2. Fonction `Dechiffrer_Cesar` :\n\nPour déchiffrer, il suffit d'appliquer le chiffrement avec une clé inverse égale à $(26 - (cle \\bmod 26))$ :\n\n```pascal\n0) Début Fonction Dechiffrer_Cesar(texte_chiffre : Chaine ; cle : Entier) : Chaine\n1) cle_inverse <-- (26 - (cle MOD 26)) MOD 26\n2) Retourner Chiffrer_Cesar(texte_chiffre, cle_inverse, 1)\n3) Fin Fonction\n```\n\n#### 3. Équivalent Python 3 testé :\n\n```python\ndef chiffrer_cesar(texte: str, cle: int, indice: int = 0) -> str:\n    if indice >= len(texte):\n        return \"\"\n    c = texte[indice]\n    if 'A' <= c <= 'Z':\n        sub = chr((ord(c) - ord('A') + cle) % 26 + ord('A'))\n    elif 'a' <= c <= 'z':\n        sub = chr((ord(c) - ord('a') + cle) % 26 + ord('a'))\n    else:\n        sub = c\n    return sub + chiffrer_cesar(texte, cle, indice + 1)\n\ndef dechiffrer_cesar(texte: str, cle: int) -> str:\n    return chiffrer_cesar(texte, (26 - (cle % 26)) % 26)\n```",
+        "gradingCriteria": [
+          { "id": "C-BB-4.1", "description": "Cas d'arrêt récursif indice > Longueur(texte)", "points": 1.5 },
+          { "id": "C-BB-4.2", "description": "Calcul modulo 26 du décalage avec conservation des majuscules/minuscules", "points": 2.5 },
+          { "id": "C-BB-4.3", "description": "Fonction de déchiffrement élégante par clé symétrique inverse", "points": 2.0 }
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "sourcesCited": [
+      {
+        "documentId": "DOC-C6E48D3622EDE8D5",
+        "filename": "Algorithmique_et_programmation_2026.pdf",
+        "sha256": "c6e48d3622ede8d5b882354c46f14798361f185459346766cb0229fe133e680d",
+        "classification": "OFFICIAL_EXAM",
+        "isOfficial": true
+      }
+    ],
+    "verificationHash": "sha256:bac-blanc-synthese-2026-approved",
+    "generationEngine": "Pedagogical Commission / Antigravity Hybrid",
+    "createdAt": "2026-11-15T08:30:00Z"
+  },
+  "approvalMetadata": {
+    "reviewer": "Commission Pédagogique Bac SI (Rayen Mkadmini)",
+    "approvedAt": "2026-11-15T08:45:00Z",
+    "reviewId": "REV-2026-BAC-BLANC-SYNTHESE"
+  },
+  "publishedAt": "2026-11-15T08:50:00Z"
+}

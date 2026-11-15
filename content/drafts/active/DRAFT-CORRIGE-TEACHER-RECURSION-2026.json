@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-CORRIGE-TEACHER-RECURSION-2026",
+  "taskId": "TASK-TEACHER-ASSESSMENT-REC-2026",
+  "version": 1,
+  "createdAt": "2026-11-06T20:30:00.000Z",
+  "updatedAt": "2026-11-06T20:30:00.000Z",
+  "status": "APPROVED",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Récursivité et Algorithmes de Tri",
+  "academicYear": "2026-2027",
+  "contentType": "CORRIGE_DETAILLE",
+  "totalPoints": 20.0,
+  "isOfficialBac": false,
+  "provenance": {
+    "generatedBy": "Corrigé Enseignant Modèle — Studio Pédagogique BAC AI Tunisia",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+        "page": 1,
+        "section": "Épreuve pratique officielle Bac SI : Modélisation et Modularité"
+      },
+      {
+        "document": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+        "page": 1,
+        "section": "Implémentation Python standard environnement Thonny"
+      },
+      {
+        "document": "930147474-68a8422d5b347-Corrige-RG-02-tableaux-en-algo-et-en-python.pdf",
+        "page": 2,
+        "section": "Tri et manipulation des tableaux en algorithmique et en Python"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "Lycée Pilote / Établissement Secondaire — République Tunisienne",
+    "sessionLabel": "Corrigé Officieux & Guide de Barème Enseignant — Devoir de Contrôle N°2",
+    "duration": "2 heures (Durée enseignant)",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "corr-ex1",
+      "number": 1,
+      "title": "Corrigé Exercice 1 : Analyse et Traces Récursives (4.0 pts)",
+      "points": 4.0,
+      "statementMarkdown": "Énoncé : Analyse de la fonction récursive `Mystere(a, b)`.",
+      "solutionMarkdown": "#### 1. Arbre d'appels récursifs pour `Mystere(7, 6)` (1.5 point)\n\n- **Appel initial :** `Mystere(7, 6)`\n  - $b = 6$ est pair ($6 \\pmod 2 = 0$) $\\implies$ appel récursif : `Mystere(14, 3)`\n- **2ème appel :** `Mystere(14, 3)`\n  - $b = 3$ est impair ($3 \\pmod 2 = 1$) $\\implies$ retourne : $14 + \\text{Mystere}(28, 1)$\n- **3ème appel :** `Mystere(28, 1)`\n  - $b = 1$ est impair $\\implies$ retourne : $28 + \\text{Mystere}(56, 0)$\n- **4ème appel (Cas de base) :** `Mystere(56, 0)`\n  - $b = 0 \\implies$ retourne $0$\n\n**Remontée de la pile d'appels :**\n- `Mystere(56, 0) = 0`\n- `Mystere(28, 1) = 28 + 0 = 28`\n- `Mystere(14, 3) = 14 + 28 = 42`\n- `Mystere(7, 6) = 42`\n\n---\n\n#### 2. Valeur finale retournée (1.0 point)\nLa valeur retournée par l'appel `Mystere(7, 6)` est **42**.\n\n---\n\n#### 3. Rôle arithmétique de la fonction (1.0 point)\nCette fonction calcule le **produit arithmétique** de $a$ et $b$ ($a \\times b$) en appliquant la méthode de la **multiplication russe (ou égyptienne)** par dédoublement et division par 2.\n- Complexité temporelle : $\\mathcal{O}(\\log_2 b)$ opérations élémentaires, bien plus performante qu'une addition répétée en $\\mathcal{O}(b)$.\n\n---\n\n#### 4. Condition d'arrêt et justification de la convergence (0.5 point)\n- **Condition d'arrêt :** $b = 0$.\n- **Convergence :** À chaque appel récursif, le paramètre $b$ subit une division entière par 2 (`b Div 2`). Comme $b$ est un entier positif, la suite des valeurs de $b$ est strictement décroissante ($b_0 > b_1 > b_2 > \\dots$) et atteint nécessairement $0$ après un nombre fini d'étapes (au plus $\\lfloor \\log_2 b \\rfloor + 1$ étapes).\n\n> [!NOTE]\n> **Erreur fréquente des élèves :** Oublier la remontée des additions lors des cas impairs ($14 + 28$).",
+      "gradingCriteria": [
+        { "id": "cg1-1", "description": "Pile d'appels complète avec valeurs successives de a et b", "points": 1.5 },
+        { "id": "cg1-2", "description": "Résultat exact égal à 42", "points": 1.0 },
+        { "id": "cg1-3", "description": "Identification du produit a * b (multiplication russe)", "points": 1.0 },
+        { "id": "cg1-4", "description": "Justification de la décroissance stricte de b vers 0", "points": 0.5 }
+      ]
+    },
+    {
+      "id": "corr-ex2",
+      "number": 2,
+      "title": "Corrigé Exercice 2 : Tri à Bulles Optimisé & Complexité (5.0 pts)",
+      "points": 5.0,
+      "statementMarkdown": "Énoncé : Procédure de tri à bulles optimisé avec arrêt anticipé et analyse de complexité.",
+      "solutionMarkdown": "#### 1. Algorithme en notation conventionnelle tunisienne (2.0 points)\n\n```text\n0) Procédure TriBullesOptimise (Var T : Tab, n : Entier)\n1) Répéter\n       permut <- Faux\n       Pour i De 0 A n - 2 Faire\n           Si (T[i] > T[i + 1]) Alors\n               aux <- T[i]\n               T[i] <- T[i + 1]\n               T[i + 1] <- aux\n               permut <- Vrai\n           Fin Si\n       Fin Pour\n       n <- n - 1\n   Jusqu'à (permut = Faux) Ou (n <= 1)\n2) Fin TriBullesOptimise\n```\n\n**TDO Local (Tableau de Déclaration des Objets) :**\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `i` | Entier | Compteur de parcours du tableau |\n| `aux` | Entier | Variable intermédiaire pour la permutation |\n| `permut` | Booléen | Drapeau indiquant si au moins une permutation a eu lieu |\n\n---\n\n#### 2. Traduction Python 3 conforme à Thonny (1.5 point)\n\n```python\ndef tri_bulles_optimise(T):\n    \"\"\"Trie la liste T sur place par tri à bulles avec arrêt anticipé.\"\"\"\n    n = len(T)\n    permut = True\n    while permut and n > 1:\n        permut = False\n        for i in range(n - 1):\n            if T[i] > T[i + 1]:\n                T[i], T[i + 1] = T[i + 1], T[i]\n                permut = True\n        n -= 1\n```\n\n---\n\n#### 3. Analyse de complexité (1.5 point)\n- **Meilleur des cas (0.75 pt) :** Tableau déjà trié.\n  - Une seule passe est effectuée avec `permut = Faux`.\n  - Nombre de comparaisons : $n - 1$ comparaisons (soit une complexité linéaire $\\mathcal{O}(n)$).\n- **Pire des cas (0.75 pt) :** Tableau trié en ordre strictement décroissant.\n  - L'algorithme effectue toutes les passes ($n-1$ passes).\n  - Formule : $C(n) = \\sum_{i=1}^{n-1} i = \\frac{n(n - 1)}{2}$ comparaisons (complexité quadratique $\\mathcal{O}(n^2)$).\n  - Pour $n = 10$ :\n    $$C(10) = \\frac{10 \\times 9}{2} = 45 \\text{ comparaisons}$$\n\n> [!TIP]\n> **Variante admise :** La boucle `TantQue (permut = Vrai Et n > 1)` est également acceptée avec initialisation préalable `permut <- Vrai`.",
+      "gradingCriteria": [
+        { "id": "cg2-1", "description": "Structure de boucle avec drapeau permut et décrémentation de n", "points": 1.5 },
+        { "id": "cg2-2", "description": "TDO local rigoureusement complété", "points": 0.5 },
+        { "id": "cg2-3", "description": "Code Python syntaxiquement valide et testé", "points": 1.5 },
+        { "id": "cg2-4", "description": "Calcul meilleur cas (n-1) et pire cas n(n-1)/2 = 45", "points": 1.5 }
+      ]
+    },
+    {
+      "id": "corr-ex3",
+      "number": 3,
+      "title": "Corrigé Exercice 3 : Récursivité sur Chaînes de Caractères (4.5 pts)",
+      "points": 4.5,
+      "statementMarkdown": "Énoncé : Fonction récursive `EstSymetrique` sans boucles.",
+      "solutionMarkdown": "#### 1. Relation de récurrence (1.0 point)\nSoit $L = \\text{Long}(ch)$ :\n- **Cas de base (arrêt) :**\n  - Si $L \\le 1$, alors la chaîne est triviellement symétrique $\\implies$ `Vrai`.\n  - Si $ch[0] \\ne ch[L - 1]$, les extrémités diffèrent $\\implies$ `Faux`.\n- **Cas général (récursif) :**\n  - Si $ch[0] = ch[L - 1]$, la chaîne est symétrique si et seulement si la sous-chaîne privée des deux extrémités l'est aussi $\\implies$ $\\text{EstSymetrique}(\\text{SousChaine}(ch, 1, L - 2))$.\n\n---\n\n#### 2. Algorithme en notation conventionnelle (2.0 points)\n\n```text\n0) Fonction EstSymetrique (ch : Chaine) : Booleen\n1) L <- Long(ch)\n   Si (L <= 1) Alors\n       EstSymetrique <- Vrai\n   Sinon Si (ch[0] <> ch[L - 1]) Alors\n       EstSymetrique <- Faux\n   Sinon\n       EstSymetrique <- EstSymetrique(SousChaine(ch, 1, L - 2))\n   Fin Si\n2) Fin EstSymetrique\n```\n\n**TDO Local :**\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `L` | Entier | Longueur de la chaîne courante |\n\n---\n\n#### 3. Traduction Python 3 (1.5 point)\n\n```python\ndef est_symetrique(ch: str) -> bool:\n    \"\"\"Vérifie récursivement si une chaîne est un palindrome.\"\"\"\n    if len(ch) <= 1:\n        return True\n    if ch[0] != ch[-1]:\n        return False\n    return est_symetrique(ch[1:-1])\n```\n\n> [!NOTE]\n> **Validation par jeu d'essais :**\n> - `est_symetrique(\"RADAR\")` $\\implies$ `True`\n> - `est_symetrique(\"TUNISIE\")` $\\implies$ `False`\n> - `est_symetrique(\"\")` $\\implies$ `True`",
+      "gradingCriteria": [
+        { "id": "cg3-1", "description": "Formulation formelle cas de base (L<=1) et cas récursif", "points": 1.0 },
+        { "id": "cg3-2", "description": "Algorithme pseudocode conforme sans boucles avec TDO", "points": 2.0 },
+        { "id": "cg3-3", "description": "Code Python concis avec tranches [1:-1] ou indices", "points": 1.5 }
+      ]
+    },
+    {
+      "id": "corr-ex4",
+      "number": 4,
+      "title": "Corrigé Exercice 4 : Problème de Synthèse — Candidats Bac (6.5 pts)",
+      "points": 6.5,
+      "statementMarkdown": "Énoncé : Gestion des enregistrements `Candidat`, tri par sélection et recherche dichotomique récursive.",
+      "solutionMarkdown": "#### 1. Déclaration du type Enregistrement et du TDO (1.0 point)\n\n**Partie Déclaration des Types :**\n```text\nType\n    Candidat = Enregistrement\n        cin        : Chaîne\n        nom_prenom : Chaîne\n        moyenne    : Réel\n        admis      : Booléen\n    Fin\n```\n\n**TDO (Tableau de Déclaration des Objets) :**\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `T` | Tableau de 50 Candidat | Liste des candidats enregistrés |\n| `N` | Entier | Nombre effectif de candidats |\n\n---\n\n#### 2. Algorithme `TrierCandidats` par sélection décroissante (2.5 points)\n\n```text\n0) Procédure TrierCandidats (Var T : Tab, n : Entier)\n1) Pour i De 0 A n - 2 Faire\n       pos_max <- i\n       Pour j De i + 1 A n - 1 Faire\n           Si (T[j].moyenne > T[pos_max].moyenne) Alors\n               pos_max <- j\n           Fin Si\n       Fin Pour\n       Si (pos_max <> i) Alors\n           aux <- T[i]\n           T[i] <- T[pos_max]\n           T[pos_max] <- aux\n       Fin Si\n   Fin Pour\n2) Fin TrierCandidats\n```\n\n**TDO Local :**\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `i`, `j` | Entier | Indices de boucle |\n| `pos_max` | Entier | Indice de la moyenne maximale trouvée |\n| `aux` | Candidat | Variable de permutation de type enregistrement |\n\n---\n\n#### 3. Fonction récursive `RechercheDicho` (2.0 points)\n\n```text\n0) Fonction RechercheDicho (T : Tab, g : Entier, d : Entier, cin_cherche : Chaine) : Entier\n1) Si (g > d) Alors\n       RechercheDicho <- -1\n   Sinon\n       m <- (g + d) Div 2\n       Si (T[m].cin = cin_cherche) Alors\n           RechercheDicho <- m\n       Sinon Si (T[m].cin > cin_cherche) Alors\n           RechercheDicho <- RechercheDicho(T, g, m - 1, cin_cherche)\n       Sinon\n           RechercheDicho <- RechercheDicho(T, m + 1, d, cin_cherche)\n       Fin Si\n   Fin Si\n2) Fin RechercheDicho\n```\n\n---\n\n#### 4. Implémentation Python 3 complète (1.0 point)\n\n```python\ndef creer_candidat(cin: str, nom_prenom: str, moyenne: float) -> dict:\n    \"\"\"Crée un enregistrement Candidat sous forme de dictionnaire.\"\"\"\n    return {\n        'cin': cin,\n        'nom_prenom': nom_prenom,\n        'moyenne': float(moyenne),\n        'admis': moyenne >= 10.0\n    }\n\ndef recherche_dicho(T: list, g: int, d: int, cin_cherche: str) -> int:\n    \"\"\"Recherche dichotomique récursive par CIN sur liste triée.\"\"\"\n    if g > d:\n        return -1\n    m = (g + d) // 2\n    if T[m]['cin'] == cin_cherche:\n        return m\n    elif T[m]['cin'] > cin_cherche:\n        return recherche_dicho(T, g, m - 1, cin_cherche)\n    else:\n        return recherche_dicho(T, m + 1, d, cin_cherche)\n```",
+      "gradingCriteria": [
+        { "id": "cg4-1", "description": "Déclaration du type Enregistrement et TDO conforme", "points": 1.0 },
+        { "id": "cg4-2", "description": "Tri par sélection décroissant avec permutation complète de l'enregistrement", "points": 2.5 },
+        { "id": "cg4-3", "description": "Recherche dichotomique récursive avec calcul du milieu et cas de base", "points": 2.0 },
+        { "id": "cg4-4", "description": "Code Python conforme Thonny avec dictionnaires", "points": 1.0 }
+      ]
+    }
+  ]
+}

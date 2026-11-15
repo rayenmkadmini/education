@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-58ED288AE18CE21E",
+  "filename": "serie2ex2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex2.py",
+  "sha256": "58ed288ae18ce21edc74a5c43ddd350670b8e2a483e7c5b89e8a924280269db7",
+  "extractedAt": "2026-11-06T14:24:39.744Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): x=int(input('introduire un entier non nul')) y=int(input('introduire un entier non nul')) b=10<x<y<1000 return x,y def affiche(a,b): for i in range(a,b+1): if avogadro(i): print(i) def avogadro(x): c=x //100 d=x%100 //10 u=x % 10 s=c*c*c+d*d*d+u*u*u b=(s==x) return b a,b=saisie() affiche(a,b)",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\n\r\n\r\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if avogadro(i):\r\n            print(i)\r\n            \r\ndef avogadro(x):\r\n    c=x //100\r\n    d=x%100 //10\r\n    u=x % 10\r\n    s=c*c*c+d*d*d+u*u*u\r\n    b=(s==x)\r\n    return b\r\na,b=saisie()\r\naffiche(a,b)",
+  "chunks": [
+    {
+      "chunkId": "DOC-58ED288AE18CE21E-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\n\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if avogadro(i):\r\n            print(i)\r\n\ndef avogadro(x):\r\n    c=x //100\r\n    d=x%100 //10\r\n    u=x % 10\r\n    s=c*c*c+d*d*d+u*u*u\r\n    b=(s==x)\r\n    return b\r\na,b=saisie()\r\naffiche(a,b)"
+    }
+  ]
+}

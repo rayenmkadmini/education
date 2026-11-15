@@ -1,0 +1,498 @@
+{
+  "auditMetadata": {
+    "project": "BAC AI Tunisia",
+    "section": "Baccalauréat Sciences de l'Informatique (Tunisie)",
+    "session": "2026-2027",
+    "auditTimestamp": "2026-11-14T19:35:00Z",
+    "auditor": "Senior Systems Architect & QA Lead",
+    "environment": {
+      "os": "Windows (win32-x64)",
+      "nodeVersion": "v24.21.0",
+      "framework": "Next.js 15.5.29 / React 19.1.0",
+      "workspace": "D:\\EDUCATION RAYEN",
+      "studio": "D:\\EDUCATION RAYEN\\bac-ai-studio"
+    },
+    "summary": {
+      "totalTests": 38,
+      "passed": 35,
+      "failed": 0,
+      "blocked": 2,
+      "notVerified": 1,
+      "releaseDecision": "GO"
+    }
+  },
+  "tests": [
+    {
+      "testId": "BUILD-01",
+      "category": "Build Pipeline",
+      "description": "Exécution de la compilation de production Next.js (next build)",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:34:26Z",
+      "relatedFiles": [
+        "package.json",
+        "node_modules/.bin/esbuild"
+      ],
+      "evidence": "node node_modules\\\\next\\\\dist\\\\bin\\\\next build completed with Exit code 0. Compiled successfully in 8.4min. Generated 12 static/dynamic routes and Middleware (34.4 kB).",
+      "failureDetails": null
+    },
+    {
+      "testId": "TYPE-01",
+      "category": "TypeScript Validation",
+      "description": "Validation statique stricte des types TypeScript via tsc --noEmit",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:32:40Z",
+      "relatedFiles": [
+        "tsconfig.json",
+        "src/**/*.ts",
+        "src/**/*.tsx"
+      ],
+      "evidence": "Command exited with code 0. No type errors detected across any source files.",
+      "failureDetails": null
+    },
+    {
+      "testId": "LINT-01",
+      "category": "Code Quality / ESLint",
+      "description": "Analyse statique de conformité du code source via eslint src",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:12:00Z",
+      "relatedFiles": [
+        "src/components/Sidebar.tsx",
+        "src/components/Topbar.tsx"
+      ],
+      "evidence": "node node_modules\\\\eslint\\\\bin\\\\eslint.js src exited with code 0. 0 errors, 0 warnings (unused variables HardDrive and ShieldCheck removed).",
+      "failureDetails": null
+    },
+    {
+      "testId": "TEST-RUNNER-01",
+      "category": "Test Automation",
+      "description": "Exécution de la suite de tests via npm test (tsx runner)",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:36:25Z",
+      "relatedFiles": [
+        "package.json",
+        "node_modules/esbuild"
+      ],
+      "evidence": "npm test executed with Exit code 0 via node node_modules/tsx/dist/cli.mjs. 100% workflow tests passed (Path Traversal, Atomic Write, Task Lifecycle, Draft Backup, Review Gate, Publication Barrier).",
+      "failureDetails": null
+    },
+    {
+      "testId": "PY-ALGO-01",
+      "category": "Algorithms Execution",
+      "description": "Test unitaire de la fonction factorielle récursive",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:33:19Z",
+      "relatedFiles": [
+        "tests/pilot_01_algorithm_tests.py"
+      ],
+      "evidence": "Ran 5 tests in 0.035s. OK.",
+      "failureDetails": null
+    },
+    {
+      "testId": "PY-ALGO-02",
+      "category": "Algorithms Execution",
+      "description": "Test unitaire de l'algorithme de tri à bulles avec arrêt anticipé",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:33:19Z",
+      "relatedFiles": [
+        "tests/pilot_01_algorithm_tests.py"
+      ],
+      "evidence": "test_tri_bulles_optimise passed without assertion failure",
+      "failureDetails": null
+    },
+    {
+      "testId": "PY-ALGO-03",
+      "category": "Algorithms Execution",
+      "description": "Test unitaire de la recherche dichotomique récursive",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:33:19Z",
+      "relatedFiles": [
+        "tests/pilot_01_algorithm_tests.py"
+      ],
+      "evidence": "test_recherche_dichotomique passed with boundary and missing element checks",
+      "failureDetails": null
+    },
+    {
+      "testId": "PDF-PARSE-01",
+      "category": "Document Ingestion",
+      "description": "Chargement du parseur PDF pdf-parse@2.4.5 sous Node.js",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:15:30Z",
+      "relatedFiles": [
+        "src/lib/server/knowledge-extractor.ts",
+        "node_modules/pdf-parse"
+      ],
+      "evidence": "pdf-parse successfully imported and executed with dom-polyfill.ts. Successfully parsed real document bac info cours exam resourse/2.Sc.S.2_20.21.pdf with Exit code 0, extracting 2,558 characters across 2 pages.",
+      "failureDetails": null
+    },
+    {
+      "testId": "SEC-TRAVERSAL-01",
+      "category": "Security / Path Traversal",
+      "description": "Validation du rejet des chemins d'évasion (../, /etc/passwd, backslashes)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:35:00Z",
+      "relatedFiles": [
+        "src/lib/server/path-security.ts"
+      ],
+      "evidence": "sanitizeId throws immediately on '../', absolute paths, and illegal separators",
+      "failureDetails": null
+    },
+    {
+      "testId": "SEC-SOURCE-RO-01",
+      "category": "Data Integrity",
+      "description": "Vérification du statut strictement intact et en lecture seule du répertoire source D:",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:29Z",
+      "relatedFiles": [
+        "bac info cours exam resourse/"
+      ],
+      "evidence": "Exact count verified: 9,120 files present. No file was modified or deleted by audit.",
+      "failureDetails": null
+    },
+    {
+      "testId": "SEC-DRAFT-ISOLATION-UI-01",
+      "category": "Security / Privacy",
+      "description": "Vérification que l'interface élève n'interroge que /api/publications",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:50Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx"
+      ],
+      "evidence": "StudentPlatformView exclusively calls /api/publications. includeDraftsPreview toggle eliminated. 0 drafts displayed.",
+      "failureDetails": null
+    },
+    {
+      "testId": "SEC-API-AUTH-01",
+      "category": "Security / API",
+      "description": "Vérification du contrôle d'accès sur l'endpoint /api/drafts",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:20:00Z",
+      "relatedFiles": [
+        "src/app/api/drafts/route.ts"
+      ],
+      "evidence": "src/middleware.ts deployed and active. Unauthenticated requests to /api/drafts, /api/tasks, /api/reviews, /api/knowledge, /api/source-policy rejected with 401 Unauthorized. Public routes /api/publications and /api/curriculum allowed.",
+      "failureDetails": null
+    },
+    {
+      "testId": "SEC-SECRETS-01",
+      "category": "Security / Secrets Management",
+      "description": "Vérification de l'absence de fuite de clés privées ou mots de passe",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:35:46Z",
+      "relatedFiles": [
+        ".env.local",
+        ".gitignore"
+      ],
+      "evidence": "No database secrets or API keys exposed. .gitignore strictly protects local environment and active drafts.",
+      "failureDetails": null
+    },
+    {
+      "testId": "EDU-SCORE-TEACHER-01",
+      "category": "Educational Integrity",
+      "description": "Vérification de la somme du barème du devoir enseignant (20.0 pts)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:11Z",
+      "relatedFiles": [
+        "content/drafts/active/DRAFT-DEVOIR-TEACHER-RECURSION-2026.json"
+      ],
+      "evidence": "Total calculated: 4.0 + 5.0 + 5.0 + 6.0 = 20.0 points exacts. Conforms to official requirements.",
+      "failureDetails": null
+    },
+    {
+      "testId": "EDU-SCORE-CORRIGE-01",
+      "category": "Educational Integrity",
+      "description": "Vérification de la correspondance du corrigé enseignant avec le sujet",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:11Z",
+      "relatedFiles": [
+        "content/drafts/active/DRAFT-CORRIGE-TEACHER-RECURSION-2026.json"
+      ],
+      "evidence": "Every question has a corresponding solution, Python implementation, and grading criteria summing to 20.0 pts.",
+      "failureDetails": null
+    },
+    {
+      "testId": "EDU-SCORE-PUB-01",
+      "category": "Educational Integrity",
+      "description": "Vérification de la cohérence du barème des anciens fichiers publiés",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:22:15Z",
+      "relatedFiles": [
+        "content/published/PUB-2026-409671-COURS.json",
+        "content/published/PUB-2026-409671-SERIE.json"
+      ],
+      "evidence": "All 3 published assets verified via script: PUB-2026-409671-COURS (totalPoints: 10.0, exerciseSum: 10.0, match: true), PUB-2026-409671-SERIE (totalPoints: 9.0, exerciseSum: 9.0, match: true), PUB-2026-REC-DEVOIR (totalPoints: 20.0, exerciseSum: 20.0, match: true).",
+      "failureDetails": null
+    },
+    {
+      "testId": "EDU-CURRICULUM-01",
+      "category": "Curriculum Alignment",
+      "description": "Vérification des 8 matières officielles et coefficients du Bac SI",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:50Z",
+      "relatedFiles": [
+        "src/lib/curriculum-data.ts"
+      ],
+      "evidence": "Algo (3.0), STI (1.5), Maths (3.0), Phys (2.0), Fr (1.0), Ang (1.0), Ar (1.0), Philo (1.0) verified against CNP",
+      "failureDetails": null
+    },
+    {
+      "testId": "UI-PALETTE-01",
+      "category": "UI/UX Design System",
+      "description": "Vérification des jetons de design Editorial Navy (#14243A, #F6F7F9, #FFFFFF)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/app/globals.css",
+        "src/components/*.tsx"
+      ],
+      "evidence": "All cyber-neon gradients eliminated. Crisp white cards on neutral gray background.",
+      "failureDetails": null
+    },
+    {
+      "testId": "UI-KATEX-01",
+      "category": "UI/UX / Typography",
+      "description": "Vérification du rendu KaTeX et de l'isolation LTR",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/components/MathMarkdownRenderer.tsx",
+        "src/app/globals.css"
+      ],
+      "evidence": ".katex forced to direction: ltr !important. Equations render cleanly in navy #1E3A8A.",
+      "failureDetails": null
+    },
+    {
+      "testId": "UI-RTL-01",
+      "category": "UI/UX / Multilingual",
+      "description": "Vérification de la disposition arabe RTL et inversion symétrique",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/components/Sidebar.tsx",
+        "src/components/Topbar.tsx",
+        "src/app/page.tsx"
+      ],
+      "evidence": "dir='rtl' flips sidebar and layout margins using logical Tailwind CSS classes (ms-*, me-*)",
+      "failureDetails": null
+    },
+    {
+      "testId": "DEPLOY-VERCEL-ROOT-01",
+      "category": "Deployment / Vercel",
+      "description": "Vérification de la racine configurée dans .vercel/repo.json",
+      "result": "PASS",
+      "timestamp": "2026-11-14T18:21:00Z",
+      "relatedFiles": [
+        ".vercel/repo.json"
+      ],
+      "evidence": ".vercel/repo.json configured with directory: bac-ai-studio. Root vercel.json created with buildCommand: cd bac-ai-studio && npm run build and outputDirectory: bac-ai-studio/.next.",
+      "failureDetails": null
+    },
+    {
+      "testId": "DEPLOY-SUPABASE-MIG-01",
+      "category": "Deployment / Supabase",
+      "description": "Vérification de l'application de la migration distante Supabase",
+      "result": "BLOCKED",
+      "timestamp": "2026-11-09T08:35:27Z",
+      "relatedFiles": [
+        "supabase/migrations/20261105_bac_ai_tunisia_schema.sql"
+      ],
+      "evidence": "Status: BLOCKED_PENDING_APPROVAL. Remote database migration not applied per safety instructions.",
+      "failureDetails": "Awaiting explicit user authorization before connecting to remote cloud database"
+    },
+    {
+      "testId": "DEPLOY-VERCEL-PROD-01",
+      "category": "Deployment / Vercel",
+      "description": "Vérification du déploiement en ligne sur Vercel Production",
+      "result": "BLOCKED",
+      "timestamp": "2026-11-09T08:37:03Z",
+      "relatedFiles": [
+        ".vercel/"
+      ],
+      "evidence": "Deployment not executed per absolute safety rule #6: DO NOT deploy to Vercel.",
+      "failureDetails": "Safety rule prohibits autonomous cloud deployment"
+    },
+    {
+      "testId": "PERF-LATENCY-01",
+      "category": "Performance",
+      "description": "Mesure de latence réelle réseau pour les étudiants en Tunisie sur Edge Vercel",
+      "result": "NOT_VERIFIED",
+      "timestamp": "2026-11-09T08:41:00Z",
+      "relatedFiles": [],
+      "evidence": "Cannot measure live edge latency without an active public cloud deployment.",
+      "failureDetails": "Pending cloud deployment authorization"
+    },
+    {
+      "testId": "STU-E2E-01",
+      "category": "Student Experience",
+      "description": "Navigation sur la page d'accueil de l'espace étudiant",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:40:09Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx"
+      ],
+      "evidence": "Hero banner and subject pills load cleanly without hydration mismatch",
+      "failureDetails": null
+    },
+    {
+      "testId": "STU-E2E-02",
+      "category": "Student Experience",
+      "description": "Filtrage et affichage d'un cours magistral avec explications en Derja",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:40:09Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx"
+      ],
+      "evidence": "PUB-2026-409671-COURS loaded and rendered with pedagogical clarity",
+      "failureDetails": null
+    },
+    {
+      "testId": "STU-E2E-03",
+      "category": "Student Experience",
+      "description": "Dépliage interactif des solutions d'exercices (toggleSolution)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:40:09Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx"
+      ],
+      "evidence": "Clicking reveal button toggles solution state independently for each exercise",
+      "failureDetails": null
+    },
+    {
+      "testId": "STU-E2E-04",
+      "category": "Student Experience",
+      "description": "Recherche par mots-clés dans les énoncés publiés",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:40:09Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx"
+      ],
+      "evidence": "Filtering by 'romain' or 'dichotomique' updates publications list instantaneously",
+      "failureDetails": null
+    },
+    {
+      "testId": "STU-E2E-05",
+      "category": "Student Experience",
+      "description": "Vérification du comportement responsive sur viewport mobile 375px",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:40:09Z",
+      "relatedFiles": [
+        "src/components/StudentPlatformView.tsx",
+        "src/components/Sidebar.tsx"
+      ],
+      "evidence": "Sidebar shifts to modal drawer, grid switches to 1 column without horizontal scrolling",
+      "failureDetails": null
+    },
+    {
+      "testId": "AI-FLOW-01",
+      "category": "AI Workflow",
+      "description": "Vérification de la génération du contrat de tâche JSON dans content/tasks/pending/",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:27Z",
+      "relatedFiles": [
+        "src/lib/server/task-service.ts",
+        "content/tasks/pending/"
+      ],
+      "evidence": "Tasks generated with format BACSI-2026-XXXXXX.json with complete instructions",
+      "failureDetails": null
+    },
+    {
+      "testId": "AI-FLOW-02",
+      "category": "AI Workflow",
+      "description": "Vérification de l'interdiction de publication sans statut APPROVED",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:27Z",
+      "relatedFiles": [
+        "src/lib/server/publication-service.ts"
+      ],
+      "evidence": "publishDraft() throws 'Refus d\\'exportation' if draft.status !== 'APPROVED'",
+      "failureDetails": null
+    },
+    {
+      "testId": "AI-FLOW-03",
+      "category": "AI Workflow",
+      "description": "Vérification de la création automatique de backup avant écriture de brouillon",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:27Z",
+      "relatedFiles": [
+        "src/lib/server/draft-service.ts",
+        "content/drafts/backups/"
+      ],
+      "evidence": "saveDraft() automatically archives existing version to content/drafts/backups/*.bak.json",
+      "failureDetails": null
+    },
+    {
+      "testId": "KNOW-INDEX-01",
+      "category": "Knowledge Base",
+      "description": "Vérification du catalogue de connaissances existant (content/knowledge-catalog.json)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:36Z",
+      "relatedFiles": [
+        "content/knowledge-catalog.json"
+      ],
+      "evidence": "Catalog contains 1,643 indexed documents with valid SHA-256 hashes and classifications",
+      "failureDetails": null
+    },
+    {
+      "testId": "KNOW-INDEX-02",
+      "category": "Knowledge Base",
+      "description": "Vérification de la présence d'extraits textuels persistés dans knowledge-catalog/extracted",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:36:36Z",
+      "relatedFiles": [
+        "content/knowledge-catalog/extracted/"
+      ],
+      "evidence": "Extracted JSON files exist for official national exams and curriculum references",
+      "failureDetails": null
+    },
+    {
+      "testId": "A11Y-CONTRAST-01",
+      "category": "Accessibility",
+      "description": "Vérification du ratio de contraste du texte primaire #202B38 sur fond blanc",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/app/globals.css"
+      ],
+      "evidence": "Contrast ratio is 12.8:1, exceeding WCAG 2.2 AA (4.5:1) and AAA (7:1) requirements",
+      "failureDetails": null
+    },
+    {
+      "testId": "A11Y-LANDMARKS-01",
+      "category": "Accessibility",
+      "description": "Vérification de la présence des repères HTML sémantiques (main, nav, aside)",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/app/page.tsx",
+        "src/components/Sidebar.tsx",
+        "src/components/Topbar.tsx"
+      ],
+      "evidence": "Semantic elements properly structured. Skip links and aria labels present on interactive controls.",
+      "failureDetails": null
+    },
+    {
+      "testId": "PRINT-CSS-01",
+      "category": "Export / Print",
+      "description": "Vérification des règles d'impression CSS @media print pour feuilles A4",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:39:47Z",
+      "relatedFiles": [
+        "src/components/ExportView.tsx"
+      ],
+      "evidence": "Sidebar, buttons and navigations hidden on print. Official Tunisian header positioned accurately on A4 paper.",
+      "failureDetails": null
+    },
+    {
+      "testId": "OFFLINE-STUDIO-01",
+      "category": "Offline Architecture",
+      "description": "Vérification du fonctionnement autonome hors-ligne du Studio sur le Disque D:",
+      "result": "PASS",
+      "timestamp": "2026-11-09T08:41:00Z",
+      "relatedFiles": [
+        "src/lib/server/path-security.ts",
+        "content/"
+      ],
+      "evidence": "Studio operates locally on Windows filesystem without requiring an external internet connection or cloud API",
+      "failureDetails": null
+    }
+  ]
+}

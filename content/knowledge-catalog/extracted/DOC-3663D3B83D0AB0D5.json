@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-3663D3B83D0AB0D5",
+  "filename": "index.html",
+  "relPath": "bac info/sti/etude/bac preatique STI 2015/index.html",
+  "sha256": "3663d3b83d0ab0d547ceba4ac29eb98818b350efa5fba35126e53a4eadb780cb",
+  "extractedAt": "2026-11-06T14:24:17.058Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"style.css\"> </head> <body> <header> <h1>gestion des vols</h1> </header> <main> <section> <nav> <ul> <li><a href=\"ajout.html\" target=\"zone2\">Ajout d'un pilote</a></li> <li><a href=\"stat",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <h1>gestion des vols</h1>\r\n    </header>\r\n    <main>\r\n        <section>\r\n            <nav>\r\n                <ul>\r\n                    <li><a href=\"ajout.html\" target=\"zone2\">Ajout d'un pilote</a></li>\r\n                    <li><a href=\"statistique.html\" target=\"zone2\">Statistique</a></li>\r\n                </ul>\r\n            </nav>\r\n        </section>\r\n        <aside>\r\n            <iframe src=\"ajout.html\"  name=\"zone2\"></iframe>\r\n        </aside>\r\n    </main>\r\n   <footer>\r\n    <p>merci pour votre confience </p>\r\n   </footer>\r\n   \r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-3663D3B83D0AB0D5-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <h1>gestion des vols</h1>\r\n    </header>\r\n    <main>\r\n        <section>\r\n            <nav>\r\n                <ul>\r\n                    <li><a href=\"ajout.html\" target=\"zone2\">Ajout d'un pilote</a></li>\r\n                    <li><a href=\"statistique.html\" target=\"zone2\">Statistique</a></li>\r\n                </ul>\r\n            </nav>\r\n        </section>\r\n        <aside>\r\n            <iframe src=\"ajout.html\"  name=\"zone2\"></iframe>\r\n        </aside>\r\n    </main>\r\n   <footer>\r\n    <p>merci pour votre confience </p>\r\n   </footer>"
+    },
+    {
+      "chunkId": "DOC-3663D3B83D0AB0D5-CHK-002",
+      "text": "</body>\r\n</html>"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-22FD71D8481E54C9",
+  "filename": "tri_bulles.py",
+  "sha256": "22fd71d8481e54c93c806373d7fc909ff2887edc752e6cb607b4951edca30354",
+  "extractedAt": "2026-11-06T14:00:41.713Z",
+  "pageCount": 1,
+  "textSnippet": "from random import randint def saisie(): global N valide=False while valide==False: N=int(input(\"Entrer le nombre d'éléments :\")) valide=5<=N<=20 ## module qui rempli le tableau par des nombres aléatoires def generer_tab(T,N): for i in range(N): T[i]=randint(-99,99) def tri_bulles (T,N): sortie=False while sortie==False: permut=False for i in range(N-1): if T[i+1]<T[i]: aux=T[i+1] T[i",
+  "fullText": "from random import randint\n\ndef saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\n\n## module qui rempli le  tableau par des nombres aléatoires \ndef generer_tab(T,N):\n    for i in range(N):\n        T[i]=randint(-99,99)\n\ndef tri_bulles (T,N):\n    sortie=False\n    while sortie==False:\n        permut=False\n        for i in range(N-1):\n            if T[i+1]<T[i]:\n                aux=T[i+1]\n                T[i+1]=T[i]\n                T[i]=aux\n                permut=True\n        sortie=(permut==False)\n        \ndef affiche(T,N):\n    for i in range (N):\n        print(T[i],end=' | ')\n    print()\n\n############ Programme Principale ##########\nprint('------------ Tri à bulles -----------')\nsaisie()\nT=[0]*N\ngenerer_tab(T,N)\nprint(\"*** Avant le tri***\" )\naffiche(T,N)\ntri_bulles(T,N)\nprint(\"*** Après le tri***\" )\naffiche(T,N)\n\n\n\n"
+}

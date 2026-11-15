@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-9E9783B98AD6613A",
+  "filename": "chance.txt",
+  "relPath": "bac info/Python/prototype TP1/chance.txt",
+  "sha256": "9e9783b98ad6613adf425de4808db58dabfdb0d1431f2c49a68231760848bed1",
+  "extractedAt": "2026-11-06T14:23:34.986Z",
+  "pageCount": 1,
+  "textSnippet": "9 3 4 5 8",
+  "fullText": "9\r\n3\r\n4\r\n5\r\n8\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-9E9783B98AD6613A-CHK-001",
+      "text": "9\r\n3\r\n4\r\n5\r\n8"
+    }
+  ]
+}

@@ -1,0 +1,1268 @@
+{
+  "documentId": "DOC-636575061912BADA",
+  "filename": "TAKI ACADEMY-20261106T131613Z-1-003.zip",
+  "relPath": "TAKI ACADEMY-20261106T131613Z-1-003.zip",
+  "sha256": "636575061912bada529709173acbc5b36b9d0262fbd71fc86089c50acad68561",
+  "extractedAt": "2026-11-06T15:15:39.850Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: TAKI ACADEMY-20261106T131613Z-1-003.zip Nombre d'éléments: 250",
+  "fullText": "Archive ZIP: TAKI ACADEMY-20261106T131613Z-1-003.zip\nNombre d'éléments: 250\n\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-636575061912BADA-CHK-001",
+      "text": "Archive ZIP: TAKI ACADEMY-20261106T131613Z-1-003.zip\nNombre d'éléments: 250"
+    }
+  ],
+  "zipEntries": [
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (796).png",
+      "sizeBytes": 347432,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/63662d2599731_EX20.pdf",
+      "sizeBytes": 2461925,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S6/Capture d’écran (994).png",
+      "sizeBytes": 260992,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/SUITE/MAGAZINE/S7/62cc02a01f1c8_Magazine 8 Suites réelles.pdf",
+      "sizeBytes": 1064928,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S1/Capture d’écran (944).png",
+      "sizeBytes": 371128,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1018).png",
+      "sizeBytes": 545752,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/STATISTIQUES/MAGAZINE/S1/62bd705baf05a_Magazine N°1-(Stat).pdf",
+      "sizeBytes": 1114336,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S2/62b4633a45c5e_Magazine N°2- ( Nombres complexes ).pdf",
+      "sizeBytes": 918341,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (270).png",
+      "sizeBytes": 371914,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S3/62b9955beff4a_Magazine N°11 - ( Primitives ).pdf",
+      "sizeBytes": 1134222,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (978).png",
+      "sizeBytes": 478975,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (983).png",
+      "sizeBytes": 324440,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (266).png",
+      "sizeBytes": 400741,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S4/Capture d’écran (800).png",
+      "sizeBytes": 356899,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (982).png",
+      "sizeBytes": 321296,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S7/Capture d’écran (998).png",
+      "sizeBytes": 267212,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S1/Capture d’écran (933).png",
+      "sizeBytes": 398041,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (260).png",
+      "sizeBytes": 348594,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/SUITE/MAGAZINE/S5/62cbe20d868bd_Magazine 5 Suites réelles.pdf",
+      "sizeBytes": 848111,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S6/Capture d’écran (995).png",
+      "sizeBytes": 351080,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (972).png",
+      "sizeBytes": 264593,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S3/62b587e19144a_Magazine n°3 dérivabilité.pdf",
+      "sizeBytes": 914169,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S7/62b589429b8b7_Magazine 7 - (Dérivabilité).pdf",
+      "sizeBytes": 996263,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1108).png",
+      "sizeBytes": 366170,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (980).png",
+      "sizeBytes": 351486,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1013).png",
+      "sizeBytes": 289394,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (988).png",
+      "sizeBytes": 337572,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (968).png",
+      "sizeBytes": 307271,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1107).png",
+      "sizeBytes": 321725,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1102).png",
+      "sizeBytes": 296979,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (317).png",
+      "sizeBytes": 273631,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (963).png",
+      "sizeBytes": 315362,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (969).png",
+      "sizeBytes": 275172,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (273).png",
+      "sizeBytes": 336487,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (272).png",
+      "sizeBytes": 357683,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (975).png",
+      "sizeBytes": 271181,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/Capture d’écran (981).png",
+      "sizeBytes": 354699,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE/Capture d’écran (350).png",
+      "sizeBytes": 297433,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (362).png",
+      "sizeBytes": 394950,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (364).png",
+      "sizeBytes": 369818,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (965).png",
+      "sizeBytes": 479718,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (275).png",
+      "sizeBytes": 332740,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (367).png",
+      "sizeBytes": 413640,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S1/62b461e3d20bd_Magazine N°1 - ( Nombres complexes ).pdf",
+      "sizeBytes": 1316956,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (276).png",
+      "sizeBytes": 319597,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (305).png",
+      "sizeBytes": 370413,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1011).png",
+      "sizeBytes": 461142,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1010).png",
+      "sizeBytes": 462988,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612895Exercice 7.pdf.pdf",
+      "sizeBytes": 274815,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (961).png",
+      "sizeBytes": 433721,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S8/62b589d855852_Magazine N°8 - ( Dérivabilité ).pdf",
+      "sizeBytes": 958400,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (368).png",
+      "sizeBytes": 435453,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (268).png",
+      "sizeBytes": 360809,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1017).png",
+      "sizeBytes": 253576,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGE1/Capture d’écran (356).png",
+      "sizeBytes": 353618,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612937Exercice 3.pdf.pdf",
+      "sizeBytes": 237690,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (974).png",
+      "sizeBytes": 322594,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612598_62577_exercice-4.pdf",
+      "sizeBytes": 213467,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (365).png",
+      "sizeBytes": 372129,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (798).png",
+      "sizeBytes": 344614,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1104).png",
+      "sizeBytes": 333904,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (363).png",
+      "sizeBytes": 361087,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1105).png",
+      "sizeBytes": 233194,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1014).png",
+      "sizeBytes": 208239,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (309).png",
+      "sizeBytes": 410500,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE/Capture d’écran (348).png",
+      "sizeBytes": 288501,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (271).png",
+      "sizeBytes": 334963,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE2/Capture d’écran (358).png",
+      "sizeBytes": 332085,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGEE2/Capture d’écran (366).png",
+      "sizeBytes": 371796,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (797).png",
+      "sizeBytes": 306587,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612360Exercice 1.pdf.pdf",
+      "sizeBytes": 162809,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/RESUMES/R1/les-filtres-1.pdf",
+      "sizeBytes": 1277767,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE/Capture d’écran (347).png",
+      "sizeBytes": 409643,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S10/Capture d’écran (1023).png",
+      "sizeBytes": 288534,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE/Capture d’écran (349).png",
+      "sizeBytes": 351738,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE/Capture d’écran (351).png",
+      "sizeBytes": 425478,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (267).png",
+      "sizeBytes": 350475,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1106).png",
+      "sizeBytes": 334192,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (314).png",
+      "sizeBytes": 441559,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612738_62576_exercice-6.pdf",
+      "sizeBytes": 352718,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (794).png",
+      "sizeBytes": 253266,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (316).png",
+      "sizeBytes": 385639,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/RESUMES/R1/les-filtres-2.pdf",
+      "sizeBytes": 1200808,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (277).png",
+      "sizeBytes": 395060,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612894Corrigé Exercice 7.pdf.pdf",
+      "sizeBytes": 2011681,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (312).png",
+      "sizeBytes": 364290,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (311).png",
+      "sizeBytes": 445555,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (315).png",
+      "sizeBytes": 423301,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE2/Capture d’écran (359).png",
+      "sizeBytes": 374368,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (269).png",
+      "sizeBytes": 311874,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE2/Capture d’écran (361).png",
+      "sizeBytes": 219218,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S2/62b58779ce7a3_Magazine n°2 dérivabilité.pdf",
+      "sizeBytes": 973802,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S10/62b58a8ab1baa_Magazine N°10 - ( Dérivabilité ).pdf",
+      "sizeBytes": 937809,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (790).png",
+      "sizeBytes": 331855,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (791).png",
+      "sizeBytes": 314901,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGE1/Capture d’écran (357).png",
+      "sizeBytes": 367186,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/EXS/LECTURE GRAPHIQUE/63487d3fc870b_correction ex1 (lecture graphique).pdf",
+      "sizeBytes": 6060010,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 ENNOCEE2/Capture d’écran (360).png",
+      "sizeBytes": 358023,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (306).png",
+      "sizeBytes": 408344,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612665_62575_corrige-exercice-5.pdf",
+      "sizeBytes": 1631680,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/Capture d’écran (792).png",
+      "sizeBytes": 380266,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (304).png",
+      "sizeBytes": 355284,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/635825f2460f0_EX11.pdf",
+      "sizeBytes": 4105187,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/Capture d’écran (274).png",
+      "sizeBytes": 313344,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/LC/EXS/EX/630e9062f2869_Enoncé RLC Libres.pdf",
+      "sizeBytes": 1578503,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGE1/Capture d’écran (353).png",
+      "sizeBytes": 324600,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S3/62b46902b7783_Enoncé Magazine 2 - Nombres Complexes (1) (1).pdf",
+      "sizeBytes": 981567,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGE1/Capture d’écran (354).png",
+      "sizeBytes": 326540,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S1/62b5872903fb4_Magazine n°1 dérivabilité.pdf",
+      "sizeBytes": 1059997,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612547_62572_corrige-exercice-2.pdf",
+      "sizeBytes": 1714942,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (977).png",
+      "sizeBytes": 364103,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/FONCTION -Exponentielle/EXS/EXERCICES/636e17d9e12bf_exercice 7 ( lecture graphique - études des fonctions) (1).pdf",
+      "sizeBytes": 3296247,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (308).png",
+      "sizeBytes": 423043,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Relation entre les phases _(480P).mp4",
+      "sizeBytes": 7361502,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/EXAMEN/DC1/DC1 CORRIGE1/Capture d’écran (355).png",
+      "sizeBytes": 309067,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (973).png",
+      "sizeBytes": 281535,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (259).png",
+      "sizeBytes": 326160,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1482584340116_oscillations_forcees_application.PDF",
+      "sizeBytes": 2024858,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/62b58a3c8e2c9_Magazine n°9 dérivabilité.pdf",
+      "sizeBytes": 1002903,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612358Corrigé Exercice 1.pdf.pdf",
+      "sizeBytes": 1866945,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Calculer la puissance moyenne _(480P).mp4",
+      "sizeBytes": 10033536,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S5/62b588a1dd6fe_Magazine n°5 dérivabilité.pdf",
+      "sizeBytes": 1001502,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S9/Capture d’écran (1016).png",
+      "sizeBytes": 263989,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1482743544645_cours_oscillations_electriques_foecees_-_copie.pdf",
+      "sizeBytes": 3573451,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/6357b965ce380_EX5.pdf",
+      "sizeBytes": 2309631,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/Capture d’écran (966).png",
+      "sizeBytes": 325341,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/déterminer l_équation différentielle _(480P).mp4",
+      "sizeBytes": 8502222,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S8/Capture d’écran (1003).png",
+      "sizeBytes": 367887,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S6/62b588f2dd32b_Magazine N°6 - ( Dérivabilité ).pdf",
+      "sizeBytes": 1102611,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612935Corrigé Exercice 3.pdf.pdf",
+      "sizeBytes": 1730662,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/RESUMES/R1/1555670902_fiche des methodes les filtres (2).pdf",
+      "sizeBytes": 4135838,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (261).png",
+      "sizeBytes": 327121,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1565781793_Exercice 3.pdf",
+      "sizeBytes": 218563,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612596_62577_corrige-exercice-4.pdf",
+      "sizeBytes": 1810957,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (265).png",
+      "sizeBytes": 384884,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (257).png",
+      "sizeBytes": 303508,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé_ Circuit inductif et Circuit capacitif(480P).mp4",
+      "sizeBytes": 13476267,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/ex 1.pdf",
+      "sizeBytes": 1643706,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (258).png",
+      "sizeBytes": 362011,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (263).png",
+      "sizeBytes": 323944,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (256).png",
+      "sizeBytes": 352020,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Identifier les deux courbes U(t) et Ur(t) _(480P).mp4",
+      "sizeBytes": 6433789,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/Capture d’écran (1101).png",
+      "sizeBytes": 389937,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (262).png",
+      "sizeBytes": 304116,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (264).png",
+      "sizeBytes": 310051,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (254).png",
+      "sizeBytes": 387318,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1565869335_Exercice 6.pdf",
+      "sizeBytes": 380466,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/1576612737_62576_corrige-exercice-6.pdf",
+      "sizeBytes": 1507009,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (339).png",
+      "sizeBytes": 456848,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/MAGAZINE/S4/62b588452290c_Magazine n°4 dérivabilité.pdf",
+      "sizeBytes": 1022115,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/Capture d’écran (255).png",
+      "sizeBytes": 341867,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (320).png",
+      "sizeBytes": 295278,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/_ex 2 Partie 1.pdf",
+      "sizeBytes": 1629610,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (298).png",
+      "sizeBytes": 333151,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Résonance d_intensité(480P).mp4",
+      "sizeBytes": 25493515,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (325).png",
+      "sizeBytes": 304798,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (337).png",
+      "sizeBytes": 423615,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (293).png",
+      "sizeBytes": 425833,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/PRIMTIVE/MAGAZINE/S1/62b98d9daad21_Magazine n°1 primitives.pdf",
+      "sizeBytes": 978709,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/EXS/LECTURE GRAPHIQUE/63487d61b4fcf_correction EXercice 2 (lecture graphique).pdf",
+      "sizeBytes": 1720395,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Construction de Fresnel en fonction de q _(480P).mp4",
+      "sizeBytes": 12899731,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (281).png",
+      "sizeBytes": 425425,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (323).png",
+      "sizeBytes": 315892,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/SUITE/MAGAZINE/S8/62cc02d89b85f_Magazine 9 Suites réelles.pdf",
+      "sizeBytes": 964614,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (278).png",
+      "sizeBytes": 445785,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (322).png",
+      "sizeBytes": 307265,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/Capture d’écran (313).png",
+      "sizeBytes": 386756,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.THEO/1620302236_2.etude théo_aspect de la corde.pdf",
+      "sizeBytes": 3871832,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/RESIMES/639c690d6a12d_F.M- oscillations électriques forcées.pdf",
+      "sizeBytes": 3604788,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/635826261ebd0_EX12.pdf",
+      "sizeBytes": 2756755,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/61b8bbab4b559383165383.pdf",
+      "sizeBytes": 3071442,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (338).png",
+      "sizeBytes": 586046,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (319).png",
+      "sizeBytes": 347685,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (330).png",
+      "sizeBytes": 460483,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (341).png",
+      "sizeBytes": 421623,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (321).png",
+      "sizeBytes": 352725,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (294).png",
+      "sizeBytes": 409579,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (328).png",
+      "sizeBytes": 283488,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (342).png",
+      "sizeBytes": 434628,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (327).png",
+      "sizeBytes": 349868,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (331).png",
+      "sizeBytes": 449150,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/RESUMES/R1/1555670718_fiche des méthodes les filtres (1).pdf",
+      "sizeBytes": 4349900,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (302).png",
+      "sizeBytes": 388381,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (324).png",
+      "sizeBytes": 319124,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (301).png",
+      "sizeBytes": 348824,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (335).png",
+      "sizeBytes": 401867,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Résonance de charge _(480P).mp4",
+      "sizeBytes": 10613233,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (329).png",
+      "sizeBytes": 415302,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (336).png",
+      "sizeBytes": 434992,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (284).png",
+      "sizeBytes": 457198,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (332).png",
+      "sizeBytes": 443124,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE1/Capture d’écran (326).png",
+      "sizeBytes": 375303,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (296).png",
+      "sizeBytes": 384133,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (297).png",
+      "sizeBytes": 334038,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX2/Capture d’écran (299).png",
+      "sizeBytes": 355896,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (333).png",
+      "sizeBytes": 468978,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (286).png",
+      "sizeBytes": 439808,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (283).png",
+      "sizeBytes": 423536,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/Capture d’écran (334).png",
+      "sizeBytes": 380259,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/faire la construction de Fresnel _(480P).mp4",
+      "sizeBytes": 17992248,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1566120173_corrige-exercice-4 (1).pdf",
+      "sizeBytes": 7554874,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (290).png",
+      "sizeBytes": 454311,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/Capture d’écran (292).png",
+      "sizeBytes": 458595,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/COMPLEXE/MAGAZINE/S4/Capture d’écran (804).png",
+      "sizeBytes": 386443,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/exploitation de la construction de Fresnel(480P).mp4",
+      "sizeBytes": 29013528,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/6357b8a7ef7c0_EX3.pdf",
+      "sizeBytes": 2591924,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/RLC forcé _ Calculer le déphasage _(480P).mp4",
+      "sizeBytes": 19628245,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/635826a192aa7_EX14.pdf",
+      "sizeBytes": 2609701,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1566123771_corrige-exercice-5.pdf",
+      "sizeBytes": 5714595,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/EXERCICES/EX/630e9062f2869_Enoncé RLC Libres.pdf",
+      "sizeBytes": 1578503,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE2/61b36b6339624997840008.pdf",
+      "sizeBytes": 3205041,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/6357baf716fae_EX10.pdf",
+      "sizeBytes": 3275177,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/ARITHMETIQUE/EXS/TYPE DE DVR/6357b705c3fc3_EX1.pdf",
+      "sizeBytes": 2993315,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/INTRODUCTION/61b1cb94db235832015368.pdf",
+      "sizeBytes": 2405227,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/video/exercice 4 de RLC forcé ( gratuit )(480P).mp4",
+      "sizeBytes": 71706618,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/1617200891_2. Types et principe de propagation d_ébranlement.pdf",
+      "sizeBytes": 14675935,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/FILTRES/EXS/EX/72071-magazine-les-filtres-electriques-enonce.pdf",
+      "sizeBytes": 9133089,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/EXS/EX/EX1/639c66cbf3efc_enoncé mag 1.pdf",
+      "sizeBytes": 1558093,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/EXS/TYPE DEVOIR/6348831d39b23_exercice 1 type devoir.pdf",
+      "sizeBytes": 3668346,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/E.THEO/1615374757_2. Etude theorique_ Représentation de Fresnel.pdf",
+      "sizeBytes": 1440572,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/61b8bb8404882832331651.pdf",
+      "sizeBytes": 6607240,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1566132592_corrige-exercice-6.pdf",
+      "sizeBytes": 6349944,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.THEO/1577186296_circuit-resistif-resonance-dintensite.pdf",
+      "sizeBytes": 6274549,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.THEO/1577186069_circuit-inductif.pdf",
+      "sizeBytes": 7389913,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.EXP/1577121495_notion-dimpedance.pdf",
+      "sizeBytes": 3813991,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.EXP/1577121613_le-vecteur-de-fresnel.pdf",
+      "sizeBytes": 2405921,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/ex 2 Partie 2 corrigé.pdf",
+      "sizeBytes": 5577159,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1565781790_Corrigé Exercice 3.pdf",
+      "sizeBytes": 6413467,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.EXP/1577124877_influence-de-la-resistance-totale-sur-la-resonance.pdf",
+      "sizeBytes": 3277729,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.THEO/1577185728_equation-differentielle.pdf",
+      "sizeBytes": 6080033,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/1566120173_corrige-exercice-4.pdf",
+      "sizeBytes": 7554874,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.THEO/1577185889_circuit-capacitif.pdf",
+      "sizeBytes": 3730604,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/INTRODUCTION/61b8a31504070962076230.pdf",
+      "sizeBytes": 7665519,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.EXP/1577121263_62915_reponse-dun-circuit-rlc-serie-a-une-tension-sinusoidale.pdf",
+      "sizeBytes": 4840793,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/1618487888_4. Ondes progressives sinusoidales.pdf",
+      "sizeBytes": 5982846,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.THEO/1620127575_7.Etude théorique- Mvt d_un point.pdf",
+      "sizeBytes": 3788714,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE2/61b39174efa3f476527149.pdf",
+      "sizeBytes": 11241603,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/E.EXP/1612554436_1. Etude Expérimentale4_ dephasage.pdf",
+      "sizeBytes": 6370924,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS2/E.EXP/1577123375_decalage-horaire-et-dephasage.pdf",
+      "sizeBytes": 4036175,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/EXS/EX/SERIE2/71654-les-ondes-au-bac-enonce.pdf",
+      "sizeBytes": 10072111,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/MATH/CHAPITRES/DERIVABILITES/EXS/DÉRIVABILITÉ ET SUITE/634e5df029dca_correction ex 1 (Dérivabilité + Suite ).pdf",
+      "sizeBytes": 3245528,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/1620131862_5. La double périodicité de l_onde.pdf",
+      "sizeBytes": 5012010,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/E.EXP/1614621300_1. Etude Expérimentale6- Phénomène de surtention.pdf",
+      "sizeBytes": 3793924,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/_ex 1 corrigé.pdf",
+      "sizeBytes": 14711121,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/_ex 2 Partie 1 corrigé.pdf",
+      "sizeBytes": 13143071,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/1618324481_3. Célérité de propagation.pdf",
+      "sizeBytes": 12736326,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/ONDES/COURS1/E.EXP/1617038859_1.Propagation d_un ébranlement.pdf",
+      "sizeBytes": 15045314,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/E.EXP/1612554081_1. Etude Expérimentale4_ dephasage.pdf",
+      "sizeBytes": 6370924,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RLC/RLC FORCEE/COURS1/E.THEO/1615373673_2. Etude theorique_ circuit capacitif.pdf",
+      "sizeBytes": 3479664,
+      "isDirectory": false
+    },
+    {
+      "name": "TAKI ACADEMY/PHYSIQUE/RC/EXERCICES/SERIE1/61b39aa7186bb585114303.pdf",
+      "sizeBytes": 23651764,
+      "isDirectory": false
+    }
+  ]
+}

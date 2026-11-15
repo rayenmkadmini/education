@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-1253E2D85D933AD2",
+  "filename": "intersection_de_deux_tableaux.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/intersection_de_deux_tableaux.py",
+  "sha256": "1253e2d85d933ad2a1ec6e845d7f06812a28500edb05e321e936cd813db61ab5",
+  "extractedAt": "2026-11-06T14:24:41.007Z",
+  "pageCount": 1,
+  "textSnippet": "#Insérer les cases communes de deux tableaux dans un troisiéme tableau from numpy import * t1 = array ( [int] * 20 ) t2 = array ( [int] * 20 ) t3 = array ( [int] * 20 ) def Saisie(): b = False while not(b) : n=int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(t,x): for i in range (x): t[i]=int(input(\"t[\"+str(i)+\"] = \")) def intersection(t1,t2,t3,n): i = 0 for j in range(n): if(e",
+  "fullText": "#Insérer les cases communes de deux tableaux dans un troisiéme tableau \r\n\r\nfrom numpy import *\r\n\r\nt1 = array ( [int] * 20 )\r\nt2 = array ( [int] * 20 )\r\nt3 = array ( [int] * 20 )\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(t,x):\r\n    for i in range (x):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n    \r\ndef intersection(t1,t2,t3,n):\r\n    i = 0\r\n    for j in range(n):\r\n        if(existe(t1[j],t2,m)):\r\n            t3[i]=t1[j]\r\n            i += 1\r\n    return i \r\n\r\ndef existe(x,t,n):\r\n    ok = False\r\n    i = -1\r\n    while not(ok) and i < n :\r\n        i += 1\r\n        ok =t[i]==x\r\n    return ok \r\n    \r\ndef Afficher(t3,i):\r\n    for j in range(i):\r\n        print(t3[j],end=\"/\")\r\n        \r\n########################PP#######################\r\n     \r\nn=Saisie()\r\nm=Saisie()\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T1\")\r\nRemplir(t1,n)\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T2\")\r\nRemplir(t2,m)\r\nprint(\"_________________\")\r\ni = intersection(t1,t2,t3,n)\r\nprint(\"les éléments communs sont: \")\r\nAfficher(t3,i)\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1253E2D85D933AD2-CHK-001",
+      "text": "#Insérer les cases communes de deux tableaux dans un troisiéme tableau \r\n\nfrom numpy import *\r\n\nt1 = array ( [int] * 20 )\r\nt2 = array ( [int] * 20 )\r\nt3 = array ( [int] * 20 )\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(t,x):\r\n    for i in range (x):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n\ndef intersection(t1,t2,t3,n):\r\n    i = 0\r\n    for j in range(n):\r\n        if(existe(t1[j],t2,m)):\r\n            t3[i]=t1[j]\r\n            i += 1\r\n    return i \r\n\ndef existe(x,t,n):\r\n    ok = False\r\n    i = -1\r\n    while not(ok) and i < n :\r\n        i += 1\r\n        ok =t[i]==x\r\n    return ok \r\n\ndef Afficher(t3,i):\r\n    for j in range(i):\r\n        print(t3[j],end=\"/\")"
+    },
+    {
+      "chunkId": "DOC-1253E2D85D933AD2-CHK-002",
+      "text": "########################PP#######################\r\n\nn=Saisie()\r\nm=Saisie()\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T1\")\r\nRemplir(t1,n)\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T2\")\r\nRemplir(t2,m)\r\nprint(\"_________________\")\r\ni = intersection(t1,t2,t3,n)\r\nprint(\"les éléments communs sont: \")\r\nAfficher(t3,i)"
+    }
+  ]
+}

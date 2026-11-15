@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-26246ED667FE7DB7",
+  "filename": "Candidat.py",
+  "relPath": "correction bac pratique 2024-2025/correction bac pratique 2024-2025/Candidat.py",
+  "sha256": "26246ed667fe7db7cd6a5d01d852305612d9ddeb1eca68993e10a4f0ce7fd7ab",
+  "extractedAt": "2026-11-06T14:24:27.138Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.QtWidgets import * from PyQt5.uic import * from pickle import dump, load from numpy import array def lettreEspace(ch): test=True i=0 while i<len(ch) and test: if not(\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \"): test=False i=i+1 return test def verif(): cin=w.cin.text() np=w.np.text() if not(len(cin)==8 and cin.isdecimal() and cin[0] in [\"0\",\"1\"]): QMessageBox.critical(w,\"Erreur\",\"N° CIN invalide!!\") elif",
+  "fullText": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import *\r\nfrom pickle import dump, load\r\nfrom numpy import array\r\ndef lettreEspace(ch):\r\n    test=True\r\n    i=0\r\n    while i<len(ch) and test:\r\n        if not(\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \"):\r\n            test=False\r\n        i=i+1\r\n    return test\r\ndef verif():\r\n    cin=w.cin.text()\r\n    np=w.np.text()\r\n    if not(len(cin)==8 and  cin.isdecimal() and cin[0] in [\"0\",\"1\"]):\r\n        QMessageBox.critical(w,\"Erreur\",\"N° CIN invalide!!\")\r\n    elif np==\"\" or lettreEspace(np)==False:\r\n        QMessageBox.critical(w,\"Erreur\",\"Vérifier votre nom et votre prénom !!\")\r\n    else: # tous est OK\r\n        calculer()\r\ndef calculer():\r\n    s=0\r\n    cb1=w.cb1.isChecked()\r\n    cb2=w.cb2.isChecked()\r\n    cb3=w.cb3.isChecked()\r\n    rb1=w.rb1.isChecked()\r\n    rb2=w.rb2.isChecked()\r\n    cmb=w.combo1.currentText()\r\n    if cb2 and cb3 and not(cb1):\r\n        s=s+1\r\n    if rb1:\r\n        s=s+2\r\n    if cmb==\"40\":\r\n        s=s+3\r\n    w.labScore.setText(str(s))\r\n    enregistrerDansFichier(w.np.text(),w.cin.text(),s)\r\ndef enregistrerDansFichier(nom,cin,score):\r\n    f=open(\"Reponses.dat\",\"ab\")\r\n    e=dict()\r\n    e[\"NCIN\"]=cin\r\n    e[\"NomPrenom\"]=nom\r\n    e[\"Score\"]=score\r\n    dump(e,f)\r\n    f.close()\r\n    \r\n        \r\n    #---------Programme principal--------  \r\napp=QApplication([])\r\nw=loadUi(\"Interface_Candidat.ui\")\r\nw.show()\r\nw.Valider.clicked.connect(verif)\r\napp.exec()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-26246ED667FE7DB7-CHK-001",
+      "text": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import *\r\nfrom pickle import dump, load\r\nfrom numpy import array\r\ndef lettreEspace(ch):\r\n    test=True\r\n    i=0\r\n    while i<len(ch) and test:\r\n        if not(\"A\"<=ch[i].upper()<=\"Z\" or ch[i]==\" \"):\r\n            test=False\r\n        i=i+1\r\n    return test\r\ndef verif():\r\n    cin=w.cin.text()\r\n    np=w.np.text()\r\n    if not(len(cin)==8 and  cin.isdecimal() and cin[0] in [\"0\",\"1\"]):\r\n        QMessageBox.critical(w,\"Erreur\",\"N° CIN invalide!!\")\r\n    elif np==\"\" or lettreEspace(np)==False:\r\n        QMessageBox.critical(w,\"Erreur\",\"Vérifier votre nom et votre prénom !!\")\r\n    else: # tous est OK\r\n        calculer()\r\ndef calculer():\r\n    s=0\r\n    cb1=w.cb1.isChecked()\r\n    cb2=w.cb2.isChecked()\r\n    cb3=w.cb3.isChecked()\r\n    rb1=w.rb1.isChecked()\r\n    rb2=w.rb2.isChecked()\r\n    cmb=w.combo1.currentText()\r\n    if cb2 and cb3 and not(cb1):\r\n        s=s+1\r\n    if rb1:\r\n        s=s+2\r\n    if cmb==\"40\":\r\n        s=s+3\r\n    w.labScore.setText(str(s))\r\n    enregistrerDansFichier(w.np.text(),w.cin.text(),s)\r\ndef enregistrerDansFichier(nom,cin,score):\r\n    f=open(\"Reponses.dat\",\"ab\")\r\n    e=dict()\r\n    e[\"NCIN\"]=cin\r\n    e[\"NomPrenom\"]=nom\r\n    e[\"Score\"]=score\r\n    dump(e,f)\r\n    f.close()"
+    },
+    {
+      "chunkId": "DOC-26246ED667FE7DB7-CHK-002",
+      "text": "#---------Programme principal--------  \r\napp=QApplication([])\r\nw=loadUi(\"Interface_Candidat.ui\")\r\nw.show()\r\nw.Valider.clicked.connect(verif)\r\napp.exec()"
+    }
+  ]
+}

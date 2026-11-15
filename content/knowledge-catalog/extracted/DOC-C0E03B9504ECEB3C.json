@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C0E03B9504ECEB3C",
+  "filename": "image.png",
+  "relPath": "bac info/Python/world cup s3/image.png",
+  "sha256": "c0e03b9504eceb3c7207519c47dd03344601d651cab13ccb9bd9883ec6a86fa9",
+  "extractedAt": "2026-11-06T14:23:35.414Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-C0E03B9504ECEB3C-CHK-001",
+      "text": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

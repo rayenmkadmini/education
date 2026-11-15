@@ -1,0 +1,67 @@
+{
+  "documentId": "DOC-D7EB34D448047294",
+  "filename": "Le.condensateur.exercises.corriges.pdf",
+  "sha256": "d7eb34d448047294bc1590055e04f6d2bf28bfc2784616cfc33c3587e69bac22",
+  "extractedAt": "2026-11-06T13:57:55.070Z",
+  "pageCount": 14,
+  "textSnippet": "LE CONDENSATEUR 1Website : www.TakiAcademy.com Exercice1 : On souhaite déterminer la valeur de la capacité C d’un condensateur. Pour cela on utilise le montage représenté par la figure 1 où G est un générateur de courant constant délivrant une intensité I=3,2mA. -Un système non représenté sur la figure permet de tracer les variations de la tension Uc aux bornes du condensateur en fonction du temps : Uc=f(t), donnée par la figure 2. 1- Ecrire la relation entre l’intensité I du courant, la charge",
+  "fullText": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nExercice1 :\nOn souhaite déterminer la valeur de la capacité C d’un condensateur. Pour cela on utilise le\nmontage représenté par la figure 1 où G est un générateur de courant constant délivrant une\nintensité I=3,2mA.\n-Un système non représenté sur la figure permet de tracer les variations de la tension Uc aux\nbornes du condensateur en fonction du temps : Uc=f(t), donnée par la figure 2.\n1- Ecrire la relation entre l’intensité I\ndu courant, la charge qA portée par\nl’armature A du condensateur et la\ndurée t de charge.\n2- Ecrire la relation reliant la charge qA,\nla capacité C du condensateur et la\ntension Uc entre ses bornes.\n3- Déduire de ce qui précède et de la\ncourbe Uc=f(t) donnée par la figure 2\nla valeur de la capacité C du\ncondensateur.\n4- On applique aux bornes du condensateur une tension U = 4 V.\na) Déterminer la charge q du condensateur.\nb) En déduire l'énergie W emmagasinée.\n5- On éloigne les armatures du condensateur l'une de l'autre de 2e.\na) Calculer la nouvelle capacité C' du condensateur et la nouvelle d.d.p U' entre ses\narmatures.\nb) Calculer la nouvelle énergie W' emmagasinée.\nFigure 1\nA\nV\nI\nUC\nA\nB\nG\nt(ms)\nFigure 2\nuC(V)\n1,6\n1\n\n-- 1 of 14 --\n\nLE CONDENSATEUR\n2Website : www.TakiAcademy.com\nExercice 2 :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R1=10kΩ.\n- Un condensateur de capacité C , initialement déchargé.\n- Un interrupteur K.\nOn ferme l’interrupteur K à un instant pris comme\norigine des temps. Un système d’acquisition permet de\ntracer les tensions uC(t) et uR (t) respectivement aux\nbornes du condensateur et aux bornes du résistor, on\nobtient les courbes de la figure 2\n1- Identifier les deux courbes ऍ૚݁  ݐ ऍ૛ .\n2- Trouver l'intensité du courant I1 débitée par le\ngénérateur.\n3- Déterminer la capacité C du condensateur.\n4- On désire charger le condensateur à une tension de 10V.\na- Calculer le temps de charge noté tC.\nb- Pour charger le condensateur 2 fois plus lentement,\non se propose de modifier la résistance du résistor à\nune valeur R2 = 2.R1 ou de modifier l’intensité du\ncourant débitée à une valeur ࡵ૛ = ࡵ૚\n૛\nPréciser laquelle des deux propositions est juste ? Justifier\n0 1 2 3 4 t(s)\n0\n1\n2\n3\n4\nu(V)\nऍ૚\nऍ૛\nfigure 2\nR1\nC\nK\nGénérateur\nde courant\nFigure 1\n\n-- 2 of 14 --\n\nLE CONDENSATEUR\n3Website : www.TakiAcademy.com\nt(s)\n2\n4\n6\n1\t0\nu(V)\nfigure 2\nExercice 3 :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R\n- Un condensateur de capacité C, initialement déchargé.\n- Un interrupteur K.\nL’intensité du courant débité par le générateur est fixée à\nune valeur I = 20μA.\nOn ferme l’interrupteur K à un instant pris comme origine des temps.\nUn système d’acquisition nous permet de tracer la tension aux bornes de l’un des trois\ndipôles (générateur, résistor, condensateur), de sorte qu’on obtient l’oscillogramme de la\nfigure 2\n1- Montrer que l’oscillogramme obtenu ne correspond ni à uC(t) ni à uR (t).\n2-\na- En appliquant la loi des mailles Déterminer l’expression de la tension uG aux bornes\ndu générateur en fonction de R , I, C, et t.\nb- Déterminer graphiquement l’équation uG = f(t).\nc- Déduire la valeur de C ainsi que la valeur de R.\nd- Représenter les oscillogrammes uC(t) et uR(t).\nR\nC\nK\nGénérateur\nde courant\nFigure 1\n\n-- 3 of 14 --\n\nLE CONDENSATEUR\n4Website : www.TakiAcademy.com\nExercice 4 :\nOn dispose au laboratoire :\n- d’un condensateur plan initialement déchargé de capacité C inconnue, de surface en\nregard commune S=1m² et d’épaisseur e =0.1 mm.\n- d’un interrupteur K.\n- d’un générateur de courant qui débite un courant d’intensité constante I= 80μA.\n- d’un ampèremètre.\nA l’instant t = 0, l’interrupteur K est fermé, les données acquises lors de l’expérience sont\ntraitées par un ordinateur et permettent d’obtenir le graphe de la figure ci-contre représentant\n( )\tc\tE f t\t\n1°) faire le schéma du circuit.\n2°) a- Exprimer uc(t) en fonction de I ,t et C .\nb- Donner l’expression de l’énergie électrostatique\nEe en fonction de C et uc\nc- Justifier théoriquement l’allure de la courbe.\n3°) Déterminer à partir du graphe la valeur de la\ncapacité C du condensateur.\n4°) Sachant que la tension de claquage du condensateur\nest (U)claquage = 50 V , déterminer l’instant à partir duquel\nle condensateur risque la détérioration :\na- Graphiquement\nb- Par calcul\n5°) Déterminer la permittivité électrique relative du\ndiélectrique placé entre les armatures du condensateur.\nOn donne la permittivité électrique absolue de l’air :\nε0= 8,85.10-12 F.m-1.\n0 3 t (s)\n0,01\n0,06\nEe ( J1/2)\n\n-- 4 of 14 --\n\nLE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé de l’exercice 1 :\n\n-- 5 of 14 --\n\nLE CONDENSATEUR\n2Website : www.TakiAcademy.com\n\n-- 6 of 14 --\n\nLE CONDENSATEUR\n3Website : www.TakiAcademy.com\n\n-- 7 of 14 --\n\nLE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 2 :\n\n-- 8 of 14 --\n\nLE CONDENSATEUR\n2Website : www.TakiAcademy.com\n\n-- 9 of 14 --\n\nLE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 3 :\n\n-- 10 of 14 --\n\nLE CONDENSATEUR\n2Website : www.TakiAcademy.com\n\n-- 11 of 14 --\n\nLE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 4 :\n\n-- 12 of 14 --\n\nLE CONDENSATEUR\n2Website : www.TakiAcademy.com\n\n-- 13 of 14 --\n\nLE CONDENSATEUR\n3Website : www.TakiAcademy.com\n\n-- 14 of 14 --\n\n",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nExercice1 :\nOn souhaite déterminer la valeur de la capacité C d’un condensateur. Pour cela on utilise le\nmontage représenté par la figure 1 où G est un générateur de courant constant délivrant une\nintensité I=3,2mA.\n-Un système non représenté sur la figure permet de tracer les variations de la tension Uc aux\nbornes du condensateur en fonction du temps : Uc=f(t), donnée par la figure 2.\n1- Ecrire la relation entre l’intensité I\ndu courant, la charge qA portée par\nl’armature A du condensateur et la\ndurée t de charge.\n2- Ecrire la relation reliant la charge qA,\nla capacité C du condensateur et la\ntension Uc entre ses bornes.\n3- Déduire de ce qui précède et de la\ncourbe Uc=f(t) donnée par la figure 2\nla valeur de la capacité C du\ncondensateur.\n4- On applique aux bornes du condensateur une tension U = 4 V.\na) Déterminer la charge q du condensateur.\nb) En déduire l'énergie W emmagasinée.\n5- On éloigne les armatures du condensateur l'une de l'autre de 2e.\na) Calculer la nouvelle capacité C' du condensateur et la nouvelle d.d.p U' entre ses\narmatures.\nb) Calculer la nouvelle énergie W' emmagasinée.\nFigure 1\nA\nV\nI\nUC\nA\nB\nG\nt(ms)\nFigure 2\nuC(V)\n1,6\n1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "LE CONDENSATEUR\n2Website : www.TakiAcademy.com\nExercice 2 :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R1=10kΩ.\n- Un condensateur de capacité C , initialement déchargé.\n- Un interrupteur K.\nOn ferme l’interrupteur K à un instant pris comme\norigine des temps. Un système d’acquisition permet de\ntracer les tensions uC(t) et uR (t) respectivement aux\nbornes du condensateur et aux bornes du résistor, on\nobtient les courbes de la figure 2\n1- Identifier les deux courbes ऍ૚݁  ݐ ऍ૛ .\n2- Trouver l'intensité du courant I1 débitée par le\ngénérateur.\n3- Déterminer la capacité C du condensateur.\n4- On désire charger le condensateur à une tension de 10V.\na- Calculer le temps de charge noté tC.\nb- Pour charger le condensateur 2 fois plus lentement,\non se propose de modifier la résistance du résistor à\nune valeur R2 = 2.R1 ou de modifier l’intensité du\ncourant débitée à une valeur ࡵ૛ = ࡵ૚\n૛\nPréciser laquelle des deux propositions est juste ? Justifier\n0 1 2 3 4 t(s)\n0\n1\n2\n3\n4\nu(V)\nऍ૚\nऍ૛\nfigure 2\nR1\nC\nK\nGénérateur\nde courant\nFigure 1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "LE CONDENSATEUR\n3Website : www.TakiAcademy.com\nt(s)\n2\n4\n6\n1\t0\nu(V)\nfigure 2\nExercice 3 :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R\n- Un condensateur de capacité C, initialement déchargé.\n- Un interrupteur K.\nL’intensité du courant débité par le générateur est fixée à\nune valeur I = 20μA.\nOn ferme l’interrupteur K à un instant pris comme origine des temps.\nUn système d’acquisition nous permet de tracer la tension aux bornes de l’un des trois\ndipôles (générateur, résistor, condensateur), de sorte qu’on obtient l’oscillogramme de la\nfigure 2\n1- Montrer que l’oscillogramme obtenu ne correspond ni à uC(t) ni à uR (t).\n2-\na- En appliquant la loi des mailles Déterminer l’expression de la tension uG aux bornes\ndu générateur en fonction de R , I, C, et t.\nb- Déterminer graphiquement l’équation uG = f(t).\nc- Déduire la valeur de C ainsi que la valeur de R.\nd- Représenter les oscillogrammes uC(t) et uR(t).\nR\nC\nK\nGénérateur\nde courant\nFigure 1"
+    },
+    {
+      "pageNumber": 4,
+      "text": "LE CONDENSATEUR\n4Website : www.TakiAcademy.com\nExercice 4 :\nOn dispose au laboratoire :\n- d’un condensateur plan initialement déchargé de capacité C inconnue, de surface en\nregard commune S=1m² et d’épaisseur e =0.1 mm.\n- d’un interrupteur K.\n- d’un générateur de courant qui débite un courant d’intensité constante I= 80μA.\n- d’un ampèremètre.\nA l’instant t = 0, l’interrupteur K est fermé, les données acquises lors de l’expérience sont\ntraitées par un ordinateur et permettent d’obtenir le graphe de la figure ci-contre représentant\n( )\tc\tE f t\t\n1°) faire le schéma du circuit.\n2°) a- Exprimer uc(t) en fonction de I ,t et C .\nb- Donner l’expression de l’énergie électrostatique\nEe en fonction de C et uc\nc- Justifier théoriquement l’allure de la courbe.\n3°) Déterminer à partir du graphe la valeur de la\ncapacité C du condensateur.\n4°) Sachant que la tension de claquage du condensateur\nest (U)claquage = 50 V , déterminer l’instant à partir duquel\nle condensateur risque la détérioration :\na- Graphiquement\nb- Par calcul\n5°) Déterminer la permittivité électrique relative du\ndiélectrique placé entre les armatures du condensateur.\nOn donne la permittivité électrique absolue de l’air :\nε0= 8,85.10-12 F.m-1.\n0 3 t (s)\n0,01\n0,06\nEe ( J1/2)"
+    },
+    {
+      "pageNumber": 5,
+      "text": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé de l’exercice 1 :"
+    },
+    {
+      "pageNumber": 6,
+      "text": "LE CONDENSATEUR\n2Website : www.TakiAcademy.com"
+    },
+    {
+      "pageNumber": 7,
+      "text": "LE CONDENSATEUR\n3Website : www.TakiAcademy.com"
+    },
+    {
+      "pageNumber": 8,
+      "text": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 2 :"
+    },
+    {
+      "pageNumber": 9,
+      "text": "LE CONDENSATEUR\n2Website : www.TakiAcademy.com"
+    },
+    {
+      "pageNumber": 10,
+      "text": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 3 :"
+    },
+    {
+      "pageNumber": 11,
+      "text": "LE CONDENSATEUR\n2Website : www.TakiAcademy.com"
+    },
+    {
+      "pageNumber": 12,
+      "text": "LE CONDENSATEUR\n1Website : www.TakiAcademy.com\nCorrigé exercice 4 :"
+    },
+    {
+      "pageNumber": 13,
+      "text": "LE CONDENSATEUR\n2Website : www.TakiAcademy.com"
+    },
+    {
+      "pageNumber": 14,
+      "text": "LE CONDENSATEUR\n3Website : www.TakiAcademy.com"
+    }
+  ]
+}

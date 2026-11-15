@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-0385E0AED02B42FB",
+  "filename": "Source.txt",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Bac 2017/Source.txt",
+  "sha256": "0385e0aed02b42fb9a0b715ebd28a131824b46ff674ad0fe2bfee2e197c70051",
+  "extractedAt": "2026-11-14T18:35:36.335Z",
+  "pageCount": 1,
+  "textSnippet": "Les modifications de l'aspect general de vote document s'effectuent sous l'onglet Mise en page.",
+  "fullText": "Les modifications de l'aspect\r\ngeneral de vote document\r\ns'effectuent sous l'onglet\r\nMise en page.",
+  "chunks": [
+    {
+      "chunkId": "DOC-0385E0AED02B42FB-CHK-001",
+      "text": "Les modifications de l'aspect\r\ngeneral de vote document\r\ns'effectuent sous l'onglet\r\nMise en page."
+    }
+  ]
+}

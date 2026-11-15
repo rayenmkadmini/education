@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-5D0EEBCEE6B13A84",
+  "filename": "Bac 2014.py",
+  "relPath": "bac info/algo/Python/Bac 2014/Bac 2014.py",
+  "sha256": "5d0eebcee6b13a84bdf240f1fb3359e77033643c66e62b112cd87a940256a7a0",
+  "extractedAt": "2026-11-14T18:35:34.505Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def verif1(ch): test=True ; i=0 while test and i<len(ch): if \"A\" <= ch[i] <= \"Z\" or ch[i]==\" \": i=i+1 else: test=False return test def saisir_msg(): msg=input('Donner votre message: ') while verif1(msg)==False: msg=input('Donner votre message: ') return msg def verif2(ch): if (3 <= len(ch) <= 10 and ch.find('W')==-1): test=True else: test=False",
+  "fullText": "from numpy import array\r\ndef verif1(ch):\r\n    test=True ; i=0\r\n    while test and i<len(ch):\r\n        if \"A\" <= ch[i] <= \"Z\" or ch[i]==\" \":\r\n            i=i+1\r\n        else:\r\n            test=False\r\n    return test\r\n\r\ndef saisir_msg():\r\n    msg=input('Donner votre message: ')\r\n    while verif1(msg)==False:\r\n        msg=input('Donner votre message: ')\r\n    return msg\r\n\r\n\r\ndef verif2(ch):\r\n    \r\n    if (3 <= len(ch) <= 10 and ch.find('W')==-1):\r\n        test=True\r\n    else:\r\n        test=False\r\n\r\n    i=0\r\n    while test and i<len(ch):\r\n        if \"A\"<=ch[i]<=\"Z\" :\r\n            i=i+1\r\n        else:\r\n            test=False\r\n    \r\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if ch[i]==ch[j]:\r\n                test=False\r\n    return test\r\n  \r\ndef saisir_cle():\r\n    cle=input('Donner la clé: ')\r\n    while verif2(cle)==False:\r\n        cle=input('Donner la clé: ')\r\n    return cle\r\n        \r\ndef remplir(cle):\r\n    M=array([[str()]*5]*5)\r\n    ch='ABCDEFGHIJKLMNOPQRSTUVXYZ'\r\n    for i in range(len(ch)):\r\n        if cle.find(ch[i])==-1:\r\n            cle=cle+ch[i]\r\n    k=0\r\n    for i in range(5):\r\n        for j in range(5):\r\n            M[i,j]=cle[k]\r\n            k=k+1\r\n    return M\r\n\r\ndef cord(c,M):\r\n    if c==\" \":\r\n        return \" \"\r\n    elif c==\"W\":\r\n        c=\"V\"\r\n        \r\n    for i in range(5):\r\n        for j in range(5):\r\n            if M[i,j]==c:\r\n                return str(i)+str(j)\r\n\r\ndef crypt(msg,M):\r\n    R=''\r\n    for i in range(len(msg)):\r\n        R=R+cord(msg[i],M)\r\n    f=open('Mess_Crypte.txt','w')\r\n    f.write(R)\r\n    f.close()\r\n        \r\n        \r\n        \r\n        \r\n#Programme Principale\r\nmsg=saisir_msg()\r\ncle=saisir_cle()\r\nM=remplir(cle)\r\ncrypt(msg,M)",
+  "chunks": [
+    {
+      "chunkId": "DOC-5D0EEBCEE6B13A84-CHK-001",
+      "text": "from numpy import array\r\ndef verif1(ch):\r\n    test=True ; i=0\r\n    while test and i<len(ch):\r\n        if \"A\" <= ch[i] <= \"Z\" or ch[i]==\" \":\r\n            i=i+1\r\n        else:\r\n            test=False\r\n    return test\r\n\ndef saisir_msg():\r\n    msg=input('Donner votre message: ')\r\n    while verif1(msg)==False:\r\n        msg=input('Donner votre message: ')\r\n    return msg\r\n\ndef verif2(ch):\r\n\n    if (3 <= len(ch) <= 10 and ch.find('W')==-1):\r\n        test=True\r\n    else:\r\n        test=False\r\n\n    i=0\r\n    while test and i<len(ch):\r\n        if \"A\"<=ch[i]<=\"Z\" :\r\n            i=i+1\r\n        else:\r\n            test=False\r\n\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if ch[i]==ch[j]:\r\n                test=False\r\n    return test"
+    },
+    {
+      "chunkId": "DOC-5D0EEBCEE6B13A84-CHK-002",
+      "text": "def saisir_cle():\r\n    cle=input('Donner la clé: ')\r\n    while verif2(cle)==False:\r\n        cle=input('Donner la clé: ')\r\n    return cle\r\n\ndef remplir(cle):\r\n    M=array([[str()]*5]*5)\r\n    ch='ABCDEFGHIJKLMNOPQRSTUVXYZ'\r\n    for i in range(len(ch)):\r\n        if cle.find(ch[i])==-1:\r\n            cle=cle+ch[i]\r\n    k=0\r\n    for i in range(5):\r\n        for j in range(5):\r\n            M[i,j]=cle[k]\r\n            k=k+1\r\n    return M\r\n\ndef cord(c,M):\r\n    if c==\" \":\r\n        return \" \"\r\n    elif c==\"W\":\r\n        c=\"V\"\r\n\n    for i in range(5):\r\n        for j in range(5):\r\n            if M[i,j]==c:\r\n                return str(i)+str(j)\r\n\ndef crypt(msg,M):\r\n    R=''\r\n    for i in range(len(msg)):\r\n        R=R+cord(msg[i],M)\r\n    f=open('Mess_Crypte.txt','w')\r\n    f.write(R)\r\n    f.close()"
+    },
+    {
+      "chunkId": "DOC-5D0EEBCEE6B13A84-CHK-003",
+      "text": "#Programme Principale\r\nmsg=saisir_msg()\r\ncle=saisir_cle()\r\nM=remplir(cle)\r\ncrypt(msg,M)"
+    }
+  ]
+}

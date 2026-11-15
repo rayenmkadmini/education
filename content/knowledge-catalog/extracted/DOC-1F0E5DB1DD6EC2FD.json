@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-1F0E5DB1DD6EC2FD",
+  "filename": "Multiplication russe.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/Multiplication russe.py",
+  "sha256": "1f0e5db1dd6ec2fd541ecf4cf4f6a9f3a9cf6f57a3993d3835aa439eecde0f9b",
+  "extractedAt": "2026-11-06T14:24:33.082Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets,uic #☻ from numpy import * def verif(x): if x.isnumeric() and len(x) != 0 : if 2 <= int(x) <= 100 : return True else : return False else : return False def multiplication(): a=p.t1.text() b=p.t2.text() if verif(a) and verif(b): a=int(a) b=int(b) DV=array([0]*(a+b)) MLT=array([0]*(a+b)) i = 0 while a != 0 : DV[i]=a",
+  "fullText": "from PyQt5 import QtWidgets,uic  #☻\r\nfrom numpy import *\r\n\r\ndef verif(x):\r\n    if x.isnumeric() and len(x) != 0 :\r\n        if 2 <= int(x) <= 100 :\r\n            return True\r\n        else :\r\n            return False\r\n    else :\r\n        return False\r\n\r\ndef multiplication():\r\n    a=p.t1.text()\r\n    b=p.t2.text()\r\n    if verif(a) and verif(b):\r\n        a=int(a)\r\n        b=int(b)\r\n        DV=array([0]*(a+b))\r\n        MLT=array([0]*(a+b))\r\n        i = 0\r\n        while a != 0 :\r\n            DV[i]=a\r\n            MLT[i]=b\r\n            a = a // 2\r\n            b = b * 2\r\n            i += 1\r\n        ch = 0\r\n        for j in range (i):\r\n            if DV[j] % 2 == 1 :\r\n                ch += (MLT[j])\r\n        p.t3.setText(str(ch))\r\n    else :\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        \r\n######################pp#####################\r\n        \r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Multiplication Russe.ui\")\r\np.show()\r\np.pb1.clicked.connect(multiplication)\r\nApp.exec_()\r\n\r\n\r\n        ",
+  "chunks": [
+    {
+      "chunkId": "DOC-1F0E5DB1DD6EC2FD-CHK-001",
+      "text": "from PyQt5 import QtWidgets,uic  #☻\r\nfrom numpy import *\r\n\ndef verif(x):\r\n    if x.isnumeric() and len(x) != 0 :\r\n        if 2 <= int(x) <= 100 :\r\n            return True\r\n        else :\r\n            return False\r\n    else :\r\n        return False\r\n\ndef multiplication():\r\n    a=p.t1.text()\r\n    b=p.t2.text()\r\n    if verif(a) and verif(b):\r\n        a=int(a)\r\n        b=int(b)\r\n        DV=array([0]*(a+b))\r\n        MLT=array([0]*(a+b))\r\n        i = 0\r\n        while a != 0 :\r\n            DV[i]=a\r\n            MLT[i]=b\r\n            a = a // 2\r\n            b = b * 2\r\n            i += 1\r\n        ch = 0\r\n        for j in range (i):\r\n            if DV[j] % 2 == 1 :\r\n                ch += (MLT[j])\r\n        p.t3.setText(str(ch))\r\n    else :\r\n        p.t3.setText(\"INPUT ERROR\")"
+    },
+    {
+      "chunkId": "DOC-1F0E5DB1DD6EC2FD-CHK-002",
+      "text": "######################pp#####################\r\n\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Multiplication Russe.ui\")\r\np.show()\r\np.pb1.clicked.connect(multiplication)\r\nApp.exec_()"
+    }
+  ]
+}

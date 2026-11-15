@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7D43981AA3418F62",
+  "filename": "asus.png",
+  "relPath": "bac info/sti/projet2,computer tech/files/asus.png",
+  "sha256": "7d43981aa3418f62a6372d7149182de22304de5510e81bb4cf64e470d0958b1e",
+  "extractedAt": "2026-11-06T14:24:20.443Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: asus.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: asus.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-7D43981AA3418F62-CHK-001",
+      "text": "[Fichier Image Pédagogique: asus.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

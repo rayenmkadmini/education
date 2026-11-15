@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-641A06D1C81350A3",
+  "filename": "Conversion 10_16.py",
+  "relPath": "bac info/algo/Python/Conversion 10_16.py",
+  "sha256": "641a06d1c81350a3267ffb9bd927a86408f80f87550e2263b60ea1871b410cd9",
+  "extractedAt": "2026-11-14T18:35:35.475Z",
+  "pageCount": 1,
+  "textSnippet": "def conv10_16(x): R=\"\" while x!=0: reste = x%16 if reste < 10 : k=str(reste) else: k=chr(reste+55) R=k+R x=x//16 return R #pp print(conv10_16(16))",
+  "fullText": "def conv10_16(x):\r\n    R=\"\"\r\n    while x!=0:\r\n        reste = x%16\r\n        if reste < 10 :\r\n            k=str(reste)\r\n        else:\r\n            k=chr(reste+55)\r\n        R=k+R\r\n        x=x//16\r\n    return R\r\n\r\n#pp\r\nprint(conv10_16(16))",
+  "chunks": [
+    {
+      "chunkId": "DOC-641A06D1C81350A3-CHK-001",
+      "text": "def conv10_16(x):\r\n    R=\"\"\r\n    while x!=0:\r\n        reste = x%16\r\n        if reste < 10 :\r\n            k=str(reste)\r\n        else:\r\n            k=chr(reste+55)\r\n        R=k+R\r\n        x=x//16\r\n    return R\r\n\n#pp\r\nprint(conv10_16(16))"
+    }
+  ]
+}

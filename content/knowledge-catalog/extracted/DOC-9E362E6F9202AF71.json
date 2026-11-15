@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-9E362E6F9202AF71",
+  "filename": "tri_selection_deux_sens.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection_deux_sens.py",
+  "sha256": "9e362e6f9202af71570d7ba474952164fcfa9108c9b9a500898567b70c550e9c",
+  "extractedAt": "2026-11-06T14:24:41.103Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * t=array([int]*50) def saisie(): b=False while b==False: n=int(input(\"donner n\")) b=2<=n<=20 return n def rech(x,t,p): b=False i=-1 while(not(b)) and (i<p): i=i+1 b=t[i]==x return b def remplir(t,n): t[0]=int(input(\"donner t[0]\")) for i in range(1,n): b1=False while(not(b1)): t[i]=int(input(\"donner t[\"+str(i)+\"]\")) b1=rech(t[i],t,i-1)==False",
+  "fullText": "from numpy import *\r\nt=array([int]*50)\r\ndef saisie():\r\n    b=False\r\n    while b==False:\r\n        n=int(input(\"donner n\"))\r\n        b=2<=n<=20\r\n    return n\r\ndef rech(x,t,p):\r\n    b=False\r\n    i=-1\r\n    \r\n    while(not(b)) and (i<p):\r\n        i=i+1\r\n        b=t[i]==x\r\n    return b\r\ndef remplir(t,n):\r\n    t[0]=int(input(\"donner t[0]\"))\r\n    for i in range(1,n):\r\n        b1=False\r\n        while(not(b1)):\r\n            t[i]=int(input(\"donner t[\"+str(i)+\"]\"))\r\n            b1=rech(t[i],t,i-1)==False\r\n            \r\n            \r\ndef min(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]<t[mi]:\r\n            mi=i\r\n    return mi\r\ndef max(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]>t[mi]:\r\n            mi=i\r\n    return mi\r\ndef permut(x,y):\r\n    aux=x\r\n    x=y\r\n    y=aux\r\n    return x,y\r\n#entree x=10 et y=20\r\n#sortie x=20 et y=10\r\n\r\n\r\n    \r\ndef tri(n,t):\r\n    b=False\r\n    d=0\r\n    f=n-1\r\n    while(not(b)):\r\n        mi=min(t,d,f)\r\n        if d!=mi:\r\n            t[d],t[mi]=permut(t[d],t[mi])\r\n        ma=max(t,d,f)\r\n        if f!=ma:\r\n            t[f],t[ma]=permut(t[f],t[ma])\r\n            \r\n        d=d+1\r\n        f=f-1\r\n        b=d>=f\r\n        \r\ndef affichage(t,n):\r\n    for i in range(n):\r\n        print(t[i],end='/')\r\n    \r\nn=saisie()\r\nremplir(t,n)\r\ntri(n,t)\r\naffichage(t,n)\r\n    \r\n\r\n        \r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-9E362E6F9202AF71-CHK-001",
+      "text": "from numpy import *\r\nt=array([int]*50)\r\ndef saisie():\r\n    b=False\r\n    while b==False:\r\n        n=int(input(\"donner n\"))\r\n        b=2<=n<=20\r\n    return n\r\ndef rech(x,t,p):\r\n    b=False\r\n    i=-1\r\n\n    while(not(b)) and (i<p):\r\n        i=i+1\r\n        b=t[i]==x\r\n    return b\r\ndef remplir(t,n):\r\n    t[0]=int(input(\"donner t[0]\"))\r\n    for i in range(1,n):\r\n        b1=False\r\n        while(not(b1)):\r\n            t[i]=int(input(\"donner t[\"+str(i)+\"]\"))\r\n            b1=rech(t[i],t,i-1)==False"
+    },
+    {
+      "chunkId": "DOC-9E362E6F9202AF71-CHK-002",
+      "text": "def min(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]<t[mi]:\r\n            mi=i\r\n    return mi\r\ndef max(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]>t[mi]:\r\n            mi=i\r\n    return mi\r\ndef permut(x,y):\r\n    aux=x\r\n    x=y\r\n    y=aux\r\n    return x,y\r\n#entree x=10 et y=20\r\n#sortie x=20 et y=10\r\n\ndef tri(n,t):\r\n    b=False\r\n    d=0\r\n    f=n-1\r\n    while(not(b)):\r\n        mi=min(t,d,f)\r\n        if d!=mi:\r\n            t[d],t[mi]=permut(t[d],t[mi])\r\n        ma=max(t,d,f)\r\n        if f!=ma:\r\n            t[f],t[ma]=permut(t[f],t[ma])\r\n\n        d=d+1\r\n        f=f-1\r\n        b=d>=f\r\n\ndef affichage(t,n):\r\n    for i in range(n):\r\n        print(t[i],end='/')\r\n\nn=saisie()\r\nremplir(t,n)\r\ntri(n,t)\r\naffichage(t,n)"
+    }
+  ]
+}

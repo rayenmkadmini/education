@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-F70308A27BDC25BB",
+  "filename": "Bac2013theorique.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Bac2013theorique.py",
+  "sha256": "f70308a27bdc25bbd12ce8c34bf25f8eff72aeed2e2193f169b2edefe8ff4187",
+  "extractedAt": "2026-11-06T14:24:36.014Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 50) def Saisie(): b = False while not b: n = int(input(\"Donner le nombre des cases: \")) b = 6 <= n <= 50 return n def Remplir(N): for i in range(N): T[i] = int(input(\"T[\" + str(i) + \"]=\")) def Trier(T, N): d = 0 g = N while d < g : renvoie_max(T, d, g) g -= 1 renvoie_min(T, d, g) d += 1 def renvoie_max(T, d, g): for i in range(d, g - 1):",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 50)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\ndef Trier(T, N):\r\n    d = 0\r\n    g = N\r\n    while d < g :\r\n        renvoie_max(T, d, g)\r\n        g -= 1\r\n        renvoie_min(T, d, g)\r\n        d += 1\r\n\r\ndef renvoie_max(T, d, g):\r\n    for i in range(d, g - 1):\r\n        if T[i] > T[i + 1]:\r\n            temp = T[i]\r\n            T[i] = T[i + 1]\r\n            T[i + 1] = temp\r\n\r\ndef renvoie_min(T, d, g):\r\n    for i in range(g - 1, d, -1):\r\n        if T[i] < T[i - 1]:\r\n            temp = T[i]\r\n            T[i] = T[i - 1]\r\n            T[i - 1] = temp\r\ndef Afficher(T,N):\r\n    for i in range(N):\r\n    print(T[i])\r\n    \r\n################################PP#########################\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(T, N)\r\nAfficher(T,N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-F70308A27BDC25BB-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 50)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\ndef Trier(T, N):\r\n    d = 0\r\n    g = N\r\n    while d < g :\r\n        renvoie_max(T, d, g)\r\n        g -= 1\r\n        renvoie_min(T, d, g)\r\n        d += 1\r\n\ndef renvoie_max(T, d, g):\r\n    for i in range(d, g - 1):\r\n        if T[i] > T[i + 1]:\r\n            temp = T[i]\r\n            T[i] = T[i + 1]\r\n            T[i + 1] = temp"
+    },
+    {
+      "chunkId": "DOC-F70308A27BDC25BB-CHK-002",
+      "text": "def renvoie_min(T, d, g):\r\n    for i in range(g - 1, d, -1):\r\n        if T[i] < T[i - 1]:\r\n            temp = T[i]\r\n            T[i] = T[i - 1]\r\n            T[i - 1] = temp\r\ndef Afficher(T,N):\r\n    for i in range(N):\r\n    print(T[i])\r\n\n################################PP#########################\r\n\nN = Saisie()\r\nRemplir(N)\r\nTrier(T, N)\r\nAfficher(T,N)"
+    }
+  ]
+}

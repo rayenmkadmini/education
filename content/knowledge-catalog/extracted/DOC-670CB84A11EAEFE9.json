@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-670CB84A11EAEFE9",
+  "filename": "calcul valeur approché.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/calcul valeur approché.py",
+  "sha256": "670cb84a11eaefe975a6b685ade4888dd940b3ae2ac56f05319f934f113368ae",
+  "extractedAt": "2026-11-14T18:35:36.347Z",
+  "pageCount": 1,
+  "textSnippet": "def fact(x): f=1 for i in range(2,x+1): f=f*i return f def valeur_app(eps): i=0 sa=1 test = True while test: i=i+1 sp=sa sa=sa+1/fact(i) if (abs(sa-sp)<=eps): test = False print(\"La valeur approche est: \",sa,\" apres \",i,\" iteration\") eps=float(input(\"Donner eps: \")) valeur_app(eps)",
+  "fullText": "def fact(x):\r\n    f=1\r\n    for i in range(2,x+1):\r\n        f=f*i\r\n    return f\r\n\r\ndef valeur_app(eps):\r\n    i=0\r\n    sa=1\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        sp=sa\r\n        sa=sa+1/fact(i)\r\n        if (abs(sa-sp)<=eps):\r\n            test = False\r\n    print(\"La valeur approche est: \",sa,\" apres \",i,\" iteration\")\r\n\r\neps=float(input(\"Donner eps: \"))\r\nvaleur_app(eps)",
+  "chunks": [
+    {
+      "chunkId": "DOC-670CB84A11EAEFE9-CHK-001",
+      "text": "def fact(x):\r\n    f=1\r\n    for i in range(2,x+1):\r\n        f=f*i\r\n    return f\r\n\ndef valeur_app(eps):\r\n    i=0\r\n    sa=1\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        sp=sa\r\n        sa=sa+1/fact(i)\r\n        if (abs(sa-sp)<=eps):\r\n            test = False\r\n    print(\"La valeur approche est: \",sa,\" apres \",i,\" iteration\")\r\n\neps=float(input(\"Donner eps: \"))\r\nvaleur_app(eps)"
+    }
+  ]
+}

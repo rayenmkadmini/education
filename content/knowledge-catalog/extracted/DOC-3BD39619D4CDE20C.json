@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3BD39619D4CDE20C",
+  "filename": "rapport.txt",
+  "relPath": "bac info/Python/fichier QtDesigner/S2EX11 (gestion_absence)/rapport.txt",
+  "sha256": "3bd39619d4cde20c51b233cf8accf2b6ff4937f24073d4ccf959488765f20551",
+  "extractedAt": "2026-11-06T14:23:33.886Z",
+  "pageCount": 1,
+  "textSnippet": "05/05/2009%4S1%ALI AZZOUZE%2%Exclut par le prof de STI 05/05/2009%1S1%LEILA BIDA%4%Absente laprès midi 05/05/2009%4S1%SALAH TOUNSI%8%Absent toute la journee 05/05/2009%3SC-EXP%SOUAD LABIIDH%4%Billet dentrée à 14h justifie",
+  "fullText": "05/05/2009%4S1%ALI AZZOUZE%2%Exclut par le prof de STI\r\n05/05/2009%1S1%LEILA BIDA%4%Absente laprès midi\r\n05/05/2009%4S1%SALAH TOUNSI%8%Absent toute la journee \r\n05/05/2009%3SC-EXP%SOUAD LABIIDH%4%Billet dentrée à 14h justifie",
+  "chunks": [
+    {
+      "chunkId": "DOC-3BD39619D4CDE20C-CHK-001",
+      "text": "05/05/2009%4S1%ALI AZZOUZE%2%Exclut par le prof de STI\r\n05/05/2009%1S1%LEILA BIDA%4%Absente laprès midi\r\n05/05/2009%4S1%SALAH TOUNSI%8%Absent toute la journee \r\n05/05/2009%3SC-EXP%SOUAD LABIIDH%4%Billet dentrée à 14h justifie"
+    }
+  ]
+}

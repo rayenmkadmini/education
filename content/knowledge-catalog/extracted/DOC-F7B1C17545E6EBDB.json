@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F7B1C17545E6EBDB",
+  "filename": "Approximation.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Approximation.py",
+  "sha256": "f7b1c17545e6ebdb8579c2ee1b6d39138084e01c26bc0e2a06ab3c85a01e6ff2",
+  "extractedAt": "2026-11-14T18:35:36.456Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def appro(): nb=1 x0=1 x1=log(x0)+2 d=abs(x0-x1) while d >= (10**-5): x0=x1 x1=log(x0)+2 d=abs(x0-x1) nb=nb+1 print(\"La valeur approché est: \",x1) print(\"Le nombre d'iteration est: \",nb) appro()",
+  "fullText": "from math import *\r\ndef appro():\r\n    nb=1\r\n    x0=1\r\n    x1=log(x0)+2\r\n    d=abs(x0-x1)\r\n    while d >= (10**-5):\r\n        x0=x1\r\n        x1=log(x0)+2\r\n        d=abs(x0-x1)\r\n        nb=nb+1\r\n    print(\"La valeur approché est: \",x1)\r\n    print(\"Le nombre d'iteration est: \",nb)\r\nappro()",
+  "chunks": [
+    {
+      "chunkId": "DOC-F7B1C17545E6EBDB-CHK-001",
+      "text": "from math import *\r\ndef appro():\r\n    nb=1\r\n    x0=1\r\n    x1=log(x0)+2\r\n    d=abs(x0-x1)\r\n    while d >= (10**-5):\r\n        x0=x1\r\n        x1=log(x0)+2\r\n        d=abs(x0-x1)\r\n        nb=nb+1\r\n    print(\"La valeur approché est: \",x1)\r\n    print(\"Le nombre d'iteration est: \",nb)\r\nappro()"
+    }
+  ]
+}

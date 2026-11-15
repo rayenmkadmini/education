@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-8343E40D01E48A71",
+  "filename": "inscription.jpg",
+  "relPath": "bac info/sti/gym/files/inscription.jpg",
+  "sha256": "8343e40d01e48a719d44dcd3578c2baa173d37e67c411d4f6c2c9f287ff019db",
+  "extractedAt": "2026-11-06T14:24:17.930Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: inscription.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: inscription.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-8343E40D01E48A71-CHK-001",
+      "text": "[Fichier Image Pédagogique: inscription.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

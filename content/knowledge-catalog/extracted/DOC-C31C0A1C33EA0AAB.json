@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C31C0A1C33EA0AAB",
+  "filename": "valeur approche de pi.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/valeur approche de pi.py",
+  "sha256": "c31c0a1c33ea0aab68a96cc27c873f2945757251b6aae54afc3ca31e81849436",
+  "extractedAt": "2026-11-14T18:35:36.444Z",
+  "pageCount": 1,
+  "textSnippet": "def fact(x): f=1 for i in range(2,x+1): f=f*i return f def app(eps): sa=1 i=0 test = True while test: i=i+1 sp=sa sa=sa+1/fact(i) if (abs(sa-sp)<=eps): test = False print(\"La valeur approché est \",sa,\" apres \",i,\" iteration\") eps=float(input(\"Donner eps: \")) app(eps)",
+  "fullText": "def fact(x):\r\n    f=1\r\n    for i in range(2,x+1):\r\n        f=f*i\r\n    return f\r\ndef app(eps):\r\n    sa=1\r\n    i=0\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        sp=sa\r\n        sa=sa+1/fact(i)\r\n        if (abs(sa-sp)<=eps):\r\n            test = False\r\n    print(\"La valeur approché est \",sa,\" apres \",i,\" iteration\")\r\neps=float(input(\"Donner eps: \"))\r\napp(eps)",
+  "chunks": [
+    {
+      "chunkId": "DOC-C31C0A1C33EA0AAB-CHK-001",
+      "text": "def fact(x):\r\n    f=1\r\n    for i in range(2,x+1):\r\n        f=f*i\r\n    return f\r\ndef app(eps):\r\n    sa=1\r\n    i=0\r\n    test = True\r\n    while test:\r\n        i=i+1\r\n        sp=sa\r\n        sa=sa+1/fact(i)\r\n        if (abs(sa-sp)<=eps):\r\n            test = False\r\n    print(\"La valeur approché est \",sa,\" apres \",i,\" iteration\")\r\neps=float(input(\"Donner eps: \"))\r\napp(eps)"
+    }
+  ]
+}

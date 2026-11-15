@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-1E4E7EEEAE065A26",
+  "filename": "conversion_dans_la_base_10.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/conversion_dans_la_base_10.py",
+  "sha256": "1e4e7eeeae065a2632fb2743b255d9cef888d4388d8165d5ff1214f239c465fe",
+  "extractedAt": "2026-11-06T14:24:33.167Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets,uic def verif(a,b): ok = b.isnumeric() i = -1 while ok and i < len(a)-1 : i += 1 if a[i].isnumeric(): ok = int(a[i]) < int(b) else : ok = int(b) > 9 and \"A\" <= a[i] <= chr(55+int(b)) return ok def base10(a,b): S = 0 for i in range (len(a)): if a[i].isnumeric(): S = S*int(b) + int(a[i]) else : S = S*int(b) + ord(a[i])-55 r",
+  "fullText": "from PyQt5 import QtWidgets,uic\r\n\r\ndef verif(a,b):\r\n    ok = b.isnumeric()\r\n    i = -1\r\n    while ok and i < len(a)-1 :\r\n        i += 1\r\n        if a[i].isnumeric():\r\n            ok = int(a[i]) < int(b) \r\n        else :\r\n            ok = int(b) > 9 and \"A\" <= a[i] <= chr(55+int(b))\r\n    return ok\r\n    \r\n    \r\ndef base10(a,b):\r\n    S = 0\r\n    for i in range (len(a)):\r\n        if a[i].isnumeric():\r\n            S = S*int(b) + int(a[i])\r\n        else :\r\n            S = S*int(b) + ord(a[i])-55\r\n    return str(S)\r\ndef traitement(a,b):\r\n    if verif(a,b):\r\n        p.t3.setText(base10(a,b))\r\n    else:\r\n        p.t3.setText(\"INPUT ERROR\")\r\n\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"conversion_dans_la_base_10.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text(),p.t2.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n    \r\n    \r\n    \r\n    ",
+  "chunks": [
+    {
+      "chunkId": "DOC-1E4E7EEEAE065A26-CHK-001",
+      "text": "from PyQt5 import QtWidgets,uic\r\n\ndef verif(a,b):\r\n    ok = b.isnumeric()\r\n    i = -1\r\n    while ok and i < len(a)-1 :\r\n        i += 1\r\n        if a[i].isnumeric():\r\n            ok = int(a[i]) < int(b) \r\n        else :\r\n            ok = int(b) > 9 and \"A\" <= a[i] <= chr(55+int(b))\r\n    return ok\r\n\ndef base10(a,b):\r\n    S = 0\r\n    for i in range (len(a)):\r\n        if a[i].isnumeric():\r\n            S = S*int(b) + int(a[i])\r\n        else :\r\n            S = S*int(b) + ord(a[i])-55\r\n    return str(S)\r\ndef traitement(a,b):\r\n    if verif(a,b):\r\n        p.t3.setText(base10(a,b))\r\n    else:\r\n        p.t3.setText(\"INPUT ERROR\")\r\n\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()"
+    },
+    {
+      "chunkId": "DOC-1E4E7EEEAE065A26-CHK-002",
+      "text": "app = QtWidgets.QApplication([])\r\np = uic.loadUi(\"conversion_dans_la_base_10.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text(),p.t2.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()"
+    }
+  ]
+}

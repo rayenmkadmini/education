@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "publicationId": "PUB-2026-409671-SERIE",
+  "sourceDraftId": "DRAFT-SERIE-BACSI-2026-409671",
+  "sourceTaskId": "BACSI-2026-409671",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "contentType": "SERIE_EXERCICES",
+  "language": "fr_tn_derja",
+  "content": {
+    "schemaVersion": "1.0.0",
+    "draftId": "DRAFT-SERIE-BACSI-2026-409671",
+    "taskId": "BACSI-2026-409671",
+    "version": 3,
+    "createdAt": "2026-11-06T11:15:18.846Z",
+    "updatedAt": "2026-11-06T11:38:28.906Z",
+    "status": "EXPORTED",
+    "subject": "Algorithmique et Programmation",
+    "chapter": "Structures de Données Simples et Composées",
+    "academicYear": "2026-2027",
+    "contentType": "SERIE_EXERCICES",
+    "totalPoints": 9.0,
+    "isOfficialBac": true,
+    "provenance": {
+      "generatedBy": "Antigravity Educational AI",
+      "sourcesCited": [
+        {
+          "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+          "page": 2,
+          "section": "VERIFIED_OFFICIAL_EXAM : Cahier des charges et modules pratiques"
+        }
+      ],
+      "verifiedCurriculum": true
+    },
+    "header": {
+      "institution": "République Tunisienne — Ministère de l'Éducation",
+      "sessionLabel": "Série d'Exercices Guidés — Niveau Baccalauréat SI",
+      "duration": "2h00",
+      "coefficient": 3
+    },
+    "exercises": [
+      {
+        "id": "ex-prog-1",
+        "number": 1,
+        "title": "Niveau 1 : Modélisation et Validation d'Enregistrement (4 points)",
+        "points": 4,
+        "statementMarkdown": "### Exercice 1 : Modélisation et Contrôle de Saisie (4 points)\n\nPour informatiser une bibliothèque de lycée, on modélise chaque livre par un enregistrement comportant :\n- `isbn` : chaîne de 13 caractères numériques.\n- `titre` : chaîne de 3 à 50 caractères non vide.\n- `prix` : réel strictement positif.\n- `disponible` : booléen (`True` si le livre peut être emprunté, `False` sinon).\n\n**Travail demandé :**\n1. Proposer la déclaration en pseudocode conventionnel tunisien du type `Livre` ainsi que le TDO correspondant.\n2. Écrire une fonction Python `valider_isbn(ch: str) -> bool` qui vérifie si une chaîne représente un code ISBN valide (exactement 13 chiffres de '0' à '9').\n3. Écrire une fonction Python `creer_livre(isbn: str, titre: str, prix: float) -> dict` qui retourne l'enregistrement représentant le livre avec le statut de disponibilité initialisé à `True`.",
+        "solutionMarkdown": "#### Solution Exercice 1 :\n\n**1. Pseudocode et TDO :**\n```text\nType\n    Livre = Enregistrement\n        isbn        : Chaîne\n        titre       : Chaîne\n        prix        : Réel\n        disponible  : Booléen\n    Fin\n```\n\n**2. Validation ISBN Python :**\n```python\ndef valider_isbn(ch: str) -> bool:\n    if len(ch) != 13:\n        return False\n    for c in ch:\n        if not ('0' <= c <= '9'):\n            return False\n    return True\n```\n\n**3. Création du Livre :**\n```python\ndef creer_livre(isbn: str, titre: str, prix: float) -> dict:\n    if not valider_isbn(isbn) or prix <= 0 or not (3 <= len(titre) <= 50):\n        raise ValueError(\"Données du livre invalides\")\n    return {\n        'isbn': isbn,\n        'titre': titre,\n        'prix': float(prix),\n        'disponible': True\n    }\n```",
+        "gradingCriteria": [
+          { "id": "c-ex1-tdo", "description": "Déclaration TDO conforme", "points": 1 },
+          { "id": "c-ex1-isbn", "description": "Fonction de validation ISBN", "points": 2 },
+          { "id": "c-ex1-dict", "description": "Fonction de création d'enregistrement", "points": 1 }
+        ]
+      },
+      {
+        "id": "ex-prog-2",
+        "number": 2,
+        "title": "Niveau 2 : Persistance Binaire et Ajout dans un Fichier pickle (5 points)",
+        "points": 5,
+        "statementMarkdown": "### Exercice 2 : Enregistrement Binaire dans un Fichier de Données (5 points)\n\nOn souhaite sauvegarder les livres de la bibliothèque dans un fichier binaire nommé `\"bibliotheque.dat\"`.\n\n**Travail demandé :**\n1. Développer une procédure Python `ajouter_livre(nom_fich: str, livre: dict) -> None` permettant d'écrire l'enregistrement `livre` à la fin du fichier sans écraser les données préexistantes.\n2. Préciser le mode d'ouverture à utiliser et justifier son choix par rapport au mode `\"wb\"`.",
+        "solutionMarkdown": "#### Solution Exercice 2 :\n\n**1. Procédure Python :**\n```python\nfrom pickle import dump\n\ndef ajouter_livre(nom_fich: str, livre: dict) -> None:\n    f = open(nom_fich, \"ab\")\n    dump(livre, f)\n    f.close()\n```\n\n**2. Justification du mode d'ouverture :**\nOn utilise le mode `\"ab\"` (Append Binary) car il permet d'ajouter le nouvel enregistrement à la fin du fichier sans détruire les objets existants. Le mode `\"wb\"` écrase et efface l'intégralité du contenu à chaque ouverture.",
+        "gradingCriteria": [
+          { "id": "c-ex2-ab", "description": "Usage rigoureux du mode 'ab' et dump", "points": 3 },
+          { "id": "c-ex2-justif", "description": "Justification didactique du mode", "points": 2 }
+        ]
+      }
+    ]
+  },
+  "approvalMetadata": {
+    "reviewer": "Super Admin (Rayen)",
+    "approvedAt": "2026-11-06T12:30:00.000Z",
+    "reviewId": "REV-2026-409671-SERIE-APPROVAL"
+  },
+  "publishedAt": "2026-11-06T12:35:00.000Z"
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2FDEE817CBBDA21B",
+  "filename": "ab_12_mois.jpg",
+  "relPath": "bac info/sti/gym/files/ab_12_mois.jpg",
+  "sha256": "2fdee817cbbda21bc39154d7ac5228e76660ec13207d68daa701f36f29f614c7",
+  "extractedAt": "2026-11-06T14:24:17.632Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: ab_12_mois.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: ab_12_mois.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-2FDEE817CBBDA21B-CHK-001",
+      "text": "[Fichier Image Pédagogique: ab_12_mois.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

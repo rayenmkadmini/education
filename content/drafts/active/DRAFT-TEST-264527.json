@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-TEST-264527",
+  "taskId": "BACSI-2026-342458",
+  "version": 1,
+  "createdAt": "2026-11-05T21:03:20.213Z",
+  "updatedAt": "2026-11-05T21:03:20.216Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "La Récursivité",
+  "academicYear": "2026-2027",
+  "contentType": "SERIE_EXERCICES",
+  "totalPoints": 20,
+  "isOfficialBac": false,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation_Sciences_de_l_informatique_2026_Sujet.pdf",
+        "page": 1
+      }
+    ],
+    "verifiedCurriculum": false
+  },
+  "header": {
+    "institution": "République Tunisienne — Ministère de l'Éducation",
+    "sessionLabel": "Série d'exercices d'entraînement"
+  },
+  "exercises": [
+    {
+      "id": "ex-1",
+      "number": 1,
+      "title": "Fonction Factorielle Récursive",
+      "points": 5,
+      "statementMarkdown": "Écrire une fonction récursive en Python calculant la factorielle d'un entier $n$.",
+      "solutionMarkdown": "```python\ndef fact(n):\n    if n <= 1:\n        return 1\n    return n * fact(n - 1)\n```",
+      "gradingCriteria": [
+        {
+          "id": "c-1",
+          "description": "Cas de base vérifié",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

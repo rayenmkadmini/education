@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-195FBA70D924982D",
+  "filename": "salle.jpg",
+  "relPath": "bac info/sti/gym/files/salle.jpg",
+  "sha256": "195fba70d924982df977c66e0dbf1dc7d1cc3bc0bda284c2a5a19c75fad2a6cf",
+  "extractedAt": "2026-11-06T14:24:18.411Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: salle.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: salle.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-195FBA70D924982D-CHK-001",
+      "text": "[Fichier Image Pédagogique: salle.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

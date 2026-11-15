@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-42F49A4FC6BEB3D9",
+  "filename": "epreuve_bac_pratique_2015_sujet2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet2.py",
+  "sha256": "42f49a4fc6beb3d9f5e8c1f317582e79b9f52a7e3caf34334766d2c43616be4f",
+  "extractedAt": "2026-11-06T14:24:37.639Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie_msg(): b = False while not b: ch = str(input(('Donner le message à crypter: '))) b = verif(ch) return ch, len(ch) def verif(ch): i = -1 ok = True while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == ' ' return ok def Saisie_clé(n): b = False while not b: ch = (input('Donner la clé du cryptage: ')) b = ch.isnumeric() and len(ch) == n return ch def",
+  "fullText": "def Saisie_msg():\r\n    b = False\r\n    while not b:\r\n        ch = str(input(('Donner le message à crypter: ')))\r\n        b = verif(ch)\r\n    return ch, len(ch)\r\n\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == ' '\r\n    return ok\r\n\r\n\r\ndef Saisie_clé(n):\r\n    b = False\r\n    while not b:\r\n        ch = (input('Donner la clé du cryptage: '))\r\n        b = ch.isnumeric() and len(ch) == n\r\n    return ch\r\n\r\n\r\ndef Cryptage(msg, clé, n):\r\n    R = ''\r\n    for i in range(n):\r\n        if msg[i] != ' ':\r\n            if \"A\" <= chr(ord(msg[i]) + int(clé[i])) <= \"Z\":\r\n                R += chr(ord(msg[i]) + int(clé[i]))\r\n            else:\r\n                R += chr(ord(msg[i]) + int(clé[i]) - 26)\r\n\r\n        else:\r\n            R += msg[i]\r\n    return R\r\n\r\n\r\n##################PP###############\r\nmsg, n = Saisie_msg()\r\nclé = Saisie_clé(n)\r\nC = Cryptage(msg, clé, n)\r\nprint(C)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-42F49A4FC6BEB3D9-CHK-001",
+      "text": "def Saisie_msg():\r\n    b = False\r\n    while not b:\r\n        ch = str(input(('Donner le message à crypter: ')))\r\n        b = verif(ch)\r\n    return ch, len(ch)\r\n\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == ' '\r\n    return ok\r\n\ndef Saisie_clé(n):\r\n    b = False\r\n    while not b:\r\n        ch = (input('Donner la clé du cryptage: '))\r\n        b = ch.isnumeric() and len(ch) == n\r\n    return ch\r\n\ndef Cryptage(msg, clé, n):\r\n    R = ''\r\n    for i in range(n):\r\n        if msg[i] != ' ':\r\n            if \"A\" <= chr(ord(msg[i]) + int(clé[i])) <= \"Z\":\r\n                R += chr(ord(msg[i]) + int(clé[i]))\r\n            else:\r\n                R += chr(ord(msg[i]) + int(clé[i]) - 26)"
+    },
+    {
+      "chunkId": "DOC-42F49A4FC6BEB3D9-CHK-002",
+      "text": "else:\r\n            R += msg[i]\r\n    return R\r\n\n##################PP###############\r\nmsg, n = Saisie_msg()\r\nclé = Saisie_clé(n)\r\nC = Cryptage(msg, clé, n)\r\nprint(C)"
+    }
+  ]
+}

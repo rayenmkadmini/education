@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1DBC96F94F047DD0",
+  "filename": "index.html",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/index.html",
+  "sha256": "1dbc96f94f047dd016b3594aa93b15bbb8866ad08b9336f46cd599dced02227f",
+  "extractedAt": "2026-11-06T14:24:16.887Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Index</title> <link rel=\"stylesheet\" href=\"style.css\"> </head> <body> <main> <section> <ul> <li><a href=\"Commande.html\" target=\"cadre2\">Commande</a></li> <li><a href=\"Inscription.html\" target=\"cadre2\">Inscription</a></li> </ul> </section> <asi",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <main>\r\n        <section>\r\n            <ul>\r\n                <li><a href=\"Commande.html\" target=\"cadre2\">Commande</a></li>\r\n                <li><a href=\"Inscription.html\" target=\"cadre2\">Inscription</a></li>\r\n            </ul>\r\n        </section>\r\n        <aside>\r\n            <iframe src=\"Commande.html\" name=\"cadre2\" ></iframe>\r\n        </aside>\r\n    </main>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-1DBC96F94F047DD0-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <main>\r\n        <section>\r\n            <ul>\r\n                <li><a href=\"Commande.html\" target=\"cadre2\">Commande</a></li>\r\n                <li><a href=\"Inscription.html\" target=\"cadre2\">Inscription</a></li>\r\n            </ul>\r\n        </section>\r\n        <aside>\r\n            <iframe src=\"Commande.html\" name=\"cadre2\" ></iframe>\r\n        </aside>\r\n    </main>\r\n</body>\r\n</html>"
+    }
+  ]
+}

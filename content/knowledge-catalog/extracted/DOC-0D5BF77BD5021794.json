@@ -1,0 +1,75 @@
+{
+  "documentId": "DOC-0D5BF77BD5021794",
+  "filename": "810338244-6758129e934ec-Correction-Revision-Fichiers-Recursivite-Matrice.pdf",
+  "sha256": "0d5bf77bd5021794ef2bef80330da6e27e6dba414682f4f79689182422a9b11f",
+  "extractedAt": "2026-11-06T13:57:40.258Z",
+  "pageCount": 16,
+  "textSnippet": "1 Algo & Prog Exercices (Récursivité+ Suite) EX1 : On considère une suite U définie par : U0 = 1 U1 = 1 Un = Un-1 + R * Un-2 si n est pair Un = 3*Un-1 + R / Un-2 si n est impair 1. Quel est l’ordre de récurrence de la suite U ? justifier votre réponse. 2. Sachant que R et N deux entiers naturels déjà saisis au niveau du programme appelant, on vous demande de donner l’algorithme de la fonction (récursive) qui calcule le Nième terme de la suite U. EX2 : Soient k, n deux entiers naturels et U une s",
+  "fullText": "1\nAlgo & Prog\nExercices (Récursivité+ Suite)\nEX1 :\nOn considère une suite U définie par :\nU0 = 1\nU1 = 1\nUn = Un-1 + R * Un-2 si n est pair\nUn = 3*Un-1 + R / Un-2 si n est impair\n1. Quel est l’ordre de récurrence de la suite U ? justifier votre réponse.\n2. Sachant que R et N deux entiers naturels déjà saisis au niveau du programme\nappelant, on vous demande de donner l’algorithme de la fonction (récursive)\nqui calcule le Nième terme de la suite U.\nEX2 :\nSoient k, n deux entiers naturels et U une suite définie par :\nU0=1 Un+1= K * Un\n1) Quel est l’ordre de récurrence de la suite U ? justifier votre réponse.\n2) Calculez les termes U1, U2 et U3 pour K=4\n3) Parmi les 3 propositions suivantes, cocher (X) celle qui correspond au rôle de\nla suite U :\n- La suite U permet de calculer la factorielle de k (K!)\n- La suite U permet de calculer car à la puissance n (Kn)\n- La suite U permet de calculer le produit de n et k (n*K)\n4) Ecrire un algorithme d'une fonction récursive qui permet de calculer le terme\nUn pour toute entier n supérieur ou égal à 0.\n\n-- 1 of 16 --\n\n2\nAlgo & Prog\n\n-- 2 of 16 --\n\n3\nAlgo & Prog\n\n-- 3 of 16 --\n\n4\nAlgo & Prog\n\n-- 4 of 16 --\n\n5\nAlgo & Prog\n\n-- 5 of 16 --\n\n6\nAlgo & Prog\n\n-- 6 of 16 --\n\n7\nAlgo & Prog\n\n-- 7 of 16 --\n\n8\nAlgo & Prog\n\n-- 8 of 16 --\n\n9\nAlgo & Prog\n\n-- 9 of 16 --\n\n10\nAlgo & Prog\n\n-- 10 of 16 --\n\n11\nAlgo & Prog\n\n-- 11 of 16 --\n\n12\nAlgo & Prog\n\n-- 12 of 16 --\n\n13\nAlgo & Prog\n\n-- 13 of 16 --\n\n14\nAlgo & Prog\n\n-- 14 of 16 --\n\n15\nAlgo & Prog\n\n-- 15 of 16 --\n\n16\nAlgo & Prog\n\n-- 16 of 16 --\n\n",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1\nAlgo & Prog\nExercices (Récursivité+ Suite)\nEX1 :\nOn considère une suite U définie par :\nU0 = 1\nU1 = 1\nUn = Un-1 + R * Un-2 si n est pair\nUn = 3*Un-1 + R / Un-2 si n est impair\n1. Quel est l’ordre de récurrence de la suite U ? justifier votre réponse.\n2. Sachant que R et N deux entiers naturels déjà saisis au niveau du programme\nappelant, on vous demande de donner l’algorithme de la fonction (récursive)\nqui calcule le Nième terme de la suite U.\nEX2 :\nSoient k, n deux entiers naturels et U une suite définie par :\nU0=1 Un+1= K * Un\n1) Quel est l’ordre de récurrence de la suite U ? justifier votre réponse.\n2) Calculez les termes U1, U2 et U3 pour K=4\n3) Parmi les 3 propositions suivantes, cocher (X) celle qui correspond au rôle de\nla suite U :\n- La suite U permet de calculer la factorielle de k (K!)\n- La suite U permet de calculer car à la puissance n (Kn)\n- La suite U permet de calculer le produit de n et k (n*K)\n4) Ecrire un algorithme d'une fonction récursive qui permet de calculer le terme\nUn pour toute entier n supérieur ou égal à 0."
+    },
+    {
+      "pageNumber": 2,
+      "text": "2\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 5,
+      "text": "5\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 6,
+      "text": "6\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 7,
+      "text": "7\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 8,
+      "text": "8\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 9,
+      "text": "9\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 10,
+      "text": "10\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 11,
+      "text": "11\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 12,
+      "text": "12\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 13,
+      "text": "13\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 14,
+      "text": "14\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 15,
+      "text": "15\nAlgo & Prog"
+    },
+    {
+      "pageNumber": 16,
+      "text": "16\nAlgo & Prog"
+    }
+  ]
+}

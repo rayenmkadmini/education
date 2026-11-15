@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-121F6088C6E27D07",
+  "filename": "logo.png",
+  "relPath": "Prototype Bac pratique 2025/DCN°6 Ressources/logo.png",
+  "sha256": "121f6088c6e27d075549addcf04dcc09ec38d6722601b3d816a5629c4e978133",
+  "extractedAt": "2026-11-06T14:22:57.956Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-121F6088C6E27D07-CHK-001",
+      "text": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-30502432FC842410",
+  "filename": "tarifs.jpg",
+  "relPath": "bac info/sti/gym/files/tarifs.jpg",
+  "sha256": "30502432fc8424103e430e7d9c740f43a1ad1a1594e4fc2e5af9cf835bcb9605",
+  "extractedAt": "2026-11-06T14:24:18.489Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: tarifs.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: tarifs.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-30502432FC842410-CHK-001",
+      "text": "[Fichier Image Pédagogique: tarifs.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

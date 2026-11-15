@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-703319E42E0D3933",
+  "filename": "suite innieme.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/suite innieme.py",
+  "sha256": "703319e42e0d3933feae47e0f414259efa54ab1727b60143c806d19ee85a4026",
+  "extractedAt": "2026-11-14T18:35:36.385Z",
+  "pageCount": 1,
+  "textSnippet": "def suite(): x=int(input(\"Donner x: \")) if x<5: x=int(input(\"Donner x: \")) u0=2 u1=5 u=0 while x<=u: u=u1+3*u0 u0=u1 u1=u return (x==u) suite()",
+  "fullText": "def suite():\r\n    x=int(input(\"Donner x: \"))\r\n    if x<5:\r\n        x=int(input(\"Donner x: \"))\r\n    u0=2\r\n    u1=5\r\n    u=0\r\n    while x<=u:\r\n        u=u1+3*u0\r\n        u0=u1\r\n        u1=u\r\n    return (x==u)\r\nsuite()",
+  "chunks": [
+    {
+      "chunkId": "DOC-703319E42E0D3933-CHK-001",
+      "text": "def suite():\r\n    x=int(input(\"Donner x: \"))\r\n    if x<5:\r\n        x=int(input(\"Donner x: \"))\r\n    u0=2\r\n    u1=5\r\n    u=0\r\n    while x<=u:\r\n        u=u1+3*u0\r\n        u0=u1\r\n        u1=u\r\n    return (x==u)\r\nsuite()"
+    }
+  ]
+}

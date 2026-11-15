@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-65B5368BE6E41DEE",
+  "filename": "calcul trapeze.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/calcul trapeze.py",
+  "sha256": "65b5368be6e41dee9e790357a2e47944159e2505907505dc13a1f32db3a4965e",
+  "extractedAt": "2026-11-14T18:35:36.341Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def f(x): return 1-sin(x) def droite(a,b,n): h=(b-a)/n x=a+h s=0 for i in range(n): s=s+h*f(x) x=x+h return s print(droite(3,15,50))",
+  "fullText": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef droite(a,b,n):\r\n    h=(b-a)/n\r\n    x=a+h\r\n    \r\n    s=0\r\n    for i in range(n):\r\n        s=s+h*f(x)\r\n        x=x+h\r\n    return s\r\nprint(droite(3,15,50))",
+  "chunks": [
+    {
+      "chunkId": "DOC-65B5368BE6E41DEE-CHK-001",
+      "text": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef droite(a,b,n):\r\n    h=(b-a)/n\r\n    x=a+h\r\n\n    s=0\r\n    for i in range(n):\r\n        s=s+h*f(x)\r\n        x=x+h\r\n    return s\r\nprint(droite(3,15,50))"
+    }
+  ]
+}

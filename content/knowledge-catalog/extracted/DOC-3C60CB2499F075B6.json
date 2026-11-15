@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-3C60CB2499F075B6",
+  "filename": "AjoutObjet.py",
+  "sha256": "3c60cb2499f075b6612ef76af0c4b1fe1b7fab1870e7539152a1d096229d87b7",
+  "extractedAt": "2026-11-06T13:57:41.219Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import * from pickle import load,dump # Le module Valider permet de vérifier si la chaîne ch est un nombre romain valide def Valider(ch): r=\"IVXLCDM\" if ch==\"\": return False else : test=True i=0 while (i<len(ch)) and (r.find(ch[i])!=-1) and test : if ch.find(ch[i]+ch[i]+ch[i]+ch[i])!=-1: test=False else: i=i+1 r",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import *\r\nfrom pickle import load,dump\r\n\r\n# Le module Valider permet de vérifier si la chaîne ch est un nombre romain valide           \r\ndef Valider(ch):\r\n    r=\"IVXLCDM\"\r\n    if ch==\"\":\r\n        return False\r\n    else :\r\n        test=True\r\n        i=0\r\n        while (i<len(ch)) and (r.find(ch[i])!=-1) and test :\r\n            if ch.find(ch[i]+ch[i]+ch[i]+ch[i])!=-1:\r\n                test=False\r\n            else:\r\n                i=i+1\r\n        return i==len(ch)\r\n\r\n\r\n\r\n\r\n# Exploitation de l'interface graphique\r\napp = QApplication([])\r\nw = loadUi (\"Nom_Interface.ui\")\r\nw.show()\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\nw.Nom_Bouton.clicked.connect (Nom_Module)\r\napp.exec_()"
+}

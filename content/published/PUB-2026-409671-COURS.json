@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "publicationId": "PUB-2026-409671-COURS",
+  "sourceDraftId": "DRAFT-COURS-BACSI-2026-409671",
+  "sourceTaskId": "BACSI-2026-409671",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "contentType": "COURS",
+  "language": "fr_tn_derja",
+  "content": {
+    "schemaVersion": "1.0.0",
+    "draftId": "DRAFT-COURS-BACSI-2026-409671",
+    "taskId": "BACSI-2026-409671",
+    "version": 4,
+    "createdAt": "2026-11-06T11:15:18.823Z",
+    "updatedAt": "2026-11-06T12:25:09.401Z",
+    "status": "EXPORTED",
+    "subject": "Algorithmique et Programmation",
+    "chapter": "Structures de Données Simples et Composées",
+    "academicYear": "2026-2027",
+    "contentType": "COURS",
+    "totalPoints": 10.0,
+    "isOfficialBac": true,
+    "provenance": {
+      "generatedBy": "Antigravity Educational AI",
+      "sourcesCited": [
+        {
+          "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+          "page": 1,
+          "section": "VERIFIED_OFFICIAL_EXAM : Épreuve pratique officielle Bac SI 2026"
+        },
+        {
+          "document": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+          "page": 1,
+          "section": "VERIFIED_OFFICIAL_EXAM : Squelette Python officiel AjoutObjet.py et Manip.py"
+        }
+      ],
+      "verifiedCurriculum": true
+    },
+    "header": {
+      "institution": "République Tunisienne — Ministère de l'Éducation",
+      "sessionLabel": "Cours Magistral Interactif — Section Sciences de l'Informatique",
+      "duration": "2h00",
+      "coefficient": 3
+    },
+    "exercises": [
+      {
+        "id": "cours-sec-1",
+        "number": 1,
+        "title": "Module 1 : Chma3naha Enregistrement ? (Modélisation Conceptuelle & TDO)",
+        "points": 5,
+        "statementMarkdown": "### 1.1 El Mochkla : 3lesh les types simples ma ykattiwsh ?\n\nAslema bikom ya jme3et el 4ème SI !\nKima ta3rfou men 3ème SI, l9ina les types standards scalaires kima `entier`, `réel`, `booléen`, `caractère`, w les types composés kima `chaine` w `tableau`.\nAma f'denya el wa9e3ya w fil machari3 mte3 l'Informatique, ma nakhdmoush b'données isolées.\nMethel men sujet el **Bac Pratique 2026 (Séance 8h30)** :\n> 3andna musée y7eb yjeri el stock mte3 les **objets archéologiques**. Kol objet 3andou :\n> - `code` : chaîne (ex: \"OBJ101\")\n> - `designation` : chaîne (ex: \"Amphore punique\")\n> - `qte_romain` : chaîne (ex: \"XLVI\")\n> - `qte_decimal` : entier (ex: 46)\n\nKan bech nesta3mlou des tableaux séparés (`T_code`, `T_desig`, `T_qte`), ywali 3andna risque kbir mte3 désynchronisation wa9t el tri walla el suppression !\nHouni yji concept el **Enregistrement (Record)**.\n\n---\n\n### 1.2 Définition Formelle & Pseudocode Officiel Tunisien\n\n> **Définition :** Un **enregistrement** est une structure de données composite, statique et **hétérogène**, formée d'un ensemble fini d'éléments appelés **champs** (fields). Chaque champ possède un nom (identificateur) et un type spécifique.\n\nFil notation algorithmique officielle mte3 el Baccalauréat tunisien, n3arfou el type fil partie déclaration kima hakka :\n\n```text\nType\n    ObjetArcheo = Enregistrement\n        code        : chaîne\n        designation : chaîne\n        qte_romain  : chaîne\n        qte_decimal : entier\n    Fin\n```\n\nFil **TDO (Tableau de Déclaration des Objets)** :\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `obj` | `ObjetArcheo` | Variable de type enregistrement représentant une pièce de musée |\n| `T` | `Tableau de N ObjetArcheo` | Tableau contenant les enregistrements |\n\nPour accéder à un champ spécifique, on utilise l'opérateur point (`.`) :\n```text\nobj.code <- \"OBJ101\"\nobj.designation <- \"Amphore punique\"\nobj.qte_decimal <- 46\n```\n\n---\n\n### 1.3 Traduction Python 3 Conforme au Bac Tunisien\n\nF'Python standard (environnement **Thonny** recommandé par le Ministère), la structure d'enregistrement est canoniquement implémentée sous forme de **dictionnaire** :\n\n```python\n# Création d'un enregistrement sous forme de dictionnaire Python\nobj = {\n    'code': \"OBJ101\",\n    'designation': \"Amphore punique\",\n    'qte_romain': \"XLVI\",\n    'qte_decimal': 46\n}\n\n# Accès et modification d'un champ :\nprint(\"Désignation :\", obj['designation'])\nobj['qte_decimal'] = 50\n```",
+        "solutionMarkdown": "**Synthèse Pédagogique du Module 1 :**\n1. L'enregistrement regroupe des champs de types différents sous une même entité logique.\n2. En pseudocode : syntaxe `Type ... = Enregistrement ... Fin`.\n3. En Python : dictionnaire `{'cle': valeur}` avec accès indexé `obj['cle']`.",
+        "gradingCriteria": [
+          { "id": "crit-m1-1", "description": "Compréhension de l'hétérogénéité de l'enregistrement", "points": 2.5 },
+          { "id": "crit-m1-2", "description": "Conformité de la syntaxe TDO et dictionnaire Python", "points": 2.5 }
+        ]
+      },
+      {
+        "id": "cours-sec-2",
+        "number": 2,
+        "title": "Module 2 : La Persistance — Fichiers Binaires & Module pickle",
+        "points": 5,
+        "statementMarkdown": "### 2.1 3lesh les Fichiers de Données ? (Mémoire Volatile vs Permanente)\n\nKi nruniw un script Python w n3abiw liste mte3 objets, les données yo93dou mawjoudin fil **RAM** (mémoire vive).\nMellé nsakrou el programme walla t9oss el dhou, **les données el koll yetfasskhou !**\nBech nkhalliw les données yo93dou dima mawjoudin, lezmna na3mloulhom la **persistance** fi fichier 3al disque dur (mémoire de masse).\n\nFil Bac SI, pour enregistrer des objets complexes (dictionnaires/enregistrements), on utilise le module standard officiel : **`pickle`**.\n\n---\n\n### 2.2 Les Modes d'Ouverture des Fichiers Binaires\n\nFil fonction `open(\"chemin\", mode)`, lezm dima nzidou la lettre **`b`** (binary) :\n1. **`\"wb\"` (Write Binary) :** Écriture men jdid. Si le fichier existe, il est écrasé (effacé à zéro). Si le fichier n'existe pas, il est créé.\n2. **`\"ab\"` (Append Binary) :** Ajout en fin de fichier. Si le fichier existe, les nouveaux objets sont écrits après les anciens sans rien effacer. S'il n'existe pas, il est créé. **(C'est le mode le plus utilisé fil Bac pratique pour ajouter un nouvel enregistrement !)**\n3. **`\"rb\"` (Read Binary) :** Lecture seule. Le fichier doit impérativement exister sur le disque, sinon Python déclenche une exception `FileNotFoundError`.\n\n---\n\n### 2.3 Écriture d'un Enregistrement avec `pickle.dump()`\n\nKifeh nkaydou un objet fil fichier ?\n```python\nfrom pickle import dump\n\ndef enregistrer_objet(nom_fichier: str, obj: dict) -> None:\n    f = open(nom_fichier, \"ab\")\n    dump(obj, f)\n    f.close()\n```\n\n---\n\n### 2.4 Le Motif Canonique de Lecture jusqu'à la Fin de Fichier (`EOFError`)\n\n```python\nfrom pickle import load\n\ndef charger_tous_les_objets(nom_fichier: str) -> list:\n    objets = []\n    f = open(nom_fichier, \"rb\")\n    while True:\n        try:\n            e = load(f)\n            objets.append(e)\n        except EOFError:\n            break\n    f.close()\n    return objets\n```",
+        "solutionMarkdown": "**Synthèse Pédagogique du Module 2 :**\n1. Toujours spécifier le `b` dans les modes d'ouverture (`\"ab\"`, `\"rb\"`, `\"wb\"`).\n2. `dump(donnee, f)` pour écrire, `load(f)` pour lire.\n3. Toujours utiliser `try: load(f) except EOFError: break` pour lire jusqu'au bout sans planter le programme.",
+        "gradingCriteria": [
+          { "id": "crit-m2-1", "description": "Maîtrise des modes d'ouverture binaire", "points": 2.5 },
+          { "id": "crit-m2-2", "description": "Gestion parfaite de l'exception EOFError", "points": 2.5 }
+        ]
+      }
+    ]
+  },
+  "approvalMetadata": {
+    "reviewer": "Super Admin (Rayen)",
+    "approvedAt": "2026-11-06T12:30:00.000Z",
+    "reviewId": "REV-2026-409671-APPROVAL"
+  },
+  "publishedAt": "2026-11-06T12:35:00.000Z"
+}

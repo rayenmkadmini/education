@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-34AB10B65DF86014",
+  "filename": "tri_selection.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection.py",
+  "sha256": "34ab10b65df86014f4dc3f59bff7205762139949802c7e8e92dd95c9a6aecfff",
+  "extractedAt": "2026-11-06T14:24:41.092Z",
+  "pageCount": 1,
+  "textSnippet": "#Trier un tableau dans l'ordre croissant par la méthode de tri sélection from numpy import * t=array([int]*25) def Saisie(): b = False while not(b): x=int(input(\"Donner le nombre des cases: \")) b = 0<=x<=25 return x def Remplir(n): for i in range (n): t[i]=int(input(\"t[\"+str(i)+\"]= \")) def tri(n,t): for i in range (n-1) : idmin = mini(t,i,n) if idmin != i : temp = t[i] t[i] = t[idmin]",
+  "fullText": "#Trier un tableau dans l'ordre croissant par la méthode de tri sélection\r\n\r\nfrom numpy import *\r\n\r\nt=array([int]*25)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 0<=x<=25\r\n    return x\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n\r\ndef tri(n,t):\r\n    for i in range (n-1) :\r\n        idmin = mini(t,i,n)\r\n        if idmin != i :\r\n            temp = t[i]\r\n            t[i] = t[idmin]\r\n            t[idmin] = temp\r\n\r\ndef mini(t,a,b):\r\n    p = a\r\n    for i in range(a+1,b):\r\n        if t[p] > t[i] :\r\n            p = i\r\n    return p\r\n\r\ndef Afficher(t,n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n###############PP###################\r\nn=Saisie()\r\nRemplir(n)\r\ntri(n,t)\r\nAfficher(t,n)\r\n\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-34AB10B65DF86014-CHK-001",
+      "text": "#Trier un tableau dans l'ordre croissant par la méthode de tri sélection\r\n\nfrom numpy import *\r\n\nt=array([int]*25)\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 0<=x<=25\r\n    return x\r\n\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n\ndef tri(n,t):\r\n    for i in range (n-1) :\r\n        idmin = mini(t,i,n)\r\n        if idmin != i :\r\n            temp = t[i]\r\n            t[i] = t[idmin]\r\n            t[idmin] = temp\r\n\ndef mini(t,a,b):\r\n    p = a\r\n    for i in range(a+1,b):\r\n        if t[p] > t[i] :\r\n            p = i\r\n    return p\r\n\ndef Afficher(t,n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\n###############PP###################\r\nn=Saisie()\r\nRemplir(n)\r\ntri(n,t)\r\nAfficher(t,n)"
+    }
+  ]
+}

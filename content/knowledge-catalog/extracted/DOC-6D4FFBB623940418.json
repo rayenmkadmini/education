@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-6D4FFBB623940418",
+  "filename": "Magazine n°10 dérivabilité.pdf",
+  "relPath": "bac info/math taki/dérivabilité/Magazine n°10 dérivabilité.pdf",
+  "sha256": "6d4ffbb6239404187949035be61bf911947572f5c55461d8f17e1a694708de63",
+  "extractedAt": "2026-11-06T14:23:48.401Z",
+  "pageCount": 4,
+  "textSnippet": "-- 1 of 4 -- Soit f la fonction définie sur   1,1  par   2 1 f x x x   . 1) a) Montrer que f est continue sur   1,1  . b) Montrer que f est dérivable sur   1,1  . 2) a) La fonction f est-elle dérivable à gauche en 1 ? est-elle dérivable à droite en 1  ? Interpréter graphiquement les résultats obtenus. 3) a) Calculer   ' f x pour   1,1 x   . b) Etudier le signe de   ' f x et dresser le tableau de variation de f . La courbe ci-dessous représentée est la courbe d’une fonc",
+  "fullText": "-- 1 of 4 --\n\nSoit f la fonction définie sur  \t\t1,1\t par   2\n1\tf x x x\t  .\n1)\na) Montrer que f est continue sur  \t\t1,1\t .\nb) Montrer que f est dérivable sur  \t\t1,1\t .\n2)\na) La fonction f est-elle dérivable à gauche en 1 ? est-elle dérivable à droite en 1\t ?\nInterpréter graphiquement les résultats obtenus.\n3)\na) Calculer  \t'\tf x pour  \t\t1,1\tx   .\nb) Etudier le signe de  \t'\tf x et dresser le tableau de variation de f .\nLa courbe ci-dessous représentée est la courbe d’une fonction f . Par lecture graphique\nrépondre aux questions suivantes.\n1) .......\tf\tD   '\n8) 2 .......\tg\tf  \n \t2) lim .......\nx\nf x\n\n  '\n9) 2 .......\td\tf  \n \t3) lim .......\nx\nf x\n\n  \t10) ' 2 .......\tf  \n 1\n4) lim .......\nx\nf x\t\t\n\n  '\n11) 1 .......\tg\tf \n 1\n5) lim .......\nx\nf x\t\t\n\n  '\n12) 3 .......\tg\tf \n \n1\n2\n6) lim .......\n1\tx\nf x\nx\t\n\n \n\n \n1\n1\n13) lim .....\n2\tx\nf x\nx\t\n\n \n\n7) Le domaine de continuité de est.....\tf 14) Le domaine de dérivabilité de est.....\tf\n30 min 5 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\nSoit f la fonction définie par :  \n \n2\n2\n1 0\n3 1 0\nf x x x si x\nf x x x si x\n    \t\n    \t\net soit  \tC s courbe\nreprésentative.\n1) Montrer que f est continue sur  .\n2)\na) Etudier la dérivabilité de f en 0 interpréter graphiquement le résultat obtenu.\nb) Justifier que f est dérivable sur chacun des intervalles  \t\t, 0\t et  \t\t0,  et\ncalculer  \t'\tf x .\n3)\na) Déterminer :  \tlim\nx\nf x\n\net  \tlim\nx\nf x\n\nb) Montrer que :  \t\t, 0\tx\t   , on a : 2 1 0\tx x\t   et déduire le signe de  \t'\tf x\nc) Dresser le tableau de variation de f .\n30 min 5 pt\tExercice 3\n2\n\n-- 3 of 4 --\n\n3\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "Soit f la fonction définie sur  \t\t1,1\t par   2\n1\tf x x x\t  .\n1)\na) Montrer que f est continue sur  \t\t1,1\t .\nb) Montrer que f est dérivable sur  \t\t1,1\t .\n2)\na) La fonction f est-elle dérivable à gauche en 1 ? est-elle dérivable à droite en 1\t ?\nInterpréter graphiquement les résultats obtenus.\n3)\na) Calculer  \t'\tf x pour  \t\t1,1\tx   .\nb) Etudier le signe de  \t'\tf x et dresser le tableau de variation de f .\nLa courbe ci-dessous représentée est la courbe d’une fonction f . Par lecture graphique\nrépondre aux questions suivantes.\n1) .......\tf\tD   '\n8) 2 .......\tg\tf  \n \t2) lim .......\nx\nf x\n\n  '\n9) 2 .......\td\tf  \n \t3) lim .......\nx\nf x\n\n  \t10) ' 2 .......\tf  \n 1\n4) lim .......\nx\nf x\t\t\n\n  '\n11) 1 .......\tg\tf \n 1\n5) lim .......\nx\nf x\t\t\n\n  '\n12) 3 .......\tg\tf \n \n1\n2\n6) lim .......\n1\tx\nf x\nx\t\n\n \n\n \n1\n1\n13) lim .....\n2\tx\nf x\nx\t\n\n \n\n7) Le domaine de continuité de est.....\tf 14) Le domaine de dérivabilité de est.....\tf\n30 min 5 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Soit f la fonction définie par :  \n \n2\n2\n1 0\n3 1 0\nf x x x si x\nf x x x si x\n    \t\n    \t\net soit  \tC s courbe\nreprésentative.\n1) Montrer que f est continue sur  .\n2)\na) Etudier la dérivabilité de f en 0 interpréter graphiquement le résultat obtenu.\nb) Justifier que f est dérivable sur chacun des intervalles  \t\t, 0\t et  \t\t0,  et\ncalculer  \t'\tf x .\n3)\na) Déterminer :  \tlim\nx\nf x\n\net  \tlim\nx\nf x\n\nb) Montrer que :  \t\t, 0\tx\t   , on a : 2 1 0\tx x\t   et déduire le signe de  \t'\tf x\nc) Dresser le tableau de variation de f .\n30 min 5 pt\tExercice 3\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-6D4FFBB623940418-CHK-001",
+      "pageNumber": 2,
+      "text": "Soit f la fonction définie sur  \t\t1,1\t par   2\n1\tf x x x\t  .\n1)\na) Montrer que f est continue sur  \t\t1,1\t .\nb) Montrer que f est dérivable sur  \t\t1,1\t .\n2)\na) La fonction f est-elle dérivable à gauche en 1 ? est-elle dérivable à droite en 1\t ?\nInterpréter graphiquement les résultats obtenus.\n3)\na) Calculer  \t'\tf x pour  \t\t1,1\tx   .\nb) Etudier le signe de  \t'\tf x et dresser le tableau de variation de f .\nLa courbe ci-dessous représentée est la courbe d’une fonction f . Par lecture graphique\nrépondre aux questions suivantes.\n1) .......\tf\tD   '\n8) 2 .......\tg\tf  \n \t2) lim .......\nx\nf x\n\n  '\n9) 2 .......\td\tf  \n \t3) lim .......\nx\nf x\n\n  \t10) ' 2 .......\tf  \n 1\n4) lim .......\nx\nf x\t\t\n\n  '\n11) 1 .......\tg\tf \n 1\n5) lim .......\nx\nf x\t\t\n\n  '\n12) 3 .......\tg\tf \n \n1\n2\n6) lim .......\n1\tx\nf x\nx\t\n\n \n\n \n1\n1\n13) lim .....\n2\tx\nf x\nx\t\n\n \n\n7) Le domaine de continuité de est.....\tf 14) Le domaine de dérivabilité de est.....\tf\n30 min 5 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-6D4FFBB623940418-CHK-002",
+      "pageNumber": 3,
+      "text": "Soit f la fonction définie par :  \n \n2\n2\n1 0\n3 1 0\nf x x x si x\nf x x x si x\n    \t\n    \t\net soit  \tC s courbe\nreprésentative.\n1) Montrer que f est continue sur  .\n2)\na) Etudier la dérivabilité de f en 0 interpréter graphiquement le résultat obtenu.\nb) Justifier que f est dérivable sur chacun des intervalles  \t\t, 0\t et  \t\t0,  et\ncalculer  \t'\tf x .\n3)\na) Déterminer :  \tlim\nx\nf x\n\net  \tlim\nx\nf x\n\nb) Montrer que :  \t\t, 0\tx\t   , on a : 2 1 0\tx x\t   et déduire le signe de  \t'\tf x\nc) Dresser le tableau de variation de f .\n30 min 5 pt\tExercice 3\n2"
+    },
+    {
+      "chunkId": "DOC-6D4FFBB623940418-CHK-003",
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ]
+}

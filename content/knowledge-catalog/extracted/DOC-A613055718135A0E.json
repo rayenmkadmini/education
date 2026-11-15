@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A613055718135A0E",
+  "filename": "conv standard.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/conv standard.py",
+  "sha256": "a613055718135a0e558644ba34b655e7a9454591bebdfe9a44f00d981184927e",
+  "extractedAt": "2026-11-14T18:35:36.422Z",
+  "pageCount": 1,
+  "textSnippet": "def conv(x,y): if (x==0): return \"\" elif (x%y>=10): return conv(x//y,y) + chr (55+(x%y)) else: return conv(x//y,y) + str(x%y) print(conv(15632,16))",
+  "fullText": "def conv(x,y):\r\n    if (x==0):\r\n        return \"\"\r\n    elif (x%y>=10):\r\n        return conv(x//y,y) + chr (55+(x%y))\r\n    else:\r\n        return conv(x//y,y) + str(x%y)\r\n\r\nprint(conv(15632,16))",
+  "chunks": [
+    {
+      "chunkId": "DOC-A613055718135A0E-CHK-001",
+      "text": "def conv(x,y):\r\n    if (x==0):\r\n        return \"\"\r\n    elif (x%y>=10):\r\n        return conv(x//y,y) + chr (55+(x%y))\r\n    else:\r\n        return conv(x//y,y) + str(x%y)\r\n\nprint(conv(15632,16))"
+    }
+  ]
+}

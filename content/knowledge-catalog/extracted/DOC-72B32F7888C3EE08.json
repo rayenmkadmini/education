@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-72B32F7888C3EE08",
+  "filename": "Majuscule.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Majuscule.html",
+  "sha256": "72b32f7888c3ee08975ab655b482660ef912deb9f960afdaa5ce0da6e7b11f7f",
+  "extractedAt": "2026-11-14T18:35:36.483Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <title>Longueur</title> <script type=\"text/javascript\"> function longueur(){ var a=(document.f.z1.value); var i=a.length; alert(\"Le nombre de caractere est : \"+ i) } </script> </head> <body> <form name=\"f\"> <p>Ecrire une chaine de caracteres: <input type=\"text\" name=\"z1\"></p> <p><input type=\"submit\" name=\"b\" value=\"Nombre de caracteres\" onclick=\"longueur()\"></p> </form> </body> </html>",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>Longueur</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction longueur(){\r\n\t\t\tvar a=(document.f.z1.value);\r\n\t\t\tvar i=a.length;\r\n\t\t\talert(\"Le nombre de caractere est : \"+ i)\r\n\t\t}\r\n\r\n\t</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Ecrire une chaine de caracteres: <input type=\"text\" name=\"z1\"></p>\r\n\t<p><input type=\"submit\" name=\"b\" value=\"Nombre de caracteres\" onclick=\"longueur()\"></p>\r\n</form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-72B32F7888C3EE08-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<title>Longueur</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction longueur(){\r\n\t\t\tvar a=(document.f.z1.value);\r\n\t\t\tvar i=a.length;\r\n\t\t\talert(\"Le nombre de caractere est : \"+ i)\r\n\t\t}\r\n\n\t</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Ecrire une chaine de caracteres: <input type=\"text\" name=\"z1\"></p>\r\n\t<p><input type=\"submit\" name=\"b\" value=\"Nombre de caracteres\" onclick=\"longueur()\"></p>\r\n</form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

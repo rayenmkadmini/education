@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-D8618C7FF578D291",
+  "filename": "Ex2serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex2serie7.docx",
+  "sha256": "d8618c7ff578d2919417c7c7d63da1b25450c292506db3185590486cfb926be8",
+  "extractedAt": "2026-11-06T14:24:39.923Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex2serie7 Résultat =PROC affiche( T2,n) T2= PROC trait( T1,n,T2) T1=PROC remplir(T1,n) n=PROC saisie(n) Fin Ex2serie7 DEF PROC remplir (var T1 :tab ; n :entier) Pour i de 1 à n faire Répéter Lire( T1[i]) Jusqu’à FN verif ( T1[i]) Fin pour Fin remplir ___________________________________________________________________________ DEF FN verif ( ch:chaine ) : booleen i ← 0 Répéter i ← i+1 ok ← ch [ i ] dans [“A”.. “Z“] Jusqu’à (ok=faux) o",
+  "fullText": "Nom : Ex2serie7\n\nRésultat =PROC \n\naffiche(\n\nT2,n)\n\nT2=  PROC \n\ntrait(\n\nT1,n,T2)\n\nT1=PROC remplir(T1,n)\n\nn=PROC saisie(n)\n\nFin Ex2serie7\n\nDEF PROC remplir (var T1 \n\n:tab\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépéter\n\nLire(\n\nT1[i])\n\nJusqu’à  FN \n\nverif\n\n(\n\nT1[i])\n\nFin pour\n\nFin remplir\n\n___________________________________________________________________________\n\nDEF FN \n\nverif\n\n(\n\nch:chaine\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\nRépéter\n\ni\n\n ← i+1\n\nok\n\n ← \n\nch\n\n[\n\ni\n\n] \n\ndans\n\n [“A”.. “Z“]\n\nJusqu’à (ok=faux) ou (i=\n\nlong(\n\nch\n\n))\n\nVerif\n\n ← ok et \n\nlong(\n\nch\n\n) dans [1..10]\n\nFin \n\nverif\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( T1:tab\n\n ; n :entier ; var T2 :tab)\n\nPour i de 1 à n faire \n\nmax\n\n ← 0\n\nPour j de 1 à n faire\n\n   Si \n\n( FN\n\n poids( T1[j] > max ) et ( T1[j] <> “ZZZZZZZZZZ“ )\n\n      Alors p ← j\n\nFinsi\n\nFin pour\n\nT2[\n\ni] ← T1[p]\n\nT1[\n\np] ← “ZZZZZZZZZZ“\n\nFin pour\n\nFin trait",
+  "chunks": [
+    {
+      "chunkId": "DOC-D8618C7FF578D291-CHK-001",
+      "text": "Nom : Ex2serie7\n\nRésultat =PROC \n\naffiche(\n\nT2,n)\n\nT2=  PROC \n\ntrait(\n\nT1,n,T2)\n\nT1=PROC remplir(T1,n)\n\nn=PROC saisie(n)\n\nFin Ex2serie7\n\nDEF PROC remplir (var T1 \n\n:tab\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépéter\n\nLire(\n\nT1[i])\n\nJusqu’à  FN \n\nverif\n\n(\n\nT1[i])\n\nFin pour\n\nFin remplir\n\n___________________________________________________________________________\n\nDEF FN \n\nverif\n\n(\n\nch:chaine\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\nRépéter\n\ni\n\n ← i+1\n\nok\n\n ← \n\nch\n\n[\n\ni\n\n] \n\ndans\n\n [“A”.. “Z“]\n\nJusqu’à (ok=faux) ou (i=\n\nlong(\n\nch\n\n))\n\nVerif\n\n ← ok et \n\nlong(\n\nch\n\n) dans [1..10]\n\nFin \n\nverif\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( T1:tab\n\n ; n :entier ; var T2 :tab)\n\nPour i de 1 à n faire \n\nmax\n\n ← 0\n\nPour j de 1 à n faire\n\n   Si \n\n( FN"
+    },
+    {
+      "chunkId": "DOC-D8618C7FF578D291-CHK-002",
+      "text": "poids( T1[j] > max ) et ( T1[j] <> “ZZZZZZZZZZ“ )\n\n      Alors p ← j\n\nFinsi\n\nFin pour\n\nT2[\n\ni] ← T1[p]\n\nT1[\n\np] ← “ZZZZZZZZZZ“\n\nFin pour\n\nFin trait"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-34DBAD9F3F0E6417",
+  "filename": "ajoutabonne.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/ajoutabonne.php",
+  "sha256": "34dbad9f3f0e6417039a27837cdf036f53329e4c8d4810dde3fd7b456259c742",
+  "extractedAt": "2026-11-06T14:24:19.441Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); function num($ch){ $ch2=\"0123456789\"; for($i=0;$i<strlen($ch);$i++){ if(strpos($ch2,$ch[$i])===false){ return false; } } return true; } if(num($_POST[\"cin\"]) && $_POST[\"nom\"]!=\"\" && $_POST[\"prenom\"]!=\"\" && isset($_POST[\"genre\"]) && $_POST[\"fonction\"]!=\"\"){ $cin=$_POST[\"cin\"]; $nom=$_POST[\"nom\"]; $prenom=$_POST[\"prenom\"]; $genre=$_POST[\"genre\"]; $fonction=$_POST[\"fonction\"]; }",
+  "fullText": "<?php\r\nrequire(\"connexion.php\");\r\n\r\nfunction num($ch){\r\n    $ch2=\"0123456789\";\r\n    for($i=0;$i<strlen($ch);$i++){\r\n        if(strpos($ch2,$ch[$i])===false){\r\n            return false;\r\n        }\r\n    } \r\n    return true;\r\n}\r\n\r\n\r\nif(num($_POST[\"cin\"]) && $_POST[\"nom\"]!=\"\" && $_POST[\"prenom\"]!=\"\" && isset($_POST[\"genre\"]) &&  $_POST[\"fonction\"]!=\"\"){\r\n    $cin=$_POST[\"cin\"];\r\n    $nom=$_POST[\"nom\"];\r\n    $prenom=$_POST[\"prenom\"];\r\n    $genre=$_POST[\"genre\"];\r\n    $fonction=$_POST[\"fonction\"];\r\n}\r\nelse die(\"remplir le formule\"); \r\n\r\n$req1=\"SELECT * from abonne where cin='$cin' \";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreu\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)!=0){\r\n    die (\"abonné déja existant\");\r\n} \r\n\r\n$code=\"\";\r\n\r\n$code=$code.strtoupper(substr($prenom,0,1));\r\n\r\n$code=$code.(string)strlen(trim($nom));\r\n\r\n$code=$code.chr((int)substr($nom,0,2)+rand(30,40));\r\n\r\n$code=$code.(string)strpos($prenom,\" \");\r\n\r\n$code=$code.(string)round(sqrt(ord($fonction[strlen($fonction)-1])));\r\n\r\n$code=$code.(string)abs(strcmp($nom,$prenom));\r\n\r\n$code=str_replace(\" \",\"*\",$code);\r\n\r\n$req2=\"INSERT INTO abonne values('$cin','$nom','$prenom','$genre','$fonction','$code') \";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur\".mysqli_error($cnx));\r\nif (mysqli_affected_rows($cnx)>0) {\r\n    echo \"ajout effectue avec succes\";\r\n    \r\n}else{\r\n    echo \"echec d'ajout\";\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-34DBAD9F3F0E6417-CHK-001",
+      "text": "<?php\r\nrequire(\"connexion.php\");\r\n\nfunction num($ch){\r\n    $ch2=\"0123456789\";\r\n    for($i=0;$i<strlen($ch);$i++){\r\n        if(strpos($ch2,$ch[$i])===false){\r\n            return false;\r\n        }\r\n    } \r\n    return true;\r\n}\r\n\nif(num($_POST[\"cin\"]) && $_POST[\"nom\"]!=\"\" && $_POST[\"prenom\"]!=\"\" && isset($_POST[\"genre\"]) &&  $_POST[\"fonction\"]!=\"\"){\r\n    $cin=$_POST[\"cin\"];\r\n    $nom=$_POST[\"nom\"];\r\n    $prenom=$_POST[\"prenom\"];\r\n    $genre=$_POST[\"genre\"];\r\n    $fonction=$_POST[\"fonction\"];\r\n}\r\nelse die(\"remplir le formule\"); \r\n\n$req1=\"SELECT * from abonne where cin='$cin' \";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreu\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)!=0){\r\n    die (\"abonné déja existant\");\r\n} \r\n\n$code=\"\";\r\n\n$code=$code.strtoupper(substr($prenom,0,1));"
+    },
+    {
+      "chunkId": "DOC-34DBAD9F3F0E6417-CHK-002",
+      "text": "$code=$code.(string)strlen(trim($nom));\r\n\n$code=$code.chr((int)substr($nom,0,2)+rand(30,40));\r\n\n$code=$code.(string)strpos($prenom,\" \");\r\n\n$code=$code.(string)round(sqrt(ord($fonction[strlen($fonction)-1])));\r\n\n$code=$code.(string)abs(strcmp($nom,$prenom));\r\n\n$code=str_replace(\" \",\"*\",$code);\r\n\n$req2=\"INSERT INTO abonne values('$cin','$nom','$prenom','$genre','$fonction','$code') \";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur\".mysqli_error($cnx));\r\nif (mysqli_affected_rows($cnx)>0) {\r\n    echo \"ajout effectue avec succes\";\r\n\n}else{\r\n    echo \"echec d'ajout\";\r\n}\r\n\n?>"
+    }
+  ]
+}

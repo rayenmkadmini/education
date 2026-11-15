@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B402D99D140933B1",
+  "filename": "puces.png",
+  "relPath": "bac info/sti/projet2,computer tech/files/puces.png",
+  "sha256": "b402d99d140933b185583395a74c70825b9863006d06c4bd76f0bc416696c00e",
+  "extractedAt": "2026-11-06T14:24:20.528Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: puces.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: puces.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-B402D99D140933B1-CHK-001",
+      "text": "[Fichier Image Pédagogique: puces.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

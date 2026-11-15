@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-82ADDFEADA929915",
+  "filename": "login(1).php",
+  "sha256": "82addfeada929915025171072332921ba2aab4da3f00986267fdec78f3075223",
+  "extractedAt": "2026-11-06T14:00:35.332Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $login = $_POST['login'] ?? ''; $password = $_POST['password'] ?? ''; $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\"); $result = mysqli_query($cnx, \"SELECT nom, prenom, password FROM Users WHERE login='$login'\"); $user = mysqli_fetch_assoc($result); if ($user && $password === $user['password']) { echo \"Bonjour\" . $user['nom'] . \" \" . $user['prenom']; } else { echo \"Login ou passwrd incorrect\"; } mysqli_close($cnx); ?>",
+  "fullText": "<?php\n$login = $_POST['login'] ?? '';\n$password = $_POST['password'] ?? '';\n\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\");\n$result = mysqli_query($cnx, \"SELECT nom, prenom, password FROM Users WHERE login='$login'\");\n$user = mysqli_fetch_assoc($result);\n\nif ($user && $password === $user['password']) {\n    echo \"Bonjour\" . $user['nom'] . \" \" . $user['prenom'];\n} else {\n    echo \"Login ou passwrd incorrect\";\n}\n\nmysqli_close($cnx);\n?>\n"
+}

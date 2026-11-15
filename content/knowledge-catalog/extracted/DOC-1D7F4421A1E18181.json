@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1D7F4421A1E18181",
+  "filename": "decomposition_en_facteurs_premiers.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/decomposition_en_facteurs_premiers.py",
+  "sha256": "1d7f4421a1e181813ce0e75cd14946399fa244101f07b82fa9de30ad6f1a92f5",
+  "extractedAt": "2026-11-06T14:24:40.797Z",
+  "pageCount": 1,
+  "textSnippet": "#Ce programme permet de décomposer un entier naturel en ses facteurs premiers def premier(x): b = x > 1 d = 2 while b and (d <= x // 2): b = x % d != 0 d += 1 return b def facteurs(n): #Rq: si vous entrez 1, la chaine de sortie sera vide. ch = \"\" i = 2 while n != 1: if premier(i): if (n % i) == 0: ch += str((i)) + \"/\" n //= i else: i += 1",
+  "fullText": "#Ce programme permet de décomposer un entier naturel en ses facteurs premiers\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\r\n\r\ndef facteurs(n):  #Rq: si vous entrez 1, la chaine de sortie sera vide.\r\n    ch = \"\"\r\n    i = 2\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + \"/\"\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return ch[:len(ch) - 1]\r\n\r\n\r\n######################################PP############################\r\nn = int(input(\"< \"))\r\nd = facteurs(n)\r\nprint(d)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1D7F4421A1E18181-CHK-001",
+      "text": "#Ce programme permet de décomposer un entier naturel en ses facteurs premiers\r\n\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\ndef facteurs(n):  #Rq: si vous entrez 1, la chaine de sortie sera vide.\r\n    ch = \"\"\r\n    i = 2\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + \"/\"\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return ch[:len(ch) - 1]\r\n\n######################################PP############################\r\nn = int(input(\"< \"))\r\nd = facteurs(n)\r\nprint(d)"
+    }
+  ]
+}

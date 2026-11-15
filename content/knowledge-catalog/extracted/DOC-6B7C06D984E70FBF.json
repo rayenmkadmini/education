@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-6B7C06D984E70FBF",
+  "filename": "planning.jpg",
+  "relPath": "bac info/sti/gym/files/planning.jpg",
+  "sha256": "6b7c06d984e70fbfb12390a1a36aaca8a1accf69b8432d69706cb42a4d420934",
+  "extractedAt": "2026-11-06T14:24:18.411Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: planning.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: planning.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-6B7C06D984E70FBF-CHK-001",
+      "text": "[Fichier Image Pédagogique: planning.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5D6C1D0A6BDBAB33",
+  "filename": "logo.png",
+  "relPath": "bac info/sti/projet2,computer tech/files/logo.png",
+  "sha256": "5d6c1d0a6bdbab3377ea9640e1c5e71735c7ca8bc489565c1b9ceae6e0e5b302",
+  "extractedAt": "2026-11-06T14:24:20.454Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-5D6C1D0A6BDBAB33-CHK-001",
+      "text": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

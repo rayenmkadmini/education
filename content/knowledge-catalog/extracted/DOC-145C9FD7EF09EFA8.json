@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-145C9FD7EF09EFA8",
+  "filename": "sublime.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/DEVOIRS/Devoir de control 1/sublime.py",
+  "sha256": "145c9fd7ef09efa84f430936053e3c396d0bc861df6ea85383e12fa075083dfa",
+  "extractedAt": "2026-11-06T14:24:35.408Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(not(b)): x=int(input('introduire un entier >10')) b=x>10 return x def somdiv(x): s=1+x for i in range(2,x // 2 +1): if x % i==0: s=s+i return s def nombrediv(x): nb=2 for i in range(2, x // 2 +1): if x % i==0: nb=nb+1 return nb def sublime(x): som1=somdiv(x) #print('som1=',som1) som2=nombrediv(x) #print('som2=',som2) ch= str(x)+'",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un entier >10'))\r\n        b=x>10\r\n    return x\r\ndef somdiv(x):\r\n    s=1+x\r\n    for i in range(2,x // 2 +1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef nombrediv(x):\r\n    nb=2\r\n    for i in range(2, x // 2 +1):\r\n        if x % i==0:\r\n            nb=nb+1\r\n    return nb\r\ndef sublime(x):\r\n    som1=somdiv(x)\r\n    #print('som1=',som1)\r\n    som2=nombrediv(x)\r\n    #print('som2=',som2)\r\n    ch=  str(x)+'     n\\' est pas sublime'\r\n    if (somdiv(som1)//2 ==som1  )and( somdiv(som2)//2 ==som2 ):\r\n        ch= str(x)+  '          est sublime'\r\n    print(ch)\r\n####################pp######################\r\nx=saisie()\r\nsublime(x)\r\n\r\n        ",
+  "chunks": [
+    {
+      "chunkId": "DOC-145C9FD7EF09EFA8-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un entier >10'))\r\n        b=x>10\r\n    return x\r\ndef somdiv(x):\r\n    s=1+x\r\n    for i in range(2,x // 2 +1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef nombrediv(x):\r\n    nb=2\r\n    for i in range(2, x // 2 +1):\r\n        if x % i==0:\r\n            nb=nb+1\r\n    return nb\r\ndef sublime(x):\r\n    som1=somdiv(x)\r\n    #print('som1=',som1)\r\n    som2=nombrediv(x)\r\n    #print('som2=',som2)\r\n    ch=  str(x)+'     n\\' est pas sublime'\r\n    if (somdiv(som1)//2 ==som1  )and( somdiv(som2)//2 ==som2 ):\r\n        ch= str(x)+  '          est sublime'\r\n    print(ch)\r\n####################pp######################\r\nx=saisie()\r\nsublime(x)"
+    }
+  ]
+}

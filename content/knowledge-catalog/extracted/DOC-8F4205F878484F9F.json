@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-8F4205F878484F9F",
+  "filename": "4.jpg",
+  "relPath": "bac info/sti/projet cabinet_docteur,ebaluation des pré-requis,4SI,STI/files/4.jpg",
+  "sha256": "8f4205f878484f9fddbf22a892f058a5a6b0c5f47b526ae7a79dc8841d8e3d2c",
+  "extractedAt": "2026-11-06T14:24:19.760Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: 4.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: 4.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-8F4205F878484F9F-CHK-001",
+      "text": "[Fichier Image Pédagogique: 4.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-94EC4E6885843353",
+  "filename": "presentation.html",
+  "relPath": "bac info/sti/devoir controle n°1/presentation.html",
+  "sha256": "94ec4e6885843353714bed1d9a6f6e151b1dd24355df8f2e405afe44d0b06021",
+  "extractedAt": "2026-11-06T14:24:11.008Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"style.css\"> </head> <body> <h1>A PROPOS DE NOURANE</h1> <p> L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif . NOURANE a pour missions : </p> <ul> <li>La participation à l’effort Nationa",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n\r\n<body>\r\n    <h1>A PROPOS DE NOURANE</h1>\r\n    <p>\r\n        L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif .\r\n        NOURANE a pour missions :\r\n    </p>\r\n    <ul>\r\n        <li>La participation à l’effort National en vue de limiter l’expansion des maladies cancéreuses en Tunisie.</li>\r\n        <li>Le développement des actions de prévention et de sensibilisation dans le domaine de la lutte contre le cancer.</li>\r\n    </ul>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-94EC4E6885843353-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n\n<body>\r\n    <h1>A PROPOS DE NOURANE</h1>\r\n    <p>\r\n        L’Association NOURANE de prévention des maladies cancéreuses, est une Association à but non lucratif .\r\n        NOURANE a pour missions :\r\n    </p>\r\n    <ul>\r\n        <li>La participation à l’effort National en vue de limiter l’expansion des maladies cancéreuses en Tunisie.</li>\r\n        <li>Le développement des actions de prévention et de sensibilisation dans le domaine de la lutte contre le cancer.</li>\r\n    </ul>\r\n</body>\r\n\n</html>"
+    }
+  ]
+}

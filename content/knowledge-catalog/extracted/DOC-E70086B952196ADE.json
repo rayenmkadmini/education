@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-E70086B952196ADE",
+  "filename": "thuemorse.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/thuemorse.py",
+  "sha256": "e70086b952196adeb2ba722758b1ad827e0ad3de49bf5d4bac3aed69a55209d1",
+  "extractedAt": "2026-11-14T18:35:36.439Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir_x(): x=input(\"Donner un chiffre binaire: \") while (x!=0) or (x!=1): x=input(\"Donner un chiffre binaire: \") return x def saisir_n(): n=int(input(\"Donner N: \")) while n<=2: n=int(input(\"Donner N: \")) return n def morse(x): R=\"\" for j in range(len(x)): if x[j]==\"0\": R=R+\"01\" else: R=R+\"10\" return R def afficher(x,n): print(x) x=saisir_x n=saisir_n afficher(x,n)",
+  "fullText": "def saisir_x():\r\n    x=input(\"Donner un chiffre binaire: \")\r\n    while (x!=0) or (x!=1):\r\n        x=input(\"Donner un chiffre binaire: \")\r\n    return x\r\ndef saisir_n():\r\n    n=int(input(\"Donner N: \"))\r\n    while n<=2:\r\n        n=int(input(\"Donner N: \"))\r\n    return n\r\ndef morse(x):\r\n    R=\"\"\r\n    for j in range(len(x)):\r\n        if x[j]==\"0\":\r\n            R=R+\"01\"\r\n        else:\r\n            R=R+\"10\"\r\n    return R\r\ndef afficher(x,n):\r\n    print(x)\r\nx=saisir_x\r\nn=saisir_n\r\nafficher(x,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-E70086B952196ADE-CHK-001",
+      "text": "def saisir_x():\r\n    x=input(\"Donner un chiffre binaire: \")\r\n    while (x!=0) or (x!=1):\r\n        x=input(\"Donner un chiffre binaire: \")\r\n    return x\r\ndef saisir_n():\r\n    n=int(input(\"Donner N: \"))\r\n    while n<=2:\r\n        n=int(input(\"Donner N: \"))\r\n    return n\r\ndef morse(x):\r\n    R=\"\"\r\n    for j in range(len(x)):\r\n        if x[j]==\"0\":\r\n            R=R+\"01\"\r\n        else:\r\n            R=R+\"10\"\r\n    return R\r\ndef afficher(x,n):\r\n    print(x)\r\nx=saisir_x\r\nn=saisir_n\r\nafficher(x,n)"
+    }
+  ]
+}

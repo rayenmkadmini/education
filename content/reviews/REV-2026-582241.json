@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewId": "REV-2026-582241",
+  "draftId": "DRAFT-BACSI-2026-459543",
+  "draftVersion": 2,
+  "reviewer": "Inspecteur QA Test",
+  "status": "REJECTED",
+  "checklist": {
+    "baremeValid": true,
+    "syntaxValid": false,
+    "curriculumCompliant": true,
+    "noHallucination": true
+  },
+  "reviewerNotes": "Problème de syntaxe",
+  "rejectionReason": "La syntaxe du type enregistrement doit respecter la convention standardisée du Bac.",
+  "timestamp": "2026-11-06T07:20:27.432Z"
+}

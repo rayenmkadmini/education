@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-5FD992F9717B7EC0",
+  "filename": "tri_shell.py",
+  "sha256": "5fd992f9717b7ec023eb782a20d09e4584826295a4f91854155c4472028b27ca",
+  "extractedAt": "2026-11-06T14:00:41.818Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): global n test=False while test==False: n=int(input('Enter la taille du tableau 3-20:')) test=3<=n<=20 def remplir(n): global t t=[0]*n for i in range(n): t[i]=int(input()) def tri_shell(t,n): pas=0 while pas<=n: pas=3*pas+1 while pas!=0: pas=pas//3 for i in range (pas,n): aux=t[i] p=i-pas while p>=0 and t[p]>aux: t[p+pas]",
+  "fullText": "def saisie():\r\n    global n\r\n    test=False\r\n    while test==False:\r\n        n=int(input('Enter la taille du tableau 3-20:'))\r\n        test=3<=n<=20\r\n\r\ndef remplir(n):\r\n    global t\r\n    t=[0]*n\r\n    for i in range(n):\r\n        t[i]=int(input())\r\n\r\n\r\ndef tri_shell(t,n):\r\n    pas=0\r\n    while pas<=n:\r\n        pas=3*pas+1\r\n    while pas!=0:\r\n        pas=pas//3\r\n        for i in range (pas,n):\r\n            aux=t[i]\r\n            p=i-pas\r\n            while p>=0 and t[p]>aux:\r\n                t[p+pas]=t[p]\r\n                p=p-pas\r\n            t[p+pas]=aux\r\n            \r\ndef afficher(t,n):\r\n    print('*********** Après Le Tri *********')\r\n    for i in range(n):\r\n        print(t[i],end=' | ')\r\n############ Programme Principale ##########\r\nprint('------------ Tri Shell -----------')         \r\nsaisie()\r\nremplir(n)\r\ntri_shell(t,n)\r\nafficher(t,n)\r\n"
+}

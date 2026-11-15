@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-75F2F3A8691D9604",
+  "filename": "saisie_tab_et_entier.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/saisie_tab_et_entier.py",
+  "sha256": "75f2f3a8691d96048fb93485a748b7948a7f603d5d108cd643ddb12c2e86f659",
+  "extractedAt": "2026-11-06T14:24:40.734Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import QApplication from numpy import * T = array([int] * 20) def Saisie(): b = False while not b: N = int(input(\"Donner n: \")) b = 5 <= N <= 20 return N def Remplir(N): for i in range(N): T[i] = int(input(\"T[\" + str(i) + \"]=\")) def Appartenance(p, T, N): if p.isnumeric(): a = int(p) ok = False i = -1 while i < N and ok == False:",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\n\r\ndef Appartenance(p, T, N):\r\n    if p.isnumeric():\r\n        a = int(p)\r\n        ok = False\r\n        i = -1\r\n        while i < N and ok == False:\r\n            i += 1\r\n            ok = T[i] == a\r\n        if ok == True:\r\n            f.t2.setText(\"appartient\")\r\n        else:\r\n            f.t2.setText(\"n'appartient pas\")\r\n    else:\r\n        f.t2.setText(\"INPUT ERROR\")\r\n\r\n\r\nN = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('saisie_tab_et_entier.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-75F2F3A8691D9604-CHK-001",
+      "text": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\nT = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\ndef Appartenance(p, T, N):\r\n    if p.isnumeric():\r\n        a = int(p)\r\n        ok = False\r\n        i = -1\r\n        while i < N and ok == False:\r\n            i += 1\r\n            ok = T[i] == a\r\n        if ok == True:\r\n            f.t2.setText(\"appartient\")\r\n        else:\r\n            f.t2.setText(\"n'appartient pas\")\r\n    else:\r\n        f.t2.setText(\"INPUT ERROR\")"
+    },
+    {
+      "chunkId": "DOC-75F2F3A8691D9604-CHK-002",
+      "text": "N = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('saisie_tab_et_entier.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()"
+    }
+  ]
+}

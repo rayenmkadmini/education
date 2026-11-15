@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-DAEB70EB99BE01D2",
+  "filename": "tri_insertion.py",
+  "sha256": "daeb70eb99be01d2f37cc4093f779535668062e5a11d64856d87b5db081bff7e",
+  "extractedAt": "2026-11-06T14:00:41.746Z",
+  "pageCount": 1,
+  "textSnippet": "from random import randint def saisie(): global N valide=False while valide==False: N=int(input(\"Entrer le nombre d'éléments :\")) valide=5<=N<=20 def generer_tab(T,N): for i in range(N): T[i]=randint(-99,99) def tri_insertion (T,N): for i in range(1,N): aux=T[i] p=i-1 while (p>=0) and (T[p]>aux): T[p+1]=T[p] p=p-1 T[p+1]=aux def affiche(T,N): for i in range (N): print(T[i],en",
+  "fullText": "from random import randint\ndef saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\ndef generer_tab(T,N):\n    for i in range(N):\n        T[i]=randint(-99,99)\ndef tri_insertion (T,N):\n     for i in range(1,N):\n        aux=T[i]\n        p=i-1\n        while (p>=0) and (T[p]>aux):\n            T[p+1]=T[p]\n            p=p-1\n        T[p+1]=aux\n        \ndef affiche(T,N):\n    for i in range (N):\n        print(T[i],end=' | ')\n    print()\n\n############ Programme Principale ##########\nprint('------------ Tri par insertion -----------')\nsaisie()\nT=[0]*N\ngenerer_tab(T,N)\nprint(\"*** Avant le tri***\" )\naffiche(T,N)\ntri_insertion(T,N)\nprint(\"*** Après le tri***\" )\naffiche(T,N)\n\n\n\n"
+}

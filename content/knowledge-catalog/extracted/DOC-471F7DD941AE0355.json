@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-471F7DD941AE0355",
+  "filename": "statistique.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/statistique.php",
+  "sha256": "471f7dd941ae035594d0855130c840f8850b8250d5bd9c2093fd9d38eac8559b",
+  "extractedAt": "2026-11-06T14:24:19.701Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); $req1=\"SELECT count(*),typelivre from livre l , emprunt e where l.numlivre=e.numlivre and month(dateemprunt)=month(now()) and year(dateemprunt)=year(now()) group by titrelivre\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx)); if(mysqli_num_rows($res1)>0){ echo\"<ul>\"; while($t=mysqli_fetch_array($res1)){ echo \"<li>\".$t[1].\":\".$t[0].\"</li>\"; } echo\"</ul>\"; }else { echo(\"erreur2\"",
+  "fullText": "<?php\r\nrequire(\"connexion.php\");\r\n\r\n$req1=\"SELECT count(*),typelivre\r\n    from livre l , emprunt e\r\n    where l.numlivre=e.numlivre\r\n    and month(dateemprunt)=month(now())\r\n    and year(dateemprunt)=year(now())\r\n    group by titrelivre\";\r\n\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)>0){\r\n    echo\"<ul>\";\r\n    while($t=mysqli_fetch_array($res1)){\r\n        echo \"<li>\".$t[1].\":\".$t[0].\"</li>\";\r\n    }\r\n    echo\"</ul>\";\r\n}else {\r\n    echo(\"erreur2\");\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-471F7DD941AE0355-CHK-001",
+      "text": "<?php\r\nrequire(\"connexion.php\");\r\n\n$req1=\"SELECT count(*),typelivre\r\n    from livre l , emprunt e\r\n    where l.numlivre=e.numlivre\r\n    and month(dateemprunt)=month(now())\r\n    and year(dateemprunt)=year(now())\r\n    group by titrelivre\";\r\n\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)>0){\r\n    echo\"<ul>\";\r\n    while($t=mysqli_fetch_array($res1)){\r\n        echo \"<li>\".$t[1].\":\".$t[0].\"</li>\";\r\n    }\r\n    echo\"</ul>\";\r\n}else {\r\n    echo(\"erreur2\");\r\n}\r\n\n?>"
+    }
+  ]
+}

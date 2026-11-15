@@ -1,0 +1,23 @@
+{
+  "documentId": "DOC-21C6E26285B6D552",
+  "filename": "fonction_python.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/fonction_python.pdf",
+  "sha256": "21c6e26285b6d55209b6b2cab2a3aa183e49d429b513d3f450dfd676bcaa54ba",
+  "extractedAt": "2026-11-06T14:24:34.703Z",
+  "pageCount": 1,
+  "textSnippet": "MEMO : LES FONCTIONS Dans un programme, il est possible d’écrire des petits programmes, ou sous programmes intermédiaires, appelés fonctions. Une fonction est un programme qui porte un nom et utilise zéro, une ou plusieurs variables appelées paramètres. La syntaxe d’une fonction : En algorithme Fonction nom_de_la_fonction (paramètre1 : type1 ; paramètre2 : type2 ; etc) : type_resultat Début Instruction(s) Retourner resultat Fin En python def nom_de_la_fonction (argument1,argument2,etc) : Instruc",
+  "fullText": "MEMO : LES FONCTIONS\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés fonctions.\nUne fonction est un programme qui porte un nom et utilise zéro, une ou plusieurs variables\nappelées paramètres.\nLa syntaxe d’une fonction :\nEn algorithme\nFonction nom_de_la_fonction (paramètre1 : type1 ; paramètre2 : type2 ; etc) : type_resultat\nDébut\nInstruction(s)\nRetourner resultat\nFin\nEn python\ndef nom_de_la_fonction (argument1,argument2,etc) :\nInstruction(s)\nreturn resultat\nExemple : la fonction somme_carres ci-contre calcule\net renvoie la somme a2 +b2 lorsque l’utilisateur donne\nles valeurs de a et b.\nRemarque : Le nom de la fonction ne doit pas contenir d’espace. Les espaces peuvent être\nremplacés par des tirets « _ »\nL’instruction return permet de renvoyer une valeur de type entier, décimal (dit flottant),\nbooléen (Vrai/Faux), chaine de caractères, qui peut être réutilisée dans un programme ou une\nautre fonction.\ndef somme_carres( a, b) :\nsomme = a * a + b * b\nreturn somme\t\nPython\nFonction somme_carres( a : Entier ; b :Entier) : Entier\nDébut\nsomme  a * a + b * b\nRetourner somme\nFin\t\nAlgorithme\n\n-- 1 of 1 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "MEMO : LES FONCTIONS\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés fonctions.\nUne fonction est un programme qui porte un nom et utilise zéro, une ou plusieurs variables\nappelées paramètres.\nLa syntaxe d’une fonction :\nEn algorithme\nFonction nom_de_la_fonction (paramètre1 : type1 ; paramètre2 : type2 ; etc) : type_resultat\nDébut\nInstruction(s)\nRetourner resultat\nFin\nEn python\ndef nom_de_la_fonction (argument1,argument2,etc) :\nInstruction(s)\nreturn resultat\nExemple : la fonction somme_carres ci-contre calcule\net renvoie la somme a2 +b2 lorsque l’utilisateur donne\nles valeurs de a et b.\nRemarque : Le nom de la fonction ne doit pas contenir d’espace. Les espaces peuvent être\nremplacés par des tirets « _ »\nL’instruction return permet de renvoyer une valeur de type entier, décimal (dit flottant),\nbooléen (Vrai/Faux), chaine de caractères, qui peut être réutilisée dans un programme ou une\nautre fonction.\ndef somme_carres( a, b) :\nsomme = a * a + b * b\nreturn somme\t\nPython\nFonction somme_carres( a : Entier ; b :Entier) : Entier\nDébut\nsomme  a * a + b * b\nRetourner somme\nFin\t\nAlgorithme"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-21C6E26285B6D552-CHK-001",
+      "pageNumber": 1,
+      "text": "MEMO : LES FONCTIONS\nDans un programme, il est possible d’écrire des petits programmes, ou sous programmes\nintermédiaires, appelés fonctions.\nUne fonction est un programme qui porte un nom et utilise zéro, une ou plusieurs variables\nappelées paramètres.\nLa syntaxe d’une fonction :\nEn algorithme\nFonction nom_de_la_fonction (paramètre1 : type1 ; paramètre2 : type2 ; etc) : type_resultat\nDébut\nInstruction(s)\nRetourner resultat\nFin\nEn python\ndef nom_de_la_fonction (argument1,argument2,etc) :\nInstruction(s)\nreturn resultat\nExemple : la fonction somme_carres ci-contre calcule\net renvoie la somme a2 +b2 lorsque l’utilisateur donne\nles valeurs de a et b.\nRemarque : Le nom de la fonction ne doit pas contenir d’espace. Les espaces peuvent être\nremplacés par des tirets « _ »\nL’instruction return permet de renvoyer une valeur de type entier, décimal (dit flottant),\nbooléen (Vrai/Faux), chaine de caractères, qui peut être réutilisée dans un programme ou une\nautre fonction.\ndef somme_carres( a, b) :\nsomme = a * a + b * b\nreturn somme\t\nPython\nFonction somme_carres( a : Entier ; b :Entier) : Entier\nDébut\nsomme  a * a + b * b\nRetourner somme\nFin\t\nAlgorithme"
+    }
+  ]
+}

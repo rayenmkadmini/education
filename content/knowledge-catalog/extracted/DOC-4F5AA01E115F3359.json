@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-4F5AA01E115F3359",
+  "filename": "s1ex4.py",
+  "relPath": "bac info/Python/ex4s1/s1ex4.py",
+  "sha256": "4f5aa01e115f3359e2634523e86a67b162bdf8d12a1e8103df00a0a5ee9cac9d",
+  "extractedAt": "2026-11-06T14:23:26.214Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def saisie(): n = int(input(\"n=\")) while not 2 <= n <= 20: n = int(input(\"n=\")) return n def verif_alpha(ch): ch = ch.upper() i = 0 while i < len(ch) and (\"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"): i = i + 1 return len(ch) == i def remplir(t, n): for i in range(n): t[i] = {} t[i][\"np\"] = input(\"np=\") while t[i] == \"\" or verif_alpha(t[i][\"np\"]) == False: t[i][\"np\"] =",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef saisie():\r\n    n = int(input(\"n=\"))\r\n    while not 2 <= n <= 20:\r\n        n = int(input(\"n=\"))\r\n    return n\r\n\r\n\r\ndef verif_alpha(ch):\r\n    ch = ch.upper()\r\n    i = 0\r\n    while i < len(ch) and (\"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"):\r\n        i = i + 1\r\n    return len(ch) == i\r\n\r\n\r\ndef remplir(t, n):\r\n    for i in range(n):\r\n        t[i] = {}\r\n        t[i][\"np\"] = input(\"np=\")\r\n        while t[i] == \"\" or verif_alpha(t[i][\"np\"]) == False:\r\n            t[i][\"np\"] = input(\"np=\")\r\n        t[i][\"grade\"] = input(\"grade=\")\r\n        while not t[i][\"grade\"] in [\"A\", \"B\", \"C\", \"D\"]:\r\n            t[i][\"grade\"] = input(\"grade=\")\r\n        t[i][\"code\"] = int(input(\"code=\"))\r\n        while not t[i][\"code\"] > 0:\r\n            t[i][\"code\"] = int(input(\"code=\"))\r\n        t[i][\"assi\"] = input(\"assirence=\")\r\n        while not t[i][\"assi\"] in [\"O\", \"N\"]:\r\n            t[i][\"assi\"] = input(\"assirence=\")\r\n\r\n\r\ndef afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i][\"np\"], t[i][\"grade\"], t[i][\"code\"], t[i][\"assi\"])\r\n        input(\"\")\r\n\r\n\r\ndef afficher_emp(t, n):\r\n\r\n    grade = input(\"grade=\")\r\n    while not grade in [\"A\", \"B\", \"C\", \"D\"]:\r\n        grade = input(\"grade=\")\r\n    nb = 0\r\n    for i in range(n):\r\n        if t[i][\"grade\"] == grade:\r\n            nb += 1\r\n    print(\"nbr grade de \", grade, \"est \", nb)\r\n    nbp = (nb * 100) / n\r\n    print(\"persantage est \", nbp, \"%\")\r\n\r\n\r\n# pp\r\nn = saisie()\r\nt = array([{}] * 1000)\r\nremplir(t, n)\r\nafficher(t, n)\r\nafficher_emp(t, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-4F5AA01E115F3359-CHK-001",
+      "text": "from numpy import array\r\n\ndef saisie():\r\n    n = int(input(\"n=\"))\r\n    while not 2 <= n <= 20:\r\n        n = int(input(\"n=\"))\r\n    return n\r\n\ndef verif_alpha(ch):\r\n    ch = ch.upper()\r\n    i = 0\r\n    while i < len(ch) and (\"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"):\r\n        i = i + 1\r\n    return len(ch) == i"
+    },
+    {
+      "chunkId": "DOC-4F5AA01E115F3359-CHK-002",
+      "text": "def remplir(t, n):\r\n    for i in range(n):\r\n        t[i] = {}\r\n        t[i][\"np\"] = input(\"np=\")\r\n        while t[i] == \"\" or verif_alpha(t[i][\"np\"]) == False:\r\n            t[i][\"np\"] = input(\"np=\")\r\n        t[i][\"grade\"] = input(\"grade=\")\r\n        while not t[i][\"grade\"] in [\"A\", \"B\", \"C\", \"D\"]:\r\n            t[i][\"grade\"] = input(\"grade=\")\r\n        t[i][\"code\"] = int(input(\"code=\"))\r\n        while not t[i][\"code\"] > 0:\r\n            t[i][\"code\"] = int(input(\"code=\"))\r\n        t[i][\"assi\"] = input(\"assirence=\")\r\n        while not t[i][\"assi\"] in [\"O\", \"N\"]:\r\n            t[i][\"assi\"] = input(\"assirence=\")\r\n\ndef afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i][\"np\"], t[i][\"grade\"], t[i][\"code\"], t[i][\"assi\"])\r\n        input(\"\")\r\n\ndef afficher_emp(t, n):"
+    },
+    {
+      "chunkId": "DOC-4F5AA01E115F3359-CHK-003",
+      "text": "grade = input(\"grade=\")\r\n    while not grade in [\"A\", \"B\", \"C\", \"D\"]:\r\n        grade = input(\"grade=\")\r\n    nb = 0\r\n    for i in range(n):\r\n        if t[i][\"grade\"] == grade:\r\n            nb += 1\r\n    print(\"nbr grade de \", grade, \"est \", nb)\r\n    nbp = (nb * 100) / n\r\n    print(\"persantage est \", nbp, \"%\")\r\n\n# pp\r\nn = saisie()\r\nt = array([{}] * 1000)\r\nremplir(t, n)\r\nafficher(t, n)\r\nafficher_emp(t, n)"
+    }
+  ]
+}

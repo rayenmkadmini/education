@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-5EA34750C662C4CB",
+  "filename": "s2ex1.py",
+  "relPath": "bac info/Python/ex4s1/s2ex1.py",
+  "sha256": "5ea34750c662c4cb16d57cbc72f12d76e980dcda2bfa931efa8b96837db45b01",
+  "extractedAt": "2026-11-06T14:23:26.259Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array from pickle import load, dump from random import randint def saisie(): n = int(input(\"n= \")) while not 5 < n < 100: n = int(input(\"n= \")) return n def remplir(n): f = open(\"nombre.dat\", \"wb\") for i in range(n): dump(randint(0, 999), f) f.close() def tri(t, n): f = open(\"nombre.dat\", \"rb\") for i in range(n): t[i] = load(f) echange = True while echange: echange = False",
+  "fullText": "from numpy import array\r\nfrom pickle import load, dump\r\nfrom random import randint\r\n\r\n\r\ndef saisie():\r\n    n = int(input(\"n= \"))\r\n    while not 5 < n < 100:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\r\n\r\ndef remplir(n):\r\n    f = open(\"nombre.dat\", \"wb\")\r\n    for i in range(n):\r\n        dump(randint(0, 999), f)\r\n    f.close()\r\n\r\n\r\ndef tri(t, n):\r\n    f = open(\"nombre.dat\", \"rb\")\r\n    for i in range(n):\r\n        t[i] = load(f)\r\n\r\n    echange = True\r\n    while echange:\r\n        echange = False\r\n        for i in range(n - 1):\r\n            if t[i] > t[i + 1]:\r\n                t[i], t[i + 1] = t[i + 1], t[i]\r\n                echange = True\r\n\r\n    f = open(\"nombre.dat\", \"wb\")\r\n    for i in range(n):\r\n        dump(t[i], f)\r\n    f.close()\r\n\r\n\r\ndef affichage():\r\n    f = open(\"nombre.dat\", \"rb\")\r\n    for i in range(n):\r\n        x=load(f)\r\n        print(x)\r\n    f.close()\r\n\r\n\r\n# pp\r\n\r\nn = saisie()\r\nt = array([int()] * n)\r\nremplir(n)\r\ntri(t, n)\r\naffichage()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5EA34750C662C4CB-CHK-001",
+      "text": "from numpy import array\r\nfrom pickle import load, dump\r\nfrom random import randint\r\n\ndef saisie():\r\n    n = int(input(\"n= \"))\r\n    while not 5 < n < 100:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\ndef remplir(n):\r\n    f = open(\"nombre.dat\", \"wb\")\r\n    for i in range(n):\r\n        dump(randint(0, 999), f)\r\n    f.close()\r\n\ndef tri(t, n):\r\n    f = open(\"nombre.dat\", \"rb\")\r\n    for i in range(n):\r\n        t[i] = load(f)\r\n\n    echange = True\r\n    while echange:\r\n        echange = False\r\n        for i in range(n - 1):\r\n            if t[i] > t[i + 1]:\r\n                t[i], t[i + 1] = t[i + 1], t[i]\r\n                echange = True\r\n\n    f = open(\"nombre.dat\", \"wb\")\r\n    for i in range(n):\r\n        dump(t[i], f)\r\n    f.close()"
+    },
+    {
+      "chunkId": "DOC-5EA34750C662C4CB-CHK-002",
+      "text": "def affichage():\r\n    f = open(\"nombre.dat\", \"rb\")\r\n    for i in range(n):\r\n        x=load(f)\r\n        print(x)\r\n    f.close()\r\n\n# pp\r\n\nn = saisie()\r\nt = array([int()] * n)\r\nremplir(n)\r\ntri(t, n)\r\naffichage()"
+    }
+  ]
+}

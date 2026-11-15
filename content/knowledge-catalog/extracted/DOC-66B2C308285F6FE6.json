@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-66B2C308285F6FE6",
+  "filename": "Bac 2017.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Bac 2017/Bac 2017.py",
+  "sha256": "66b2c308285f6fe627f29d1ec90ca68bbce706c1c2ab3cc55727db618803a802",
+  "extractedAt": "2026-11-14T18:35:36.334Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def verif(ch): test=True i=0 while test and i<len(ch): if not (\"A\"<=ch[i]<=\"Z\"): test = False i=i+1 for i in range(len(ch)-1): for j in range(i+1,len(ch)): if (ch[i]==ch[j]): test = False if not (5<=len(ch)<10): test = False return test def saisie_cle(): cle=input(\"Donner le mot clé: \") while not (verif(cle)): cle=input(\"Donner le mot clé: \")",
+  "fullText": "from numpy import array\r\ndef verif(ch):\r\n    test=True\r\n    i=0\r\n    while test and i<len(ch):\r\n        if not (\"A\"<=ch[i]<=\"Z\"):\r\n            test = False\r\n        i=i+1\r\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if (ch[i]==ch[j]):\r\n                test = False\r\n    if not (5<=len(ch)<10):\r\n        test = False\r\n    return test\r\ndef saisie_cle():\r\n    cle=input(\"Donner le mot clé: \")\r\n    while not (verif(cle)):\r\n        cle=input(\"Donner le mot clé: \")\r\n    return cle\r\ndef cryptage(ch,cle):\r\n    ch=ch[:len(ch)-1]\r\n    while len(ch) % len(cle)!=0:\r\n        ch=ch+\" \"\r\n    C=len(cle)\r\n    L=len(ch)//C\r\n    M=array([[str()]*C]*L)\r\n    k=0\r\n    for i in range(L):\r\n        for j in range(C):\r\n            M[i,j]=ch[k]\r\n            k=k+1\r\n    rev=\"\"\r\n    for i in range(C):\r\n        R=cle[i]\r\n        for j in range(L):\r\n            R=R+M[j,i]\r\n        rev=rev+R\r\n    return rev\r\n            \r\n            \r\n            \r\ndef remplir(cle):\r\n    F1 = open(\"Source.txt\",\"r\")\r\n    F2 = open(\"Crypt.txt\",\"w\")\r\n    ch=F1.readline()\r\n    while ch!=\"\":\r\n        F2.write(cryptage(ch,cle)+\"\\n\")\r\n        ch=F1.readline()\r\n    F1.close()\r\n    F2.close()\r\n    return F2\r\n\r\n    \r\n    \r\n    #----PP----\r\ncle=saisie_cle()\r\nF2=remplir(cle)",
+  "chunks": [
+    {
+      "chunkId": "DOC-66B2C308285F6FE6-CHK-001",
+      "text": "from numpy import array\r\ndef verif(ch):\r\n    test=True\r\n    i=0\r\n    while test and i<len(ch):\r\n        if not (\"A\"<=ch[i]<=\"Z\"):\r\n            test = False\r\n        i=i+1\r\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if (ch[i]==ch[j]):\r\n                test = False\r\n    if not (5<=len(ch)<10):\r\n        test = False\r\n    return test\r\ndef saisie_cle():\r\n    cle=input(\"Donner le mot clé: \")\r\n    while not (verif(cle)):\r\n        cle=input(\"Donner le mot clé: \")\r\n    return cle\r\ndef cryptage(ch,cle):\r\n    ch=ch[:len(ch)-1]\r\n    while len(ch) % len(cle)!=0:\r\n        ch=ch+\" \"\r\n    C=len(cle)\r\n    L=len(ch)//C\r\n    M=array([[str()]*C]*L)\r\n    k=0\r\n    for i in range(L):\r\n        for j in range(C):\r\n            M[i,j]=ch[k]\r\n            k=k+1\r\n    rev=\"\"\r\n    for i in range(C):\r\n        R=cle[i]\r\n        for j in range(L):\r\n            R=R+M[j,i]\r\n        rev=rev+R\r\n    return rev"
+    },
+    {
+      "chunkId": "DOC-66B2C308285F6FE6-CHK-002",
+      "text": "def remplir(cle):\r\n    F1 = open(\"Source.txt\",\"r\")\r\n    F2 = open(\"Crypt.txt\",\"w\")\r\n    ch=F1.readline()\r\n    while ch!=\"\":\r\n        F2.write(cryptage(ch,cle)+\"\\n\")\r\n        ch=F1.readline()\r\n    F1.close()\r\n    F2.close()\r\n    return F2\r\n\n    #----PP----\r\ncle=saisie_cle()\r\nF2=remplir(cle)"
+    }
+  ]
+}

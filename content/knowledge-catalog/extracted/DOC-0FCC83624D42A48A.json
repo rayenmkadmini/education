@@ -1,0 +1,23 @@
+{
+  "documentId": "DOC-0FCC83624D42A48A",
+  "filename": "Les Structures De Contrôle Conditionnelles.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/Les Structures De Contrôle Conditionnelles.pdf",
+  "sha256": "0fcc83624d42a48ab846568a99998d1e459cf17fd688135227ba29dd5bf513fc",
+  "extractedAt": "2026-11-06T14:24:33.449Z",
+  "pageCount": 1,
+  "textSnippet": "LPBT AS :21-22 SCC Nadia El Mekni Lassoued Les Structures De Contrôle Conditionnelles Algorithme Python SCCSimple Réduite Si condition alors traitement Fin si if condition : Traitement1 SCCSimple Complète Si condition alors traitement1 Sinon traitement2 Fin Si SCC Généralisée Si condition alors traitement1 Sinon Si condition 2 alors traitement2 sinon si ……… sinon traitement n fin si if condition : Traitement1 else: Traitement2 if condition1: Traitement1 elif condition2 : Traitement2 … … elif con",
+  "fullText": "LPBT AS :21-22\nSCC Nadia El Mekni Lassoued\nLes Structures De Contrôle Conditionnelles\nAlgorithme Python\nSCCSimple Réduite\nSi condition alors\ntraitement\nFin si\nif condition :\nTraitement1\nSCCSimple Complète\nSi condition alors\ntraitement1\nSinon\ntraitement2\nFin Si\nSCC Généralisée\nSi condition alors\ntraitement1\nSinon Si condition 2 alors\ntraitement2\nsinon si ………\nsinon\ntraitement n\nfin si\nif condition :\nTraitement1\nelse:\nTraitement2\nif condition1:\nTraitement1\nelif condition2 :\nTraitement2\n…\n…\nelif condition n-1 :\nTraitement n-1\nelse :\nTraitement n\nLa scc à choix :\non a recours à cette structure lorsqu’on a un choix multiple. La variable sur laquelle porte la\ncondition doit être de type entier, caractère ou booléen\nAlgorithme Python (uniquement 3.10)\nSelon(expression)\nVal1 : traitement1\nVal2,val3 : traitement2\n.\n.\n.\nAutre :\nTraitement5\nFin selon\nmatch expression:\ncase val1:\ntraitement1\ncase val2:\ntraitement2\n.\n.\ncase _:\ntraitement n\nNB :Syntaxe de la scc match extrait du site https://docs.python.org/3/whatsnew/3.10.html\n\n-- 1 of 1 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "LPBT AS :21-22\nSCC Nadia El Mekni Lassoued\nLes Structures De Contrôle Conditionnelles\nAlgorithme Python\nSCCSimple Réduite\nSi condition alors\ntraitement\nFin si\nif condition :\nTraitement1\nSCCSimple Complète\nSi condition alors\ntraitement1\nSinon\ntraitement2\nFin Si\nSCC Généralisée\nSi condition alors\ntraitement1\nSinon Si condition 2 alors\ntraitement2\nsinon si ………\nsinon\ntraitement n\nfin si\nif condition :\nTraitement1\nelse:\nTraitement2\nif condition1:\nTraitement1\nelif condition2 :\nTraitement2\n…\n…\nelif condition n-1 :\nTraitement n-1\nelse :\nTraitement n\nLa scc à choix :\non a recours à cette structure lorsqu’on a un choix multiple. La variable sur laquelle porte la\ncondition doit être de type entier, caractère ou booléen\nAlgorithme Python (uniquement 3.10)\nSelon(expression)\nVal1 : traitement1\nVal2,val3 : traitement2\n.\n.\n.\nAutre :\nTraitement5\nFin selon\nmatch expression:\ncase val1:\ntraitement1\ncase val2:\ntraitement2\n.\n.\ncase _:\ntraitement n\nNB :Syntaxe de la scc match extrait du site https://docs.python.org/3/whatsnew/3.10.html"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-0FCC83624D42A48A-CHK-001",
+      "pageNumber": 1,
+      "text": "LPBT AS :21-22\nSCC Nadia El Mekni Lassoued\nLes Structures De Contrôle Conditionnelles\nAlgorithme Python\nSCCSimple Réduite\nSi condition alors\ntraitement\nFin si\nif condition :\nTraitement1\nSCCSimple Complète\nSi condition alors\ntraitement1\nSinon\ntraitement2\nFin Si\nSCC Généralisée\nSi condition alors\ntraitement1\nSinon Si condition 2 alors\ntraitement2\nsinon si ………\nsinon\ntraitement n\nfin si\nif condition :\nTraitement1\nelse:\nTraitement2\nif condition1:\nTraitement1\nelif condition2 :\nTraitement2\n…\n…\nelif condition n-1 :\nTraitement n-1\nelse :\nTraitement n\nLa scc à choix :\non a recours à cette structure lorsqu’on a un choix multiple. La variable sur laquelle porte la\ncondition doit être de type entier, caractère ou booléen\nAlgorithme Python (uniquement 3.10)\nSelon(expression)\nVal1 : traitement1\nVal2,val3 : traitement2\n.\n.\n.\nAutre :\nTraitement5\nFin selon\nmatch expression:\ncase val1:\ntraitement1\ncase val2:\ntraitement2\n.\n.\ncase _:\ntraitement n\nNB :Syntaxe de la scc match extrait du site https://docs.python.org/3/whatsnew/3.10.html"
+    }
+  ]
+}

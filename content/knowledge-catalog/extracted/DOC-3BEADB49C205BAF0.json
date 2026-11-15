@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-3BEADB49C205BAF0",
+  "filename": "énonce Magazine1-(etudes des fonctions).pdf",
+  "relPath": "bac info/math taki/etude fonction/énonce Magazine1-(etudes des fonctions).pdf",
+  "sha256": "3beadb49c205baf047dabb2977e0900a25c43929450f9a1dbf3c75daede3a462",
+  "extractedAt": "2026-11-06T14:23:52.639Z",
+  "pageCount": 4,
+  "textSnippet": "Mathématiques Classe : BAC Chapitre : Etudes des fonctions -- 1 of 4 -- 42’ min 6 pt Exercice 3 42’ min 6 pt Exercice 1 42’ min 6 pt Exercice 2 1 -- 2 of 4 -- 2 -- 3 of 4 -- -- 4 of 4 --",
+  "fullText": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions\n\n-- 1 of 4 --\n\n42’ min 6 pt\tExercice 3\n42’ min 6 pt\tExercice 1\n42’ min 6 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\n2\n\n-- 3 of 4 --\n\n\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "pageNumber": 2,
+      "text": "42’ min 6 pt\tExercice 3\n42’ min 6 pt\tExercice 1\n42’ min 6 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-3BEADB49C205BAF0-CHK-001",
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC\nChapitre : Etudes des fonctions"
+    },
+    {
+      "chunkId": "DOC-3BEADB49C205BAF0-CHK-002",
+      "pageNumber": 2,
+      "text": "42’ min 6 pt\tExercice 3\n42’ min 6 pt\tExercice 1\n42’ min 6 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-3BEADB49C205BAF0-CHK-003",
+      "pageNumber": 3,
+      "text": "2"
+    }
+  ]
+}

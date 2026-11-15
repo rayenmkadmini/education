@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A4D36E752B58EAB8",
+  "filename": "image1.png",
+  "relPath": "bac info/Python/fichier QtDesigner/Ressources-DC4/Ressources-DC4/image1.png",
+  "sha256": "a4d36e752b58eab8fd781dcea97961a45bbc9330f9887dae7f7f09a0545f0d94",
+  "extractedAt": "2026-11-06T14:23:33.714Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-A4D36E752B58EAB8-CHK-001",
+      "text": "[Fichier Image Pédagogique: image1.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

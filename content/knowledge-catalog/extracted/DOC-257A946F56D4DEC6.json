@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-257A946F56D4DEC6",
+  "filename": "Recursivité.py",
+  "relPath": "bac info/algo/Python/Recursivité.py",
+  "sha256": "257a946f56d4dec6441bec0837f6cc35f57c169905929625bdf174040682c847",
+  "extractedAt": "2026-11-14T18:35:36.545Z",
+  "pageCount": 1,
+  "textSnippet": "def fact(N): if N==0: return 1 else: return (N*fact(N-1)) print(fact(35))",
+  "fullText": "def fact(N):\r\n    if N==0:\r\n        return 1\r\n    else:\r\n        return (N*fact(N-1))\r\nprint(fact(35))",
+  "chunks": [
+    {
+      "chunkId": "DOC-257A946F56D4DEC6-CHK-001",
+      "text": "def fact(N):\r\n    if N==0:\r\n        return 1\r\n    else:\r\n        return (N*fact(N-1))\r\nprint(fact(35))"
+    }
+  ]
+}

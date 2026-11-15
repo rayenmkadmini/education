@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "taskId": "MCP-INTEGRATION-TEST-1793971955443",
+  "createdAt": "2026-11-06T13:32:35.463Z",
+  "contentType": "COURS",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "level": "4ème Année Secondaire — Sciences de l'Informatique",
+  "durationMinutes": 90,
+  "totalPoints": 20,
+  "difficulty": "STANDARD",
+  "language": "fr_tn_derja",
+  "generationMode": "STRICT_SOURCE_GROUNDED",
+  "sourceReferences": [
+    {
+      "fileName": "Algorithmique_et_programmation_Sciences_de_l_informatique_2026_Sujet.pdf",
+      "conceptNote": "Live verification reference"
+    }
+  ],
+  "instructions": "Live integration test task to verify atomic persistence without publication.",
+  "expectedOutputStructure": {
+    "format": "JSON",
+    "targetPath": "content/drafts/active/DRAFT-COURS-MCP-INTEGRATION-TEST-1793971955443.json",
+    "requireMarkingScheme": true,
+    "requirePythonValidation": true
+  },
+  "status": "PENDING",
+  "version": 1
+}

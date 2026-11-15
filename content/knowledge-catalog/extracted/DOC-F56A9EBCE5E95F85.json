@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F56A9EBCE5E95F85",
+  "filename": "ajout.php",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/ajout.php",
+  "sha256": "f56a9ebce5e95f85678a75c303c7525200ec795d253287d988f697f97274922e",
+  "extractedAt": "2026-11-06T14:24:09.856Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); $cat=$_POST[\"cat\"]; $desc=$_POST[\"desc\"]; $taille=$_POST[\"taille\"]; $prix=$_POST[\"prix\"]; $req1=\"INSERT INTO habit values('','$desc','$taille','$prix','D','$cat') \"; $res1=mysqli_query($cnx,$req1) or die(\"erreur 1\".mysqli_error($cnx)); if(mysqli_affected_rows($cnx)){ echo(\"Enregistrement realisé avec succés\"); } ?>",
+  "fullText": "<?php\r\n\r\nrequire(\"connexion.php\");\r\n\r\n$cat=$_POST[\"cat\"];\r\n$desc=$_POST[\"desc\"];\r\n$taille=$_POST[\"taille\"];\r\n$prix=$_POST[\"prix\"];\r\n\r\n$req1=\"INSERT INTO habit values('','$desc','$taille','$prix','D','$cat') \";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur 1\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\"Enregistrement realisé avec succés\");\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-F56A9EBCE5E95F85-CHK-001",
+      "text": "<?php\r\n\nrequire(\"connexion.php\");\r\n\n$cat=$_POST[\"cat\"];\r\n$desc=$_POST[\"desc\"];\r\n$taille=$_POST[\"taille\"];\r\n$prix=$_POST[\"prix\"];\r\n\n$req1=\"INSERT INTO habit values('','$desc','$taille','$prix','D','$cat') \";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur 1\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\"Enregistrement realisé avec succés\");\r\n}\r\n\n?>"
+    }
+  ]
+}

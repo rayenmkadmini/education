@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-78694A4D1291F951",
+  "filename": "ppcm.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/ppcm.py",
+  "sha256": "78694a4d1291f951d6f1eca12c1a97569e1843df529fa9f94e11694803db4259",
+  "extractedAt": "2026-11-06T14:24:40.843Z",
+  "pageCount": 1,
+  "textSnippet": "#déterminer le plus petit commun multiple de deux entiers naturels non nuls def Saisie(): b = False while not(b) : n=int(input(\"Donner un entier naturel : \")) b = n != 0 return n def PPCM(x,y): sx = x sy = y while (sy != sx) : if sx < sy : sx = sx + x else: sy = sy + y return sx #############################PP############################# a = Saisie() b = Saisie() print(\"ppcm (",
+  "fullText": "#déterminer le plus petit commun multiple de deux entiers naturels non nuls\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier naturel : \"))\r\n        b = n != 0\r\n    return n\r\n\r\ndef PPCM(x,y):\r\n    sx = x     \r\n    sy = y\r\n    while (sy != sx) :\r\n        if sx < sy :\r\n            sx = sx + x\r\n        else:\r\n            sy = sy + y\r\n    \r\n    return sx\r\n\r\n#############################PP#############################\r\na = Saisie()\r\nb = Saisie()\r\nprint(\"ppcm (\",a,\",\",b,\")=\",PPCM(a,b))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-78694A4D1291F951-CHK-001",
+      "text": "#déterminer le plus petit commun multiple de deux entiers naturels non nuls\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier naturel : \"))\r\n        b = n != 0\r\n    return n\r\n\ndef PPCM(x,y):\r\n    sx = x     \r\n    sy = y\r\n    while (sy != sx) :\r\n        if sx < sy :\r\n            sx = sx + x\r\n        else:\r\n            sy = sy + y\r\n\n    return sx\r\n\n#############################PP#############################\r\na = Saisie()\r\nb = Saisie()\r\nprint(\"ppcm (\",a,\",\",b,\")=\",PPCM(a,b))"
+    }
+  ]
+}

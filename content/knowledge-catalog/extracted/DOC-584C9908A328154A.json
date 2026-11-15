@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-584C9908A328154A",
+  "filename": "nombre_premier.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/nombre_premier.py",
+  "sha256": "584c9908a328154a4d3e30760ce63d1981f468b63ffe01238ddb37e738aded01",
+  "extractedAt": "2026-11-06T14:24:40.822Z",
+  "pageCount": 1,
+  "textSnippet": "#Déterminer si un nombre est premier ou non N=int(input(\"< \")) def premier(n): b = n > 1 d = 1 while b and d < n // 2 : d = d + 1 b = n % d != 0 return b print(premier(N))",
+  "fullText": "#Déterminer si un nombre est premier ou non\r\n\r\nN=int(input(\"< \"))\r\n\r\ndef premier(n):\r\n    b = n > 1\r\n    d = 1\r\n    while b and d < n // 2 :\r\n        d = d + 1\r\n        b = n % d != 0\r\n    return b\r\n\r\nprint(premier(N))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-584C9908A328154A-CHK-001",
+      "text": "#Déterminer si un nombre est premier ou non\r\n\nN=int(input(\"< \"))\r\n\ndef premier(n):\r\n    b = n > 1\r\n    d = 1\r\n    while b and d < n // 2 :\r\n        d = d + 1\r\n        b = n % d != 0\r\n    return b\r\n\nprint(premier(N))"
+    }
+  ]
+}

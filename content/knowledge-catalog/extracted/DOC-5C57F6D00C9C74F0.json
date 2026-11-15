@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5C57F6D00C9C74F0",
+  "filename": "ex3v.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex3v.py",
+  "sha256": "5c57f6d00c9c74f045b344887dbd99ba279f200d39469796407f0c780943f071",
+  "extractedAt": "2026-11-06T14:24:35.440Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): s=input('introduire une chaine') b=len(s)>0 and verif(s) return s def verif(s): b='A'<=s[0].upper()<='Z' and 'A'<=s[len(s)-1].upper()<='Z' and s.find(' ')==-1 i=0 while(b and (i < len(s)-2)): i=i+1 b=('A'<=s[i].upper()<='Z' )or (s[i]==' ') return b def cryptage(s): nb=1 ch='' for i in range(len(s)): if s[i]!=' ': r=(ord(s",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire une chaine')\r\n        b=len(s)>0 and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b='A'<=s[0].upper()<='Z' and  'A'<=s[len(s)-1].upper()<='Z' and s.find('  ')==-1\r\n    i=0\r\n    while(b and (i < len(s)-2)):\r\n        i=i+1\r\n        b=('A'<=s[i].upper()<='Z' )or (s[i]==' ')\r\n        \r\n    return b\r\n\r\ndef cryptage(s):\r\n    nb=1\r\n    ch=''\r\n    for i in range(len(s)):\r\n        if s[i]!=' ':\r\n            \r\n            r=(ord(s[i])+nb)\r\n            if 'A'<=s[i]<='Z':\r\n                p=ord('Z')\r\n            else:\r\n                p=ord('z')\r\n                \r\n            while(r>p):\r\n                r=r - 26\r\n            \r\n                    \r\n                    \r\n            ch=ch+chr(r)\r\n        else:\r\n            ch=ch+' '\r\n            nb=nb+1\r\n    return ch\r\n    \r\n    \r\n            \r\n            \r\n\r\ns=saisie()\r\nprint(cryptage(s))\r\n\r\n\r\n        ",
+  "chunks": [
+    {
+      "chunkId": "DOC-5C57F6D00C9C74F0-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire une chaine')\r\n        b=len(s)>0 and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b='A'<=s[0].upper()<='Z' and  'A'<=s[len(s)-1].upper()<='Z' and s.find('  ')==-1\r\n    i=0\r\n    while(b and (i < len(s)-2)):\r\n        i=i+1\r\n        b=('A'<=s[i].upper()<='Z' )or (s[i]==' ')\r\n\n    return b\r\n\ndef cryptage(s):\r\n    nb=1\r\n    ch=''\r\n    for i in range(len(s)):\r\n        if s[i]!=' ':\r\n\n            r=(ord(s[i])+nb)\r\n            if 'A'<=s[i]<='Z':\r\n                p=ord('Z')\r\n            else:\r\n                p=ord('z')\r\n\n            while(r>p):\r\n                r=r - 26\r\n\n            ch=ch+chr(r)\r\n        else:\r\n            ch=ch+' '\r\n            nb=nb+1\r\n    return ch\r\n\ns=saisie()\r\nprint(cryptage(s))"
+    }
+  ]
+}

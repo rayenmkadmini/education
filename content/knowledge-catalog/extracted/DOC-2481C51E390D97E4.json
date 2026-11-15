@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2481C51E390D97E4",
+  "filename": "Tri_à_l_entrée.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Tri_à_l_entrée.py",
+  "sha256": "2481c51e390d97e43da4b32a8071f022c7f2847ce1cf5141ae0aa3373aca9fb8",
+  "extractedAt": "2026-11-06T14:24:40.916Z",
+  "pageCount": 1,
+  "textSnippet": "#Trier les cases d'un tableau à l'entrée from numpy import * t = array([int]*20) def Saisie(): b = False while not(b) : n=int(input(\"Donnerle nombre de cases : \")) b = 5 <= n <= 25 return n def Remplir(n): t[0]=int(input(\"t[\"+str(0)+\"]= \")) for i in range(1,n): b = False while not(b): t[i]=int(input(\"t[\"+str(i)+\"]= \")) b = t[i] > t[i-1] def Afficher(t,n): for i in range (n):",
+  "fullText": "#Trier les cases d'un tableau  à l'entrée\r\n\r\nfrom numpy import *\r\n\r\nt = array([int]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donnerle nombre de cases : \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\ndef Remplir(n):\r\n    t[0]=int(input(\"t[\"+str(0)+\"]= \"))\r\n    for i in range(1,n):\r\n        b = False\r\n        while not(b):\r\n            t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n            b = t[i] > t[i-1]\r\n            \r\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n        \r\n#########################PP############################\"\r\nn= Saisie()\r\nRemplir(n)\r\nAfficher(t,n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-2481C51E390D97E4-CHK-001",
+      "text": "#Trier les cases d'un tableau  à l'entrée\r\n\nfrom numpy import *\r\n\nt = array([int]*20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donnerle nombre de cases : \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\ndef Remplir(n):\r\n    t[0]=int(input(\"t[\"+str(0)+\"]= \"))\r\n    for i in range(1,n):\r\n        b = False\r\n        while not(b):\r\n            t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n            b = t[i] > t[i-1]\r\n\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n\n#########################PP############################\"\r\nn= Saisie()\r\nRemplir(n)\r\nAfficher(t,n)"
+    }
+  ]
+}

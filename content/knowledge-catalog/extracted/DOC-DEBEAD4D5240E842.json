@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DEBEAD4D5240E842",
+  "filename": "epreuve_pratique_2014_sujet1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet1.py",
+  "sha256": "debead4d5240e842f26d2baa8bf08eb3146fb179446018c0048b71824dca0a16",
+  "extractedAt": "2026-11-06T14:24:36.765Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: n = int(input('Donner n: ')) m = int(input('Donner m: ')) b = 100 <= n < m return n, m def Somme(x): ch = str(x) S = 0 for i in range(len(ch)): S += int(ch[i]) return S def premier(x): b = x > 1 d = 1 while b and d <= x // 2: d += 1 b = x % d != 0 return b def Hazard(n, m): for i in range(n, m + 1): if premier(i - 1) and i",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 100 <= n < m\r\n    return n, m\r\n\r\n\r\ndef Somme(x):\r\n    ch = str(x)\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += int(ch[i])\r\n    return S\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\r\n\r\ndef Hazard(n, m):\r\n    for i in range(n, m + 1):\r\n        if premier(i - 1) and i % Somme(i) == 0:\r\n            print(i, 'car', i, 'est Hazard et son precedeur', i - 1, 'est un nombre premier')\r\n\r\n\r\n####################PP#################\r\nn, m = Saisie()\r\nHazard(n, m)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DEBEAD4D5240E842-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 100 <= n < m\r\n    return n, m\r\n\ndef Somme(x):\r\n    ch = str(x)\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += int(ch[i])\r\n    return S\r\n\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\ndef Hazard(n, m):\r\n    for i in range(n, m + 1):\r\n        if premier(i - 1) and i % Somme(i) == 0:\r\n            print(i, 'car', i, 'est Hazard et son precedeur', i - 1, 'est un nombre premier')\r\n\n####################PP#################\r\nn, m = Saisie()\r\nHazard(n, m)"
+    }
+  ]
+}

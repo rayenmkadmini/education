@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-FE89B81EBB526573",
+  "filename": "Ex3serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex3serie7.docx",
+  "sha256": "fe89b81ebb5265734afc66d38e20abdf37af956fede7a078204949b865783832",
+  "extractedAt": "2026-11-06T14:24:39.975Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex3serie7 Résultat =PROC affiche( t ,n ) t= PROC trait(t ,n,t1 ) t=PROC remplir( t ,n ) n=PROC saisie(n) Fin Ex3serie7 DEF PROC remplir (var t :tab ; n :entier) Répéter Lire( t[ 1]) Jusqu’à t[ 1] dans [1.99] Pour i de 2 à n faire Répéter Lire (t[i]) Jusqu’à (FN verif (t[i] , t,i -1)=faux) et t[i] dans [1..99] Fin remplir ___________________________________________________________________________ DEF FN verif (x : entier ; a :tab ;",
+  "fullText": "Nom : Ex3serie7\n\nRésultat =PROC affiche(\n\nt\n\n,n\n\n)\n\nt=  PROC trait(t\n\n,n,t1\n\n)\n\nt=PROC remplir(\n\nt\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex3serie7\n\nDEF PROC remplir (var t \n\n:tab\n\n ; n :entier) \n\nRépéter\n\n   Lire(\n\nt[\n\n1])\n\nJusqu’à \n\nt[\n\n1] dans [1.99]\n\nPour i de 2 à n faire\n\n   Répéter\n\n      Lire (t[i])\n\nJusqu’à (FN \n\nverif\n\n (t[i]\n\n,\n\nt,i\n\n-1)=faux) et t[i] dans [1..99]\n\nFin remplir\n\n___________________________________________________________________________\n\nDEF FN \n\nverif\n\n(x :\n\nentier\n\n ; a :tab ; j :\n\nentier\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\nRépéter\n\ni\n\n ← i+1\n\nok\n\n ← x=a[\n\ni\n\n]\n\nJusqu’à (ok=vrai) ou (i=j)\n\nVerif\n\n ← ok\n\nFin \n\nverif\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n t :tab ; n :entier ; t1 :tab1)\n\nPour i de 1 à 99 faire \n\nt1[\n\ni]  ← 0\n\nPour I de 1 à n faire\n\n   T1\n\n[ t\n\n[i] ] ← t[\n\ni\n\n]\n\nFin pour\n\nj ← 0\n\nPour \n\ni\n\n de 1 à 99 faire\n\nSi  t1\n\n[\n\ni\n\n] <> 0\n\nAlors\n\n j ← j+1\n\nt[\n\nj] ← t1[\n\ni\n\n]\n\nFinsi\n\nFin pour\n\n2543175-276225-533400-295275",
+  "chunks": [
+    {
+      "chunkId": "DOC-FE89B81EBB526573-CHK-001",
+      "text": "Nom : Ex3serie7\n\nRésultat =PROC affiche(\n\nt\n\n,n\n\n)\n\nt=  PROC trait(t\n\n,n,t1\n\n)\n\nt=PROC remplir(\n\nt\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex3serie7\n\nDEF PROC remplir (var t \n\n:tab\n\n ; n :entier) \n\nRépéter\n\n   Lire(\n\nt[\n\n1])\n\nJusqu’à \n\nt[\n\n1] dans [1.99]\n\nPour i de 2 à n faire\n\n   Répéter\n\n      Lire (t[i])\n\nJusqu’à (FN \n\nverif\n\n (t[i]\n\n,\n\nt,i\n\n-1)=faux) et t[i] dans [1..99]\n\nFin remplir\n\n___________________________________________________________________________\n\nDEF FN \n\nverif\n\n(x :\n\nentier\n\n ; a :tab ; j :\n\nentier\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\nRépéter\n\ni\n\n ← i+1\n\nok\n\n ← x=a[\n\ni\n\n]\n\nJusqu’à (ok=vrai) ou (i=j)\n\nVerif\n\n ← ok\n\nFin \n\nverif\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n t :tab ; n :entier ; t1 :tab1)\n\nPour i de 1 à 99 faire \n\nt1[\n\ni]  ← 0"
+    },
+    {
+      "chunkId": "DOC-FE89B81EBB526573-CHK-002",
+      "text": "Pour I de 1 à n faire\n\n   T1\n\n[ t\n\n[i] ] ← t[\n\ni\n\n]\n\nFin pour\n\nj ← 0\n\nPour \n\ni\n\n de 1 à 99 faire\n\nSi  t1\n\n[\n\ni\n\n] <> 0\n\nAlors\n\n j ← j+1\n\nt[\n\nj] ← t1[\n\ni\n\n]\n\nFinsi\n\nFin pour\n\n2543175-276225-533400-295275"
+    }
+  ]
+}

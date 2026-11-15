@@ -1,0 +1,896 @@
+{
+  "documentId": "DOC-F0D6B2E37C62F49E",
+  "filename": "Copie de Manuel-de-révision-bac-pratique.pdf",
+  "relPath": "bac info/algo/Copie de Manuel-de-révision-bac-pratique.pdf",
+  "sha256": "f0d6b2e37c62f49e89480f984f7cd84fe5c56f56b9f7f99bd565fbabdc994f1d",
+  "extractedAt": "2026-11-14T18:35:36.306Z",
+  "pageCount": 98,
+  "textSnippet": "1 | P a g e -- 1 of 98 -- 2 | P a g e REVISION BAC PRATIQUE 2023 MATIERE : INFORMATIQUE ENSEIGNANT : Kais TABOUBI ***** SOMMAIRE Graphique **** Chariot gratuit payant Graphique **** Cryptographie par alphabet-Clé Graphique **** Cryptographie par occurrence successive Graphique **** Cryptographie par apparition Graphique **** Mots Frères-Cousins Graphique **** Mot presque palindrome Graphique **** Arithmétique_Nombre Pointu Graphique **** Arithmétique_Nombre Spécial Graphique **** Arithmétique_",
+  "fullText": "1 | P a g e\n\n-- 1 of 98 --\n\n2 | P a g e\nREVISION BAC PRATIQUE 2023\nMATIERE : INFORMATIQUE\nENSEIGNANT : Kais TABOUBI\n*****\nSOMMAIRE\nGraphique **** Chariot gratuit payant\nGraphique **** Cryptographie par alphabet-Clé\nGraphique **** Cryptographie par occurrence successive\nGraphique **** Cryptographie par apparition\nGraphique **** Mots Frères-Cousins\nGraphique **** Mot presque palindrome\nGraphique **** Arithmétique_Nombre Pointu\nGraphique **** Arithmétique_Nombre Spécial\nGraphique **** Arithmétique_Nombre totalement impair\nGraphique **** Arithmétique_Nombre doublement palindrome\nGraphique **** Arithmétique_Nombre de Smith\nNumpy **** **** Nombres-Sectionnable unitaire\nNumpy **** **** Nombres Etranches\nNumpy **** **** Nombres doublement palindrome\nNumpy **** **** Conours d'une commune\nGraphique **** Arithmétique_CRODEC DECRO\nGraphique **** Emprisonnement d'un mot\nGraphique **** Arithmétique_Nombres Homogènes\n\n-- 2 of 98 --\n\n3 | P a g e\nGraphique **** Arithmétique_PPMB\nGraphique **** Arithmétique_Nombre Multipotent\nGraphique **** Arithmétique_Nombre Lisse\nGraphique **** Arithmétique_Nombre semi premier\nGraphique **** Arithmétique_Nombre hautement abondant\nGraphique **** Prototype 2022\nGraphique **** Salle de Sport\n\n-- 3 of 98 --\n\n4 | P a g e\n❶\n❷\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°1\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n\n\n-- 4 of 98 --\n\n5 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 5 of 98 --\n\n6 | P a g e\nGrille d’évaluation :\nExemples d’exécution\n\n-- 6 of 98 --\n\n7 | P a g e\n❶\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°2\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n❶\n❷\n\n-- 7 of 98 --\n\n8 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 8 of 98 --\n\n9 | P a g e\nGrille d’évaluation :\nExemples d’exécution\n\n-- 9 of 98 --\n\n10 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°3\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n\n-- 10 of 98 --\n\n11 | P a g e\n◉\n◉\nExemples d’exécution\n\n-- 11 of 98 --\n\n12 | P a g e\nGrille d’évaluation :\n\n-- 12 of 98 --\n\n13 | P a g e\n▣\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°4\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n\n-- 13 of 98 --\n\n14 | P a g e\n◉\n◉\nExemples d’exécution\n\n-- 14 of 98 --\n\n15 | P a g e\nGrille d’évaluation :\n\n-- 15 of 98 --\n\n16 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n◉\n◉\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n❸\nLycée Béja Nord Sujet Pratique n°5\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 16 of 98 --\n\n17 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 17 of 98 --\n\n18 | P a g e\nGrille d’évaluation :\nExemples d’exécuti\non\n\n-- 18 of 98 --\n\n19 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n◉\n❸\n◉\n◉\n◉\n Une solution modulaire au problème posé est exigée.\n Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet pratique n°6\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant :\n\n-- 19 of 98 --\n\n20 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 20 of 98 --\n\n21 | P a g e\nGrille d’évaluation :\nExemples d’exécution\n\n-- 21 of 98 --\n\n22 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n\n❶\n❷\n\n❸\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°7\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 22 of 98 --\n\n23 | P a g e\n◉\n◉\nExemples d’exécution\n\n-- 23 of 98 --\n\n24 | P a g e\nGrille d’évaluation :\n\n-- 24 of 98 --\n\n25 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°8\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 25 of 98 --\n\n26 | P a g e\n◉\n◉\nExemples d’exécution\n\n-- 26 of 98 --\n\n27 | P a g e\nGrille d’évaluation :\n\n-- 27 of 98 --\n\n28 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°9 (DC2-Salem Moallem)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 28 of 98 --\n\n29 | P a g e\n◉\n◉\n\n-- 29 of 98 --\n\n30 | P a g e\nGrille d’évaluation :\nExemples d’exécution\n\n-- 30 of 98 --\n\n31 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣ \n\n\n❶\n❷\n\nLycée Béja Nord Sujet pratique n°10\nClasses : 4èmeM&SC\nDurée : 1H :30min\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 31 of 98 --\n\n32 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 32 of 98 --\n\n33 | P a g e\nExemp\nles d’exécution\n\n-- 33 of 98 --\n\n34 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°11\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 34 of 98 --\n\n35 | P a g e\n◉\n◉\nExemples d’exécution\n\n-- 35 of 98 --\n\n36 | P a g e\nGrille d’évaluation :\n\n-- 36 of 98 --\n\n37 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n⋯ 𝑝 𝑝\n▣\n▣\n◉\n◉\nLycée Béja Nord Sujet pratique n°12 (DC1-4M1)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 11 10 15 16 136 67 15\n0 1 2 3 4 5 6\nT 23 11 103 386\n0 1 2 3\n\n-- 37 of 98 --\n\n38 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nDétermination des nombres ETRANCHES\nUn entier naturel N, composé de p chiffres (N = n1n2…np) est un nombre ETRANCHE si, pour tout\nentier i allant de 2 à p, l’entier naturel n1n2…ni est divisible par i.\nExemple 1: 2016 est un nombre ETRANCHE.\nEn effet :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2016 est divisible par 4\nExemple 2: 201920 n’est pas un nombre ETRANCHE.\nCar :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2019 n’est pas divisible par 4, donc on arrête\nla vérification.\nExemple 3: 705 est un nombre ETRANCHE.\nEn effet :\n◉ 70 est divisible par 2\n◉ 705 est divisible par 3\nExemple 4: 72 est un nombre ETRANCHE.\nEn effet :\n◉ 72 est divisible par 2\nExemple 5: 2041 n’est pas un nombre ETRANCHE. Car :\n◉ 20 est divisible par 2\n◉ 204 est divisible par 3\n◉ 2041 n’est pas divisible par 4, donc on arrête la vérification.\nTravail demandé :\nEcrire un programme en Python qui permet de :\n▣ Remplir un tableau T, par m entiers naturels de deux chiffres ou plus, avec ( 4 ≤ m ≤ 20).\n▣ Déterminer et afficher, à partir du tableau T,\n◉ Les entiers ETRANCHES selon la description décrite précédemment, s’il existe,\n◉ Sinon le message suivant \"Aucun nombre ETRANCHE dans le tableau\"\nExemple1 : Soit m=7 et le tableau T suivant :\nle programme affiche : les nombres ETRANCHES sont : 102, 72, 705, 705204, 1024\nExemple2 : Soit m=4 et le tableau T suivant :\nle programme affiche : Aucun nombre ETRANCHE dans le tableau\nT 23 102 72 705 705204 1024 326\n0 1 2 3 4 5 6\nLycée Béja Nord Sujet pratique n°13 (DC1-4M2)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 23 326 103 705234\n0 1 2 3\n\n-- 38 of 98 --\n\n39 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nOn dispose d’un tableau T contenant N entiers strictement positifs palindromes.\nL’algorithme suivant est celui d’une fonction permettant de vérifier si un entier X est palindrome ou non.\nFonction Palindrome (X : entier) : booléen\nDébut\nch  convch(X)\ni  0\nTant que i < Long(ch) Div 2 ET ch[i] = ch[Long(ch) -1 – i] Faire\ni  i +1\nFin Tant que\nRetourner i = Long(ch) Div 2\nFin\nUtiliser la fonction ci-dessus, pour écrire un programme en Python, permettant de :\n▣ Saisir un tableau T de N entiers strictement positifs palindromes (5 ≤ N ≤ 20).\n▣ Afficher, s’il existe, les nombres doublement palindromes. Comme le montre l’exemple ci-\ndessous.\nUn nombre naturel N (N  1), est dit doublement palindrome lorsque qu’il est :\n palindrome sous sa forme décimale\n et palindrome avec sa représentation binaire.\n❶ Un nombre palindrome: est un nombre qui peut se lire indifféremment de gauche à\ndroite ou de droite à gauche en gardant le même sens. (Exemple: 22, 313)\n❷ Un nombre binaire: dans notre cas, est le résultat de la conversion d’un nombre décimal.\nPour réaliser cette opération, il faut faire des divisions entières successives par 2 jusqu’à ce que le\nquotient devienne nul. Exemple :\nLycée Béja Nord Sujet pratique n°14\nClasses : 4èmeM&SC\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 39 of 98 --\n\n40 | P a g e\nExemple : Pour le tableau T suivant avec N=8 :\nLe programme affiche :\nLes nombres doublement palindromes sont :\n33 = 100001\n717= 1011001101\n99=1100011\nT 11 4 33 212 414 717 22 99\n0 1 2 3 4 5 6 7\n\n-- 40 of 98 --\n\n41 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nConcours d’une commune\nUne commune organise sur un week-end un concours de course / marche / randonnée par équipes.\nPour gérer les résultats de la compétition, les organisateurs ont créé deux tableaux :\n◉ Un tableau TN (Tableau des Noms) dans lequel sont enregistrés les noms des équipes.\n◉ Un tableau TT (Tableau de Temps) dans lequel est enregistré le temps total pris une équipe pour\nréaliser les épreuves. Le temps est mesuré en secondes.\nA un nom inscrit dans la case d’indice i de TN correspond le temps inscrit dans la case d’indice i de TT.\nAinsi par exemple, avec 4 équipes, on peut avoir :\nTN Les bisounours La clef des champs Vert de gris Les schtroumpfs\n1 2 3 4\nTT 7357 7045 9283 7045\n1 2 3 4\nLes deux équipes \" La clef des champs \" et \" Les schtroumpfs \" sont pour le moment en tête du concours\navec un temps total de 7045 secondes, talonnées par l’équipe \" Les bisounours \", en troisième position, avec\n7357 secondes. Enfin de peloton, arrive l’équipe \" Vert de gris \" avec un temps de 9283 secondes.\nOn se propose de réaliser un programme en Python intitulé ‘’COMPETITION’’ qui permet de :\n Remplir, à la fois, deux tableaux TN et TT par respectivement, N noms d’équipes avec (3 ≤ N ≤ 20) et le\ntemps total pris chaque équipe pour réaliser les épreuves.\nNB : Chaque nom d’équipe est un ensemble de mots alphabétiques distincts bien espacés\n Afficher le classement final du concours comme indiqué dans l’exemple ci-après, en commençant par le\nnom de l’équipe qui a réalisé le plus petit temps. Il est à noter que les équipes ayant un même temps\nauront un même rang dans le classement.\nNB : chaque ligne d’affichage doit contenir, suite au nom de l’équipe, le temps total sous la forme en H:Min:Sec\n. Par exemple, le temps pris par l’équipe \"Les bisounours\" est 7357 secondes , lors de l’affichage final sera :\nRang n° 3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nLycée Béja Nord Sujet pratique n°15 (PBME-DS1-4M-4SC)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 41 of 98 --\n\n42 | P a g e\nExemple : pour les données enregistrées dans les deux tableaux TN et TT citées précédemment,\nLe programme affichera\nLe classement est :\nRang n°1 : L’équipe La clef des champs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nL’équipe Les schtroumpfs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nRang n°3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nRang n°4 : L’équipe Vert de gris a pris 2 H :34 Min :43 Sec pour réaliser toutes les épreuves\n\n-- 42 of 98 --\n\n43 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLe nombre CRO-DEC et le nombre DEC-CRO\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit CRO-DEC (c-à-d CROISSANT ensuite DECROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre croissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre décroissant stricte,\n et le chiffre du milieu sera le plus grand des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 < C2 < C3 > C4 > C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit DEC-CRO (c-à-d DECROISSANT ensuite CROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre décroissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre croissant stricte,\n et le chiffre du milieu sera le plus petit des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 > C2 > C3 < C4 < C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\nExemples :\nDes nombres CRO-DEC Des nombres DEC- CRO\nN= 283 : N est un nombre CRO-DEC,\ncar 2 < 8 et 8 > 3\nN= 35741 : N est un nombre CRO-DEC,\ncar 3 < 5 < 7 > 4 > 1\nN= 724 : N est un nombre DEC-CRO,\ncar 7 > 2 < 4\nN= 85169 : N est un nombre DEC-CRO,\ncar 8 > 5 > 1 < 6 < 9\nDes nombres ni CRO-DEC ni DEC- CRO\nN= 289 : N n’est pas un nombre CRO-DEC, car 2 < 8 mais 8 < 9\nEt N n’est pas un nombre DEC-CRO, car 2 < 8\nN= 35541 : N n’est pas un nombre CRO-DEC, car 3 < 5 mais le chiffre du milieu (5) n’est pas\nsupérieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nN= 35749 : N n’est pas un nombre CRO-DEC, car 3 < 5 < 7 > 4 mais le dernier chiffre (9) n’est pas\ninférieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nPour vérifier si un entier naturel N (N  100) est un nombre CRO-DEC, DEC-CRO ou ni CRO-DEC ni DEC-CRO, on\nse propose de concevoir une interface graphique contenant les éléments suivants :\n◉ Un label contenant le texte : \"CRO-DEC *** DEC-CRO\"\n◉ Un label demandant la saisie du nombre :\n\"Introduire un entier >= 100 et dont le nombre de ses chiffres est impair: \"\nLycée Béja Nord Sujet pratique n°16 (DC2-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 43 of 98 --\n\n44 | P a g e\n◉ Une zone de saisie permettant la saisie du nombre.\n◉ Un bouton intitulé \" Vérifier\"\n◉ Un bouton intitulé \"Effacer\" (permettant d’effacer la zone de saisie et le label d’affichage)\n◉ Un label pour afficher le message adéquat\nTravail demandé :\no\no\nExemples d’exécution\n\n-- 44 of 98 --\n\n45 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n❸\n◉\n◉\n◉\n◉\n➍\nLycée Béja Nord Sujet pratique n°17 (DC3-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 45 of 98 --\n\n46 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n\n-- 46 of 98 --\n\n47 | P a g e\nExemples d’exécution\n\n-- 47 of 98 --\n\n48 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°18 (DC3-4SC1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 48 of 98 --\n\n49 | P a g e\n◉\n◉\n\n-- 49 of 98 --\n\n50 | P a g e\nExemples d’exécution\n\n-- 50 of 98 --\n\n51 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°19 (DC3-4M2)\nClasses : 4èmeM2\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 51 of 98 --\n\n52 | P a g e\n◉\n◉\n\n-- 52 of 98 --\n\n53 | P a g e\nExemples d’exécution\n\n-- 53 of 98 --\n\n54 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°20 (DC3-4M1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 54 of 98 --\n\n55 | P a g e\n◉\n◉\n\n-- 55 of 98 --\n\n56 | P a g e\nExemples d’exécution\n\n-- 56 of 98 --\n\n57 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°21 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 57 of 98 --\n\n58 | P a g e\no\no\n◉\n◉\n\n-- 58 of 98 --\n\n59 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°22 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 59 of 98 --\n\n60 | P a g e\no\no\n◉\n◉\n\n-- 60 of 98 --\n\n61 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°23 (Bac Pratique AR 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n\n\n-- 61 of 98 --\n\n62 | P a g e\n◉\n◉\n\n-- 62 of 98 --\n\n63 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n\n\n\nLycée Béja Nord Sujet Pratique n°24 (Prototype 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n-- 63 of 98 --\n\n64 | P a g e\n\n\n\n\n\n1)\n2)\n3)\n4)\n\n\n\n\n\n\n\n\n-- 64 of 98 --\n\n65 | P a g e\n\n\n-- 65 of 98 --\n\n66 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°25 (Bac Pratique 2019)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n\n\n\n-- 66 of 98 --\n\n67 | P a g e\n\n\n\n\n\n\n-- 67 of 98 --\n\n68 | P a g e\n\n-- 68 of 98 --\n\n69 | P a g e\n\n-- 69 of 98 --\n\n70 | P a g e\n\n-- 70 of 98 --\n\n71 | P a g e\n\n-- 71 of 98 --\n\n72 | P a g e\n\n-- 72 of 98 --\n\n73 | P a g e\n\n-- 73 of 98 --\n\n74 | P a g e\n\n-- 74 of 98 --\n\n75 | P a g e\n\n-- 75 of 98 --\n\n76 | P a g e\n\n-- 76 of 98 --\n\n77 | P a g e\n\n-- 77 of 98 --\n\n78 | P a g e\n\n-- 78 of 98 --\n\n79 | P a g e\n\n-- 79 of 98 --\n\n80 | P a g e\n\n-- 80 of 98 --\n\n81 | P a g e\n\n-- 81 of 98 --\n\n82 | P a g e\n\n-- 82 of 98 --\n\n83 | P a g e\n\n-- 83 of 98 --\n\n84 | P a g e\n\n-- 84 of 98 --\n\n85 | P a g e\n\n-- 85 of 98 --\n\n86 | P a g e\n\n-- 86 of 98 --\n\n87 | P a g e\n\n-- 87 of 98 --\n\n88 | P a g e\n\n-- 88 of 98 --\n\n89 | P a g e\n\n-- 89 of 98 --\n\n90 | P a g e\n\n-- 90 of 98 --\n\n91 | P a g e\n\n-- 91 of 98 --\n\n92 | P a g e\n\n-- 92 of 98 --\n\n93 | P a g e\n\n-- 93 of 98 --\n\n94 | P a g e\n\n-- 94 of 98 --\n\n95 | P a g e\n\n-- 95 of 98 --\n\n96 | P a g e\n\n-- 96 of 98 --\n\n97 | P a g e\n\n-- 97 of 98 --\n\n98 | P a g e\n\n-- 98 of 98 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1 | P a g e"
+    },
+    {
+      "pageNumber": 2,
+      "text": "2 | P a g e\nREVISION BAC PRATIQUE 2023\nMATIERE : INFORMATIQUE\nENSEIGNANT : Kais TABOUBI\n*****\nSOMMAIRE\nGraphique **** Chariot gratuit payant\nGraphique **** Cryptographie par alphabet-Clé\nGraphique **** Cryptographie par occurrence successive\nGraphique **** Cryptographie par apparition\nGraphique **** Mots Frères-Cousins\nGraphique **** Mot presque palindrome\nGraphique **** Arithmétique_Nombre Pointu\nGraphique **** Arithmétique_Nombre Spécial\nGraphique **** Arithmétique_Nombre totalement impair\nGraphique **** Arithmétique_Nombre doublement palindrome\nGraphique **** Arithmétique_Nombre de Smith\nNumpy **** **** Nombres-Sectionnable unitaire\nNumpy **** **** Nombres Etranches\nNumpy **** **** Nombres doublement palindrome\nNumpy **** **** Conours d'une commune\nGraphique **** Arithmétique_CRODEC DECRO\nGraphique **** Emprisonnement d'un mot\nGraphique **** Arithmétique_Nombres Homogènes"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3 | P a g e\nGraphique **** Arithmétique_PPMB\nGraphique **** Arithmétique_Nombre Multipotent\nGraphique **** Arithmétique_Nombre Lisse\nGraphique **** Arithmétique_Nombre semi premier\nGraphique **** Arithmétique_Nombre hautement abondant\nGraphique **** Prototype 2022\nGraphique **** Salle de Sport"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4 | P a g e\n❶\n❷\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°1\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n"
+    },
+    {
+      "pageNumber": 5,
+      "text": "5 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 6,
+      "text": "6 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 7,
+      "text": "7 | P a g e\n❶\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°2\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n❶\n❷"
+    },
+    {
+      "pageNumber": 8,
+      "text": "8 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 9,
+      "text": "9 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 10,
+      "text": "10 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°3\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:"
+    },
+    {
+      "pageNumber": 11,
+      "text": "11 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 12,
+      "text": "12 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "pageNumber": 13,
+      "text": "13 | P a g e\n▣\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°4\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:"
+    },
+    {
+      "pageNumber": 14,
+      "text": "14 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 15,
+      "text": "15 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "pageNumber": 16,
+      "text": "16 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n◉\n◉\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n❸\nLycée Béja Nord Sujet Pratique n°5\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 17,
+      "text": "17 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 18,
+      "text": "18 | P a g e\nGrille d’évaluation :\nExemples d’exécuti\non"
+    },
+    {
+      "pageNumber": 19,
+      "text": "19 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n◉\n❸\n◉\n◉\n◉\n Une solution modulaire au problème posé est exigée.\n Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet pratique n°6\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant :"
+    },
+    {
+      "pageNumber": 20,
+      "text": "20 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 21,
+      "text": "21 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 22,
+      "text": "22 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n\n❶\n❷\n\n❸\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°7\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 23,
+      "text": "23 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 24,
+      "text": "24 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "pageNumber": 25,
+      "text": "25 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°8\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 26,
+      "text": "26 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 27,
+      "text": "27 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "pageNumber": 28,
+      "text": "28 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°9 (DC2-Salem Moallem)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 29,
+      "text": "29 | P a g e\n◉\n◉"
+    },
+    {
+      "pageNumber": 30,
+      "text": "30 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 31,
+      "text": "31 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣ \n\n\n❶\n❷\n\nLycée Béja Nord Sujet pratique n°10\nClasses : 4èmeM&SC\nDurée : 1H :30min\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 32,
+      "text": "32 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 33,
+      "text": "33 | P a g e\nExemp\nles d’exécution"
+    },
+    {
+      "pageNumber": 34,
+      "text": "34 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°11\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 35,
+      "text": "35 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 36,
+      "text": "36 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "pageNumber": 37,
+      "text": "37 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n⋯ 𝑝 𝑝\n▣\n▣\n◉\n◉\nLycée Béja Nord Sujet pratique n°12 (DC1-4M1)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 11 10 15 16 136 67 15\n0 1 2 3 4 5 6\nT 23 11 103 386\n0 1 2 3"
+    },
+    {
+      "pageNumber": 38,
+      "text": "38 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nDétermination des nombres ETRANCHES\nUn entier naturel N, composé de p chiffres (N = n1n2…np) est un nombre ETRANCHE si, pour tout\nentier i allant de 2 à p, l’entier naturel n1n2…ni est divisible par i.\nExemple 1: 2016 est un nombre ETRANCHE.\nEn effet :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2016 est divisible par 4\nExemple 2: 201920 n’est pas un nombre ETRANCHE.\nCar :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2019 n’est pas divisible par 4, donc on arrête\nla vérification.\nExemple 3: 705 est un nombre ETRANCHE.\nEn effet :\n◉ 70 est divisible par 2\n◉ 705 est divisible par 3\nExemple 4: 72 est un nombre ETRANCHE.\nEn effet :\n◉ 72 est divisible par 2\nExemple 5: 2041 n’est pas un nombre ETRANCHE. Car :\n◉ 20 est divisible par 2\n◉ 204 est divisible par 3\n◉ 2041 n’est pas divisible par 4, donc on arrête la vérification.\nTravail demandé :\nEcrire un programme en Python qui permet de :\n▣ Remplir un tableau T, par m entiers naturels de deux chiffres ou plus, avec ( 4 ≤ m ≤ 20).\n▣ Déterminer et afficher, à partir du tableau T,\n◉ Les entiers ETRANCHES selon la description décrite précédemment, s’il existe,\n◉ Sinon le message suivant \"Aucun nombre ETRANCHE dans le tableau\"\nExemple1 : Soit m=7 et le tableau T suivant :\nle programme affiche : les nombres ETRANCHES sont : 102, 72, 705, 705204, 1024\nExemple2 : Soit m=4 et le tableau T suivant :\nle programme affiche : Aucun nombre ETRANCHE dans le tableau\nT 23 102 72 705 705204 1024 326\n0 1 2 3 4 5 6\nLycée Béja Nord Sujet pratique n°13 (DC1-4M2)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 23 326 103 705234\n0 1 2 3"
+    },
+    {
+      "pageNumber": 39,
+      "text": "39 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nOn dispose d’un tableau T contenant N entiers strictement positifs palindromes.\nL’algorithme suivant est celui d’une fonction permettant de vérifier si un entier X est palindrome ou non.\nFonction Palindrome (X : entier) : booléen\nDébut\nch  convch(X)\ni  0\nTant que i < Long(ch) Div 2 ET ch[i] = ch[Long(ch) -1 – i] Faire\ni  i +1\nFin Tant que\nRetourner i = Long(ch) Div 2\nFin\nUtiliser la fonction ci-dessus, pour écrire un programme en Python, permettant de :\n▣ Saisir un tableau T de N entiers strictement positifs palindromes (5 ≤ N ≤ 20).\n▣ Afficher, s’il existe, les nombres doublement palindromes. Comme le montre l’exemple ci-\ndessous.\nUn nombre naturel N (N  1), est dit doublement palindrome lorsque qu’il est :\n palindrome sous sa forme décimale\n et palindrome avec sa représentation binaire.\n❶ Un nombre palindrome: est un nombre qui peut se lire indifféremment de gauche à\ndroite ou de droite à gauche en gardant le même sens. (Exemple: 22, 313)\n❷ Un nombre binaire: dans notre cas, est le résultat de la conversion d’un nombre décimal.\nPour réaliser cette opération, il faut faire des divisions entières successives par 2 jusqu’à ce que le\nquotient devienne nul. Exemple :\nLycée Béja Nord Sujet pratique n°14\nClasses : 4èmeM&SC\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 40,
+      "text": "40 | P a g e\nExemple : Pour le tableau T suivant avec N=8 :\nLe programme affiche :\nLes nombres doublement palindromes sont :\n33 = 100001\n717= 1011001101\n99=1100011\nT 11 4 33 212 414 717 22 99\n0 1 2 3 4 5 6 7"
+    },
+    {
+      "pageNumber": 41,
+      "text": "41 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nConcours d’une commune\nUne commune organise sur un week-end un concours de course / marche / randonnée par équipes.\nPour gérer les résultats de la compétition, les organisateurs ont créé deux tableaux :\n◉ Un tableau TN (Tableau des Noms) dans lequel sont enregistrés les noms des équipes.\n◉ Un tableau TT (Tableau de Temps) dans lequel est enregistré le temps total pris une équipe pour\nréaliser les épreuves. Le temps est mesuré en secondes.\nA un nom inscrit dans la case d’indice i de TN correspond le temps inscrit dans la case d’indice i de TT.\nAinsi par exemple, avec 4 équipes, on peut avoir :\nTN Les bisounours La clef des champs Vert de gris Les schtroumpfs\n1 2 3 4\nTT 7357 7045 9283 7045\n1 2 3 4\nLes deux équipes \" La clef des champs \" et \" Les schtroumpfs \" sont pour le moment en tête du concours\navec un temps total de 7045 secondes, talonnées par l’équipe \" Les bisounours \", en troisième position, avec\n7357 secondes. Enfin de peloton, arrive l’équipe \" Vert de gris \" avec un temps de 9283 secondes.\nOn se propose de réaliser un programme en Python intitulé ‘’COMPETITION’’ qui permet de :\n Remplir, à la fois, deux tableaux TN et TT par respectivement, N noms d’équipes avec (3 ≤ N ≤ 20) et le\ntemps total pris chaque équipe pour réaliser les épreuves.\nNB : Chaque nom d’équipe est un ensemble de mots alphabétiques distincts bien espacés\n Afficher le classement final du concours comme indiqué dans l’exemple ci-après, en commençant par le\nnom de l’équipe qui a réalisé le plus petit temps. Il est à noter que les équipes ayant un même temps\nauront un même rang dans le classement.\nNB : chaque ligne d’affichage doit contenir, suite au nom de l’équipe, le temps total sous la forme en H:Min:Sec\n. Par exemple, le temps pris par l’équipe \"Les bisounours\" est 7357 secondes , lors de l’affichage final sera :\nRang n° 3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nLycée Béja Nord Sujet pratique n°15 (PBME-DS1-4M-4SC)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 42,
+      "text": "42 | P a g e\nExemple : pour les données enregistrées dans les deux tableaux TN et TT citées précédemment,\nLe programme affichera\nLe classement est :\nRang n°1 : L’équipe La clef des champs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nL’équipe Les schtroumpfs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nRang n°3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nRang n°4 : L’équipe Vert de gris a pris 2 H :34 Min :43 Sec pour réaliser toutes les épreuves"
+    },
+    {
+      "pageNumber": 43,
+      "text": "43 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLe nombre CRO-DEC et le nombre DEC-CRO\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit CRO-DEC (c-à-d CROISSANT ensuite DECROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre croissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre décroissant stricte,\n et le chiffre du milieu sera le plus grand des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 < C2 < C3 > C4 > C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit DEC-CRO (c-à-d DECROISSANT ensuite CROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre décroissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre croissant stricte,\n et le chiffre du milieu sera le plus petit des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 > C2 > C3 < C4 < C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\nExemples :\nDes nombres CRO-DEC Des nombres DEC- CRO\nN= 283 : N est un nombre CRO-DEC,\ncar 2 < 8 et 8 > 3\nN= 35741 : N est un nombre CRO-DEC,\ncar 3 < 5 < 7 > 4 > 1\nN= 724 : N est un nombre DEC-CRO,\ncar 7 > 2 < 4\nN= 85169 : N est un nombre DEC-CRO,\ncar 8 > 5 > 1 < 6 < 9\nDes nombres ni CRO-DEC ni DEC- CRO\nN= 289 : N n’est pas un nombre CRO-DEC, car 2 < 8 mais 8 < 9\nEt N n’est pas un nombre DEC-CRO, car 2 < 8\nN= 35541 : N n’est pas un nombre CRO-DEC, car 3 < 5 mais le chiffre du milieu (5) n’est pas\nsupérieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nN= 35749 : N n’est pas un nombre CRO-DEC, car 3 < 5 < 7 > 4 mais le dernier chiffre (9) n’est pas\ninférieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nPour vérifier si un entier naturel N (N  100) est un nombre CRO-DEC, DEC-CRO ou ni CRO-DEC ni DEC-CRO, on\nse propose de concevoir une interface graphique contenant les éléments suivants :\n◉ Un label contenant le texte : \"CRO-DEC *** DEC-CRO\"\n◉ Un label demandant la saisie du nombre :\n\"Introduire un entier >= 100 et dont le nombre de ses chiffres est impair: \"\nLycée Béja Nord Sujet pratique n°16 (DC2-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 44,
+      "text": "44 | P a g e\n◉ Une zone de saisie permettant la saisie du nombre.\n◉ Un bouton intitulé \" Vérifier\"\n◉ Un bouton intitulé \"Effacer\" (permettant d’effacer la zone de saisie et le label d’affichage)\n◉ Un label pour afficher le message adéquat\nTravail demandé :\no\no\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 45,
+      "text": "45 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n❸\n◉\n◉\n◉\n◉\n➍\nLycée Béja Nord Sujet pratique n°17 (DC3-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 46,
+      "text": "46 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "pageNumber": 47,
+      "text": "47 | P a g e\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 48,
+      "text": "48 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°18 (DC3-4SC1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 49,
+      "text": "49 | P a g e\n◉\n◉"
+    },
+    {
+      "pageNumber": 50,
+      "text": "50 | P a g e\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 51,
+      "text": "51 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°19 (DC3-4M2)\nClasses : 4èmeM2\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 52,
+      "text": "52 | P a g e\n◉\n◉"
+    },
+    {
+      "pageNumber": 53,
+      "text": "53 | P a g e\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 54,
+      "text": "54 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°20 (DC3-4M1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 55,
+      "text": "55 | P a g e\n◉\n◉"
+    },
+    {
+      "pageNumber": 56,
+      "text": "56 | P a g e\nExemples d’exécution"
+    },
+    {
+      "pageNumber": 57,
+      "text": "57 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°21 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 58,
+      "text": "58 | P a g e\no\no\n◉\n◉"
+    },
+    {
+      "pageNumber": 59,
+      "text": "59 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°22 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 60,
+      "text": "60 | P a g e\no\no\n◉\n◉"
+    },
+    {
+      "pageNumber": 61,
+      "text": "61 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°23 (Bac Pratique AR 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n"
+    },
+    {
+      "pageNumber": 62,
+      "text": "62 | P a g e\n◉\n◉"
+    },
+    {
+      "pageNumber": 63,
+      "text": "63 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n\n\n\nLycée Béja Nord Sujet Pratique n°24 (Prototype 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "pageNumber": 64,
+      "text": "64 | P a g e\n\n\n\n\n\n1)\n2)\n3)\n4)\n\n\n\n\n\n\n"
+    },
+    {
+      "pageNumber": 65,
+      "text": "65 | P a g e\n"
+    },
+    {
+      "pageNumber": 66,
+      "text": "66 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°25 (Bac Pratique 2019)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n\n"
+    },
+    {
+      "pageNumber": 67,
+      "text": "67 | P a g e\n\n\n\n\n"
+    },
+    {
+      "pageNumber": 68,
+      "text": "68 | P a g e"
+    },
+    {
+      "pageNumber": 69,
+      "text": "69 | P a g e"
+    },
+    {
+      "pageNumber": 70,
+      "text": "70 | P a g e"
+    },
+    {
+      "pageNumber": 71,
+      "text": "71 | P a g e"
+    },
+    {
+      "pageNumber": 72,
+      "text": "72 | P a g e"
+    },
+    {
+      "pageNumber": 73,
+      "text": "73 | P a g e"
+    },
+    {
+      "pageNumber": 74,
+      "text": "74 | P a g e"
+    },
+    {
+      "pageNumber": 75,
+      "text": "75 | P a g e"
+    },
+    {
+      "pageNumber": 76,
+      "text": "76 | P a g e"
+    },
+    {
+      "pageNumber": 77,
+      "text": "77 | P a g e"
+    },
+    {
+      "pageNumber": 78,
+      "text": "78 | P a g e"
+    },
+    {
+      "pageNumber": 79,
+      "text": "79 | P a g e"
+    },
+    {
+      "pageNumber": 80,
+      "text": "80 | P a g e"
+    },
+    {
+      "pageNumber": 81,
+      "text": "81 | P a g e"
+    },
+    {
+      "pageNumber": 82,
+      "text": "82 | P a g e"
+    },
+    {
+      "pageNumber": 83,
+      "text": "83 | P a g e"
+    },
+    {
+      "pageNumber": 84,
+      "text": "84 | P a g e"
+    },
+    {
+      "pageNumber": 85,
+      "text": "85 | P a g e"
+    },
+    {
+      "pageNumber": 86,
+      "text": "86 | P a g e"
+    },
+    {
+      "pageNumber": 87,
+      "text": "87 | P a g e"
+    },
+    {
+      "pageNumber": 88,
+      "text": "88 | P a g e"
+    },
+    {
+      "pageNumber": 89,
+      "text": "89 | P a g e"
+    },
+    {
+      "pageNumber": 90,
+      "text": "90 | P a g e"
+    },
+    {
+      "pageNumber": 91,
+      "text": "91 | P a g e"
+    },
+    {
+      "pageNumber": 92,
+      "text": "92 | P a g e"
+    },
+    {
+      "pageNumber": 93,
+      "text": "93 | P a g e"
+    },
+    {
+      "pageNumber": 94,
+      "text": "94 | P a g e"
+    },
+    {
+      "pageNumber": 95,
+      "text": "95 | P a g e"
+    },
+    {
+      "pageNumber": 96,
+      "text": "96 | P a g e"
+    },
+    {
+      "pageNumber": 97,
+      "text": "97 | P a g e"
+    },
+    {
+      "pageNumber": 98,
+      "text": "98 | P a g e"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-001",
+      "pageNumber": 1,
+      "text": "1 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-002",
+      "pageNumber": 2,
+      "text": "2 | P a g e\nREVISION BAC PRATIQUE 2023\nMATIERE : INFORMATIQUE\nENSEIGNANT : Kais TABOUBI\n*****\nSOMMAIRE\nGraphique **** Chariot gratuit payant\nGraphique **** Cryptographie par alphabet-Clé\nGraphique **** Cryptographie par occurrence successive\nGraphique **** Cryptographie par apparition\nGraphique **** Mots Frères-Cousins\nGraphique **** Mot presque palindrome\nGraphique **** Arithmétique_Nombre Pointu\nGraphique **** Arithmétique_Nombre Spécial\nGraphique **** Arithmétique_Nombre totalement impair\nGraphique **** Arithmétique_Nombre doublement palindrome\nGraphique **** Arithmétique_Nombre de Smith\nNumpy **** **** Nombres-Sectionnable unitaire\nNumpy **** **** Nombres Etranches\nNumpy **** **** Nombres doublement palindrome\nNumpy **** **** Conours d'une commune\nGraphique **** Arithmétique_CRODEC DECRO\nGraphique **** Emprisonnement d'un mot\nGraphique **** Arithmétique_Nombres Homogènes"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-003",
+      "pageNumber": 3,
+      "text": "3 | P a g e\nGraphique **** Arithmétique_PPMB\nGraphique **** Arithmétique_Nombre Multipotent\nGraphique **** Arithmétique_Nombre Lisse\nGraphique **** Arithmétique_Nombre semi premier\nGraphique **** Arithmétique_Nombre hautement abondant\nGraphique **** Prototype 2022\nGraphique **** Salle de Sport"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-004",
+      "pageNumber": 4,
+      "text": "4 | P a g e\n❶\n❷\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°1\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-005",
+      "pageNumber": 5,
+      "text": "5 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-006",
+      "pageNumber": 6,
+      "text": "6 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-007",
+      "pageNumber": 7,
+      "text": "7 | P a g e\n❶\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°2\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:\n❶\n❷"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-008",
+      "pageNumber": 8,
+      "text": "8 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-009",
+      "pageNumber": 9,
+      "text": "9 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-010",
+      "pageNumber": 10,
+      "text": "10 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°3\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-011",
+      "pageNumber": 11,
+      "text": "11 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-012",
+      "pageNumber": 12,
+      "text": "12 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-013",
+      "pageNumber": 13,
+      "text": "13 | P a g e\n▣\n▣\n▣\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet Pratique n°4\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant\n:"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-014",
+      "pageNumber": 14,
+      "text": "14 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-015",
+      "pageNumber": 15,
+      "text": "15 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-016",
+      "pageNumber": 16,
+      "text": "16 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n◉\n◉\n❶\n◉\n◉\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n❸\nLycée Béja Nord Sujet Pratique n°5\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-017",
+      "pageNumber": 17,
+      "text": "17 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-018",
+      "pageNumber": 18,
+      "text": "18 | P a g e\nGrille d’évaluation :\nExemples d’exécuti\non"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-019",
+      "pageNumber": 19,
+      "text": "19 | P a g e\n▣\n▣\n❶\n◉\n◉\n◉\n❷\n◉\n◉\n◉\n◉\n❸\n◉\n◉\n◉\n Une solution modulaire au problème posé est exigée.\n Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLycée Béja Nord Sujet pratique n°6\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\nImportant :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-020",
+      "pageNumber": 20,
+      "text": "20 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-021",
+      "pageNumber": 21,
+      "text": "21 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-022",
+      "pageNumber": 22,
+      "text": "22 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n\n❶\n❷\n\n❸\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°7\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-023",
+      "pageNumber": 23,
+      "text": "23 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-024",
+      "pageNumber": 24,
+      "text": "24 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-025",
+      "pageNumber": 25,
+      "text": "25 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°8\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-026",
+      "pageNumber": 26,
+      "text": "26 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-027",
+      "pageNumber": 27,
+      "text": "27 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-028",
+      "pageNumber": 28,
+      "text": "28 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°9 (DC2-Salem Moallem)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-029",
+      "pageNumber": 29,
+      "text": "29 | P a g e\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-030",
+      "pageNumber": 30,
+      "text": "30 | P a g e\nGrille d’évaluation :\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-031",
+      "pageNumber": 31,
+      "text": "31 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣ \n\n\n❶\n❷\n\nLycée Béja Nord Sujet pratique n°10\nClasses : 4èmeM&SC\nDurée : 1H :30min\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-032",
+      "pageNumber": 32,
+      "text": "32 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-033",
+      "pageNumber": 33,
+      "text": "33 | P a g e\nExemp\nles d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-034",
+      "pageNumber": 34,
+      "text": "34 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°11\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-035",
+      "pageNumber": 35,
+      "text": "35 | P a g e\n◉\n◉\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-036",
+      "pageNumber": 36,
+      "text": "36 | P a g e\nGrille d’évaluation :"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-037",
+      "pageNumber": 37,
+      "text": "37 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n⋯ 𝑝 𝑝\n▣\n▣\n◉\n◉\nLycée Béja Nord Sujet pratique n°12 (DC1-4M1)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 11 10 15 16 136 67 15\n0 1 2 3 4 5 6\nT 23 11 103 386\n0 1 2 3"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-038",
+      "pageNumber": 38,
+      "text": "38 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nDétermination des nombres ETRANCHES\nUn entier naturel N, composé de p chiffres (N = n1n2…np) est un nombre ETRANCHE si, pour tout\nentier i allant de 2 à p, l’entier naturel n1n2…ni est divisible par i.\nExemple 1: 2016 est un nombre ETRANCHE.\nEn effet :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2016 est divisible par 4\nExemple 2: 201920 n’est pas un nombre ETRANCHE.\nCar :\n◉ 20 est divisible par 2\n◉ 201 est divisible par 3\n◉ 2019 n’est pas divisible par 4, donc on arrête\nla vérification.\nExemple 3: 705 est un nombre ETRANCHE.\nEn effet :\n◉ 70 est divisible par 2\n◉ 705 est divisible par 3\nExemple 4: 72 est un nombre ETRANCHE.\nEn effet :\n◉ 72 est divisible par 2\nExemple 5: 2041 n’est pas un nombre ETRANCHE. Car :\n◉ 20 est divisible par 2\n◉ 204 est divisible par 3\n◉ 2041 n’est pas divisible par 4, donc on arrête la vérification.\nTravail demandé :\nEcrire un programme en Python qui permet de :\n▣ Remplir un tableau T, par m entiers naturels de deux chiffres ou plus, avec ( 4 ≤ m ≤ 20).\n▣ Déterminer et afficher, à partir du tableau T,\n◉ Les entiers ETRANCHES selon la description décrite précédemment, s’il existe,\n◉ Sinon le message suivant \"Aucun nombre ETRANCHE dans le tableau\"\nExemple1 : Soit m=7 et le tableau T suivant :\nle programme affiche : les nombres ETRANCHES sont : 102, 72, 705, 705204, 1024\nExemple2 : Soit m=4 et le tableau T suivant :\nle programme affiche : Aucun nombre ETRANCHE dans le tableau\nT 23 102 72 705 705204 1024 326\n0 1 2 3 4 5 6\nLycée Béja Nord Sujet pratique n°13 (DC1-4M2)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\nT 23 326 103 705234\n0 1 2 3"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-039",
+      "pageNumber": 39,
+      "text": "39 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nOn dispose d’un tableau T contenant N entiers strictement positifs palindromes.\nL’algorithme suivant est celui d’une fonction permettant de vérifier si un entier X est palindrome ou non.\nFonction Palindrome (X : entier) : booléen\nDébut\nch  convch(X)\ni  0\nTant que i < Long(ch) Div 2 ET ch[i] = ch[Long(ch) -1 – i] Faire\ni  i +1\nFin Tant que\nRetourner i = Long(ch) Div 2\nFin\nUtiliser la fonction ci-dessus, pour écrire un programme en Python, permettant de :\n▣ Saisir un tableau T de N entiers strictement positifs palindromes (5 ≤ N ≤ 20).\n▣ Afficher, s’il existe, les nombres doublement palindromes. Comme le montre l’exemple ci-\ndessous.\nUn nombre naturel N (N  1), est dit doublement palindrome lorsque qu’il est :\n palindrome sous sa forme décimale\n et palindrome avec sa représentation binaire.\n❶ Un nombre palindrome: est un nombre qui peut se lire indifféremment de gauche à\ndroite ou de droite à gauche en gardant le même sens. (Exemple: 22, 313)\n❷ Un nombre binaire: dans notre cas, est le résultat de la conversion d’un nombre décimal.\nPour réaliser cette opération, il faut faire des divisions entières successives par 2 jusqu’à ce que le\nquotient devienne nul. Exemple :\nLycée Béja Nord Sujet pratique n°14\nClasses : 4èmeM&SC\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-040",
+      "pageNumber": 40,
+      "text": "40 | P a g e\nExemple : Pour le tableau T suivant avec N=8 :\nLe programme affiche :\nLes nombres doublement palindromes sont :\n33 = 100001\n717= 1011001101\n99=1100011\nT 11 4 33 212 414 717 22 99\n0 1 2 3 4 5 6 7"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-041",
+      "pageNumber": 41,
+      "text": "41 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription (6chiffres) et\ndans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nConcours d’une commune\nUne commune organise sur un week-end un concours de course / marche / randonnée par équipes.\nPour gérer les résultats de la compétition, les organisateurs ont créé deux tableaux :\n◉ Un tableau TN (Tableau des Noms) dans lequel sont enregistrés les noms des équipes.\n◉ Un tableau TT (Tableau de Temps) dans lequel est enregistré le temps total pris une équipe pour\nréaliser les épreuves. Le temps est mesuré en secondes.\nA un nom inscrit dans la case d’indice i de TN correspond le temps inscrit dans la case d’indice i de TT.\nAinsi par exemple, avec 4 équipes, on peut avoir :\nTN Les bisounours La clef des champs Vert de gris Les schtroumpfs\n1 2 3 4\nTT 7357 7045 9283 7045\n1 2 3 4\nLes deux équipes \" La clef des champs \" et \" Les schtroumpfs \" sont pour le moment en tête du concours\navec un temps total de 7045 secondes, talonnées par l’équipe \" Les bisounours \", en troisième position, avec\n7357 secondes. Enfin de peloton, arrive l’équipe \" Vert de gris \" avec un temps de 9283 secondes.\nOn se propose de réaliser un programme en Python intitulé ‘’COMPETITION’’ qui permet de :\n Remplir, à la fois, deux tableaux TN et TT par respectivement, N noms d’équipes avec (3 ≤ N ≤ 20) et le\ntemps total pris chaque équipe pour réaliser les épreuves.\nNB : Chaque nom d’équipe est un ensemble de mots alphabétiques distincts bien espacés\n Afficher le classement final du concours comme indiqué dans l’exemple ci-après, en commençant par le\nnom de l’équipe qui a réalisé le plus petit temps. Il est à noter que les équipes ayant un même temps\nauront un même rang dans le classement.\nNB : chaque ligne d’affichage doit contenir, suite au nom de l’équipe, le temps total sous la forme en H:Min:Sec\n. Par exemple, le temps pris par l’équipe \"Les bisounours\" est 7357 secondes , lors de l’affichage final sera :\nRang n° 3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nLycée Béja Nord Sujet pratique n°15 (PBME-DS1-4M-4SC)\nClasses : 4èmeSC&M\nDurée : 1 Heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-042",
+      "pageNumber": 42,
+      "text": "42 | P a g e\nExemple : pour les données enregistrées dans les deux tableaux TN et TT citées précédemment,\nLe programme affichera\nLe classement est :\nRang n°1 : L’équipe La clef des champs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nL’équipe Les schtroumpfs a pris 1 H :57 Min :25 Sec pour réaliser toutes les épreuves\nRang n°3 : L’équipe Les bisounours a pris 2 H :3 Min :37 Sec pour réaliser toutes les épreuves\nRang n°4 : L’équipe Vert de gris a pris 2 H :34 Min :43 Sec pour réaliser toutes les épreuves"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-043",
+      "pageNumber": 43,
+      "text": "43 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\nLe nombre CRO-DEC et le nombre DEC-CRO\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit CRO-DEC (c-à-d CROISSANT ensuite DECROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre croissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre décroissant stricte,\n et le chiffre du milieu sera le plus grand des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 < C2 < C3 > C4 > C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\n************************************************************************************\n▣ Un nombre naturel N (N  100), est dit DEC-CRO (c-à-d DECROISSANT ensuite CROISSANT) s’il est formé\nd’un nombre impair de chiffres et vérifie les propriétés suivantes :\n Les chiffres de la partie gauche du nombre N doivent être en ordre décroissant stricte,\n les chiffres de la partie droite du nombre doivent être en ordre croissant stricte,\n et le chiffre du milieu sera le plus petit des chiffres de gauche et de droite.\nPar exemple : N s’écrit sous la forme C1C2C3C4C5 . Les Ci, doivent se présenter de la manière\nsuivante : C1 > C2 > C3 < C4 < C5 .Avec i  {1,.., 5} et Ci sont les 5 chiffres qui le composent.\nExemples :\nDes nombres CRO-DEC Des nombres DEC- CRO\nN= 283 : N est un nombre CRO-DEC,\ncar 2 < 8 et 8 > 3\nN= 35741 : N est un nombre CRO-DEC,\ncar 3 < 5 < 7 > 4 > 1\nN= 724 : N est un nombre DEC-CRO,\ncar 7 > 2 < 4\nN= 85169 : N est un nombre DEC-CRO,\ncar 8 > 5 > 1 < 6 < 9\nDes nombres ni CRO-DEC ni DEC- CRO\nN= 289 : N n’est pas un nombre CRO-DEC, car 2 < 8 mais 8 < 9\nEt N n’est pas un nombre DEC-CRO, car 2 < 8\nN= 35541 : N n’est pas un nombre CRO-DEC, car 3 < 5 mais le chiffre du milieu (5) n’est pas\nsupérieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nN= 35749 : N n’est pas un nombre CRO-DEC, car 3 < 5 < 7 > 4 mais le dernier chiffre (9) n’est pas\ninférieur stricte au chiffre qui le précède et N n’est pas un nombre DEC-CRO, car 3 < 5\nPour vérifier si un entier naturel N (N  100) est un nombre CRO-DEC, DEC-CRO ou ni CRO-DEC ni DEC-CRO, on\nse propose de concevoir une interface graphique contenant les éléments suivants :\n◉ Un label contenant le texte : \"CRO-DEC *** DEC-CRO\"\n◉ Un label demandant la saisie du nombre :\n\"Introduire un entier >= 100 et dont le nombre de ses chiffres est impair: \"\nLycée Béja Nord Sujet pratique n°16 (DC2-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-044",
+      "pageNumber": 44,
+      "text": "44 | P a g e\n◉ Une zone de saisie permettant la saisie du nombre.\n◉ Un bouton intitulé \" Vérifier\"\n◉ Un bouton intitulé \"Effacer\" (permettant d’effacer la zone de saisie et le label d’affichage)\n◉ Un label pour afficher le message adéquat\nTravail demandé :\no\no\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-045",
+      "pageNumber": 45,
+      "text": "45 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n◉\n◉\n◉\n◉\n❷\n◉\n◉\n❸\n◉\n◉\n◉\n◉\n➍\nLycée Béja Nord Sujet pratique n°17 (DC3-4SC2)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-046",
+      "pageNumber": 46,
+      "text": "46 | P a g e\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-047",
+      "pageNumber": 47,
+      "text": "47 | P a g e\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-048",
+      "pageNumber": 48,
+      "text": "48 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°18 (DC3-4SC1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-049",
+      "pageNumber": 49,
+      "text": "49 | P a g e\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-050",
+      "pageNumber": 50,
+      "text": "50 | P a g e\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-051",
+      "pageNumber": 51,
+      "text": "51 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°19 (DC3-4M2)\nClasses : 4èmeM2\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-052",
+      "pageNumber": 52,
+      "text": "52 | P a g e\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-053",
+      "pageNumber": 53,
+      "text": "53 | P a g e\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-054",
+      "pageNumber": 54,
+      "text": "54 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n▣\n❶\n❷\n❸\n➍\n❺\n❻\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°20 (DC3-4M1)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-055",
+      "pageNumber": 55,
+      "text": "55 | P a g e\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-056",
+      "pageNumber": 56,
+      "text": "56 | P a g e\nExemples d’exécution"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-057",
+      "pageNumber": 57,
+      "text": "57 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°21 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-058",
+      "pageNumber": 58,
+      "text": "58 | P a g e\no\no\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-059",
+      "pageNumber": 59,
+      "text": "59 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°22 (Bac Pratique 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-060",
+      "pageNumber": 60,
+      "text": "60 | P a g e\no\no\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-061",
+      "pageNumber": 61,
+      "text": "61 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°23 (Bac Pratique AR 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-062",
+      "pageNumber": 62,
+      "text": "62 | P a g e\n◉\n◉"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-063",
+      "pageNumber": 63,
+      "text": "63 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n\n\n\nLycée Béja Nord Sujet Pratique n°24 (Prototype 2022)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-064",
+      "pageNumber": 64,
+      "text": "64 | P a g e\n\n\n\n\n\n1)\n2)\n3)\n4)\n\n\n\n\n\n\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-065",
+      "pageNumber": 65,
+      "text": "65 | P a g e\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-066",
+      "pageNumber": 66,
+      "text": "66 | P a g e\nImportant :\n1. Une solution modulaire au problème posé est exigée.\n2. Dans le répertoire Bac2023, créez un dossier de travail ayant comme nom votre numéro d’inscription\n(6chiffres) et dans lequel vous devez enregistrer, au fur et à mesure, tous les fichiers solution à ce sujet.\n◉\n◉\n◉\nLycée Béja Nord Sujet Pratique n°25 (Bac Pratique 2019)\nClasses : 4èmeSC&M\nDurée : 1 heure\nDate : **-**-2023\nNom et Prénom : ……….……………………………………………………………………………...\nEnseignant : Kais TABOUBI\tMatière : Informatique\n\n\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-067",
+      "pageNumber": 67,
+      "text": "67 | P a g e\n\n\n\n\n"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-068",
+      "pageNumber": 68,
+      "text": "68 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-069",
+      "pageNumber": 69,
+      "text": "69 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-070",
+      "pageNumber": 70,
+      "text": "70 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-071",
+      "pageNumber": 71,
+      "text": "71 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-072",
+      "pageNumber": 72,
+      "text": "72 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-073",
+      "pageNumber": 73,
+      "text": "73 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-074",
+      "pageNumber": 74,
+      "text": "74 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-075",
+      "pageNumber": 75,
+      "text": "75 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-076",
+      "pageNumber": 76,
+      "text": "76 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-077",
+      "pageNumber": 77,
+      "text": "77 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-078",
+      "pageNumber": 78,
+      "text": "78 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-079",
+      "pageNumber": 79,
+      "text": "79 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-080",
+      "pageNumber": 80,
+      "text": "80 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-081",
+      "pageNumber": 81,
+      "text": "81 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-082",
+      "pageNumber": 82,
+      "text": "82 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-083",
+      "pageNumber": 83,
+      "text": "83 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-084",
+      "pageNumber": 84,
+      "text": "84 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-085",
+      "pageNumber": 85,
+      "text": "85 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-086",
+      "pageNumber": 86,
+      "text": "86 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-087",
+      "pageNumber": 87,
+      "text": "87 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-088",
+      "pageNumber": 88,
+      "text": "88 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-089",
+      "pageNumber": 89,
+      "text": "89 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-090",
+      "pageNumber": 90,
+      "text": "90 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-091",
+      "pageNumber": 91,
+      "text": "91 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-092",
+      "pageNumber": 92,
+      "text": "92 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-093",
+      "pageNumber": 93,
+      "text": "93 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-094",
+      "pageNumber": 94,
+      "text": "94 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-095",
+      "pageNumber": 95,
+      "text": "95 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-096",
+      "pageNumber": 96,
+      "text": "96 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-097",
+      "pageNumber": 97,
+      "text": "97 | P a g e"
+    },
+    {
+      "chunkId": "DOC-F0D6B2E37C62F49E-CHK-098",
+      "pageNumber": 98,
+      "text": "98 | P a g e"
+    }
+  ]
+}

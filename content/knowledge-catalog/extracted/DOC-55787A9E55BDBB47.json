@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-55787A9E55BDBB47",
+  "filename": "Approximation 2.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Approximation 2.py",
+  "sha256": "55787a9e55bdbb47411e58ab939f959d0dca776d4a81c0cc99383582662d96c4",
+  "extractedAt": "2026-11-14T18:35:36.456Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def appro2(): nb=1 x0=1 x1=1-sin(x0) d=abs(x0-x1) while d >= (10**-4): x0=x1 x1=1-sin(x0) d=abs(x0-x1) nb=nb+1 print(\"La valeur approché est: \",x1) print(\"Le nombre d'iteration est: \",nb) appro2()",
+  "fullText": "from math import *\r\ndef appro2():\r\n    nb=1\r\n    x0=1\r\n    x1=1-sin(x0)\r\n    d=abs(x0-x1)\r\n    while d >= (10**-4):\r\n        x0=x1\r\n        x1=1-sin(x0)\r\n        d=abs(x0-x1)\r\n        nb=nb+1\r\n    print(\"La valeur approché est: \",x1)\r\n    print(\"Le nombre d'iteration est: \",nb)\r\nappro2()",
+  "chunks": [
+    {
+      "chunkId": "DOC-55787A9E55BDBB47-CHK-001",
+      "text": "from math import *\r\ndef appro2():\r\n    nb=1\r\n    x0=1\r\n    x1=1-sin(x0)\r\n    d=abs(x0-x1)\r\n    while d >= (10**-4):\r\n        x0=x1\r\n        x1=1-sin(x0)\r\n        d=abs(x0-x1)\r\n        nb=nb+1\r\n    print(\"La valeur approché est: \",x1)\r\n    print(\"Le nombre d'iteration est: \",nb)\r\nappro2()"
+    }
+  ]
+}

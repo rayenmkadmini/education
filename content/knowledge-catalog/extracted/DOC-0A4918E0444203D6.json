@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-0A4918E0444203D6",
+  "filename": "Serie 1 - Enonce.pdf",
+  "relPath": "algorithme -20261106T124655Z-1-001/algorithme_/La récursivité/Serie 1 - Enonce.pdf",
+  "sha256": "0a4918e0444203d65c4f7351bcca7a6bd307219fd985fd8f8937404cbb1598b8",
+  "extractedAt": "2026-11-06T14:23:11.786Z",
+  "pageCount": 3,
+  "textSnippet": "Bac — Informatique Bac — Informatique Algorithmique Algorithmique Récursivité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 3 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercices Exercice 1 Ecrire ensemble de module nécessaire pour réaliser les différents traitements d'une manière récursive et itérative : Exercice 2 (Tournage à la main) Que fait la fonction suivante : Fonction inconnue (st :chaîne ) : chaîne Debut Si St = \"\" Alors Retourner \"\" Sinon Retourner (st[long(st)-1] + inconnue(sous_chaine(st, 0 , l",
+  "fullText": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercices\nExercice 1\nEcrire ensemble de module nécessaire pour réaliser les différents traitements d'une manière\nrécursive et itérative :\nExercice 2 (Tournage à la main)\nQue fait la fonction suivante :\nFonction inconnue (st :chaîne ) : chaîne\nDebut\nSi St = \"\" Alors\nRetourner \"\"\nSinon\nRetourner (st[long(st)-1] + inconnue(sous_chaine(st, 0 , long(st)-1))\nFinSi\nFin\nExercice 3 (bac 4SI 2013 contrôle)\nSoit l'algorithme de la fonction Inconnue suivante :\nFonction Inconnue (A, B :entier) : ...........................\nDebut\nSi A = B Alors\nRetourner A\nSinon\nSi A > B Alors\nRetourner (Inconnue (A-B , B) * A ) Div (A-B)\nSinon\nRetourner (Inconnue (A, B-A) * B ) Div (B-A)\nFinSi\nFinSi\nFin\nS É R I E 1\nRécursivité — Énoncé\nCalculer le factoriel d'un entier positif.\nCalculer la puissance de An sachant que A est un réel donnée et n un entier.\nDéterminer si une chaîne est palindrome ou non\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →\n\n-- 2 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nTravail demandé :\n1- Déterminer le type de retour de la fonction Inconnue\n2- Donner la trace d'exécution ainsi que les résultats retournés par la fonction Inconnue\npour les valeurs de A et B suivantes :\n3- Déduire le rôle de la fonction Inconnue.\nA =6 et B =15\nA =8 et B =3\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2\n\n-- 3 of 3 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercices\nExercice 1\nEcrire ensemble de module nécessaire pour réaliser les différents traitements d'une manière\nrécursive et itérative :\nExercice 2 (Tournage à la main)\nQue fait la fonction suivante :\nFonction inconnue (st :chaîne ) : chaîne\nDebut\nSi St = \"\" Alors\nRetourner \"\"\nSinon\nRetourner (st[long(st)-1] + inconnue(sous_chaine(st, 0 , long(st)-1))\nFinSi\nFin\nExercice 3 (bac 4SI 2013 contrôle)\nSoit l'algorithme de la fonction Inconnue suivante :\nFonction Inconnue (A, B :entier) : ...........................\nDebut\nSi A = B Alors\nRetourner A\nSinon\nSi A > B Alors\nRetourner (Inconnue (A-B , B) * A ) Div (A-B)\nSinon\nRetourner (Inconnue (A, B-A) * B ) Div (B-A)\nFinSi\nFinSi\nFin\nS É R I E 1\nRécursivité — Énoncé\nCalculer le factoriel d'un entier positif.\nCalculer la puissance de An sachant que A est un réel donnée et n un entier.\nDéterminer si une chaîne est palindrome ou non\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nTravail demandé :\n1- Déterminer le type de retour de la fonction Inconnue\n2- Donner la trace d'exécution ainsi que les résultats retournés par la fonction Inconnue\npour les valeurs de A et B suivantes :\n3- Déduire le rôle de la fonction Inconnue.\nA =6 et B =15\nA =8 et B =3\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-0A4918E0444203D6-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-0A4918E0444203D6-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercices\nExercice 1\nEcrire ensemble de module nécessaire pour réaliser les différents traitements d'une manière\nrécursive et itérative :\nExercice 2 (Tournage à la main)\nQue fait la fonction suivante :\nFonction inconnue (st :chaîne ) : chaîne\nDebut\nSi St = \"\" Alors\nRetourner \"\"\nSinon\nRetourner (st[long(st)-1] + inconnue(sous_chaine(st, 0 , long(st)-1))\nFinSi\nFin\nExercice 3 (bac 4SI 2013 contrôle)\nSoit l'algorithme de la fonction Inconnue suivante :\nFonction Inconnue (A, B :entier) : ...........................\nDebut\nSi A = B Alors\nRetourner A\nSinon\nSi A > B Alors\nRetourner (Inconnue (A-B , B) * A ) Div (A-B)\nSinon\nRetourner (Inconnue (A, B-A) * B ) Div (B-A)\nFinSi\nFinSi\nFin\nS É R I E 1\nRécursivité — Énoncé\nCalculer le factoriel d'un entier positif.\nCalculer la puissance de An sachant que A est un réel donnée et n un entier.\nDéterminer si une chaîne est palindrome ou non\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-0A4918E0444203D6-CHK-003",
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nTravail demandé :\n1- Déterminer le type de retour de la fonction Inconnue\n2- Donner la trace d'exécution ainsi que les résultats retournés par la fonction Inconnue\npour les valeurs de A et B suivantes :\n3- Déduire le rôle de la fonction Inconnue.\nA =6 et B =15\nA =8 et B =3\nAlgorithmique\nSérie 1 · Récursivité · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ]
+}

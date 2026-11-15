@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FE03FA08BDE0DABC",
+  "filename": "Valeur approché à 10^-5.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Valeur approché à 10^-5.py",
+  "sha256": "fe03fa08bde0dabc2f82aac17761b5a14828d5c1625243ba9b56daee14b68cbb",
+  "extractedAt": "2026-11-14T18:35:36.509Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def f(x): return cos(x)+sqrt(x) def pt_fx(): x=0.2 while abs (f(x)-x)>0.00001: x=f(x) return x #Programme Principale: print(\"La valeur approché d'un point fixe à la fonction est: \",pt_fx())",
+  "fullText": "from math import *\r\ndef f(x):\r\n    return cos(x)+sqrt(x)\r\ndef pt_fx():\r\n    x=0.2\r\n    while abs (f(x)-x)>0.00001:\r\n        x=f(x)\r\n    return x\r\n#Programme Principale:\r\nprint(\"La valeur approché d'un point fixe à la fonction est: \",pt_fx())",
+  "chunks": [
+    {
+      "chunkId": "DOC-FE03FA08BDE0DABC-CHK-001",
+      "text": "from math import *\r\ndef f(x):\r\n    return cos(x)+sqrt(x)\r\ndef pt_fx():\r\n    x=0.2\r\n    while abs (f(x)-x)>0.00001:\r\n        x=f(x)\r\n    return x\r\n#Programme Principale:\r\nprint(\"La valeur approché d'un point fixe à la fonction est: \",pt_fx())"
+    }
+  ]
+}

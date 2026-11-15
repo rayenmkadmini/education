@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FD9D456341FE986B",
+  "filename": "ground.jpg",
+  "relPath": "bac info/sti/projet 3 version élève/files/ground.jpg",
+  "sha256": "fd9d456341fe986bd8c6bb76d2e4519b68dab99e0f466a481a3592940b97d722",
+  "extractedAt": "2026-11-06T14:24:19.105Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: ground.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: ground.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-FD9D456341FE986B-CHK-001",
+      "text": "[Fichier Image Pédagogique: ground.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

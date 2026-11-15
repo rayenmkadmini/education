@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-BDBD993792458655",
+  "filename": "connexion.php",
+  "relPath": "bac info/sti/projet 4/connexion.php",
+  "sha256": "bdbd99379245865563b416566c7a3936e14d355a472cf8014b764893720b767e",
+  "extractedAt": "2026-11-06T14:24:19.264Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"universdulivreRE\") or die(\"erreur de cnx\".mysqlierror($cnx)); ?>",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"universdulivreRE\") or die(\"erreur de cnx\".mysqlierror($cnx));\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-BDBD993792458655-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"universdulivreRE\") or die(\"erreur de cnx\".mysqlierror($cnx));\r\n\n?>"
+    }
+  ]
+}

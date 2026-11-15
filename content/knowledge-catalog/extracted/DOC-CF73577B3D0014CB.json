@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-CF73577B3D0014CB",
+  "filename": "Bac 2020.py",
+  "relPath": "bac info/algo/Python/Bac 2020/Bac 2020.py",
+  "sha256": "cf73577b3d0014cbb0c405144f5f5cfafd64aa40a93c0000a32b0f7a38dfd21e",
+  "extractedAt": "2026-11-14T18:35:35.322Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir(): nb=int(input(\"Donner nb: \")) while not nb>=5 : nb=int(input(\"Donner nb: \")) return nb def remplir1(F1,nb): for i in range(nb): #etape 1 : saisie de la valeur x = int(input(\"Nombre n\"+str(i)+\" = \")) while not x >=0: x = int(input(\"Nombre n\"+str(i)+\" = \")) #etape 2 : ecriture dans le fichier F1.write(str(x)+\"\\n\") F1.close() def divis13(n): s=0 sg=-1 while len",
+  "fullText": "\r\ndef saisir():\r\n    nb=int(input(\"Donner nb: \"))\r\n    while not nb>=5 :\r\n        nb=int(input(\"Donner nb: \"))\r\n    return nb\r\n\r\n\r\ndef remplir1(F1,nb):\r\n    for i in range(nb):\r\n        #etape 1 : saisie de la valeur\r\n        x = int(input(\"Nombre n\"+str(i)+\" = \"))\r\n        while not x >=0:\r\n            x = int(input(\"Nombre n\"+str(i)+\" = \"))\r\n        #etape 2 : ecriture dans le fichier\r\n        F1.write(str(x)+\"\\n\")\r\n    F1.close()\r\n        \r\n\r\ndef divis13(n):\r\n    s=0\r\n    sg=-1\r\n    while len(n)>=3:\r\n        v = int(n[len(n)-3:len(n)])\r\n        s = s+v*sg\r\n        sg=-sg\r\n        n=n[:len(n)-3]\r\n    if n!='':\r\n        v = int(n)\r\n        s = s+v*sg\r\n    return abs(s)%13 == 0\r\n    \r\ndef remplir2(F1,F2,F3,nb):\r\n    F1 = open(\"nombre.txt\",\"r\")\r\n    for i in range(nb):\r\n        x = F1.readline()\r\n        x = x[:len(x)-1]\r\n        if divis13(x)==True :\r\n            F2.write(x+\"\\n\")\r\n        if divis7(x)== True:\r\n            F3.write(x+\"\\n\")\r\n    F1.close()\r\n    F2.close()\r\n    F3.close()\r\n    \r\n    \r\ndef som(ch):\r\n    sg=1\r\n    s=0\r\n    j=0\r\n    for i in range(len(ch)-1,-1,-1):\r\n        x = int(ch[i]) ; j=j+1\r\n        if j==1:\r\n            s=s+x*1*sg\r\n        elif j==2 :\r\n            s=s+x*3*sg\r\n        else:\r\n            s=s+x*2*sg\r\n        if j==3:\r\n            sg=-sg\r\n            j=0\r\n    return s\r\n\r\ndef divis7(ch):\r\n    s=0\r\n    while len(ch)>=2:\r\n        s=s+som(ch)\r\n        ch=str(s)\r\n    return s==0 or s==7\r\n\r\n#---Programme Principale---\r\nF1 = open(\"nombre.txt\",\"w\")\r\nF2 = open(\"div13.txt\",\"w\")\r\nF3 = open(\"div7.txt\",\"w\")\r\nnb=saisir()\r\nremplir1(F1,nb)\r\nremplir2(F1,F2,F3,nb)",
+  "chunks": [
+    {
+      "chunkId": "DOC-CF73577B3D0014CB-CHK-001",
+      "text": "def saisir():\r\n    nb=int(input(\"Donner nb: \"))\r\n    while not nb>=5 :\r\n        nb=int(input(\"Donner nb: \"))\r\n    return nb\r\n\ndef remplir1(F1,nb):\r\n    for i in range(nb):\r\n        #etape 1 : saisie de la valeur\r\n        x = int(input(\"Nombre n\"+str(i)+\" = \"))\r\n        while not x >=0:\r\n            x = int(input(\"Nombre n\"+str(i)+\" = \"))\r\n        #etape 2 : ecriture dans le fichier\r\n        F1.write(str(x)+\"\\n\")\r\n    F1.close()\r\n\ndef divis13(n):\r\n    s=0\r\n    sg=-1\r\n    while len(n)>=3:\r\n        v = int(n[len(n)-3:len(n)])\r\n        s = s+v*sg\r\n        sg=-sg\r\n        n=n[:len(n)-3]\r\n    if n!='':\r\n        v = int(n)\r\n        s = s+v*sg\r\n    return abs(s)%13 == 0"
+    },
+    {
+      "chunkId": "DOC-CF73577B3D0014CB-CHK-002",
+      "text": "def remplir2(F1,F2,F3,nb):\r\n    F1 = open(\"nombre.txt\",\"r\")\r\n    for i in range(nb):\r\n        x = F1.readline()\r\n        x = x[:len(x)-1]\r\n        if divis13(x)==True :\r\n            F2.write(x+\"\\n\")\r\n        if divis7(x)== True:\r\n            F3.write(x+\"\\n\")\r\n    F1.close()\r\n    F2.close()\r\n    F3.close()\r\n\ndef som(ch):\r\n    sg=1\r\n    s=0\r\n    j=0\r\n    for i in range(len(ch)-1,-1,-1):\r\n        x = int(ch[i]) ; j=j+1\r\n        if j==1:\r\n            s=s+x*1*sg\r\n        elif j==2 :\r\n            s=s+x*3*sg\r\n        else:\r\n            s=s+x*2*sg\r\n        if j==3:\r\n            sg=-sg\r\n            j=0\r\n    return s\r\n\ndef divis7(ch):\r\n    s=0\r\n    while len(ch)>=2:\r\n        s=s+som(ch)\r\n        ch=str(s)\r\n    return s==0 or s==7"
+    },
+    {
+      "chunkId": "DOC-CF73577B3D0014CB-CHK-003",
+      "text": "#---Programme Principale---\r\nF1 = open(\"nombre.txt\",\"w\")\r\nF2 = open(\"div13.txt\",\"w\")\r\nF3 = open(\"div7.txt\",\"w\")\r\nnb=saisir()\r\nremplir1(F1,nb)\r\nremplir2(F1,F2,F3,nb)"
+    }
+  ]
+}

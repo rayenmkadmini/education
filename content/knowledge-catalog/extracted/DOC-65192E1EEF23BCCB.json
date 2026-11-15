@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-65192E1EEF23BCCB",
+  "filename": "Divisibilté par 11.py",
+  "relPath": "bac info/algo/Python/Divisibilté par 11.py",
+  "sha256": "65192e1eef23bccb2cd212010fbf7ea714feb81e225cb37993b5531d7247390e",
+  "extractedAt": "2026-11-14T18:35:36.309Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir(): global x x=int(input(\"Donner l'entier x: \")) def verif(): if (x%11==0): print(\"L'entier est divisible par 11\") else: print(\"L'entier n'est pas divisible par 11\") #Programme Principale: saisir() verif()",
+  "fullText": "def saisir():\r\n    global x\r\n    x=int(input(\"Donner l'entier x: \"))\r\ndef verif():\r\n    if (x%11==0):\r\n        print(\"L'entier est divisible par 11\")\r\n    else:\r\n        print(\"L'entier n'est pas divisible par 11\")\r\n#Programme Principale:\r\nsaisir()\r\nverif()",
+  "chunks": [
+    {
+      "chunkId": "DOC-65192E1EEF23BCCB-CHK-001",
+      "text": "def saisir():\r\n    global x\r\n    x=int(input(\"Donner l'entier x: \"))\r\ndef verif():\r\n    if (x%11==0):\r\n        print(\"L'entier est divisible par 11\")\r\n    else:\r\n        print(\"L'entier n'est pas divisible par 11\")\r\n#Programme Principale:\r\nsaisir()\r\nverif()"
+    }
+  ]
+}

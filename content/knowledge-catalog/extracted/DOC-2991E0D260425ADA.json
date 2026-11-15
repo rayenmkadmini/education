@@ -1,0 +1,28 @@
+{
+  "documentId": "DOC-2991E0D260425ADA",
+  "filename": "epreuve_bac_pratique_2015_sujet7.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet7.py",
+  "sha256": "2991e0d260425adaf57d2e88c2ac149cb363edf1e35565c4f834c8f820c34225",
+  "extractedAt": "2026-11-06T14:24:37.694Z",
+  "pageCount": 1,
+  "textSnippet": "#idée du programme : mettre les facteurs premiers de N nombres chacun dans un tableau local puis vérifier dans ce tableau s'il y a des cases qui se répétent from numpy import array T = array([str] * 10) def Saisie(): b = False while not (b): n = int(input(\"Introduire le nombre de cases :\")) b = 3 <= n <= 10 return n def Remplir(n): for i in range(n): b = False while not (b): T[i] = int(input(\"T[\" + str(i) + \"]=",
+  "fullText": "#idée du programme : mettre les facteurs premiers de N nombres chacun dans un tableau local puis vérifier dans ce tableau s'il y a des cases qui se répétent\r\n\r\nfrom numpy import array\r\n\r\nT = array([str] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Introduire le nombre de cases :\"))\r\n        b = 3 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not (b):\r\n            T[i] = int(input(\"T[\" + str(i) + \"]= \"))\r\n            b = T[i] > 0\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\r\n\r\ndef facteurs(n, t):  #Décompossition en facteurs premiers\r\n    ch = \"\"\r\n    i = 2\r\n    j = 0  #la variable j stocke le nombre des facteurs premiers se répétant ou pas donc le nombre des cases du futur tableau local\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + '/'\r\n                t[j] = i\r\n                j += 1\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return j\r\n\r\n\r\ndef Affiche(T, N):\r\n    R = ''  # la chaine R va stocker les cases du tableau T qui contiennent des entiers 'riches'\r\n    for i in range(N):  #parcous des cases du tableau intial\r\n        t = array([str] * 100)  #initialisation d'un tableau local qui se vide chaque fois que le compteur i avance\r\n        j = facteurs(T[i], t)  #j désigne le nombre des cases du tableau local\r\n        ok = False\r\n        k = -1\r\n        while k < j - 1 and not ok:\r\n            k += 1\r\n            ok = t[k] == t[\r\n                k +\r\n                1]  # si au moin une case se répéte càd au moin deux cases successives sont identique alors ok reçoit Vrai doc la boucle s'arréte\r\n        if ok == True:\r\n            R += str(T[i]) + ', '\r\n    R = R[:len(R) - 2]\r\n    print('Les nombres riches sont :', R)\r\n\r\n\r\n#####################PP####################\"\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nAffiche(T, N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-2991E0D260425ADA-CHK-001",
+      "text": "#idée du programme : mettre les facteurs premiers de N nombres chacun dans un tableau local puis vérifier dans ce tableau s'il y a des cases qui se répétent\r\n\nfrom numpy import array\r\n\nT = array([str] * 10)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Introduire le nombre de cases :\"))\r\n        b = 3 <= n <= 10\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not (b):\r\n            T[i] = int(input(\"T[\" + str(i) + \"]= \"))\r\n            b = T[i] > 0\r\n\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b"
+    },
+    {
+      "chunkId": "DOC-2991E0D260425ADA-CHK-002",
+      "text": "def facteurs(n, t):  #Décompossition en facteurs premiers\r\n    ch = \"\"\r\n    i = 2\r\n    j = 0  #la variable j stocke le nombre des facteurs premiers se répétant ou pas donc le nombre des cases du futur tableau local\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + '/'\r\n                t[j] = i\r\n                j += 1\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return j"
+    },
+    {
+      "chunkId": "DOC-2991E0D260425ADA-CHK-003",
+      "text": "def Affiche(T, N):\r\n    R = ''  # la chaine R va stocker les cases du tableau T qui contiennent des entiers 'riches'\r\n    for i in range(N):  #parcous des cases du tableau intial\r\n        t = array([str] * 100)  #initialisation d'un tableau local qui se vide chaque fois que le compteur i avance\r\n        j = facteurs(T[i], t)  #j désigne le nombre des cases du tableau local\r\n        ok = False\r\n        k = -1\r\n        while k < j - 1 and not ok:\r\n            k += 1\r\n            ok = t[k] == t[\r\n                k +\r\n                1]  # si au moin une case se répéte càd au moin deux cases successives sont identique alors ok reçoit Vrai doc la boucle s'arréte\r\n        if ok == True:\r\n            R += str(T[i]) + ', '\r\n    R = R[:len(R) - 2]\r\n    print('Les nombres riches sont :', R)"
+    },
+    {
+      "chunkId": "DOC-2991E0D260425ADA-CHK-004",
+      "text": "#####################PP####################\"\r\n\nN = Saisie()\r\nRemplir(N)\r\nAffiche(T, N)"
+    }
+  ]
+}

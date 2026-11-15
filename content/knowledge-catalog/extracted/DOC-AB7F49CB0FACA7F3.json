@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-AB7F49CB0FACA7F3",
+  "filename": "bac_pratique_2012_sujet1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1.py",
+  "sha256": "ab7f49cb0faca7f37943dabeda4eafc7f795acad8db0712674aec1446041cb31",
+  "extractedAt": "2026-11-06T14:24:35.923Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 20) def Saisie(): b = False while not b: n = int(input(\"Donner n: \")) b = 5 <= n <= 20 return n def saisie_p(): b = False while not b: p = int(input(\"Donner p: \")) b = 1000 <= p <= 9999 return p def Remplir(N): for i in range(N): b = False while not b: T[i] = int(input(\"T[\" + str(i) + \"]=\")) b = len(str(T[i])) == 4 def App",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef saisie_p():\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner p: \"))\r\n        b = 1000 <= p <= 9999\r\n    return p\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\r\n\r\ndef Appartenance(T, N, p):\r\n    ok1 = False\r\n    i = -1\r\n    while (not ok1) and (i < N - 1) :\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while (not ok2) and (j <= N - 1) :\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]\r\n\r\n    return ok1, ok2\r\n\r\n\r\ndef Afficher(ok1, ok2):\r\n    if ok1:\r\n        print(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        print(\"p appartient partiellement à T\")\r\n    else:\r\n        print(\"p n'appartient pas à T\")\r\n\r\n\r\n#######################pp################\"######\r\nN = Saisie()\r\nRemplir(N)\r\np = saisie_p()\r\ntest1, test2 = Appartenance(T, N, p)\r\nAfficher(test1, test2)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-AB7F49CB0FACA7F3-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef saisie_p():\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner p: \"))\r\n        b = 1000 <= p <= 9999\r\n    return p\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\ndef Appartenance(T, N, p):\r\n    ok1 = False\r\n    i = -1\r\n    while (not ok1) and (i < N - 1) :\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while (not ok2) and (j <= N - 1) :\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]\r\n\n    return ok1, ok2"
+    },
+    {
+      "chunkId": "DOC-AB7F49CB0FACA7F3-CHK-002",
+      "text": "def Afficher(ok1, ok2):\r\n    if ok1:\r\n        print(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        print(\"p appartient partiellement à T\")\r\n    else:\r\n        print(\"p n'appartient pas à T\")\r\n\n#######################pp################\"######\r\nN = Saisie()\r\nRemplir(N)\r\np = saisie_p()\r\ntest1, test2 = Appartenance(T, N, p)\r\nAfficher(test1, test2)"
+    }
+  ]
+}

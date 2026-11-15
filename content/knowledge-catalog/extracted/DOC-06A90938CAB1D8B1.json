@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-06A90938CAB1D8B1",
+  "filename": "ajout.php",
+  "relPath": "bac info/sti/etude/bac preatique STI 2015/ajout.php",
+  "sha256": "06a90938cab1d8b17a89fb34b42c7e74fada3ce2763b7ca2f7786e05de81521a",
+  "extractedAt": "2026-11-06T14:24:16.989Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx)); $mat=$_POST[\"mat\"]; $nom=$_POST[\"nom\"]; $prenom=$_POST[\"prenom\"]; $email=$_POST[\"email\"]; if(isset($_POST[\"f\"])){ $genre=\"F\"; } if(isset($_POST[\"h\"])){ $genre=\"H\"; } $req1=\"SELECT * from pilote where matricule='$mat'\"; $res=mysqli_query($cnx,$req1) or die(mysqli_error($cnx)); if(mysqli_num_rows($res)!=0){ echo 'pilote deja existant'; } $req2=\"INSERT INTO p",
+  "fullText": "\r\n<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n$mat=$_POST[\"mat\"];\r\n$nom=$_POST[\"nom\"];\r\n$prenom=$_POST[\"prenom\"];\r\n$email=$_POST[\"email\"];\r\nif(isset($_POST[\"f\"])){\r\n    $genre=\"F\";\r\n}\r\nif(isset($_POST[\"h\"])){\r\n    $genre=\"H\";\r\n}\r\n\r\n$req1=\"SELECT * from pilote where matricule='$mat'\";\r\n$res=mysqli_query($cnx,$req1) or die(mysqli_error($cnx));\r\nif(mysqli_num_rows($res)!=0){\r\n    echo 'pilote deja existant';\r\n}\r\n\r\n$req2=\"INSERT INTO  pilote VALUE('$mat','$nom','$prenom','$genre','$email')\";\r\n$res2=mysqli_query($cnx,$req2) or die(mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)!=0){\r\n    echo\"bien inseree\";\r\n}\r\n\r\n\r\n\r\n?>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-06A90938CAB1D8B1-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n$mat=$_POST[\"mat\"];\r\n$nom=$_POST[\"nom\"];\r\n$prenom=$_POST[\"prenom\"];\r\n$email=$_POST[\"email\"];\r\nif(isset($_POST[\"f\"])){\r\n    $genre=\"F\";\r\n}\r\nif(isset($_POST[\"h\"])){\r\n    $genre=\"H\";\r\n}\r\n\n$req1=\"SELECT * from pilote where matricule='$mat'\";\r\n$res=mysqli_query($cnx,$req1) or die(mysqli_error($cnx));\r\nif(mysqli_num_rows($res)!=0){\r\n    echo 'pilote deja existant';\r\n}\r\n\n$req2=\"INSERT INTO  pilote VALUE('$mat','$nom','$prenom','$genre','$email')\";\r\n$res2=mysqli_query($cnx,$req2) or die(mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)!=0){\r\n    echo\"bien inseree\";\r\n}\r\n\n?>"
+    }
+  ]
+}

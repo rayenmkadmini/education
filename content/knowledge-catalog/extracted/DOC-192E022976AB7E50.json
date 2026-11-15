@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-192E022976AB7E50",
+  "filename": "statistique.html",
+  "relPath": "bac info/sti/etude/bac preatique STI 2015/statistique.html",
+  "sha256": "192e022976ab7e509389cea4b3c42f3378571a848912b8034ea644488d2ea2ff",
+  "extractedAt": "2026-11-06T14:24:17.092Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"style.css\"> <script src=\"controles.js\"></script> </head> <body> <form action=\"statistique.php\" method=\"post\" onsubmit=\"verif2()\"> <fieldset> <legend>Statistique</legend> <div></div> <label for=\"pilote\">Pilote :</label>",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"controles.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <form action=\"statistique.php\" method=\"post\" onsubmit=\"verif2()\">\r\n        <fieldset>\r\n            <legend>Statistique</legend>\r\n            <div></div>\r\n            <label for=\"pilote\">Pilote :</label>\r\n            <select name=\"pilote\" id=\"pilote\">\r\n                <option value=\"BL68\">selectionnez un pilote</option>\r\n                <option value=\"BL68\">belli lamine</option>\r\n                <option value=\"CN70\">chawachi noura</option>\r\n                <option value=\"KY75\">kefi youssra</option>\r\n            </select>\r\n            </div>\r\n            <div>\r\n                <input type=\"submit\" value=\"editer\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-192E022976AB7E50-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"controles.js\"></script>\r\n</head>"
+    },
+    {
+      "chunkId": "DOC-192E022976AB7E50-CHK-002",
+      "text": "<body>\r\n    <form action=\"statistique.php\" method=\"post\" onsubmit=\"verif2()\">\r\n        <fieldset>\r\n            <legend>Statistique</legend>\r\n            <div></div>\r\n            <label for=\"pilote\">Pilote :</label>\r\n            <select name=\"pilote\" id=\"pilote\">\r\n                <option value=\"BL68\">selectionnez un pilote</option>\r\n                <option value=\"BL68\">belli lamine</option>\r\n                <option value=\"CN70\">chawachi noura</option>\r\n                <option value=\"KY75\">kefi youssra</option>\r\n            </select>\r\n            </div>\r\n            <div>\r\n                <input type=\"submit\" value=\"editer\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\n</html>"
+    }
+  ]
+}

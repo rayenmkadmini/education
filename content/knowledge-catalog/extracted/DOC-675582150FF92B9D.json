@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-675582150FF92B9D",
+  "filename": "epreuve_pratique_bac2014_sujet6.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet6.py",
+  "sha256": "675582150ff92b9dae14f47292311a0147da6331a12837404cc32c06044fb74e",
+  "extractedAt": "2026-11-06T14:24:36.986Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: ch = str(input('Donner l\\'adresse mail: ')) b, p = verif(ch) # p désigne la position de '@' dans la chaine return ch, p def verif(ch): V = {'.', '_', '-'} S = 0 for i in range(len(ch)): if ch[i] == '@': S += 1 p = ch.find('@') R = ch[:p] ok = S == 1 and \"A\" <= ch[0].upper() <= \"Z\" i = -1 while i < len(R) - 1 and ok == True: i += 1 ok = \"A\" <=",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner l\\'adresse mail: '))\r\n        b, p = verif(ch)  # p désigne la position de '@' dans la chaine\r\n    return ch, p\r\n\r\n\r\ndef verif(ch):\r\n    V = {'.', '_', '-'}\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == '@':\r\n            S += 1\r\n    p = ch.find('@')\r\n    R = ch[:p]\r\n    ok = S == 1 and \"A\" <= ch[0].upper() <= \"Z\"\r\n    i = -1\r\n    while i < len(R) - 1 and ok == True:\r\n        i += 1\r\n        ok = \"A\" <= R[i].upper() <= \"Z\" or '0' <= R[i] <= '9' or R[i] in V\r\n    return ok, p\r\n\r\n\r\ndef mot_de_passe(ch, p):\r\n    R = ch[:p] + ch[p + 1] + ch[len(ch) - 1]\r\n    return R\r\n\r\n\r\nch, p = Saisie()\r\nmdp = mot_de_passe(ch, p)\r\nprint(mdp)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-675582150FF92B9D-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner l\\'adresse mail: '))\r\n        b, p = verif(ch)  # p désigne la position de '@' dans la chaine\r\n    return ch, p\r\n\ndef verif(ch):\r\n    V = {'.', '_', '-'}\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == '@':\r\n            S += 1\r\n    p = ch.find('@')\r\n    R = ch[:p]\r\n    ok = S == 1 and \"A\" <= ch[0].upper() <= \"Z\"\r\n    i = -1\r\n    while i < len(R) - 1 and ok == True:\r\n        i += 1\r\n        ok = \"A\" <= R[i].upper() <= \"Z\" or '0' <= R[i] <= '9' or R[i] in V\r\n    return ok, p\r\n\ndef mot_de_passe(ch, p):\r\n    R = ch[:p] + ch[p + 1] + ch[len(ch) - 1]\r\n    return R\r\n\nch, p = Saisie()\r\nmdp = mot_de_passe(ch, p)\r\nprint(mdp)"
+    }
+  ]
+}

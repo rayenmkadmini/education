@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5E99E39E303045EA",
+  "filename": "Acceuil.txt",
+  "relPath": "bac info/sti/projet2,computer tech/files/Acceuil.txt",
+  "sha256": "5e99e39e303045ea306569fbe4fce5b2b7c53dbea2f73c28543cebf6ceef04ee",
+  "extractedAt": "2026-11-06T14:24:20.276Z",
+  "pageCount": 1,
+  "textSnippet": "Notre entreprise Computer Tech est le spécialiste de la vente en ligne en Tunisie. Nous disposons du plus grand choix et des meilleurs prix en Tunisie. Computer Tech travaille avec les plus grandes marques qui lui font entièrement confiance. Comment acheter ? Paiement en espèces Paiement par chèque (Possibilité en trois fois) Paiement par crédit bancaire",
+  "fullText": "\r\nNotre entreprise\r\nComputer Tech est le spécialiste de la vente en ligne en Tunisie. Nous disposons du \r\nplus grand choix et des meilleurs prix en Tunisie.\r\nComputer Tech travaille avec les plus grandes marques qui lui font entièrement confiance.\r\n\r\n\r\n\r\nComment acheter ?\r\n\tPaiement en espèces\r\n\tPaiement par chèque (Possibilité en trois fois)\r\n\tPaiement par crédit bancaire",
+  "chunks": [
+    {
+      "chunkId": "DOC-5E99E39E303045EA-CHK-001",
+      "text": "Notre entreprise\r\nComputer Tech est le spécialiste de la vente en ligne en Tunisie. Nous disposons du \r\nplus grand choix et des meilleurs prix en Tunisie.\r\nComputer Tech travaille avec les plus grandes marques qui lui font entièrement confiance.\r\n\nComment acheter ?\r\n\tPaiement en espèces\r\n\tPaiement par chèque (Possibilité en trois fois)\r\n\tPaiement par crédit bancaire"
+    }
+  ]
+}

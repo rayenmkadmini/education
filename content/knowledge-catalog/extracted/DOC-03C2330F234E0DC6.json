@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-03C2330F234E0DC6",
+  "filename": "prototype Bac 2022.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/PROGRAMME OFFICIEL/prototype Bac 2022.py",
+  "sha256": "03c2330f234e0dc612d71e50ae36878e9197050a0d3b65bf9d59a6d5fe7a0c06",
+  "extractedAt": "2026-11-06T14:24:41.161Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def chance(ch): if not(ch.isnumeric() and len(ch) == 8 and ch[0] in {\"2\",\"4\",\"5\",\"9\"}): msg = \"Vérifier le numéro de téléphone !\" else: msg = \"Désolé, vous n'avez pas gagner.\" s = 0 for i in range(len(ch)): s += int(ch[i])*i if premier(s): msg = \"Félicitation, vous avez gagné.\" return msg def premier(y): test = y > 1 n = 1 while test and n < y//2 :",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\n\r\ndef chance(ch):\r\n    if not(ch.isnumeric() and len(ch) == 8 and ch[0] in {\"2\",\"4\",\"5\",\"9\"}):\r\n        msg = \"Vérifier le numéro de téléphone !\"\r\n    else:\r\n        msg = \"Désolé, vous n'avez pas gagner.\"\r\n        s = 0\r\n        for i in range(len(ch)):\r\n            s += int(ch[i])*i\r\n        if premier(s):\r\n            msg = \"Félicitation, vous avez gagné.\"\r\n    return msg\r\n\r\ndef premier(y):\r\n    test = y > 1\r\n    n = 1\r\n    while test and n < y//2 :\r\n        n += 1\r\n        test = y % n != 0\r\n    return test\r\n\r\ndef play():\r\n    x=p.t1.text()\r\n    y=chance(x)\r\n    p.l3.setText(y)\r\n    \r\nappli= QtWidgets.QApplication([])\r\np=uic.loadUi(\"interface_jeu.ui\")\r\np.show()\r\np.bt1.clicked.connect (play)\r\nappli.exec_()\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-03C2330F234E0DC6-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\n\ndef chance(ch):\r\n    if not(ch.isnumeric() and len(ch) == 8 and ch[0] in {\"2\",\"4\",\"5\",\"9\"}):\r\n        msg = \"Vérifier le numéro de téléphone !\"\r\n    else:\r\n        msg = \"Désolé, vous n'avez pas gagner.\"\r\n        s = 0\r\n        for i in range(len(ch)):\r\n            s += int(ch[i])*i\r\n        if premier(s):\r\n            msg = \"Félicitation, vous avez gagné.\"\r\n    return msg\r\n\ndef premier(y):\r\n    test = y > 1\r\n    n = 1\r\n    while test and n < y//2 :\r\n        n += 1\r\n        test = y % n != 0\r\n    return test\r\n\ndef play():\r\n    x=p.t1.text()\r\n    y=chance(x)\r\n    p.l3.setText(y)\r\n\nappli= QtWidgets.QApplication([])\r\np=uic.loadUi(\"interface_jeu.ui\")\r\np.show()\r\np.bt1.clicked.connect (play)\r\nappli.exec_()"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-CF5ED963D3BFF7B4",
+  "filename": "Insérer_une_case.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Insérer_une_case.py",
+  "sha256": "cf5ed963d3bff7b4b10c59a5c2a17d4b8a220d6984b761b4f3e8c1470c235ad3",
+  "extractedAt": "2026-11-06T14:24:40.890Z",
+  "pageCount": 1,
+  "textSnippet": "#Insérer une case à une position donnée from numpy import * t = array([int] * 20) def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range(n): t[i] = int(input(\"t[\" + str(i) + \"] = \")) def insérer(t, n): b = False while not b: p = int(input(\"Donner la position de la case à insérer: \")) b = 0 <= p <= n x = int(in",
+  "fullText": "#Insérer une case à une position donnée\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef insérer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à insérer: \"))\r\n        b = 0 <= p <= n\r\n    x = int(input(\"Donner l'élément à insérer: \"))\r\n    n += 1\r\n    for i in range(n - 1, p, -1):\r\n        t[i] = t[i - 1]\r\n    t[p] = x\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n\r\n##############################PP##################################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nn = insérer(t, n)\r\nAfficher(t, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-CF5ED963D3BFF7B4-CHK-001",
+      "text": "#Insérer une case à une position donnée\r\n\nfrom numpy import *\r\n\nt = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\ndef insérer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à insérer: \"))\r\n        b = 0 <= p <= n\r\n    x = int(input(\"Donner l'élément à insérer: \"))\r\n    n += 1\r\n    for i in range(n - 1, p, -1):\r\n        t[i] = t[i - 1]\r\n    t[p] = x\r\n    return n\r\n\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\n##############################PP##################################"
+    },
+    {
+      "chunkId": "DOC-CF5ED963D3BFF7B4-CHK-002",
+      "text": "n = Saisie()\r\nRemplir(n)\r\nn = insérer(t, n)\r\nAfficher(t, n)"
+    }
+  ]
+}

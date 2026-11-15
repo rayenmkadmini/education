@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D086816AAD6EAAD5",
+  "filename": "livetv.docx",
+  "relPath": "bac info/Python/fichier QtDesigner/Live TV/Live TV/livetv.docx",
+  "sha256": "d086816aad6eaad5619fbdfee87f67c97eb2c0d92f390ebe713264d2532dc6e1",
+  "extractedAt": "2026-11-06T14:23:33.582Z",
+  "pageCount": 1,
+  "textSnippet": "Dans un crypto système par flots, le cryptage des messages se fait caractère par caractère oubit à bit, au moyen de substitutions de type César générées aléatoirement : la taille de la clefest donc égale à la taille du message. L’exemple le plus illustratif de ce principe est le chiffrede Vernam. Cet algorithme est aussi appelé « One Time Pad » (masque jetable), c’est à direque la clef n’est utilisée qu’une seule fois.Voici un exemple simple de l’application du chiffre de Vernam :Exemple:Message",
+  "fullText": "Dans un crypto système par flots, le cryptage des messages se fait caractère par caractère oubit à bit, au moyen de substitutions de type César générées aléatoirement : la taille de la clefest donc égale à la taille du message. L’exemple le plus illustratif de ce principe est le chiffrede Vernam. Cet algorithme est aussi appelé « One Time Pad » (masque jetable), c’est à direque la clef n’est utilisée qu’une seule fois.Voici un exemple simple de l’application du chiffre de Vernam :Exemple:Message en clair: \"SALUT\"=> (conversion en binaire)01010011 01000001 01001100 01010101 01010100XORClef (générée aléatoirement)01110111 01110111 00100100 00011111 00011010\n\n00100100 00110110 01101000 01001010 01001110=> (conversion en caractère)\"Message chiffré: $6jJM\"",
+  "chunks": [
+    {
+      "chunkId": "DOC-D086816AAD6EAAD5-CHK-001",
+      "text": "Dans un crypto système par flots, le cryptage des messages se fait caractère par caractère oubit à bit, au moyen de substitutions de type César générées aléatoirement : la taille de la clefest donc égale à la taille du message. L’exemple le plus illustratif de ce principe est le chiffrede Vernam. Cet algorithme est aussi appelé « One Time Pad » (masque jetable), c’est à direque la clef n’est utilisée qu’une seule fois.Voici un exemple simple de l’application du chiffre de Vernam :Exemple:Message en clair: \"SALUT\"=> (conversion en binaire)01010011 01000001 01001100 01010101 01010100XORClef (générée aléatoirement)01110111 01110111 00100100 00011111 00011010\n\n00100100 00110110 01101000 01001010 01001110=> (conversion en caractère)\"Message chiffré: $6jJM\""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-CA33F800E1864A50",
+  "filename": "effacer_qq_cases.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_qq_cases.py",
+  "sha256": "ca33f800e1864a505551d20221c031b909957790b277cbc70371d65a1aaeb38d",
+  "extractedAt": "2026-11-06T14:24:40.945Z",
+  "pageCount": 1,
+  "textSnippet": "#Effacer toutes les cases qui se repetent dans un tableau from numpy import * t = array([int] * 20) def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range(n): t[i] = int(input(\"t[\" + str(i) + \"] = \")) def suppression(t, n): i = 0 while i < n: if t[i] == 5: #par exemple en veut effacer les cases'5' n = efface(t",
+  "fullText": "#Effacer toutes les cases qui se repetent dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef suppression(t, n):\r\n    i = 0\r\n    while i < n:\r\n        if t[i] == 5:  #par exemple en veut effacer les cases'5'\r\n            n = efface(t, i, n)\r\n        i += 1\r\n    return n\r\n\r\n\r\ndef efface(t, i, n):\r\n    for j in range(i, n - 1):\r\n        t[j] = t[j + 1]\r\n    n -= 1\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i], end=' ')\r\n\r\n\r\n####################PP####################\r\nn = Saisie()\r\nRemplir(n)\r\nn = suppression(t, n)\r\nAfficher(t, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-CA33F800E1864A50-CHK-001",
+      "text": "#Effacer toutes les cases qui se repetent dans un tableau\r\n\nfrom numpy import *\r\n\nt = array([int] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\ndef suppression(t, n):\r\n    i = 0\r\n    while i < n:\r\n        if t[i] == 5:  #par exemple en veut effacer les cases'5'\r\n            n = efface(t, i, n)\r\n        i += 1\r\n    return n\r\n\ndef efface(t, i, n):\r\n    for j in range(i, n - 1):\r\n        t[j] = t[j + 1]\r\n    n -= 1\r\n    return n\r\n\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i], end=' ')"
+    },
+    {
+      "chunkId": "DOC-CA33F800E1864A50-CHK-002",
+      "text": "####################PP####################\r\nn = Saisie()\r\nRemplir(n)\r\nn = suppression(t, n)\r\nAfficher(t, n)"
+    }
+  ]
+}

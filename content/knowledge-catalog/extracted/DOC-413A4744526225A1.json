@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-413A4744526225A1",
+  "filename": "ex8s4.py",
+  "relPath": "bac info/Python/serie 4/ex8s4.py",
+  "sha256": "413a4744526225a16185fdd9994007d26ab105d5a18886112e5389c33b3ab2d7",
+  "extractedAt": "2026-11-06T14:23:35.419Z",
+  "pageCount": 1,
+  "textSnippet": "def total_gramme(ch): e = ch.find(\" \") if e==-1 and ch[0] != ch[len(ch)-1]: return False elif e==-1 and ch[0] == ch[len(ch)-1]: return True elif e!=-1 and ch[0] !=ch[e - 1]: return False else : return total_gramme(ch[e + 1:]) # pp ch = input(\"ch= \") print(total_gramme(ch))",
+  "fullText": "\r\ndef total_gramme(ch):\r\n    e = ch.find(\" \")\r\n    if e==-1 and ch[0] != ch[len(ch)-1]:\r\n        return False\r\n    elif e==-1 and ch[0] == ch[len(ch)-1]:\r\n        return True\r\n    elif e!=-1 and ch[0] !=ch[e - 1]:\r\n        return False\r\n    else :\r\n        return total_gramme(ch[e + 1:])\r\n\r\n\r\n# pp\r\nch = input(\"ch= \")\r\nprint(total_gramme(ch))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-413A4744526225A1-CHK-001",
+      "text": "def total_gramme(ch):\r\n    e = ch.find(\" \")\r\n    if e==-1 and ch[0] != ch[len(ch)-1]:\r\n        return False\r\n    elif e==-1 and ch[0] == ch[len(ch)-1]:\r\n        return True\r\n    elif e!=-1 and ch[0] !=ch[e - 1]:\r\n        return False\r\n    else :\r\n        return total_gramme(ch[e + 1:])\r\n\n# pp\r\nch = input(\"ch= \")\r\nprint(total_gramme(ch))"
+    }
+  ]
+}

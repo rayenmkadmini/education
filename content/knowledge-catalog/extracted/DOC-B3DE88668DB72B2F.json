@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-B3DE88668DB72B2F",
+  "filename": "epreuve_pratique_2014_sujet3.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet3.py",
+  "sha256": "b3de88668db72b2f9e5978ef9a3d3b208733af4e84181c212af39bbd0ebfe506",
+  "extractedAt": "2026-11-06T14:24:36.833Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 30) T1 = array([0] * 100) def Saisie(): b = False while not b: n = int(input('Donner n: ')) b = 5 <= n <= 30 return n def Remplir(N): b = False while not b: T[0] = int(input('T[0]=')) b = 0 < T[0] <= 99 for i in range(1, N): b = False while not b: T[i] = int(input('T[' + str(i) + ']=')) b = not (existe(T[i], T, i - 1)) and 0 < T[i] <= 9",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 30)\r\nT1 = array([0] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 30\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    b = False\r\n    while not b:\r\n        T[0] = int(input('T[0]='))\r\n        b = 0 < T[0] <= 99\r\n    for i in range(1, N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']='))\r\n            b = not (existe(T[i], T, i - 1)) and 0 < T[i] <= 99\r\n\r\n\r\ndef existe(x, t, n):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < n:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\r\n\r\ndef Trier(N):\r\n    m = 99\r\n    for i in range(N):\r\n        p = T[i]\r\n        T1[p - 1] = T[i]\r\n    i = 0\r\n    while i < N:\r\n\r\n        if T1[i] == 0:\r\n            m = supprimer(i, T1, m)\r\n        else:\r\n            i += 1\r\n\r\n\r\ndef supprimer(p, T1, N):\r\n    for i in range(p, N - 1):\r\n        T1[i] = T1[i + 1]\r\n    N = N - 1\r\n    return N\r\n\r\n\r\ndef Afficher(N):\r\n    for i in range(N):\r\n        print(T1[i], end=' ')\r\n\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(N)\r\nAfficher(N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-B3DE88668DB72B2F-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 30)\r\nT1 = array([0] * 100)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 30\r\n    return n\r\n\ndef Remplir(N):\r\n    b = False\r\n    while not b:\r\n        T[0] = int(input('T[0]='))\r\n        b = 0 < T[0] <= 99\r\n    for i in range(1, N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']='))\r\n            b = not (existe(T[i], T, i - 1)) and 0 < T[i] <= 99\r\n\ndef existe(x, t, n):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < n:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\ndef Trier(N):\r\n    m = 99\r\n    for i in range(N):\r\n        p = T[i]\r\n        T1[p - 1] = T[i]\r\n    i = 0\r\n    while i < N:"
+    },
+    {
+      "chunkId": "DOC-B3DE88668DB72B2F-CHK-002",
+      "text": "if T1[i] == 0:\r\n            m = supprimer(i, T1, m)\r\n        else:\r\n            i += 1\r\n\ndef supprimer(p, T1, N):\r\n    for i in range(p, N - 1):\r\n        T1[i] = T1[i + 1]\r\n    N = N - 1\r\n    return N\r\n\ndef Afficher(N):\r\n    for i in range(N):\r\n        print(T1[i], end=' ')\r\n\nN = Saisie()\r\nRemplir(N)\r\nTrier(N)\r\nAfficher(N)"
+    }
+  ]
+}

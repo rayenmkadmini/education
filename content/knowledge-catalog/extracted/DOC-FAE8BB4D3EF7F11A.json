@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FAE8BB4D3EF7F11A",
+  "filename": "tableau sans array.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/tableau sans array.py",
+  "sha256": "fae8bb4d3ef7f11ab0ab8eefde525aaa63e21fbb8289ff9b23820a9a8ccb74a2",
+  "extractedAt": "2026-11-14T18:35:36.436Z",
+  "pageCount": 1,
+  "textSnippet": "import random t=[[0]*5 for i in range(5)] for i in range(5): for j in range(5): t[i][j]=random.randint(10,20) print(t) print(t[1][0])",
+  "fullText": "import random\r\nt=[[0]*5 for i in range(5)]\r\nfor i in range(5):\r\n    for j in range(5):\r\n        t[i][j]=random.randint(10,20)\r\nprint(t)\r\nprint(t[1][0])",
+  "chunks": [
+    {
+      "chunkId": "DOC-FAE8BB4D3EF7F11A-CHK-001",
+      "text": "import random\r\nt=[[0]*5 for i in range(5)]\r\nfor i in range(5):\r\n    for j in range(5):\r\n        t[i][j]=random.randint(10,20)\r\nprint(t)\r\nprint(t[1][0])"
+    }
+  ]
+}

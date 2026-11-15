@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-5007746D383619AF",
+  "filename": "proba va  (4).pdf",
+  "relPath": "bac info/math taki/proba/proba va  (4).pdf",
+  "sha256": "5007746d383619af9beed3e5c5df1e906d20c485766871ff7e539cd6bd5c72ff",
+  "extractedAt": "2026-11-06T14:23:54.957Z",
+  "pageCount": 4,
+  "textSnippet": "-- 1 of 4 -- 20 min 4 pt Exercice 1 25 min 5 pt Exercice 2 1 -- 2 of 4 -- 25 min 5 pt Exercice 3 2 -- 3 of 4 -- -- 4 of 4 --",
+  "fullText": "-- 1 of 4 --\n\n20 min 4 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\n25 min 5 pt\tExercice 3\n2\n\n-- 3 of 4 --\n\n\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "20 min 4 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "25 min 5 pt\tExercice 3\n2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-5007746D383619AF-CHK-001",
+      "pageNumber": 2,
+      "text": "20 min 4 pt\tExercice 1\n25 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-5007746D383619AF-CHK-002",
+      "pageNumber": 3,
+      "text": "25 min 5 pt\tExercice 3\n2"
+    }
+  ]
+}

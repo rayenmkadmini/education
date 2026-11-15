@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F3757725D71C2433",
+  "filename": "ex3s5.py",
+  "relPath": "bac info/Python/cours reccurent/ex3s5.py",
+  "sha256": "f3757725d71c2433035ce2986f74a838d4592b0b08c6c01cb1b800acd06425db",
+  "extractedAt": "2026-11-06T14:23:24.666Z",
+  "pageCount": 1,
+  "textSnippet": "def det_vapp(x): u2 = (1 + x) / 2 fin = False while not fin: u1 = u2 print(\"u1=\", u1) u2 = (u1 + x / u1) / 2 print(u2) fin = abs(u2 - u1) < 0.0000000000001 return u2 x = int(input(\"x= \")) print(det_vapp(x))",
+  "fullText": "def det_vapp(x):\r\n    u2 = (1 + x) / 2\r\n    fin = False\r\n    while not fin:\r\n        u1 = u2\r\n        print(\"u1=\", u1)\r\n        u2 = (u1 + x / u1) / 2\r\n        print(u2)\r\n        fin = abs(u2 - u1) < 0.0000000000001\r\n    return u2\r\n\r\n\r\nx = int(input(\"x= \"))\r\nprint(det_vapp(x))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-F3757725D71C2433-CHK-001",
+      "text": "def det_vapp(x):\r\n    u2 = (1 + x) / 2\r\n    fin = False\r\n    while not fin:\r\n        u1 = u2\r\n        print(\"u1=\", u1)\r\n        u2 = (u1 + x / u1) / 2\r\n        print(u2)\r\n        fin = abs(u2 - u1) < 0.0000000000001\r\n    return u2\r\n\nx = int(input(\"x= \"))\r\nprint(det_vapp(x))"
+    }
+  ]
+}

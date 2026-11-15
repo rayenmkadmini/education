@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-5C4D5D25B59FFD7F",
+  "filename": "bac_pratique_2012_10.00_29-5.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00_29-5.py",
+  "sha256": "5c4d5d25b59ffd7fe21f964412781f06a36766bed69fe01cd45705aab47e4f77",
+  "extractedAt": "2026-11-06T14:24:35.779Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * from random import randint T = array([str] * 12) def Remplir(): for i in range(12): b = False while not b: T[i] = input(\"T[\" + str(i) + \"]=\") b = verif(T[i]) def verif(ch): ok = len(ch) > 3 i = -1 while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch[i] <= \"Z\" return ok def Trier(T): p = randint(1, 3) n = 12 echange = False while n != 1 or not (echan",
+  "fullText": "from numpy import *\r\n\r\nfrom random import randint\r\n\r\nT = array([str] * 12)\r\n\r\n\r\ndef Remplir():\r\n    for i in range(12):\r\n        b = False\r\n        while not b:\r\n            T[i] = input(\"T[\" + str(i) + \"]=\")\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) > 3\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Trier(T):\r\n    p = randint(1, 3)\r\n    n = 12\r\n\r\n    echange = False\r\n    while n != 1 or not (echange):\r\n        for i in range(11):\r\n            if T[i][p] > T[i + 1][p]:\r\n                temp = T[i]\r\n                T[i] = T[i + 1]\r\n                T[i + 1] = temp\r\n                echange = True\r\n        n -= 1\r\n\r\n\r\ndef Afficher(T):\r\n    for i in range(0, 12, 3):\r\n        print(T[i], T[i + 1], T[i + 2], end=\"\\n\")\r\n\r\n\r\nRemplir()\r\nTrier(T)\r\nAfficher(T)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5C4D5D25B59FFD7F-CHK-001",
+      "text": "from numpy import *\r\n\nfrom random import randint\r\n\nT = array([str] * 12)\r\n\ndef Remplir():\r\n    for i in range(12):\r\n        b = False\r\n        while not b:\r\n            T[i] = input(\"T[\" + str(i) + \"]=\")\r\n            b = verif(T[i])\r\n\ndef verif(ch):\r\n    ok = len(ch) > 3\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef Trier(T):\r\n    p = randint(1, 3)\r\n    n = 12\r\n\n    echange = False\r\n    while n != 1 or not (echange):\r\n        for i in range(11):\r\n            if T[i][p] > T[i + 1][p]:\r\n                temp = T[i]\r\n                T[i] = T[i + 1]\r\n                T[i + 1] = temp\r\n                echange = True\r\n        n -= 1"
+    },
+    {
+      "chunkId": "DOC-5C4D5D25B59FFD7F-CHK-002",
+      "text": "def Afficher(T):\r\n    for i in range(0, 12, 3):\r\n        print(T[i], T[i + 1], T[i + 2], end=\"\\n\")\r\n\nRemplir()\r\nTrier(T)\r\nAfficher(T)"
+    }
+  ]
+}

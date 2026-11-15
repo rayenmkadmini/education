@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-5A2F7DB27096B644",
+  "filename": "Consultation.py",
+  "relPath": "correction bac pratique 2024-2025/correction bac pratique 2024-2025/Consultation.py",
+  "sha256": "5a2f7db27096b64480749b1b0510ff0ebf0d16ec17766895d3dd55a3013fa5f2",
+  "extractedAt": "2026-11-06T14:24:27.142Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.QtWidgets import * from PyQt5.uic import * from pickle import dump, load from numpy import array def Afficher(): t=array([dict]*50) f=open(\"Reponses.dat\",\"rb\") w.table.setRowCount(0) n=0 finF=False while not finF: try: e=load(f) t[n]=e n=n+1 except: finF=True f.close() #### tri ##### arret=False while not arret: permut=False for i in",
+  "fullText": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import *\r\nfrom pickle import dump, load\r\nfrom numpy import array\r\n\r\n\r\ndef Afficher():\r\n    t=array([dict]*50)\r\n    \r\n    f=open(\"Reponses.dat\",\"rb\")\r\n    w.table.setRowCount(0)\r\n    n=0\r\n    finF=False\r\n    while not finF:\r\n        try:\r\n            e=load(f)\r\n            t[n]=e\r\n            n=n+1  \r\n        except:\r\n            finF=True\r\n    f.close()\r\n    #### tri #####\r\n    arret=False\r\n    while not arret:\r\n        permut=False\r\n        for i in range(n-1):\r\n            if t[i][\"Score\"]>t[i+1][\"Score\"]:\r\n                aux=t[i]\r\n                t[i]=t[i+1]\r\n                t[i+1]=aux\r\n                permut=True\r\n        arret= permut==False\r\n    ### affichage\r\n    for i in range(n):\r\n        w.table.insertRow(i)\r\n        w.table.setItem(i,0,QTableWidgetItem(t[i][\"NCIN\"]))\r\n        w.table.setItem(i,1,QTableWidgetItem(t[i][\"NomPrenom\"]))\r\n        w.table.setItem(i,2,QTableWidgetItem(str(t[i][\"Score\"])))\r\n\r\n    \r\n    \r\n#---------Programme principal--------  \r\napp=QApplication([])\r\nw=loadUi(\"Interface_Consultation.ui\")\r\nw.show()\r\nw.btAfficher.clicked.connect(Afficher)\r\napp.exec()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5A2F7DB27096B644-CHK-001",
+      "text": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import *\r\nfrom pickle import dump, load\r\nfrom numpy import array\r\n\ndef Afficher():\r\n    t=array([dict]*50)"
+    },
+    {
+      "chunkId": "DOC-5A2F7DB27096B644-CHK-002",
+      "text": "f=open(\"Reponses.dat\",\"rb\")\r\n    w.table.setRowCount(0)\r\n    n=0\r\n    finF=False\r\n    while not finF:\r\n        try:\r\n            e=load(f)\r\n            t[n]=e\r\n            n=n+1  \r\n        except:\r\n            finF=True\r\n    f.close()\r\n    #### tri #####\r\n    arret=False\r\n    while not arret:\r\n        permut=False\r\n        for i in range(n-1):\r\n            if t[i][\"Score\"]>t[i+1][\"Score\"]:\r\n                aux=t[i]\r\n                t[i]=t[i+1]\r\n                t[i+1]=aux\r\n                permut=True\r\n        arret= permut==False\r\n    ### affichage\r\n    for i in range(n):\r\n        w.table.insertRow(i)\r\n        w.table.setItem(i,0,QTableWidgetItem(t[i][\"NCIN\"]))\r\n        w.table.setItem(i,1,QTableWidgetItem(t[i][\"NomPrenom\"]))\r\n        w.table.setItem(i,2,QTableWidgetItem(str(t[i][\"Score\"])))"
+    },
+    {
+      "chunkId": "DOC-5A2F7DB27096B644-CHK-003",
+      "text": "#---------Programme principal--------  \r\napp=QApplication([])\r\nw=loadUi(\"Interface_Consultation.ui\")\r\nw.show()\r\nw.btAfficher.clicked.connect(Afficher)\r\napp.exec()"
+    }
+  ]
+}

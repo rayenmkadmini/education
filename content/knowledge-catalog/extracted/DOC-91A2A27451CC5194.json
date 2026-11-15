@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-91A2A27451CC5194",
+  "filename": "test premier.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/test premier.py",
+  "sha256": "91a2a27451cc5194d2f3c9860a78b42298f9ba29de228ac199cbba28191c332a",
+  "extractedAt": "2026-11-14T18:35:36.439Z",
+  "pageCount": 1,
+  "textSnippet": "def premier(n): i=2 while(i<= n//2) and( n % i!=0): i=i+1 return (i>n//2) and (n!=1) print(premier(6))",
+  "fullText": "def premier(n):\r\n    i=2\r\n    while(i<= n//2) and( n % i!=0):\r\n        i=i+1\r\n    return (i>n//2) and (n!=1)\r\nprint(premier(6))",
+  "chunks": [
+    {
+      "chunkId": "DOC-91A2A27451CC5194-CHK-001",
+      "text": "def premier(n):\r\n    i=2\r\n    while(i<= n//2) and( n % i!=0):\r\n        i=i+1\r\n    return (i>n//2) and (n!=1)\r\nprint(premier(6))"
+    }
+  ]
+}

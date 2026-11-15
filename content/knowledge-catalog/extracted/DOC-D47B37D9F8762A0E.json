@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D47B37D9F8762A0E",
+  "filename": "serie2ex1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex1.py",
+  "sha256": "d47b37d9f8762a0efdee703957585d6f93f25fa1e4ef2545e22ad0c21be4608b",
+  "extractedAt": "2026-11-06T14:24:39.734Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): x=int(input('introduire un entier non nul')) y=int(input('introduire un entier non nul')) b=10<x<y<1000 return x,y def parfait(x): s=1 for i in range(2, x // 2+1): if x % i==0: s=s+i b=(s==x) return b def affiche(a,b): for i in range(a,b+1): if parfait(i): print(i) #########################pp######################### a,b=saisie() affiche(a",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\ndef parfait(x):\r\n    s=1\r\n    for i in range(2, x // 2+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    b=(s==x)\r\n    return b\r\n\r\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if parfait(i):\r\n            print(i)\r\n#########################pp#########################\r\n\r\na,b=saisie()\r\naffiche(a,b)",
+  "chunks": [
+    {
+      "chunkId": "DOC-D47B37D9F8762A0E-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\ndef parfait(x):\r\n    s=1\r\n    for i in range(2, x // 2+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    b=(s==x)\r\n    return b\r\n\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if parfait(i):\r\n            print(i)\r\n#########################pp#########################\r\n\na,b=saisie()\r\naffiche(a,b)"
+    }
+  ]
+}

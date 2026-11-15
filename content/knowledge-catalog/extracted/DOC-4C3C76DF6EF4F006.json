@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-4C3C76DF6EF4F006",
+  "filename": "epreuve_bac_pratique_2015_sujet9_interface.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9_interface.py",
+  "sha256": "4c3c76df6ef4f006a49adbc3f97fa68232b24c605c06ceb4fd91573da82c3b33",
+  "extractedAt": "2026-11-06T14:24:37.733Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def verif(ch): ok = 2 <= len(ch) <= 12 i = -1 while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch[i] <= \"Z\" return ok def Afficher(ch): if verif(ch): if zigzag(ch): win.t2.setText(\"Nom zigazag\") else: win.t2.setText(\"Nom non-zigazag\") else: win.t2.setText(\"INPUT ERROR\") def zigzag(ch): i = -1 c = 1 ok = True test_croissance = ch[",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\n\r\n\r\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(ch):\r\n    if verif(ch):\r\n        if zigzag(ch):\r\n            win.t2.setText(\"Nom zigazag\")\r\n        else:\r\n            win.t2.setText(\"Nom non-zigazag\")\r\n    else:\r\n        win.t2.setText(\"INPUT ERROR\")\r\n\r\n\r\ndef zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\r\n\r\ndef effacer():\r\n    win.t1.setText('')\r\n    win.t2.setText('')\r\n    win.t1.setFocus()\r\n\r\n\r\ndef fermer():\r\n    win.close()\r\n\r\n\r\n#####################PP##########################\r\napp = QtWidgets.QApplication([])\r\nwin = uic.loadUi(\"epreuve_bac_pratique_2015_sujet9_interface.ui\")\r\nwin.show()\r\nwin.pb1.clicked.connect(lambda: Afficher(win.t1.text()))\r\nwin.pb2.clicked.connect(effacer)\r\nwin.pb3.clicked.connect(fermer)\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-4C3C76DF6EF4F006-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\n\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef Afficher(ch):\r\n    if verif(ch):\r\n        if zigzag(ch):\r\n            win.t2.setText(\"Nom zigazag\")\r\n        else:\r\n            win.t2.setText(\"Nom non-zigazag\")\r\n    else:\r\n        win.t2.setText(\"INPUT ERROR\")"
+    },
+    {
+      "chunkId": "DOC-4C3C76DF6EF4F006-CHK-002",
+      "text": "def zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\ndef effacer():\r\n    win.t1.setText('')\r\n    win.t2.setText('')\r\n    win.t1.setFocus()\r\n\ndef fermer():\r\n    win.close()"
+    },
+    {
+      "chunkId": "DOC-4C3C76DF6EF4F006-CHK-003",
+      "text": "#####################PP##########################\r\napp = QtWidgets.QApplication([])\r\nwin = uic.loadUi(\"epreuve_bac_pratique_2015_sujet9_interface.ui\")\r\nwin.show()\r\nwin.pb1.clicked.connect(lambda: Afficher(win.t1.text()))\r\nwin.pb2.clicked.connect(effacer)\r\nwin.pb3.clicked.connect(fermer)\r\napp.exec_()"
+    }
+  ]
+}

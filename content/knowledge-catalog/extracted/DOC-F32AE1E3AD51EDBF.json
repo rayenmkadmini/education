@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-F32AE1E3AD51EDBF",
+  "filename": "affichage.php",
+  "sha256": "f32ae1e3ad51edbf1c6167f1ef9a5d75935910803b4e540c188b22b4482684e6",
+  "extractedAt": "2026-11-06T14:00:09.670Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $doc=$_POST[\"doc\"]; $req=\"select nomdoc from document where (iddoc='$doc')\"; $res=mysqli_query($con,$req)or die(mysqli_error($con)); //Affichage du nom du document sélectionné dans la page affichage.html if (mysqli_num_rows($res)!=0) { $enreg=mysqli_fetch_array($res); echo \"<h2>Les droits d'accès relatifs au document : \". $enreg[\"nomdoc\"].\"</h2><br>\"; } ?>",
+  "fullText": "﻿<?php\r\n\r\n\r\n$doc=$_POST[\"doc\"];\r\n$req=\"select nomdoc from document where (iddoc='$doc')\";\r\n$res=mysqli_query($con,$req)or die(mysqli_error($con));\r\n//Affichage du nom du document sélectionné dans la page affichage.html\r\nif (mysqli_num_rows($res)!=0)\r\n{\t$enreg=mysqli_fetch_array($res);\r\n\techo \"<h2>Les droits d'accès relatifs au document : \". $enreg[\"nomdoc\"].\"</h2><br>\";\r\n}\r\n\r\n ?>"
+}

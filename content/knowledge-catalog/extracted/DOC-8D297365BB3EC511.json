@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-8D297365BB3EC511",
+  "filename": "Decomposition 21.01.2022.py",
+  "relPath": "bac info/algo/Python/Decomposition 21.01.2022.py",
+  "sha256": "8d297365bb3ec5111fc676fa26f76bb392d3ce308ed06ff3f6a7bef76f70ec91",
+  "extractedAt": "2026-11-14T18:35:36.306Z",
+  "pageCount": 1,
+  "textSnippet": "def decomp(x): r=str(x)+\"=\" i=2 while x!=1: if x%i==0: r=r+str(i)+\"*\" x=x//i else: i=i+1 return r[0:len(r)-1] print(decomp(300))",
+  "fullText": "def decomp(x):\r\n    r=str(x)+\"=\"\r\n    i=2\r\n    while x!=1:\r\n        if x%i==0:\r\n            r=r+str(i)+\"*\"\r\n            x=x//i\r\n        else:\r\n            i=i+1\r\n    return r[0:len(r)-1]\r\n\r\nprint(decomp(300))",
+  "chunks": [
+    {
+      "chunkId": "DOC-8D297365BB3EC511-CHK-001",
+      "text": "def decomp(x):\r\n    r=str(x)+\"=\"\r\n    i=2\r\n    while x!=1:\r\n        if x%i==0:\r\n            r=r+str(i)+\"*\"\r\n            x=x//i\r\n        else:\r\n            i=i+1\r\n    return r[0:len(r)-1]\r\n\nprint(decomp(300))"
+    }
+  ]
+}

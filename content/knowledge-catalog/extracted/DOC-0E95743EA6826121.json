@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-0E95743EA6826121",
+  "filename": "image.png",
+  "relPath": "bac info/Python/fichier QtDesigner/IPV6-IPV4 S6_EX15/image.png",
+  "sha256": "0e95743ea6826121f596c9de1285f2a0a662bfc83a26a0ffc8c9391669d9f729",
+  "extractedAt": "2026-11-06T14:23:26.366Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-0E95743EA6826121-CHK-001",
+      "text": "[Fichier Image Pédagogique: image.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

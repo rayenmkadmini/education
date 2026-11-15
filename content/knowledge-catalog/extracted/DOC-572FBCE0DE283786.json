@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-572FBCE0DE283786",
+  "filename": "affichage_sans_redandance.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/affichage_sans_redandance.py",
+  "sha256": "572fbce0de283786cf48b6af4e50727f91c84a72c248d0abd02ec6c550fd4c02",
+  "extractedAt": "2026-11-06T14:24:40.925Z",
+  "pageCount": 1,
+  "textSnippet": "#Ce programme permet d'afficher les cases d'un tableau sans redandance from numpy import * t = array([str] * 20) def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range(n): t[i] = int(input(\"t[\" + str(i) + \"] = \")) def Affichage(t, n): for i in range(n): if (rech(t[i], t, i - 1)): #TENIR COMPTE DE L'INDICE i-1 print",
+  "fullText": "#Ce programme permet d'afficher les cases d'un tableau sans redandance\r\n\r\nfrom numpy import *\r\n\r\nt = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef Affichage(t, n):\r\n    for i in range(n):\r\n        if (rech(t[i], t, i - 1)):  #TENIR COMPTE DE L'INDICE i-1\r\n            print(t[i], end=\" \")\r\n\r\n\r\ndef rech(x, T, p):\r\n    ok = True\r\n    i = -1\r\n    while ok and (i < p):\r\n        i += 1\r\n        ok = t[i] != x\r\n    return ok\r\n\r\n\r\n#######################PP###########################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nAffichage(t, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-572FBCE0DE283786-CHK-001",
+      "text": "#Ce programme permet d'afficher les cases d'un tableau sans redandance\r\n\nfrom numpy import *\r\n\nt = array([str] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\ndef Affichage(t, n):\r\n    for i in range(n):\r\n        if (rech(t[i], t, i - 1)):  #TENIR COMPTE DE L'INDICE i-1\r\n            print(t[i], end=\" \")\r\n\ndef rech(x, T, p):\r\n    ok = True\r\n    i = -1\r\n    while ok and (i < p):\r\n        i += 1\r\n        ok = t[i] != x\r\n    return ok\r\n\n#######################PP###########################\r\n\nn = Saisie()\r\nRemplir(n)\r\nAffichage(t, n)"
+    }
+  ]
+}

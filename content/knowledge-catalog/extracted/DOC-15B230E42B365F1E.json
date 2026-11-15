@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-15B230E42B365F1E",
+  "filename": "ligne.txt",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Seance 27.05.2022/ligne.txt",
+  "sha256": "15b230e42b365f1e167eb6a4af5dc84c222d67a7068259f6434724af16f3548a",
+  "extractedAt": "2026-11-14T18:35:36.380Z",
+  "pageCount": 1,
+  "textSnippet": "P V G I Q R K D S T C O Y A X U",
+  "fullText": "P V G I \r\nQ R K D \r\nS T C O \r\nY A X U \r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-15B230E42B365F1E-CHK-001",
+      "text": "P V G I \r\nQ R K D \r\nS T C O \r\nY A X U"
+    }
+  ]
+}

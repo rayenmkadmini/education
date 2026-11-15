@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-BED4AA352564BFF1",
+  "filename": "tets.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/tets.py",
+  "sha256": "bed4aa352564bff13314e8558afd169da3ce4fc95319b8f4671f6c161c669a3c",
+  "extractedAt": "2026-11-14T18:35:36.409Z",
+  "pageCount": 1,
+  "textSnippet": "def premier(n): i=2 while(i<= n//2) and( n % i!=0): i=i+1 return (i>n//2) and (n!=1) print(premier(11))",
+  "fullText": "def premier(n):\r\n    i=2\r\n    while(i<= n//2) and( n % i!=0):\r\n        i=i+1\r\n    return (i>n//2) and (n!=1)\r\nprint(premier(11))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-BED4AA352564BFF1-CHK-001",
+      "text": "def premier(n):\r\n    i=2\r\n    while(i<= n//2) and( n % i!=0):\r\n        i=i+1\r\n    return (i>n//2) and (n!=1)\r\nprint(premier(11))"
+    }
+  ]
+}

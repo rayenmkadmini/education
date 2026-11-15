@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-BC71247E85828BF7",
+  "filename": "triangle pascal.py",
+  "relPath": "triangle pascal/triangle pascal/triangle pascal.py",
+  "sha256": "bc71247e85828bf7c4d5a7ed9d17e22dcb5a8bdce4e8979b5653d97b9b830d12",
+  "extractedAt": "2026-11-06T14:25:14.607Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.QtWidgets import * ## importation des widgets graphiques from PyQt5.uic import loadUi ## importation du compilateur graphique import numpy as np def afficher(): n=int(w.cmbTaille.currentText()) ### remplir matrice ##### m=np.array([[int]*n]*n) for l in range(n): for c in range (l+1): if c==0 or l==c: m[l,c]=1 else: m[l,c]=m[l-1,c-1]+m[l-1,c] ### remplir QTableWidget (table) #####",
+  "fullText": "from PyQt5.QtWidgets import *  ## importation des widgets graphiques  \r\nfrom PyQt5.uic import loadUi   ## importation du compilateur graphique\r\nimport numpy as np\r\ndef afficher():\r\n    n=int(w.cmbTaille.currentText())\r\n    ### remplir matrice #####\r\n    m=np.array([[int]*n]*n)\r\n    for l in range(n):\r\n        for c in range (l+1):\r\n            if c==0 or l==c:\r\n                m[l,c]=1\r\n            else:\r\n                m[l,c]=m[l-1,c-1]+m[l-1,c]\r\n    ### remplir QTableWidget (table) #####\r\n    w.table.setRowCount(0)\r\n    for l in range(n):\r\n        w.table.insertRow(l)\r\n        for c in range (l+1):\r\n            w.table.setItem(l,c,QTableWidgetItem(str(m[l,c])))\r\n                \r\n\r\n\r\n####### PP ####\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnAfficher.clicked.connect(afficher)\r\nw.show()\r\napp.exec_()\r\n\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-BC71247E85828BF7-CHK-001",
+      "text": "from PyQt5.QtWidgets import *  ## importation des widgets graphiques  \r\nfrom PyQt5.uic import loadUi   ## importation du compilateur graphique\r\nimport numpy as np\r\ndef afficher():\r\n    n=int(w.cmbTaille.currentText())\r\n    ### remplir matrice #####\r\n    m=np.array([[int]*n]*n)\r\n    for l in range(n):\r\n        for c in range (l+1):\r\n            if c==0 or l==c:\r\n                m[l,c]=1\r\n            else:\r\n                m[l,c]=m[l-1,c-1]+m[l-1,c]\r\n    ### remplir QTableWidget (table) #####\r\n    w.table.setRowCount(0)\r\n    for l in range(n):\r\n        w.table.insertRow(l)\r\n        for c in range (l+1):\r\n            w.table.setItem(l,c,QTableWidgetItem(str(m[l,c])))"
+    },
+    {
+      "chunkId": "DOC-BC71247E85828BF7-CHK-002",
+      "text": "####### PP ####\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnAfficher.clicked.connect(afficher)\r\nw.show()\r\napp.exec_()"
+    }
+  ]
+}

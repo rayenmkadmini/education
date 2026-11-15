@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-28157C10AD7FC773",
+  "filename": "Conversion Binaire en Decimale.py",
+  "relPath": "bac info/algo/Python/Conversion Binaire en Decimale.py",
+  "sha256": "28157c10ad7fc7738f66b0cebf5603a739ba67e5a4041f0997a54f1f4bc7e954",
+  "extractedAt": "2026-11-14T18:35:35.478Z",
+  "pageCount": 1,
+  "textSnippet": "def conversion(): ch=input(\"Donner un nombre binaire: \") l=len(ch)-1 nb=0 for i in range(len(ch)): x=int(ch[i]) nb=nb+x*2**l l=l-1 print(nb) conversion()",
+  "fullText": "def conversion():\r\n    ch=input(\"Donner un nombre binaire: \")\r\n    l=len(ch)-1\r\n    nb=0\r\n    for i in range(len(ch)):\r\n        x=int(ch[i])\r\n        nb=nb+x*2**l\r\n        l=l-1\r\n    print(nb)\r\n\r\nconversion()",
+  "chunks": [
+    {
+      "chunkId": "DOC-28157C10AD7FC773-CHK-001",
+      "text": "def conversion():\r\n    ch=input(\"Donner un nombre binaire: \")\r\n    l=len(ch)-1\r\n    nb=0\r\n    for i in range(len(ch)):\r\n        x=int(ch[i])\r\n        nb=nb+x*2**l\r\n        l=l-1\r\n    print(nb)\r\n\nconversion()"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5DE8DB208757241E",
+  "filename": "frequence.txt",
+  "relPath": "bac info/Python/ex3s2/frequence.txt",
+  "sha256": "5de8db208757241ea595eccc3ed271c21f6dd0a0e3850343cc7c476e144fad27",
+  "extractedAt": "2026-11-06T14:23:26.172Z",
+  "pageCount": 1,
+  "textSnippet": "la frequence de A=1 la frequence de B=1 la frequence de C=0 la frequence de D=4 la frequence de E=2 la frequence de F=3 la frequence de G=5 la frequence de H=3 la frequence de I=0 la frequence de J=0 la frequence de K=0 la frequence de L=0 la frequence de M=0 la frequence de N=1 la frequence de O=0 la frequence de P=0 la frequence de Q=0 la frequence de R=4 la frequence de S=0 la frequence de T=3 la frequence de U=0 la frequence de V=1 la frequence de W=0 la frequence de X",
+  "fullText": "la frequence de A=1\r\nla frequence de B=1\r\nla frequence de C=0\r\nla frequence de D=4\r\nla frequence de E=2\r\nla frequence de F=3\r\nla frequence de G=5\r\nla frequence de H=3\r\nla frequence de I=0\r\nla frequence de J=0\r\nla frequence de K=0\r\nla frequence de L=0\r\nla frequence de M=0\r\nla frequence de N=1\r\nla frequence de O=0\r\nla frequence de P=0\r\nla frequence de Q=0\r\nla frequence de R=4\r\nla frequence de S=0\r\nla frequence de T=3\r\nla frequence de U=0\r\nla frequence de V=1\r\nla frequence de W=0\r\nla frequence de X=0\r\nla frequence de Y=1\r\nla frequence de Z=1\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5DE8DB208757241E-CHK-001",
+      "text": "la frequence de A=1\r\nla frequence de B=1\r\nla frequence de C=0\r\nla frequence de D=4\r\nla frequence de E=2\r\nla frequence de F=3\r\nla frequence de G=5\r\nla frequence de H=3\r\nla frequence de I=0\r\nla frequence de J=0\r\nla frequence de K=0\r\nla frequence de L=0\r\nla frequence de M=0\r\nla frequence de N=1\r\nla frequence de O=0\r\nla frequence de P=0\r\nla frequence de Q=0\r\nla frequence de R=4\r\nla frequence de S=0\r\nla frequence de T=3\r\nla frequence de U=0\r\nla frequence de V=1\r\nla frequence de W=0\r\nla frequence de X=0\r\nla frequence de Y=1\r\nla frequence de Z=1"
+    }
+  ]
+}

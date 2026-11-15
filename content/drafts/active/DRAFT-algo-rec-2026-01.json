@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-algo-rec-2026-01",
+  "taskId": "BACSI-2026-000001",
+  "version": 1,
+  "createdAt": "2026-11-05T21:40:00Z",
+  "updatedAt": "2026-11-05T21:40:00Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "La Récursivité",
+  "academicYear": "2026-2027",
+  "contentType": "DEVOIR_DE_CONTROLE",
+  "totalPoints": 20.0,
+  "isOfficialBac": false,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation_Sciences_de_l_informatique_2026_Sujet.pdf",
+        "page": 2,
+        "section": "Exercice 2"
+      }
+    ],
+    "verifiedCurriculum": false
+  },
+  "header": {
+    "institution": "République Tunisienne — Ministère de l'Éducation",
+    "sessionLabel": "Épreuve d'entraînement — Document non officiel conçu par BAC AI Tunisia",
+    "duration": "2 Heures",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "ex-1",
+      "number": 1,
+      "title": "QCM & Analyse de fonctions récursives",
+      "points": 4.0,
+      "statementMarkdown": "Soit la fonction récursive suivante écrite en Python (environnement Thonny Bac) :\n\n```python\ndef f(n: int) -> int:\n    if n <= 1:\n        return 1\n    return n * f(n - 1)\n```\n\n1. Déterminer la condition d'arrêt de cette fonction récursive.\n2. Calculer la valeur renvoyée par l'appel f(4) en traçant l'arbre des appels.",
+      "solutionMarkdown": "1. **Condition d'arrêt :** `if n <= 1: return 1`. Elle garantit la terminaison pour tout entier naturel positif.\n2. **Trace des appels :**\n   - f(4) = 4 * f(3)\n   - f(3) = 3 * f(2)\n   - f(2) = 2 * f(1)\n   - f(1) = 1 (cas de base)\n   - D'où : f(4) = 4 * 3 * 2 * 1 = 24.",
+      "gradingCriteria": [
+        { "id": "crit-1.1", "description": "Identification correcte de la condition d'arrêt", "points": 1.5 },
+        { "id": "crit-1.2", "description": "Arbre des appels et résultat final 24", "points": 2.5 }
+      ]
+    },
+    {
+      "id": "ex-2",
+      "number": 2,
+      "title": "Calcul d'une suite récurrente",
+      "points": 6.0,
+      "statementMarkdown": "On considère la suite mathématique définie pour tout n dans N par :\n$$U_0 = 2, \\quad U_n = 3 \\cdot U_{n-1} + 1$$\n\nÉcrire en Python une fonction récursive `suite_u(n: int) -> int` qui calcule et renvoie le terme U_n.",
+      "solutionMarkdown": "```python\ndef suite_u(n: int) -> int:\n    if n == 0:\n        return 2\n    return 3 * suite_u(n - 1) + 1\n```\n\n**Complexité temporelle :** O(n) car chaque appel décrémente n de 1.",
+      "gradingCriteria": [
+        { "id": "crit-2.1", "description": "Traitement du cas de base n = 0", "points": 2.0 },
+        { "id": "crit-2.2", "description": "Formulation correcte de l'appel récursif", "points": 3.0 },
+        { "id": "crit-2.3", "description": "Typage et syntaxe Python conforme Bac", "points": 1.0 }
+      ]
+    },
+    {
+      "id": "ex-3",
+      "number": 3,
+      "title": "Problème : Palindrome récursif et manipulation de chaînes",
+      "points": 10.0,
+      "statementMarkdown": "Une chaîne de caractères est dite un palindrome si elle se lit de la même façon de gauche à droite et de droite à gauche (exemples : 'radar', 'kayak').\n\n1. Définir la règle récursive pour vérifier si un mot est un palindrome.\n2. Écrire la fonction `est_palindrome(mot: str) -> bool` en Python.",
+      "solutionMarkdown": "```python\ndef est_palindrome(mot: str) -> bool:\n    if len(mot) <= 1:\n        return True\n    if mot[0] != mot[-1]:\n        return False\n    return est_palindrome(mot[1:-1])\n```",
+      "gradingCriteria": [
+        { "id": "crit-3.1", "description": "Cas de base longueur <= 1", "points": 3.0 },
+        { "id": "crit-3.2", "description": "Comparaison des extrémités mot[0] == mot[-1]", "points": 3.0 },
+        { "id": "crit-3.3", "description": "Tranche récursive mot[1:-1]", "points": 4.0 }
+      ]
+    }
+  ]
+}

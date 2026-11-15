@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0.0",
+  "publicationId": "PUB-2026-REC-DEVOIR",
+  "sourceDraftId": "DRAFT-DEVOIR-TEACHER-RECURSION-2026",
+  "sourceTaskId": "TASK-TEACHER-ASSESSMENT-REC-2026",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Récursivité et Algorithmes de Tri",
+  "contentType": "DEVOIR_DE_CONTROLE",
+  "language": "fr_tn_derja",
+  "content": {
+    "schemaVersion": "1.0.0",
+    "draftId": "DRAFT-DEVOIR-TEACHER-RECURSION-2026",
+    "taskId": "TASK-TEACHER-ASSESSMENT-REC-2026",
+    "version": 1,
+    "createdAt": "2026-11-06T20:30:00.000Z",
+    "updatedAt": "2026-11-06T20:30:00.000Z",
+    "status": "EXPORTED",
+    "subject": "Algorithmique et Programmation",
+    "chapter": "Récursivité et Algorithmes de Tri",
+    "academicYear": "2026-2027",
+    "contentType": "DEVOIR_DE_CONTROLE",
+    "totalPoints": 20.0,
+    "isOfficialBac": false,
+    "provenance": {
+      "generatedBy": "Conception Enseignant — Studio Pédagogique BAC AI Tunisia",
+      "sourcesCited": [
+        {
+          "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+          "page": 1,
+          "section": "Épreuve pratique officielle Bac SI : Modélisation et Modularité"
+        },
+        {
+          "document": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+          "page": 1,
+          "section": "Implémentation Python standard environnement Thonny"
+        },
+        {
+          "document": "930147474-68a8422d5b347-Corrige-RG-02-tableaux-en-algo-et-en-python.pdf",
+          "page": 2,
+          "section": "Tri et manipulation des tableaux en algorithmique et en Python"
+        }
+      ],
+      "verifiedCurriculum": true
+    },
+    "header": {
+      "institution": "Lycée Pilote / Établissement Secondaire — République Tunisienne",
+      "sessionLabel": "Devoir de Contrôle Pédagogique N°2 — Conception Enseignant (Épreuve d'Entraînement Non Officielle)",
+      "duration": "2 heures (Durée fixée par l'enseignant)",
+      "coefficient": 3
+    },
+    "exercises": [
+      {
+        "id": "pub-ex1-qcm-analyse",
+        "number": 1,
+        "title": "Exercice 1 : Analyse Algorithmique & Traces Récursives (4.0 points)",
+        "points": 4.0,
+        "statementMarkdown": "On considère la fonction récursive `Mystere` définie par l'algorithme suivant en notation conventionnelle tunisienne :\n\n```text\n0) Fonction Mystere (a : Entier, b : Entier) : Entier\n1) Si (b = 0) Alors\n       Mystere <- 0\n   Sinon Si (b Mod 2 = 0) Alors\n       Mystere <- Mystere(a + a, b Div 2)\n   Sinon\n       Mystere <- a + Mystere(a + a, b Div 2)\n   Fin Si\n2) Fin Mystere\n```\n\n#### Questions :\n1. Dresser l'arbre d'appels récursifs pour `Mystere(7, 6)`.\n2. Déterminer la valeur finale retournée.\n3. Identifier le rôle arithmétique de cette fonction.\n4. Préciser la condition d'arrêt et justifier la convergence.",
+        "solutionMarkdown": "#### Solution Détaillée :\n1. **Pile d'appels récursifs :**\n   - `Mystere(7, 6)` -> `Mystere(14, 3)`\n   - `Mystere(14, 3)` -> `14 + Mystere(28, 1)`\n   - `Mystere(28, 1)` -> `28 + Mystere(56, 0)`\n   - `Mystere(56, 0)` -> Cas de base : retourne `0`.\n   - Remontée : `28 + 0 = 28` -> `14 + 28 = 42` -> retourne `42`.\n2. **Valeur retournée :** `42`.\n3. **Rôle arithmétique :** Multiplication égyptienne $a \\times b$ en $\\mathcal{O}(\\log_2 b)$ opérations.\n4. **Condition d'arrêt :** $b = 0$, $b$ décroît strictement par divisions entières successives par 2.",
+        "gradingCriteria": [
+          { "id": "cp1-1", "description": "Pile d'appels complète", "points": 1.5 },
+          { "id": "cp1-2", "description": "Résultat exact 42", "points": 1.0 },
+          { "id": "cp1-3", "description": "Rôle arithmétique exact", "points": 1.0 },
+          { "id": "cp1-4", "description": "Condition d'arrêt et convergence", "points": 0.5 }
+        ]
+      },
+      {
+        "id": "pub-ex2-tri-conditionnel",
+        "number": 2,
+        "title": "Exercice 2 : Tri à Bulles Optimisé & Complexité (5.0 points)",
+        "points": 5.0,
+        "statementMarkdown": "Soit $T$ un tableau de $N$ entiers ($4 \\le N \\le 30$). Écrire la procédure `TriBullesOptimise(Var T : Tab, n : Entier)` avec arrêt anticipé dès que le tableau est ordonné, puis analyser son nombre de comparaisons.\n\n1. Écrire l'algorithme en pseudocode avec TDO.\n2. Donner la traduction en Python 3.\n3. Calculer la complexité meilleur cas et pire cas pour $n = 10$.",
+        "solutionMarkdown": "#### Solution Détaillée :\n```python\ndef tri_bulles_optimise(T):\n    n = len(T)\n    permut = True\n    while permut and n > 1:\n        permut = False\n        for i in range(n - 1):\n            if T[i] > T[i + 1]:\n                T[i], T[i + 1] = T[i + 1], T[i]\n                permut = True\n        n -= 1\n```\n- **Meilleur cas :** $n-1$ comparaisons (tableau déjà trié).\n- **Pire cas :** $n(n-1)/2$ comparaisons ($45$ comparaisons pour $n=10$).",
+        "gradingCriteria": [
+          { "id": "cp2-1", "description": "Algorithme avec drapeau booléen et TDO", "points": 2.0 },
+          { "id": "cp2-2", "description": "Implémentation Python fonctionnelle", "points": 1.5 },
+          { "id": "cp2-3", "description": "Calculs de complexité exacts", "points": 1.5 }
+        ]
+      },
+      {
+        "id": "pub-ex3-palindrome-recursif",
+        "number": 3,
+        "title": "Exercice 3 : Traitement Récursif de Chaînes — Palindrome (4.5 points)",
+        "points": 4.5,
+        "statementMarkdown": "Une chaîne $CH$ est symétrique si elle se lit de façon identique dans les deux sens.\nConcevoir une fonction récursive `EstSymetrique(ch : Chaine) : Booleen` sans aucune structure itérative (`Pour`, `TantQue`).\n\n1. Formuler la relation de récurrence (cas de base et cas récursif).\n2. Écrire l'algorithme conventionnel avec TDO.\n3. Donner la traduction Python 3.",
+        "solutionMarkdown": "#### Solution Détaillée :\n1. **Relation de récurrence :**\n   - Si $\\text{Long}(ch) \\le 1 \\implies$ `Vrai`.\n   - Si $ch[0] \\ne ch[-1] \\implies$ `Faux`.\n   - Sinon : $\\text{EstSymetrique}(ch[1:-1])$.\n\n```python\ndef est_symetrique(ch: str) -> bool:\n    if len(ch) <= 1:\n        return True\n    if ch[0] != ch[-1]:\n        return False\n    return est_symetrique(ch[1:-1])\n```",
+        "gradingCriteria": [
+          { "id": "cp3-1", "description": "Cas de base et cas récursif formulés", "points": 1.0 },
+          { "id": "cp3-2", "description": "Algorithme sans boucles avec TDO", "points": 2.0 },
+          { "id": "cp3-3", "description": "Code Python valide", "points": 1.5 }
+        ]
+      },
+      {
+        "id": "pub-ex4-candidats-synthese",
+        "number": 4,
+        "title": "Exercice 4 : Problème de Synthèse — Enregistrements & Recherche (6.5 points)",
+        "points": 6.5,
+        "statementMarkdown": "Dans un centre d'examen du Bac SI, chaque candidat possède un `cin` (8 chiffres), un `nom_prenom`, une `moyenne` (réel) et un état `admis` (booléen).\n\n1. Déclarer le type `Candidat` et le tableau $T$ dans le TDO.\n2. Écrire la procédure `TrierCandidats(Var T : Tab, n : Entier)` triant par sélection selon la moyenne décroissante.\n3. Écrire la fonction récursive `RechercheDicho(T, g, d, cin_cherche)` par dichotomie.\n4. Donner l'implémentation Python 3 complète.",
+        "solutionMarkdown": "#### Solution Détaillée :\n```text\nType\n    Candidat = Enregistrement\n        cin : Chaîne\n        nom_prenom : Chaîne\n        moyenne : Réel\n        admis : Booléen\n    Fin\n```\n\n```python\ndef recherche_dicho(T: list, g: int, d: int, cin_cherche: str) -> int:\n    if g > d:\n        return -1\n    m = (g + d) // 2\n    if T[m]['cin'] == cin_cherche:\n        return m\n    elif T[m]['cin'] > cin_cherche:\n        return recherche_dicho(T, g, m - 1, cin_cherche)\n    else:\n        return recherche_dicho(T, m + 1, d, cin_cherche)\n```",
+        "gradingCriteria": [
+          { "id": "cp4-1", "description": "Déclaration Enregistrement et TDO", "points": 1.0 },
+          { "id": "cp4-2", "description": "Tri par sélection décroissant", "points": 2.5 },
+          { "id": "cp4-3", "description": "Recherche dichotomique récursive", "points": 2.0 },
+          { "id": "cp4-4", "description": "Code Python conforme", "points": 1.0 }
+        ]
+      }
+    ]
+  },
+  "approvalMetadata": {
+    "reviewer": "Super Admin (Rayen)",
+    "approvedAt": "2026-11-06T20:32:00.000Z",
+    "reviewId": "REV-2026-REC-APPROVAL"
+  },
+  "publishedAt": "2026-11-06T20:33:00.000Z"
+}

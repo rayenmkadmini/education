@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5EB161D64937BFC2",
+  "filename": "Inscription.php",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/Inscription.php",
+  "sha256": "5eb161d64937bfc213883f0e67b7abb92e5b03eb783e56be57f269928efaf091",
+  "extractedAt": "2026-11-06T14:24:16.844Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $nom=$_POST[\"nom\"]; $prenom=$_POST[\"prenom\"]; $tel=$_POST[\"tel\"]; $adr=$_POST[\"adr\"]; $psw=$_POST[\"psw\"]; mysql_connect(\"localhost\",\"root\",\"\"); mysql_select_db(\"rafehmaddouripizza2020\"); $req1=\"select * from client where (nom<>'$nom' or prenom<>'$prenom') and tel='$tel'\"; $res1=mysql_query($req1); if (mysql_num_rows($res1)!=0) { echo \"Erreur : Tél, Nom ou Prénom erroné\"; } else{ $req2=\"select * from client where nom='$nom' and prenom='$prenom' and tel='$tel'\"; $res2=",
+  "fullText": "<?php\r\n$nom=$_POST[\"nom\"];\r\n$prenom=$_POST[\"prenom\"];\r\n$tel=$_POST[\"tel\"];\r\n$adr=$_POST[\"adr\"];\r\n$psw=$_POST[\"psw\"];\r\n\r\nmysql_connect(\"localhost\",\"root\",\"\");\r\nmysql_select_db(\"rafehmaddouripizza2020\");\r\n$req1=\"select * from client where (nom<>'$nom' or prenom<>'$prenom') and tel='$tel'\";\r\n$res1=mysql_query($req1);\r\nif (mysql_num_rows($res1)!=0) {\r\n\techo \"Erreur : Tél, Nom ou Prénom erroné\";\r\n\t\r\n}\r\nelse{\r\n\t$req2=\"select * from client where nom='$nom' and prenom='$prenom' and tel='$tel'\";\r\n\t$res2=mysql_query($req2);\r\n\tif (mysql_num_rows($res2)!=0) {\r\n\t\techo \"client deja existe\";\r\n\t}\r\n\telse{\r\n\t\t$req3=\"insert into client values('$tel','$nom','$prenom','$adr','$psw')\";\r\n\t\t$res3=mysql_query($req3);\r\n\t\tif (mysql_affected_rows()!=-1) {\r\n\t\t\techo \"client ajoutee avec success\";\r\n\t\t}\r\n\t}\r\n\r\n}\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-5EB161D64937BFC2-CHK-001",
+      "text": "<?php\r\n$nom=$_POST[\"nom\"];\r\n$prenom=$_POST[\"prenom\"];\r\n$tel=$_POST[\"tel\"];\r\n$adr=$_POST[\"adr\"];\r\n$psw=$_POST[\"psw\"];\r\n\nmysql_connect(\"localhost\",\"root\",\"\");\r\nmysql_select_db(\"rafehmaddouripizza2020\");\r\n$req1=\"select * from client where (nom<>'$nom' or prenom<>'$prenom') and tel='$tel'\";\r\n$res1=mysql_query($req1);\r\nif (mysql_num_rows($res1)!=0) {\r\n\techo \"Erreur : Tél, Nom ou Prénom erroné\";\r\n\n}\r\nelse{\r\n\t$req2=\"select * from client where nom='$nom' and prenom='$prenom' and tel='$tel'\";\r\n\t$res2=mysql_query($req2);\r\n\tif (mysql_num_rows($res2)!=0) {\r\n\t\techo \"client deja existe\";\r\n\t}\r\n\telse{\r\n\t\t$req3=\"insert into client values('$tel','$nom','$prenom','$adr','$psw')\";\r\n\t\t$res3=mysql_query($req3);\r\n\t\tif (mysql_affected_rows()!=-1) {\r\n\t\t\techo \"client ajoutee avec success\";\r\n\t\t}\r\n\t}\r\n\n}\r\n\n?>"
+    }
+  ]
+}

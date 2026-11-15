@@ -1,0 +1,68 @@
+{
+  "documentId": "DOC-23CB4A9BE606FE1E",
+  "filename": "modulation.pdf",
+  "relPath": "bac info/physique taki/modulation.pdf",
+  "sha256": "23cb4a9be606fe1e5ef5c8e367f383d0b3bc00529b99310cbebf5fccf85b0f30",
+  "extractedAt": "2026-11-06T14:24:06.702Z",
+  "pageCount": 7,
+  "textSnippet": "Physique Classe : 4ème informatiques Modulation et démodulation d’un signal Enoncé -- 1 of 7 -- Pour réaliser la modulation d’amplitude d’une tension électrique, on utilise un multiplieur convenablement polarisé. A l’entrée 𝐄𝟏 du multiplieur, on applique une tension 𝐮𝐄(𝐭) = 𝐮(𝐭) + 𝐔𝟎 , avec 𝐔𝟎 une tension continue appelée tension de décalage et 𝐮(𝐭) = 𝐔𝐦𝐜𝐨𝐬(𝟐𝛑𝐍𝐭) une tension sinusoïdale de basse fréquence 𝐍. A l’entrée 𝐄𝟐 du multiplieur, on applique une tension sinusoï",
+  "fullText": "Physique\nClasse : 4ème informatiques\nModulation et\ndémodulation d’un signal\nEnoncé\n\n-- 1 of 7 --\n\nPour réaliser la modulation d’amplitude d’une tension électrique, on utilise un\nmultiplieur convenablement polarisé. A l’entrée 𝐄𝟏 du multiplieur, on applique une\ntension 𝐮𝐄(𝐭) = 𝐮(𝐭) + 𝐔𝟎 , avec 𝐔𝟎 une tension continue appelée tension de décalage\net 𝐮(𝐭) = 𝐔𝐦𝐜𝐨𝐬(𝟐𝛑𝐍𝐭) une tension sinusoïdale de basse fréquence 𝐍. A l’entrée 𝐄𝟐\ndu multiplieur, on applique une tension sinusoïdale 𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), de\nhaute fréquence 𝐍𝐩. A la sortie S du multiplieur, on obtient une tension\n𝐮𝐬(𝐭) = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), avec 𝐀 et 𝐦 deux constantes positives.\nAinsi, l’expression de l’amplitude 𝐔𝐒𝐦 de 𝐮𝐬(𝐭) est de la forme :\n𝐔𝐒𝐦 = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]\n1.\na) Préciser la nécessité du recours à la modulation d’amplitude d’un signal basse\nfréquence.\nb) Justifier que 𝐮(𝐭) est la tension modulante.\n2.\na) Déterminer les expressions extrémales (minimale et maximale) de l’amplitude\n𝐔𝐒𝐦 de la tension de sortie 𝐮𝐬(𝐭), notée (𝐔𝐒𝐦)𝐦𝐢𝐧 et (𝐔𝐒𝐦)𝐦𝐚𝐱.\nb) Montrer que le taux de modulation m a pour expression :\n𝒎 = (𝐔𝐒𝐦)𝐦𝐚𝐱 − (𝐔𝐒𝐦)𝐦𝐢𝐧\n(𝐔𝐒𝐦)𝐦𝐚𝐱 + (𝐔𝐒𝐦)𝐦𝐢𝐧\n.\n3. Les chronogrammes (𝜻𝟏) et (𝜻𝟐) de la figure 1 représentent, respectivement,\nl’évolution des tensions 𝐮𝐬(𝐭) et 𝐮(𝐭).\n35 min\nmin\nExercice 1\n1\n\n-- 2 of 7 --\n\nFigure 2\nPar exploitant de la figure 1, déterminer :\na) La valeur de la fréquence 𝐍 du signal modulant et celle du signal porteur 𝐍𝐩 ;\nb) La valeur de taux de modulation 𝐦 ;\nc) La valeur de la tension de décalage 𝐔𝟎 ;\n4. En multipliant la valeur de la tension de décalage 𝐔𝟎, on obtient une nouvelle\ntension modulée 𝐮𝐬\n′ (𝐭) représentée sur la figure 2.\n2\n\n-- 3 of 7 --\n\nFigure 2\na) Déterminer la nouvelle valeur de taux de modulation 𝐦′ du taux de\nmodulation.\nb) En déduire qu’il s’agit d’une surmodulation.\nc) Justifier que la surmodulation est en réalité une modulation de mauvaise\nqualité.\nA l’aide d’un oscilloscope permettant la visualisation des signaux de haute fréquence,\non observe le signal modulé à la sortie d’un émetteur.\n30 min\nmin\nExercice 2\n3\n\n-- 4 of 7 --\n\nLes oscillogrammes des écrans 1 et 2 de la figure 1 sont obtenus dans les conditions\nsuivantes:\nEcran Balayage vertical Sensibilité horizontale\n1 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 20𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n2 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 0,2𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n1.\na) Préciser en justifiant si le signal visualisé est modulé en amplitude ou en\nfréquence.\nb) En utilisant les mots suivants, rappeler brièvement le principe d’une\nmodulation d’amplitude (Décalage, message et porteuse).\n2. La porteuse est une tension sinusoïdale d’expression:\n𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nEn précisant l’écran exploité, donner la valeur de la fréquence 𝐍𝐩.\nEcran 1\nEcran 2\nFigure 1\nEcran 2\n4\n\n-- 5 of 7 --\n\n3. Le message à transmettre est aussi une tension sinusoïdale, son expression est de\nla forme:\n𝐮(𝐭) = 𝐔𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)\na) Quelle observation prouve l’allure sinusoïdale de la tension 𝐮(𝐭)?\nPeut-on déduire la qualité de la modulation? Justifier?\nb) Déterminer la valeur de la fréquence 𝐍 de la tension 𝐮(𝐭).\n4. On désigne par 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 respectivement la valeur maximale et\nminimale de l’enveloppe.\nDéterminer la valeur des tension 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\na) Calculer le taux de modulation 𝐦.\nb) Vérifier qu’il s’agit d’une modulation de qualité.\nc) La tension de décalage est 𝐔𝟎 = 𝟏𝟐𝐕.\nCalculer la valeur de la tension 𝐔𝐦.\n5. L’expression de la tension modulée est:\n𝐮𝐬(𝐭) = 𝐤𝐔𝐩𝐦𝐔𝟎[𝟏 + 𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)] 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nOù k est une constante positive de valeur 𝟎, 𝟐 𝐕−𝟏.\na) Exprimer en fonction de 𝐦, 𝐤, 𝐔𝟎 et 𝐔𝐩𝐦 , les tensions 𝐔𝐬𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\nb) Déduire la valeur de 𝐔𝐩𝐦.\n5\n\n-- 6 of 7 --\n\n\n\n-- 7 of 7 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Physique\nClasse : 4ème informatiques\nModulation et\ndémodulation d’un signal\nEnoncé"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Pour réaliser la modulation d’amplitude d’une tension électrique, on utilise un\nmultiplieur convenablement polarisé. A l’entrée 𝐄𝟏 du multiplieur, on applique une\ntension 𝐮𝐄(𝐭) = 𝐮(𝐭) + 𝐔𝟎 , avec 𝐔𝟎 une tension continue appelée tension de décalage\net 𝐮(𝐭) = 𝐔𝐦𝐜𝐨𝐬(𝟐𝛑𝐍𝐭) une tension sinusoïdale de basse fréquence 𝐍. A l’entrée 𝐄𝟐\ndu multiplieur, on applique une tension sinusoïdale 𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), de\nhaute fréquence 𝐍𝐩. A la sortie S du multiplieur, on obtient une tension\n𝐮𝐬(𝐭) = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), avec 𝐀 et 𝐦 deux constantes positives.\nAinsi, l’expression de l’amplitude 𝐔𝐒𝐦 de 𝐮𝐬(𝐭) est de la forme :\n𝐔𝐒𝐦 = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]\n1.\na) Préciser la nécessité du recours à la modulation d’amplitude d’un signal basse\nfréquence.\nb) Justifier que 𝐮(𝐭) est la tension modulante.\n2.\na) Déterminer les expressions extrémales (minimale et maximale) de l’amplitude\n𝐔𝐒𝐦 de la tension de sortie 𝐮𝐬(𝐭), notée (𝐔𝐒𝐦)𝐦𝐢𝐧 et (𝐔𝐒𝐦)𝐦𝐚𝐱.\nb) Montrer que le taux de modulation m a pour expression :\n𝒎 = (𝐔𝐒𝐦)𝐦𝐚𝐱 − (𝐔𝐒𝐦)𝐦𝐢𝐧\n(𝐔𝐒𝐦)𝐦𝐚𝐱 + (𝐔𝐒𝐦)𝐦𝐢𝐧\n.\n3. Les chronogrammes (𝜻𝟏) et (𝜻𝟐) de la figure 1 représentent, respectivement,\nl’évolution des tensions 𝐮𝐬(𝐭) et 𝐮(𝐭).\n35 min\nmin\nExercice 1\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Figure 2\nPar exploitant de la figure 1, déterminer :\na) La valeur de la fréquence 𝐍 du signal modulant et celle du signal porteur 𝐍𝐩 ;\nb) La valeur de taux de modulation 𝐦 ;\nc) La valeur de la tension de décalage 𝐔𝟎 ;\n4. En multipliant la valeur de la tension de décalage 𝐔𝟎, on obtient une nouvelle\ntension modulée 𝐮𝐬\n′ (𝐭) représentée sur la figure 2.\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Figure 2\na) Déterminer la nouvelle valeur de taux de modulation 𝐦′ du taux de\nmodulation.\nb) En déduire qu’il s’agit d’une surmodulation.\nc) Justifier que la surmodulation est en réalité une modulation de mauvaise\nqualité.\nA l’aide d’un oscilloscope permettant la visualisation des signaux de haute fréquence,\non observe le signal modulé à la sortie d’un émetteur.\n30 min\nmin\nExercice 2\n3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Les oscillogrammes des écrans 1 et 2 de la figure 1 sont obtenus dans les conditions\nsuivantes:\nEcran Balayage vertical Sensibilité horizontale\n1 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 20𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n2 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 0,2𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n1.\na) Préciser en justifiant si le signal visualisé est modulé en amplitude ou en\nfréquence.\nb) En utilisant les mots suivants, rappeler brièvement le principe d’une\nmodulation d’amplitude (Décalage, message et porteuse).\n2. La porteuse est une tension sinusoïdale d’expression:\n𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nEn précisant l’écran exploité, donner la valeur de la fréquence 𝐍𝐩.\nEcran 1\nEcran 2\nFigure 1\nEcran 2\n4"
+    },
+    {
+      "pageNumber": 6,
+      "text": "3. Le message à transmettre est aussi une tension sinusoïdale, son expression est de\nla forme:\n𝐮(𝐭) = 𝐔𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)\na) Quelle observation prouve l’allure sinusoïdale de la tension 𝐮(𝐭)?\nPeut-on déduire la qualité de la modulation? Justifier?\nb) Déterminer la valeur de la fréquence 𝐍 de la tension 𝐮(𝐭).\n4. On désigne par 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 respectivement la valeur maximale et\nminimale de l’enveloppe.\nDéterminer la valeur des tension 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\na) Calculer le taux de modulation 𝐦.\nb) Vérifier qu’il s’agit d’une modulation de qualité.\nc) La tension de décalage est 𝐔𝟎 = 𝟏𝟐𝐕.\nCalculer la valeur de la tension 𝐔𝐦.\n5. L’expression de la tension modulée est:\n𝐮𝐬(𝐭) = 𝐤𝐔𝐩𝐦𝐔𝟎[𝟏 + 𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)] 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nOù k est une constante positive de valeur 𝟎, 𝟐 𝐕−𝟏.\na) Exprimer en fonction de 𝐦, 𝐤, 𝐔𝟎 et 𝐔𝐩𝐦 , les tensions 𝐔𝐬𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\nb) Déduire la valeur de 𝐔𝐩𝐦.\n5"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-001",
+      "pageNumber": 1,
+      "text": "Physique\nClasse : 4ème informatiques\nModulation et\ndémodulation d’un signal\nEnoncé"
+    },
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-002",
+      "pageNumber": 2,
+      "text": "Pour réaliser la modulation d’amplitude d’une tension électrique, on utilise un\nmultiplieur convenablement polarisé. A l’entrée 𝐄𝟏 du multiplieur, on applique une\ntension 𝐮𝐄(𝐭) = 𝐮(𝐭) + 𝐔𝟎 , avec 𝐔𝟎 une tension continue appelée tension de décalage\net 𝐮(𝐭) = 𝐔𝐦𝐜𝐨𝐬(𝟐𝛑𝐍𝐭) une tension sinusoïdale de basse fréquence 𝐍. A l’entrée 𝐄𝟐\ndu multiplieur, on applique une tension sinusoïdale 𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), de\nhaute fréquence 𝐍𝐩. A la sortie S du multiplieur, on obtient une tension\n𝐮𝐬(𝐭) = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]𝐜𝐨𝐬(𝟐𝛑𝐍𝐩𝐭), avec 𝐀 et 𝐦 deux constantes positives.\nAinsi, l’expression de l’amplitude 𝐔𝐒𝐦 de 𝐮𝐬(𝐭) est de la forme :\n𝐔𝐒𝐦 = 𝐀[𝟏 + 𝐦 𝐜𝐨𝐬(𝟐𝛑𝐍𝐭)]\n1.\na) Préciser la nécessité du recours à la modulation d’amplitude d’un signal basse\nfréquence.\nb) Justifier que 𝐮(𝐭) est la tension modulante.\n2.\na) Déterminer les expressions extrémales (minimale et maximale) de l’amplitude\n𝐔𝐒𝐦 de la tension de sortie 𝐮𝐬(𝐭), notée (𝐔𝐒𝐦)𝐦𝐢𝐧 et (𝐔𝐒𝐦)𝐦𝐚𝐱.\nb) Montrer que le taux de modulation m a pour expression :\n𝒎 = (𝐔𝐒𝐦)𝐦𝐚𝐱 − (𝐔𝐒𝐦)𝐦𝐢𝐧\n(𝐔𝐒𝐦)𝐦𝐚𝐱 + (𝐔𝐒𝐦)𝐦𝐢𝐧\n.\n3. Les chronogrammes (𝜻𝟏) et (𝜻𝟐) de la figure 1 représentent, respectivement,\nl’évolution des tensions 𝐮𝐬(𝐭) et 𝐮(𝐭).\n35 min\nmin\nExercice 1\n1"
+    },
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-003",
+      "pageNumber": 3,
+      "text": "Figure 2\nPar exploitant de la figure 1, déterminer :\na) La valeur de la fréquence 𝐍 du signal modulant et celle du signal porteur 𝐍𝐩 ;\nb) La valeur de taux de modulation 𝐦 ;\nc) La valeur de la tension de décalage 𝐔𝟎 ;\n4. En multipliant la valeur de la tension de décalage 𝐔𝟎, on obtient une nouvelle\ntension modulée 𝐮𝐬\n′ (𝐭) représentée sur la figure 2.\n2"
+    },
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-004",
+      "pageNumber": 4,
+      "text": "Figure 2\na) Déterminer la nouvelle valeur de taux de modulation 𝐦′ du taux de\nmodulation.\nb) En déduire qu’il s’agit d’une surmodulation.\nc) Justifier que la surmodulation est en réalité une modulation de mauvaise\nqualité.\nA l’aide d’un oscilloscope permettant la visualisation des signaux de haute fréquence,\non observe le signal modulé à la sortie d’un émetteur.\n30 min\nmin\nExercice 2\n3"
+    },
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-005",
+      "pageNumber": 5,
+      "text": "Les oscillogrammes des écrans 1 et 2 de la figure 1 sont obtenus dans les conditions\nsuivantes:\nEcran Balayage vertical Sensibilité horizontale\n1 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 20𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n2 10 𝑉 𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\t⁄ 0,2𝜇𝑠/𝑑𝑖𝑣𝑖𝑠𝑖𝑜𝑛\n1.\na) Préciser en justifiant si le signal visualisé est modulé en amplitude ou en\nfréquence.\nb) En utilisant les mots suivants, rappeler brièvement le principe d’une\nmodulation d’amplitude (Décalage, message et porteuse).\n2. La porteuse est une tension sinusoïdale d’expression:\n𝐮𝐩(𝐭) = 𝐔𝐩𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nEn précisant l’écran exploité, donner la valeur de la fréquence 𝐍𝐩.\nEcran 1\nEcran 2\nFigure 1\nEcran 2\n4"
+    },
+    {
+      "chunkId": "DOC-23CB4A9BE606FE1E-CHK-006",
+      "pageNumber": 6,
+      "text": "3. Le message à transmettre est aussi une tension sinusoïdale, son expression est de\nla forme:\n𝐮(𝐭) = 𝐔𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)\na) Quelle observation prouve l’allure sinusoïdale de la tension 𝐮(𝐭)?\nPeut-on déduire la qualité de la modulation? Justifier?\nb) Déterminer la valeur de la fréquence 𝐍 de la tension 𝐮(𝐭).\n4. On désigne par 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 respectivement la valeur maximale et\nminimale de l’enveloppe.\nDéterminer la valeur des tension 𝐔𝐒𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\na) Calculer le taux de modulation 𝐦.\nb) Vérifier qu’il s’agit d’une modulation de qualité.\nc) La tension de décalage est 𝐔𝟎 = 𝟏𝟐𝐕.\nCalculer la valeur de la tension 𝐔𝐦.\n5. L’expression de la tension modulée est:\n𝐮𝐬(𝐭) = 𝐤𝐔𝐩𝐦𝐔𝟎[𝟏 + 𝐦 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍. 𝐭)] 𝐬𝐢𝐧(𝟐. 𝛑. 𝐍𝐩. 𝐭)\nOù k est une constante positive de valeur 𝟎, 𝟐 𝐕−𝟏.\na) Exprimer en fonction de 𝐦, 𝐤, 𝐔𝟎 et 𝐔𝐩𝐦 , les tensions 𝐔𝐬𝐦 𝐦𝐚𝐱 et 𝐔𝐒𝐦 𝐦𝐢𝐧 .\nb) Déduire la valeur de 𝐔𝐩𝐦.\n5"
+    }
+  ]
+}

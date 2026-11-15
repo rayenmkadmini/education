@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-D69A8537D9E975C0",
+  "filename": "Ex9serie8.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 8/Ex9serie8.docx",
+  "sha256": "d69a8537d9e975c026b00c25e306900e4ac116b6845e96682acb50ca4fd268ac",
+  "extractedAt": "2026-11-06T14:24:40.179Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex9serie8 Résultat =PROC affiche(e) e= PROC saisie ( e) Fin Ex9serie8 DEF PROC affiche (e :entier ) CONVCH( e ,ch ) Ecrire( ch ) Répeter s ← 0 Pour i de 1 à long( ch ) faire Valeur ( ch [ i ],x,e1) s ← s + x Fin pour s ← (s + long( ch )) Mod 10 CONVCH( s ,c ) Ch ← c + ch + c Ecrire( ch ) Jusqu’à (FN Divisible( ch )=Vrai) Fin affiche ____________________________________________________________________ DEF FN Div",
+  "fullText": "Nom : Ex9serie8\n\nRésultat =PROC affiche(e)\n\ne= PROC \n\nsaisie\n\n(\n\ne)\n\nFin Ex9serie8\n\nDEF PROC affiche (e \n\n:entier\n\n) \n\nCONVCH(\n\ne\n\n,ch\n\n)\n\nEcrire(\n\nch\n\n)\n\nRépeter\n\ns\n\n ← 0\n\n   Pour i de 1 à \n\nlong(\n\nch\n\n) faire\n\nValeur\n\n(\n\nch\n\n[\n\ni\n\n],x,e1)\n\n      s ← s + x \n\n   Fin pour\n\ns\n\n ← (s + long(\n\nch\n\n)) Mod 10\n\n   CONVCH(\n\ns\n\n,c\n\n)\n\n   Ch ← c + \n\nch\n\n + c\n\nEcrire(\n\nch\n\n)\n\nJusqu’à (FN \n\nDivisible(\n\nch\n\n)=Vrai)\n\nFin affiche\n\n____________________________________________________________________\n\nDEF FN Divisible (\n\nch\n\n :\n\nchaine\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\ns ← 0\n\nRépeter\n\n   Si \n\nlong(\n\nch\n\n)>=3 faire\n\n      Cr ← sous-\n\nchaine(\n\nch,long\n\n(\n\nch\n\n)-2,3)\n\nValeur(\n\ncr,y,e\n\n)\n\nEfface(\n\nch,long\n\n(\n\nch\n\n)-2,3)\n\n   Sinon \n\nValeur(\n\nch,y,e\n\n)\n\nEfface(\n\nch\n\n,1,long(\n\nch\n\n))\n\nFinsi\n\ni\n\n ← \n\ni\n\n + 1\n\n   Si \n\ni\n\n mod 2=1\n\n      Alors s ← s + y\n\n   Sinon s ← s – y\n\nFinsi\n\nJusqu’à \n\nch\n\n=\"\"\n\nDivisible ← s \n\nmod\n\n 7 = 0\n\nFin Divisible",
+  "chunks": [
+    {
+      "chunkId": "DOC-D69A8537D9E975C0-CHK-001",
+      "text": "Nom : Ex9serie8\n\nRésultat =PROC affiche(e)\n\ne= PROC \n\nsaisie\n\n(\n\ne)\n\nFin Ex9serie8\n\nDEF PROC affiche (e \n\n:entier\n\n) \n\nCONVCH(\n\ne\n\n,ch\n\n)\n\nEcrire(\n\nch\n\n)\n\nRépeter\n\ns\n\n ← 0\n\n   Pour i de 1 à \n\nlong(\n\nch\n\n) faire\n\nValeur\n\n(\n\nch\n\n[\n\ni\n\n],x,e1)\n\n      s ← s + x \n\n   Fin pour\n\ns\n\n ← (s + long(\n\nch\n\n)) Mod 10\n\n   CONVCH(\n\ns\n\n,c\n\n)\n\n   Ch ← c + \n\nch\n\n + c\n\nEcrire(\n\nch\n\n)\n\nJusqu’à (FN \n\nDivisible(\n\nch\n\n)=Vrai)\n\nFin affiche\n\n____________________________________________________________________\n\nDEF FN Divisible (\n\nch\n\n :\n\nchaine\n\n) :\n\nbooleen\n\ni\n\n ← 0\n\ns ← 0\n\nRépeter\n\n   Si \n\nlong(\n\nch\n\n)>=3 faire\n\n      Cr ← sous-\n\nchaine(\n\nch,long\n\n(\n\nch\n\n)-2,3)\n\nValeur(\n\ncr,y,e\n\n)\n\nEfface(\n\nch,long\n\n(\n\nch\n\n)-2,3)\n\n   Sinon \n\nValeur(\n\nch,y,e\n\n)\n\nEfface(\n\nch\n\n,1,long(\n\nch\n\n))\n\nFinsi\n\ni\n\n ← \n\ni\n\n + 1\n\n   Si \n\ni"
+    },
+    {
+      "chunkId": "DOC-D69A8537D9E975C0-CHK-002",
+      "text": "mod 2=1\n\n      Alors s ← s + y\n\n   Sinon s ← s – y\n\nFinsi\n\nJusqu’à \n\nch\n\n=\"\"\n\nDivisible ← s \n\nmod\n\n 7 = 0\n\nFin Divisible"
+    }
+  ]
+}

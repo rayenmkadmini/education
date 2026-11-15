@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-9E67D3B7C0C7914A",
+  "filename": "epreuve_pratique_bac2014_sujet7.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet7.py",
+  "sha256": "9e67d3b7c0c7914a2d34fa4f806e85aeed404fbeebb1c8e534bcebf94c41a74d",
+  "extractedAt": "2026-11-06T14:24:36.992Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 40) V = array([int] * 10) def Saisie(): b = False while not b: n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 40 return n def Remplir(n): for i in range(n): b = False while not b: T[i] = int(input(\"Donner t[\" + str(i) + \"]: \")) b = 0 < T[i] def remplirV(T, V, n): k = 0 for i in range(n): if appartenir(T[i]): V[k]",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 40)\r\nV = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 40\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"Donner t[\" + str(i) + \"]: \"))\r\n            b = 0 < T[i]\r\n\r\n\r\ndef remplirV(T, V, n):\r\n    k = 0\r\n    for i in range(n):\r\n        if appartenir(T[i]):\r\n            V[k] = T[i]\r\n            k += 1\r\n    return k\r\n\r\n\r\ndef appartenir(x):\r\n    u = 1\r\n    ok = False\r\n    while u <= x and ok == False:\r\n        u = 3 * u - 1\r\n        ok = u == x\r\n    return ok\r\n\r\n\r\ndef Afficher(V, k):\r\n    if k != 0:\r\n\r\n        for i in range(k):\r\n            print(V[i], end=\" \")\r\n    else:\r\n        print('Aucun élément ne correspond à la suite')\r\n\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nk = remplirV(T, V, n)\r\nAfficher(V, k)\r\n#print(V)\r\n#print(appartenir(41))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-9E67D3B7C0C7914A-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 40)\r\nV = array([int] * 10)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 40\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"Donner t[\" + str(i) + \"]: \"))\r\n            b = 0 < T[i]\r\n\ndef remplirV(T, V, n):\r\n    k = 0\r\n    for i in range(n):\r\n        if appartenir(T[i]):\r\n            V[k] = T[i]\r\n            k += 1\r\n    return k\r\n\ndef appartenir(x):\r\n    u = 1\r\n    ok = False\r\n    while u <= x and ok == False:\r\n        u = 3 * u - 1\r\n        ok = u == x\r\n    return ok\r\n\ndef Afficher(V, k):\r\n    if k != 0:"
+    },
+    {
+      "chunkId": "DOC-9E67D3B7C0C7914A-CHK-002",
+      "text": "for i in range(k):\r\n            print(V[i], end=\" \")\r\n    else:\r\n        print('Aucun élément ne correspond à la suite')\r\n\n####################PP####################\r\n\nn = Saisie()\r\nRemplir(n)\r\nk = remplirV(T, V, n)\r\nAfficher(V, k)\r\n#print(V)\r\n#print(appartenir(41))"
+    }
+  ]
+}

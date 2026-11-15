@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-AAB035985875AC8A",
+  "filename": "mesStyles.css",
+  "relPath": "Prototype Bac pratique 2025/DCN°6 Ressources/mesStyles.css",
+  "sha256": "aab035985875ac8a85fd98df89a5ae923b88ebae89807f6968c2a771894f4a03",
+  "extractedAt": "2026-11-06T14:22:58.105Z",
+  "pageCount": 1,
+  "textSnippet": "header, footer { width:100%; } nav { width: 30%; height:400px; float:left; } section { width: 70%; height:400px; float:left; } iframe{ width:100%; height:100%; }",
+  "fullText": "﻿header, footer {\r\n\t\twidth:100%;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-AAB035985875AC8A-CHK-001",
+      "text": "header, footer {\r\n\t\twidth:100%;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-EF48B824C2AB2AAA",
+  "filename": "Valeur approché à 10^-4.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Valeur approché à 10^-4.py",
+  "sha256": "ef48b824c2ab2aaa6118ddb0508200fa1d49483dbdf019cf5a833398260d9b06",
+  "extractedAt": "2026-11-14T18:35:36.508Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def f(x): return 1-sin(x) def pt_fx(eps): x=0.1 while abs(f(x)-x)>eps: x=f(x) return x #Programme appelant eps=float(input(\"Donner epsilon:\")) print(\"La valeur approché de point fixe est: \",pt_fx(eps))",
+  "fullText": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fx(eps):\r\n    x=0.1\r\n    while abs(f(x)-x)>eps:\r\n        x=f(x)\r\n    return x\r\n#Programme appelant\r\neps=float(input(\"Donner epsilon:\"))\r\nprint(\"La valeur approché de point fixe est: \",pt_fx(eps))",
+  "chunks": [
+    {
+      "chunkId": "DOC-EF48B824C2AB2AAA-CHK-001",
+      "text": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fx(eps):\r\n    x=0.1\r\n    while abs(f(x)-x)>eps:\r\n        x=f(x)\r\n    return x\r\n#Programme appelant\r\neps=float(input(\"Donner epsilon:\"))\r\nprint(\"La valeur approché de point fixe est: \",pt_fx(eps))"
+    }
+  ]
+}

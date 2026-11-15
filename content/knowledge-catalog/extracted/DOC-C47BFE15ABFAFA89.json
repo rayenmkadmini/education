@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-C47BFE15ABFAFA89",
+  "filename": "index.html",
+  "relPath": "bac info/sti/gym/index.html",
+  "sha256": "c47bfe15abfafa89b47a80207f3e6b7222f2b1bf7b9725418ebf1a4b1d334adc",
+  "extractedAt": "2026-11-06T14:24:18.492Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>index</title> <link rel=\"stylesheet\" href=\"style.css\" /> </head> <body> <header> <img id=\"logo\" src=\"files/logo.jpg\" alt=\"logo\" /> <h1>Où l'effort ne s'arrête pas...</h1> </header> <nav> <ul> <li><a href=\"accueil.html",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>\r\n\r\n  <body>\r\n    <header>\r\n      <img id=\"logo\" src=\"files/logo.jpg\" alt=\"logo\" />\r\n      <h1>Où l'effort ne s'arrête pas...</h1>\r\n    </header>\r\n    <nav>\r\n      <ul>\r\n        <li><a href=\"accueil.html\" target=\"cadre principal\">acceuil</a></li>\r\n        <li><a href=\"planning.html\" target=\"cadre principal\">planning</a></li>\r\n        <li>\r\n          <a href=\"inscription.html\" target=\"cadre principal\">inscription</a>\r\n        </li>\r\n        <li><a href=\"tarifs.html\" target=\"cadre principal\">tarifs</a></li>\r\n      </ul>\r\n    </nav>\r\n    <main>\r\n      <section>\r\n        <iframe src=\"accueil.html\" name=\"cadre principal\"></iframe>\r\n      </section>\r\n      <aside>\r\n        <figure>\r\n          <img src=\"files/salle.jpg\" alt=\"salle\" id=\"salle\" />\r\n          <figcaption class=\"centrer gras\">La salle principale</figcaption>\r\n        </figure>\r\n      </aside>\r\n    </main>\r\n    <footer id=\"footer\">\r\n      <address>\r\n        <mark>Contact info...</mark><br />\r\n        Adresse: 22 rue de la liberté 2037 ARIANA <br />\r\n        Tél:+(216) 70 555 555 Fax:+(216) 71 666 666\r\n      </address>\r\n      <div>© 2023 - Tous droits réservés.</div>\r\n    </footer>\r\n  </body>\r\n</html>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C47BFE15ABFAFA89-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\" />\r\n  </head>"
+    },
+    {
+      "chunkId": "DOC-C47BFE15ABFAFA89-CHK-002",
+      "text": "<body>\r\n    <header>\r\n      <img id=\"logo\" src=\"files/logo.jpg\" alt=\"logo\" />\r\n      <h1>Où l'effort ne s'arrête pas...</h1>\r\n    </header>\r\n    <nav>\r\n      <ul>\r\n        <li><a href=\"accueil.html\" target=\"cadre principal\">acceuil</a></li>\r\n        <li><a href=\"planning.html\" target=\"cadre principal\">planning</a></li>\r\n        <li>\r\n          <a href=\"inscription.html\" target=\"cadre principal\">inscription</a>\r\n        </li>\r\n        <li><a href=\"tarifs.html\" target=\"cadre principal\">tarifs</a></li>\r\n      </ul>\r\n    </nav>\r\n    <main>\r\n      <section>\r\n        <iframe src=\"accueil.html\" name=\"cadre principal\"></iframe>\r\n      </section>\r\n      <aside>\r\n        <figure>\r\n          <img src=\"files/salle.jpg\" alt=\"salle\" id=\"salle\" />\r\n          <figcaption class=\"centrer gras\">La salle principale</figcaption>\r\n        </figure>\r\n      </aside>\r\n    </main>\r\n    <footer id=\"footer\">\r\n      <address>\r\n        <mark>Contact info...</mark><br />\r\n        Adresse: 22 rue de la liberté 2037 ARIANA <br />\r\n        Tél:+(216) 70 555 555 Fax:+(216) 71 666 666\r\n      </address>\r\n      <div>© 2023 - Tous droits réservés.</div>\r\n    </footer>\r\n  </body>\r\n</html>"
+    }
+  ]
+}

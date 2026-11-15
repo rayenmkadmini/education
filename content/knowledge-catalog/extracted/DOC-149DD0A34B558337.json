@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-149DD0A34B558337",
+  "filename": "Ex2serie9.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 9/Ex2serie9.docx",
+  "sha256": "149dd0a34b558337ba9a3c6b7d0f8579b88ec3b5b5c76233c21be98f27c1cde7",
+  "extractedAt": "2026-11-06T14:24:40.329Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex2serie9 Résultat =PROC affiche( T ,n ) T ,n = PROC redondance( T,n ) T= PROC tri( T ,ind,n ) T= PROC supprimer( T ,n ) T= PROC remplir( T ,n ) n= PROC saisie(n) Fin Ex2serie9 DEF PROC remplir (var T :entier ; n :entier) Pour i de 1 à n faire T[i] ← alea(90000 )+ 10000 Fin pour Fin remplir ____________________________________________________________________ DEF PROC supprimer (var T :tab ; n :entier) Pour i de 1 à n faire CONVCH( T[ i ],",
+  "fullText": "Nom : Ex2serie9\n\nRésultat =PROC affiche(\n\nT\n\n,n\n\n)\n\nT\n\n,n\n\n= PROC redondance(\n\nT,n\n\n)\n\nT= PROC tri(\n\nT\n\n,ind,n\n\n)\n\nT= PROC supprimer(\n\nT\n\n,n\n\n)\n\nT= PROC remplir(\n\nT\n\n,n\n\n)\n\nn= PROC saisie(n)\n\nFin Ex2serie9\n\nDEF PROC remplir (var T \n\n:entier\n\n ; n :entier) \n\nPour i de 1 à n faire\n\n   T[i] ← alea(90000\n\n)+\n\n10000 \n\nFin pour\n\nFin remplir\n\n____________________________________________________________________\n\nDEF PROC supprimer (var T \n\n:tab\n\n ; n :entier)\n\nPour i de 1 à n faire\n\nCONVCH(\n\nT[\n\ni\n\n],\n\nch\n\n)\n\nj\n\n ← 0\n\nRépeter\n\nj\n\n ← j+1\n\nk\n\n ← j+1\n\nTantque\n\n (k<=\n\nlong(\n\nch\n\n)) faire\n\n         Si \n\nch\n\n[j]=\n\nch\n\n[k]\n\n            Alors \n\nefface(\n\nch,k\n\n,1)\n\n            Sinon k ← k+1\n\n      Fin \n\ntantque\n\n   Jusqu’à j= \n\nlong(\n\nch\n\n)\n\nValeur(\n\nch,T\n\n[i],e)\n\nFin pour\n\nFin \n\nsupprimer\n\n___________________________________________________________________\n\nDEF PROC Tri (var T \n\n:tab\n\n ; n :entier)\n\nPour i de 1 à n faire\n\nCONCH(\n\nT[\n\ni\n\n],\n\nch\n\n)\n\nRépeter\n\nok\n\n ← vrai\n\n   Pour j de 1 à \n\nlong(\n\nch\n\n)-1 faire\n\n      Si \n\nch\n\n[j]>\n\nch\n\n[\n\nj+1]\n\n         Alors v ← \n\nch\n\n[j]\n\nch\n\n[\n\nj] ← \n\nch\n\n[j+1]\n\nch\n\n[\n\nj+1] ← v\n\nok\n\n ← faux\n\nFinsi\n\n   Fin pour\n\nn\n\n ← n-1\n\nJusqu’à (ok=vrai\n\n)ou\n\n(n=1)\n\nValeur(\n\nch,T\n\n[i],e)\n\nFin tri\n\n____________________________________________________________________\n\nDEF PROC redondance (var T \n\n:tab\n\n ; var n :entier)\n\ni ← 0\n\nRépeter\n\n   i ← i+1\n\nj\n\n ← i+1\n\nRépeter\n\n      Si T[i]=T[j]\n\n         Alors Pour k de j à n-1 faire\n\n                  T[k] ← \n\nT[\n\nk+1]\n\n               Fin pour\n\nn\n\n ← n-1\n\n         Sinon j ← j+1 \n\nFinsi\n\n   Jusqu’à (i>n)\n\nJusqu’à (i=n)\n\nFin redondance",
+  "chunks": [
+    {
+      "chunkId": "DOC-149DD0A34B558337-CHK-001",
+      "text": "Nom : Ex2serie9\n\nRésultat =PROC affiche(\n\nT\n\n,n\n\n)\n\nT\n\n,n\n\n= PROC redondance(\n\nT,n\n\n)\n\nT= PROC tri(\n\nT\n\n,ind,n\n\n)\n\nT= PROC supprimer(\n\nT\n\n,n\n\n)\n\nT= PROC remplir(\n\nT\n\n,n\n\n)\n\nn= PROC saisie(n)\n\nFin Ex2serie9\n\nDEF PROC remplir (var T \n\n:entier\n\n ; n :entier) \n\nPour i de 1 à n faire\n\n   T[i] ← alea(90000\n\n)+\n\n10000 \n\nFin pour\n\nFin remplir\n\n____________________________________________________________________\n\nDEF PROC supprimer (var T \n\n:tab\n\n ; n :entier)\n\nPour i de 1 à n faire\n\nCONVCH(\n\nT[\n\ni\n\n],\n\nch\n\n)\n\nj\n\n ← 0\n\nRépeter\n\nj\n\n ← j+1\n\nk\n\n ← j+1\n\nTantque\n\n (k<=\n\nlong(\n\nch\n\n)) faire\n\n         Si \n\nch\n\n[j]=\n\nch\n\n[k]\n\n            Alors \n\nefface(\n\nch,k\n\n,1)\n\n            Sinon k ← k+1\n\n      Fin \n\ntantque\n\n   Jusqu’à j= \n\nlong(\n\nch\n\n)\n\nValeur(\n\nch,T\n\n[i],e)\n\nFin pour\n\nFin \n\nsupprimer"
+    },
+    {
+      "chunkId": "DOC-149DD0A34B558337-CHK-002",
+      "text": "___________________________________________________________________\n\nDEF PROC Tri (var T \n\n:tab\n\n ; n :entier)\n\nPour i de 1 à n faire\n\nCONCH(\n\nT[\n\ni\n\n],\n\nch\n\n)\n\nRépeter\n\nok\n\n ← vrai\n\n   Pour j de 1 à \n\nlong(\n\nch\n\n)-1 faire\n\n      Si \n\nch\n\n[j]>\n\nch\n\n[\n\nj+1]\n\n         Alors v ← \n\nch\n\n[j]\n\nch\n\n[\n\nj] ← \n\nch\n\n[j+1]\n\nch\n\n[\n\nj+1] ← v\n\nok\n\n ← faux\n\nFinsi\n\n   Fin pour\n\nn\n\n ← n-1\n\nJusqu’à (ok=vrai\n\n)ou\n\n(n=1)\n\nValeur(\n\nch,T\n\n[i],e)\n\nFin tri\n\n____________________________________________________________________\n\nDEF PROC redondance (var T \n\n:tab\n\n ; var n :entier)\n\ni ← 0\n\nRépeter\n\n   i ← i+1\n\nj\n\n ← i+1\n\nRépeter\n\n      Si T[i]=T[j]\n\n         Alors Pour k de j à n-1 faire\n\n                  T[k] ← \n\nT[\n\nk+1]\n\n               Fin pour\n\nn\n\n ← n-1\n\n         Sinon j ← j+1 \n\nFinsi\n\n   Jusqu’à (i>n)"
+    },
+    {
+      "chunkId": "DOC-149DD0A34B558337-CHK-003",
+      "text": "Jusqu’à (i=n)\n\nFin redondance"
+    }
+  ]
+}

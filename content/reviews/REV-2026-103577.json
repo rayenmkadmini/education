@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewId": "REV-2026-103577",
+  "draftId": "DRAFT-TEST-699637",
+  "draftVersion": 2,
+  "reviewer": "Super Admin (Rayen)",
+  "status": "APPROVED",
+  "checklist": {
+    "baremeValid": true,
+    "syntaxValid": true,
+    "curriculumCompliant": true,
+    "noHallucination": true
+  },
+  "reviewerNotes": "Exercice conforme au programme officiel et barème cohérent.",
+  "timestamp": "2026-11-06T13:56:45.445Z"
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-01D739A76860069D",
+  "filename": "Exponentielle.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Exponentielle.py",
+  "sha256": "01d739a76860069d1ee80a51901642c4560c0a2953772e4be66e845c43fcfb99",
+  "extractedAt": "2026-11-14T18:35:36.472Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def saisie1(): x=int(input(\"Donner x: \")) while not x>0: x=int(input(\"Donner x: \")) return x def saisie2(): eps=float(input(\"Donner epsilon: \")) while not 0.000001<=eps<=0.01: eps=float(input(\"Donner epsilon: \")) return eps def fact(x): if x==0: return 1 else: return x*fact(x-1) def puis(x,y): if y==0: return 1 elif y>0: return x*puis(x,y-1) else: return 1/",
+  "fullText": "from math import *\r\ndef saisie1():\r\n    x=int(input(\"Donner x: \"))\r\n    while not x>0:\r\n        x=int(input(\"Donner x: \"))\r\n    return x\r\ndef saisie2():\r\n    eps=float(input(\"Donner epsilon: \"))\r\n    while not 0.000001<=eps<=0.01:\r\n        eps=float(input(\"Donner epsilon: \"))\r\n    return eps\r\ndef fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\ndef puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    elif y>0:\r\n        return x*puis(x,y-1)\r\n    else:\r\n        return 1/puis(x,-y)\r\ndef expo(x,eps):\r\n    s1=1\r\n    s2=1+x\r\n    i=2\r\n    while abs(s2*2-s1*2)>eps:\r\n        s1=s2\r\n        s2=s1+(puis(x,i)/fact(i))\r\n        i=i+1\r\n    return s2*2\r\n\r\n#Programme Principale:\r\nx=saisie1()\r\neps=saisie2()\r\nprint(expo(x,eps))",
+  "chunks": [
+    {
+      "chunkId": "DOC-01D739A76860069D-CHK-001",
+      "text": "from math import *\r\ndef saisie1():\r\n    x=int(input(\"Donner x: \"))\r\n    while not x>0:\r\n        x=int(input(\"Donner x: \"))\r\n    return x\r\ndef saisie2():\r\n    eps=float(input(\"Donner epsilon: \"))\r\n    while not 0.000001<=eps<=0.01:\r\n        eps=float(input(\"Donner epsilon: \"))\r\n    return eps\r\ndef fact(x):\r\n    if x==0:\r\n        return 1\r\n    else:\r\n        return x*fact(x-1)\r\ndef puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    elif y>0:\r\n        return x*puis(x,y-1)\r\n    else:\r\n        return 1/puis(x,-y)\r\ndef expo(x,eps):\r\n    s1=1\r\n    s2=1+x\r\n    i=2\r\n    while abs(s2*2-s1*2)>eps:\r\n        s1=s2\r\n        s2=s1+(puis(x,i)/fact(i))\r\n        i=i+1\r\n    return s2*2\r\n\n#Programme Principale:\r\nx=saisie1()\r\neps=saisie2()\r\nprint(expo(x,eps))"
+    }
+  ]
+}
