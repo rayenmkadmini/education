@@ -1,0 +1,50 @@
+{
+  "documentId": "DOC-A3A443A6E1D09D5A",
+  "filename": "62d7ec097a40d_Magazine N°4 - ( Arithmétique  )..pdf",
+  "relPath": "bac info/math taki/arithmitique/62d7ec097a40d_Magazine N°4 - ( Arithmétique  )..pdf",
+  "sha256": "a3a443a6e1d09d5a9d3e16be46ff61a91ca3fdc3b991447b049978fc4cac2dbe",
+  "extractedAt": "2026-11-06T14:23:47.802Z",
+  "pageCount": 5,
+  "textSnippet": "Mathématiques Classe : BAC INFORMATIQUE Chapitre : Arithmétique -- 1 of 5 -- 30 min 5 pt Exercice 1 30 min 5 pt Exercice 2 1 -- 2 of 5 -- 30 min 5 pt Exercice 3 30 min 5 pt Exercice 4 2 -- 3 of 5 -- 30 min 5 pt Exercice 5 3 -- 4 of 5 -- -- 5 of 5 --",
+  "fullText": "Mathématiques\nClasse : BAC INFORMATIQUE\nChapitre : Arithmétique\n\n-- 1 of 5 --\n\n30 min 5 pt\tExercice 1\n30 min 5 pt\tExercice 2\n1\n\n-- 2 of 5 --\n\n30 min 5 pt\tExercice 3\n30 min 5 pt\tExercice 4\n2\n\n-- 3 of 5 --\n\n30 min 5 pt\tExercice 5\n3\n\n-- 4 of 5 --\n\n\n\n-- 5 of 5 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC INFORMATIQUE\nChapitre : Arithmétique"
+    },
+    {
+      "pageNumber": 2,
+      "text": "30 min 5 pt\tExercice 1\n30 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "30 min 5 pt\tExercice 3\n30 min 5 pt\tExercice 4\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "30 min 5 pt\tExercice 5\n3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-A3A443A6E1D09D5A-CHK-001",
+      "pageNumber": 1,
+      "text": "Mathématiques\nClasse : BAC INFORMATIQUE\nChapitre : Arithmétique"
+    },
+    {
+      "chunkId": "DOC-A3A443A6E1D09D5A-CHK-002",
+      "pageNumber": 2,
+      "text": "30 min 5 pt\tExercice 1\n30 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-A3A443A6E1D09D5A-CHK-003",
+      "pageNumber": 3,
+      "text": "30 min 5 pt\tExercice 3\n30 min 5 pt\tExercice 4\n2"
+    },
+    {
+      "chunkId": "DOC-A3A443A6E1D09D5A-CHK-004",
+      "pageNumber": 4,
+      "text": "30 min 5 pt\tExercice 5\n3"
+    }
+  ]
+}

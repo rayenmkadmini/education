@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-94E1369570247E80",
+  "filename": "ex4s4.py",
+  "relPath": "bac info/Python/serie 4/ex4s4.py",
+  "sha256": "94e1369570247e803e1a60ea211d42df68ce426372aec91f3ef66dccd4c43e68",
+  "extractedAt": "2026-11-06T14:23:35.199Z",
+  "pageCount": 1,
+  "textSnippet": "def multiple_cinq(x): if x==0: return True elif x<5: return False else: return multiple_cinq(x-5) #pp x=int(input(\"x= \")) if multiple_cinq(x): print(x,\" est un multiple de 5\") else: print(x,\" n'est pas un multiple de 5\")",
+  "fullText": "def multiple_cinq(x):\r\n    if x==0:\r\n        return True\r\n    elif x<5:\r\n        return False\r\n    else:\r\n        return multiple_cinq(x-5)\r\n\r\n\r\n\r\n#pp\r\nx=int(input(\"x= \"))\r\nif multiple_cinq(x):\r\n    print(x,\" est un multiple de 5\")\r\nelse:\r\n    print(x,\" n'est pas un multiple de 5\")",
+  "chunks": [
+    {
+      "chunkId": "DOC-94E1369570247E80-CHK-001",
+      "text": "def multiple_cinq(x):\r\n    if x==0:\r\n        return True\r\n    elif x<5:\r\n        return False\r\n    else:\r\n        return multiple_cinq(x-5)\r\n\n#pp\r\nx=int(input(\"x= \"))\r\nif multiple_cinq(x):\r\n    print(x,\" est un multiple de 5\")\r\nelse:\r\n    print(x,\" n'est pas un multiple de 5\")"
+    }
+  ]
+}

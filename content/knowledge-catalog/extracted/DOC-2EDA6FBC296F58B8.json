@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2EDA6FBC296F58B8",
+  "filename": "DS RAED.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/DS RAED.py",
+  "sha256": "2eda6fbc296f58b899e670e872f5958212cfb21bcd386b1e47b562b7e94457c8",
+  "extractedAt": "2026-11-14T18:35:36.471Z",
+  "pageCount": 1,
+  "textSnippet": "from math import* def f(x): return sin(x) def pi(): while True: n = int(input(\"choisir n : \")) if 10 <= n <= 100: break a = int(input(\"choisir a : \")) b = int(input(\"choisir b :\" )) T = [{}]*n e = {} x = int(input(\"choisir le valeur initiative de x : \")) s = f(x) p = abs(a-b)/n for i in range(n): e = {} e[\"ab\"] = x e[\"img\"] = f(x) T[i] = e x += p if abs(s) >",
+  "fullText": "from math import*\r\ndef f(x):\r\n    return sin(x)\r\ndef pi():\r\n    while True:\r\n        n = int(input(\"choisir  n : \"))\r\n        if 10 <= n <= 100:\r\n            break\r\n    a = int(input(\"choisir a : \"))\r\n    b = int(input(\"choisir b :\" ))\r\n    T = [{}]*n\r\n    e = {}\r\n    x = int(input(\"choisir le valeur initiative de  x : \"))\r\n    s = f(x)\r\n    p = abs(a-b)/n\r\n    for i in range(n):\r\n        e = {}\r\n        e[\"ab\"] = x\r\n        e[\"img\"] = f(x)\r\n        T[i] = e\r\n        x += p \r\n        if abs(s) > abs(T[i][\"img\"]):\r\n            s = T[i][\"img\"]\r\n            k = T[i][\"ab\"]\r\n    for i in range(n):\r\n        print(\"abscisse : \",T[i][\"ab\"],\"son image : \",T[i][\"img\"])\r\n    print(\"La valeur approchée de pi est : \",k)\r\npi()\r\n        \r\n            \r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-2EDA6FBC296F58B8-CHK-001",
+      "text": "from math import*\r\ndef f(x):\r\n    return sin(x)\r\ndef pi():\r\n    while True:\r\n        n = int(input(\"choisir  n : \"))\r\n        if 10 <= n <= 100:\r\n            break\r\n    a = int(input(\"choisir a : \"))\r\n    b = int(input(\"choisir b :\" ))\r\n    T = [{}]*n\r\n    e = {}\r\n    x = int(input(\"choisir le valeur initiative de  x : \"))\r\n    s = f(x)\r\n    p = abs(a-b)/n\r\n    for i in range(n):\r\n        e = {}\r\n        e[\"ab\"] = x\r\n        e[\"img\"] = f(x)\r\n        T[i] = e\r\n        x += p \r\n        if abs(s) > abs(T[i][\"img\"]):\r\n            s = T[i][\"img\"]\r\n            k = T[i][\"ab\"]\r\n    for i in range(n):\r\n        print(\"abscisse : \",T[i][\"ab\"],\"son image : \",T[i][\"img\"])\r\n    print(\"La valeur approchée de pi est : \",k)\r\npi()"
+    }
+  ]
+}

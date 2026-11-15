@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-086F013B2F0748D6",
+  "filename": "serie 3 ex1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex1.py",
+  "sha256": "086f013b2f0748d6fbd3bd1d1e20c8e5eaae449f58e852236f2940f3f4412844",
+  "extractedAt": "2026-11-06T14:24:39.910Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(not(b)): s=input('introduire une chaine') b=verif(s) return s def verif(s): b=(len(s)>0 ) and ('A'<=s[0]<= 'Z') and (s[len(s)-1]=='.') i=-1 while (b and (i<len(s)-2)): i=i+1 c=s[i].upper() b=('A'<=c<='Z') or c==' ' return b def espacesuperflu(s): s1=' ' while(s.find(s1)!=-1): x=s.find(s1) s=s[:x]+s[x+1:] if s[len(s)-2]==' ': s=s[:len(s)-2]+s[len",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une chaine')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) and ('A'<=s[0]<= 'Z') and (s[len(s)-1]=='.')\r\n    i=-1\r\n    while (b and (i<len(s)-2)):\r\n        i=i+1\r\n        c=s[i].upper()\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\ndef espacesuperflu(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-2]==' ':\r\n        s=s[:len(s)-2]+s[len(s)-1]\r\n    return s\r\ndef pal(s):\r\n    l=len(s)\r\n    b=l>=1\r\n    i=-1\r\n    #pour un seul caractere l=1 ,l div 2-1=-1 et comme -1 n'est pas <-1, on n'entre pas dans\r\n    #la boucle et la fonction renvoit vrai\r\n    while(b and i < l // 2 -1):  # si on met l //2 ça fonctionne mais il y a une itération de plus\r\n        i=i+1\r\n        b=s[i].upper()==s[l-i-1].upper()\r\n    return b\r\ndef palindrome(s):\r\n    s=s[:len(s)-1]+' '\r\n    s1=' '\r\n    b=True\r\n    while(s!='' and b):\r\n        x=s.find(s1)\r\n        s2=s[:x]\r\n        b=pal(s2)\r\n        s=s[x+1:]\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('la chaine est totalement palindrome')\r\n    else:\r\n        print('la chaine n\\' est pas totalement palindrome')\r\n    \r\ns=saisie()\r\ns=espacesuperflu(s)\r\nb=palindrome(s)\r\naffiche(b)",
+  "chunks": [
+    {
+      "chunkId": "DOC-086F013B2F0748D6-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une chaine')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) and ('A'<=s[0]<= 'Z') and (s[len(s)-1]=='.')\r\n    i=-1\r\n    while (b and (i<len(s)-2)):\r\n        i=i+1\r\n        c=s[i].upper()\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\ndef espacesuperflu(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-2]==' ':\r\n        s=s[:len(s)-2]+s[len(s)-1]\r\n    return s\r\ndef pal(s):\r\n    l=len(s)\r\n    b=l>=1\r\n    i=-1\r\n    #pour un seul caractere l=1 ,l div 2-1=-1 et comme -1 n'est pas <-1, on n'entre pas dans\r\n    #la boucle et la fonction renvoit vrai\r\n    while(b and i < l // 2 -1):  # si on met l //2 ça fonctionne mais il y a une itération de plus\r\n        i=i+1\r\n        b=s[i].upper()==s[l-i-1].upper()\r\n    return b\r\ndef palindrome(s):\r\n    s=s[:len(s)-1]+' '\r\n    s1=' '\r\n    b=True\r\n    while(s!='' and b):\r\n        x=s.find(s1)\r\n        s2=s[:x]\r\n        b=pal(s2)\r\n        s=s[x+1:]\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('la chaine est totalement palindrome')\r\n    else:\r\n        print('la chaine n\\' est pas totalement palindrome')"
+    },
+    {
+      "chunkId": "DOC-086F013B2F0748D6-CHK-002",
+      "text": "s=saisie()\r\ns=espacesuperflu(s)\r\nb=palindrome(s)\r\naffiche(b)"
+    }
+  ]
+}

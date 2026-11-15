@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-EFE1EF513F7D55B2",
+  "filename": "Bac 2018.py",
+  "relPath": "bac info/algo/Python/Bac 2018/Bac 2018.py",
+  "sha256": "efe1ef513f7d55b2e3cdfbe317a1e7d0749c471ac3146569fa799b755f8319b7",
+  "extractedAt": "2026-11-14T18:35:34.506Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def transfert1(): global M,L f1=open('source.txt','r') M=array([[int()]*10]*20) ch=f1.readline() ch=ch[:-1] i=0 while ch!='': #traitement j=0 while ch!='': p=ch.find(' ') M[i,j]=int(ch[:p]) ch=ch[p+1:] j=j+1 i=i+1 ch=f1.readline() ch=ch[:-1] f1.close() L=i #L represente le nombre de lignes def tri_rapide(d,f",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef transfert1():\r\n    global M,L\r\n    f1=open('source.txt','r')\r\n    M=array([[int()]*10]*20)\r\n    \r\n    ch=f1.readline()\r\n    ch=ch[:-1]\r\n    i=0\r\n    while ch!='':\r\n        #traitement\r\n        j=0\r\n        while ch!='':\r\n            p=ch.find(' ')\r\n            M[i,j]=int(ch[:p])\r\n            ch=ch[p+1:]\r\n            j=j+1\r\n        i=i+1\r\n        ch=f1.readline()\r\n        ch=ch[:-1]\r\n    f1.close()\r\n    L=i   #L represente le nombre de lignes\r\n\r\ndef tri_rapide(d,f,t):\r\n    if f>d:\r\n        m=(d+f)//2\r\n        x=t[m] ; t[m]=t[d] ; t[d]=x\r\n        p=d\r\n        for i in range(d+1,f+1):\r\n            if (t[i]<t[d]):\r\n                p=p+1\r\n                x=t[i]\r\n                t[i]=t[p]\r\n                t[p]=x\r\n        x=t[p]\r\n        t[p]=t[d]\r\n        t[d]=x\r\n        tri_rapide(d,p-1,t)\r\n        tri_rapide(p+1,f,t)\r\n    return t\r\n\r\n\r\ndef trier():\r\n    t=array([int()]*L)\r\n    for j in range(10):\r\n        #transfert de la colonne vers le tableau\r\n        for i in range (L):\r\n            t[i]=M[i,j]\r\n            \r\n        \r\n        #tri de tableau\r\n            t=tri_rapide(0,L-1,t)\r\n        \r\n        #transfert du tableau vers la colonne\r\n            for i in range(L):\r\n                M[i,j]=t[i]\r\n\r\ndef transfert2():\r\n    f2=open('resultat.txt','w')\r\n    for i in range (L):      #dans chaque ligne\r\n        ch=''\r\n        for j in range(10):\r\n            ch=ch+str(M[i,j])+' '\r\n        ch=ch[:-1]\r\n        f2.write(ch+'\\n')\r\n    f2.close()\r\n\r\ndef afficher():\r\n    f2=open('resultat.txt','r')\r\n    for i in range(L):\r\n        ch=f2.readline()\r\n        print(ch)\r\n    f2.close()\r\n\r\n\r\n\r\n\r\n\r\n#pp\r\n\r\n\r\n\r\ntransfert1()\r\ntrier()\r\n\r\ntransfert2=()\r\nafficher()",
+  "chunks": [
+    {
+      "chunkId": "DOC-EFE1EF513F7D55B2-CHK-001",
+      "text": "from numpy import array\r\n\ndef transfert1():\r\n    global M,L\r\n    f1=open('source.txt','r')\r\n    M=array([[int()]*10]*20)\r\n\n    ch=f1.readline()\r\n    ch=ch[:-1]\r\n    i=0\r\n    while ch!='':\r\n        #traitement\r\n        j=0\r\n        while ch!='':\r\n            p=ch.find(' ')\r\n            M[i,j]=int(ch[:p])\r\n            ch=ch[p+1:]\r\n            j=j+1\r\n        i=i+1\r\n        ch=f1.readline()\r\n        ch=ch[:-1]\r\n    f1.close()\r\n    L=i   #L represente le nombre de lignes"
+    },
+    {
+      "chunkId": "DOC-EFE1EF513F7D55B2-CHK-002",
+      "text": "def tri_rapide(d,f,t):\r\n    if f>d:\r\n        m=(d+f)//2\r\n        x=t[m] ; t[m]=t[d] ; t[d]=x\r\n        p=d\r\n        for i in range(d+1,f+1):\r\n            if (t[i]<t[d]):\r\n                p=p+1\r\n                x=t[i]\r\n                t[i]=t[p]\r\n                t[p]=x\r\n        x=t[p]\r\n        t[p]=t[d]\r\n        t[d]=x\r\n        tri_rapide(d,p-1,t)\r\n        tri_rapide(p+1,f,t)\r\n    return t\r\n\ndef trier():\r\n    t=array([int()]*L)\r\n    for j in range(10):\r\n        #transfert de la colonne vers le tableau\r\n        for i in range (L):\r\n            t[i]=M[i,j]\r\n\n        #tri de tableau\r\n            t=tri_rapide(0,L-1,t)\r\n\n        #transfert du tableau vers la colonne\r\n            for i in range(L):\r\n                M[i,j]=t[i]"
+    },
+    {
+      "chunkId": "DOC-EFE1EF513F7D55B2-CHK-003",
+      "text": "def transfert2():\r\n    f2=open('resultat.txt','w')\r\n    for i in range (L):      #dans chaque ligne\r\n        ch=''\r\n        for j in range(10):\r\n            ch=ch+str(M[i,j])+' '\r\n        ch=ch[:-1]\r\n        f2.write(ch+'\\n')\r\n    f2.close()\r\n\ndef afficher():\r\n    f2=open('resultat.txt','r')\r\n    for i in range(L):\r\n        ch=f2.readline()\r\n        print(ch)\r\n    f2.close()\r\n\n#pp\r\n\ntransfert1()\r\ntrier()\r\n\ntransfert2=()\r\nafficher()"
+    }
+  ]
+}

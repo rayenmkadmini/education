@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4D2237C0C7D01B69",
+  "filename": "Appro PI EULER.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Appro PI EULER.py",
+  "sha256": "4d2237c0c7d01b692c9449351177f8409aa16191875329760a7a2bf6e30d5412",
+  "extractedAt": "2026-11-14T18:35:36.453Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def pi_euler(x): s2=1 i=2 while True: s1=s2 s2=s1+(1/(i*i)) i=i+1 if(abs(sqrt(s1*6)-sqrt(s2*6))<=x): break return sqrt(s2*6) print(\"La valeur approché de pi euler à 10^4 prés est: \",pi_euler(0.0001))",
+  "fullText": "from math import *\r\ndef pi_euler(x):\r\n    s2=1\r\n    i=2\r\n    while True:\r\n        s1=s2\r\n        s2=s1+(1/(i*i))\r\n        i=i+1\r\n        if(abs(sqrt(s1*6)-sqrt(s2*6))<=x):\r\n            break\r\n    return sqrt(s2*6)\r\nprint(\"La valeur approché de pi euler à 10^4 prés est: \",pi_euler(0.0001))",
+  "chunks": [
+    {
+      "chunkId": "DOC-4D2237C0C7D01B69-CHK-001",
+      "text": "from math import *\r\ndef pi_euler(x):\r\n    s2=1\r\n    i=2\r\n    while True:\r\n        s1=s2\r\n        s2=s1+(1/(i*i))\r\n        i=i+1\r\n        if(abs(sqrt(s1*6)-sqrt(s2*6))<=x):\r\n            break\r\n    return sqrt(s2*6)\r\nprint(\"La valeur approché de pi euler à 10^4 prés est: \",pi_euler(0.0001))"
+    }
+  ]
+}

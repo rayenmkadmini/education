@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-AEED1E9E92453211",
+  "filename": "nombre_de_mots.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/nombre_de_mots.py",
+  "sha256": "aeed1e9e9245321155433e57254d28df0e4c0fbfdc741dc4f804df614d4c3555",
+  "extractedAt": "2026-11-06T14:24:40.595Z",
+  "pageCount": 1,
+  "textSnippet": "#Determiner le nombre de mots d'une chaine sans espace superflu ni ponctuation ch=str(input(\"< \")) def nombre_mots(ch): nb = 1 for i in range (len(ch)-1) : if ch[i] == \" \" and ch[i+1] != \" \" : nb += 1 return nb print(\"le nombre de mots de la chaine est: \",nombre_mots(ch))",
+  "fullText": "#Determiner le nombre de mots d'une chaine sans espace superflu ni ponctuation\r\n\r\nch=str(input(\"< \"))\r\n\r\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\r\nprint(\"le nombre de mots de la chaine est: \",nombre_mots(ch))",
+  "chunks": [
+    {
+      "chunkId": "DOC-AEED1E9E92453211-CHK-001",
+      "text": "#Determiner le nombre de mots d'une chaine sans espace superflu ni ponctuation\r\n\nch=str(input(\"< \"))\r\n\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\nprint(\"le nombre de mots de la chaine est: \",nombre_mots(ch))"
+    }
+  ]
+}

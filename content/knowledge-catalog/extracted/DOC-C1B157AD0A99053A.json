@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C1B157AD0A99053A",
+  "filename": "Verification de divisibilté.py",
+  "relPath": "bac info/algo/Python/Verification de divisibilté.py",
+  "sha256": "c1b157ad0a99053a24727e43244d3618b0b00996777c7a4cde9d765196d60fd3",
+  "extractedAt": "2026-11-14T18:35:36.571Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir1(): global x x=int(input(\"Donner le diviseur: \")) def saisir2(): global y y=int(input(\"Donner le dividende: \")) def verif(): if (x%y==0): print( \"ALERT ! \" + str(x) + \" est divisible par \" + str(y) ) else: print( \"ALERT ! \" + str(x) + \" n'est pas divisible par \" + str(y) ) #Programme Principale saisir1() saisir2() verif()",
+  "fullText": "def saisir1():\r\n    global x\r\n    x=int(input(\"Donner le diviseur: \"))\r\ndef saisir2():\r\n    global y\r\n    y=int(input(\"Donner le dividende: \"))\r\ndef verif():\r\n    if (x%y==0):\r\n        print( \"ALERT ! \" + str(x) + \" est divisible par \" + str(y) )\r\n    else:\r\n        print( \"ALERT ! \" + str(x) + \" n'est pas divisible par \" + str(y) )\r\n#Programme Principale\r\nsaisir1()\r\nsaisir2()\r\nverif()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C1B157AD0A99053A-CHK-001",
+      "text": "def saisir1():\r\n    global x\r\n    x=int(input(\"Donner le diviseur: \"))\r\ndef saisir2():\r\n    global y\r\n    y=int(input(\"Donner le dividende: \"))\r\ndef verif():\r\n    if (x%y==0):\r\n        print( \"ALERT ! \" + str(x) + \" est divisible par \" + str(y) )\r\n    else:\r\n        print( \"ALERT ! \" + str(x) + \" n'est pas divisible par \" + str(y) )\r\n#Programme Principale\r\nsaisir1()\r\nsaisir2()\r\nverif()"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-9E8609F01F9018B1",
+  "filename": "py2.jpg",
+  "relPath": "bac info/algo/Python/Python Verifier/py2.jpg",
+  "sha256": "9e8609f01f9018b1c71e6c91473b3ebddeb1566542f3f68f09a144bf01d43d93",
+  "extractedAt": "2026-11-14T18:35:36.525Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: py2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: py2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-9E8609F01F9018B1-CHK-001",
+      "text": "[Fichier Image Pédagogique: py2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

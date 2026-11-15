@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-1FBB2F051DD9B99A",
+  "filename": "trier_les_caracteres_d_une_chaine.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/trier_les_caracteres_d_une_chaine.py",
+  "sha256": "1fbb2f051dd9b99a7df343582627505717880e7503dd969f80af199fa6c027eb",
+  "extractedAt": "2026-11-06T14:24:33.345Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def verif(x): if len(x) == 4 and x.isnumeric(): return True else: return False def tri(ch): if verif(ch): i = 0 x = ch y = ch while i < len(x) -1 : for j in range( len(x)-1 ) : if x[j] < x[j+1] : x = x[:j] + x[j+1] + x[j] + x[j+2:] for j in range( len(y)-1 ) : if y[j] > y[j+1] : y = y[",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x) == 4 and x.isnumeric():\r\n        return True\r\n    else:\r\n        return False\r\n    \r\ndef tri(ch):\r\n    if verif(ch):\r\n        i = 0\r\n        x = ch\r\n        y = ch\r\n        while i < len(x) -1 :\r\n            for j in range( len(x)-1 ) :\r\n                if x[j] < x[j+1] :\r\n                    x = x[:j] + x[j+1] + x[j] + x[j+2:]\r\n            for j in range( len(y)-1 ) :\r\n                if y[j] > y[j+1] :\r\n                    y = y[:j] + y[j+1] + y[j] + y[j+2:]\r\n            i += 1\r\n        while(y[0]==\"0\"):\r\n            y = y[1:]\r\n        p.t2.setText(x)\r\n        p.t3.setText(y)\r\n    else :\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()        \r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"trier_les_caracteres_dune_chaine.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:tri(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n            \r\n            \r\n\r\n    \r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1FBB2F051DD9B99A-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\n\ndef verif(x):\r\n    if len(x) == 4 and x.isnumeric():\r\n        return True\r\n    else:\r\n        return False"
+    },
+    {
+      "chunkId": "DOC-1FBB2F051DD9B99A-CHK-002",
+      "text": "def tri(ch):\r\n    if verif(ch):\r\n        i = 0\r\n        x = ch\r\n        y = ch\r\n        while i < len(x) -1 :\r\n            for j in range( len(x)-1 ) :\r\n                if x[j] < x[j+1] :\r\n                    x = x[:j] + x[j+1] + x[j] + x[j+2:]\r\n            for j in range( len(y)-1 ) :\r\n                if y[j] > y[j+1] :\r\n                    y = y[:j] + y[j+1] + y[j] + y[j+2:]\r\n            i += 1\r\n        while(y[0]==\"0\"):\r\n            y = y[1:]\r\n        p.t2.setText(x)\r\n        p.t3.setText(y)\r\n    else :\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()"
+    },
+    {
+      "chunkId": "DOC-1FBB2F051DD9B99A-CHK-003",
+      "text": "app = QtWidgets.QApplication([])\r\np = uic.loadUi(\"trier_les_caracteres_dune_chaine.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:tri(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()"
+    }
+  ]
+}

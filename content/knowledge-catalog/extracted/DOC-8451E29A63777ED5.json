@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-8451E29A63777ED5",
+  "filename": "ajoutlivre.html",
+  "relPath": "bac info/sti/projet 4/ajoutlivre.html",
+  "sha256": "8451e29a63777ed5404984d4740a4dab413f52116ff174365de9310015f3b9ba",
+  "extractedAt": "2026-11-06T14:24:19.114Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Ajout d'un livre</title> </head> <body> <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <t",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Ajout d'un livre</title>\r\n</head>\r\n<body>\r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"UTF-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n        <title>Document</title>\r\n        <link rel=\"stylesheet\" href=\"styles.css\">\r\n    </head>\r\n    <body>\r\n            <form action=\"ajoutlivre.php\" method=\"get\">\r\n                <fieldset>\r\n                <legend>Ajout d'un livre</legend>\r\n                <input type=\"text\" name=\"titre\" id=\"titre\" placeholder=\"Titre du livre\"><br>\r\n                <input type=\"text\" name=\"type\" id=\"type\" placeholder=\"Type du livre\"><br>\r\n                <input type=\"number\" name=\"nbr\" id=\"nbr\" placeholder=\"Nombre d'exemplaires\"><br>\r\n                <hr>\r\n                <input type=\"submit\" value=\"Ajouter\">\r\n                <input type=\"reset\" value=\"Annuler\">\r\n            </fieldset>\r\n            </form>\r\n    </body>\r\n    </html>\r\n    \r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-8451E29A63777ED5-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Ajout d'un livre</title>\r\n</head>\r\n<body>\r\n    <!DOCTYPE html>\r\n    <html lang=\"en\">\r\n    <head>\r\n        <meta charset=\"UTF-8\">\r\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n        <title>Document</title>\r\n        <link rel=\"stylesheet\" href=\"styles.css\">\r\n    </head>\r\n    <body>\r\n            <form action=\"ajoutlivre.php\" method=\"get\">\r\n                <fieldset>\r\n                <legend>Ajout d'un livre</legend>\r\n                <input type=\"text\" name=\"titre\" id=\"titre\" placeholder=\"Titre du livre\"><br>\r\n                <input type=\"text\" name=\"type\" id=\"type\" placeholder=\"Type du livre\"><br>\r\n                <input type=\"number\" name=\"nbr\" id=\"nbr\" placeholder=\"Nombre d'exemplaires\"><br>\r\n                <hr>\r\n                <input type=\"submit\" value=\"Ajouter\">\r\n                <input type=\"reset\" value=\"Annuler\">\r\n            </fieldset>\r\n            </form>\r\n    </body>\r\n    </html>"
+    },
+    {
+      "chunkId": "DOC-8451E29A63777ED5-CHK-002",
+      "text": "</body>\r\n</html>"
+    }
+  ]
+}

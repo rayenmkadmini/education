@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-6B5B1855E37958D8",
+  "filename": "droit.html",
+  "relPath": "bac 2025/droit.html",
+  "sha256": "6b5b1855e37958d8b6f194ce3de9b6550fed5bc5b0db5bccf8e332d8c4971956",
+  "extractedAt": "2026-11-06T14:23:24.355Z",
+  "pageCount": 1,
+  "textSnippet": "<!doctype html> <html lang=\"fr\"> <head> <meta charset=\"utf-8\"> <title>Attribution des droits</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> <script src=\"mesControles.js\"></script> </head> <body> <h2>Attribution des droits d’accès</h2> <form name=\"f2\" method=\"post\" action=\"droit.php\" onsubmit=\"return verif2(this);\"> <fieldset> <legend>Attribuer des droits</legend> <label for=\"nomDoc\">Nom du document :</label>",
+  "fullText": "<!doctype html>\r\n<html lang=\"fr\">\r\n\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <title>Attribution des droits</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"mesControles.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <h2>Attribution des droits d’accès</h2>\r\n    <form name=\"f2\" method=\"post\" action=\"droit.php\" onsubmit=\"return verif2(this);\">\r\n        <fieldset>\r\n            <legend>Attribuer des droits</legend>\r\n            <label for=\"nomDoc\">Nom du document :</label>\r\n            <select id=\"nomDoc\" name=\"nomDoc\">\r\n                <option value=\"\">-- Sélectionner --</option>\r\n                <option value=\"D0001\">D00_Anglais.pdf</option>\r\n                <option value=\"D0002\">D01_Math.pdf</option>\r\n            </select><br>\r\n            <label for=\"idUtil\">Identifiant de l'utilisateur :</label>\r\n            <input type=\"text\" id=\"idUtil\" name=\"idUtil\" maxlength=\"4\"><br>\r\n            <label>Ecriture :</label>\r\n            <input type=\"checkbox\" id=\"ecriture\" name=\"ecriture\" value=\"O\" onclick=\"choix1(this,this.form)\"><br>\r\n            <label>Lecture :</label>\r\n            <input type=\"checkbox\" id=\"lecture\" name=\"lecture\" value=\"O\" onclick=\"choix2(this,this.form)\"><br>\r\n            <label>Impression :</label>\r\n            <input type=\"checkbox\" id=\"impression\" name=\"impression\" value=\"O\" onclick=\"choix3(this,this.form)\"><br>\r\n        </fieldset>\r\n        <div class=\"button-center\">\r\n            <button type=\"submit\">Enregistrer</button>\r\n            <button type=\"button\" onclick=\"annuler(this.form)\">Annuler</button>\r\n        </div>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-6B5B1855E37958D8-CHK-001",
+      "text": "<!doctype html>\r\n<html lang=\"fr\">\r\n\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <title>Attribution des droits</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"mesControles.js\"></script>\r\n</head>"
+    },
+    {
+      "chunkId": "DOC-6B5B1855E37958D8-CHK-002",
+      "text": "<body>\r\n    <h2>Attribution des droits d’accès</h2>\r\n    <form name=\"f2\" method=\"post\" action=\"droit.php\" onsubmit=\"return verif2(this);\">\r\n        <fieldset>\r\n            <legend>Attribuer des droits</legend>\r\n            <label for=\"nomDoc\">Nom du document :</label>\r\n            <select id=\"nomDoc\" name=\"nomDoc\">\r\n                <option value=\"\">-- Sélectionner --</option>\r\n                <option value=\"D0001\">D00_Anglais.pdf</option>\r\n                <option value=\"D0002\">D01_Math.pdf</option>\r\n            </select><br>\r\n            <label for=\"idUtil\">Identifiant de l'utilisateur :</label>\r\n            <input type=\"text\" id=\"idUtil\" name=\"idUtil\" maxlength=\"4\"><br>\r\n            <label>Ecriture :</label>\r\n            <input type=\"checkbox\" id=\"ecriture\" name=\"ecriture\" value=\"O\" onclick=\"choix1(this,this.form)\"><br>\r\n            <label>Lecture :</label>\r\n            <input type=\"checkbox\" id=\"lecture\" name=\"lecture\" value=\"O\" onclick=\"choix2(this,this.form)\"><br>\r\n            <label>Impression :</label>\r\n            <input type=\"checkbox\" id=\"impression\" name=\"impression\" value=\"O\" onclick=\"choix3(this,this.form)\"><br>\r\n        </fieldset>\r\n        <div class=\"button-center\">\r\n            <button type=\"submit\">Enregistrer</button>\r\n            <button type=\"button\" onclick=\"annuler(this.form)\">Annuler</button>\r\n        </div>\r\n    </form>\r\n</body>"
+    },
+    {
+      "chunkId": "DOC-6B5B1855E37958D8-CHK-003",
+      "text": "</html>"
+    }
+  ]
+}

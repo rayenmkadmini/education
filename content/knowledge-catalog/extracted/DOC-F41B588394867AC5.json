@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F41B588394867AC5",
+  "filename": "ex7s4.py",
+  "relPath": "bac info/Python/serie 4/ex7s4.py",
+  "sha256": "f41b588394867ac59ad7f745d93345bc4af31f12325429797993c0a7f6ce6ce5",
+  "extractedAt": "2026-11-06T14:23:35.415Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def dicho(t,x,d,f): m=(d+f)//2 if d>f: return False elif t[m]==x: return True elif t[m]>x: return dicho(t,x,d,m-1) else: return dicho(t,x,m+1,f) #pp t=array([4,8,21,28,65,100,180,190,200]) x=int(input(\"x= \")) d=0 f=len(t)-1 print(dicho(t,x,d,f))",
+  "fullText": "from numpy import array\r\n\r\ndef dicho(t,x,d,f):\r\n    m=(d+f)//2\r\n    if d>f:\r\n        return False\r\n    elif t[m]==x:\r\n        return True\r\n    elif t[m]>x:\r\n        return dicho(t,x,d,m-1)\r\n    else:\r\n        return dicho(t,x,m+1,f)\r\n\r\n#pp\r\nt=array([4,8,21,28,65,100,180,190,200])\r\nx=int(input(\"x= \"))\r\nd=0\r\nf=len(t)-1\r\nprint(dicho(t,x,d,f))",
+  "chunks": [
+    {
+      "chunkId": "DOC-F41B588394867AC5-CHK-001",
+      "text": "from numpy import array\r\n\ndef dicho(t,x,d,f):\r\n    m=(d+f)//2\r\n    if d>f:\r\n        return False\r\n    elif t[m]==x:\r\n        return True\r\n    elif t[m]>x:\r\n        return dicho(t,x,d,m-1)\r\n    else:\r\n        return dicho(t,x,m+1,f)\r\n\n#pp\r\nt=array([4,8,21,28,65,100,180,190,200])\r\nx=int(input(\"x= \"))\r\nd=0\r\nf=len(t)-1\r\nprint(dicho(t,x,d,f))"
+    }
+  ]
+}

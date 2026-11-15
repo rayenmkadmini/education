@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B2849EEE492E6134",
+  "filename": "men 10 ll ay base.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/test conversion/men 10 ll ay base.py",
+  "sha256": "b2849eee492e6134f99049c6077d23628cbdeb5704ca1a8fbfb31c4ae64f0fb8",
+  "extractedAt": "2026-11-14T18:35:36.403Z",
+  "pageCount": 1,
+  "textSnippet": "def conv_b(a,b): if(a==0): return \"\" elif(a%b>=10): return conv_b(a//b,b)+chr(a%b+55) else: return conv_b(a//b,b)+str(a%b) a=int(input(\"Donner la chaine a convertir:\")) b=int(input(\"Donner la base a convertir:\")) print(conv_b(a,b))",
+  "fullText": "def conv_b(a,b):\r\n    if(a==0):\r\n        return \"\"\r\n    elif(a%b>=10):\r\n        return conv_b(a//b,b)+chr(a%b+55)\r\n    else:\r\n        return conv_b(a//b,b)+str(a%b)\r\na=int(input(\"Donner la chaine a convertir:\"))\r\nb=int(input(\"Donner la base a convertir:\"))\r\nprint(conv_b(a,b))",
+  "chunks": [
+    {
+      "chunkId": "DOC-B2849EEE492E6134-CHK-001",
+      "text": "def conv_b(a,b):\r\n    if(a==0):\r\n        return \"\"\r\n    elif(a%b>=10):\r\n        return conv_b(a//b,b)+chr(a%b+55)\r\n    else:\r\n        return conv_b(a//b,b)+str(a%b)\r\na=int(input(\"Donner la chaine a convertir:\"))\r\nb=int(input(\"Donner la base a convertir:\"))\r\nprint(conv_b(a,b))"
+    }
+  ]
+}

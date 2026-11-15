@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-48F0D4198C49158E",
+  "filename": "utilisateur.html",
+  "relPath": "bac 2025/utilisateur.html",
+  "sha256": "48f0d4198c49158e2e426eb9ffd54a94d21fe75d0762b0ba66016ca862077159",
+  "extractedAt": "2026-11-06T14:23:24.537Z",
+  "pageCount": 1,
+  "textSnippet": "<!doctype html> <html lang=\"fr\"> <head> <meta charset=\"utf-8\"> <title>Ajout d'un utilisateur</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> <script src=\"mesControles.js\"></script> </head> <body> <h2>Ajout d'un utilisateur</h2> <form name=\"f1\" method=\"post\" action=\"ajout.php\" onsubmit=\"return verif1(this);\"> <fieldset> <legend>Informations utilisateur</legend> <label for=\"idUtil\">Identifiant :</label> <input type=\"text\" id=\"idUtil\" name=\"idU",
+  "fullText": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Ajout d'un utilisateur</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n  <script src=\"mesControles.js\"></script>\r\n</head>\r\n<body>\r\n  <h2>Ajout d'un utilisateur</h2>\r\n\r\n  <form name=\"f1\" method=\"post\" action=\"ajout.php\" onsubmit=\"return verif1(this);\">\r\n    <fieldset>\r\n      <legend>Informations utilisateur</legend>\r\n      <label for=\"idUtil\">Identifiant :</label>\r\n      <input type=\"text\" id=\"idUtil\" name=\"idUtil\" maxlength=\"4\" placeholder=\"U123\"><br>\r\n\r\n      <label for=\"nomPrenom\">Nom et prénom :</label>\r\n      <input type=\"text\" id=\"nomPrenom\" name=\"nomPrenom\" maxlength=\"50\"><br>\r\n    </fieldset>\r\n\r\n    <div class=\"button-center\">\r\n      <button type=\"submit\">Ajouter</button>\r\n      <button type=\"button\" onclick=\"annuler(this.form)\">Annuler</button>\r\n    </div>\r\n  </form>\r\n</body>\r\n</html>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-48F0D4198C49158E-CHK-001",
+      "text": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Ajout d'un utilisateur</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n  <script src=\"mesControles.js\"></script>\r\n</head>\r\n<body>\r\n  <h2>Ajout d'un utilisateur</h2>\r\n\n  <form name=\"f1\" method=\"post\" action=\"ajout.php\" onsubmit=\"return verif1(this);\">\r\n    <fieldset>\r\n      <legend>Informations utilisateur</legend>\r\n      <label for=\"idUtil\">Identifiant :</label>\r\n      <input type=\"text\" id=\"idUtil\" name=\"idUtil\" maxlength=\"4\" placeholder=\"U123\"><br>\r\n\n      <label for=\"nomPrenom\">Nom et prénom :</label>\r\n      <input type=\"text\" id=\"nomPrenom\" name=\"nomPrenom\" maxlength=\"50\"><br>\r\n    </fieldset>"
+    },
+    {
+      "chunkId": "DOC-48F0D4198C49158E-CHK-002",
+      "text": "<div class=\"button-center\">\r\n      <button type=\"submit\">Ajouter</button>\r\n      <button type=\"button\" onclick=\"annuler(this.form)\">Annuler</button>\r\n    </div>\r\n  </form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

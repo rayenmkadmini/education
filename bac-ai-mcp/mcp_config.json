@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "bac-ai-mcp": {
+      "command": "node",
+      "args": [
+        "/mnt/d/EDUCATION RAYEN/bac-ai-mcp/dist/stdio.js"
+      ],
+      "cwd": "/mnt/d/EDUCATION RAYEN/bac-ai-mcp",
+      "env": {
+        "BAC_AI_WORKSPACE_ROOT": "/mnt/d/EDUCATION RAYEN",
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

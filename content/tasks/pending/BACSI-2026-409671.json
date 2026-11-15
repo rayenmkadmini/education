@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "taskId": "BACSI-2026-409671",
+  "createdAt": "2026-11-06T11:15:18.797Z",
+  "contentType": "COURS",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "level": "4ème Année Secondaire — Sciences de l'Informatique",
+  "durationMinutes": 120,
+  "totalPoints": 20,
+  "difficulty": "BAC_OFFICIEL",
+  "language": "fr_tn_derja",
+  "generationMode": "STRICT_SOURCE_GROUNDED",
+  "sourceReferences": [
+    {
+      "fileName": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+      "pageRange": "1-5",
+      "conceptNote": "Sujet officiel Bac 2026 : Enregistrements, persistance binaire avec pickle (dump, load, EOFError), tri et manipulation."
+    },
+    {
+      "fileName": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+      "pageRange": "AjoutObjet.py, Manip.py",
+      "conceptNote": "Code source officiel distribué aux candidats (module de validation, exploitation pickle et structure)."
+    }
+  ],
+  "instructions": "Produire le premier package pédagogique d'élite complet (Cours en Derja/Français, Série d'exercices progressifs, Devoir de synthèse 20 pts, et Corrigé détaillé avec barème analytique) sur les Enregistrements et la Persistance par Fichiers de Données avec pickle.",
+  "expectedOutputStructure": {
+    "format": "JSON",
+    "targetPath": "content/drafts/active/DRAFT-BACSI-2026-409671.json",
+    "requireMarkingScheme": true,
+    "requirePythonValidation": true
+  },
+  "status": "PENDING",
+  "version": 1
+}

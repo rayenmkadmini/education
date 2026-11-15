@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-FFD3A35F4E6B523D",
+  "filename": "Inscription.html",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/Inscription.html",
+  "sha256": "ffd3a35f4e6b523d53841a97c17781e598f50e366db26ca26ab0c41dc8855526",
+  "extractedAt": "2026-11-06T14:24:16.845Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Inscription</title> <link rel=\"stylesheet\" href=\"style.css\"> <script src=\"biblio.js\"></script> </head> <body> <form action=\"Inscription.php\" method=\"post\" onsubmit=\"return verif1()\"> <fieldset> <legend>Inscription du client</legend> <label for=\"nom\" >Nom :</label> <inp",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Inscription</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"biblio.js\"></script>\r\n</head>\r\n\r\n<body>\r\n\r\n    <form action=\"Inscription.php\" method=\"post\" onsubmit=\"return verif1()\">\r\n        <fieldset>\r\n            <legend>Inscription du client</legend>\r\n\r\n            <label for=\"nom\" >Nom :</label>\r\n            <input type=\"text\" id=\"nom\" name=\"nom\"><br>\r\n\r\n            <label for=\"prenom\" >Prenom :</label>\r\n            <input type=\"text\" id=\"prenom\" name=\"prenom\"><br>\r\n\r\n            <label for=\"tel\" >Tel :</label>\r\n            <input type=\"text\" id=\"tel\" name=\"tel\"><br>\r\n\r\n            <label for=\"adr\" >Adresse :</label>\r\n            <textarea name=\"adr\" id=\"adr\" name=\"adr\"></textarea><br>\r\n            <hr>\r\n            <div id=\"pass\">\r\n                <label for=\"psw\" >Mot de pass :</label>\r\n                <input type=\"password\" id=\"psw\" name=\"psw\"><br>\r\n                <label for=\"psw2\" >Confirmation du Mot de pass :</label>\r\n                <input type=\"password\" id=\"psw2\"><br>\r\n            </div>\r\n            <div id=\"btn\">\r\n                <input type=\"reset\" value=\"annuler\" id=\"btn2\">\r\n                <input type=\"submit\" value=\"valider\" id=\"btn1\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-FFD3A35F4E6B523D-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Inscription</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"biblio.js\"></script>\r\n</head>\r\n\n<body>\r\n\n    <form action=\"Inscription.php\" method=\"post\" onsubmit=\"return verif1()\">\r\n        <fieldset>\r\n            <legend>Inscription du client</legend>\r\n\n            <label for=\"nom\" >Nom :</label>\r\n            <input type=\"text\" id=\"nom\" name=\"nom\"><br>\r\n\n            <label for=\"prenom\" >Prenom :</label>\r\n            <input type=\"text\" id=\"prenom\" name=\"prenom\"><br>\r\n\n            <label for=\"tel\" >Tel :</label>\r\n            <input type=\"text\" id=\"tel\" name=\"tel\"><br>"
+    },
+    {
+      "chunkId": "DOC-FFD3A35F4E6B523D-CHK-002",
+      "text": "<label for=\"adr\" >Adresse :</label>\r\n            <textarea name=\"adr\" id=\"adr\" name=\"adr\"></textarea><br>\r\n            <hr>\r\n            <div id=\"pass\">\r\n                <label for=\"psw\" >Mot de pass :</label>\r\n                <input type=\"password\" id=\"psw\" name=\"psw\"><br>\r\n                <label for=\"psw2\" >Confirmation du Mot de pass :</label>\r\n                <input type=\"password\" id=\"psw2\"><br>\r\n            </div>\r\n            <div id=\"btn\">\r\n                <input type=\"reset\" value=\"annuler\" id=\"btn2\">\r\n                <input type=\"submit\" value=\"valider\" id=\"btn1\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\n</html>"
+    }
+  ]
+}

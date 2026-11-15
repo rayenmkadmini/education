@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-06D7271ABE2D47E0",
+  "filename": "extraire_une_phrase_dans_un_tableau.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/extraire_une_phrase_dans_un_tableau.py",
+  "sha256": "06d7271abe2d47e0ce6d61f56e92fc13953c60befa436901b332c9404bc2fe1d",
+  "extractedAt": "2026-11-06T14:24:40.978Z",
+  "pageCount": 1,
+  "textSnippet": "#Ce programme permet d'extraire une phrase dans un tableau from numpy import * T1 = array([str] * 20) def Saisie(): b = False while not b: ph = input(\"Donner la phrase sans espace superflu ni ponctuation: \") b = verif(ph) return ph def verif(ch): ok = ch.find(\" \") == -1 i = -1 while ok and i < len(ch) - 1: i += 1 ok = ch[i] not in {\",\", \";\", \"?\", \"!\"} return ok def Remplir_T1(ph): nb = 0 i = 0",
+  "fullText": "#Ce programme permet d'extraire une phrase dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nT1 = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase sans espace superflu ni ponctuation: \")\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\r\n\r\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb\r\n\r\n\r\ndef Afficher(T1, n):\r\n    for i in range(n):\r\n        print(T1[i])\r\n\r\n\r\n#######################PP###########################\r\n\r\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\nAfficher(T1, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-06D7271ABE2D47E0-CHK-001",
+      "text": "#Ce programme permet d'extraire une phrase dans un tableau\r\n\nfrom numpy import *\r\n\nT1 = array([str] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase sans espace superflu ni ponctuation: \")\r\n        b = verif(ph)\r\n    return ph\r\n\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb\r\n\ndef Afficher(T1, n):\r\n    for i in range(n):\r\n        print(T1[i])"
+    },
+    {
+      "chunkId": "DOC-06D7271ABE2D47E0-CHK-002",
+      "text": "#######################PP###########################\r\n\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\nAfficher(T1, n)"
+    }
+  ]
+}

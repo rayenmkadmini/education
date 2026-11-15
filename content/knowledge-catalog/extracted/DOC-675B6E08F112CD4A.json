@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-675B6E08F112CD4A",
+  "filename": "tesssssst.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/tesssssst.py",
+  "sha256": "675b6e08f112cd4a4e4e83a7d60f338922d156bc5dfe91f82b21936713361c8c",
+  "extractedAt": "2026-11-14T18:35:36.389Z",
+  "pageCount": 1,
+  "textSnippet": "def test(): i=int(input(\"Donner i\")) while not 3<i<15: i=int(input(\"Donner i\")) test()",
+  "fullText": "def test():\r\n    i=int(input(\"Donner i\"))\r\n    while not 3<i<15:\r\n        i=int(input(\"Donner i\"))\r\n\r\ntest()",
+  "chunks": [
+    {
+      "chunkId": "DOC-675B6E08F112CD4A-CHK-001",
+      "text": "def test():\r\n    i=int(input(\"Donner i\"))\r\n    while not 3<i<15:\r\n        i=int(input(\"Donner i\"))\r\n\ntest()"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-38971884EB0AD009",
+  "filename": "nombre_dor.py",
+  "relPath": "bac info/Python/cours reccurent/nombre_dor.py",
+  "sha256": "38971884eb0ad009058c24e4917f29829d70f8ece6a546b342f6bef0a98a9c99",
+  "extractedAt": "2026-11-06T14:23:25.002Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def nb_dor_meth1(): u1 = 1 u2 = 1 v2 = 1 n = 2 fin = False while not fin: n += 1 u = u1 + u2 v1 = v2 v2 = u / u2 u1 = u2 u2 = u fin = (abs(v1 - v2) < 0.00001) return f\"le nombre d'or= {v2} trouve aprés {n} calcul\" def nb_dor_meth2(): u = array([int()] * 100) v = array([float()] * 100) u[1] = 1 u[2] = 2 v[2] = 1 n = 2 fin = False",
+  "fullText": "\r\nfrom numpy import array\r\n\r\n\r\ndef nb_dor_meth1():\r\n    u1 = 1\r\n    u2 = 1\r\n    v2 = 1\r\n    n = 2\r\n    fin = False\r\n    while not fin:\r\n        n += 1\r\n        u = u1 + u2\r\n        v1 = v2\r\n        v2 = u / u2\r\n        u1 = u2\r\n        u2 = u\r\n        fin = (abs(v1 - v2) < 0.00001)\r\n    return f\"le nombre d'or= {v2} trouve aprés {n} calcul\"\r\n\r\n\r\ndef nb_dor_meth2():\r\n    u = array([int()] * 100)\r\n    v = array([float()] * 100)\r\n    u[1] = 1\r\n    u[2] = 2\r\n    v[2] = 1\r\n    n = 2\r\n    fin = False\r\n    while not fin:\r\n        n += 1\r\n        u[n] = u[n - 1] + u[n - 2]\r\n        v[n] = u[n] / u[n - 1]\r\n        fin = (abs(v[n] - v[n - 1]) < 0.0001)\r\n    return f\"le nombre d'or= {v[n]} trouve aprés {n} calcul\"\r\n\r\n\r\nprint(nb_dor_meth1())\r\nprint(nb_dor_meth2())\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-38971884EB0AD009-CHK-001",
+      "text": "from numpy import array\r\n\ndef nb_dor_meth1():\r\n    u1 = 1\r\n    u2 = 1\r\n    v2 = 1\r\n    n = 2\r\n    fin = False\r\n    while not fin:\r\n        n += 1\r\n        u = u1 + u2\r\n        v1 = v2\r\n        v2 = u / u2\r\n        u1 = u2\r\n        u2 = u\r\n        fin = (abs(v1 - v2) < 0.00001)\r\n    return f\"le nombre d'or= {v2} trouve aprés {n} calcul\"\r\n\ndef nb_dor_meth2():\r\n    u = array([int()] * 100)\r\n    v = array([float()] * 100)\r\n    u[1] = 1\r\n    u[2] = 2\r\n    v[2] = 1\r\n    n = 2\r\n    fin = False\r\n    while not fin:\r\n        n += 1\r\n        u[n] = u[n - 1] + u[n - 2]\r\n        v[n] = u[n] / u[n - 1]\r\n        fin = (abs(v[n] - v[n - 1]) < 0.0001)\r\n    return f\"le nombre d'or= {v[n]} trouve aprés {n} calcul\"\r\n\nprint(nb_dor_meth1())\r\nprint(nb_dor_meth2())"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "taskId": "BACSI-2026-678174",
+  "createdAt": "2026-11-06T05:18:25.010Z",
+  "contentType": "SERIE_EXERCICES",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "La Récursivité",
+  "academicYear": "2026-2027",
+  "level": "4ème Année Secondaire — Sciences de l'Informatique",
+  "durationMinutes": 90,
+  "totalPoints": 20,
+  "difficulty": "BAC_OFFICIEL",
+  "language": "fr_tn_derja",
+  "generationMode": "STRICT_SOURCE_GROUNDED",
+  "sourceReferences": [
+    {
+      "fileName": "Algorithmique_et_programmation_Sciences_de_l_informatique_2026_Sujet.pdf",
+      "pageRange": "2-3",
+      "conceptNote": "Exercice 2 sur les fonctions récursives"
+    }
+  ],
+  "instructions": "Générer une série de 3 exercices progressifs sur les fonctions récursives en Python.",
+  "expectedOutputStructure": {
+    "format": "JSON",
+    "targetPath": "content/drafts/active/DRAFT-BACSI-2026-678174.json",
+    "requireMarkingScheme": true,
+    "requirePythonValidation": true
+  },
+  "status": "PENDING",
+  "version": 1
+}

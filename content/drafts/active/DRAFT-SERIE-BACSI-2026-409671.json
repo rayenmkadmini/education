@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-SERIE-BACSI-2026-409671",
+  "taskId": "BACSI-2026-409671",
+  "version": 3,
+  "createdAt": "2026-11-06T11:15:18.846Z",
+  "updatedAt": "2026-11-06T11:38:28.906Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "contentType": "SERIE_EXERCICES",
+  "totalPoints": 20,
+  "isOfficialBac": true,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+        "page": 2,
+        "section": "VERIFIED_OFFICIAL_EXAM : Cahier des charges et modules pratiques"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "République Tunisienne — Ministère de l'Éducation",
+    "sessionLabel": "Série d'Exercices Guidés — Niveau Baccalauréat SI",
+    "duration": "2h00",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "ex-prog-1",
+      "number": 1,
+      "title": "Niveau 1 (Compréhension) : Modélisation et Validation d'Enregistrement",
+      "points": 4,
+      "statementMarkdown": "### Exercice 1 : Modélisation et Contrôle de Saisie (4 points)\n**Niveau :** Niveau 1 — Compréhension & Syntaxe.  \n**Compétences évaluées :** Définition de structures d'enregistrements (TDO), manipulation de chaînes, validation stricte de contraintes.  \n**Temps estimé :** 20 minutes.\n\nPour informatiser une bibliothèque de lycée, on modélise chaque livre par un enregistrement comportant :\n- `isbn` : chaîne de 13 caractères numériques.\n- `titre` : chaîne de 3 à 50 caractères non vide.\n- `prix` : réel strictement positif.\n- `disponible` : booléen (`True` si le livre peut être emprunté, `False` sinon).\n\n**Spécifications d'entrée / sortie :**\n- Entrées : chaînes brutes saisies au clavier ou transmises en paramètres.\n- Sorties : booléen de validité ou dictionnaire structuré conforme.\n- Cas limites à gérer : chaîne vide, chaîne de longueur différente de 13, caractères alphabétiques dans l'ISBN.\n\n**Travail demandé :**\n1. Proposer la déclaration en pseudocode conventionnel tunisien du type `Livre` ainsi que le TDO correspondant.\n2. Écrire une fonction Python `valider_isbn(ch: str) -> bool` qui vérifie si une chaîne représente un code ISBN valide (exactement 13 chiffres de '0' à '9').\n3. Écrire une fonction Python `creer_livre(isbn: str, titre: str, prix: float) -> dict` qui retourne l'enregistrement représentant le livre avec le statut de disponibilité initialisé à `True`. Si le prix est $\\le 0$ ou si l'ISBN est invalide, la fonction lèvera une exception `ValueError`.",
+      "solutionMarkdown": "*(Corrigé disponible dans le document de correction officiel)*",
+      "gradingCriteria": [
+        {
+          "id": "c-ex1-tdo",
+          "description": "Déclaration TDO conforme",
+          "points": 1
+        },
+        {
+          "id": "c-ex1-isbn",
+          "description": "Fonction de validation ISBN",
+          "points": 2
+        },
+        {
+          "id": "c-ex1-dict",
+          "description": "Fonction de création d'enregistrement",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "ex-prog-2",
+      "number": 2,
+      "title": "Niveau 2 (Application) : Persistance Binaire et Ajout dans un Fichier pickle",
+      "points": 5,
+      "statementMarkdown": "### Exercice 2 : Enregistrement Binaire dans un Fichier de Données (5 points)\n**Compétences évaluées :** Utilisation du module `pickle`, mode d'ouverture d'ajout, intégrité des flux binaires.  \n**Temps estimé :** 25 minutes.\n\nOn souhaite sauvegarder les livres de la bibliothèque dans un fichier binaire nommé `\"bibliotheque.dat\"`.\n\n**Travail demandé :**\n1. Développer une procédure Python `ajouter_livre(nom_fich: str, livre: dict) -> None` permettant d'écrire l'enregistrement `livre` à la fin du fichier sans écraser les données préexistantes.\n2. Développer une fonction Python `saisir_et_enregistrer_plusieurs(nom_fich: str, n: int) -> None` qui demande la saisie de $N$ livres au clavier (en validant les champs) et les ajoute un par un dans le fichier.\n3. Préciser le mode d'ouverture à utiliser et justifier son choix par rapport au mode `\"wb\"`.",
+      "solutionMarkdown": "*(Corrigé disponible dans le document de correction officiel)*",
+      "gradingCriteria": [
+        {
+          "id": "c-ex2-ab",
+          "description": "Usage rigoureux du mode 'ab' et dump",
+          "points": 2
+        },
+        {
+          "id": "c-ex2-loop",
+          "description": "Boucle d'enregistrement des N éléments",
+          "points": 2
+        },
+        {
+          "id": "c-ex2-justif",
+          "description": "Justification didactique du mode",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "ex-prog-3",
+      "number": 3,
+      "title": "Niveau 3 (Raisonnement) : Chargement, Filtrage et Calcul Statistique",
+      "points": 5,
+      "statementMarkdown": "### Exercice 3 : Exploitation et Statistiques sur Fichier Typé (5 points)\n**Compétences évaluées :** Parcours de fichier binaire avec capture d'EOFError, calcul d'indicateurs agrégés.  \n**Temps estimé :** 35 minutes.\n\nOn dispose du fichier `\"bibliotheque.dat\"` contenant des enregistrements de type `Livre`.\n\n**Travail demandé :**\n1. Développer une fonction Python `charger_livres(nom_fich: str) -> list` qui lit l'intégralité du fichier et retourne une liste contenant tous les enregistrements. La fin de fichier doit être gérée par l'exception `EOFError`. Préciser le comportement si le fichier fait 0 octet.\n2. Développer une fonction `prix_moyen(T: list) -> float` calculant le prix moyen des livres enregistrés. Si le tableau est vide, la fonction renvoie `0.0`.\n3. Développer une fonction `extraire_disponibles(T: list) -> list` qui extrait et retourne un nouveau tableau contenant uniquement les livres dont le champ `disponible` est égal à `True`.",
+      "solutionMarkdown": "*(Corrigé disponible dans le document de correction officiel)*",
+      "gradingCriteria": [
+        {
+          "id": "c-ex3-load",
+          "description": "Lecture intégrale et gestion EOFError",
+          "points": 2.5
+        },
+        {
+          "id": "c-ex3-stat",
+          "description": "Calcul du prix moyen avec garde",
+          "points": 1.5
+        },
+        {
+          "id": "c-ex3-filtre",
+          "description": "Extraction conditionnelle de liste",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "id": "ex-prog-4",
+      "number": 4,
+      "title": "Niveau 4 (Problème Type Bac) : Tri Décroissant et Recherche d'Enregistrements",
+      "points": 6,
+      "statementMarkdown": "### Exercice 4 : Problème de Synthèse — Tri et Consultation (6 points)\n**Compétences évaluées :** Tri par sélection d'enregistrements, permutation globale, distinction entre recherche séquentielle et recherche dichotomique.  \n**Temps estimé :** 45 minutes.\n\nPour préparer l'inventaire annuel de la bibliothèque, le conservateur exige de :\n1. Trier tous les livres par ordre **décroissant de prix** (le livre le plus cher en première position).\n2. Consulter la disponibilité d'un livre connaissant son code ISBN.\n\n**Travail demandé :**\n1. Écrire en pseudocode conventionnel tunisien puis implémenter en Python 3 une procédure `tri_selection_livres(T: list) -> None` qui trie le tableau d'enregistrements `T` sur place par ordre décroissant du champ `prix`.\n2. Développer une fonction `rechercher_livre_isbn_sequentiel(T: list, isbn_recherche: str) -> int` retournant l'indice du livre correspondant dans `T`, ou `-1` s'il n'existe pas. Expliquer pourquoi la recherche séquentielle est requise ici plutôt que la recherche dichotomique.\n3. Développer un module `generer_rapport_inventaire(nom_fich_source: str, nom_fich_rapport: str) -> None` qui lit les livres de `nom_fich_source`, les trie par prix décroissant, et enregistre un rapport texte lisible `nom_fich_rapport` listant chaque livre sur une ligne au format :\n```text\n[ISBN] Titre - Prix DT (Disponible: OUI/NON)\n```",
+      "solutionMarkdown": "*(Corrigé disponible dans le document de correction officiel)*",
+      "gradingCriteria": [
+        {
+          "id": "c-ex4-tri",
+          "description": "Tri par sélection décroissant sur champ",
+          "points": 2.5
+        },
+        {
+          "id": "c-ex4-rech",
+          "description": "Recherche séquentielle fiable et justification",
+          "points": 1.5
+        },
+        {
+          "id": "c-ex4-rap",
+          "description": "Génération du fichier texte de synthèse",
+          "points": 2
+        }
+      ]
+    }
+  ]
+}

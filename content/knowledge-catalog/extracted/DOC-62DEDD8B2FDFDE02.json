@@ -1,0 +1,50 @@
+{
+  "documentId": "DOC-62DEDD8B2FDFDE02",
+  "filename": "transmissionds signaux.pdf",
+  "relPath": "bac info/physique taki/transmissionds signaux.pdf",
+  "sha256": "62dedd8b2fdfde021b9a2718db638251e3139df310a65b10e3bf3215f87fc175",
+  "extractedAt": "2026-11-06T14:24:07.803Z",
+  "pageCount": 4,
+  "textSnippet": "1 -- 1 of 4 -- I. Modulation des signaux 1) Modulation d’une tension sinusoïdale o La modulation d’amplitude consiste à modifier l’amplitude d’une onde porteuse de fréquence très élevée par le signal à transmettre, auquel on ajoute une tension continue appelée tension de décalage ou d’offset. o Le signal de sortie ou signal modulé est caractérisé par une fréquence constante égale à celle de la porteuse et une amplitude qui varie périodiquement au cours du temps avec la période du signal modula",
+  "fullText": "1\n\n-- 1 of 4 --\n\nI. Modulation des signaux\n1) Modulation d’une tension sinusoïdale\no La modulation d’amplitude consiste à modifier l’amplitude d’une onde porteuse de\nfréquence très élevée par le signal à transmettre, auquel on ajoute une tension continue\nappelée tension de décalage ou d’offset.\no Le signal de sortie ou signal modulé est caractérisé par une fréquence constante égale\nà celle de la porteuse et une amplitude qui varie périodiquement au cours du temps avec la\npériode du signal modulant.\no Le signal modulé en amplitude par un signal sinusoïdal de fréquence N est composé de\ntrois signaux dont la bande de fréquence associée est d’une largeur double de la valeur de\nla fréquence N du signal modulant.\n2) Expression de la tension de sortie\no La forme générale du signal modulé en amplitude (tension de sortie) est :\nus(t) = Usm cos (2𝝅Npt) où Usm = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\ncos (2𝝅Npt))\nUsm max = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\n) et Usm min= k Upm U0 (1-𝑼𝒎\n𝑼𝟎\n)\nAvec : u(t) = Um cos 2πNt : un signal de basse fréquence\nup (t) = Upmcos 2πNpt : un signal de haute fréquence\nUo : tension constante de décalage ou d’offset.\nUsm max\nUsm min\nOscillogramme de la tension de sortie\nMontage multiplieur\n2\n\n-- 2 of 4 --\n\n3) Expression de taux de modulation\no Chaque signal modulé en amplitude est caractérisé par son taux de modulation :\nm = 𝑼𝒔𝒎 𝒎𝒂𝒙 − 𝑼𝒔𝒎 𝒎𝒊𝒏\n𝑼𝒔𝒎 𝒎𝒂𝒙 + 𝑼𝒔𝒎 𝒎𝒊𝒏\n= 𝑼𝒎\n𝑼𝟎\no Le taux de modulation dépend de la valeur de l’amplitude du signal modulant Um et de\ncelle de la tension de décalage Uo.\nII. Démodulation des signaux\no La démodulation d’un signal transmis par modulation d’amplitude consiste en sa\nrécupération par trois opérations successives : la détection d’enveloppe, le lissage et\nl’élimination de la composante continue.\no La détection d’enveloppe avec un condensateur C et un résistor R montés en parallèle\ntels que : Tp < τ = R.C << T, où Tp est la période de la porteuse et T est la période du\nsignal portant l'information.\no Le lissage du signal avec un filtre passe-bas R'C' satisfaisant la condition :\nTp <<R'C'<< T\no L’élimination de la composante continue avec un filtre passe-haut R\"C\" satisfaisant\nla condition R\"C\" >> T.\nRemarque :\nPour une démodulation de qualité, il faut que la fréquence de la porteuse soit très\nsupérieure à celle de la fréquence de signal modulant : Np >> N.\nIII. Modulation de fréquence\no En modulation de fréquence, l’amplitude de la porteuse reste constante, mais sa\nfréquence varie autour de la valeur No en fonction de la fréquence N du signal\nmodulant (Signal à transmettre).\no Sa fréquence est :\nNp (t) = No + K.u(t) avec Np (t) : fréquence de la porteuse\nen excursion.\no L’excursion en fréquence s’écrit :\nNp - No = K.u(t)\no L’indice de modulation s’exprime :\nβ = 𝑵𝒎𝒂𝒙− 𝑵𝟎\n𝑵\n3\n\n-- 3 of 4 --\n\n4\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1"
+    },
+    {
+      "pageNumber": 2,
+      "text": "I. Modulation des signaux\n1) Modulation d’une tension sinusoïdale\no La modulation d’amplitude consiste à modifier l’amplitude d’une onde porteuse de\nfréquence très élevée par le signal à transmettre, auquel on ajoute une tension continue\nappelée tension de décalage ou d’offset.\no Le signal de sortie ou signal modulé est caractérisé par une fréquence constante égale\nà celle de la porteuse et une amplitude qui varie périodiquement au cours du temps avec la\npériode du signal modulant.\no Le signal modulé en amplitude par un signal sinusoïdal de fréquence N est composé de\ntrois signaux dont la bande de fréquence associée est d’une largeur double de la valeur de\nla fréquence N du signal modulant.\n2) Expression de la tension de sortie\no La forme générale du signal modulé en amplitude (tension de sortie) est :\nus(t) = Usm cos (2𝝅Npt) où Usm = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\ncos (2𝝅Npt))\nUsm max = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\n) et Usm min= k Upm U0 (1-𝑼𝒎\n𝑼𝟎\n)\nAvec : u(t) = Um cos 2πNt : un signal de basse fréquence\nup (t) = Upmcos 2πNpt : un signal de haute fréquence\nUo : tension constante de décalage ou d’offset.\nUsm max\nUsm min\nOscillogramme de la tension de sortie\nMontage multiplieur\n2"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3) Expression de taux de modulation\no Chaque signal modulé en amplitude est caractérisé par son taux de modulation :\nm = 𝑼𝒔𝒎 𝒎𝒂𝒙 − 𝑼𝒔𝒎 𝒎𝒊𝒏\n𝑼𝒔𝒎 𝒎𝒂𝒙 + 𝑼𝒔𝒎 𝒎𝒊𝒏\n= 𝑼𝒎\n𝑼𝟎\no Le taux de modulation dépend de la valeur de l’amplitude du signal modulant Um et de\ncelle de la tension de décalage Uo.\nII. Démodulation des signaux\no La démodulation d’un signal transmis par modulation d’amplitude consiste en sa\nrécupération par trois opérations successives : la détection d’enveloppe, le lissage et\nl’élimination de la composante continue.\no La détection d’enveloppe avec un condensateur C et un résistor R montés en parallèle\ntels que : Tp < τ = R.C << T, où Tp est la période de la porteuse et T est la période du\nsignal portant l'information.\no Le lissage du signal avec un filtre passe-bas R'C' satisfaisant la condition :\nTp <<R'C'<< T\no L’élimination de la composante continue avec un filtre passe-haut R\"C\" satisfaisant\nla condition R\"C\" >> T.\nRemarque :\nPour une démodulation de qualité, il faut que la fréquence de la porteuse soit très\nsupérieure à celle de la fréquence de signal modulant : Np >> N.\nIII. Modulation de fréquence\no En modulation de fréquence, l’amplitude de la porteuse reste constante, mais sa\nfréquence varie autour de la valeur No en fonction de la fréquence N du signal\nmodulant (Signal à transmettre).\no Sa fréquence est :\nNp (t) = No + K.u(t) avec Np (t) : fréquence de la porteuse\nen excursion.\no L’excursion en fréquence s’écrit :\nNp - No = K.u(t)\no L’indice de modulation s’exprime :\nβ = 𝑵𝒎𝒂𝒙− 𝑵𝟎\n𝑵\n3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-62DEDD8B2FDFDE02-CHK-001",
+      "pageNumber": 1,
+      "text": "1"
+    },
+    {
+      "chunkId": "DOC-62DEDD8B2FDFDE02-CHK-002",
+      "pageNumber": 2,
+      "text": "I. Modulation des signaux\n1) Modulation d’une tension sinusoïdale\no La modulation d’amplitude consiste à modifier l’amplitude d’une onde porteuse de\nfréquence très élevée par le signal à transmettre, auquel on ajoute une tension continue\nappelée tension de décalage ou d’offset.\no Le signal de sortie ou signal modulé est caractérisé par une fréquence constante égale\nà celle de la porteuse et une amplitude qui varie périodiquement au cours du temps avec la\npériode du signal modulant.\no Le signal modulé en amplitude par un signal sinusoïdal de fréquence N est composé de\ntrois signaux dont la bande de fréquence associée est d’une largeur double de la valeur de\nla fréquence N du signal modulant.\n2) Expression de la tension de sortie\no La forme générale du signal modulé en amplitude (tension de sortie) est :\nus(t) = Usm cos (2𝝅Npt) où Usm = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\ncos (2𝝅Npt))\nUsm max = k Upm U0 (1+𝑼𝒎\n𝑼𝟎\n) et Usm min= k Upm U0 (1-𝑼𝒎\n𝑼𝟎\n)\nAvec : u(t) = Um cos 2πNt : un signal de basse fréquence\nup (t) = Upmcos 2πNpt : un signal de haute fréquence\nUo : tension constante de décalage ou d’offset.\nUsm max\nUsm min\nOscillogramme de la tension de sortie\nMontage multiplieur\n2"
+    },
+    {
+      "chunkId": "DOC-62DEDD8B2FDFDE02-CHK-003",
+      "pageNumber": 3,
+      "text": "3) Expression de taux de modulation\no Chaque signal modulé en amplitude est caractérisé par son taux de modulation :\nm = 𝑼𝒔𝒎 𝒎𝒂𝒙 − 𝑼𝒔𝒎 𝒎𝒊𝒏\n𝑼𝒔𝒎 𝒎𝒂𝒙 + 𝑼𝒔𝒎 𝒎𝒊𝒏\n= 𝑼𝒎\n𝑼𝟎\no Le taux de modulation dépend de la valeur de l’amplitude du signal modulant Um et de\ncelle de la tension de décalage Uo.\nII. Démodulation des signaux\no La démodulation d’un signal transmis par modulation d’amplitude consiste en sa\nrécupération par trois opérations successives : la détection d’enveloppe, le lissage et\nl’élimination de la composante continue.\no La détection d’enveloppe avec un condensateur C et un résistor R montés en parallèle\ntels que : Tp < τ = R.C << T, où Tp est la période de la porteuse et T est la période du\nsignal portant l'information.\no Le lissage du signal avec un filtre passe-bas R'C' satisfaisant la condition :\nTp <<R'C'<< T\no L’élimination de la composante continue avec un filtre passe-haut R\"C\" satisfaisant\nla condition R\"C\" >> T.\nRemarque :\nPour une démodulation de qualité, il faut que la fréquence de la porteuse soit très\nsupérieure à celle de la fréquence de signal modulant : Np >> N.\nIII. Modulation de fréquence\no En modulation de fréquence, l’amplitude de la porteuse reste constante, mais sa\nfréquence varie autour de la valeur No en fonction de la fréquence N du signal\nmodulant (Signal à transmettre).\no Sa fréquence est :\nNp (t) = No + K.u(t) avec Np (t) : fréquence de la porteuse\nen excursion.\no L’excursion en fréquence s’écrit :\nNp - No = K.u(t)\no L’indice de modulation s’exprime :\nβ = 𝑵𝒎𝒂𝒙− 𝑵𝟎\n𝑵\n3"
+    },
+    {
+      "chunkId": "DOC-62DEDD8B2FDFDE02-CHK-004",
+      "pageNumber": 4,
+      "text": "4"
+    }
+  ]
+}

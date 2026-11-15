@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-28409472EC749351",
+  "filename": "azerty.txt",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/azerty.txt",
+  "sha256": "28409472ec749351a296c7e7424b895d9b8b673cfd96f1c4f8557fbe07b85444",
+  "extractedAt": "2026-11-14T18:35:36.417Z",
+  "pageCount": 1,
+  "textSnippet": "sdfg cxvb xcb dfg dfgn dfn gn gb c ncncncnvb",
+  "fullText": "sdfg\r\ncxvb\r\nxcb\r\ndfg\r\ndfgn\r\ndfn\r\ngn\r\ngb\r\n c\r\nncncncnvb\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-28409472EC749351-CHK-001",
+      "text": "sdfg\r\ncxvb\r\nxcb\r\ndfg\r\ndfgn\r\ndfn\r\ngn\r\ngb\r\n c\r\nncncncnvb"
+    }
+  ]
+}

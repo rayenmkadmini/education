@@ -1,0 +1,66 @@
+{
+  "documentId": "DOC-083C1EE0B447371E",
+  "filename": "physique -20261106T124717Z-1-001.zip",
+  "sha256": "083c1ee0b447371e5e0f0adfaf871d646cb0383feee0e3279aa92edc5fdb0ba5",
+  "extractedAt": "2026-11-06T14:00:39.325Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: physique -20261106T124717Z-1-001.zip Nombre d'éléments: 11",
+  "fullText": "Archive ZIP: physique -20261106T124717Z-1-001.zip\nNombre d'éléments: 11\n\n",
+  "zipEntries": [
+    {
+      "name": "physique /Les oscillations electriques libres/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "physique /Dipole RC /Serie 1 - Enonce.pdf",
+      "sizeBytes": 1523429,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RL /Serie 1 - Enonce.pdf",
+      "sizeBytes": 1627143,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RL /Serie 3 - Enonce.pdf",
+      "sizeBytes": 2446723,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /chimie /Les dosages( Détermination de la quantite de matiere(résumé)).pdf",
+      "sizeBytes": 1759704,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /chimie /Les dosages( Détermination de la quantite de matiere).pdf",
+      "sizeBytes": 1733843,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RC /Serie 3 - Enonce.pdf",
+      "sizeBytes": 3460512,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RC /Serie 2 - Enonce.pdf",
+      "sizeBytes": 3255528,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RC /résumé.pdf",
+      "sizeBytes": 2468697,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RL /Résumé.pdf",
+      "sizeBytes": 2613300,
+      "isDirectory": false
+    },
+    {
+      "name": "physique /Dipole RL /Serie 2 - Enonce.pdf",
+      "sizeBytes": 1846364,
+      "isDirectory": false
+    }
+  ]
+}

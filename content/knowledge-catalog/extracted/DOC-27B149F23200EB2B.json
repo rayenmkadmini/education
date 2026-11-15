@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-27B149F23200EB2B",
+  "filename": "Pratique Bac 2012.py",
+  "relPath": "bac info/algo/Python/Pratique Bac 2012.py",
+  "sha256": "27b149f23200eb2b3d34bb57c61c1f1007f20aa3f6c28bbb2d7843de83116e78",
+  "extractedAt": "2026-11-14T18:35:36.325Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): global k while True: k=int(input(\"Donner les nombres de termes: \")) if 2<=k<=15: break def calcul(): U0=str(0) F1=open(\"Robinson.txt\",\"w\") F1.write(U0) for i in range(k): T=Tri(U0) U=compter(U0) U0=U F1.write(U) def Tri(U0): echange=True if len(U0)>1: while(echange==True) and (len(U0)!=1): echange==False for i in range(0,len(U0)-1):",
+  "fullText": "def saisie():\r\n    global k\r\n    while True:\r\n        k=int(input(\"Donner les nombres de termes: \"))\r\n        if 2<=k<=15:\r\n            break\r\n\r\ndef calcul():\r\n    U0=str(0)\r\n    F1=open(\"Robinson.txt\",\"w\")\r\n    F1.write(U0)\r\n    for i in range(k):\r\n        T=Tri(U0)\r\n        U=compter(U0)\r\n        U0=U\r\n        F1.write(U)\r\ndef Tri(U0):\r\n    echange=True\r\n    if len(U0)>1:\r\n        while(echange==True) and (len(U0)!=1):\r\n            echange==False\r\n            for i in range(0,len(U0)-1):\r\n                U0=int(U0)\r\n                if U0[i]>U0[i+1]:\r\n                    aux=U0[i]\r\n                    U0[i]=U0[i+1]\r\n                    U0[i+1]=aux\r\n                    echange=True\r\n            len(str(U0))=len(str(U0)-1)\r\n        return U0\r\n    \r\ndef compter():\r\n    U0=str(U0)\r\n    c=0\r\n    while (len(U0)>=0):\r\n        terme=U0[c]\r\n        \r\n        \r\n    \r\n    \r\n    \r\n#Programme Principale\r\nsaisie()\r\ncalcul()",
+  "chunks": [
+    {
+      "chunkId": "DOC-27B149F23200EB2B-CHK-001",
+      "text": "def saisie():\r\n    global k\r\n    while True:\r\n        k=int(input(\"Donner les nombres de termes: \"))\r\n        if 2<=k<=15:\r\n            break\r\n\ndef calcul():\r\n    U0=str(0)\r\n    F1=open(\"Robinson.txt\",\"w\")\r\n    F1.write(U0)\r\n    for i in range(k):\r\n        T=Tri(U0)\r\n        U=compter(U0)\r\n        U0=U\r\n        F1.write(U)\r\ndef Tri(U0):\r\n    echange=True\r\n    if len(U0)>1:\r\n        while(echange==True) and (len(U0)!=1):\r\n            echange==False\r\n            for i in range(0,len(U0)-1):\r\n                U0=int(U0)\r\n                if U0[i]>U0[i+1]:\r\n                    aux=U0[i]\r\n                    U0[i]=U0[i+1]\r\n                    U0[i+1]=aux\r\n                    echange=True\r\n            len(str(U0))=len(str(U0)-1)\r\n        return U0"
+    },
+    {
+      "chunkId": "DOC-27B149F23200EB2B-CHK-002",
+      "text": "def compter():\r\n    U0=str(U0)\r\n    c=0\r\n    while (len(U0)>=0):\r\n        terme=U0[c]\r\n\n#Programme Principale\r\nsaisie()\r\ncalcul()"
+    }
+  ]
+}

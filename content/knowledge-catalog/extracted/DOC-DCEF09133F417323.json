@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DCEF09133F417323",
+  "filename": "nombre.txt",
+  "relPath": "bac info/algo/Python/Bac 2020/nombre.txt",
+  "sha256": "dcef09133f4173238bea5a76abea180bb8d23e3804d63a06e1196a4b6a4a18f9",
+  "extractedAt": "2026-11-14T18:35:35.329Z",
+  "pageCount": 1,
+  "textSnippet": "6090 717255 45286090 1612311857 10",
+  "fullText": "6090\r\n717255\r\n45286090\r\n1612311857\r\n10\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DCEF09133F417323-CHK-001",
+      "text": "6090\r\n717255\r\n45286090\r\n1612311857\r\n10"
+    }
+  ]
+}

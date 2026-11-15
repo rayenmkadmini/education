@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F629BA7097F07F02",
+  "filename": "controle.js",
+  "relPath": "Prototype Bac pratique 2025/DCN°6 Ressources/controle.js",
+  "sha256": "f629ba7097f07f02049290ff495680659d96cea0c9874ce2128d1bf4b668979b",
+  "extractedAt": "2026-11-06T14:22:57.881Z",
+  "pageCount": 1,
+  "textSnippet": "function Numerique(s) { let chiffre=\"0123456789\"; num=true; let i=0 do { var car=s[i]; if(chiffre.indexOf(car)==-1) { num=false; break; } i++; }while((i<s.length)&&(num==true)); return num; } function Aphabetique(s) { let i = 0; let s=s.toUpperCase(); let alph = true; do { if (s[i] < \"A\" || s[i] > \"Z\") { alph = false; } i++; } while (i < s.length && alph == true); return alph; } function Alphanumeri",
+  "fullText": "function Numerique(s)\r\n{\r\n\tlet chiffre=\"0123456789\";\r\n\tnum=true;\r\n\tlet i=0\r\n\tdo\r\n\t\t{\r\n\t\t\tvar car=s[i];\r\n\t\t\tif(chiffre.indexOf(car)==-1)\r\n\t\t\t\t{\r\n\t\t\t\t\tnum=false;\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\ti++;\r\n\t\t}while((i<s.length)&&(num==true));\r\n\t\r\n\treturn num;\r\n}\r\nfunction Aphabetique(s) {\r\n  let i = 0;\r\n  let s=s.toUpperCase();\r\n  let alph = true;\r\n  do {\r\n    if (s[i] < \"A\" || s[i] > \"Z\") {\r\n      alph = false;\r\n    }\r\n    i++;\r\n  } while (i < s.length && alph == true);\r\n  return alph;\r\n}\r\nfunction Alphanumerique(s) {\r\n  let s=s.toUpperCase();\r\n  let i = 0;\r\n  let alphnum = true;\r\n  do {\r\n      if (\r\n      !(s[i] >= \"0\" && s[i]<= \"9\") &&\r\n      !(s[i] >= \"A\" && s[i] <= \"Z\")\r\n    )\r\n\t   {\r\n      alphnum = false;\r\n\t   }\r\n  }while (i < s.length && alphnum == true);\r\n  return alphnum;\r\n}",
+  "chunks": [
+    {
+      "chunkId": "DOC-F629BA7097F07F02-CHK-001",
+      "text": "function Numerique(s)\r\n{\r\n\tlet chiffre=\"0123456789\";\r\n\tnum=true;\r\n\tlet i=0\r\n\tdo\r\n\t\t{\r\n\t\t\tvar car=s[i];\r\n\t\t\tif(chiffre.indexOf(car)==-1)\r\n\t\t\t\t{\r\n\t\t\t\t\tnum=false;\r\n\t\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\ti++;\r\n\t\t}while((i<s.length)&&(num==true));\r\n\n\treturn num;\r\n}\r\nfunction Aphabetique(s) {\r\n  let i = 0;\r\n  let s=s.toUpperCase();\r\n  let alph = true;\r\n  do {\r\n    if (s[i] < \"A\" || s[i] > \"Z\") {\r\n      alph = false;\r\n    }\r\n    i++;\r\n  } while (i < s.length && alph == true);\r\n  return alph;\r\n}\r\nfunction Alphanumerique(s) {\r\n  let s=s.toUpperCase();\r\n  let i = 0;\r\n  let alphnum = true;\r\n  do {\r\n      if (\r\n      !(s[i] >= \"0\" && s[i]<= \"9\") &&\r\n      !(s[i] >= \"A\" && s[i] <= \"Z\")\r\n    )\r\n\t   {\r\n      alphnum = false;\r\n\t   }\r\n  }while (i < s.length && alphnum == true);\r\n  return alphnum;\r\n}"
+    }
+  ]
+}

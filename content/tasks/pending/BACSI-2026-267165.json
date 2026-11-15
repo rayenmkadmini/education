@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "taskId": "BACSI-2026-267165",
+  "createdAt": "2026-11-06T12:19:36.367Z",
+  "contentType": "DEVOIR_DE_CONTROLE",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Algorithmes Arithmétiques et Approximation Numérique",
+  "academicYear": "2026-2027",
+  "level": "4ème Année Secondaire — Sciences de l'Informatique",
+  "durationMinutes": 120,
+  "totalPoints": 20,
+  "difficulty": "BAC_OFFICIEL",
+  "language": "fr_tn_derja",
+  "generationMode": "STRICT_SOURCE_GROUNDED",
+  "sourceReferences": [
+    {
+      "fileName": "201403P00.pdf"
+    },
+    {
+      "fileName": "210402P00.pdf"
+    },
+    {
+      "fileName": "221402P00.pdf"
+    }
+  ],
+  "instructions": "Concevoir des exercices conformes aux exigences du Baccalauréat tunisien (session 2026-2027). Code Python 3 compatible environnement Thonny, avec barème détaillé.",
+  "expectedOutputStructure": {
+    "format": "JSON",
+    "targetPath": "content/drafts/active/DRAFT-BACSI-2026-267165.json",
+    "requireMarkingScheme": true,
+    "requirePythonValidation": true
+  },
+  "status": "PENDING",
+  "version": 1
+}

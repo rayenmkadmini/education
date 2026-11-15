@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-595740203671D5AC",
+  "filename": "fibo_Rec.py",
+  "relPath": "bac info/Python/cours reccurent/fibo_Rec.py",
+  "sha256": "595740203671d5acae064109cf87cc1db9989b849b63365a26ecd112075cc168",
+  "extractedAt": "2026-11-06T14:23:24.961Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): n = int(input(\"n= \")) while n < 2: n = int(input(\"n= \")) return n def fibo(n): if n <= 2: return 1 else: return fibo(n - 1) + fibo(n - 2) n = saisie() print(f\"U de {n} = \", fibo(n))",
+  "fullText": "def saisie():\r\n    n = int(input(\"n= \"))\r\n    while n < 2:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\r\n\r\ndef fibo(n):\r\n    if n <= 2:\r\n        return 1\r\n    else:\r\n        return fibo(n - 1) + fibo(n - 2)\r\n\r\n\r\nn = saisie()\r\nprint(f\"U de {n} = \", fibo(n))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-595740203671D5AC-CHK-001",
+      "text": "def saisie():\r\n    n = int(input(\"n= \"))\r\n    while n < 2:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\ndef fibo(n):\r\n    if n <= 2:\r\n        return 1\r\n    else:\r\n        return fibo(n - 1) + fibo(n - 2)\r\n\nn = saisie()\r\nprint(f\"U de {n} = \", fibo(n))"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DFF61031127C1D89",
+  "filename": "mesStyles.css",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/mesStyles.css",
+  "sha256": "dff61031127c1d89ef4cd2dd4d8c8f23155712c1fe9614692f607cb4895f1427",
+  "extractedAt": "2026-11-06T14:24:10.732Z",
+  "pageCount": 1,
+  "textSnippet": "*{ line-height: 2; } header, footer { width:100%; text-align: center; } nav { width: 30%; height:400px; float:left; } section { width: 70%; height:400px; float:left; } iframe{ width:100%; height:100%; } legend{ font-weight:bold; font-size:14px; } fieldset{ border: 2px black solid; } a:visited{ color: red; } label{ display: inline-block; width: 150px; } #desc,#prix , #codehab , #cin , #duree{ margin: 2px; color: blue; border",
+  "fullText": "﻿*{\r\n\tline-height: 2;\r\n}\r\nheader, footer {\r\n\t\twidth:100%;\r\n\t\ttext-align: center;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}\r\nlegend{\r\nfont-weight:bold;\r\nfont-size:14px;\t\r\n}\r\nfieldset{\r\n\tborder:  2px black solid;\r\n}\r\n\r\na:visited{\r\n\tcolor: red;\r\n}\r\n\r\n\r\nlabel{\r\n\tdisplay: inline-block;\r\n\twidth: 150px;\r\n}\r\n\r\n\r\n#desc,#prix , #codehab , #cin , #duree{\r\n\tmargin: 2px;\r\n\tcolor: blue;\r\n\tborder: solid blue ;\r\n}",
+  "chunks": [
+    {
+      "chunkId": "DOC-DFF61031127C1D89-CHK-001",
+      "text": "*{\r\n\tline-height: 2;\r\n}\r\nheader, footer {\r\n\t\twidth:100%;\r\n\t\ttext-align: center;\r\n   \t\t}\r\nnav\t{\r\n\twidth: 30%;\r\n\theight:400px;\r\n\tfloat:left;\r\n}\r\nsection {\r\nwidth: 70%;\r\nheight:400px;\r\nfloat:left;\r\n}\r\niframe{\r\n\twidth:100%;\r\n\theight:100%;\r\n}\r\nlegend{\r\nfont-weight:bold;\r\nfont-size:14px;\t\r\n}\r\nfieldset{\r\n\tborder:  2px black solid;\r\n}\r\n\na:visited{\r\n\tcolor: red;\r\n}\r\n\nlabel{\r\n\tdisplay: inline-block;\r\n\twidth: 150px;\r\n}\r\n\n#desc,#prix , #codehab , #cin , #duree{\r\n\tmargin: 2px;\r\n\tcolor: blue;\r\n\tborder: solid blue ;\r\n}"
+    }
+  ]
+}

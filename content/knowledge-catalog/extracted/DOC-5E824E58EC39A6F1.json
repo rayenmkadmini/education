@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-5E824E58EC39A6F1",
+  "filename": "tables.sql",
+  "sha256": "5e824e58ec39a6f1e237ebd67cc3490261f067d92461e0aa06162420da6916bc",
+  "extractedAt": "2026-11-06T14:00:40.629Z",
+  "pageCount": 1,
+  "textSnippet": "-- -- Création de la table `document` -- CREATE TABLE `document` ( `idDoc` varchar(5) NOT NULL, `nomDoc` varchar(50) NOT NULL DEFAULT '', `dateCreation` datetime NOT NULL, PRIMARY KEY (`idDoc`) ) ENGINE=InnoDB ; -- -- Remplissage des données de la table `document` -- INSERT INTO `document` (`idDoc`, `nomDoc`, `dateCreation`) VALUES ('D0001', 'Liste employés.pdf', '2025-02-15 09:14:39'), ('D0002', 'Demande de congés.docx', '2021-10-09 08:10:09'), ('D0003', 'Réclamation ouvriers.docx'",
+  "fullText": "--\n-- Création de la table `document`\n--\n\nCREATE TABLE  `document` (\n  `idDoc` varchar(5) NOT NULL,\n  `nomDoc` varchar(50) NOT NULL DEFAULT '',\n  `dateCreation` datetime  NOT NULL,\n  PRIMARY KEY (`idDoc`)\n) ENGINE=InnoDB ;\n\n--\n-- Remplissage des données de la table `document`\n--\n\nINSERT INTO `document` (`idDoc`, `nomDoc`, `dateCreation`) VALUES\n('D0001', 'Liste employés.pdf', '2025-02-15 09:14:39'),\n('D0002', 'Demande de congés.docx', '2021-10-09 08:10:09'),\n('D0003', 'Réclamation ouvriers.docx', '2022-02-07 11:00:29'),\n('D0004', 'Statistiques2024.xlsx', '2025-01-31 07:00:20');\n\n-- --------------------------------------------------------\n\n--\n-- Création de la table `utilisateur`\n--\n\nCREATE TABLE `utilisateur` (\n  `idUtil` varchar(4) NOT NULL,\n  `nomPrenom` varchar(50) NOT NULL DEFAULT '',\n  PRIMARY KEY (`idUtil`)\n) ENGINE=InnoDB ;\n\n--\n-- Remplissage des données de la table `utilisateur`\n--\n\nINSERT INTO `utilisateur` (`idUtil`, `nomPrenom`) VALUES\n('U001', 'Ali GAFSI'),\n('U002', 'Mohamed SOUSSI'),\n('U003', 'Karima TOUNSI'),\n('U004', 'Kamel SFAXI'),\n('U005', 'Houda JANDOUBI'),\n('U006', 'Taoufik BEJI');\n\n"
+}

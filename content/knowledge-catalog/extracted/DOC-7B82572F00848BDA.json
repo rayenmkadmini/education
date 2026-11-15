@@ -1,0 +1,68 @@
+{
+  "documentId": "DOC-7B82572F00848BDA",
+  "filename": "matrice (résumé) .pdf",
+  "relPath": "algorithme -20261106T124655Z-1-001/algorithme_/Les Matrices_/matrice (résumé) .pdf",
+  "sha256": "7b82572f00848bdaac336b4a1f5198edcc73e31e7d04374cdaea82356559caca",
+  "extractedAt": "2026-11-06T14:23:13.704Z",
+  "pageCount": 6,
+  "textSnippet": "Bac — Informatique Bac — Informatique Algorithmique Algorithmique Matrice — Cours :ﺔﻠﺴﻠﺴﻟا -- 1 of 6 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓLe tableau à deux dimensions 1 2 3 4 5 6 Colonne 0 Colonne 1 Ligne 0 Ligne 1 Ligne 2 Tableau multidimensionnel Accéder aux éléments 5 0 11 2 1 3 0 5 16 8 4 -9 9 2 T[0,3] T[2,3] Déclarations : Algorithme Objet Type / Nature Tableau à une dimension Nom_tableau Tableau de N Type _élément Tableau à deux dimensions Nom_tableau Tableau de N ligne",
+  "fullText": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nMatrice — Cours :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 6 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓLe tableau à deux dimensions\n1 \t2\n3 \t4\n5 \t6\nColonne 0\nColonne 1\nLigne 0\nLigne 1\nLigne 2\nTableau multidimensionnel\nAccéder aux éléments\n5 \t0 \t11 \t2 \t1\n3 \t0 \t5 \t16\n8 \t4 \t-9 \t9 \t2\nT[0,3]\nT[2,3]\nDéclarations :\nAlgorithme\nObjet \tType / Nature\nTableau à une\ndimension Nom_tableau \tTableau de N Type _élément\nTableau à deux\ndimensions Nom_tableau Tableau de N lignes * M colonnes Type\n_élément\nC H A P I T R E N ° 6\nMatrice\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 5\nsuite à la page suivante →\n\n-- 2 of 6 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nOu\nLes nouveaux types utilisateurs\nNouveau type\nTableau à une\ndimension Nom_type = Tableau de N Type _élément\nTableau à deux\ndimensions Nom_type = Tableau de N lignes * M colonnes Type _élément\nDéclaration en python\nDéclaration\nTableau à une\ndimension\nT = array ([Type_élément] * N) ou bien\nT = array ([valeur_initiale] * N)\nTableau à deux\ndimensions\nT = array ([[Type_élément]*Colonnes]* Lignes) ou bien\nT = array ([[valeur_initiale]*Colonnes]* Lignes)\n1ère cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n2ème Cas\nPour i de 0 à n-1 faire\nM[i,i] ← \"*\"\nFin pour\nDéclaration du tableau\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 5\nsuite à la page suivante →\n\n-- 3 of 6 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ3ème Cas\nPour i de 0 à n-1 faire\nM[i,n-i-1] ← \"*\"\nFin pour\n4ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou i=j alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n5ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou j=n-i-1 alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n7ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à i faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n8ème Cas\nPour i de 0 à n-1 faire\nPour j de i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 5\nsuite à la page suivante →\n\n-- 4 of 6 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ9ème Cas\nPour i de 0 à n-1 faire\nPour j de n-1-i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n10ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-i-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n11ème Cas\nPour i de 0 à n-1 faire\nPour j de i à (n-i-1) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n12ème Cas\nPour i de 0 à n-1 faire\nPour j de (n div 2 - i) à (n div 2 + i) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n13ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi 1 <= i <= (n-2) et 1 <= j <= (n-2) alors\nT[i][j] ← \"*\"\nFin si\nSi i == n div 2 ou j == n div 2 alors\nT[i][j] ← \"*\"\nFin si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 4 / 5\nsuite à la page suivante →\n\n-- 5 of 6 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ14ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi (i = j) ou (i+j = n-1) alors\nMatrice[i,j] ← \"*\"\nFin Si\nSi j = 0 ou j = n – 1 alors\nMatrice[i,j] ← \"*\"\nFin Si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 5 / 5\n\n-- 6 of 6 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nMatrice — Cours :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓLe tableau à deux dimensions\n1 \t2\n3 \t4\n5 \t6\nColonne 0\nColonne 1\nLigne 0\nLigne 1\nLigne 2\nTableau multidimensionnel\nAccéder aux éléments\n5 \t0 \t11 \t2 \t1\n3 \t0 \t5 \t16\n8 \t4 \t-9 \t9 \t2\nT[0,3]\nT[2,3]\nDéclarations :\nAlgorithme\nObjet \tType / Nature\nTableau à une\ndimension Nom_tableau \tTableau de N Type _élément\nTableau à deux\ndimensions Nom_tableau Tableau de N lignes * M colonnes Type\n_élément\nC H A P I T R E N ° 6\nMatrice\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 5\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nOu\nLes nouveaux types utilisateurs\nNouveau type\nTableau à une\ndimension Nom_type = Tableau de N Type _élément\nTableau à deux\ndimensions Nom_type = Tableau de N lignes * M colonnes Type _élément\nDéclaration en python\nDéclaration\nTableau à une\ndimension\nT = array ([Type_élément] * N) ou bien\nT = array ([valeur_initiale] * N)\nTableau à deux\ndimensions\nT = array ([[Type_élément]*Colonnes]* Lignes) ou bien\nT = array ([[valeur_initiale]*Colonnes]* Lignes)\n1ère cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n2ème Cas\nPour i de 0 à n-1 faire\nM[i,i] ← \"*\"\nFin pour\nDéclaration du tableau\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 5\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ3ème Cas\nPour i de 0 à n-1 faire\nM[i,n-i-1] ← \"*\"\nFin pour\n4ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou i=j alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n5ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou j=n-i-1 alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n7ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à i faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n8ème Cas\nPour i de 0 à n-1 faire\nPour j de i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 5\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 5,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ9ème Cas\nPour i de 0 à n-1 faire\nPour j de n-1-i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n10ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-i-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n11ème Cas\nPour i de 0 à n-1 faire\nPour j de i à (n-i-1) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n12ème Cas\nPour i de 0 à n-1 faire\nPour j de (n div 2 - i) à (n div 2 + i) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n13ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi 1 <= i <= (n-2) et 1 <= j <= (n-2) alors\nT[i][j] ← \"*\"\nFin si\nSi i == n div 2 ou j == n div 2 alors\nT[i][j] ← \"*\"\nFin si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 4 / 5\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ14ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi (i = j) ou (i+j = n-1) alors\nMatrice[i,j] ← \"*\"\nFin Si\nSi j = 0 ou j = n – 1 alors\nMatrice[i,j] ← \"*\"\nFin Si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 5 / 5"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nMatrice — Cours :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓLe tableau à deux dimensions\n1 \t2\n3 \t4\n5 \t6\nColonne 0\nColonne 1\nLigne 0\nLigne 1\nLigne 2\nTableau multidimensionnel\nAccéder aux éléments\n5 \t0 \t11 \t2 \t1\n3 \t0 \t5 \t16\n8 \t4 \t-9 \t9 \t2\nT[0,3]\nT[2,3]\nDéclarations :\nAlgorithme\nObjet \tType / Nature\nTableau à une\ndimension Nom_tableau \tTableau de N Type _élément\nTableau à deux\ndimensions Nom_tableau Tableau de N lignes * M colonnes Type\n_élément\nC H A P I T R E N ° 6\nMatrice\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 5\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-003",
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nOu\nLes nouveaux types utilisateurs\nNouveau type\nTableau à une\ndimension Nom_type = Tableau de N Type _élément\nTableau à deux\ndimensions Nom_type = Tableau de N lignes * M colonnes Type _élément\nDéclaration en python\nDéclaration\nTableau à une\ndimension\nT = array ([Type_élément] * N) ou bien\nT = array ([valeur_initiale] * N)\nTableau à deux\ndimensions\nT = array ([[Type_élément]*Colonnes]* Lignes) ou bien\nT = array ([[valeur_initiale]*Colonnes]* Lignes)\n1ère cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n2ème Cas\nPour i de 0 à n-1 faire\nM[i,i] ← \"*\"\nFin pour\nDéclaration du tableau\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 5\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-004",
+      "pageNumber": 4,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ3ème Cas\nPour i de 0 à n-1 faire\nM[i,n-i-1] ← \"*\"\nFin pour\n4ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou i=j alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n5ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi j=0 ou j=n-1 ou j=n-i-1 alors\nM[i,j] ← \"*\"\nFin si\nFin pour\nFin pour\n7ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à i faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n8ème Cas\nPour i de 0 à n-1 faire\nPour j de i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 5\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-005",
+      "pageNumber": 5,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ9ème Cas\nPour i de 0 à n-1 faire\nPour j de n-1-i à n-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n10ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-i-1 faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n11ème Cas\nPour i de 0 à n-1 faire\nPour j de i à (n-i-1) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n12ème Cas\nPour i de 0 à n-1 faire\nPour j de (n div 2 - i) à (n div 2 + i) faire\nM[i,j] ← \"*\"\nFin pour\nFin pour\n13ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi 1 <= i <= (n-2) et 1 <= j <= (n-2) alors\nT[i][j] ← \"*\"\nFin si\nSi i == n div 2 ou j == n div 2 alors\nT[i][j] ← \"*\"\nFin si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 4 / 5\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-7B82572F00848BDA-CHK-006",
+      "pageNumber": 6,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ14ème Cas\nPour i de 0 à n-1 faire\nPour j de 0 à n-1 faire\nSi (i = j) ou (i+j = n-1) alors\nMatrice[i,j] ← \"*\"\nFin Si\nSi j = 0 ou j = n – 1 alors\nMatrice[i,j] ← \"*\"\nFin Si\nFin Pour\nFin Pour\nAlgorithmique\nChapitre N°6 · Matrice · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 5 / 5"
+    }
+  ]
+}

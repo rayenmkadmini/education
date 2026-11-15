@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-EF94301872FCE95F",
+  "filename": "style.css",
+  "relPath": "bac info/sti/etude/bac preatique STI 2018/style.css",
+  "sha256": "ef94301872fce95fb5b0aa6e58e0bd3b08bff70cdaa8419bfb820c51d38a12f1",
+  "extractedAt": "2026-11-06T14:24:17.271Z",
+  "pageCount": 1,
+  "textSnippet": "header h1{ text-align: center; font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif; } main{ width: 50%; height: 500px; padding-left: 25%; padding-right: 25%; } fieldset{ border: dotted; height:100%; width: 100%; padding: 2%; } table, th, td { border: 1px solid black; } table{ width: 100%; height:150px; } #zoneTable{ margin: 5px; height:150px; width: 100%; } #zoneHotel ,#zon",
+  "fullText": "header h1{\r\n    text-align: center;\r\n    font-weight: bold;\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n}\r\nmain{\r\n    width: 50%;\r\n    height: 500px;\r\n    padding-left: 25%;\r\n    padding-right: 25%;\r\n}\r\nfieldset{\r\n    border: dotted;\r\n    height:100%;\r\n    width: 100%;\r\n    padding: 2%;\r\n}\r\ntable, th, td {\r\n    border: 1px solid black;\r\n}\r\n  table{\r\n    width: 100%;\r\n    height:150px;\r\n}\r\n\r\n#zoneTable{\r\n    margin: 5px;\r\n    height:150px;\r\n    width: 100%;\r\n}\r\n\r\n#zoneHotel ,#zoneCaptcha  {\r\n    border: 1px solid black;\r\n    width: 90%;\r\n    padding: 40px;\r\n    margin: 5px;\r\n}\r\n#zoneBtn{\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    padding-top: 25px;\r\n    margin: 5px;\r\n    text-align: right;\r\n}\r\n.right{\r\n    margin-left: 55%;\r\n}\r\np{\r\n    font-family: fantasy;\r\n    margin-left: 30%;\r\n}\r\ninput[type=\"reset\"],input[type=\"sumbit\"]{\r\n    margin-bottom: 8px;\r\n}\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-EF94301872FCE95F-CHK-001",
+      "text": "header h1{\r\n    text-align: center;\r\n    font-weight: bold;\r\n    font-family: Georgia, 'Times New Roman', Times, serif;\r\n}\r\nmain{\r\n    width: 50%;\r\n    height: 500px;\r\n    padding-left: 25%;\r\n    padding-right: 25%;\r\n}\r\nfieldset{\r\n    border: dotted;\r\n    height:100%;\r\n    width: 100%;\r\n    padding: 2%;\r\n}\r\ntable, th, td {\r\n    border: 1px solid black;\r\n}\r\n  table{\r\n    width: 100%;\r\n    height:150px;\r\n}\r\n\n#zoneTable{\r\n    margin: 5px;\r\n    height:150px;\r\n    width: 100%;\r\n}"
+    },
+    {
+      "chunkId": "DOC-EF94301872FCE95F-CHK-002",
+      "text": "#zoneHotel ,#zoneCaptcha  {\r\n    border: 1px solid black;\r\n    width: 90%;\r\n    padding: 40px;\r\n    margin: 5px;\r\n}\r\n#zoneBtn{\r\n    border: 1px solid black;\r\n    width: 100%;\r\n    padding-top: 25px;\r\n    margin: 5px;\r\n    text-align: right;\r\n}\r\n.right{\r\n    margin-left: 55%;\r\n}\r\np{\r\n    font-family: fantasy;\r\n    margin-left: 30%;\r\n}\r\ninput[type=\"reset\"],input[type=\"sumbit\"]{\r\n    margin-bottom: 8px;\r\n}"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-AF826FBD5CB2AB2C",
+  "filename": "Les Structures de Contrôle Itératives.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/Les Structures de Contrôle Itératives.pdf",
+  "sha256": "af826fbd5cb2ab2c5ae35ed0c953647ebc177d5fa7185e2b65467ca66a029d2b",
+  "extractedAt": "2026-11-06T14:24:33.694Z",
+  "pageCount": 2,
+  "textSnippet": "Lycée Pilote De Tunis AS : 21-22 Nadia El Mekni Lassoued 3ème et 4ème année maths et sciences Les Structures de Contrôle Itératives a-La SCI Complète pour : On a recours à une SCI complète pour quand on a un traitement qui va se répéter plusieurs fois et on connait d’avance le nombre d’itérations. Algorithme For compteur de val1 à val2 [pas=x] faire traitement Fin pour Python 1er cas for compteur in range(n): traitement Remarque: • Le traitement va se répéter de 0 à n-1 2ème cas for i in range(a",
+  "fullText": "Lycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nLes Structures de Contrôle Itératives\na-La SCI Complète pour :\nOn a recours à une SCI complète pour quand on a un traitement qui va se répéter plusieurs fois et on\nconnait d’avance le nombre d’itérations.\nAlgorithme\nFor compteur de val1 à val2 [pas=x] faire\ntraitement\nFin pour\nPython\n1er cas\nfor compteur in range(n):\ntraitement\nRemarque:\n• Le traitement va se\nrépéter de 0 à n-1\n2ème cas\nfor i in range(a,b):\ntraitement\nVi=a et vf= b-1\nle pas par défaut =1\n3ème cas\nfor i in range(a,b,c):\ntraitement\nVi=a et vf= b-1 et pas= c\nRemarques :\nLe pas est par défaut 1.\nLe compteur doit être de type entier, caractère ou booléen (algo)\nb- Les SCI à condition d’arrêt :\nOn a recours à une SCI à condition d’arrêt quand on a un traitement qui va se répéter plusieurs fois\net on ne connait pas d’avance le nombre d’itérations.\nAlgorithme\nLa SCI à condition d’arrêt Répéter-jusqu’à\nInitialisation\nRépéter\ntraitement\nJusqu’à (condition)\n-Le traitement va se répéter 1 ou plusieurs\nfois.\n-La condition est dite condition d’arrêt ou\ncondition de sortie.\nLa SCI à condition d’arrêt tant que\nInitialisation\nTant que(condition) faire\ntraitement\nFin tant que\n-Le traitement va se répéter 0 ou plusieurs\nfois.\n-La condition est dite d’entrée.\n\n-- 1 of 2 --\n\nLycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nPython\nWhile(condition) :\nTraitement\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Lycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nLes Structures de Contrôle Itératives\na-La SCI Complète pour :\nOn a recours à une SCI complète pour quand on a un traitement qui va se répéter plusieurs fois et on\nconnait d’avance le nombre d’itérations.\nAlgorithme\nFor compteur de val1 à val2 [pas=x] faire\ntraitement\nFin pour\nPython\n1er cas\nfor compteur in range(n):\ntraitement\nRemarque:\n• Le traitement va se\nrépéter de 0 à n-1\n2ème cas\nfor i in range(a,b):\ntraitement\nVi=a et vf= b-1\nle pas par défaut =1\n3ème cas\nfor i in range(a,b,c):\ntraitement\nVi=a et vf= b-1 et pas= c\nRemarques :\nLe pas est par défaut 1.\nLe compteur doit être de type entier, caractère ou booléen (algo)\nb- Les SCI à condition d’arrêt :\nOn a recours à une SCI à condition d’arrêt quand on a un traitement qui va se répéter plusieurs fois\net on ne connait pas d’avance le nombre d’itérations.\nAlgorithme\nLa SCI à condition d’arrêt Répéter-jusqu’à\nInitialisation\nRépéter\ntraitement\nJusqu’à (condition)\n-Le traitement va se répéter 1 ou plusieurs\nfois.\n-La condition est dite condition d’arrêt ou\ncondition de sortie.\nLa SCI à condition d’arrêt tant que\nInitialisation\nTant que(condition) faire\ntraitement\nFin tant que\n-Le traitement va se répéter 0 ou plusieurs\nfois.\n-La condition est dite d’entrée."
+    },
+    {
+      "pageNumber": 2,
+      "text": "Lycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nPython\nWhile(condition) :\nTraitement"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-AF826FBD5CB2AB2C-CHK-001",
+      "pageNumber": 1,
+      "text": "Lycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nLes Structures de Contrôle Itératives\na-La SCI Complète pour :\nOn a recours à une SCI complète pour quand on a un traitement qui va se répéter plusieurs fois et on\nconnait d’avance le nombre d’itérations.\nAlgorithme\nFor compteur de val1 à val2 [pas=x] faire\ntraitement\nFin pour\nPython\n1er cas\nfor compteur in range(n):\ntraitement\nRemarque:\n• Le traitement va se\nrépéter de 0 à n-1\n2ème cas\nfor i in range(a,b):\ntraitement\nVi=a et vf= b-1\nle pas par défaut =1\n3ème cas\nfor i in range(a,b,c):\ntraitement\nVi=a et vf= b-1 et pas= c\nRemarques :\nLe pas est par défaut 1.\nLe compteur doit être de type entier, caractère ou booléen (algo)\nb- Les SCI à condition d’arrêt :\nOn a recours à une SCI à condition d’arrêt quand on a un traitement qui va se répéter plusieurs fois\net on ne connait pas d’avance le nombre d’itérations.\nAlgorithme\nLa SCI à condition d’arrêt Répéter-jusqu’à\nInitialisation\nRépéter\ntraitement\nJusqu’à (condition)\n-Le traitement va se répéter 1 ou plusieurs\nfois.\n-La condition est dite condition d’arrêt ou\ncondition de sortie.\nLa SCI à condition d’arrêt tant que\nInitialisation\nTant que(condition) faire\ntraitement\nFin tant que\n-Le traitement va se répéter 0 ou plusieurs\nfois.\n-La condition est dite d’entrée."
+    },
+    {
+      "chunkId": "DOC-AF826FBD5CB2AB2C-CHK-002",
+      "pageNumber": 2,
+      "text": "Lycée Pilote De Tunis AS : 21-22\nNadia El Mekni Lassoued 3ème et 4ème année maths et sciences\nPython\nWhile(condition) :\nTraitement"
+    }
+  ]
+}

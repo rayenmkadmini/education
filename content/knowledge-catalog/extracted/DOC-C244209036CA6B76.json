@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C244209036CA6B76",
+  "filename": "Test nombre premier.py",
+  "relPath": "bac info/algo/Python/Test nombre premier.py",
+  "sha256": "c244209036ca6b7679b341e0270e8a84996401d38067386b086660f1d9b3d566",
+  "extractedAt": "2026-11-14T18:35:36.556Z",
+  "pageCount": 1,
+  "textSnippet": "def premier(x): nb=0 for i in range(1,x+1): if x%i==0: nb=nb+1 return nb==2 def primoriel(x): f=1 for i in range(1,x+1): if (premier (i)): f=f*i return f def prem_prim(n): x=0 while (premier(n) and primoriel(x)+1<n and primoriel(x)-1<n): x=x+1 return (premier(n) and (primoriel(x)+1==n or primoriel(x)-1==n)) print(prem_prim(29))",
+  "fullText": "def premier(x):\r\n    nb=0\r\n    for i in range(1,x+1):\r\n        if x%i==0:\r\n            nb=nb+1\r\n    return nb==2\r\ndef primoriel(x):\r\n    f=1\r\n    for i in range(1,x+1):\r\n        if (premier (i)):\r\n            f=f*i\r\n    return f\r\ndef prem_prim(n):\r\n    x=0\r\n    while (premier(n) and primoriel(x)+1<n and primoriel(x)-1<n):\r\n        x=x+1\r\n    return (premier(n) and (primoriel(x)+1==n or primoriel(x)-1==n))\r\n\r\nprint(prem_prim(29))",
+  "chunks": [
+    {
+      "chunkId": "DOC-C244209036CA6B76-CHK-001",
+      "text": "def premier(x):\r\n    nb=0\r\n    for i in range(1,x+1):\r\n        if x%i==0:\r\n            nb=nb+1\r\n    return nb==2\r\ndef primoriel(x):\r\n    f=1\r\n    for i in range(1,x+1):\r\n        if (premier (i)):\r\n            f=f*i\r\n    return f\r\ndef prem_prim(n):\r\n    x=0\r\n    while (premier(n) and primoriel(x)+1<n and primoriel(x)-1<n):\r\n        x=x+1\r\n    return (premier(n) and (primoriel(x)+1==n or primoriel(x)-1==n))\r\n\nprint(prem_prim(29))"
+    }
+  ]
+}

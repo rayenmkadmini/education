@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B0738FEF0246EEE1",
+  "filename": "effacer_une_case.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_une_case.py",
+  "sha256": "b0738fef0246eee12378bb835aa2f6ac21a15c8b75d9cfa1bb54d1c3de820377",
+  "extractedAt": "2026-11-06T14:24:40.972Z",
+  "pageCount": 1,
+  "textSnippet": "#Effacer une case d'un tableau from numpy import * t = array([int] * 10) def Saisie(): b = False while not b: n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range(n): t[i] = int(input(\"t[\" + str(i) + \"] = \")) def Effacer(t, n): b = False while not b: p = int(input(\"Donner la position de la case à effacer: \")) b = 0 <= p <= n for i in range(p, n -",
+  "fullText": "#Effacer une case d'un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef Effacer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à effacer: \"))\r\n        b = 0 <= p <= n\r\n    for i in range(p, n - 1):\r\n        t[i] = t[i + 1]\r\n    n -= 1\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nn = Effacer(t, n)\r\nAfficher(t, n)\r\nprint(t)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-B0738FEF0246EEE1-CHK-001",
+      "text": "#Effacer une case d'un tableau\r\n\nfrom numpy import *\r\n\nt = array([int] * 10)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\ndef Effacer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à effacer: \"))\r\n        b = 0 <= p <= n\r\n    for i in range(p, n - 1):\r\n        t[i] = t[i + 1]\r\n    n -= 1\r\n    return n\r\n\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\n####################PP####################\r\n\nn = Saisie()\r\nRemplir(n)\r\nn = Effacer(t, n)\r\nAfficher(t, n)\r\nprint(t)"
+    }
+  ]
+}

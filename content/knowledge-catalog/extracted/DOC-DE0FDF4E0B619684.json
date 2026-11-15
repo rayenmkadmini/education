@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DE0FDF4E0B619684",
+  "filename": "img1.png",
+  "relPath": "bac info/Python/Quizz Arithmétique/img1.png",
+  "sha256": "de0fdf4e0b619684be0faa34c223e76accb391bfae1cd52e3966eb4936ecf050",
+  "extractedAt": "2026-11-06T14:23:24.552Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: img1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: img1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-DE0FDF4E0B619684-CHK-001",
+      "text": "[Fichier Image Pédagogique: img1.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

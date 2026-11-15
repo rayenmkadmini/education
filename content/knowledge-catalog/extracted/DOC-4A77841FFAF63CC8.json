@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-4A77841FFAF63CC8",
+  "filename": "ajout.html",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/ajout.html",
+  "sha256": "4a77841ffaf63cc8cee2d2db1976cd9f9b1491ebd49d4ff467b5bf618650adfd",
+  "extractedAt": "2026-11-06T14:24:09.855Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>ajout d'un habit</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> <script src=\"controle.js\"></script> <body> <form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif1()\"> <fieldset> <legend>ajout d'un habit</legend> <label for=\"cat\">categorie :</label> <s",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>ajout d'un habit</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"controle.js\"></script>\r\n<body>\r\n    \r\n        <form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif1()\">\r\n            <fieldset>\r\n            <legend>ajout d'un habit</legend>\r\n            <label for=\"cat\">categorie :</label>\r\n            <select name=\"cat\" id=\"cat\">\r\n                <option value=\"0\">selectionner une categorie </option>\r\n                <option value=\"1\">robee soiree</option>\r\n                <option value=\"2\">robe de mariee</option>\r\n                <option value=\"3\">caftan</option>\r\n                <option value=\"4\">costume</option>\r\n                <option value=\"5\">jebba</option>\r\n            </select><br>\r\n            <label for=\"desc\">descreption :</label>\r\n            <input type=\"text\" name=\"desc\" id=\"desc\"><br>\r\n            <label for=\"taille\">taille :</label>\r\n            <input type=\"radio\" name=\"taille\" id=\"taille1\" value=\"S\">S\r\n            <input type=\"radio\" name=\"taille\" id=\"taille2\" value=\"M\">M\r\n            <input type=\"radio\" name=\"taille\" id=\"taille3\" value=\"L\">L\r\n            <input type=\"radio\" name=\"taille\" id=\"taille4\" value=\"XL\">XL <br>\r\n            <label for=\"prix\">prix location</label>\r\n            <input type=\"number\" name=\"prix\" id=\"prix\">DT <br>\r\n            <input type=\"reset\" value=\"annuler\">\r\n            <input type=\"submit\" value=\"ajouter\">\r\n\r\n        </fieldset>\r\n        </form>\r\n    \r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-4A77841FFAF63CC8-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>ajout d'un habit</title>\r\n    <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n    <script src=\"controle.js\"></script>\r\n<body>"
+    },
+    {
+      "chunkId": "DOC-4A77841FFAF63CC8-CHK-002",
+      "text": "<form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif1()\">\r\n            <fieldset>\r\n            <legend>ajout d'un habit</legend>\r\n            <label for=\"cat\">categorie :</label>\r\n            <select name=\"cat\" id=\"cat\">\r\n                <option value=\"0\">selectionner une categorie </option>\r\n                <option value=\"1\">robee soiree</option>\r\n                <option value=\"2\">robe de mariee</option>\r\n                <option value=\"3\">caftan</option>\r\n                <option value=\"4\">costume</option>\r\n                <option value=\"5\">jebba</option>\r\n            </select><br>\r\n            <label for=\"desc\">descreption :</label>\r\n            <input type=\"text\" name=\"desc\" id=\"desc\"><br>\r\n            <label for=\"taille\">taille :</label>\r\n            <input type=\"radio\" name=\"taille\" id=\"taille1\" value=\"S\">S\r\n            <input type=\"radio\" name=\"taille\" id=\"taille2\" value=\"M\">M\r\n            <input type=\"radio\" name=\"taille\" id=\"taille3\" value=\"L\">L\r\n            <input type=\"radio\" name=\"taille\" id=\"taille4\" value=\"XL\">XL <br>\r\n            <label for=\"prix\">prix location</label>\r\n            <input type=\"number\" name=\"prix\" id=\"prix\">DT <br>\r\n            <input type=\"reset\" value=\"annuler\">\r\n            <input type=\"submit\" value=\"ajouter\">"
+    },
+    {
+      "chunkId": "DOC-4A77841FFAF63CC8-CHK-003",
+      "text": "</fieldset>\r\n        </form>\r\n\n</body>\r\n</html>"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-78F044306D564DFF",
+  "filename": "droit.php",
+  "relPath": "bac 2025/droit.php",
+  "sha256": "78f044306d564dffabfcf5468f47a44b22a65b9a3f8575f7280a89248d3c3527",
+  "extractedAt": "2026-11-06T14:23:24.365Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\"); $idDoc=$_POST[\"nomDoc\"]; $idUtil=$_POST[\"idUtil\"]; $ecriture=isset($_POST[\"ecriture\"])?\"O\":\"N\"; $lecture=isset($_POST[\"lecture\"])?\"O\":\"N\"; $impression=isset($_POST[\"impression\"])?\"O\":\"N\"; if($idDoc==\"\"||$idUtil==\"\"){ echo\"Champs document ou utilisateur manquants.\";} $r=mysqli_query($cnx,\"SELECT idUtil FROM Utilisateur WHERE idUtil='$idUtil'\"); if(mysqli_num_rows($r)==0){ echo\"Erreur : Utilisateur inexistant\";}",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\");\r\n\r\n$idDoc=$_POST[\"nomDoc\"];\r\n$idUtil=$_POST[\"idUtil\"];\r\n$ecriture=isset($_POST[\"ecriture\"])?\"O\":\"N\";\r\n$lecture=isset($_POST[\"lecture\"])?\"O\":\"N\";\r\n$impression=isset($_POST[\"impression\"])?\"O\":\"N\";\r\n\r\nif($idDoc==\"\"||$idUtil==\"\"){\r\n    echo\"Champs document ou utilisateur manquants.\";}\r\n\r\n$r=mysqli_query($cnx,\"SELECT idUtil FROM Utilisateur WHERE idUtil='$idUtil'\");\r\nif(mysqli_num_rows($r)==0){\r\n    echo\"Erreur : Utilisateur inexistant\";}\r\n\r\n$r2=mysqli_query($cnx,\"SELECT idDoc FROM Droit WHERE idDoc='$idDoc' AND idUtil='$idUtil'\");\r\nif(mysqli_num_rows($r2)>0){\r\n    mysqli_query($cnx,\"UPDATE Droit SET ecriture='$ecriture',lecture='$lecture',impression='$impression' WHERE idDoc='$idDoc' AND idUtil='$idUtil'\");\r\n    echo\"Mise à jour des droits d’accès réussie\";\r\n}\r\nelse{\r\n    mysqli_query($cnx,\"INSERT INTO Droit(idDoc,idUtil,ecriture,lecture,impression)VALUES('$idDoc','$idUtil','$ecriture','$lecture','$impression')\");\r\n    echo\"Insertion des droits d’accès réussie\";\r\n}\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-78F044306D564DFF-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd1920\");\r\n\n$idDoc=$_POST[\"nomDoc\"];\r\n$idUtil=$_POST[\"idUtil\"];\r\n$ecriture=isset($_POST[\"ecriture\"])?\"O\":\"N\";\r\n$lecture=isset($_POST[\"lecture\"])?\"O\":\"N\";\r\n$impression=isset($_POST[\"impression\"])?\"O\":\"N\";\r\n\nif($idDoc==\"\"||$idUtil==\"\"){\r\n    echo\"Champs document ou utilisateur manquants.\";}\r\n\n$r=mysqli_query($cnx,\"SELECT idUtil FROM Utilisateur WHERE idUtil='$idUtil'\");\r\nif(mysqli_num_rows($r)==0){\r\n    echo\"Erreur : Utilisateur inexistant\";}"
+    },
+    {
+      "chunkId": "DOC-78F044306D564DFF-CHK-002",
+      "text": "$r2=mysqli_query($cnx,\"SELECT idDoc FROM Droit WHERE idDoc='$idDoc' AND idUtil='$idUtil'\");\r\nif(mysqli_num_rows($r2)>0){\r\n    mysqli_query($cnx,\"UPDATE Droit SET ecriture='$ecriture',lecture='$lecture',impression='$impression' WHERE idDoc='$idDoc' AND idUtil='$idUtil'\");\r\n    echo\"Mise à jour des droits d’accès réussie\";\r\n}\r\nelse{\r\n    mysqli_query($cnx,\"INSERT INTO Droit(idDoc,idUtil,ecriture,lecture,impression)VALUES('$idDoc','$idUtil','$ecriture','$lecture','$impression')\");\r\n    echo\"Insertion des droits d’accès réussie\";\r\n}\r\n?>"
+    }
+  ]
+}

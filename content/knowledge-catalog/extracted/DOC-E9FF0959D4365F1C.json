@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-E9FF0959D4365F1C",
+  "filename": "Magazine n°15 dérivabilité.pdf",
+  "relPath": "bac info/math taki/dérivabilité/Magazine n°15 dérivabilité.pdf",
+  "sha256": "e9ff0959d4365f1c620ecfea60941f831be473a739bf536905b57f6b119fdd05",
+  "extractedAt": "2026-11-06T14:23:49.778Z",
+  "pageCount": 4,
+  "textSnippet": "-- 1 of 4 -- 15 min 4 pt Exercice 1 15 min 4 pt Exercice 2 1 -- 2 of 4 -- 25 min 5 pt Exercice 3 25 min 4 pt Exercice 4 20 min 4 pt Exercice 5 2 -- 3 of 4 -- 3 -- 4 of 4 --",
+  "fullText": "-- 1 of 4 --\n\n15 min 4 pt\tExercice 1\n15 min 4 pt\tExercice 2\n1\n\n-- 2 of 4 --\n\n25 min 5 pt\tExercice 3\n25 min 4 pt\tExercice 4\n20 min 4 pt\tExercice 5\n2\n\n-- 3 of 4 --\n\n3\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "15 min 4 pt\tExercice 1\n15 min 4 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "25 min 5 pt\tExercice 3\n25 min 4 pt\tExercice 4\n20 min 4 pt\tExercice 5\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-E9FF0959D4365F1C-CHK-001",
+      "pageNumber": 2,
+      "text": "15 min 4 pt\tExercice 1\n15 min 4 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-E9FF0959D4365F1C-CHK-002",
+      "pageNumber": 3,
+      "text": "25 min 5 pt\tExercice 3\n25 min 4 pt\tExercice 4\n20 min 4 pt\tExercice 5\n2"
+    },
+    {
+      "chunkId": "DOC-E9FF0959D4365F1C-CHK-003",
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ]
+}

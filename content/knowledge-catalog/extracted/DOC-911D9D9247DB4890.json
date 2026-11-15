@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-911D9D9247DB4890",
+  "filename": "nombre.txt",
+  "relPath": "bac info/Python/fichier QtDesigner/ex6 serie2 conversion/nombre.txt",
+  "sha256": "911d9d9247db4890130ca9044720114cdbf2a4589f551cea67df3243d243d041",
+  "extractedAt": "2026-11-06T14:23:34.696Z",
+  "pageCount": 1,
+  "textSnippet": "50 5010",
+  "fullText": "50\r\n5010\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-911D9D9247DB4890-CHK-001",
+      "text": "50\r\n5010"
+    }
+  ]
+}

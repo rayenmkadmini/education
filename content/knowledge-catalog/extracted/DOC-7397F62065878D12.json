@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7397F62065878D12",
+  "filename": "remplissage tableau.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/remplissage tableau.py",
+  "sha256": "7397f62065878d12f975bc90ce9425f8dc45253de19f0ac92132251104654da5",
+  "extractedAt": "2026-11-14T18:35:36.376Z",
+  "pageCount": 1,
+  "textSnippet": "def remplir(n): t=[0]*n for i in range(n): t[i]=i print(t) remplir(5)",
+  "fullText": "def remplir(n):\r\n    t=[0]*n\r\n    for i in range(n):\r\n        t[i]=i\r\n    print(t)\r\n    \r\nremplir(5)",
+  "chunks": [
+    {
+      "chunkId": "DOC-7397F62065878D12-CHK-001",
+      "text": "def remplir(n):\r\n    t=[0]*n\r\n    for i in range(n):\r\n        t[i]=i\r\n    print(t)\r\n\nremplir(5)"
+    }
+  ]
+}

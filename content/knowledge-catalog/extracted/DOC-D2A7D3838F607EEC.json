@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D2A7D3838F607EEC",
+  "filename": "remplissage enregistrement.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/remplissage enregistrement.py",
+  "sha256": "d2a7d3838f607eecf43d1654fb2992b762d49dc7b94f9734187d493a1cbbdb63",
+  "extractedAt": "2026-11-14T18:35:36.375Z",
+  "pageCount": 1,
+  "textSnippet": "def remplir(n): t=[{}]*n for i in range(n): e={} e['gibj']=i e[\"dg\"]=i*i t[i]=e print(t) remplir(5)",
+  "fullText": "def remplir(n):\r\n    t=[{}]*n\r\n    for i in range(n):\r\n        e={}\r\n        e['gibj']=i\r\n        e[\"dg\"]=i*i\r\n        t[i]=e\r\n    print(t)\r\n    \r\nremplir(5)",
+  "chunks": [
+    {
+      "chunkId": "DOC-D2A7D3838F607EEC-CHK-001",
+      "text": "def remplir(n):\r\n    t=[{}]*n\r\n    for i in range(n):\r\n        e={}\r\n        e['gibj']=i\r\n        e[\"dg\"]=i*i\r\n        t[i]=e\r\n    print(t)\r\n\nremplir(5)"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-2BA1CA654A74160D",
+  "filename": "connexion.php",
+  "sha256": "2ba1ca654a74160db147704a965066490d4be3e078a3b2dc6640b180ac2be785",
+  "extractedAt": "2026-11-06T14:00:19.449Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $serveur =\"localhost\"; $utilisateur = \"root\"; $motdepasse = \"\"; $nombase = \"\"; ?>",
+  "fullText": "<?php\r\n$serveur =\"localhost\";\r\n$utilisateur = \"root\";\r\n$motdepasse = \"\";\r\n$nombase = \"\";\r\n\r\n?>"
+}

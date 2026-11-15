@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D4F5FB71100E3F41",
+  "filename": "acceuille.html",
+  "relPath": "bac info/sti/projet2,computer tech/acceuille.html",
+  "sha256": "d4f5fb71100e3f41257a16fe156de2575b8b42b6130a754499dd952edcf36b3c",
+  "extractedAt": "2026-11-06T14:24:20.198Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Acceuille</title> <link rel=\"stylesheet\" href=\"style.css\"> </head> <body id=\"body_acc\"> <ol> <li>Notre entreprise</li> <p> Computer Tech est le spécialiste de la vente en ligne en Tunisie. Nous disposons du plus grand choix et des meilleurs prix en Tunisie. Computer Tech travail",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Acceuille</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body id=\"body_acc\">\r\n    <ol>\r\n        <li>Notre entreprise</li>\r\n        <p>\r\n          Computer Tech est le spécialiste de la vente en ligne en Tunisie. Nous\r\n          disposons du plus grand choix et des meilleurs prix en Tunisie. Computer\r\n          Tech travaille avec les plus grandes marques qui lui font entièrement\r\n          confiance.\r\n        </p>\r\n        <li>Comment acheter ?</li>\r\n        <ul>\r\n          <li>Paiement en espèces</li>\r\n          <li>Paiement par chèque (Possibilité en trois fois)</li>\r\n          <li>Paiement par crédit bancaire</li>\r\n        </ul>\r\n      </ol>\r\n      <br />\r\n      <video controls autoplay muted>\r\n        <source src=\"files/pub.webm\" type=\"video/webm\" />\r\n        <source src=\"files/pub.mp4\" type=\"video/mp4\" />\r\n      </video>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-D4F5FB71100E3F41-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Acceuille</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body id=\"body_acc\">\r\n    <ol>\r\n        <li>Notre entreprise</li>\r\n        <p>\r\n          Computer Tech est le spécialiste de la vente en ligne en Tunisie. Nous\r\n          disposons du plus grand choix et des meilleurs prix en Tunisie. Computer\r\n          Tech travaille avec les plus grandes marques qui lui font entièrement\r\n          confiance.\r\n        </p>\r\n        <li>Comment acheter ?</li>\r\n        <ul>\r\n          <li>Paiement en espèces</li>\r\n          <li>Paiement par chèque (Possibilité en trois fois)</li>\r\n          <li>Paiement par crédit bancaire</li>\r\n        </ul>\r\n      </ol>\r\n      <br />\r\n      <video controls autoplay muted>\r\n        <source src=\"files/pub.webm\" type=\"video/webm\" />\r\n        <source src=\"files/pub.mp4\" type=\"video/mp4\" />\r\n      </video>\r\n</body>\r\n</html>"
+    }
+  ]
+}

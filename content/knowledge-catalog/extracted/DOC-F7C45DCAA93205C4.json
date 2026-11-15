@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-F7C45DCAA93205C4",
+  "filename": "control.js",
+  "relPath": "bac info/sti/etude/bac preatique STI 2018/control.js",
+  "sha256": "f7c45dcaa93205c4602bfaf950845b2e07114807961f09e19ee4e1342819d966",
+  "extractedAt": "2026-11-06T14:24:17.270Z",
+  "pageCount": 1,
+  "textSnippet": "function verif(){ let hot=document.getElementById(\"hot\").selectedIndex; let ac1=document.getElementById(\"ac1\").checked; let ac2=document.getElementById(\"ac2\").checked; let ac3=document.getElementById(\"ac3\").checked; let res1=document.getElementById(\"res1\").checked; let res2=document.getElementById(\"res2\").checked; let res3=document.getElementById(\"res3\").checked; let captcha=document.getElementById(\"cap\").value; let rep=document.getElementById(\"",
+  "fullText": "function verif(){\r\n    let hot=document.getElementById(\"hot\").selectedIndex;\r\n\r\n    let ac1=document.getElementById(\"ac1\").checked;\r\n    let ac2=document.getElementById(\"ac2\").checked;\r\n    let ac3=document.getElementById(\"ac3\").checked;\r\n\r\n    let res1=document.getElementById(\"res1\").checked;\r\n    let res2=document.getElementById(\"res2\").checked;\r\n    let res3=document.getElementById(\"res3\").checked;\r\n\r\n    let captcha=document.getElementById(\"cap\").value;\r\n    let rep=document.getElementById(\"rep\").value;\r\n\r\n\r\n    if(hot===0){\r\n        alert(\"choisir un hotel SVP !\")\r\n        return false\r\n    }\r\n    if(!ac1 & !ac2 & !ac3){\r\n        alert(\"choisir un acceuil SVP !\")\r\n        return false\r\n    }\r\n    if(!res1 & !res2 & !res3){\r\n        alert(\"choisir un restauration SVP !\")\r\n        return false\r\n    }\r\n    if( verifMaj(captcha) && rep!=\"1\")  {\r\n        alert(\"reponse incorrect!\")\r\n        return false\r\n    }\r\n    if(!verifMaj(captcha) && rep!=\"0\") {\r\n        alert(\"reponse incorrect!\")\r\n        return false\r\n    }\r\n    \r\n    \r\n}\r\n\r\nfunction GenererCaptcha() {\r\n    let k = Math.floor(Math.random() * 26)+1;\r\n    console.log(k);\r\n\r\n    let ch;\r\n    if (k % 2 === 0) {\r\n        ch = String.fromCharCode('A'.charCodeAt(0) + k-1);\r\n    } else {\r\n        ch = String.fromCharCode('a'.charCodeAt(0) + k-1);\r\n    }\r\n\r\n    console.log(ch);\r\n    document.getElementById(\"cap\").value = ch;\r\n}\r\n\r\nfunction verifMaj(ch) {\r\n    let i = 0;\r\n    while (i < ch.length && ch[i] >= \"A\" && ch[i] <= \"Z\") {\r\n        i++;\r\n    }\r\n    return i === ch.length;\r\n}",
+  "chunks": [
+    {
+      "chunkId": "DOC-F7C45DCAA93205C4-CHK-001",
+      "text": "function verif(){\r\n    let hot=document.getElementById(\"hot\").selectedIndex;\r\n\n    let ac1=document.getElementById(\"ac1\").checked;\r\n    let ac2=document.getElementById(\"ac2\").checked;\r\n    let ac3=document.getElementById(\"ac3\").checked;\r\n\n    let res1=document.getElementById(\"res1\").checked;\r\n    let res2=document.getElementById(\"res2\").checked;\r\n    let res3=document.getElementById(\"res3\").checked;\r\n\n    let captcha=document.getElementById(\"cap\").value;\r\n    let rep=document.getElementById(\"rep\").value;"
+    },
+    {
+      "chunkId": "DOC-F7C45DCAA93205C4-CHK-002",
+      "text": "if(hot===0){\r\n        alert(\"choisir un hotel SVP !\")\r\n        return false\r\n    }\r\n    if(!ac1 & !ac2 & !ac3){\r\n        alert(\"choisir un acceuil SVP !\")\r\n        return false\r\n    }\r\n    if(!res1 & !res2 & !res3){\r\n        alert(\"choisir un restauration SVP !\")\r\n        return false\r\n    }\r\n    if( verifMaj(captcha) && rep!=\"1\")  {\r\n        alert(\"reponse incorrect!\")\r\n        return false\r\n    }\r\n    if(!verifMaj(captcha) && rep!=\"0\") {\r\n        alert(\"reponse incorrect!\")\r\n        return false\r\n    }\r\n\n}\r\n\nfunction GenererCaptcha() {\r\n    let k = Math.floor(Math.random() * 26)+1;\r\n    console.log(k);\r\n\n    let ch;\r\n    if (k % 2 === 0) {\r\n        ch = String.fromCharCode('A'.charCodeAt(0) + k-1);\r\n    } else {\r\n        ch = String.fromCharCode('a'.charCodeAt(0) + k-1);\r\n    }"
+    },
+    {
+      "chunkId": "DOC-F7C45DCAA93205C4-CHK-003",
+      "text": "console.log(ch);\r\n    document.getElementById(\"cap\").value = ch;\r\n}\r\n\nfunction verifMaj(ch) {\r\n    let i = 0;\r\n    while (i < ch.length && ch[i] >= \"A\" && ch[i] <= \"Z\") {\r\n        i++;\r\n    }\r\n    return i === ch.length;\r\n}"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-7A200B881FE0DABA",
+  "filename": "tp1php.php",
+  "sha256": "7a200b881fe0daba3c3d7de4009e8a08adf59505f023c4950abd2c1ab412fb13",
+  "extractedAt": "2026-11-06T14:00:41.476Z",
+  "pageCount": 1,
+  "textSnippet": "<?php echo \"Bonjour \"; echo \"<br>\"; ?> <br> <?php $nom=\"TEZEGHDENTI\"; $prenom='Ali'; echo $prenom.\" \".$nom; ?> <!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> </head> <body> <table border=\"1\"> <tr> <td><?php echo $prenom; ?></td> <td>TEZEGHDENTI</td> <td></td> <td></td> </tr> <tr> <td></td>",
+  "fullText": "<?php\r\necho \"Bonjour \";\r\necho \"<br>\";\r\n?>\r\n<br>\r\n<?php\r\n$nom=\"TEZEGHDENTI\";\r\n$prenom='Ali';\r\necho $prenom.\" \".$nom;\r\n?>\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n  <table border=\"1\">\r\n    <tr>\r\n        <td><?php echo $prenom; ?></td>\r\n        <td>TEZEGHDENTI</td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n    <tr>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n    <tr>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n        <td></td>\r\n    </tr>\r\n  </table>  \r\n</body>\r\n</html>\r\n<?php\r\necho \"test\";\r\n?>"
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-87AFF96E5E8BF9CE",
+  "filename": "ex4s5.py",
+  "relPath": "bac info/Python/cours reccurent/ex4s5.py",
+  "sha256": "87aff96e5e8bf9ce989093d5abfa55f8dfaac97b8dc62b1796fd7ef26ab3a581",
+  "extractedAt": "2026-11-06T14:23:24.672Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def saisie(): n = int(input(\"n= \")) while n % 2 != 0: n = int(input(\"n= \")) return n def remplire_mat(n, m): x = 1 for i in range(n // 2): cf = n - 1 - i for j in range(i, cf + 1): m[i, j] = x x = x + 1 for k in range(i + 1, cf + 1): m[k, cf] = x x = x + 1 for l in range(cf - 1, i - 1, -1): m[cf, l] = x x = x + 1",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef saisie():\r\n    n = int(input(\"n= \"))\r\n    while n % 2 != 0:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\r\n\r\ndef remplire_mat(n, m):\r\n    x = 1\r\n    for i in range(n // 2):\r\n        cf = n - 1 - i\r\n        for j in range(i, cf + 1):\r\n            m[i, j] = x\r\n            x = x + 1\r\n        for k in range(i + 1, cf + 1):\r\n            m[k, cf] = x\r\n            x = x + 1\r\n        for l in range(cf - 1, i - 1, -1):\r\n            m[cf, l] = x\r\n            x = x + 1\r\n        for e in range(cf - 1, i, -1):\r\n            m[e, i] = x\r\n            x = x + 1\r\n\r\n\r\ndef affichage(m, n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            print(m[l, c], end=\" \")\r\n        print(\" \")\r\n\r\n\r\n# pp\r\nn = saisie()\r\nm = array([[int()] * n] * n)\r\nremplire_mat(n, m)\r\naffichage(m, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-87AFF96E5E8BF9CE-CHK-001",
+      "text": "from numpy import array\r\n\ndef saisie():\r\n    n = int(input(\"n= \"))\r\n    while n % 2 != 0:\r\n        n = int(input(\"n= \"))\r\n    return n\r\n\ndef remplire_mat(n, m):\r\n    x = 1\r\n    for i in range(n // 2):\r\n        cf = n - 1 - i\r\n        for j in range(i, cf + 1):\r\n            m[i, j] = x\r\n            x = x + 1\r\n        for k in range(i + 1, cf + 1):\r\n            m[k, cf] = x\r\n            x = x + 1\r\n        for l in range(cf - 1, i - 1, -1):\r\n            m[cf, l] = x\r\n            x = x + 1\r\n        for e in range(cf - 1, i, -1):\r\n            m[e, i] = x\r\n            x = x + 1\r\n\ndef affichage(m, n):\r\n    for l in range(n):\r\n        for c in range(n):\r\n            print(m[l, c], end=\" \")\r\n        print(\" \")\r\n\n# pp\r\nn = saisie()\r\nm = array([[int()] * n] * n)\r\nremplire_mat(n, m)\r\naffichage(m, n)"
+    }
+  ]
+}

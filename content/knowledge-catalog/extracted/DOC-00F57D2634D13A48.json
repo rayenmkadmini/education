@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-00F57D2634D13A48",
+  "filename": "Résumé.pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/primitives/Résumé.pdf",
+  "sha256": "00f57d2634d13a4891bbcc143d6507b6657dfc4d4ba280b13f9eaab2173545b0",
+  "extractedAt": "2026-11-06T14:24:51.517Z",
+  "pageCount": 3,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Primitives — Cours :رسﺪﻟا -- 1 of 3 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓResumee PRIMITIVES DES FONCTIONS USUELLES Fonction Une primitive de : C H A P I T R E N ° 5 Primitives f(x) = f F (x) = a ax + c ax 1 2 ax2 + c ax + b 1 2 ax2 + bx + c xn 1 n + 1 xn+1 + c axn a 1 n + 1 xn+1 + c 1 x Ln(x) + c 1 x2 −1 x √x 2 3 x√x + c ex ex + c Sinx − Cosx + c cos x Sinx + c sin(ax + b) − 1 a cos(ax + b) + c Cos(ax + b) 1 a sin(ax + b) + c Lnx",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nPrimitives — Cours :رسﺪﻟا\n\n-- 1 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓResumee\nPRIMITIVES DES FONCTIONS USUELLES\nFonction \tUne primitive de :\nC H A P I T R E N ° 5\nPrimitives\nf(x) = \tf F (x) =\na \tax + c\nax \t1\n2 ax2 + c\nax + b \t1\n2 ax2 + bx + c\nxn \t1\nn + 1 xn+1 + c\naxn a 1\nn + 1 xn+1 + c\n1\nx\nLn(x) + c\n1\nx2\n−1\nx\n√x \t2\n3 x√x + c\nex \tex + c\nSinx \t− Cosx + c\ncos x \tSinx + c\nsin(ax + b) \t− 1\na cos(ax + b) + c\nCos(ax + b) \t1\na sin(ax + b) + c\nLnx + 1 \txLnx + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →\n\n-- 2 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nResumee\na f ′(x) \ta f(x) + c\nf ′(x) + g′(x) \tf(x) + g(x) + c\nf ′(x)g(x) + f(x)g′(x) \tf(x)g(x) + c\nf ′g − fg′\ng2\nf\ng + c\ng′\ng2\n−1\ng + c\ng′\ng\nLn(g) + c\nf ′ef \tef + c\nf ′\n√f\n2√f + c\nf ′(x)√f(x) \t2\n3 f(x)√f(x) + c\nf ′(x)f n(x) \t1\nn + 1 f n+1(x) + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2\n\n-- 3 of 3 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nPrimitives — Cours :رسﺪﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓResumee\nPRIMITIVES DES FONCTIONS USUELLES\nFonction \tUne primitive de :\nC H A P I T R E N ° 5\nPrimitives\nf(x) = \tf F (x) =\na \tax + c\nax \t1\n2 ax2 + c\nax + b \t1\n2 ax2 + bx + c\nxn \t1\nn + 1 xn+1 + c\naxn a 1\nn + 1 xn+1 + c\n1\nx\nLn(x) + c\n1\nx2\n−1\nx\n√x \t2\n3 x√x + c\nex \tex + c\nSinx \t− Cosx + c\ncos x \tSinx + c\nsin(ax + b) \t− 1\na cos(ax + b) + c\nCos(ax + b) \t1\na sin(ax + b) + c\nLnx + 1 \txLnx + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nResumee\na f ′(x) \ta f(x) + c\nf ′(x) + g′(x) \tf(x) + g(x) + c\nf ′(x)g(x) + f(x)g′(x) \tf(x)g(x) + c\nf ′g − fg′\ng2\nf\ng + c\ng′\ng2\n−1\ng + c\ng′\ng\nLn(g) + c\nf ′ef \tef + c\nf ′\n√f\n2√f + c\nf ′(x)√f(x) \t2\n3 f(x)√f(x) + c\nf ′(x)f n(x) \t1\nn + 1 f n+1(x) + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-00F57D2634D13A48-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nPrimitives — Cours :رسﺪﻟا"
+    },
+    {
+      "chunkId": "DOC-00F57D2634D13A48-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓResumee\nPRIMITIVES DES FONCTIONS USUELLES\nFonction \tUne primitive de :\nC H A P I T R E N ° 5\nPrimitives\nf(x) = \tf F (x) =\na \tax + c\nax \t1\n2 ax2 + c\nax + b \t1\n2 ax2 + bx + c\nxn \t1\nn + 1 xn+1 + c\naxn a 1\nn + 1 xn+1 + c\n1\nx\nLn(x) + c\n1\nx2\n−1\nx\n√x \t2\n3 x√x + c\nex \tex + c\nSinx \t− Cosx + c\ncos x \tSinx + c\nsin(ax + b) \t− 1\na cos(ax + b) + c\nCos(ax + b) \t1\na sin(ax + b) + c\nLnx + 1 \txLnx + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-00F57D2634D13A48-CHK-003",
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nResumee\na f ′(x) \ta f(x) + c\nf ′(x) + g′(x) \tf(x) + g(x) + c\nf ′(x)g(x) + f(x)g′(x) \tf(x)g(x) + c\nf ′g − fg′\ng2\nf\ng + c\ng′\ng2\n−1\ng + c\ng′\ng\nLn(g) + c\nf ′ef \tef + c\nf ′\n√f\n2√f + c\nf ′(x)√f(x) \t2\n3 f(x)√f(x) + c\nf ′(x)f n(x) \t1\nn + 1 f n+1(x) + c\nMathématiques\nChapitre N°5 · Primitives · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ]
+}

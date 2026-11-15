@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-24CD88A54883F90C",
+  "filename": "Chaine cunningham.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/DEVOIRS/Devoir de control 1/Chaine cunningham.py",
+  "sha256": "24cd88a54883f90c1e3bdf77877097daaa5d4a03ac364b9dc2c2812b8fd7d9fe",
+  "extractedAt": "2026-11-06T14:24:35.359Z",
+  "pageCount": 1,
+  "textSnippet": "def premier(x): b=x>=2 d=1 while(b and (d< x // 2)): d=d+1 b=x % d !=0 return b def saisie(): b=False while(not(b)): x=int(input('introduire un nombre premier')) b=premier(x) return x def cunningham(x): a=x b=True ch=str(x) p=False while(b): y=2*x+1 b=premier(y) if b: ch=ch+' '+str(y) p=True x=y if not(p): ch='il n''",
+  "fullText": "def premier(x):\r\n    b=x>=2\r\n    d=1\r\n    while(b and (d< x // 2)):\r\n        d=d+1\r\n        b=x % d !=0\r\n    return b\r\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un nombre  premier'))\r\n        b=premier(x)\r\n    return x\r\ndef cunningham(x):\r\n    a=x\r\n    b=True\r\n    ch=str(x)\r\n    p=False\r\n    while(b):\r\n        y=2*x+1\r\n        b=premier(y)\r\n        if b:\r\n            ch=ch+'    '+str(y)\r\n            p=True\r\n            x=y\r\n    if not(p):\r\n        ch='il n''existe pas de chaine cunningham commençant par'+str(x)\r\n    else:\r\n        ch='la chaine de cunningham commençant par  '+str(a)+'  est  '+ch\r\n        \r\n    print(ch)\r\n##############pp############################################\r\nx=saisie()\r\ncunningham(x)\r\n\r\n        \r\n    \r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-24CD88A54883F90C-CHK-001",
+      "text": "def premier(x):\r\n    b=x>=2\r\n    d=1\r\n    while(b and (d< x // 2)):\r\n        d=d+1\r\n        b=x % d !=0\r\n    return b\r\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un nombre  premier'))\r\n        b=premier(x)\r\n    return x\r\ndef cunningham(x):\r\n    a=x\r\n    b=True\r\n    ch=str(x)\r\n    p=False\r\n    while(b):\r\n        y=2*x+1\r\n        b=premier(y)\r\n        if b:\r\n            ch=ch+'    '+str(y)\r\n            p=True\r\n            x=y\r\n    if not(p):\r\n        ch='il n''existe pas de chaine cunningham commençant par'+str(x)\r\n    else:\r\n        ch='la chaine de cunningham commençant par  '+str(a)+'  est  '+ch\r\n\n    print(ch)\r\n##############pp############################################\r\nx=saisie()\r\ncunningham(x)"
+    }
+  ]
+}

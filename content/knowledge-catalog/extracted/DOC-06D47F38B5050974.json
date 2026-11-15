@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-06D47F38B5050974",
+  "filename": "inscription(1).php",
+  "sha256": "06d47f38b50509749192289333c08e951d4c688ed5f7265e12b6fe77b003f3d6",
+  "extractedAt": "2026-11-06T14:00:29.072Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $login = $_POST[\"login\"]; $password = $_POST[\"password\"]; $nom = $_POST[\"nom\"]; $prenom = $_POST[\"prenom\"]; $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\"); $sql = \"insert into users values('$login','$password','$nom','$prenom');\"; if (mysqli_query($cnx, $sql)) { echo \"inscription valid\"; } else { echo \"utilisateur existant\"; } mysqli_close($cnx); ?>",
+  "fullText": "<?php\n$login = $_POST[\"login\"];\n$password = $_POST[\"password\"];\n$nom = $_POST[\"nom\"];\n$prenom = $_POST[\"prenom\"];\n\n$cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_20252026\");\n\n$sql = \"insert into users values('$login','$password','$nom','$prenom');\";\n\nif (mysqli_query($cnx, $sql)) {\n    echo \"inscription valid\";\n} else {\n    echo \"utilisateur existant\";\n}\n\nmysqli_close($cnx);\n?>\n"
+}

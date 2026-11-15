@@ -1,0 +1,28 @@
+{
+  "documentId": "DOC-D8E78ABC3B8052E6",
+  "filename": "biblio.js",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/biblio.js",
+  "sha256": "d8e78abc3b8052e61bf1b68f1b9e042f34ad2d56c790e69b5cd00388d650afa1",
+  "extractedAt": "2026-11-06T14:24:16.900Z",
+  "pageCount": 1,
+  "textSnippet": "function verif1() { let nom = document.getElementById(\"nom\").value; let prenom = document.getElementById(\"prenom\").value; let tel = document.getElementById(\"tel\").value; let adr = document.getElementById(\"adr\").value; let psw = document.getElementById(\"psw\").value; let psw2 = document.getElementById(\"psw2\").value; if (nom.length < 3 || !alpha(nom)) { alert(\"nom invalide\"); return false; } if (prenom.length < 3 || !alpha(prenom)) {",
+  "fullText": "function verif1() {\r\n    let nom = document.getElementById(\"nom\").value;\r\n    let prenom = document.getElementById(\"prenom\").value;\r\n    let tel = document.getElementById(\"tel\").value;\r\n    let adr = document.getElementById(\"adr\").value;\r\n    let psw = document.getElementById(\"psw\").value;\r\n    let psw2 = document.getElementById(\"psw2\").value;\r\n\r\n    if (nom.length < 3 || !alpha(nom)) {\r\n        alert(\"nom invalide\");\r\n        return false;\r\n    }\r\n    if (prenom.length < 3 || !alpha(prenom)) {\r\n        alert(\"prenom invalide\");\r\n        return false;\r\n    }\r\n    if(tel.length != 8 || isNaN(tel) || tel[0] == \"1\" || tel.charAt(0) == \"0\") {\r\n        alert(\"tel invalide\");\r\n        return false;\r\n    }\r\n    if (adr.length < 10) {\r\n        alert(\"adresse invalide\");\r\n        return false;\r\n    }\r\n    if (psw.length != 6 || psw.indexOf(\" \") != -1) {\r\n        alert(\"password invalide\");\r\n        return false;\r\n    }\r\n    if (psw2 != psw) {\r\n        alert(\"confirmation invalide\");\r\n        return false;\r\n    }\r\n    return true\r\n}\r\n\r\nfunction Verif2(){\r\n    let type=document.getElementById(\"type\").selectedIndex;\r\n    let qte=document.getElementById(\"qte\").value;\r\n    let tel = document.getElementById(\"tel2\").value;\r\n    let psw = document.getElementById(\"psw1\").value;\r\n\r\n    if(type==0){\r\n        alert(\"choisir obligatoire\");\r\n        return false;\r\n    }\r\n\r\n    if( isNaN(qte)|| qte<1 || qte>5){\r\n        alert(\"qte invalide\");\r\n        return false;\r\n    }\r\n    if(tel.length != 8 || isNaN(tel) || tel[0] == \"1\" || tel.charAt(0) == \"0\") {\r\n        alert(\"tel invalide\");\r\n        return false;\r\n    }\r\n    if (psw.length != 6 || psw.indexOf(\" \") != -1) {\r\n        alert(\"password invalide\");\r\n        return false;\r\n    }\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\nfunction alpha(ch) {\r\n    ch = ch.toUpperCase();\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if ((ch[i] < \"A\" || ch[i] > \"Z\") & (ch[i] != \" \")) {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }",
+  "chunks": [
+    {
+      "chunkId": "DOC-D8E78ABC3B8052E6-CHK-001",
+      "text": "function verif1() {\r\n    let nom = document.getElementById(\"nom\").value;\r\n    let prenom = document.getElementById(\"prenom\").value;\r\n    let tel = document.getElementById(\"tel\").value;\r\n    let adr = document.getElementById(\"adr\").value;\r\n    let psw = document.getElementById(\"psw\").value;\r\n    let psw2 = document.getElementById(\"psw2\").value;"
+    },
+    {
+      "chunkId": "DOC-D8E78ABC3B8052E6-CHK-002",
+      "text": "if (nom.length < 3 || !alpha(nom)) {\r\n        alert(\"nom invalide\");\r\n        return false;\r\n    }\r\n    if (prenom.length < 3 || !alpha(prenom)) {\r\n        alert(\"prenom invalide\");\r\n        return false;\r\n    }\r\n    if(tel.length != 8 || isNaN(tel) || tel[0] == \"1\" || tel.charAt(0) == \"0\") {\r\n        alert(\"tel invalide\");\r\n        return false;\r\n    }\r\n    if (adr.length < 10) {\r\n        alert(\"adresse invalide\");\r\n        return false;\r\n    }\r\n    if (psw.length != 6 || psw.indexOf(\" \") != -1) {\r\n        alert(\"password invalide\");\r\n        return false;\r\n    }\r\n    if (psw2 != psw) {\r\n        alert(\"confirmation invalide\");\r\n        return false;\r\n    }\r\n    return true\r\n}"
+    },
+    {
+      "chunkId": "DOC-D8E78ABC3B8052E6-CHK-003",
+      "text": "function Verif2(){\r\n    let type=document.getElementById(\"type\").selectedIndex;\r\n    let qte=document.getElementById(\"qte\").value;\r\n    let tel = document.getElementById(\"tel2\").value;\r\n    let psw = document.getElementById(\"psw1\").value;\r\n\n    if(type==0){\r\n        alert(\"choisir obligatoire\");\r\n        return false;\r\n    }\r\n\n    if( isNaN(qte)|| qte<1 || qte>5){\r\n        alert(\"qte invalide\");\r\n        return false;\r\n    }\r\n    if(tel.length != 8 || isNaN(tel) || tel[0] == \"1\" || tel.charAt(0) == \"0\") {\r\n        alert(\"tel invalide\");\r\n        return false;\r\n    }\r\n    if (psw.length != 6 || psw.indexOf(\" \") != -1) {\r\n        alert(\"password invalide\");\r\n        return false;\r\n    }\r\n\n}"
+    },
+    {
+      "chunkId": "DOC-D8E78ABC3B8052E6-CHK-004",
+      "text": "function alpha(ch) {\r\n    ch = ch.toUpperCase();\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if ((ch[i] < \"A\" || ch[i] > \"Z\") & (ch[i] != \" \")) {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }"
+    }
+  ]
+}

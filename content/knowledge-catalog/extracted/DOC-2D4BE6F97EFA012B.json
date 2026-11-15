@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2D4BE6F97EFA012B",
+  "filename": "conv taki men 10 l ay base.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/test conversion/conv taki men 10 l ay base.py",
+  "sha256": "2d4be6f97efa012b2cea99d67496f8597a40ef4b4e32a2f537889a50ddff1b25",
+  "extractedAt": "2026-11-14T18:35:36.392Z",
+  "pageCount": 1,
+  "textSnippet": "def conv_b(aa,bb): ch=\"\" while aa!=0: r=aa%bb if r<10: c=str(r) else: c=chr(r+55) ch=c+ch aa=aa//bb return ch print(conv_b(123,5))",
+  "fullText": "def conv_b(aa,bb):\r\n    ch=\"\"\r\n    while aa!=0:\r\n        r=aa%bb\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        aa=aa//bb\r\n    return ch\r\n\r\nprint(conv_b(123,5))",
+  "chunks": [
+    {
+      "chunkId": "DOC-2D4BE6F97EFA012B-CHK-001",
+      "text": "def conv_b(aa,bb):\r\n    ch=\"\"\r\n    while aa!=0:\r\n        r=aa%bb\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        aa=aa//bb\r\n    return ch\r\n\nprint(conv_b(123,5))"
+    }
+  ]
+}

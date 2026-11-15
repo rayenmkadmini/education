@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-35C478F7F9D73632",
+  "filename": "login.php",
+  "sha256": "35c478f7f9d7363266534cf650a7a698ed52371c0b519d8fe1189c76726da7f6",
+  "extractedAt": "2026-11-06T14:00:35.590Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $conn = mysqli_connect(\"127.0.0.1\",\"root\",\"\",\"bd_2025_2026\"); $login = $_POST['login']; $password = $_POST['password']; $res = mysqli_query($conn,\"SELECT * FROM users WHERE login='$login'\"); if(mysqli_num_rows($res)==0){ echo \"Utilisateur inexistant\"; } else { $user = mysqli_fetch_assoc($res); echo ($user['password']==$password) ? \"Bonjour \".$user['nom'].\" \".$user['Prenom'] : \"Mot de passe incorrect\"; } mysqli_close($conn); ?>",
+  "fullText": "<?php\n$conn = mysqli_connect(\"127.0.0.1\",\"root\",\"\",\"bd_2025_2026\");\n\n$login = $_POST['login'];\n$password = $_POST['password'];\n\n$res = mysqli_query($conn,\"SELECT * FROM users WHERE login='$login'\");\n\nif(mysqli_num_rows($res)==0){\n    echo \"Utilisateur inexistant\";\n} else {\n    $user = mysqli_fetch_assoc($res);\n    echo ($user['password']==$password) ? \"Bonjour \".$user['nom'].\" \".$user['Prenom'] : \"Mot de passe incorrect\";\n}\n\nmysqli_close($conn);\n?>\n"
+}

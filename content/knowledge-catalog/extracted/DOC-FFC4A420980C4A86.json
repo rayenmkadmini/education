@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FFC4A420980C4A86",
+  "filename": "ex5s5.py",
+  "relPath": "bac info/Python/cours reccurent/ex5s5.py",
+  "sha256": "ffc4a420980c4a8659bfb61692a4ad0bfb412c2d4b1ad117266b4b8690ed0934",
+  "extractedAt": "2026-11-06T14:23:24.681Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def remplir_m(m, n): for l in range(n): m[l, c] = l + 1 m[l, l * 2] = l + 1 for c in range(1, l * 2): if c <= l: m[l, c] = m[l, c - 1] + 1 else: m[l, c] = m[l, c - 1] - 1 print(m) # pp n = 6 m = array(([int()] * n) * n) remplir_m(m, n)",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef remplir_m(m, n):\r\n    for l in range(n):\r\n        m[l, c] = l + 1\r\n        m[l, l * 2] = l + 1\r\n        for c in range(1, l * 2):\r\n            if c <= l:\r\n                m[l, c] = m[l, c - 1] + 1\r\n            else:\r\n                m[l, c] = m[l, c - 1] - 1\r\n    print(m)\r\n\r\n\r\n# pp\r\nn = 6\r\nm = array(([int()] * n) * n)\r\nremplir_m(m, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-FFC4A420980C4A86-CHK-001",
+      "text": "from numpy import array\r\n\ndef remplir_m(m, n):\r\n    for l in range(n):\r\n        m[l, c] = l + 1\r\n        m[l, l * 2] = l + 1\r\n        for c in range(1, l * 2):\r\n            if c <= l:\r\n                m[l, c] = m[l, c - 1] + 1\r\n            else:\r\n                m[l, c] = m[l, c - 1] - 1\r\n    print(m)\r\n\n# pp\r\nn = 6\r\nm = array(([int()] * n) * n)\r\nremplir_m(m, n)"
+    }
+  ]
+}

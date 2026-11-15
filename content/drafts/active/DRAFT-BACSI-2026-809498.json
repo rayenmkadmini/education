@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-BACSI-2026-809498",
+  "taskId": "BACSI-2026-809498",
+  "version": 2,
+  "createdAt": "2026-11-06T05:19:57.568Z",
+  "updatedAt": "2026-11-06T05:19:57.621Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "La Récursivité",
+  "academicYear": "2026-2027",
+  "contentType": "SERIE_EXERCICES",
+  "totalPoints": 20,
+  "isOfficialBac": true,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation_Sciences_de_l_informatique_2026_Sujet.pdf",
+        "page": 2,
+        "section": "Exercice 2"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "République Tunisienne — Ministère de l'Éducation",
+    "sessionLabel": "Examen du Baccalauréat — Session 2026",
+    "duration": "1h30",
+    "coefficient": 3
+  },
+  "exercises": []
+}

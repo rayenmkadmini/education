@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-5F708222B1C196D5",
+  "filename": "bac_pratique_2012_8.30_29-5.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_8.30_29-5.py",
+  "sha256": "5f708222b1c196d549d6c2b7b5762c4ddc96037fbe84820e7f9362a7df318202",
+  "extractedAt": "2026-11-06T14:24:35.891Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: ph = str(input(\"Donner unephrase: \")) b = verif(ph) return ph def verif(ch): i = -1 ok = ch[len(ch) - 1] == \".\" while ok and i < len(ch) - 2: i += 1 ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \" return ok def saisie_entier(): b = False while not b: n = int(input(\"< \")) b = 2 <= n <= 10 return n def cryptage(ph, p, q): R = \"\" for i in ran",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = str(input(\"Donner unephrase: \"))\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = ch[len(ch) - 1] == \".\"\r\n    while ok and i < len(ch) - 2:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\r\n\r\ndef saisie_entier():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"< \"))\r\n        b = 2 <= n <= 10\r\n    return n\r\n\r\n\r\ndef cryptage(ph, p, q):\r\n    R = \"\"\r\n    for i in range(len(ph) - 1):\r\n        if ph[i] != \" \":  #and ph[i] != \".\":\r\n\r\n            R = R + chr((p * (ord(ph[i]) - 64) + q) % 26 + 1 + 64)\r\n        else:\r\n            R += ph[i]\r\n    print(R)\r\n\r\n\r\n#############\"\"pp################\"\"\"\"\r\nph = Saisie()\r\nprint(\"______saisie de p______\")\r\np = saisie_entier()\r\nprint(\"______saisie de q______\")\r\nq = saisie_entier()\r\ncryptage(ph, p, q)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5F708222B1C196D5-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = str(input(\"Donner unephrase: \"))\r\n        b = verif(ph)\r\n    return ph\r\n\ndef verif(ch):\r\n    i = -1\r\n    ok = ch[len(ch) - 1] == \".\"\r\n    while ok and i < len(ch) - 2:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\ndef saisie_entier():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"< \"))\r\n        b = 2 <= n <= 10\r\n    return n\r\n\ndef cryptage(ph, p, q):\r\n    R = \"\"\r\n    for i in range(len(ph) - 1):\r\n        if ph[i] != \" \":  #and ph[i] != \".\":\r\n\n            R = R + chr((p * (ord(ph[i]) - 64) + q) % 26 + 1 + 64)\r\n        else:\r\n            R += ph[i]\r\n    print(R)"
+    },
+    {
+      "chunkId": "DOC-5F708222B1C196D5-CHK-002",
+      "text": "#############\"\"pp################\"\"\"\"\r\nph = Saisie()\r\nprint(\"______saisie de p______\")\r\np = saisie_entier()\r\nprint(\"______saisie de q______\")\r\nq = saisie_entier()\r\ncryptage(ph, p, q)"
+    }
+  ]
+}

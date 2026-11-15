@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FCD38872BEA15770",
+  "filename": "Conversion 2_10.py",
+  "relPath": "bac info/algo/Python/Conversion 2_10.py",
+  "sha256": "fcd38872bea15770272a6f16decbf9a272b92397d191d36f6de04393133cf38a",
+  "extractedAt": "2026-11-14T18:35:35.477Z",
+  "pageCount": 1,
+  "textSnippet": "def puis(x,y): if y==0: return 1 else: return x * puis(x,y-1) def conv2_10(b): c=len(b) s=0 for i in range(c): k=c-i-1 s=s+int(b[k]*puis(2,i)) return s #Programme Principale print(conv2_10('1101 '))",
+  "fullText": "def puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x * puis(x,y-1)\r\n\r\ndef conv2_10(b):\r\n    c=len(b)\r\n    s=0\r\n    for i in range(c):\r\n        k=c-i-1\r\n        s=s+int(b[k]*puis(2,i))\r\n    return s\r\n\r\n#Programme Principale\r\nprint(conv2_10('1101 '))",
+  "chunks": [
+    {
+      "chunkId": "DOC-FCD38872BEA15770-CHK-001",
+      "text": "def puis(x,y):\r\n    if y==0:\r\n        return 1\r\n    else:\r\n        return x * puis(x,y-1)\r\n\ndef conv2_10(b):\r\n    c=len(b)\r\n    s=0\r\n    for i in range(c):\r\n        k=c-i-1\r\n        s=s+int(b[k]*puis(2,i))\r\n    return s\r\n\n#Programme Principale\r\nprint(conv2_10('1101 '))"
+    }
+  ]
+}

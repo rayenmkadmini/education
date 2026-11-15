@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-037B5C6D82915950",
+  "filename": "remplir_tableau.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/remplir_tableau.py",
+  "sha256": "037b5c6d8291595054f37c6e1d624b09d25bb6efbd16cf29351482a1800f5869",
+  "extractedAt": "2026-11-06T14:24:41.049Z",
+  "pageCount": 1,
+  "textSnippet": "#Remplir un tableau t par n entiers vérifiants une certaine condition avec un message from numpy import * t = array([int]*100) def Saisie (): b = False msg = \"Donner le nombre des cases : \" while not b : n=int(input(msg)) msg = \"Donner le nombre des cases entre 5 et 20: \" b = 5 <= n <= 20 return n def Remplir(n): for i in range (n): msg = \"t[\"+str(i)+\"] = \" b = False while not b : t[i]=int(inp",
+  "fullText": "#Remplir un tableau t par n entiers vérifiants une certaine condition avec un message\r\n\r\nfrom numpy import *\r\n\r\nt = array([int]*100)\r\n\r\ndef Saisie ():\r\n    b = False\r\n    msg = \"Donner le nombre des cases : \"\r\n    while not b :\r\n        n=int(input(msg))\r\n        msg = \"Donner le nombre des cases entre 5 et 20: \"\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        msg = \"t[\"+str(i)+\"] = \"\r\n        b = False\r\n        while not b :\r\n            t[i]=int(input(msg))\r\n            msg = \"Donner t[\"+str(i)+\"] entre 0 et 100: \"\r\n            b = 0 <= t[i] <= 100\r\n\r\ndef Afficher(t,N):\r\n    for i in range (N):\r\n        print(t[i],end=\"/\")\r\n        \r\n####################PP####################\r\n        \r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(t,N)\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-037B5C6D82915950-CHK-001",
+      "text": "#Remplir un tableau t par n entiers vérifiants une certaine condition avec un message\r\n\nfrom numpy import *\r\n\nt = array([int]*100)\r\n\ndef Saisie ():\r\n    b = False\r\n    msg = \"Donner le nombre des cases : \"\r\n    while not b :\r\n        n=int(input(msg))\r\n        msg = \"Donner le nombre des cases entre 5 et 20: \"\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range (n):\r\n        msg = \"t[\"+str(i)+\"] = \"\r\n        b = False\r\n        while not b :\r\n            t[i]=int(input(msg))\r\n            msg = \"Donner t[\"+str(i)+\"] entre 0 et 100: \"\r\n            b = 0 <= t[i] <= 100\r\n\ndef Afficher(t,N):\r\n    for i in range (N):\r\n        print(t[i],end=\"/\")\r\n\n####################PP####################\r\n\nN = Saisie()\r\nRemplir(N)\r\nAfficher(t,N)"
+    }
+  ]
+}

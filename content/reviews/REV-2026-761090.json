@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewId": "REV-2026-761090",
+  "draftId": "DRAFT-BACSI-2026-459543",
+  "draftVersion": 4,
+  "reviewer": "Inspecteur National Bac SI",
+  "status": "APPROVED",
+  "checklist": {
+    "baremeValid": true,
+    "syntaxValid": true,
+    "curriculumCompliant": true,
+    "noHallucination": true
+  },
+  "reviewerNotes": "Document parfait, 100% conforme au programme officiel 2026-2027.",
+  "timestamp": "2026-11-06T07:20:27.595Z"
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-DEA8315D5DAE0837",
+  "filename": "suppression.html",
+  "relPath": "bac info/sti/projet 3 version élève/suppression.html",
+  "sha256": "dea8315d5dae08374fb64b3fb97c0a298b8f4d6ee7497215d9e73d262d6d33fc",
+  "extractedAt": "2026-11-06T14:24:19.060Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Document</title> <link rel=\"stylesheet\" href=\"styles.css\"> <script src=\"controles.js\"></script> </head> <body> <body class=\"body\"> <form action=\"suppression.php\" method=\"post\" onsubmit=\"return verif2()\"> <fieldset> <legend>suppressio",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n    <script src=\"controles.js\"></script>\r\n</head>\r\n<body>\r\n    <body class=\"body\">\r\n        <form action=\"suppression.php\" method=\"post\" onsubmit=\"return verif2()\">\r\n          <fieldset>\r\n            <legend>suppression d'un élève:</legend>\r\n            <p>Veuilliez entre l'indentifiant de l'eleve ou bien son nom et prenom</p>\r\n            <input class=\"input\" type=\"text\" name=\"id\" id=\"id2\" placeholder=\"Identifiant Eleve\" />\r\n            <input type=\"text\" class=\"input\" id=\"np2\" name=\"np\" placeholder=\"Nom & prénom\" />\r\n            \r\n            <div id=\"boutton\">\r\n              <input type=\"submit\" value=\"S'inscrire\" class=\"bt\" />\r\n              <input type=\"reset\" value=\"Annuler\" class=\"bt\" />\r\n            </div>\r\n          </fieldset>\r\n        </form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-DEA8315D5DAE0837-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Document</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n    <script src=\"controles.js\"></script>\r\n</head>\r\n<body>\r\n    <body class=\"body\">\r\n        <form action=\"suppression.php\" method=\"post\" onsubmit=\"return verif2()\">\r\n          <fieldset>\r\n            <legend>suppression d'un élève:</legend>\r\n            <p>Veuilliez entre l'indentifiant de l'eleve ou bien son nom et prenom</p>\r\n            <input class=\"input\" type=\"text\" name=\"id\" id=\"id2\" placeholder=\"Identifiant Eleve\" />\r\n            <input type=\"text\" class=\"input\" id=\"np2\" name=\"np\" placeholder=\"Nom & prénom\" />"
+    },
+    {
+      "chunkId": "DOC-DEA8315D5DAE0837-CHK-002",
+      "text": "<div id=\"boutton\">\r\n              <input type=\"submit\" value=\"S'inscrire\" class=\"bt\" />\r\n              <input type=\"reset\" value=\"Annuler\" class=\"bt\" />\r\n            </div>\r\n          </fieldset>\r\n        </form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

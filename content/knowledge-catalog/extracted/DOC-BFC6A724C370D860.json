@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-BFC6A724C370D860",
+  "filename": "Point fixe.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Point fixe.py",
+  "sha256": "bfc6a724c370d8601bb41541b5653b03716df55d7f517475d95878b180c531fb",
+  "extractedAt": "2026-11-14T18:35:36.489Z",
+  "pageCount": 1,
+  "textSnippet": "from math import * def f(x): return 1-sin(x) def pt_fx(eps): x=0.1 while abs (f(x)-x)>eps: x=f(x) return x eps=float(input(\"Donner epsilon\")) print(pt_fx(eps))",
+  "fullText": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fx(eps):\r\n    x=0.1\r\n    while abs (f(x)-x)>eps:\r\n        x=f(x)\r\n    return x\r\neps=float(input(\"Donner epsilon\"))\r\nprint(pt_fx(eps))",
+  "chunks": [
+    {
+      "chunkId": "DOC-BFC6A724C370D860-CHK-001",
+      "text": "from math import *\r\ndef f(x):\r\n    return 1-sin(x)\r\ndef pt_fx(eps):\r\n    x=0.1\r\n    while abs (f(x)-x)>eps:\r\n        x=f(x)\r\n    return x\r\neps=float(input(\"Donner epsilon\"))\r\nprint(pt_fx(eps))"
+    }
+  ]
+}

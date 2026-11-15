@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-9E71894E517D6B55",
+  "filename": "Eclater_un_tableau.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Eclater_un_tableau.py",
+  "sha256": "9e71894e517d6b55ebf654f0d25937b8b5ace911fd83d5a571f12cc5ccaa2080",
+  "extractedAt": "2026-11-06T14:24:40.865Z",
+  "pageCount": 1,
+  "textSnippet": "#Eclater un tableau (exemple: suivant la strict positivité de chaque entier) from numpy import * t = array ( [str] * 20 ) tp = array ( [str] * 20 ) tn = array ( [str] * 20 ) def Saisie(): b = False while not(b) : n=int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range (n): t[i]=int(input(\"t[\"+str(i)+\"] = \")) def Eclater(t,n): x = 0 y = 0 for i in range (n):",
+  "fullText": "#Eclater un tableau (exemple: suivant la  strict positivité de chaque entier)\r\nfrom numpy import *\r\nt = array ( [str] * 20 )\r\ntp = array ( [str] * 20 )\r\ntn = array ( [str] * 20 )\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n        \r\ndef Eclater(t,n):\r\n    x = 0\r\n    y = 0\r\n    for i in range (n):\r\n        if (t[i] >= 0) :\r\n            tp[x] = t[i]\r\n            x += 1\r\n        else:\r\n            tn[y] = t[i]\r\n            y += 1\r\n    return x,y\r\n\r\ndef Afficher(t,n,tp,a,tn,b):\r\n    print(\"Le tableau initial est: \")\r\n    for i in range (n):\r\n        print(t[i],end=\" \")\r\n    print(\"\\nLes tableaux eclatés sont: \")\r\n    for j in range(a):\r\n        print(tp[j],end=\" \")\r\n    print(\"\\t\")\r\n    for k in range(b):\r\n        print(tn[k],end=\" \")\r\n            \r\n\r\nn = Saisie()\r\nRemplir(n)\r\na,b = Eclater(t,n)\r\nAfficher(t,n,tp,a,tn,b)",
+  "chunks": [
+    {
+      "chunkId": "DOC-9E71894E517D6B55-CHK-001",
+      "text": "#Eclater un tableau (exemple: suivant la  strict positivité de chaque entier)\r\nfrom numpy import *\r\nt = array ( [str] * 20 )\r\ntp = array ( [str] * 20 )\r\ntn = array ( [str] * 20 )\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n\ndef Eclater(t,n):\r\n    x = 0\r\n    y = 0\r\n    for i in range (n):\r\n        if (t[i] >= 0) :\r\n            tp[x] = t[i]\r\n            x += 1\r\n        else:\r\n            tn[y] = t[i]\r\n            y += 1\r\n    return x,y"
+    },
+    {
+      "chunkId": "DOC-9E71894E517D6B55-CHK-002",
+      "text": "def Afficher(t,n,tp,a,tn,b):\r\n    print(\"Le tableau initial est: \")\r\n    for i in range (n):\r\n        print(t[i],end=\" \")\r\n    print(\"\\nLes tableaux eclatés sont: \")\r\n    for j in range(a):\r\n        print(tp[j],end=\" \")\r\n    print(\"\\t\")\r\n    for k in range(b):\r\n        print(tn[k],end=\" \")\r\n\nn = Saisie()\r\nRemplir(n)\r\na,b = Eclater(t,n)\r\nAfficher(t,n,tp,a,tn,b)"
+    }
+  ]
+}

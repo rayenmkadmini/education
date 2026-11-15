@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-729340854531DAD6",
+  "filename": "Formulaire Inscriptionnn.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Formulaire Inscriptionnn.html",
+  "sha256": "729340854531dad6738e9abe37acd3e131907ec677ba45d12caa23c0e1f1ea45",
+  "extractedAt": "2026-11-14T18:35:36.473Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title>Inscription</title> <script type=\"text/javascript\"> function verif() { var a=(document.f.z1.value); if ((isNaN(a)==true) || (Number(a)<0)) { alert(\"Numero INVALID\"); return false; } if (a.length!=5){ alert(\"Le Numero doit être egale à 5\"); return false; } var ch=(document.f.z2.value); var ok; for (var i=0;i<=ch.length-1;i++) { if((ch.charAt(i).toUppercase()>=\"A\"",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Inscription</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction verif() {\r\n\t\t\tvar a=(document.f.z1.value);\r\n\t\t\tif ((isNaN(a)==true) || (Number(a)<0))\r\n\t\t\t{\r\n\t\t\t\talert(\"Numero INVALID\");\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\tif (a.length!=5){\r\n\t\t\t\talert(\"Le Numero doit être egale à 5\");\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\tvar ch=(document.f.z2.value);\r\n\t\t\tvar ok;\r\n\t\t\tfor (var i=0;i<=ch.length-1;i++)\r\n\t\t\t{\r\n\t\t\t\tif((ch.charAt(i).toUppercase()>=\"A\")&&(ch.charAt(i).toUppercase()<=\"Z\"))\r\n\r\n\t\t\t\t{ok=true;}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\tok=false;\r\n\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif(ok==false)\r\n\t\t\t{\r\n\t\t\talert(\"Nom et Prenom Doit être Alphabetique!!\");\r\n\t\t\treturn false;\r\n\t\t\t}\r\n\r\n\r\n\t\t}\r\n\t\t\r\n\r\n\t</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<h1>Inscription</h1>\r\n\t<p><h1>Numero: <input type=\"text\" name=\"z1\"> </h1></p>\r\n\t<p><h1>Nom et Prenom: <input type=\"text\" name=\"z2\"></h1></p>\r\n\t<p><h1>Age: <input type=\"text\" name=\"z3\"></h1></p>\r\n\t<p><h1>Email: <input type=\"text\" name=\"z4\"></h1></p>\r\n\t<p><input type=\"submit\" name=\"b1\" onclick=\"verif()\"> <input type=\"reset\" name=\"b2\" value=\"Reset\"> </p>\r\n\r\n</form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-729340854531DAD6-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Inscription</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction verif() {\r\n\t\t\tvar a=(document.f.z1.value);\r\n\t\t\tif ((isNaN(a)==true) || (Number(a)<0))\r\n\t\t\t{\r\n\t\t\t\talert(\"Numero INVALID\");\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\tif (a.length!=5){\r\n\t\t\t\talert(\"Le Numero doit être egale à 5\");\r\n\t\t\t\treturn false;\r\n\t\t\t}\r\n\t\t\tvar ch=(document.f.z2.value);\r\n\t\t\tvar ok;\r\n\t\t\tfor (var i=0;i<=ch.length-1;i++)\r\n\t\t\t{\r\n\t\t\t\tif((ch.charAt(i).toUppercase()>=\"A\")&&(ch.charAt(i).toUppercase()<=\"Z\"))\r\n\n\t\t\t\t{ok=true;}\r\n\t\t\t\telse\r\n\t\t\t\t{\r\n\t\t\t\tok=false;\r\n\t\t\t\tbreak;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t\tif(ok==false)\r\n\t\t\t{\r\n\t\t\talert(\"Nom et Prenom Doit être Alphabetique!!\");\r\n\t\t\treturn false;\r\n\t\t\t}\r\n\n\t\t}"
+    },
+    {
+      "chunkId": "DOC-729340854531DAD6-CHK-002",
+      "text": "</script>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<h1>Inscription</h1>\r\n\t<p><h1>Numero: <input type=\"text\" name=\"z1\"> </h1></p>\r\n\t<p><h1>Nom et Prenom: <input type=\"text\" name=\"z2\"></h1></p>\r\n\t<p><h1>Age: <input type=\"text\" name=\"z3\"></h1></p>\r\n\t<p><h1>Email: <input type=\"text\" name=\"z4\"></h1></p>\r\n\t<p><input type=\"submit\" name=\"b1\" onclick=\"verif()\"> <input type=\"reset\" name=\"b2\" value=\"Reset\"> </p>\r\n\n</form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

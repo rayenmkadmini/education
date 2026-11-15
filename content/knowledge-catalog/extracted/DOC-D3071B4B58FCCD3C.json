@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-D3071B4B58FCCD3C",
+  "filename": "Sc 11.02.2022 Bac 2017 Cryptage.py",
+  "relPath": "bac info/algo/Python/Sc 11.02.2022 Bac 2017 Cryptage.py",
+  "sha256": "d3071b4b58fccd3cb6c169f6ef9fd35142b3bb1df641827ac30dec17df189108",
+  "extractedAt": "2026-11-14T18:35:36.548Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def verif(ch): test=True #Lettres alpha maj i=0 while test==True and i<len(ch): if not (\"A\"<=ch[i]<=\"Z\"): test=False i=i+1 #Lettres Distincts for i in range(len(ch)-1): for j in range(i+1,len(ch)): if ch[i]==ch[j]: test=False #Long CH if not (5<=len(ch)<=10): test=False return test def saisir(): cle=input(\"Donner l",
+  "fullText": "from numpy import array\r\n\r\ndef verif(ch):\r\n    test=True\r\n    #Lettres alpha maj\r\n    i=0\r\n    while test==True and i<len(ch):\r\n        if not (\"A\"<=ch[i]<=\"Z\"):\r\n            test=False\r\n        i=i+1 \r\n    #Lettres Distincts\r\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if ch[i]==ch[j]:\r\n                test=False\r\n                \r\n    #Long CH\r\n    if not (5<=len(ch)<=10):\r\n        test=False\r\n    \r\n    return test\r\n\r\ndef saisir():\r\n    cle=input(\"Donner la Clé! : \")\r\n    while not(verif(cle)):\r\n        cle=input(\"Donner la Clé! : \")\r\n    return cle\r\n\r\ndef cryptage(ch,cle):\r\n    ch=ch[:len(ch)-1]\r\n    #Ajout d'espace si necessaire\r\n    while len(ch) % len(cle)!=0:\r\n        ch=ch+\" \"\r\n    \r\n    #Distrubtion dans la matrice\r\n    C=len(cle)\r\n    L=len(ch)//C\r\n    M=array([[str()]*C]*L)\r\n    k=0\r\n    for i in range(L):\r\n        for j in range(C):\r\n            M[i,j]=ch[k]\r\n            k=k+1\r\n\r\n    #Formation de la ligne cryptée \r\n    R=\"\"\r\n    for j in range(C):\r\n        R=R+cle[j]\r\n        for i in range(L):\r\n            R=R+M[i,j]\r\n    return R\r\n\r\ndef remplir(cle):\r\n    FS=open(\"Source.txt\",\"r\")\r\n    FC=open(\"Crypte.txt\",\"w\")\r\n    ch=FS.readline()\r\n    while ch!=\"\":\r\n        FC.write(cryptage(ch,cle)+\"\\n\")\r\n        ch=FS.readline()\r\n    FC.close()\r\n    FS.close()\r\n    return FC\r\n     \r\ndef afficher(FC):\r\n    FC=open(\"Crypte.txt\",\"r\")\r\n    ch=FC.readline()\r\n    while ch!=\"\":\r\n        ch=ch[0:len(ch)-1] #Pour supprimer le \\n\r\n        print(ch)\r\n        ch=FC.readline()\r\n    FC.close()\r\n     \r\n     \r\n#Programme Principale:\r\ncle=saisir()\r\nFC=remplir(cle)\r\nafficher(FC)",
+  "chunks": [
+    {
+      "chunkId": "DOC-D3071B4B58FCCD3C-CHK-001",
+      "text": "from numpy import array\r\n\ndef verif(ch):\r\n    test=True\r\n    #Lettres alpha maj\r\n    i=0\r\n    while test==True and i<len(ch):\r\n        if not (\"A\"<=ch[i]<=\"Z\"):\r\n            test=False\r\n        i=i+1 \r\n    #Lettres Distincts\r\n    for i in range(len(ch)-1):\r\n        for j in range(i+1,len(ch)):\r\n            if ch[i]==ch[j]:\r\n                test=False\r\n\n    #Long CH\r\n    if not (5<=len(ch)<=10):\r\n        test=False\r\n\n    return test\r\n\ndef saisir():\r\n    cle=input(\"Donner la Clé! : \")\r\n    while not(verif(cle)):\r\n        cle=input(\"Donner la Clé! : \")\r\n    return cle\r\n\ndef cryptage(ch,cle):\r\n    ch=ch[:len(ch)-1]\r\n    #Ajout d'espace si necessaire\r\n    while len(ch) % len(cle)!=0:\r\n        ch=ch+\" \""
+    },
+    {
+      "chunkId": "DOC-D3071B4B58FCCD3C-CHK-002",
+      "text": "#Distrubtion dans la matrice\r\n    C=len(cle)\r\n    L=len(ch)//C\r\n    M=array([[str()]*C]*L)\r\n    k=0\r\n    for i in range(L):\r\n        for j in range(C):\r\n            M[i,j]=ch[k]\r\n            k=k+1\r\n\n    #Formation de la ligne cryptée \r\n    R=\"\"\r\n    for j in range(C):\r\n        R=R+cle[j]\r\n        for i in range(L):\r\n            R=R+M[i,j]\r\n    return R\r\n\ndef remplir(cle):\r\n    FS=open(\"Source.txt\",\"r\")\r\n    FC=open(\"Crypte.txt\",\"w\")\r\n    ch=FS.readline()\r\n    while ch!=\"\":\r\n        FC.write(cryptage(ch,cle)+\"\\n\")\r\n        ch=FS.readline()\r\n    FC.close()\r\n    FS.close()\r\n    return FC\r\n\ndef afficher(FC):\r\n    FC=open(\"Crypte.txt\",\"r\")\r\n    ch=FC.readline()\r\n    while ch!=\"\":\r\n        ch=ch[0:len(ch)-1] #Pour supprimer le \\n\r\n        print(ch)\r\n        ch=FC.readline()\r\n    FC.close()"
+    },
+    {
+      "chunkId": "DOC-D3071B4B58FCCD3C-CHK-003",
+      "text": "#Programme Principale:\r\ncle=saisir()\r\nFC=remplir(cle)\r\nafficher(FC)"
+    }
+  ]
+}

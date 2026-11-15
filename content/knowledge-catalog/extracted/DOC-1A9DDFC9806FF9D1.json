@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1A9DDFC9806FF9D1",
+  "filename": "Commande.php",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/Commande.php",
+  "sha256": "1a9ddfc9806ff9d1e2e61ec13bafa1695f4083066d3405376b1ea1d2eb8319bf",
+  "extractedAt": "2026-11-06T14:24:16.797Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $type=$_POST[\"type\"]; $qte=$_POST[\"qte\"]; $tel=$_POST[\"tel2\"]; $psw=$_POST[\"psw1\"]; mysql_connect(\"localhost\",\"root\",\"\"); mysql_select_db(\"rafehmaddouripizza2020\"); $req1=\"select * from client where (motpass==='$psw' and tel==='$tel') \"; $res1=mysql_query($req1); if (mysql_num_rows($res1)!=0) { echo \"N° Tél ou mot de passe erroné !\"; } else { $date=date(\"d-m-Y H:i:s\"); $req2=\"insert into commande values('$type','$tel','$date','$qte')\"; $res2=mysql_que",
+  "fullText": "<?php\r\n$type=$_POST[\"type\"];\r\n$qte=$_POST[\"qte\"];\r\n$tel=$_POST[\"tel2\"];\r\n$psw=$_POST[\"psw1\"];\r\n\r\nmysql_connect(\"localhost\",\"root\",\"\");\r\nmysql_select_db(\"rafehmaddouripizza2020\");\r\n$req1=\"select * from client where (motpass==='$psw' and tel==='$tel') \";\r\n$res1=mysql_query($req1);\r\n\r\nif (mysql_num_rows($res1)!=0) \r\n{\r\n\techo \"N° Tél ou mot de passe erroné !\";\r\n}\r\n\r\nelse\r\n{\r\n    $date=date(\"d-m-Y H:i:s\");\r\n\r\n    $req2=\"insert into commande values('$type','$tel','$date','$qte')\";\r\n    $res2=mysql_query($req2);\r\n\t\tif (mysql_affected_rows()!=-1) {\r\n\t\t\techo \"client ajoutee avec success\";\r\n\t\t}\r\n\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-1A9DDFC9806FF9D1-CHK-001",
+      "text": "<?php\r\n$type=$_POST[\"type\"];\r\n$qte=$_POST[\"qte\"];\r\n$tel=$_POST[\"tel2\"];\r\n$psw=$_POST[\"psw1\"];\r\n\nmysql_connect(\"localhost\",\"root\",\"\");\r\nmysql_select_db(\"rafehmaddouripizza2020\");\r\n$req1=\"select * from client where (motpass==='$psw' and tel==='$tel') \";\r\n$res1=mysql_query($req1);\r\n\nif (mysql_num_rows($res1)!=0) \r\n{\r\n\techo \"N° Tél ou mot de passe erroné !\";\r\n}\r\n\nelse\r\n{\r\n    $date=date(\"d-m-Y H:i:s\");\r\n\n    $req2=\"insert into commande values('$type','$tel','$date','$qte')\";\r\n    $res2=mysql_query($req2);\r\n\t\tif (mysql_affected_rows()!=-1) {\r\n\t\t\techo \"client ajoutee avec success\";\r\n\t\t}\r\n\n}\r\n\n?>"
+    }
+  ]
+}

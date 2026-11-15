@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2307D1C250E8EEE1",
+  "filename": "motdepass.txt",
+  "relPath": "bac info/sti/etude/Evaluation mot de passe/Evaluation mot de passe/motdepass.txt",
+  "sha256": "2307d1c250e8eee1e19fc645a874468a4879f8a55b6683739d6733ff5f4f5225",
+  "extractedAt": "2026-11-06T14:24:16.719Z",
+  "pageCount": 1,
+  "textSnippet": "P@ssw0rd! Secur3&Safe# tRngAASv4 $tr0ngP@$123 l3!Str!ng mlgh. #Symbo1!ZEd# MyP@ssw0rd#123 9aBc&dEfG L3d",
+  "fullText": "P@ssw0rd!\r\nSecur3&Safe#\r\ntRngAASv4\r\n$tr0ngP@$123\r\nl3!Str!ng\r\nmlgh.\r\n#Symbo1!ZEd#\r\nMyP@ssw0rd#123\r\n9aBc&dEfG\r\nL3d",
+  "chunks": [
+    {
+      "chunkId": "DOC-2307D1C250E8EEE1-CHK-001",
+      "text": "P@ssw0rd!\r\nSecur3&Safe#\r\ntRngAASv4\r\n$tr0ngP@$123\r\nl3!Str!ng\r\nmlgh.\r\n#Symbo1!ZEd#\r\nMyP@ssw0rd#123\r\n9aBc&dEfG\r\nL3d"
+    }
+  ]
+}

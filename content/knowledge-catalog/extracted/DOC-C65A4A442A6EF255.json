@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C65A4A442A6EF255",
+  "filename": "ppcm.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/ppcm.py",
+  "sha256": "c65a4a442a6ef255367113b195283ebb96fbfad0c4797fc487967d7aab99cda7",
+  "extractedAt": "2026-11-14T18:35:36.372Z",
+  "pageCount": 1,
+  "textSnippet": "def pgcd(a,b): while a!=b: if a>b: a=a-b else: b=b-a return a def ppcm(a,b): return a*b/pgcd(a,b) print(ppcm(32,48))",
+  "fullText": "def pgcd(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\ndef ppcm(a,b):\r\n    return a*b/pgcd(a,b)\r\n\r\nprint(ppcm(32,48))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C65A4A442A6EF255-CHK-001",
+      "text": "def pgcd(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\ndef ppcm(a,b):\r\n    return a*b/pgcd(a,b)\r\n\nprint(ppcm(32,48))"
+    }
+  ]
+}

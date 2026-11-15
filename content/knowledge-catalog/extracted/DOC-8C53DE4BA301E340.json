@@ -1,0 +1,66 @@
+{
+  "documentId": "DOC-8C53DE4BA301E340",
+  "filename": "anglais -20261106T124740Z-1-001.zip",
+  "sha256": "8c53de4ba301e340ea03066022bdeb6f1ac5f1017d5aa07cb79fef4259c54b98",
+  "extractedAt": "2026-11-06T14:00:11.573Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: anglais -20261106T124740Z-1-001.zip Nombre d'éléments: 11",
+  "fullText": "Archive ZIP: anglais -20261106T124740Z-1-001.zip\nNombre d'éléments: 11\n\n",
+  "zipEntries": [
+    {
+      "name": "anglais /paragraphs (unit1)/05 - See More of Tunis on Foot.pdf",
+      "sizeBytes": 1048075,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/02 - Holidays in the Past vs Holidays Now.pdf",
+      "sizeBytes": 1039381,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/06 - My Dream Holiday.pdf",
+      "sizeBytes": 1036830,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/03 - Travelling.pdf",
+      "sizeBytes": 1050288,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/01 - The Importance of Holidays.pdf",
+      "sizeBytes": 1044279,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/07 - Solo Travel.pdf",
+      "sizeBytes": 1492456,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /paragraphs (unit1)/04 - Golden Hills in the Sahara Festival.pdf",
+      "sizeBytes": 1047169,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /01 - Review.pdf",
+      "sizeBytes": 2221905,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /02 - Unit 1 - Holidaying.pdf",
+      "sizeBytes": 2178474,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /03 - Unit 2 - Education matters.pdf",
+      "sizeBytes": 1897196,
+      "isDirectory": false
+    },
+    {
+      "name": "anglais /06 - Grammar focus.pdf",
+      "sizeBytes": 1582803,
+      "isDirectory": false
+    }
+  ]
+}

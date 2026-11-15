@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-51D46268F87F5FB9",
+  "filename": "bac_pratique_2012_sujet1_interface.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1_interface.py",
+  "sha256": "51d46268f87f5fb9cc6857a758bdc68ac224cd5658d8a81e7b29f79975e1fff9",
+  "extractedAt": "2026-11-06T14:24:35.926Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import QApplication from numpy import * T = array([int] * 20) def Saisie(): global N b = False while not b: N = int(input(\"Donner n: \")) b = 5 <= N <= 20 return N def Remplir(N): for i in range(N): b = False while not b: T[i] = int(input(\"T[\" + str(i) + \"]=\")) b = len(str(T[i])) == 4 def Appartenance(s, T, N): p = int(s) ok1 = Fals",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    global N\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\r\n\r\ndef Appartenance(s, T, N):\r\n    p = int(s)\r\n    ok1 = False\r\n    i = -1\r\n    while not (ok1) and i < N - 1:\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while not (ok2) and j <= N - 1:\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]\r\n\r\n    if ok1:\r\n        f.t2.setText(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        f.t2.setText(\"p appartient partiellement à T\")\r\n    else:\r\n        f.t2.setText(\"p n'appartient pas à T\")\r\n\r\n\r\n##############\"\"pp############\r\nN = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('bac_pratique_2012_sujet1_interface.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-51D46268F87F5FB9-CHK-001",
+      "text": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\nT = array([int] * 20)\r\n\ndef Saisie():\r\n    global N\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\ndef Appartenance(s, T, N):\r\n    p = int(s)\r\n    ok1 = False\r\n    i = -1\r\n    while not (ok1) and i < N - 1:\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while not (ok2) and j <= N - 1:\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]"
+    },
+    {
+      "chunkId": "DOC-51D46268F87F5FB9-CHK-002",
+      "text": "if ok1:\r\n        f.t2.setText(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        f.t2.setText(\"p appartient partiellement à T\")\r\n    else:\r\n        f.t2.setText(\"p n'appartient pas à T\")\r\n\n##############\"\"pp############\r\nN = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('bac_pratique_2012_sujet1_interface.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()"
+    }
+  ]
+}

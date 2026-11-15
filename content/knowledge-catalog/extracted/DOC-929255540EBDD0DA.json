@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-929255540EBDD0DA",
+  "filename": "Somme de nombre premiers , Recursivité.py",
+  "relPath": "bac info/algo/Python/Somme de nombre premiers , Recursivité.py",
+  "sha256": "929255540ebdd0dade74ff85e656894fee3aca70ed0b5360ba3ce54d878e6090",
+  "extractedAt": "2026-11-14T18:35:36.550Z",
+  "pageCount": 1,
+  "textSnippet": "def som(N): if N==1: return 1 else: return N+som(N-1) print(som(7))",
+  "fullText": "def som(N):\r\n    if N==1:\r\n        return 1\r\n    else:\r\n        return N+som(N-1)\r\n    \r\nprint(som(7))",
+  "chunks": [
+    {
+      "chunkId": "DOC-929255540EBDD0DA-CHK-001",
+      "text": "def som(N):\r\n    if N==1:\r\n        return 1\r\n    else:\r\n        return N+som(N-1)\r\n\nprint(som(7))"
+    }
+  ]
+}

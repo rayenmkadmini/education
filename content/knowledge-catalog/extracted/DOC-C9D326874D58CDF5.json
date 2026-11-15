@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C9D326874D58CDF5",
+  "filename": "Ex 2 verification chaine alpha.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Exercice Seance 27.05.2022/Ex 2 verification chaine alpha.py",
+  "sha256": "c9d326874d58cdf55ec321514af5064f035aa1ce00755ac7688db31adb6c3573",
+  "extractedAt": "2026-11-14T18:35:36.354Z",
+  "pageCount": 1,
+  "textSnippet": "def verifalpha(): alpha=\"AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbn\" ch=input(\"Donner ch: \") test = True for i in range(len(ch)): if alpha.find(ch[i])==-1: test = False print(test) verifalpha()",
+  "fullText": "def verifalpha():\r\n    alpha=\"AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbn\"\r\n    ch=input(\"Donner ch: \")\r\n    test = True\r\n    for i in range(len(ch)):\r\n        if alpha.find(ch[i])==-1:\r\n            test = False\r\n    print(test)\r\nverifalpha()",
+  "chunks": [
+    {
+      "chunkId": "DOC-C9D326874D58CDF5-CHK-001",
+      "text": "def verifalpha():\r\n    alpha=\"AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbn\"\r\n    ch=input(\"Donner ch: \")\r\n    test = True\r\n    for i in range(len(ch)):\r\n        if alpha.find(ch[i])==-1:\r\n            test = False\r\n    print(test)\r\nverifalpha()"
+    }
+  ]
+}

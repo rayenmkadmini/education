@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-5335AF7249520812",
+  "filename": "EPREUVE_PRATIQUE_2017_8h.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2017_8h.py",
+  "sha256": "5335af7249520812a48b3c75e650ada71ef5e03f731372d3e38d91093b1a5dc9",
+  "extractedAt": "2026-11-06T14:24:39.139Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b : ch=str(input(\"< \")) b = verif(ch) return ch def verif(ch): ok = ch[0] != \" \" and ch[len(ch)-1] != \" \" i = -1 while ok and i < len(ch)-1 : i += 1 ok = ch[i] == \" \" or \"A\" <= ch[i].upper() <= \"Z\" return ok def nombre_mots(ch): nb = 1 for i in range (len(ch)-1) : if ch[i] == \" \" and ch[i+1] != \" \" : nb += 1 return nb def crypter(ch,x):",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b :\r\n        ch=str(input(\"< \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\ndef verif(ch):\r\n    ok = ch[0] != \" \" and ch[len(ch)-1] != \" \"\r\n    i = -1\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] == \" \" or \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok \r\n    \r\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\r\ndef crypter(ch,x):\r\n    R = \"\"\r\n    for i in range (len(ch)):\r\n        if \"A\" <= chr(ord(ch[i])+x).upper() <=\"Z\" :\r\n            R += chr(ord(ch[i])+x)\r\n        elif ch[i] == \" \" :\r\n            R += \" \"\r\n        else:\r\n            R += chr(ord(ch[i])+x-26)\r\n    return R\r\n\r\n################PP########################\r\nch = Saisie()\r\nx = nombre_mots(ch)\r\nch1 = crypter(ch,x)\r\nprint(\"Le message crypté est: \",ch1)\r\n        \r\n    ",
+  "chunks": [
+    {
+      "chunkId": "DOC-5335AF7249520812-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b :\r\n        ch=str(input(\"< \"))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef verif(ch):\r\n    ok = ch[0] != \" \" and ch[len(ch)-1] != \" \"\r\n    i = -1\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] == \" \" or \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok \r\n\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\ndef crypter(ch,x):\r\n    R = \"\"\r\n    for i in range (len(ch)):\r\n        if \"A\" <= chr(ord(ch[i])+x).upper() <=\"Z\" :\r\n            R += chr(ord(ch[i])+x)\r\n        elif ch[i] == \" \" :\r\n            R += \" \"\r\n        else:\r\n            R += chr(ord(ch[i])+x-26)\r\n    return R"
+    },
+    {
+      "chunkId": "DOC-5335AF7249520812-CHK-002",
+      "text": "################PP########################\r\nch = Saisie()\r\nx = nombre_mots(ch)\r\nch1 = crypter(ch,x)\r\nprint(\"Le message crypté est: \",ch1)"
+    }
+  ]
+}

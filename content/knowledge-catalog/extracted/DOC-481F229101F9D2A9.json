@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-481F229101F9D2A9",
+  "filename": "note à propo les livre des exercices en turbo.txt",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Livres/note à propo les livre des exercices en turbo.txt",
+  "sha256": "481f229101f9d2a9f3fe9176bc5a95814c9ab9a5e6ea82752ab95e38cb7f3e49",
+  "extractedAt": "2026-11-06T14:24:39.594Z",
+  "pageCount": 1,
+  "textSnippet": "Bien que ces exercices soient désignés pour Pascal, vous pouvez évidemment les traduire en Python!",
+  "fullText": "Bien que ces exercices soient désignés pour Pascal, vous pouvez évidemment les traduire en Python!  ",
+  "chunks": [
+    {
+      "chunkId": "DOC-481F229101F9D2A9-CHK-001",
+      "text": "Bien que ces exercices soient désignés pour Pascal, vous pouvez évidemment les traduire en Python!"
+    }
+  ]
+}

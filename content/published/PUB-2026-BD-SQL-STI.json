@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.0.0",
+  "publicationId": "PUB-2026-BD-SQL-STI",
+  "sourceDraftId": "DRAFT-2026-BD-SQL-STI",
+  "sourceTaskId": "TASK-2026-BD-SQL-STI",
+  "subject": "Technologies de l'Information et de la Communication (STI)",
+  "chapter": "Bases de Données Relationnelles & SQL",
+  "contentType": "EXERCISE_SERIES",
+  "language": "fr_tn_derja",
+  "content": {
+    "draftId": "DRAFT-2026-BD-SQL-STI",
+    "taskId": "TASK-2026-BD-SQL-STI",
+    "subject": "Technologies de l'Information et de la Communication (STI)",
+    "chapter": "Bases de Données Relationnelles & SQL",
+    "contentType": "EXERCISE_SERIES",
+    "academicYear": "2026-2027",
+    "totalPoints": 20.0,
+    "header": {
+      "title": "Épreuve Pratique & Théorique STI — Modélisation BD & Langage SQL",
+      "institution": "Baccalauréat Sciences de l'Informatique / STI",
+      "targetSection": "4ème Année Sciences de l'Informatique",
+      "duration": "1h30",
+      "author": "Inspecteurs STI Baccalauréat Tunisien",
+      "instructions": "Le sujet évalue la conception de schémas relationnels et la rédaction de requêtes SQL conformes au standard MariaDB / MySQL du Bac SI."
+    },
+    "exercises": [
+      {
+        "id": "EX-SQL-01",
+        "number": 1,
+        "title": "Modèle Relationnel & Contraintes d'Intégrité",
+        "points": 4.0,
+        "statementMarkdown": "### Exercice 1 : Modèle Relationnel & Intégrité (4.0 points)\n\nSoit la base de données de gestion d'une bibliothèque scolaire :\n* `Adherent` ( **num_adh**, nom, prenom, classe, date_adhesion )\n* `Livre` ( **code_livre**, titre, auteur, theme, nb_exemplaires )\n* `Emprunt` ( **#num_adh**, **#code_livre**, **date_emprunt**, date_retour_prevue, statut_retour )\n\n**Travail demandé :**\n1. Préciser les clés primaires et clés étrangères de chaque table.\n2. Écrire la requête SQL de création de la table `Emprunt` avec vérification que `statut_retour` ne prend que les valeurs `'EN_COURS'` ou `'RENDU'`.",
+        "solutionMarkdown": "### Corrigé Exercice 1 (4.0 points)\n\n#### 1. Identification des Clés :\n* `Adherent` : Clé primaire `num_adh`.\n* `Livre` : Clé primaire `code_livre`.\n* `Emprunt` : Clé primaire composite composée de `(num_adh, code_livre, date_emprunt)`.\n  * Clé étrangère `num_adh` faisant référence à `Adherent(num_adh)`.\n  * Clé étrangère `code_livre` faisant référence à `Livre(code_livre)`.\n\n#### 2. Requête SQL de création de la table `Emprunt` :\n\n```sql\nCREATE TABLE Emprunt (\n    num_adh INT NOT NULL,\n    code_livre VARCHAR(10) NOT NULL,\n    date_emprunt DATE NOT NULL,\n    date_retour_prevue DATE NOT NULL,\n    statut_retour VARCHAR(10) NOT NULL DEFAULT 'EN_COURS',\n    PRIMARY KEY (num_adh, code_livre, date_emprunt),\n    CONSTRAINT fk_emprunt_adh FOREIGN KEY (num_adh) REFERENCES Adherent(num_adh) ON DELETE CASCADE,\n    CONSTRAINT fk_emprunt_livre FOREIGN KEY (code_livre) REFERENCES Livre(code_livre) ON DELETE RESTRICT,\n    CONSTRAINT chk_statut CHECK (statut_retour IN ('EN_COURS', 'RENDU'))\n);\n```",
+        "gradingCriteria": [
+          { "id": "C-SQL-1.1", "description": "Identification des clés primaires et de la clé composite d'Emprunt", "points": 1.5 },
+          { "id": "C-SQL-1.2", "description": "Syntaxe de création avec contraintes FOREIGN KEY et REFERENCES", "points": 1.5 },
+          { "id": "C-SQL-1.3", "description": "Contrainte CHECK valide sur statut_retour", "points": 1.0 }
+        ]
+      },
+      {
+        "id": "EX-SQL-02",
+        "number": 2,
+        "title": "Requêtes de Consultation SQL avec Jointures & Agrégations",
+        "points": 6.0,
+        "statementMarkdown": "### Exercice 2 : Requêtes d'Interrogation SQL (6.0 points)\n\nRédiger en SQL standard les requêtes suivantes :\n\n1. Afficher les titres des livres du thème `'Informatique'` empruntés au moins une fois par les élèves de la classe `'4SI'`. Éliminer les doublons.\n2. Afficher pour chaque adhérent son `nom`, `prenom` ainsi que le **nombre total d'emprunts** réalisés, ordonné par ordre décroissant du nombre d'emprunts.\n3. Afficher les titres des livres qui n'ont **jamais** été empruntés.",
+        "solutionMarkdown": "### Corrigé Exercice 2 (6.0 points)\n\n#### 1. Titres des livres 'Informatique' empruntés par la classe '4SI' :\n\n```sql\nSELECT DISTINCT L.titre\nFROM Livre L\nINNER JOIN Emprunt E ON L.code_livre = E.code_livre\nINNER JOIN Adherent A ON E.num_adh = A.num_adh\nWHERE L.theme = 'Informatique' AND A.classe = '4SI';\n```\n\n#### 2. Nombre total d'emprunts par adhérent (avec GROUP BY) :\n\n```sql\nSELECT A.nom, A.prenom, COUNT(E.code_livre) AS total_emprunts\nFROM Adherent A\nLEFT JOIN Emprunt E ON A.num_adh = E.num_adh\nGROUP BY A.num_adh, A.nom, A.prenom\nORDER BY total_emprunts DESC;\n```\n\n#### 3. Livres jamais empruntés (via NOT IN ou LEFT JOIN) :\n\n```sql\nSELECT titre\nFROM Livre\nWHERE code_livre NOT IN (\n    SELECT DISTINCT code_livre \n    FROM Emprunt\n);\n```\n*(Ou via `LEFT JOIN ... WHERE E.code_livre IS NULL`)*",
+        "gradingCriteria": [
+          { "id": "C-SQL-2.1", "description": "Double jointure INNER JOIN avec DISTINCT et conditions WHERE", "points": 2.0 },
+          { "id": "C-SQL-2.2", "description": "Agrégation COUNT avec GROUP BY et ORDER BY DESC", "points": 2.0 },
+          { "id": "C-SQL-2.3", "description": "Sous-requête NOT IN ou jointure externe avec IS NULL", "points": 2.0 }
+        ]
+      },
+      {
+        "id": "EX-SQL-03",
+        "number": 3,
+        "title": "Mise à Jour Conditionnelle & Transactions de Restitution",
+        "points": 5.0,
+        "statementMarkdown": "### Exercice 3 : Mise à Jour & Maintenance de Données (5.0 points)\n\nLorsqu'un adhérent restitue un livre :\n1. Le statut de l'emprunt passe à `'RENDU'`.\n2. Le stock d'exemplaires disponibles dans la table `Livre` doit être incrémenté de 1.\n\n**Travail demandé :**\n1. Écrire la requête de mise à jour de la table `Emprunt` pour l'adhérent `num_adh = 104` et le livre `'INF-2026'` emprunté le `'2026-11-01'`.\n2. Écrire la requête de mise à jour du stock dans la table `Livre` pour le livre `'INF-2026'`.",
+        "solutionMarkdown": "### Corrigé Exercice 3 (5.0 points)\n\n#### 1. Mise à jour de l'emprunt en statut 'RENDU' :\n\n```sql\nUPDATE Emprunt\nSET statut_retour = 'RENDU'\nWHERE num_adh = 104 \n  AND code_livre = 'INF-2026'\n  AND date_emprunt = '2026-11-01';\n```\n\n#### 2. Incrémentation du nombre d'exemplaires dans la table Livre :\n\n```sql\nUPDATE Livre\nSET nb_exemplaires = nb_exemplaires + 1\nWHERE code_livre = 'INF-2026';\n```",
+        "gradingCriteria": [
+          { "id": "C-SQL-3.1", "description": "Requête UPDATE avec clauses WHERE précises sur la clé primaire composite", "points": 2.5 },
+          { "id": "C-SQL-3.2", "description": "Incrémentation atomique de nb_exemplaires", "points": 2.5 }
+        ]
+      },
+      {
+        "id": "EX-SQL-04",
+        "number": 4,
+        "title": "Filtrage Avancé & Clause HAVING",
+        "points": 5.0,
+        "statementMarkdown": "### Exercice 4 : Statistiques avec Clause HAVING (5.0 points)\n\nOn souhaite identifier les lecteurs les plus assidus.\n\n**Travail demandé :**\nÉcrire la requête SQL permettant d'afficher le `num_adh`, le `nom` et la `classe` des adhérents qui ont réalisé **strictement plus de 5 emprunts** au cours de l'année scolaire 2026-2027.",
+        "solutionMarkdown": "### Corrigé Exercice 4 (5.0 points)\n\n#### Requête SQL avec GROUP BY et HAVING :\n\n```sql\nSELECT A.num_adh, A.nom, A.classe, COUNT(E.date_emprunt) AS nb_emprunts\nFROM Adherent A\nINNER JOIN Emprunt E ON A.num_adh = E.num_adh\nWHERE E.date_emprunt BETWEEN '2026-09-15' AND '2027-06-30'\nGROUP BY A.num_adh, A.nom, A.classe\nHAVING COUNT(E.date_emprunt) > 5\nORDER BY nb_emprunts DESC;\n```",
+        "gradingCriteria": [
+          { "id": "C-SQL-4.1", "description": "Jointure correcte et filtrage temporel dans la clause WHERE", "points": 2.0 },
+          { "id": "C-SQL-4.2", "description": "Regroupement GROUP BY sur tous les attributs non agrégés", "points": 1.5 },
+          { "id": "C-SQL-4.3", "description": "Condition de seuil > 5 dans la clause HAVING", "points": 1.5 }
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "sourcesCited": [
+      {
+        "documentId": "DOC-C6E48D3622EDE8D5",
+        "filename": "Algorithmique_et_programmation_2026.pdf",
+        "sha256": "c6e48d3622ede8d5b882354c46f14798361f185459346766cb0229fe133e680d",
+        "classification": "OFFICIAL_EXAM",
+        "isOfficial": true
+      }
+    ],
+    "verificationHash": "sha256:sql-sti-2026-approved",
+    "generationEngine": "Pedagogical Commission / Antigravity Hybrid",
+    "createdAt": "2026-11-15T08:50:00Z"
+  },
+  "approvalMetadata": {
+    "reviewer": "Commission Pédagogique Bac SI / STI (Rayen Mkadmini)",
+    "approvedAt": "2026-11-15T08:55:00Z",
+    "reviewId": "REV-2026-BD-SQL-STI"
+  },
+  "publishedAt": "2026-11-15T09:00:00Z"
+}

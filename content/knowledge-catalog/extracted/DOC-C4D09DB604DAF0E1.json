@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-C4D09DB604DAF0E1",
+  "filename": "Serie 3 - Enonce.pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/Matrices/Serie 3 - Enonce.pdf",
+  "sha256": "c4d09db604daf0e1942f269e87d5b8599e4d8ae0bb09dc8f7c5322b221a41e42",
+  "extractedAt": "2026-11-06T14:24:47.265Z",
+  "pageCount": 2,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Matrices — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 2 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercice n°1(Matrice + Arithmétique +Suite) : On considère les suites et définies par = 1, = 0 et, pour tout n ∈ IN : On note, pour tout n ∈ IN ; C H A P I T R E N ° 1 1 Série d'exercices — Énoncé (Un) (Vn) U0 V0 { Un+1 = 2Un + Vn Vn+1 = 3Un + 4Un dn = P GCD(Un, Vn) Déterminer 1 d0 Sachant que = 782 et = 2343, déterminer en utilisant l’algorithme d’Euclide",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nMatrices — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 2 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercice n°1(Matrice + Arithmétique +Suite) :\nOn considère les suites \tet \tdéfinies par = 1, = 0 et, pour tout n ∈ IN :\nOn note, pour tout n ∈ IN ;\nC H A P I T R E N ° 1 1\nSérie d'exercices — Énoncé\n(Un) (Vn) \tU0 V0\n{ Un+1 = 2Un + Vn\nVn+1 = 3Un + 4Un\ndn = P GCD(Un, Vn)\nDéterminer\t1 \td0\nSachant que = 782 et = 2343, déterminer en utilisant l’algorithme d’Euclide.\t2 \tU5 \tV5 \td5\nDémontrer que, pour tout n ∈ IN, divise\t3 \tdn \tdn+1\n4 \tDémontrer par récurrence que, pour tout n ∈ IN , − = 3\ta) \t3Un Vn\nEn déduire les valeurs possibles de\tb) \tdn\nPour tout n ∈ IN, on pose\n5 Xn = ( )\nUn\nVn\nDéterminer la matrice A telle que, pour tout n ∈ IN :\n=A.\na)\nXn+1 Xn\nJustifier que A est inversible et déterminer \tla matrice inverse de A.\tb) \tA−1\nMathématiques\nChapitre N°11 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nMatrices — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercice n°1(Matrice + Arithmétique +Suite) :\nOn considère les suites \tet \tdéfinies par = 1, = 0 et, pour tout n ∈ IN :\nOn note, pour tout n ∈ IN ;\nC H A P I T R E N ° 1 1\nSérie d'exercices — Énoncé\n(Un) (Vn) \tU0 V0\n{ Un+1 = 2Un + Vn\nVn+1 = 3Un + 4Un\ndn = P GCD(Un, Vn)\nDéterminer\t1 \td0\nSachant que = 782 et = 2343, déterminer en utilisant l’algorithme d’Euclide.\t2 \tU5 \tV5 \td5\nDémontrer que, pour tout n ∈ IN, divise\t3 \tdn \tdn+1\n4 \tDémontrer par récurrence que, pour tout n ∈ IN , − = 3\ta) \t3Un Vn\nEn déduire les valeurs possibles de\tb) \tdn\nPour tout n ∈ IN, on pose\n5 Xn = ( )\nUn\nVn\nDéterminer la matrice A telle que, pour tout n ∈ IN :\n=A.\na)\nXn+1 Xn\nJustifier que A est inversible et déterminer \tla matrice inverse de A.\tb) \tA−1\nMathématiques\nChapitre N°11 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-C4D09DB604DAF0E1-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nMatrices — Série 3 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-C4D09DB604DAF0E1-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓExercice n°1(Matrice + Arithmétique +Suite) :\nOn considère les suites \tet \tdéfinies par = 1, = 0 et, pour tout n ∈ IN :\nOn note, pour tout n ∈ IN ;\nC H A P I T R E N ° 1 1\nSérie d'exercices — Énoncé\n(Un) (Vn) \tU0 V0\n{ Un+1 = 2Un + Vn\nVn+1 = 3Un + 4Un\ndn = P GCD(Un, Vn)\nDéterminer\t1 \td0\nSachant que = 782 et = 2343, déterminer en utilisant l’algorithme d’Euclide.\t2 \tU5 \tV5 \td5\nDémontrer que, pour tout n ∈ IN, divise\t3 \tdn \tdn+1\n4 \tDémontrer par récurrence que, pour tout n ∈ IN , − = 3\ta) \t3Un Vn\nEn déduire les valeurs possibles de\tb) \tdn\nPour tout n ∈ IN, on pose\n5 Xn = ( )\nUn\nVn\nDéterminer la matrice A telle que, pour tout n ∈ IN :\n=A.\na)\nXn+1 Xn\nJustifier que A est inversible et déterminer \tla matrice inverse de A.\tb) \tA−1\nMathématiques\nChapitre N°11 · Série d'exercices · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ]
+}

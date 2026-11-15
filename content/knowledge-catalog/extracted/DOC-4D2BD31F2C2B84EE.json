@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4D2BD31F2C2B84EE",
+  "filename": "ex1pgcd.py",
+  "relPath": "bac info/Python/serie 5/ex1pgcd.py",
+  "sha256": "4d2bd31f2c2b84ee03fd4a64bb2ecac375204473df32f89a36f31b57d3781aa1",
+  "extractedAt": "2026-11-06T14:23:35.436Z",
+  "pageCount": 1,
+  "textSnippet": "def f_prem(x): d = 2 ch = \"\" while x != 1: if x % d == 0: ch = ch +\"*\" + str(d) x = x // d else: d += 1 return ch[1:] def pgcd(a, b): fpa = f_prem(a) fpb = f_prem(b) print(fpa) print(fpb) i = 0 j = 0 p = 1 while i < len(fpa) and j < len(fpb): if fpa[i] == \"*\": i += 1 if fpb[i] == \"*\": j += 1 if fpa[i] == fpb[j]:",
+  "fullText": "def f_prem(x):\r\n    d = 2\r\n    ch = \"\"\r\n    while x != 1:\r\n        if x % d == 0:\r\n            ch =  ch +\"*\" + str(d)\r\n            x = x // d\r\n        else:\r\n            d += 1\r\n    \r\n    return ch[1:]\r\n\r\n\r\ndef pgcd(a, b):\r\n    fpa = f_prem(a)\r\n    fpb = f_prem(b)\r\n    print(fpa)\r\n    print(fpb)\r\n    i = 0\r\n    j = 0\r\n    p = 1\r\n    while i < len(fpa) and j < len(fpb):\r\n        if fpa[i] == \"*\":\r\n            i += 1\r\n        if fpb[i] == \"*\":\r\n            j += 1\r\n        if fpa[i] == fpb[j]:\r\n            p = p * int(fpa[i])\r\n            i += 1\r\n            j += 1\r\n        elif fpa[i] < fpb[j]:\r\n            i += 1\r\n        else:\r\n            j += 1\r\n    return p\r\n\r\n\r\na = 636\r\nb = 11\r\nprint(pgcd(a,b))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-4D2BD31F2C2B84EE-CHK-001",
+      "text": "def f_prem(x):\r\n    d = 2\r\n    ch = \"\"\r\n    while x != 1:\r\n        if x % d == 0:\r\n            ch =  ch +\"*\" + str(d)\r\n            x = x // d\r\n        else:\r\n            d += 1\r\n\n    return ch[1:]\r\n\ndef pgcd(a, b):\r\n    fpa = f_prem(a)\r\n    fpb = f_prem(b)\r\n    print(fpa)\r\n    print(fpb)\r\n    i = 0\r\n    j = 0\r\n    p = 1\r\n    while i < len(fpa) and j < len(fpb):\r\n        if fpa[i] == \"*\":\r\n            i += 1\r\n        if fpb[i] == \"*\":\r\n            j += 1\r\n        if fpa[i] == fpb[j]:\r\n            p = p * int(fpa[i])\r\n            i += 1\r\n            j += 1\r\n        elif fpa[i] < fpb[j]:\r\n            i += 1\r\n        else:\r\n            j += 1\r\n    return p\r\n\na = 636\r\nb = 11\r\nprint(pgcd(a,b))"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-BB5C21C199ED1D75",
+  "filename": "connexion.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/connexion.php",
+  "sha256": "bb5c21c199ed1d75453551e95c92809cd574c523323bc395a3fd98ace3076390",
+  "extractedAt": "2026-11-06T14:24:19.446Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx = mysqli_connect(\"localhost\", \"root\", \"\", \"universdulivrere\") or die(\"erreur de cnx\" . mysqli_error($cnx)); ?>",
+  "fullText": "<?php\r\n$cnx = mysqli_connect(\"localhost\", \"root\", \"\", \"universdulivrere\") or die(\"erreur de cnx\" . mysqli_error($cnx));\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-BB5C21C199ED1D75-CHK-001",
+      "text": "<?php\r\n$cnx = mysqli_connect(\"localhost\", \"root\", \"\", \"universdulivrere\") or die(\"erreur de cnx\" . mysqli_error($cnx));\r\n?>"
+    }
+  ]
+}

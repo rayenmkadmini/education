@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D15D2485494BE50D",
+  "filename": "epreuve_bac_pratique_2012_sujet8.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet8.py",
+  "sha256": "d15d2485494be50d9f953d5873c239fa97d209dee966cc24382b8a139095034d",
+  "extractedAt": "2026-11-06T14:24:35.982Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not (b): ch = str(input('< ')) b = verif(ch) return ch def verif(ch): ok = True i = -1 while i < len(ch) - 1 and ok: i += 1 ok = \"A\" <= ch[i] <= \"Z\" return ok def occurence(c, ch): p = 0 for i in range(len(ch)): if ch[i] == c: p += 1 return p def Crypter(ch): R = '' for i in range(len(ch)): n = occurence(ch[i], ch) if",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef occurence(c, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == c:\r\n            p += 1\r\n    return p\r\n\r\n\r\ndef Crypter(ch):\r\n    R = ''\r\n    for i in range(len(ch)):\r\n        n = occurence(ch[i], ch)\r\n        if n % 2 == 1:\r\n            k = 2 * n\r\n        else:\r\n            k = n // 2\r\n        if \"A\" <= chr(ord(ch[i]) + k) <= \"Z\":\r\n            R += chr(ord(ch[i]) + k)\r\n        else:\r\n            R += chr(ord(ch[i]) + k - 26)\r\n    return R\r\n\r\n\r\n##########PP###############\r\nM = Saisie()\r\nMC = Crypter(M)\r\nprint(MC)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-D15D2485494BE50D-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef occurence(c, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == c:\r\n            p += 1\r\n    return p\r\n\ndef Crypter(ch):\r\n    R = ''\r\n    for i in range(len(ch)):\r\n        n = occurence(ch[i], ch)\r\n        if n % 2 == 1:\r\n            k = 2 * n\r\n        else:\r\n            k = n // 2\r\n        if \"A\" <= chr(ord(ch[i]) + k) <= \"Z\":\r\n            R += chr(ord(ch[i]) + k)\r\n        else:\r\n            R += chr(ord(ch[i]) + k - 26)\r\n    return R\r\n\n##########PP###############\r\nM = Saisie()\r\nMC = Crypter(M)\r\nprint(MC)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5C28C286C6C5452D",
+  "filename": "calcul fibonacci.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/calcul fibonacci.py",
+  "sha256": "5c28c286c6c5452d4698368fa09f59f2e2cb4a076880a43fff6d80f162e74617",
+  "extractedAt": "2026-11-14T18:35:36.337Z",
+  "pageCount": 1,
+  "textSnippet": "def fibo(n): if n==0: return 1 if n==1: return 1 else: return fibo(n-2)+ fibo (n-1) print(fibo(6))",
+  "fullText": "def fibo(n):\r\n    if n==0:\r\n        return 1\r\n    if n==1:\r\n        return 1\r\n    else:\r\n        return fibo(n-2)+ fibo (n-1)\r\nprint(fibo(6))",
+  "chunks": [
+    {
+      "chunkId": "DOC-5C28C286C6C5452D-CHK-001",
+      "text": "def fibo(n):\r\n    if n==0:\r\n        return 1\r\n    if n==1:\r\n        return 1\r\n    else:\r\n        return fibo(n-2)+ fibo (n-1)\r\nprint(fibo(6))"
+    }
+  ]
+}

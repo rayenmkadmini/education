@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4F39DD04501A18B3",
+  "filename": "epreuve_bac_pratique_2013_11.00.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_11.00.py",
+  "sha256": "4f39dd04501a18b37d4962a52afced95a67ff61383e59ed795942f8b9299da9d",
+  "extractedAt": "2026-11-06T14:24:36.330Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: n = int(input('Donner N: ')) b = n >= 10 return n def palindrome(ch): ch1 = '' for i in range(len(ch)): ch1 = ch[i] + ch1 return ch1 == ch def Suite_Palindromique(N): x = str(N) R = x + ',' ok = palindrome(x) i = 1 while not ok and i <= 11: y = '' for j in range(len(x)): y = x[j] + y S = int(y) + int(x) x = str(S)",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner N: '))\r\n        b = n >= 10\r\n    return n\r\n\r\n\r\ndef palindrome(ch):\r\n    ch1 = ''\r\n    for i in range(len(ch)):\r\n        ch1 = ch[i] + ch1\r\n    return ch1 == ch\r\n\r\n\r\ndef Suite_Palindromique(N):\r\n    x = str(N)\r\n    R = x + ','\r\n    ok = palindrome(x)\r\n    i = 1\r\n    while not ok and i <= 11:\r\n        y = ''\r\n        for j in range(len(x)):\r\n            y = x[j] + y\r\n        S = int(y) + int(x)\r\n        x = str(S)\r\n        i += 1\r\n        R += x + \",\"\r\n        ok = palindrome(x)\r\n    R = R[:len(R) - 1]\r\n    if i > 11:\r\n        R = 'Le calcul de 11 termes ne donne pas une suite palindromique pour ce nombre'\r\n    return R\r\n\r\n\r\n##############\"\"pp##################\r\nN = Saisie()\r\nch = Suite_Palindromique(N)\r\nprint(ch)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-4F39DD04501A18B3-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner N: '))\r\n        b = n >= 10\r\n    return n\r\n\ndef palindrome(ch):\r\n    ch1 = ''\r\n    for i in range(len(ch)):\r\n        ch1 = ch[i] + ch1\r\n    return ch1 == ch\r\n\ndef Suite_Palindromique(N):\r\n    x = str(N)\r\n    R = x + ','\r\n    ok = palindrome(x)\r\n    i = 1\r\n    while not ok and i <= 11:\r\n        y = ''\r\n        for j in range(len(x)):\r\n            y = x[j] + y\r\n        S = int(y) + int(x)\r\n        x = str(S)\r\n        i += 1\r\n        R += x + \",\"\r\n        ok = palindrome(x)\r\n    R = R[:len(R) - 1]\r\n    if i > 11:\r\n        R = 'Le calcul de 11 termes ne donne pas une suite palindromique pour ce nombre'\r\n    return R\r\n\n##############\"\"pp##################\r\nN = Saisie()\r\nch = Suite_Palindromique(N)\r\nprint(ch)"
+    }
+  ]
+}

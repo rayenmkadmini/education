@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5A2283F39453A658",
+  "filename": "Calcul PGCD.py",
+  "relPath": "bac info/algo/Python/Calcul PGCD.py",
+  "sha256": "5a2283f39453a6582202ec2f6e9a72ab20fa9ceeaf905050f2272b855630516c",
+  "extractedAt": "2026-11-14T18:35:35.471Z",
+  "pageCount": 1,
+  "textSnippet": "def PGCD(a,b): while a!=b: if a>b: a=a-b else: b=b-a return a p=PGCD(12,8) print(p)",
+  "fullText": "def PGCD(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\n\r\np=PGCD(12,8)\r\nprint(p)",
+  "chunks": [
+    {
+      "chunkId": "DOC-5A2283F39453A658-CHK-001",
+      "text": "def PGCD(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\n\np=PGCD(12,8)\r\nprint(p)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-ED87CB57004CE2FA",
+  "filename": "Conversion Decimal en Hexadecimal.py",
+  "relPath": "bac info/algo/Python/Conversion Decimal en Hexadecimal.py",
+  "sha256": "ed87cb57004ce2fa2fe0803d504198ecc8c7d9bc0d01686375c28dd48c27a076",
+  "extractedAt": "2026-11-14T18:35:35.482Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): global n n=int(input(\"Donner le nombre decimal: \")) def conversion(x): ch=\"\" while x!=0: r=x%16 x=x//16 if r>=10: r=chr(r+55) ch=r+ch else: ch=str(r)+ch print(ch) saisie() conversion(n)",
+  "fullText": "def saisie():\r\n    global n\r\n    n=int(input(\"Donner le nombre decimal: \"))\r\ndef conversion(x):\r\n    ch=\"\"\r\n    while x!=0:\r\n        r=x%16\r\n        x=x//16\r\n        if r>=10:\r\n            r=chr(r+55)\r\n            ch=r+ch\r\n        else:\r\n            ch=str(r)+ch\r\n    print(ch)\r\nsaisie()\r\nconversion(n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-ED87CB57004CE2FA-CHK-001",
+      "text": "def saisie():\r\n    global n\r\n    n=int(input(\"Donner le nombre decimal: \"))\r\ndef conversion(x):\r\n    ch=\"\"\r\n    while x!=0:\r\n        r=x%16\r\n        x=x//16\r\n        if r>=10:\r\n            r=chr(r+55)\r\n            ch=r+ch\r\n        else:\r\n            ch=str(r)+ch\r\n    print(ch)\r\nsaisie()\r\nconversion(n)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-33D80B4E35AA8BE6",
+  "filename": "logo.png",
+  "relPath": "bac 2025/logo.png",
+  "sha256": "33d80b4e35aa8be6c03e4f92fd3d390b52fd5ed21caa53decdc04d2e5179bba4",
+  "extractedAt": "2026-11-06T14:23:24.372Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-33D80B4E35AA8BE6-CHK-001",
+      "text": "[Fichier Image Pédagogique: logo.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

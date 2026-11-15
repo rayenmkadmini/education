@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DC3A9292F3881E3B",
+  "filename": "saisie_entier.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/saisie_entier.py",
+  "sha256": "dc3a9292f3881e3bea706715cca9e7fd1684b4e14056e7c3e847b4d7fb39d39a",
+  "extractedAt": "2026-11-06T14:24:40.851Z",
+  "pageCount": 1,
+  "textSnippet": "#Ce programme permet de saisir un entier n vérifiant une contition (ex: 5 <= n <= 25) b = False while not b: n = int(input('Donnrer un entier entre 5 et 25: ')) b = 5 <= n <= 25",
+  "fullText": "#Ce programme permet de saisir un entier n vérifiant une contition (ex: 5 <= n <= 25)\r\n\r\nb = False\r\nwhile not b:\r\n    n = int(input('Donnrer un entier entre 5 et 25: '))\r\n    b = 5 <= n <= 25\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DC3A9292F3881E3B-CHK-001",
+      "text": "#Ce programme permet de saisir un entier n vérifiant une contition (ex: 5 <= n <= 25)\r\n\nb = False\r\nwhile not b:\r\n    n = int(input('Donnrer un entier entre 5 et 25: '))\r\n    b = 5 <= n <= 25"
+    }
+  ]
+}

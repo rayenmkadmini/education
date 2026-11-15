@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-824E226D4DB23CD1",
+  "filename": "convertisseur.pdf",
+  "relPath": "bac info/physique taki/convertisseur.pdf",
+  "sha256": "824e226d4db23cd17e7ce85373710fda3bae4541a7f5e902c281244afd88cf09",
+  "extractedAt": "2026-11-06T14:24:03.055Z",
+  "pageCount": 4,
+  "textSnippet": "-- 1 of 4 -- On considère le convertisseur numérique C.N.A à 4 bits de la figure n°1, utilisant une échelle de résistances pondèrées. L'amplificateur opérationnel fonctionne en régime linéaire. Il est supposé parfait Il est polarisé à ± Vcc, avec Vcc= 12V ; Eréf=4V et R=R'. Les interrupteurs Kj sont commandés par un circuit logique tel que: j=0,1,2 et 3 • Pour aj =1, ona Kj fermé, • Pour aj =0, ona Kj ouvert. 1. a- Définir un C.N.A et un C.A.N b- Montrer que l'expression de l'intensité du coura",
+  "fullText": "-- 1 of 4 --\n\nOn considère le convertisseur numérique C.N.A à 4 bits de la figure n°1, utilisant une échelle de résistances pondèrées.\nL'amplificateur opérationnel fonctionne en régime linéaire.\nIl est supposé parfait Il est polarisé à ± Vcc, avec Vcc= 12V ; Eréf=4V et R=R'. Les interrupteurs Kj sont commandés\npar un circuit logique tel que: j=0,1,2 et 3\n• Pour aj =1, ona Kj fermé,\n• Pour aj =0, ona Kj ouvert.\n1.\na- Définir un C.N.A et un C.A.N\nb- Montrer que l'expression de l'intensité du courant I3 qui parcourt le résistor de résistances R est :\n𝐼3 = 𝑎3 . 𝐸𝑟𝑒𝑓\n𝑅\n2. Exprimer l‘intensité du courant i qui traverse le résistor de résistance R’ en fonction de aj , Eréf et R .\n3. Préciser l'importance de l'amplificateur opérationnel dans un montage pareil.\n4. Exprimer Us en fonction de aj, Eref,R et R' et montrer que Us = K.N\n5. En déduire le quantum q et la pleine échelle Usmax du C.N.A.\n\n-- 2 of 4 --\n\nOn considère le convertisseur numérique analogique à 8 bits schématisé par la figure n°2.\nLes variables logiques aj du registre binaire commandent les interrupteurs Kj associés aux résistances pondérées\n128R à R. L'interrupteur K0 est associé au résistor 128 R.\n1.\na- Donner l'expression de l'intensité du courant électrique I0 qui traverse le résistor 128 R\nb- Etablir l'expression de la tension de sortie Us du convertisseur en fonction de a0, R, R₁ et Eref\n2. Montrer que la tension de sortie associée à l'information numérique 11001010 est:\nUs= 𝑹𝟏 . ( 𝑬𝒓𝒆𝒇\n𝑹 + 𝑬𝒓𝒆𝒇\n𝟐𝑹 + 𝑬𝒓𝒆𝒇\n𝟏𝟔𝑹 + 𝑬𝒓𝒆𝒇\n𝟔𝟒𝑹 )\n3. Calculer la valeur de tension Us correspondant à cette information sachant que la tension maximale de\nsortie de l'amplificateur opérationnel est 10V.\n4. Comment faut-il choisir la valeur de Eref pour assurer un fonctionnement convenable du C.N.A?\n\n-- 3 of 4 --\n\n\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "On considère le convertisseur numérique C.N.A à 4 bits de la figure n°1, utilisant une échelle de résistances pondèrées.\nL'amplificateur opérationnel fonctionne en régime linéaire.\nIl est supposé parfait Il est polarisé à ± Vcc, avec Vcc= 12V ; Eréf=4V et R=R'. Les interrupteurs Kj sont commandés\npar un circuit logique tel que: j=0,1,2 et 3\n• Pour aj =1, ona Kj fermé,\n• Pour aj =0, ona Kj ouvert.\n1.\na- Définir un C.N.A et un C.A.N\nb- Montrer que l'expression de l'intensité du courant I3 qui parcourt le résistor de résistances R est :\n𝐼3 = 𝑎3 . 𝐸𝑟𝑒𝑓\n𝑅\n2. Exprimer l‘intensité du courant i qui traverse le résistor de résistance R’ en fonction de aj , Eréf et R .\n3. Préciser l'importance de l'amplificateur opérationnel dans un montage pareil.\n4. Exprimer Us en fonction de aj, Eref,R et R' et montrer que Us = K.N\n5. En déduire le quantum q et la pleine échelle Usmax du C.N.A."
+    },
+    {
+      "pageNumber": 3,
+      "text": "On considère le convertisseur numérique analogique à 8 bits schématisé par la figure n°2.\nLes variables logiques aj du registre binaire commandent les interrupteurs Kj associés aux résistances pondérées\n128R à R. L'interrupteur K0 est associé au résistor 128 R.\n1.\na- Donner l'expression de l'intensité du courant électrique I0 qui traverse le résistor 128 R\nb- Etablir l'expression de la tension de sortie Us du convertisseur en fonction de a0, R, R₁ et Eref\n2. Montrer que la tension de sortie associée à l'information numérique 11001010 est:\nUs= 𝑹𝟏 . ( 𝑬𝒓𝒆𝒇\n𝑹 + 𝑬𝒓𝒆𝒇\n𝟐𝑹 + 𝑬𝒓𝒆𝒇\n𝟏𝟔𝑹 + 𝑬𝒓𝒆𝒇\n𝟔𝟒𝑹 )\n3. Calculer la valeur de tension Us correspondant à cette information sachant que la tension maximale de\nsortie de l'amplificateur opérationnel est 10V.\n4. Comment faut-il choisir la valeur de Eref pour assurer un fonctionnement convenable du C.N.A?"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-824E226D4DB23CD1-CHK-001",
+      "pageNumber": 2,
+      "text": "On considère le convertisseur numérique C.N.A à 4 bits de la figure n°1, utilisant une échelle de résistances pondèrées.\nL'amplificateur opérationnel fonctionne en régime linéaire.\nIl est supposé parfait Il est polarisé à ± Vcc, avec Vcc= 12V ; Eréf=4V et R=R'. Les interrupteurs Kj sont commandés\npar un circuit logique tel que: j=0,1,2 et 3\n• Pour aj =1, ona Kj fermé,\n• Pour aj =0, ona Kj ouvert.\n1.\na- Définir un C.N.A et un C.A.N\nb- Montrer que l'expression de l'intensité du courant I3 qui parcourt le résistor de résistances R est :\n𝐼3 = 𝑎3 . 𝐸𝑟𝑒𝑓\n𝑅\n2. Exprimer l‘intensité du courant i qui traverse le résistor de résistance R’ en fonction de aj , Eréf et R .\n3. Préciser l'importance de l'amplificateur opérationnel dans un montage pareil.\n4. Exprimer Us en fonction de aj, Eref,R et R' et montrer que Us = K.N\n5. En déduire le quantum q et la pleine échelle Usmax du C.N.A."
+    },
+    {
+      "chunkId": "DOC-824E226D4DB23CD1-CHK-002",
+      "pageNumber": 3,
+      "text": "On considère le convertisseur numérique analogique à 8 bits schématisé par la figure n°2.\nLes variables logiques aj du registre binaire commandent les interrupteurs Kj associés aux résistances pondérées\n128R à R. L'interrupteur K0 est associé au résistor 128 R.\n1.\na- Donner l'expression de l'intensité du courant électrique I0 qui traverse le résistor 128 R\nb- Etablir l'expression de la tension de sortie Us du convertisseur en fonction de a0, R, R₁ et Eref\n2. Montrer que la tension de sortie associée à l'information numérique 11001010 est:\nUs= 𝑹𝟏 . ( 𝑬𝒓𝒆𝒇\n𝑹 + 𝑬𝒓𝒆𝒇\n𝟐𝑹 + 𝑬𝒓𝒆𝒇\n𝟏𝟔𝑹 + 𝑬𝒓𝒆𝒇\n𝟔𝟒𝑹 )\n3. Calculer la valeur de tension Us correspondant à cette information sachant que la tension maximale de\nsortie de l'amplificateur opérationnel est 10V.\n4. Comment faut-il choisir la valeur de Eref pour assurer un fonctionnement convenable du C.N.A?"
+    }
+  ]
+}

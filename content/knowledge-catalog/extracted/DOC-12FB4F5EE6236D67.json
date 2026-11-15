@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-12FB4F5EE6236D67",
+  "filename": "effacer_caractères_redandants.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/effacer_caractères_redandants.py",
+  "sha256": "12fb4f5ee6236d6746b128434357de8199f660d4ccd261d013b1a83eeafc059f",
+  "extractedAt": "2026-11-06T14:24:40.589Z",
+  "pageCount": 1,
+  "textSnippet": "#Supprimer les caractères qui se répètent dans une chaine CH=str(input(\"< \")) def sup(ch) : p = 1 ok = True while ok : s = ch[:p] x = s.find(ch[p]) if x != -1 : ch = ch[:p] + ch[p+1:] else: p += 1 ok = p <= len(ch)-1 return (ch) print(sup(CH))",
+  "fullText": "#Supprimer les caractères qui se répètent dans une chaine\r\n\r\nCH=str(input(\"< \"))\r\n\r\ndef sup(ch) : \r\n    p = 1\r\n    ok = True\r\n    while ok :\r\n        s = ch[:p] \r\n        x = s.find(ch[p])\r\n        if x != -1 :\r\n            ch = ch[:p] + ch[p+1:]\r\n        else:\r\n            p += 1\r\n        ok = p <= len(ch)-1\r\n    return (ch)\r\n\r\nprint(sup(CH))\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-12FB4F5EE6236D67-CHK-001",
+      "text": "#Supprimer les caractères qui se répètent dans une chaine\r\n\nCH=str(input(\"< \"))\r\n\ndef sup(ch) : \r\n    p = 1\r\n    ok = True\r\n    while ok :\r\n        s = ch[:p] \r\n        x = s.find(ch[p])\r\n        if x != -1 :\r\n            ch = ch[:p] + ch[p+1:]\r\n        else:\r\n            p += 1\r\n        ok = p <= len(ch)-1\r\n    return (ch)\r\n\nprint(sup(CH))"
+    }
+  ]
+}

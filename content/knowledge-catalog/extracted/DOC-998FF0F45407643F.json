@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-998FF0F45407643F",
+  "filename": "ppcm a14.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/ppcm a14.py",
+  "sha256": "998ff0f45407643fcb9269aaa4c2f41119bf2eaeaacabb87879db56c2b80757e",
+  "extractedAt": "2026-11-14T18:35:36.372Z",
+  "pageCount": 1,
+  "textSnippet": "def ppcm(a,b): a1=a b1=b while a!=b: if a>b: b=b+b1 else: a=a+a1 return a print(ppcm(32,48))",
+  "fullText": "def ppcm(a,b):\r\n    a1=a\r\n    b1=b\r\n    while a!=b:\r\n        if a>b:\r\n            b=b+b1\r\n        else:\r\n            a=a+a1\r\n    return a\r\n\r\nprint(ppcm(32,48))",
+  "chunks": [
+    {
+      "chunkId": "DOC-998FF0F45407643F-CHK-001",
+      "text": "def ppcm(a,b):\r\n    a1=a\r\n    b1=b\r\n    while a!=b:\r\n        if a>b:\r\n            b=b+b1\r\n        else:\r\n            a=a+a1\r\n    return a\r\n\nprint(ppcm(32,48))"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-E44474AF909F380B",
+  "filename": "ex2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex2.py",
+  "sha256": "e44474af909f380b40128f62ec387c663f52bac2130ed63900fbf64672ed4c34",
+  "extractedAt": "2026-11-06T14:24:35.451Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): x=int(input('un entier: ')) b=x>=0 return x def polydivisible(x): p=2 s1='' print('x=',x) s=str(x) print('s=',s) b=True while (b and s1!=s): s1=s[:p] print('s1=',s1) y=int(s1) b=y % p==0 print('p=',p) print('b=',b) p=p+1 return b def affiche(b): if b: print('polydivisible') else: print",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('un entier:  '))\r\n        b=x>=0\r\n    return x\r\ndef polydivisible(x):\r\n    p=2\r\n    s1=''\r\n    print('x=',x)\r\n    s=str(x)\r\n    print('s=',s)\r\n    b=True\r\n    while (b and s1!=s):\r\n      \r\n        s1=s[:p]\r\n        print('s1=',s1)\r\n        y=int(s1)\r\n        b=y % p==0\r\n        print('p=',p)\r\n        print('b=',b)\r\n        p=p+1\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('polydivisible')\r\n    else:\r\n        print('non polydivisible')\r\nx=saisie()\r\nb=polydivisible(x)\r\naffiche(b)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-E44474AF909F380B-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('un entier:  '))\r\n        b=x>=0\r\n    return x\r\ndef polydivisible(x):\r\n    p=2\r\n    s1=''\r\n    print('x=',x)\r\n    s=str(x)\r\n    print('s=',s)\r\n    b=True\r\n    while (b and s1!=s):\r\n\n        s1=s[:p]\r\n        print('s1=',s1)\r\n        y=int(s1)\r\n        b=y % p==0\r\n        print('p=',p)\r\n        print('b=',b)\r\n        p=p+1\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('polydivisible')\r\n    else:\r\n        print('non polydivisible')\r\nx=saisie()\r\nb=polydivisible(x)\r\naffiche(b)"
+    }
+  ]
+}

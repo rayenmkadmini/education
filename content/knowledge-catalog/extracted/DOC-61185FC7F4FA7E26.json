@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-61185FC7F4FA7E26",
+  "filename": "Ex4serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex4serie7.docx",
+  "sha256": "61185fc7f4fa7e26e4b779ac5ff3522dfc723d89c5ac46e6257e5b8fc289b566",
+  "extractedAt": "2026-11-06T14:24:39.954Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex4serie7 Résultat =PROC affiche( T ,n ) t= PROC trait( T ,n ) T=PROC remplir( T ,n ) n=PROC saisie(n) Fin Ex4serie7 ___________________________________________________________________________ DEF PROC trait ( var T :tab ; var n :entier ) V ← T[ 1] P ← 1 Pour i de 2 à n faire Si T[i] <= V Alors X ← T[i] Pour j de i à p+1 (Pas = -1) faire T[j] ← T[ j-1] Fin pour T[p] ← X Finsi Fin pour Fin trait",
+  "fullText": "Nom : Ex4serie7\n\nRésultat =PROC affiche(\n\nT\n\n,n\n\n)\n\nt=  PROC trait(\n\nT\n\n,n\n\n)\n\nT=PROC remplir(\n\nT\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex4serie7\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n T :tab ; var n :entier )\n\nV ← \n\nT[\n\n1]\n\nP  ← 1\n\nPour i de 2 à n faire \n\n   Si T[i] <= V\n\n      Alors\n\n      X ← T[i]\n\n      Pour j de i à p+1 (Pas = -1) faire\n\n          T[j] ← \n\nT[\n\nj-1]\n\n      Fin pour\n\n      T[p] ← X\n\nFinsi\n\nFin pour\n\nFin trait",
+  "chunks": [
+    {
+      "chunkId": "DOC-61185FC7F4FA7E26-CHK-001",
+      "text": "Nom : Ex4serie7\n\nRésultat =PROC affiche(\n\nT\n\n,n\n\n)\n\nt=  PROC trait(\n\nT\n\n,n\n\n)\n\nT=PROC remplir(\n\nT\n\n,n\n\n)\n\nn=PROC saisie(n)\n\nFin Ex4serie7\n\n___________________________________________________________________________\n\nDEF PROC trait \n\n( var\n\n T :tab ; var n :entier )\n\nV ← \n\nT[\n\n1]\n\nP  ← 1\n\nPour i de 2 à n faire \n\n   Si T[i] <= V\n\n      Alors\n\n      X ← T[i]\n\n      Pour j de i à p+1 (Pas = -1) faire\n\n          T[j] ← \n\nT[\n\nj-1]\n\n      Fin pour\n\n      T[p] ← X\n\nFinsi\n\nFin pour\n\nFin trait"
+    }
+  ]
+}

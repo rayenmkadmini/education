@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-84BE015C47A0AD8A",
+  "filename": "epreuve_pratique_2014_sujet5.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5.py",
+  "sha256": "84be015c47a0ad8a132ae629d63e217304a3d6ff33b30904ffafcb20dbd55a1a",
+  "extractedAt": "2026-11-06T14:24:36.842Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * tn = array([int] * 1000) tm = array([int] * 1000) def Saisie(): b = False while not b: n = int(input('Donner n: ')) m = int(input('Donner m: ')) b = 10 <= n < m <= 999 return n, m def Somme_div(n): S = 0 d = 1 while d < n: if n % d == 0: S += d d += 1 else: d += 1 return S def Suite_aliquote(a, t): t[0] = a i = 1 while a != 1",
+  "fullText": "from numpy import *\r\n\r\ntn = array([int] * 1000)\r\ntm = array([int] * 1000)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 10 <= n < m <= 999\r\n    return n, m\r\n\r\n\r\ndef Somme_div(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\r\n\r\ndef Suite_aliquote(a, t):\r\n    t[0] = a\r\n    i = 1\r\n    while a != 1:\r\n        a = Somme_div(a)\r\n        t[i] = a\r\n        i += 1\r\n    return i\r\n\r\n\r\ndef commun(tn, tm, j, k):\r\n    S = 0\r\n    for i in range(j):\r\n        for loop in range(k):\r\n            if (tn[i]) == tm[loop]:\r\n                S += 1\r\n    return S\r\n\r\n\r\ndef Afficher(tn, tm, j, k, S):\r\n    chn = ''\r\n    chm = ''\r\n    for i in range(j):\r\n        chn += str(tn[i]) + ' '\r\n    for i in range(k):\r\n        chm += str(tm[i]) + ' '\r\n    print('La suite aliquote de n est: ', chn)\r\n    print('La suite aliquote de m est: ', chm)\r\n    print('le nombre des termes communs est: ', S)\r\n\r\n\r\n######################################\r\nn, m = Saisie()\r\nj = Suite_aliquote(n, tn)\r\nk = Suite_aliquote(m, tm)\r\nS = commun(tn, tm, j, k)\r\nAfficher(tn, tm, j, k, S)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-84BE015C47A0AD8A-CHK-001",
+      "text": "from numpy import *\r\n\ntn = array([int] * 1000)\r\ntm = array([int] * 1000)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 10 <= n < m <= 999\r\n    return n, m\r\n\ndef Somme_div(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\ndef Suite_aliquote(a, t):\r\n    t[0] = a\r\n    i = 1\r\n    while a != 1:\r\n        a = Somme_div(a)\r\n        t[i] = a\r\n        i += 1\r\n    return i\r\n\ndef commun(tn, tm, j, k):\r\n    S = 0\r\n    for i in range(j):\r\n        for loop in range(k):\r\n            if (tn[i]) == tm[loop]:\r\n                S += 1\r\n    return S"
+    },
+    {
+      "chunkId": "DOC-84BE015C47A0AD8A-CHK-002",
+      "text": "def Afficher(tn, tm, j, k, S):\r\n    chn = ''\r\n    chm = ''\r\n    for i in range(j):\r\n        chn += str(tn[i]) + ' '\r\n    for i in range(k):\r\n        chm += str(tm[i]) + ' '\r\n    print('La suite aliquote de n est: ', chn)\r\n    print('La suite aliquote de m est: ', chm)\r\n    print('le nombre des termes communs est: ', S)\r\n\n######################################\r\nn, m = Saisie()\r\nj = Suite_aliquote(n, tn)\r\nk = Suite_aliquote(m, tm)\r\nS = commun(tn, tm, j, k)\r\nAfficher(tn, tm, j, k, S)"
+    }
+  ]
+}

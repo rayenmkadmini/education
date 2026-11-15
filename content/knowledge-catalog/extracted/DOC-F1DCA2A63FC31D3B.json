@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F1DCA2A63FC31D3B",
+  "filename": "inverse.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/inverse.py",
+  "sha256": "f1dca2a63fc31d3bda2c8106b33574ee50c184234284e2c1e1f64f29498768e9",
+  "extractedAt": "2026-11-14T18:35:36.360Z",
+  "pageCount": 1,
+  "textSnippet": "def inverse(ch): inv=\"\" inv=ch[::-1] return inv print(\"la chaine inverse est: \",inverse(\"foulen\"))",
+  "fullText": "def inverse(ch):\r\n    inv=\"\"\r\n    inv=ch[::-1]\r\n    return inv\r\n\r\nprint(\"la chaine inverse est: \",inverse(\"foulen\"))",
+  "chunks": [
+    {
+      "chunkId": "DOC-F1DCA2A63FC31D3B-CHK-001",
+      "text": "def inverse(ch):\r\n    inv=\"\"\r\n    inv=ch[::-1]\r\n    return inv\r\n\nprint(\"la chaine inverse est: \",inverse(\"foulen\"))"
+    }
+  ]
+}

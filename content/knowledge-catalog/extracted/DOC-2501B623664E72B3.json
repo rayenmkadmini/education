@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2501B623664E72B3",
+  "filename": "Valeur Absollu d_un Nombre.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Valeur Absollu d_un Nombre.html",
+  "sha256": "2501b623664e72b30ad64311030c4cf76131a1f5743f452a8edda9505a059568",
+  "extractedAt": "2026-11-14T18:35:36.506Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <script type=\"text/javascript\"> function absolu(){ var v=(document.f.z.value); {alert(\"La Valeur Absolu De Votre Nombre est :\" + Math.abs(v));} } </script> <title>Nombre Absolu</title> </head> <body> <form name=\"f\"> <p>Donner Votre Nombre: <input type=\"text\" name=\"z\"> </p> <p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"absolu()\"> <input type=\"reset\" name=\"b2\" value=\"Annuler\"></p> </form> </body> </html>",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction absolu(){\r\n\t\t\tvar v=(document.f.z.value);\t\r\n\t\t\t{alert(\"La Valeur Absolu De Votre Nombre est :\" + Math.abs(v));}\r\n\t\t}\r\n\t</script>\r\n\t<title>Nombre Absolu</title>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Donner Votre Nombre: <input type=\"text\" name=\"z\"> </p>\r\n\t<p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"absolu()\"> <input type=\"reset\" name=\"b2\" value=\"Annuler\"></p>\r\n</form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-2501B623664E72B3-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction absolu(){\r\n\t\t\tvar v=(document.f.z.value);\t\r\n\t\t\t{alert(\"La Valeur Absolu De Votre Nombre est :\" + Math.abs(v));}\r\n\t\t}\r\n\t</script>\r\n\t<title>Nombre Absolu</title>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Donner Votre Nombre: <input type=\"text\" name=\"z\"> </p>\r\n\t<p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"absolu()\"> <input type=\"reset\" name=\"b2\" value=\"Annuler\"></p>\r\n</form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

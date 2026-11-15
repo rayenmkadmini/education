@@ -1,0 +1,26 @@
+{
+  "documentId": "DOC-C1C6C9D889555829",
+  "filename": "Suite fibonacci.zip",
+  "sha256": "c1c6c9d8895558297ce64fe04fa2f3b65e4267aa8c259485cb81308ec1951b60",
+  "extractedAt": "2026-11-06T13:58:10.719Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: Suite fibonacci.zip Nombre d'éléments: 3 --- FICHIER: Suite fibonacci/fibo.py --- from PyQt5.QtWidgets import * from PyQt5.uic import loadUi def calcul(): try: n=int(w.txtN.text()) u0=1 u1=1 w.table.setRowCount(0) # vider le QTableWidget w.table.insertRow(0) w.table.setItem(0,0,QTableWidgetItem(\"U0=\")) w.table.setItem(0,1,QTableWidgetItem(str(u0))) w.table.insertRow(1) w.table.setItem(1,0,QTabl",
+  "fullText": "Archive ZIP: Suite fibonacci.zip\nNombre d'éléments: 3\n\n--- FICHIER: Suite fibonacci/fibo.py ---\nfrom PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import loadUi\r\ndef calcul():\r\n    try:\r\n        n=int(w.txtN.text())\r\n        u0=1\r\n        u1=1\r\n        w.table.setRowCount(0)  # vider le QTableWidget\r\n        w.table.insertRow(0)\r\n        w.table.setItem(0,0,QTableWidgetItem(\"U0=\"))\r\n        w.table.setItem(0,1,QTableWidgetItem(str(u0)))\r\n        w.table.insertRow(1)\r\n        w.table.setItem(1,0,QTableWidgetItem(\"U1=\"))\r\n        w.table.setItem(1,1,QTableWidgetItem(str(u1)))\r\n        for i in range (2,n+1):\r\n            u=u0+u1\r\n            u0=u1\r\n            u1=u\r\n            w.table.insertRow(i)\r\n            w.table.setItem(i,0,QTableWidgetItem(\"U\"+str(i)+\"=\"))\r\n            w.table.setItem(i,1,QTableWidgetItem(str(u)))\r\n    except:\r\n        QMessageBox.critical(w,'attention',\" c'est pas un nombre!!\")\r\n\r\n###############  PP  ###########\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnCalculer.clicked.connect(calcul)\r\n\r\nw.show()\r\napp.exec_()\n\n",
+  "zipEntries": [
+    {
+      "name": "Suite fibonacci/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "Suite fibonacci/fibo.py",
+      "sizeBytes": 961,
+      "isDirectory": false
+    },
+    {
+      "name": "Suite fibonacci/interface.ui",
+      "sizeBytes": 1887,
+      "isDirectory": false
+    }
+  ]
+}

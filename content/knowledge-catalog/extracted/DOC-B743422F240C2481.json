@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-B743422F240C2481",
+  "filename": "résumé.pdf",
+  "relPath": "algorithme -20261106T124655Z-1-001/algorithme_/La récursivité/résumé.pdf",
+  "sha256": "b743422f240c2481fd667fbcc37ed691ecc99a161c4bfea1f302b2c61d7ab204",
+  "extractedAt": "2026-11-06T14:23:12.105Z",
+  "pageCount": 2,
+  "textSnippet": "Bac — Informatique Bac — Informatique Algorithmique Algorithmique Récursivité — Cours :ﺔﻠﺴﻠﺴﻟا -- 1 of 2 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓRécursivité Définition On appelle récursive toute fonction ou procédure qui s'appelle elle-même. Notion de pile Définition (Pile d'exécution) La Pile d'exécution (call stack) du programme en cours est un emplacement mémoire destiné à mémoriser les paramètres, les variables locales ainsi que l'adresse de retour de chaque fonction en cours d'exécution. E",
+  "fullText": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Cours :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 2 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓRécursivité\nDéfinition\nOn appelle récursive toute fonction ou procédure qui s'appelle elle-même.\nNotion de pile\nDéfinition (Pile d'exécution)\nLa Pile d'exécution (call stack) du programme en cours est un emplacement mémoire\ndestiné à mémoriser les paramètres, les variables locales ainsi que l'adresse de retour de\nchaque fonction en cours d'exécution.\nElle fonctionne selon le principe LIFO (Last-In-First-Out) : dernier entré, premier sorti.\n⚠ Attention ! La pile a une taille fixée. Une mauvaise utilisation de la récursivité peut\nentraîner un débordement de pile (Stack Overflow).\nItération / récursivité\nSeuls les problèmes dont la solution se base sur une relation de récurrence avec une\ncondition de sortie peuvent être résolus de façon récursive.\nPoint terminal :\nRetenir\nComme dans le cas d'une boucle, il faut un cas d'arrêt où l'on ne fait pas d'appel récursif.\nStructure type :\nprocédure récursive(paramètres) :\nsi TEST_D'ARRET :\ninstructions du point d'arrêt\nsinon :\ninstructions\nrécursive(paramètres changés) ;\n// Appel récursif\ninstructions\nC H A P I T R E N ° 5\nRécursivité\nAlgorithmique\nChapitre N°5 · Récursivité · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Cours :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓRécursivité\nDéfinition\nOn appelle récursive toute fonction ou procédure qui s'appelle elle-même.\nNotion de pile\nDéfinition (Pile d'exécution)\nLa Pile d'exécution (call stack) du programme en cours est un emplacement mémoire\ndestiné à mémoriser les paramètres, les variables locales ainsi que l'adresse de retour de\nchaque fonction en cours d'exécution.\nElle fonctionne selon le principe LIFO (Last-In-First-Out) : dernier entré, premier sorti.\n⚠ Attention ! La pile a une taille fixée. Une mauvaise utilisation de la récursivité peut\nentraîner un débordement de pile (Stack Overflow).\nItération / récursivité\nSeuls les problèmes dont la solution se base sur une relation de récurrence avec une\ncondition de sortie peuvent être résolus de façon récursive.\nPoint terminal :\nRetenir\nComme dans le cas d'une boucle, il faut un cas d'arrêt où l'on ne fait pas d'appel récursif.\nStructure type :\nprocédure récursive(paramètres) :\nsi TEST_D'ARRET :\ninstructions du point d'arrêt\nsinon :\ninstructions\nrécursive(paramètres changés) ;\n// Appel récursif\ninstructions\nC H A P I T R E N ° 5\nRécursivité\nAlgorithmique\nChapitre N°5 · Récursivité · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-B743422F240C2481-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nAlgorithmique\tAlgorithmique\nRécursivité — Cours :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-B743422F240C2481-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓRécursivité\nDéfinition\nOn appelle récursive toute fonction ou procédure qui s'appelle elle-même.\nNotion de pile\nDéfinition (Pile d'exécution)\nLa Pile d'exécution (call stack) du programme en cours est un emplacement mémoire\ndestiné à mémoriser les paramètres, les variables locales ainsi que l'adresse de retour de\nchaque fonction en cours d'exécution.\nElle fonctionne selon le principe LIFO (Last-In-First-Out) : dernier entré, premier sorti.\n⚠ Attention ! La pile a une taille fixée. Une mauvaise utilisation de la récursivité peut\nentraîner un débordement de pile (Stack Overflow).\nItération / récursivité\nSeuls les problèmes dont la solution se base sur une relation de récurrence avec une\ncondition de sortie peuvent être résolus de façon récursive.\nPoint terminal :\nRetenir\nComme dans le cas d'une boucle, il faut un cas d'arrêt où l'on ne fait pas d'appel récursif.\nStructure type :\nprocédure récursive(paramètres) :\nsi TEST_D'ARRET :\ninstructions du point d'arrêt\nsinon :\ninstructions\nrécursive(paramètres changés) ;\n// Appel récursif\ninstructions\nC H A P I T R E N ° 5\nRécursivité\nAlgorithmique\nChapitre N°5 · Récursivité · Cours\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ]
+}

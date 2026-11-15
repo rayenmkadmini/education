@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-75EF85A1E7419D50",
+  "filename": "Serie 2 - Enonce (limite).pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/limite et contuinité_/Serie 2 - Enonce (limite).pdf",
+  "sha256": "75ef85a1e7419d50b942fa0067317d7742bf5f74f926b0fa39a6beb07dda7109",
+  "extractedAt": "2026-11-06T14:24:49.874Z",
+  "pageCount": 2,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Limites — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 2 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓSérie Exercice 1 Calculer les limites suivantes et interpreter: ; ; ; ; Exercice 2 Calculer les limites suivantes, si elles existent et interpreter. pour pour pour pour pour pour pour ; pour C H A P I T R E N ° 2 Série — Énoncé lim x→2− (12 + 3 x − 2 ) lim x→+∞ x2 − x + 3 lim x→−∞ x2 + 5 x − 1 lim x→+∞ √x − √x + 2 lim x→1 x2 + x − 2 x − 1 lim x→2 −x2 + x − 1",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLimites — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 2 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓSérie\nExercice 1\nCalculer les limites suivantes et interpreter:\n; \t;\n; \t;\nExercice 2\nCalculer les limites suivantes, si elles existent et interpreter.\npour\npour\npour\npour\npour\npour\npour\n; \tpour\nC H A P I T R E N ° 2\nSérie — Énoncé\nlim\nx→2− (12 + 3\nx − 2 ) lim\nx→+∞ x2 − x + 3 lim\nx→−∞\nx2 + 5\nx − 1\nlim\nx→+∞ √x − √x + 2 lim\nx→1\nx2 + x − 2\nx − 1 lim\nx→2\n−x2 + x − 1\n(2 − x)(x − 1)\nf(x) = x2 + x − 2\n2x2 + 3x − 2\nx → −2\nf(x) = 3x2 − x − 2\nx2 + 2x + 1\nx → +∞\nf(x) = √x2 + 1 − √2x\nx − 1\nx → 1\nf(x) = √x2 + 2x − x \tx → +∞\nf(x) = x + 2√x\nx − 1\nx → 1\nf(x) = 1\nx2 − 16 − 1\n√x − 2\nx → 4\nf(x) = x\n√x + 1 − 1\nx → 0\nf(x) = 1\nx2 − 1\nx → −∞\nMathématiques\nChapitre N°2 · Série · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1\n\n-- 2 of 2 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLimites — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓSérie\nExercice 1\nCalculer les limites suivantes et interpreter:\n; \t;\n; \t;\nExercice 2\nCalculer les limites suivantes, si elles existent et interpreter.\npour\npour\npour\npour\npour\npour\npour\n; \tpour\nC H A P I T R E N ° 2\nSérie — Énoncé\nlim\nx→2− (12 + 3\nx − 2 ) lim\nx→+∞ x2 − x + 3 lim\nx→−∞\nx2 + 5\nx − 1\nlim\nx→+∞ √x − √x + 2 lim\nx→1\nx2 + x − 2\nx − 1 lim\nx→2\n−x2 + x − 1\n(2 − x)(x − 1)\nf(x) = x2 + x − 2\n2x2 + 3x − 2\nx → −2\nf(x) = 3x2 − x − 2\nx2 + 2x + 1\nx → +∞\nf(x) = √x2 + 1 − √2x\nx − 1\nx → 1\nf(x) = √x2 + 2x − x \tx → +∞\nf(x) = x + 2√x\nx − 1\nx → 1\nf(x) = 1\nx2 − 16 − 1\n√x − 2\nx → 4\nf(x) = x\n√x + 1 − 1\nx → 0\nf(x) = 1\nx2 − 1\nx → −∞\nMathématiques\nChapitre N°2 · Série · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-75EF85A1E7419D50-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLimites — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-75EF85A1E7419D50-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓSérie\nExercice 1\nCalculer les limites suivantes et interpreter:\n; \t;\n; \t;\nExercice 2\nCalculer les limites suivantes, si elles existent et interpreter.\npour\npour\npour\npour\npour\npour\npour\n; \tpour\nC H A P I T R E N ° 2\nSérie — Énoncé\nlim\nx→2− (12 + 3\nx − 2 ) lim\nx→+∞ x2 − x + 3 lim\nx→−∞\nx2 + 5\nx − 1\nlim\nx→+∞ √x − √x + 2 lim\nx→1\nx2 + x − 2\nx − 1 lim\nx→2\n−x2 + x − 1\n(2 − x)(x − 1)\nf(x) = x2 + x − 2\n2x2 + 3x − 2\nx → −2\nf(x) = 3x2 − x − 2\nx2 + 2x + 1\nx → +∞\nf(x) = √x2 + 1 − √2x\nx − 1\nx → 1\nf(x) = √x2 + 2x − x \tx → +∞\nf(x) = x + 2√x\nx − 1\nx → 1\nf(x) = 1\nx2 − 16 − 1\n√x − 2\nx → 4\nf(x) = x\n√x + 1 − 1\nx → 0\nf(x) = 1\nx2 − 1\nx → −∞\nMathématiques\nChapitre N°2 · Série · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 1"
+    }
+  ]
+}

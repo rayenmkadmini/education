@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1C20B53B941CBC60",
+  "filename": "efface space.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/efface space.py",
+  "sha256": "1c20b53b941cbc60fa349d046cf4292960d659912e1a79518ecf2c223d8f7476",
+  "extractedAt": "2026-11-14T18:35:36.351Z",
+  "pageCount": 1,
+  "textSnippet": "def efface_espace(ch): while (ch.find(' ')!=-1): p=ch.find(' ') ch=ch[:p]+ch[p+1:] if ch[0]==\" \": ch=ch[1:] if ch[len(ch)-1]==\" \": ch=ch[:len(ch)-1] return ch ch=input(\"Donner ch: \") print(efface_espace(ch))",
+  "fullText": "def efface_espace(ch):\r\n    while (ch.find(' ')!=-1):\r\n        p=ch.find(' ')\r\n        ch=ch[:p]+ch[p+1:]\r\n    if ch[0]==\" \":\r\n        ch=ch[1:]\r\n    if ch[len(ch)-1]==\" \":\r\n        ch=ch[:len(ch)-1]\r\n    return ch\r\nch=input(\"Donner ch: \")\r\nprint(efface_espace(ch))",
+  "chunks": [
+    {
+      "chunkId": "DOC-1C20B53B941CBC60-CHK-001",
+      "text": "def efface_espace(ch):\r\n    while (ch.find(' ')!=-1):\r\n        p=ch.find(' ')\r\n        ch=ch[:p]+ch[p+1:]\r\n    if ch[0]==\" \":\r\n        ch=ch[1:]\r\n    if ch[len(ch)-1]==\" \":\r\n        ch=ch[:len(ch)-1]\r\n    return ch\r\nch=input(\"Donner ch: \")\r\nprint(efface_espace(ch))"
+    }
+  ]
+}

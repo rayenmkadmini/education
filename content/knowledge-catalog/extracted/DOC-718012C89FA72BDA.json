@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-718012C89FA72BDA",
+  "filename": "facteur premier.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/facteur premier.py",
+  "sha256": "718012c89fa72bdadc44669ea1d83141ca41024c47ca2155193aca1123063d8c",
+  "extractedAt": "2026-11-14T18:35:36.359Z",
+  "pageCount": 1,
+  "textSnippet": "def facteur(n): s=str(n)+\" = \" i=2 while n!=1: if n%i==0: s=s+str(i)+\" * \" n=n//i else: i=i+1 return s[0:len(s)-2] print(facteur(5))",
+  "fullText": "def facteur(n):\r\n    s=str(n)+\" = \"\r\n    i=2\r\n    while n!=1:\r\n        if n%i==0:\r\n            s=s+str(i)+\" * \"\r\n            n=n//i\r\n        else:\r\n            i=i+1\r\n    return s[0:len(s)-2]\r\n\r\nprint(facteur(5))",
+  "chunks": [
+    {
+      "chunkId": "DOC-718012C89FA72BDA-CHK-001",
+      "text": "def facteur(n):\r\n    s=str(n)+\" = \"\r\n    i=2\r\n    while n!=1:\r\n        if n%i==0:\r\n            s=s+str(i)+\" * \"\r\n            n=n//i\r\n        else:\r\n            i=i+1\r\n    return s[0:len(s)-2]\r\n\nprint(facteur(5))"
+    }
+  ]
+}

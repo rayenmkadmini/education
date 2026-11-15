@@ -1,0 +1,26 @@
+{
+  "documentId": "DOC-84B8F4A6609E4AA6",
+  "filename": "triangle pascal .zip",
+  "sha256": "84b8f4a6609e4aa60e271a1191e4a4fedaf8cd23dd9955e72ab64fdd1ea8b279",
+  "extractedAt": "2026-11-06T14:00:41.844Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: triangle pascal .zip Nombre d'éléments: 3 --- FICHIER: triangle pascal/triangle pascal.py --- from PyQt5.QtWidgets import * ## importation des widgets graphiques from PyQt5.uic import loadUi ## importation du compilateur graphique import numpy as np def afficher(): n=int(w.cmbTaille.currentText()) ### remplir matrice ##### m=np.array([[int]*n]*n) for l in range(n): for c in range (l+1): if c==0 or l==c: m[l,c]=1",
+  "fullText": "Archive ZIP: triangle pascal .zip\nNombre d'éléments: 3\n\n--- FICHIER: triangle pascal/triangle pascal.py ---\nfrom PyQt5.QtWidgets import *  ## importation des widgets graphiques  \r\nfrom PyQt5.uic import loadUi   ## importation du compilateur graphique\r\nimport numpy as np\r\ndef afficher():\r\n    n=int(w.cmbTaille.currentText())\r\n    ### remplir matrice #####\r\n    m=np.array([[int]*n]*n)\r\n    for l in range(n):\r\n        for c in range (l+1):\r\n            if c==0 or l==c:\r\n                m[l,c]=1\r\n            else:\r\n                m[l,c]=m[l-1,c-1]+m[l-1,c]\r\n    ### remplir QTableWidget (table) #####\r\n    w.table.setRowCount(0)\r\n    for l in range(n):\r\n        w.table.insertRow(l)\r\n        for c in range (l+1):\r\n            w.table.setItem(l,c,QTableWidgetItem(str(m[l,c])))\r\n                \r\n\r\n\r\n####### PP ####\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnAfficher.clicked.connect(afficher)\r\nw.show()\r\napp.exec_()\r\n\r\n\r\n\r\n\n\n",
+  "zipEntries": [
+    {
+      "name": "triangle pascal/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "triangle pascal/interface.ui",
+      "sizeBytes": 3934,
+      "isDirectory": false
+    },
+    {
+      "name": "triangle pascal/triangle pascal.py",
+      "sizeBytes": 831,
+      "isDirectory": false
+    }
+  ]
+}

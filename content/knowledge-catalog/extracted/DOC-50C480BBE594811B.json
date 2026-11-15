@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-50C480BBE594811B",
+  "filename": "bac2013theo.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/bac2013theo.py",
+  "sha256": "50c480bbe594811b18fd8275f02fd974fb598a8810305be540ef6e9da2ed450e",
+  "extractedAt": "2026-11-06T14:24:36.286Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import* T=array([int]*50) def Saisie(): b = False while not(b): x=int(input('Donner le nombre des cases: ')) b = 0 <= x <= 50 return x def Remplir(N): for i in range(N): T[i]=int(input('T['+str(i)+'] =')) def renvoie_Max(t,x,f): for i in range (x,f-1): if T[i]>T[i+1]: temp = T[i] T[i] = T[i+1] T[i+1] = temp def renvoie_Min(t,x,f): for i in range (f-1,d,-1):#check if T",
+  "fullText": "from numpy import*\r\nT=array([int]*50)\r\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input('Donner le nombre des cases: '))\r\n        b = 0 <= x <= 50\r\n    return x\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input('T['+str(i)+'] ='))\r\ndef renvoie_Max(t,x,f):\r\n    for i in range (x,f-1):\r\n        if T[i]>T[i+1]:\r\n            temp = T[i]\r\n            T[i] = T[i+1]\r\n            T[i+1] = temp\r\ndef renvoie_Min(t,x,f):\r\n    for i in range (f-1,d,-1):#check\r\n        if T[i]<T[i-1]:\r\n            temp = T[i]\r\n            T[i] = T[i-1]\r\n            T[i-1] = temp\r\ndef Test_echange(t,n):\r\n    ok = True\r\n    i= -1\r\n    while (ok) and i < n-2:\r\n        i+=1\r\n        ok = t[i]<=t[i+1]\r\n    return ok\r\ndef traitement(N,T):\r\n    n=0\r\n    d=N\r\n    verif=False\r\n    while (verif==False) and n<=d:\r\n        renvoie_Max(T,n,d)\r\n        renvoie_Min(T,n,d-1)\r\n        verif=Test_echange(T,N)\r\n        n+=1\r\n        d-=1\r\ndef Afficher(N,T):\r\n    for i in range(N):\r\n        print(T[i],end=\"\")\r\n##################PP##################\r\nN=Saisie()\r\nRemplir(N)\r\ntraitement(N,T)\r\nAfficher(N,T)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-50C480BBE594811B-CHK-001",
+      "text": "from numpy import*\r\nT=array([int]*50)\r\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input('Donner le nombre des cases: '))\r\n        b = 0 <= x <= 50\r\n    return x\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input('T['+str(i)+'] ='))\r\ndef renvoie_Max(t,x,f):\r\n    for i in range (x,f-1):\r\n        if T[i]>T[i+1]:\r\n            temp = T[i]\r\n            T[i] = T[i+1]\r\n            T[i+1] = temp\r\ndef renvoie_Min(t,x,f):\r\n    for i in range (f-1,d,-1):#check\r\n        if T[i]<T[i-1]:\r\n            temp = T[i]\r\n            T[i] = T[i-1]\r\n            T[i-1] = temp\r\ndef Test_echange(t,n):\r\n    ok = True\r\n    i= -1\r\n    while (ok) and i < n-2:\r\n        i+=1\r\n        ok = t[i]<=t[i+1]\r\n    return ok\r\ndef traitement(N,T):\r\n    n=0\r\n    d=N\r\n    verif=False\r\n    while (verif==False) and n<=d:\r\n        renvoie_Max(T,n,d)\r\n        renvoie_Min(T,n,d-1)\r\n        verif=Test_echange(T,N)\r\n        n+=1\r\n        d-=1\r\ndef Afficher(N,T):\r\n    for i in range(N):\r\n        print(T[i],end=\"\")\r\n##################PP##################\r\nN=Saisie()\r\nRemplir(N)\r\ntraitement(N,T)\r\nAfficher(N,T)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-9070B066CC426B7A",
+  "filename": "Phrase.txt",
+  "relPath": "bac info/algo/Python/Phrase.txt",
+  "sha256": "9070b066cc426b7a04ffa5bc57e7e38d0157e24b99d321f7dadabd43585f2fb7",
+  "extractedAt": "2026-11-14T18:35:36.321Z",
+  "pageCount": 1,
+  "textSnippet": "ethte ehrther",
+  "fullText": "ethte\r\nehrther\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-9070B066CC426B7A-CHK-001",
+      "text": "ethte\r\nehrther"
+    }
+  ]
+}

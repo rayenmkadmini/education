@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-08105B6B477A53D2",
+  "filename": "ex2.py",
+  "relPath": "bac info/Python/ex2_s3/ex2.py",
+  "sha256": "08105b6b477a53d2fd9d670c38c65653dd8924af6cda05eb3c9fd385bd7ffa8a",
+  "extractedAt": "2026-11-06T14:23:25.970Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def saisir(): chem = input(\"sasir \") while chem == \"\": chem = input(\"sasir \") return chem def transfer_f_t(f, t): global n ch = f.readline() while ch != \"\": t[n] = ch n += 1 ch = f.readline() f.close() def tri(t, n): for i in range(1, n): tmp = t[i] j = i while (j > 0) and (len(t[j - 1]) > len(tmp)): t[j] = t[j - 1] j = j - 1",
+  "fullText": "from numpy import array\r\n\r\n\r\ndef saisir():\r\n    chem = input(\"sasir \")\r\n    while chem == \"\":\r\n        chem = input(\"sasir \")\r\n    return chem\r\n\r\n\r\ndef transfer_f_t(f, t):\r\n    global n\r\n\r\n    ch = f.readline()\r\n    while ch != \"\":\r\n        t[n] = ch\r\n        n += 1\r\n        ch = f.readline()\r\n    f.close()\r\n\r\n\r\ndef tri(t, n):\r\n    for i in range(1, n):\r\n        tmp = t[i]\r\n        j = i\r\n        while (j > 0) and (len(t[j - 1]) > len(tmp)):\r\n            t[j] = t[j - 1]\r\n            j = j - 1\r\n        t[j] = tmp\r\n    f.close()\r\n\r\n\r\ndef transfer_t_f(f, t, n):\r\n    for i in range(n):\r\n        f.write(t[i])\r\n    f.close()\r\n\r\n\r\ndef affichage(f, n):\r\n    for i in range(n):\r\n        ch = f.readline()\r\n        print(ch)\r\n    f.close()\r\n\r\n\r\nn = 0\r\nt = array([str] * 50)\r\nchem = saisir()\r\nf = open(chem, \"r\")\r\ntransfer_f_t(f, t)\r\ntri(t, n)\r\nf = open(chem, \"w\")\r\ntransfer_t_f(f, t, n)\r\nf = open(chem, \"r\")\r\naffichage(f, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-08105B6B477A53D2-CHK-001",
+      "text": "from numpy import array\r\n\ndef saisir():\r\n    chem = input(\"sasir \")\r\n    while chem == \"\":\r\n        chem = input(\"sasir \")\r\n    return chem\r\n\ndef transfer_f_t(f, t):\r\n    global n\r\n\n    ch = f.readline()\r\n    while ch != \"\":\r\n        t[n] = ch\r\n        n += 1\r\n        ch = f.readline()\r\n    f.close()\r\n\ndef tri(t, n):\r\n    for i in range(1, n):\r\n        tmp = t[i]\r\n        j = i\r\n        while (j > 0) and (len(t[j - 1]) > len(tmp)):\r\n            t[j] = t[j - 1]\r\n            j = j - 1\r\n        t[j] = tmp\r\n    f.close()\r\n\ndef transfer_t_f(f, t, n):\r\n    for i in range(n):\r\n        f.write(t[i])\r\n    f.close()\r\n\ndef affichage(f, n):\r\n    for i in range(n):\r\n        ch = f.readline()\r\n        print(ch)\r\n    f.close()"
+    },
+    {
+      "chunkId": "DOC-08105B6B477A53D2-CHK-002",
+      "text": "n = 0\r\nt = array([str] * 50)\r\nchem = saisir()\r\nf = open(chem, \"r\")\r\ntransfer_f_t(f, t)\r\ntri(t, n)\r\nf = open(chem, \"w\")\r\ntransfer_t_f(f, t, n)\r\nf = open(chem, \"r\")\r\naffichage(f, n)"
+    }
+  ]
+}

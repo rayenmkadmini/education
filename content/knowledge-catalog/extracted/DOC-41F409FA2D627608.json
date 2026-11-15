@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-41F409FA2D627608",
+  "filename": "serie2ex5.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex5.py",
+  "sha256": "41f409fa2d627608964b3b37fb8d41ff2e285459c5aa9e877c9e2f850d525a41",
+  "extractedAt": "2026-11-06T14:24:39.776Z",
+  "pageCount": 1,
+  "textSnippet": "def verif(s): b=('A'<=s[0] <='Z') and (len (s)==12) i=0 while(b and (i< len(s)-1)): i=i+1 b='0'<=s[i]<='9' return b def saisie(): b=False while(b==False): s=str(input('introduire une chaine')) b=verif(s) return s def authentique(s): c=s[0] r=ord(c)-64 s=str(r)+s[1:] som=0 for i in range(len(s)): a=int(s[i]) som=som+a b=som % 9==8 return b def affiche(x,b): if b :",
+  "fullText": "def verif(s):\r\n    b=('A'<=s[0] <='Z') and (len (s)==12)\r\n    i=0\r\n    while(b and (i< len(s)-1)):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\r\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=str(input('introduire une chaine'))\r\n        b=verif(s)\r\n    return s\r\ndef authentique(s):\r\n    c=s[0]\r\n    r=ord(c)-64\r\n    s=str(r)+s[1:]\r\n    som=0\r\n    for i in range(len(s)):\r\n        a=int(s[i])\r\n        som=som+a\r\n    b=som % 9==8\r\n    return b\r\ndef affiche(x,b):\r\n    if b :\r\n        print(x,'est authentique')\r\n    else:\r\n        print(x,' n   ''est pas authentique')\r\n        \r\n    \r\n    \r\n#################pp#######################\r\nch=saisie()\r\nb=authentique(ch)\r\naffiche(ch,b)\r\n    \r\n        \r\n    ",
+  "chunks": [
+    {
+      "chunkId": "DOC-41F409FA2D627608-CHK-001",
+      "text": "def verif(s):\r\n    b=('A'<=s[0] <='Z') and (len (s)==12)\r\n    i=0\r\n    while(b and (i< len(s)-1)):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=str(input('introduire une chaine'))\r\n        b=verif(s)\r\n    return s\r\ndef authentique(s):\r\n    c=s[0]\r\n    r=ord(c)-64\r\n    s=str(r)+s[1:]\r\n    som=0\r\n    for i in range(len(s)):\r\n        a=int(s[i])\r\n        som=som+a\r\n    b=som % 9==8\r\n    return b\r\ndef affiche(x,b):\r\n    if b :\r\n        print(x,'est authentique')\r\n    else:\r\n        print(x,' n   ''est pas authentique')\r\n\n#################pp#######################\r\nch=saisie()\r\nb=authentique(ch)\r\naffiche(ch,b)"
+    }
+  ]
+}

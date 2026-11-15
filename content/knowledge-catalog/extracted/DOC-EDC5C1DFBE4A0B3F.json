@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-EDC5C1DFBE4A0B3F",
+  "filename": "suppression.php",
+  "relPath": "bac info/sti/projet 3 version élève/suppression.php",
+  "sha256": "edc5c1dfbe4a0b3f33ba0a2cab8531d8d1a76725857629f0ad8622bb4d36519c",
+  "extractedAt": "2026-11-06T14:24:19.151Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"belle_vision\") or die(\"Erreur de connexion\"); $id=$_POST[\"id\"]; $np=$_POST[\"np\"]; $req1=\"SELECT * from eleve where idEleve='$id' or nomprenom='$np'\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx)); if(mysqli_num_rows($res1)==0){ die(\"identifiant inexistant\"); } $req2=\"DELETE from eleve where idEleve='$id' or nomprenom='$np'\"; $res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx)); if(mysqli_a",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"belle_vision\") or die(\"Erreur de connexion\");\r\n\r\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n\r\n\r\n$req1=\"SELECT * from eleve where idEleve='$id' or nomprenom='$np'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\"identifiant  inexistant\");\r\n}\r\n$req2=\"DELETE from eleve where idEleve='$id' or nomprenom='$np'\";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)!=0){\r\n    die(\"eleve a ete supprimée à\".date(\"d/m/y h:i:s\"));\r\n}\r\nelse {\r\n    die(\"supression invalide\");\r\n}\r\n\r\n\r\nmysqli_close($cnx);\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-EDC5C1DFBE4A0B3F-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"belle_vision\") or die(\"Erreur de connexion\");\r\n\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n\n$req1=\"SELECT * from eleve where idEleve='$id' or nomprenom='$np'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\"identifiant  inexistant\");\r\n}\r\n$req2=\"DELETE from eleve where idEleve='$id' or nomprenom='$np'\";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)!=0){\r\n    die(\"eleve a ete supprimée à\".date(\"d/m/y h:i:s\"));\r\n}\r\nelse {\r\n    die(\"supression invalide\");\r\n}\r\n\nmysqli_close($cnx);\r\n?>"
+    }
+  ]
+}

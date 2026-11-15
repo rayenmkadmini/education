@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-02212A0DF5AE2017",
+  "filename": "serie2ex4.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex4.py",
+  "sha256": "02212a0df5ae2017f450340dc74316b1bae90197e905b719b919f9f4641e56ef",
+  "extractedAt": "2026-11-06T14:24:39.771Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): t=False while(not(t)): a=int(input('introduire a')) b=int(input('introduire b')) t=100<a<b<1000 return a,b def premier(x): b=x>1 i=1 while(b and (i< x // 2)): i=i+1 b =x % i != 0 #on peut compter le nombre de diviseurs mais ça nécessite bcp d'itérations return b def affiche (a,b): for i in range(a,b+1): b=premier(i) if b: print(i) #########################pp##",
+  "fullText": "def saisie():\r\n    t=False\r\n    while(not(t)):\r\n        a=int(input('introduire a'))\r\n        b=int(input('introduire b'))\r\n        t=100<a<b<1000\r\n    return a,b\r\ndef premier(x):\r\n    b=x>1\r\n    i=1\r\n    while(b and (i< x // 2)):\r\n        i=i+1\r\n        b =x % i != 0\r\n    #on peut compter le nombre de diviseurs mais ça nécessite bcp d'itérations\r\n    return b\r\ndef affiche (a,b):\r\n    for i in range(a,b+1):\r\n        b=premier(i)\r\n        if b:\r\n            print(i)\r\n#########################pp##################################\r\na,b=saisie()\r\naffiche(a,b)\r\n    \r\n        \r\n        ",
+  "chunks": [
+    {
+      "chunkId": "DOC-02212A0DF5AE2017-CHK-001",
+      "text": "def saisie():\r\n    t=False\r\n    while(not(t)):\r\n        a=int(input('introduire a'))\r\n        b=int(input('introduire b'))\r\n        t=100<a<b<1000\r\n    return a,b\r\ndef premier(x):\r\n    b=x>1\r\n    i=1\r\n    while(b and (i< x // 2)):\r\n        i=i+1\r\n        b =x % i != 0\r\n    #on peut compter le nombre de diviseurs mais ça nécessite bcp d'itérations\r\n    return b\r\ndef affiche (a,b):\r\n    for i in range(a,b+1):\r\n        b=premier(i)\r\n        if b:\r\n            print(i)\r\n#########################pp##################################\r\na,b=saisie()\r\naffiche(a,b)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2174D63F6A3E099A",
+  "filename": "Ex Thue Morse.py",
+  "relPath": "bac info/algo/Python/Ex Thue Morse.py",
+  "sha256": "2174d63f6a3e099a5294a4062d0dd0ee48b82e4b03a3c585bf73a9bd10dc29f0",
+  "extractedAt": "2026-11-14T18:35:36.316Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie_b(): b=int(input(\"Donner un chiffre binaire: \")) while not (b in [0,1]): b=int(input(\"Donner un chiffre binaire: \")) return b def saisie_n(): n=int(input(\"Donner le nombre de termes: \")) while not(n>2): n=int(input(\"Donner le nombre de termes: \")) return n def calcul(b,n): for i in range(n): print(b) U='' b1=str(b) for j in range(len(b1)): if b1[j]=='0': U=U+'01",
+  "fullText": "def saisie_b():\r\n    b=int(input(\"Donner un chiffre binaire: \"))\r\n    while not (b in [0,1]):\r\n        b=int(input(\"Donner un chiffre binaire: \"))\r\n    return b\r\n\r\ndef saisie_n():\r\n    n=int(input(\"Donner le nombre de termes: \"))\r\n    while not(n>2):\r\n        n=int(input(\"Donner le nombre de termes: \"))\r\n    return n\r\n\r\ndef calcul(b,n):\r\n    for i in range(n):\r\n        print(b)\r\n        U=''\r\n        b1=str(b)\r\n        for j in range(len(b1)):\r\n            if b1[j]=='0':\r\n                U=U+'01'\r\n            else:\r\n                U=U+'10'\r\n        b=U\r\n            \r\n            \r\n            \r\n        \r\n\r\n\r\n\r\n\r\n\r\n#Programme Principale\r\nb=saisie_b()\r\nn=saisie_n()\r\ncalcul(b,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-2174D63F6A3E099A-CHK-001",
+      "text": "def saisie_b():\r\n    b=int(input(\"Donner un chiffre binaire: \"))\r\n    while not (b in [0,1]):\r\n        b=int(input(\"Donner un chiffre binaire: \"))\r\n    return b\r\n\ndef saisie_n():\r\n    n=int(input(\"Donner le nombre de termes: \"))\r\n    while not(n>2):\r\n        n=int(input(\"Donner le nombre de termes: \"))\r\n    return n\r\n\ndef calcul(b,n):\r\n    for i in range(n):\r\n        print(b)\r\n        U=''\r\n        b1=str(b)\r\n        for j in range(len(b1)):\r\n            if b1[j]=='0':\r\n                U=U+'01'\r\n            else:\r\n                U=U+'10'\r\n        b=U\r\n\n#Programme Principale\r\nb=saisie_b()\r\nn=saisie_n()\r\ncalcul(b,n)"
+    }
+  ]
+}

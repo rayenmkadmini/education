@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-9FFC89677039448D",
+  "filename": "chaine.txt",
+  "relPath": "bac info/Python/ex2_s3/chaine.txt",
+  "sha256": "9ffc89677039448d7fce2df908c9e5be2044bc4dd4fc0deb1ccc0e23657965ca",
+  "extractedAt": "2026-11-06T14:23:25.940Z",
+  "pageCount": 1,
+  "textSnippet": "jmhm ghjkl nlkkj jhynh fghjkl ,jhynhtkuylu",
+  "fullText": "jmhm\r\nghjkl\r\nnlkkj\r\njhynh\r\nfghjkl\r\n,jhynhtkuylu\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-9FFC89677039448D-CHK-001",
+      "text": "jmhm\r\nghjkl\r\nnlkkj\r\njhynh\r\nfghjkl\r\n,jhynhtkuylu"
+    }
+  ]
+}

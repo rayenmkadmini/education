@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-7B664A6A7C14930F",
+  "filename": "tri_selection.py",
+  "sha256": "7b664a6a7c14930ff8a8906cda41f38a830fb72cefe0ac8596b9217aa9aa2164",
+  "extractedAt": "2026-11-06T14:00:41.783Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): global N valide=False while valide==False: N=int(input(\"Entrer le nombre d'éléments :\")) valide=5<=N<=20 def remplir(): global T T=[0]*20 for i in range(N): T[i]=int(input('Nombre '+str(i+1)+' :')) def tri_selection (T,N): for i in range(N-1): posmin=i for j in range(i+1,N): if T[j]<T[posmin]: posmin=j if posmin!=i: aux=T[i] T[i]=T[posmin] T[po",
+  "fullText": "def saisie():\n    global N\n    valide=False\n    while valide==False:\n        N=int(input(\"Entrer le nombre d'éléments :\"))\n        valide=5<=N<=20\ndef remplir():\n    global T\n    T=[0]*20\n    for i in range(N):\n        T[i]=int(input('Nombre '+str(i+1)+' :'))\ndef tri_selection (T,N):\n    for i in range(N-1):\n        posmin=i\n        for j in range(i+1,N):\n            if T[j]<T[posmin]:\n                posmin=j\n        if posmin!=i:\n            aux=T[i]\n            T[i]=T[posmin]\n            T[posmin]=aux\ndef affiche(T,N):\n    print(\"*** aprés le tri***\" )\n    for i in range (N):\n        print(T[i])\n\n######### PP ###########\nsaisie()\nremplir()\ntri_selection(T,N)\naffiche(T,N)\n\n\n\n"
+}

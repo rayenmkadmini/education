@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-1180E20DD1E46852",
+  "filename": "serie3 ex3v.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Serie 3/serie3 ex3v.py",
+  "sha256": "1180e20dd1e46852e12b25b9666ddb91a493e5f41002959721445e1310f17d95",
+  "extractedAt": "2026-11-06T14:24:39.925Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while(b==False): s=input('introduire votre numero') b=verif(s) return s def verif(s): b=len(s)==8 i=-1 while(b and i < len(s)-1): i=i+1 b='0'<=s[i]<='9' return b def miroir(s): ch='' for i in range(len(s)): ch=ch+'-' return ch def trait(s): b=False b2=False nb=8 ch1=s while(not(b) and not(b2) and nb>=1): ch=miroir(s)",
+  "fullText": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire votre numero')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=len(s)==8\r\n    i=-1\r\n    while(b and i < len(s)-1):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\r\ndef miroir(s):\r\n    ch=''\r\n    for i in range(len(s)):\r\n        ch=ch+'-'\r\n    return ch\r\n\r\ndef trait(s):\r\n    \r\n    \r\n    \r\n    b=False\r\n    b2=False\r\n    nb=8\r\n    ch1=s\r\n    while(not(b) and not(b2) and nb>=1):\r\n        ch=miroir(s)\r\n        s=ch1\r\n        \r\n        b1=False\r\n        while(not(b1)):\r\n            s1=input('introduire votre proposition')\r\n            b1=verif(s1)\r\n        nb=nb-1\r\n        s2=s1\r\n        b=s1==s       \r\n        if not b:\r\n            for i in range(8):\r\n                #print(s1[i])\r\n                \r\n                if s1[i]==s[i]:\r\n                        ch=ch[:i]+s1[i]+ch[i+1:]\r\n                        s=s[:i]+'*'+s[i+1:]\r\n                        s1=s1[:i]+'*'+s1[i+1:]\r\n                        \r\n                x= s.find(s1[i])\r\n                if x!=-1 and x!=i and s1[i]!='*':\r\n                        print(s1[i],'qui est dans la position',i+1,'n\\'est pas dans son emplacement')\r\n            b2=ch==s\r\n            if not b2:\r\n               \r\n                print('il vous reste',nb,'essais')\r\n                print(ch)\r\n    if b or b2 :\r\n        print('bravo vous aves deviné')\r\n    else:\r\n        print('désolé le numéro est:',ch1)\r\n                \r\n            \r\n####################pp##########################\r\ns=saisie()\r\ntrait(s)\r\n                    \r\n            \r\n            ",
+  "chunks": [
+    {
+      "chunkId": "DOC-1180E20DD1E46852-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire votre numero')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=len(s)==8\r\n    i=-1\r\n    while(b and i < len(s)-1):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\ndef miroir(s):\r\n    ch=''\r\n    for i in range(len(s)):\r\n        ch=ch+'-'\r\n    return ch\r\n\ndef trait(s):\r\n\n    b=False\r\n    b2=False\r\n    nb=8\r\n    ch1=s\r\n    while(not(b) and not(b2) and nb>=1):\r\n        ch=miroir(s)\r\n        s=ch1\r\n\n        b1=False\r\n        while(not(b1)):\r\n            s1=input('introduire votre proposition')\r\n            b1=verif(s1)\r\n        nb=nb-1\r\n        s2=s1\r\n        b=s1==s       \r\n        if not b:\r\n            for i in range(8):\r\n                #print(s1[i])"
+    },
+    {
+      "chunkId": "DOC-1180E20DD1E46852-CHK-002",
+      "text": "if s1[i]==s[i]:\r\n                        ch=ch[:i]+s1[i]+ch[i+1:]\r\n                        s=s[:i]+'*'+s[i+1:]\r\n                        s1=s1[:i]+'*'+s1[i+1:]\r\n\n                x= s.find(s1[i])\r\n                if x!=-1 and x!=i and s1[i]!='*':\r\n                        print(s1[i],'qui est dans la position',i+1,'n\\'est pas dans son emplacement')\r\n            b2=ch==s\r\n            if not b2:\r\n\n                print('il vous reste',nb,'essais')\r\n                print(ch)\r\n    if b or b2 :\r\n        print('bravo vous aves deviné')\r\n    else:\r\n        print('désolé le numéro est:',ch1)\r\n\n####################pp##########################\r\ns=saisie()\r\ntrait(s)"
+    }
+  ]
+}

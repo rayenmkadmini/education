@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-944E9A96020F5849",
+  "filename": "motdepassTRIE.txt",
+  "relPath": "bac info/sti/etude/Evaluation mot de passe/Evaluation mot de passe/motdepassTRIE.txt",
+  "sha256": "944e9a96020f5849b27268f5ff46b35d3571e6f3f33e43a4a6c2cd39f60e9501",
+  "extractedAt": "2026-11-06T14:24:16.745Z",
+  "pageCount": 1,
+  "textSnippet": "L3d mlgh. tRngAASv4 9aBc&dEfG P@ssw0rd! l3!Str!ng Secur3&Safe# #Symbo1!ZEd# $tr0ngP@$123 MyP@ssw0rd#123",
+  "fullText": "L3d\r\nmlgh.\r\ntRngAASv4\r\n9aBc&dEfG\r\nP@ssw0rd!\r\nl3!Str!ng\r\nSecur3&Safe#\r\n#Symbo1!ZEd#\r\n$tr0ngP@$123\r\nMyP@ssw0rd#123\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-944E9A96020F5849-CHK-001",
+      "text": "L3d\r\nmlgh.\r\ntRngAASv4\r\n9aBc&dEfG\r\nP@ssw0rd!\r\nl3!Str!ng\r\nSecur3&Safe#\r\n#Symbo1!ZEd#\r\n$tr0ngP@$123\r\nMyP@ssw0rd#123"
+    }
+  ]
+}

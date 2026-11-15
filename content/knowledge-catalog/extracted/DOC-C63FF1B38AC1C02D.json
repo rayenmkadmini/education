@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C63FF1B38AC1C02D",
+  "filename": "image1.jpg",
+  "relPath": "bac info/Python/fichier QtDesigner/Convertisseur entre les Bases (liste déroulante) à faire/image1.jpg",
+  "sha256": "c63ff1b38ac1c02d9e783ccd2113d0ed0171a9a79a08cbfd0c529102d3f908ac",
+  "extractedAt": "2026-11-06T14:23:26.311Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: image1.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: image1.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-C63FF1B38AC1C02D-CHK-001",
+      "text": "[Fichier Image Pédagogique: image1.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "documentId": "DOC-0E1C4B5E4F1B6815",
+  "filename": "INTERACTION-ONDE-MATIERE.pdf",
+  "relPath": "bac info/physique taki/INTERACTION-ONDE-MATIERE.pdf",
+  "sha256": "0e1c4b5e4f1b68150b72914b3ab51780bfd6c0f23293a58f322f6e9eb2ed7011",
+  "extractedAt": "2026-11-06T14:24:02.510Z",
+  "pageCount": 13,
+  "textSnippet": "Physique Classe : 4ème SC info Interaction onde-matière Fiche méthode -- 1 of 13 -- 1. Phénomène de diffraction d’une onde mécanique Expérience et observations : Q.1 : Tracer les rides au-delà de la fente pour les trois cas possibles et interpréter ? On remarque que l’onde incidente change de forme et de direction, c’est le phénomène de diffraction. 1er cas : Si 𝒂 > 𝝀 1 -- 2 of 13 -- On observe des rides rectilignes avec une légère déformation sur les bords. 2ème cas : Si 𝒂 ≈ 𝝀 On observ",
+  "fullText": "Physique\nClasse : 4ème SC info\nInteraction onde-matière\nFiche méthode\n\n-- 1 of 13 --\n\n1. Phénomène de diffraction d’une onde mécanique\nExpérience et observations :\nQ.1 : Tracer les rides au-delà de la fente pour les trois cas possibles et\ninterpréter ?\nOn remarque que l’onde incidente change de forme et de direction, c’est le\nphénomène de diffraction.\n1er cas : Si 𝒂 > 𝝀\n1\n\n-- 2 of 13 --\n\nOn observe des rides rectilignes avec une légère déformation sur les bords.\n2ème cas : Si 𝒂 ≈ 𝝀\nOn observe des rides circulaires situées dans un triangle dont le sommet est situé\nau milieu de la fente.\n3ème cas : Si 𝒂 < 𝝀\n2\n\n-- 3 of 13 --\n\nL’onde incidente rectiligne change de forme et devient circulaire après le passage\npar la fente.\nQ.2 : Quelle condition doit-on vérifier pour observer ce phénomène ?\nAu milieu d’une fente ou d’un obstacle de largeur a inférieure ou de même ordre\nde grandeur 𝜆 , l’onde mécanique subit le phénomène de diffraction.\nQ.3 : Définir le phénomène de diffraction ?\nLa diffraction est la modification du trajet d’une onde et par la suite de sa forme,\nau voisinage d’une fente ou d’un obstacle.\n2. Phénomène de diffraction d’une onde lumineuse\nExpérience et observation :\nQ.4 : Interpréter le phénomène observé ?\nPour une source laser, on observe sur l’écran une figure étalée horizontale\nconstituée par des taches brillantes séparées par des zones sombres.\nLa tâche centrale de largeur L est la plus brillante.\nL >> a => Le faisceau d’onde s’est diffracté.\na << 1 mm\n3\n\n-- 4 of 13 --\n\nOn observe sur l’écran cette figure :\nLa figure sur l’écran est perpendiculaire à la fente, donc si on choisit une fente\nhorizontale,\nla figure devient verticale.\n4\n\n-- 5 of 13 --\n\nQ.5 : Quel renseignement sur la nature de la lumière ce phénomène apporte-il ?\nLa lumière a une nature ondulatoire car elle subit le phénomène de diffraction\nspécifique aux ondes.\nLoi de diffraction : 𝜽(𝒓𝒂𝒅) = 𝝀\n𝒂\nQ.6 : La lumière émise par la source laser est dite monochromatique.\nQuelle est la signification de ce terme ?\nC’est une lumière formée d’une seule couleur (une seule radiation, une seule\nlongueur d’onde).\nQ.7 : Déterminer l’expression de la largeur L en fonction de 𝝀, D et a ?\n𝑡𝑎𝑛 𝜃 = 𝐿\n2𝐷\nOr 𝜃 est très petit\nDonc 𝑡𝑎𝑛 𝜃 ≈ 𝜃\nOn sait que 𝜃 = 𝜆\n𝑎\nDonc 𝜃 = 𝐿\n2𝐷 = 𝜆\n𝑎\nAlors 𝐿 = 2𝐷𝜆\n𝑎\nQ.8 : Comment est modifiée la figure observée si On diminue la largeur de la\nfente ou si on diminue la longueur d’onde ?\n𝐿 = 2𝐷𝜆\n𝑎\no Si a diminue alors L augmente\no Si 𝝀 diminue alors L diminue\n5\n\n-- 6 of 13 --\n\nOn peut alors conclure que, pour avoir une figure plus large, on doit diminuer a\nle maximum possible.\nRemarque :\no Comme l’onde mécanique, l’onde lumineuse est caractérisée par une\npériode temporelle T et une période spatiale 𝜆 .\no Dans le vide, la célérité de la lumière Cvide = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏\n3. Phénomène de dispersion d’une onde lumineuse\nQ.9 : Définir le phénomène de dispersion ?\nLorsque la célérité de l’onde change en changeant sa fréquence de propagation,\non parle dans ce cas de la dispersion.\nD’après les figures 1 et 2, on remarque que la célérité d’une onde mécanique\ndans un milieu de propagation tel que l’eau ne dépend pas uniquement de ses\npropriétés mais dépend aussi de la fréquence 𝜈 de l’onde.\n𝑭𝒊𝒈 𝟏\n𝝂1 = 𝝀1* f1\n10 cm\n6\n\n-- 7 of 13 --\n\n4. Phénomène de dispersion de la lumière (Dispersion de la lumière\nblanche)\nExpérience et observation :\nLors de passage de la lumière blanche par le prisme on remarque qu’elle est\nconstituée par plusieurs couleurs (radiations). Chacune est caractérisée par sa\nfréquence et sa longueur d’onde : 𝑵 = 𝑪\n𝝀\nSi la déviation des ondes lumineuses par un milieu transparent (Le verre, l’eau,\n…) dépend de leurs fréquences alors on dit que ce milieu est dispersif tel que le\nprisme.\nNature de la lumière blanche :\nUn photon est une particule de masse nulle, de charge nulle et de vitesse 𝒄 =\n𝟑 . 𝟏𝟎𝟖 m/s\n7\n\n-- 8 of 13 --\n\nLes domaines d’un spectre :\nL’indice de réfraction :\n- L’indice de réfraction n d’un milieu transparent est défini par la relation : 𝒏 = 𝑪\n𝑽\navec 𝑪 = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏 .\n- n dépend de la fréquence N puisque V en dépend.\n- Dans le vide et dans l’air : 𝒏𝒗𝒊𝒅𝒆 = 𝒏𝒂𝒊𝒓 = 𝟏\n5. Phénomène de réflexion\nRéflexion d’une onde plane\n8\n\n-- 9 of 13 --\n\nLorsque l’onde rencontre l’obstacle, elle change de direction mais elle garde la même\nforme.\nLa loi de Descartes\nL’angle d’incidence et l’angle de réflexion sont égaux : 𝑖 = 𝑖′ et aussi 𝜆 = 𝜆′\nRéflexion d’un ébranlement\nLa réflexion d’un ébranlement sur une extrémité libre se fait avec la même\namplitude et sans changement de signe :\nLa réflexion d’un ébranlement sur une extrémité fixe se fait avec la même\namplitude mais avec changement de signe :\n9\n\n-- 10 of 13 --\n\nRéflexion d’une onde sonore\n𝑖 = Angle d’incidence\n𝑖′ = Angle de réflexion\nOn fixe le haut-parleur (HP) de façon que 𝑖 = 30° et on fait varier la\nposition du microphone.\nOn remarque que l’amplitude est maximale lorsque 𝑖 = 𝑖′ = 30°\nOn conclure que l’onde sonore subit le phénomène de réflexion au niveau\nd’un obstacle : C’est connu par l’écho.\n6. Phénomène de réfraction\nTransmission : Onde transmise\n10\n\n-- 11 of 13 --\n\nOn a deux milieux de propagation différents, l’onde est transmise de (1)\nvers (2) sans changement de direction mais on constate que la longueur\nd’onde change 𝜆2 < 𝜆1, ce changement est dû à la variation de la célérité.\nLa célérité de propagation dépend de la profondeur : 𝑣 = √𝐻 ‖𝑔⃗ ‖ .\nDans ce cas, on a :\n𝐻2 < 𝐻1 ⇒ 𝑣2 < 𝑣1 ⇒ 𝑁𝜆2 < 𝑁𝜆1 ⇒ 𝜆2 < 𝜆1\nConclusion :\nLa transmission d’une onde est son passage d’un milieu à un autre sans\nchangement de direction mais avec changement de célérité et de\nlongueur d’onde.\nL’onde est dite transmise.\nLa réfraction : Onde réfractée\n(NN’) : La normale à la surface de séparation.\n𝑖1 : Angle d’incidence\n𝑖1 : Angle de réfraction\nDans ce cas, l’onde subit un changement de direction : C’est la réfraction\nLa loi de Descartes\nsin 𝑖1\n𝜆1\n= sin 𝑖2\n𝜆2\n11\n\n-- 12 of 13 --\n\n\n\n-- 13 of 13 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Physique\nClasse : 4ème SC info\nInteraction onde-matière\nFiche méthode"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1. Phénomène de diffraction d’une onde mécanique\nExpérience et observations :\nQ.1 : Tracer les rides au-delà de la fente pour les trois cas possibles et\ninterpréter ?\nOn remarque que l’onde incidente change de forme et de direction, c’est le\nphénomène de diffraction.\n1er cas : Si 𝒂 > 𝝀\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "On observe des rides rectilignes avec une légère déformation sur les bords.\n2ème cas : Si 𝒂 ≈ 𝝀\nOn observe des rides circulaires situées dans un triangle dont le sommet est situé\nau milieu de la fente.\n3ème cas : Si 𝒂 < 𝝀\n2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "L’onde incidente rectiligne change de forme et devient circulaire après le passage\npar la fente.\nQ.2 : Quelle condition doit-on vérifier pour observer ce phénomène ?\nAu milieu d’une fente ou d’un obstacle de largeur a inférieure ou de même ordre\nde grandeur 𝜆 , l’onde mécanique subit le phénomène de diffraction.\nQ.3 : Définir le phénomène de diffraction ?\nLa diffraction est la modification du trajet d’une onde et par la suite de sa forme,\nau voisinage d’une fente ou d’un obstacle.\n2. Phénomène de diffraction d’une onde lumineuse\nExpérience et observation :\nQ.4 : Interpréter le phénomène observé ?\nPour une source laser, on observe sur l’écran une figure étalée horizontale\nconstituée par des taches brillantes séparées par des zones sombres.\nLa tâche centrale de largeur L est la plus brillante.\nL >> a => Le faisceau d’onde s’est diffracté.\na << 1 mm\n3"
+    },
+    {
+      "pageNumber": 5,
+      "text": "On observe sur l’écran cette figure :\nLa figure sur l’écran est perpendiculaire à la fente, donc si on choisit une fente\nhorizontale,\nla figure devient verticale.\n4"
+    },
+    {
+      "pageNumber": 6,
+      "text": "Q.5 : Quel renseignement sur la nature de la lumière ce phénomène apporte-il ?\nLa lumière a une nature ondulatoire car elle subit le phénomène de diffraction\nspécifique aux ondes.\nLoi de diffraction : 𝜽(𝒓𝒂𝒅) = 𝝀\n𝒂\nQ.6 : La lumière émise par la source laser est dite monochromatique.\nQuelle est la signification de ce terme ?\nC’est une lumière formée d’une seule couleur (une seule radiation, une seule\nlongueur d’onde).\nQ.7 : Déterminer l’expression de la largeur L en fonction de 𝝀, D et a ?\n𝑡𝑎𝑛 𝜃 = 𝐿\n2𝐷\nOr 𝜃 est très petit\nDonc 𝑡𝑎𝑛 𝜃 ≈ 𝜃\nOn sait que 𝜃 = 𝜆\n𝑎\nDonc 𝜃 = 𝐿\n2𝐷 = 𝜆\n𝑎\nAlors 𝐿 = 2𝐷𝜆\n𝑎\nQ.8 : Comment est modifiée la figure observée si On diminue la largeur de la\nfente ou si on diminue la longueur d’onde ?\n𝐿 = 2𝐷𝜆\n𝑎\no Si a diminue alors L augmente\no Si 𝝀 diminue alors L diminue\n5"
+    },
+    {
+      "pageNumber": 7,
+      "text": "On peut alors conclure que, pour avoir une figure plus large, on doit diminuer a\nle maximum possible.\nRemarque :\no Comme l’onde mécanique, l’onde lumineuse est caractérisée par une\npériode temporelle T et une période spatiale 𝜆 .\no Dans le vide, la célérité de la lumière Cvide = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏\n3. Phénomène de dispersion d’une onde lumineuse\nQ.9 : Définir le phénomène de dispersion ?\nLorsque la célérité de l’onde change en changeant sa fréquence de propagation,\non parle dans ce cas de la dispersion.\nD’après les figures 1 et 2, on remarque que la célérité d’une onde mécanique\ndans un milieu de propagation tel que l’eau ne dépend pas uniquement de ses\npropriétés mais dépend aussi de la fréquence 𝜈 de l’onde.\n𝑭𝒊𝒈 𝟏\n𝝂1 = 𝝀1* f1\n10 cm\n6"
+    },
+    {
+      "pageNumber": 8,
+      "text": "4. Phénomène de dispersion de la lumière (Dispersion de la lumière\nblanche)\nExpérience et observation :\nLors de passage de la lumière blanche par le prisme on remarque qu’elle est\nconstituée par plusieurs couleurs (radiations). Chacune est caractérisée par sa\nfréquence et sa longueur d’onde : 𝑵 = 𝑪\n𝝀\nSi la déviation des ondes lumineuses par un milieu transparent (Le verre, l’eau,\n…) dépend de leurs fréquences alors on dit que ce milieu est dispersif tel que le\nprisme.\nNature de la lumière blanche :\nUn photon est une particule de masse nulle, de charge nulle et de vitesse 𝒄 =\n𝟑 . 𝟏𝟎𝟖 m/s\n7"
+    },
+    {
+      "pageNumber": 9,
+      "text": "Les domaines d’un spectre :\nL’indice de réfraction :\n- L’indice de réfraction n d’un milieu transparent est défini par la relation : 𝒏 = 𝑪\n𝑽\navec 𝑪 = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏 .\n- n dépend de la fréquence N puisque V en dépend.\n- Dans le vide et dans l’air : 𝒏𝒗𝒊𝒅𝒆 = 𝒏𝒂𝒊𝒓 = 𝟏\n5. Phénomène de réflexion\nRéflexion d’une onde plane\n8"
+    },
+    {
+      "pageNumber": 10,
+      "text": "Lorsque l’onde rencontre l’obstacle, elle change de direction mais elle garde la même\nforme.\nLa loi de Descartes\nL’angle d’incidence et l’angle de réflexion sont égaux : 𝑖 = 𝑖′ et aussi 𝜆 = 𝜆′\nRéflexion d’un ébranlement\nLa réflexion d’un ébranlement sur une extrémité libre se fait avec la même\namplitude et sans changement de signe :\nLa réflexion d’un ébranlement sur une extrémité fixe se fait avec la même\namplitude mais avec changement de signe :\n9"
+    },
+    {
+      "pageNumber": 11,
+      "text": "Réflexion d’une onde sonore\n𝑖 = Angle d’incidence\n𝑖′ = Angle de réflexion\nOn fixe le haut-parleur (HP) de façon que 𝑖 = 30° et on fait varier la\nposition du microphone.\nOn remarque que l’amplitude est maximale lorsque 𝑖 = 𝑖′ = 30°\nOn conclure que l’onde sonore subit le phénomène de réflexion au niveau\nd’un obstacle : C’est connu par l’écho.\n6. Phénomène de réfraction\nTransmission : Onde transmise\n10"
+    },
+    {
+      "pageNumber": 12,
+      "text": "On a deux milieux de propagation différents, l’onde est transmise de (1)\nvers (2) sans changement de direction mais on constate que la longueur\nd’onde change 𝜆2 < 𝜆1, ce changement est dû à la variation de la célérité.\nLa célérité de propagation dépend de la profondeur : 𝑣 = √𝐻 ‖𝑔⃗ ‖ .\nDans ce cas, on a :\n𝐻2 < 𝐻1 ⇒ 𝑣2 < 𝑣1 ⇒ 𝑁𝜆2 < 𝑁𝜆1 ⇒ 𝜆2 < 𝜆1\nConclusion :\nLa transmission d’une onde est son passage d’un milieu à un autre sans\nchangement de direction mais avec changement de célérité et de\nlongueur d’onde.\nL’onde est dite transmise.\nLa réfraction : Onde réfractée\n(NN’) : La normale à la surface de séparation.\n𝑖1 : Angle d’incidence\n𝑖1 : Angle de réfraction\nDans ce cas, l’onde subit un changement de direction : C’est la réfraction\nLa loi de Descartes\nsin 𝑖1\n𝜆1\n= sin 𝑖2\n𝜆2\n11"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-001",
+      "pageNumber": 1,
+      "text": "Physique\nClasse : 4ème SC info\nInteraction onde-matière\nFiche méthode"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-002",
+      "pageNumber": 2,
+      "text": "1. Phénomène de diffraction d’une onde mécanique\nExpérience et observations :\nQ.1 : Tracer les rides au-delà de la fente pour les trois cas possibles et\ninterpréter ?\nOn remarque que l’onde incidente change de forme et de direction, c’est le\nphénomène de diffraction.\n1er cas : Si 𝒂 > 𝝀\n1"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-003",
+      "pageNumber": 3,
+      "text": "On observe des rides rectilignes avec une légère déformation sur les bords.\n2ème cas : Si 𝒂 ≈ 𝝀\nOn observe des rides circulaires situées dans un triangle dont le sommet est situé\nau milieu de la fente.\n3ème cas : Si 𝒂 < 𝝀\n2"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-004",
+      "pageNumber": 4,
+      "text": "L’onde incidente rectiligne change de forme et devient circulaire après le passage\npar la fente.\nQ.2 : Quelle condition doit-on vérifier pour observer ce phénomène ?\nAu milieu d’une fente ou d’un obstacle de largeur a inférieure ou de même ordre\nde grandeur 𝜆 , l’onde mécanique subit le phénomène de diffraction.\nQ.3 : Définir le phénomène de diffraction ?\nLa diffraction est la modification du trajet d’une onde et par la suite de sa forme,\nau voisinage d’une fente ou d’un obstacle.\n2. Phénomène de diffraction d’une onde lumineuse\nExpérience et observation :\nQ.4 : Interpréter le phénomène observé ?\nPour une source laser, on observe sur l’écran une figure étalée horizontale\nconstituée par des taches brillantes séparées par des zones sombres.\nLa tâche centrale de largeur L est la plus brillante.\nL >> a => Le faisceau d’onde s’est diffracté.\na << 1 mm\n3"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-005",
+      "pageNumber": 5,
+      "text": "On observe sur l’écran cette figure :\nLa figure sur l’écran est perpendiculaire à la fente, donc si on choisit une fente\nhorizontale,\nla figure devient verticale.\n4"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-006",
+      "pageNumber": 6,
+      "text": "Q.5 : Quel renseignement sur la nature de la lumière ce phénomène apporte-il ?\nLa lumière a une nature ondulatoire car elle subit le phénomène de diffraction\nspécifique aux ondes.\nLoi de diffraction : 𝜽(𝒓𝒂𝒅) = 𝝀\n𝒂\nQ.6 : La lumière émise par la source laser est dite monochromatique.\nQuelle est la signification de ce terme ?\nC’est une lumière formée d’une seule couleur (une seule radiation, une seule\nlongueur d’onde).\nQ.7 : Déterminer l’expression de la largeur L en fonction de 𝝀, D et a ?\n𝑡𝑎𝑛 𝜃 = 𝐿\n2𝐷\nOr 𝜃 est très petit\nDonc 𝑡𝑎𝑛 𝜃 ≈ 𝜃\nOn sait que 𝜃 = 𝜆\n𝑎\nDonc 𝜃 = 𝐿\n2𝐷 = 𝜆\n𝑎\nAlors 𝐿 = 2𝐷𝜆\n𝑎\nQ.8 : Comment est modifiée la figure observée si On diminue la largeur de la\nfente ou si on diminue la longueur d’onde ?\n𝐿 = 2𝐷𝜆\n𝑎\no Si a diminue alors L augmente\no Si 𝝀 diminue alors L diminue\n5"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-007",
+      "pageNumber": 7,
+      "text": "On peut alors conclure que, pour avoir une figure plus large, on doit diminuer a\nle maximum possible.\nRemarque :\no Comme l’onde mécanique, l’onde lumineuse est caractérisée par une\npériode temporelle T et une période spatiale 𝜆 .\no Dans le vide, la célérité de la lumière Cvide = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏\n3. Phénomène de dispersion d’une onde lumineuse\nQ.9 : Définir le phénomène de dispersion ?\nLorsque la célérité de l’onde change en changeant sa fréquence de propagation,\non parle dans ce cas de la dispersion.\nD’après les figures 1 et 2, on remarque que la célérité d’une onde mécanique\ndans un milieu de propagation tel que l’eau ne dépend pas uniquement de ses\npropriétés mais dépend aussi de la fréquence 𝜈 de l’onde.\n𝑭𝒊𝒈 𝟏\n𝝂1 = 𝝀1* f1\n10 cm\n6"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-008",
+      "pageNumber": 8,
+      "text": "4. Phénomène de dispersion de la lumière (Dispersion de la lumière\nblanche)\nExpérience et observation :\nLors de passage de la lumière blanche par le prisme on remarque qu’elle est\nconstituée par plusieurs couleurs (radiations). Chacune est caractérisée par sa\nfréquence et sa longueur d’onde : 𝑵 = 𝑪\n𝝀\nSi la déviation des ondes lumineuses par un milieu transparent (Le verre, l’eau,\n…) dépend de leurs fréquences alors on dit que ce milieu est dispersif tel que le\nprisme.\nNature de la lumière blanche :\nUn photon est une particule de masse nulle, de charge nulle et de vitesse 𝒄 =\n𝟑 . 𝟏𝟎𝟖 m/s\n7"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-009",
+      "pageNumber": 9,
+      "text": "Les domaines d’un spectre :\nL’indice de réfraction :\n- L’indice de réfraction n d’un milieu transparent est défini par la relation : 𝒏 = 𝑪\n𝑽\navec 𝑪 = 𝟑 . 𝟏𝟎𝟖 𝒎. 𝒔−𝟏 .\n- n dépend de la fréquence N puisque V en dépend.\n- Dans le vide et dans l’air : 𝒏𝒗𝒊𝒅𝒆 = 𝒏𝒂𝒊𝒓 = 𝟏\n5. Phénomène de réflexion\nRéflexion d’une onde plane\n8"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-010",
+      "pageNumber": 10,
+      "text": "Lorsque l’onde rencontre l’obstacle, elle change de direction mais elle garde la même\nforme.\nLa loi de Descartes\nL’angle d’incidence et l’angle de réflexion sont égaux : 𝑖 = 𝑖′ et aussi 𝜆 = 𝜆′\nRéflexion d’un ébranlement\nLa réflexion d’un ébranlement sur une extrémité libre se fait avec la même\namplitude et sans changement de signe :\nLa réflexion d’un ébranlement sur une extrémité fixe se fait avec la même\namplitude mais avec changement de signe :\n9"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-011",
+      "pageNumber": 11,
+      "text": "Réflexion d’une onde sonore\n𝑖 = Angle d’incidence\n𝑖′ = Angle de réflexion\nOn fixe le haut-parleur (HP) de façon que 𝑖 = 30° et on fait varier la\nposition du microphone.\nOn remarque que l’amplitude est maximale lorsque 𝑖 = 𝑖′ = 30°\nOn conclure que l’onde sonore subit le phénomène de réflexion au niveau\nd’un obstacle : C’est connu par l’écho.\n6. Phénomène de réfraction\nTransmission : Onde transmise\n10"
+    },
+    {
+      "chunkId": "DOC-0E1C4B5E4F1B6815-CHK-012",
+      "pageNumber": 12,
+      "text": "On a deux milieux de propagation différents, l’onde est transmise de (1)\nvers (2) sans changement de direction mais on constate que la longueur\nd’onde change 𝜆2 < 𝜆1, ce changement est dû à la variation de la célérité.\nLa célérité de propagation dépend de la profondeur : 𝑣 = √𝐻 ‖𝑔⃗ ‖ .\nDans ce cas, on a :\n𝐻2 < 𝐻1 ⇒ 𝑣2 < 𝑣1 ⇒ 𝑁𝜆2 < 𝑁𝜆1 ⇒ 𝜆2 < 𝜆1\nConclusion :\nLa transmission d’une onde est son passage d’un milieu à un autre sans\nchangement de direction mais avec changement de célérité et de\nlongueur d’onde.\nL’onde est dite transmise.\nLa réfraction : Onde réfractée\n(NN’) : La normale à la surface de séparation.\n𝑖1 : Angle d’incidence\n𝑖1 : Angle de réfraction\nDans ce cas, l’onde subit un changement de direction : C’est la réfraction\nLa loi de Descartes\nsin 𝑖1\n𝜆1\n= sin 𝑖2\n𝜆2\n11"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C3F5E0DFA5C22DDE",
+  "filename": "Bac2019theorique.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/Bac2019theorique.py",
+  "sha256": "c3f5e0dfa5c22dde017f6afb30cbf9063d057a9f650d0226df700e6442b79e23",
+  "extractedAt": "2026-11-06T14:24:39.138Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 50) def Saisie(): b = False while not b: n = int(input(\"Donner le nombre des cases: \")) b = 6 <= n <= 50 return n def Remplir(N): for i in range(N): T[i] = int(input(\"T[\" + str(i) + \"]=\")) ################################PP######################### N = Saisie() Remplir(N)",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 50)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\n\r\n################################PP#########################\r\nN = Saisie()\r\nRemplir(N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C3F5E0DFA5C22DDE-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 50)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\n################################PP#########################\r\nN = Saisie()\r\nRemplir(N)"
+    }
+  ]
+}

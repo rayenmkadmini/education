@@ -1,0 +1,32 @@
+{
+  "documentId": "DOC-2A835821901B977A",
+  "filename": "div11.py.py",
+  "relPath": "bac info/Python/fichier QtDesigner/s2ex8 (div 11)/div11.py.py",
+  "sha256": "2a835821901b977a7b9ab2d7d49bade1da8e068f9fdd71ccb65be238011b5b8a",
+  "extractedAt": "2026-11-06T14:23:34.910Z",
+  "pageCount": 1,
+  "textSnippet": "from pickle import dump, load from PyQt5.uic import loadUi from PyQt5.QtWidgets import QApplication, QMessageBox, QTableWidgetItem def ajout(): f1 = open(\"chaines.txt\", \"a\") if win.ch.text() == \"\" or len(win.ch.text()) > 9 or verifAlphaNum(win.ch.text()) == False: QMessageBox.critical(win, \"Erreur de Saisie\", \"Saisir Une Chaine Alpha Numérique\") return False else: f1.write(win.ch.text() + \"\\n\") f1.close() def verifAlphaNum(ch):",
+  "fullText": "from pickle import dump, load\r\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication, QMessageBox, QTableWidgetItem\r\n\r\n\r\ndef ajout():\r\n    f1 = open(\"chaines.txt\", \"a\")\r\n    if win.ch.text() == \"\" or len(win.ch.text()) > 9 or verifAlphaNum(win.ch.text()) == False:\r\n        QMessageBox.critical(win, \"Erreur de Saisie\", \"Saisir Une Chaine Alpha Numérique\")\r\n        return False\r\n    else:\r\n        f1.write(win.ch.text() + \"\\n\")\r\n        f1.close()\r\n\r\n\r\ndef verifAlphaNum(ch):\r\n    i = 0\r\n    ch = ch.upper()\r\n    while i < len(ch) and (\"A\" <= ch[i] <= \"Z\" or \"0\" <= ch[i] <= \"9\"):\r\n        i += 1\r\n    return i == len(ch)\r\n\r\n\r\ndef afficher_f1():\r\n    f1 = open(\"chaines.txt\", \"r\")\r\n    ch = f1.readline().strip()\r\n    while ch != \"\":\r\n        win.list_f1.addItem(ch)\r\n        ch = f1.readline().strip()\r\n    f1.close()\r\n\r\n\r\ndef remplir_f2():\r\n    f1 = open(\"chaines.txt\", \"r\")\r\n    f2 = open(\"nombres.dat\", \"wb\")\r\n    ch = f1.readline()\r\n    while ch != \"\":\r\n        ch2 = \"\"\r\n        for i in range(len(ch)):\r\n            if \"0\" <= ch[i] <= \"9\":\r\n                ch2 += ch[i]\r\n        e = {}\r\n        if ch2 == \"\":\r\n            e[\"nbdec\"] = 999999999\r\n            e[\"mention\"] = \"ce n'est pas un nmbr dec\"\r\n        elif div11(ch2):\r\n            e[\"nbdec\"] = int(ch2)\r\n            e[\"mention\"] = \"est div par 11\"\r\n        else:\r\n            e[\"nbdec\"] = int(ch2)\r\n            e[\"mention\"] = \"n'est pas div par 11\"\r\n        dump(e, f2)\r\n        ch = f1.readline()\r\n    f1.close()\r\n    f2.close()\r\n\r\n\r\ndef div11(ch):\r\n    sp = 0\r\n    smp = 0\r\n    for i in range(len(ch)):\r\n        if (i + 1) % 2 == 0:\r\n            sp = sp + int(ch[i])\r\n        else:\r\n            smp = smp + int(ch[i])\r\n    return(sp - smp) % 11 == 0\r\n\r\n\r\ndef afficher_f2():\r\n    f2 = open(\"nombres.dat\", \"rb\")\r\n    eof = False\r\n    i = 0\r\n    while not eof:\r\n        try:\r\n            e = load(f2)\r\n            win.table_f2.insertRow(i)\r\n            win.table_f2.setItem(i, 0, QTableWidgetItem(str(e[\"nbdec\"])))\r\n            win.table_f2.setItem(i, 1, QTableWidgetItem(e[\"mention\"]))\r\n            i += 1\r\n        except:\r\n            eof = True\r\n    f2.close()\r\n\r\n\r\napp = QApplication([])\r\nwin = loadUi(\"interface_div11.ui\")\r\nwin.show()\r\nwin.btn1.clicked.connect(ajout)\r\nwin.btn2.clicked.connect(afficher_f1)\r\nwin.btn3.clicked.connect(remplir_f2)\r\nwin.btn4.clicked.connect(afficher_f2)\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-2A835821901B977A-CHK-001",
+      "text": "from pickle import dump, load\r\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication, QMessageBox, QTableWidgetItem\r\n\ndef ajout():\r\n    f1 = open(\"chaines.txt\", \"a\")\r\n    if win.ch.text() == \"\" or len(win.ch.text()) > 9 or verifAlphaNum(win.ch.text()) == False:\r\n        QMessageBox.critical(win, \"Erreur de Saisie\", \"Saisir Une Chaine Alpha Numérique\")\r\n        return False\r\n    else:\r\n        f1.write(win.ch.text() + \"\\n\")\r\n        f1.close()\r\n\ndef verifAlphaNum(ch):\r\n    i = 0\r\n    ch = ch.upper()\r\n    while i < len(ch) and (\"A\" <= ch[i] <= \"Z\" or \"0\" <= ch[i] <= \"9\"):\r\n        i += 1\r\n    return i == len(ch)"
+    },
+    {
+      "chunkId": "DOC-2A835821901B977A-CHK-002",
+      "text": "def afficher_f1():\r\n    f1 = open(\"chaines.txt\", \"r\")\r\n    ch = f1.readline().strip()\r\n    while ch != \"\":\r\n        win.list_f1.addItem(ch)\r\n        ch = f1.readline().strip()\r\n    f1.close()"
+    },
+    {
+      "chunkId": "DOC-2A835821901B977A-CHK-003",
+      "text": "def remplir_f2():\r\n    f1 = open(\"chaines.txt\", \"r\")\r\n    f2 = open(\"nombres.dat\", \"wb\")\r\n    ch = f1.readline()\r\n    while ch != \"\":\r\n        ch2 = \"\"\r\n        for i in range(len(ch)):\r\n            if \"0\" <= ch[i] <= \"9\":\r\n                ch2 += ch[i]\r\n        e = {}\r\n        if ch2 == \"\":\r\n            e[\"nbdec\"] = 999999999\r\n            e[\"mention\"] = \"ce n'est pas un nmbr dec\"\r\n        elif div11(ch2):\r\n            e[\"nbdec\"] = int(ch2)\r\n            e[\"mention\"] = \"est div par 11\"\r\n        else:\r\n            e[\"nbdec\"] = int(ch2)\r\n            e[\"mention\"] = \"n'est pas div par 11\"\r\n        dump(e, f2)\r\n        ch = f1.readline()\r\n    f1.close()\r\n    f2.close()"
+    },
+    {
+      "chunkId": "DOC-2A835821901B977A-CHK-004",
+      "text": "def div11(ch):\r\n    sp = 0\r\n    smp = 0\r\n    for i in range(len(ch)):\r\n        if (i + 1) % 2 == 0:\r\n            sp = sp + int(ch[i])\r\n        else:\r\n            smp = smp + int(ch[i])\r\n    return(sp - smp) % 11 == 0\r\n\ndef afficher_f2():\r\n    f2 = open(\"nombres.dat\", \"rb\")\r\n    eof = False\r\n    i = 0\r\n    while not eof:\r\n        try:\r\n            e = load(f2)\r\n            win.table_f2.insertRow(i)\r\n            win.table_f2.setItem(i, 0, QTableWidgetItem(str(e[\"nbdec\"])))\r\n            win.table_f2.setItem(i, 1, QTableWidgetItem(e[\"mention\"]))\r\n            i += 1\r\n        except:\r\n            eof = True\r\n    f2.close()"
+    },
+    {
+      "chunkId": "DOC-2A835821901B977A-CHK-005",
+      "text": "app = QApplication([])\r\nwin = loadUi(\"interface_div11.ui\")\r\nwin.show()\r\nwin.btn1.clicked.connect(ajout)\r\nwin.btn2.clicked.connect(afficher_f1)\r\nwin.btn3.clicked.connect(remplir_f2)\r\nwin.btn4.clicked.connect(afficher_f2)\r\napp.exec_()"
+    }
+  ]
+}

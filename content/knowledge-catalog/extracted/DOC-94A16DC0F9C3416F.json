@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-94A16DC0F9C3416F",
+  "filename": "date.js",
+  "relPath": "bac info/sti/projet 4/date.js",
+  "sha256": "94a16dc0f9c3416f1948ed2ba40a26d050d6531ad64aa3bb4417aad7c091ee3c",
+  "extractedAt": "2026-11-06T14:24:19.259Z",
+  "pageCount": 1,
+  "textSnippet": "function affichedate() { d = new Date(); auj = d.toString(); document.getElementById(\"date\").innerHTML = auj.substr(0, 15); }",
+  "fullText": "function affichedate() {\r\n  d = new Date();\r\n  auj = d.toString();\r\n  document.getElementById(\"date\").innerHTML = auj.substr(0, 15);\r\n}\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-94A16DC0F9C3416F-CHK-001",
+      "text": "function affichedate() {\r\n  d = new Date();\r\n  auj = d.toString();\r\n  document.getElementById(\"date\").innerHTML = auj.substr(0, 15);\r\n}"
+    }
+  ]
+}

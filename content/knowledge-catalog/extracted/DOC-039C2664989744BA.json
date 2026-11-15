@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-039C2664989744BA",
+  "filename": "pair.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/pair.py",
+  "sha256": "039c2664989744ba7b2d6b939269de0e1d7e733951d952ae56e88e4ca2e71574",
+  "extractedAt": "2026-11-14T18:35:36.364Z",
+  "pageCount": 1,
+  "textSnippet": "def pair(a): if a%2==0: print(\"le nombre est pair\") else: print(\"Le nombre est imapir\")",
+  "fullText": "def pair(a):\r\n    if a%2==0:\r\n        print(\"le nombre est pair\")\r\n    else:\r\n        print(\"Le nombre est imapir\")\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-039C2664989744BA-CHK-001",
+      "text": "def pair(a):\r\n    if a%2==0:\r\n        print(\"le nombre est pair\")\r\n    else:\r\n        print(\"Le nombre est imapir\")"
+    }
+  ]
+}

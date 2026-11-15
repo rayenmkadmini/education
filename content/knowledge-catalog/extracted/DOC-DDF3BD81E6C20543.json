@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DDF3BD81E6C20543",
+  "filename": "affichage.html",
+  "relPath": "bac 2025/affichage.html",
+  "sha256": "ddf3bd81e6c2054350a0ae112d341b729d64a162c7bac960849e60ac77c8e5c7",
+  "extractedAt": "2026-11-06T14:23:24.270Z",
+  "pageCount": 1,
+  "textSnippet": "<!doctype html> <html lang=\"fr\"> <head> <meta charset=\"utf-8\"> <title>Affichage des droits</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> </head> <body> <h2>Affichage des droits d'accès relatifs à un document</h2> <form method=\"post\" action=\"affichage.php\" target=\"_self\"> <label for=\"nomDoc\">Nom du document :</label> <select id=\"nomDoc\" name=\"nomDoc\"> <option value=\"\">-- Sélectionner --</option> <option value=\"D0001\">D00_Anglais.pdf</option>",
+  "fullText": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Affichage des droits</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n</head>\r\n<body>\r\n  <h2>Affichage des droits d'accès relatifs à un document</h2>\r\n\r\n  <form method=\"post\" action=\"affichage.php\" target=\"_self\">\r\n    <label for=\"nomDoc\">Nom du document :</label>\r\n    <select id=\"nomDoc\" name=\"nomDoc\">\r\n      <option value=\"\">-- Sélectionner --</option>\r\n      <option value=\"D0001\">D00_Anglais.pdf</option>\r\n      <option value=\"D0002\">D01_Math.pdf</option>\r\n    </select>\r\n    <div class=\"button-center\">\r\n      <button type=\"submit\">Afficher</button>\r\n    </div>\r\n  </form>\r\n</body>\r\n</html>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DDF3BD81E6C20543-CHK-001",
+      "text": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Affichage des droits</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n</head>\r\n<body>\r\n  <h2>Affichage des droits d'accès relatifs à un document</h2>\r\n\n  <form method=\"post\" action=\"affichage.php\" target=\"_self\">\r\n    <label for=\"nomDoc\">Nom du document :</label>\r\n    <select id=\"nomDoc\" name=\"nomDoc\">\r\n      <option value=\"\">-- Sélectionner --</option>\r\n      <option value=\"D0001\">D00_Anglais.pdf</option>\r\n      <option value=\"D0002\">D01_Math.pdf</option>\r\n    </select>\r\n    <div class=\"button-center\">\r\n      <button type=\"submit\">Afficher</button>\r\n    </div>\r\n  </form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

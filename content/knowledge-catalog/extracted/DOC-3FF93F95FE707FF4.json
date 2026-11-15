@@ -1,0 +1,36 @@
+{
+  "documentId": "DOC-3FF93F95FE707FF4",
+  "filename": "bac-pratique-16052026-sti-g1-fichiers.zip",
+  "sha256": "3ff93f95fe707ff4f10f79a3433aa04be0b04bcdf63d9ed71d56f85d0b48b71a",
+  "extractedAt": "2026-11-06T14:00:17.398Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: bac-pratique-16052026-sti-g1-fichiers.zip Nombre d'éléments: 5 --- FICHIER: ajout.html --- <!DOCTYPE html> <html lang = \"fr\"> <head> <meta content = \"text/html; charset=utf-8\" http-equiv = \"Content-Type\"> <title> Ajout d'un nouveau bijou </title> <!-- liaison avec mesControles.js --> <!-- liaison avec mesStyles.css --> </head> <body> <form> <!-- appel de la fo",
+  "fullText": "Archive ZIP: bac-pratique-16052026-sti-g1-fichiers.zip\nNombre d'éléments: 5\n\n--- FICHIER: ajout.html ---\n<!DOCTYPE html>\r\n<html lang = \"fr\">\r\n<head>\r\n    <meta content = \"text/html; charset=utf-8\" http-equiv = \"Content-Type\">\r\n    <title> Ajout d'un nouveau bijou </title>\r\n                                              <!-- liaison avec mesControles.js -->\r\n                                              <!-- liaison avec mesStyles.css -->\r\n</head>\r\n<body>\r\n  <form>              <!-- appel de la fonction js et du fichier php  -->\r\n    <fieldset id =\"principal\">\r\n\t    <legend> Ajout d'un bijou </legend>\r\n        <fieldset>\r\n          <legend> Détails </legend>\r\n          <label> Identifiant : </label>\r\n          <input name = \"idBij\" type=\"text\" id = \"idBij\"><br><br>\r\n          <label> Description : </label>\r\n          <input name = \"desc\" type=\"text\" id = \"desc\"  ><br><br>\r\n          <label> Prix de vente : </label>\r\n          <input name = \"prix\" type = \"number\" id = \"prix\">\r\n          <label> dinars </label><br><br>\r\n          <label> Poids : </label>\r\n          <input name = \"poids\" type = \"number\" id = \"poids\" value=\"1\">\r\n          <label> gramme(s)</label><br>\r\n        </fieldset>\r\n        <fieldset>\r\n          <legend> Composition </legend>\r\n          <input name = \"c1\" type = \"checkbox\" id = \"c1\" value ='A'> Argent\r\n          <input name = \"c2\" type = \"checkbox\" id = \"c2\" value ='R'> Or\r\n          <input name = \"c3\" type = \"checkbox\" id = \"c3\" value ='P'> Platine\r\n        </fieldset><br>\r\n      <div class =\"bt\">\r\n        <input type = \"reset\"   id = \"exit\" value = \"Annuler\">\r\n        <input type = \"submit\"  id = \"save\" value = \"Enregistrer\">\r\n      </div>\r\n    </fieldset>\r\n  </form>\r\n</body>\r\n</html>\n\n--- FICHIER: bijoux.sql ---\nCREATE TABLE `bijou` (\n  `idBij` varchar(5) NOT NULL,\n  `description` varchar(100) NOT NULL,\n  `prixVente` int NOT NULL,\n  `poids` int NOT NULL\n) ENGINE=InnoDB;\n\nCREATE TABLE  `metal` (\n  `idMet` varchar(1) NOT NULL,\n  `nomMet` varchar(50)  NOT NULL\n) ENGINE=InnoDB ;\n\nCREATE TABLE `composition` (\n  `idBij` varchar(5) NOT NULL,\n  `idMet` varchar(1)  NOT NULL\n) ENGINE=InnoDB ;\n\nCREATE TABLE `expert` (\n  `idExp` varchar(3) NOT NULL,\n  `nomExp` varchar(50)  NOT NULL,\n  `mail` varchar(100)  NOT NULL\n) ENGINE=InnoDB ;\n\nalter table metal add CONSTRAINT C1 unique (nomMet);\nalter table expert add CONSTRAINT C2 unique (nomExp);\nalter table expert add CONSTRAINT C3 unique (mail);\n\n\nINSERT INTO `expert` (`idExp`, `nomExp`, `mail`) VALUES\n('A22', 'Chokri Sfaxi', 'Chokrisfaxi@gmail.com'),\n('A23', 'Mohamed Jerbi', 'MohamedJerbi@gmail.com'),\n('A24', 'Radhia Gafsi', 'RadhiaGafsi@gmail.com');\n\nINSERT INTO `metal` (`idMet`, `nomMet`) VALUES\n('A', 'Argent'),\n('R', 'Or'),\n('P', 'Platine');\n\nINSERT INTO `bijou` (`idBij`, `description`,`prixVente`, `poids` ) VALUES\n('bg123', 'bague',2000, 5 ),\n('co789', 'colier',5000, 10 ),\n('bg124', 'bague avec diamant',3500, 7 );\n\nINSERT INTO `composition` (`idBij`, `idMet` ) VALUES\n('bg123', 'R' ),\n('bg123', 'A' ),\n('co789', 'P' ),\n('bg124', 'R' );\n\n\n--- FICHIER: mesStyles.css ---\n﻿/* Ajouter à partir de la ligne suivante, les règles CSS demandées */\r\n\r\n\r\n\r\n\r\n/* Il est conseillé de ne pas modifier les règles CSS ci-après  */\r\nh1 { text-align: center; }\r\n\r\nnav {width  : 100%;\r\n\t   height : 30%;\r\n\t   text-align:center; }\r\n\r\nmain {  width : 100%;\r\n        height : 480px; }\r\n\r\nsection { width : 70%;\r\n          height: 100%; }\r\n\r\naside {\twidth  : 30%;\r\n\t\theight : 100%; }\r\n\r\nimg { width  : 100%;\r\n      height : 100%;}\r\n\r\n\r\niframe { width  : 100%;\r\n\t\t height : 100%;  }\r\n\r\nfooter { width : 100%;\r\n        height : 70px;\r\n        margin: -16px 0px 0px 0px; }\r\n\r\nlabel { display: inline-block;\r\n        width : 150px; }\r\n\r\n.bt {\r\n  text-align:right;\r\n}\r\n\n\n",
+  "zipEntries": [
+    {
+      "name": "ajout.html",
+      "sizeBytes": 1629,
+      "isDirectory": false
+    },
+    {
+      "name": "bijoux.jpg",
+      "sizeBytes": 310150,
+      "isDirectory": false
+    },
+    {
+      "name": "bijoux.sql",
+      "sizeBytes": 1283,
+      "isDirectory": false
+    },
+    {
+      "name": "mesControles.js",
+      "sizeBytes": 326,
+      "isDirectory": false
+    },
+    {
+      "name": "mesStyles.css",
+      "sizeBytes": 681,
+      "isDirectory": false
+    }
+  ]
+}

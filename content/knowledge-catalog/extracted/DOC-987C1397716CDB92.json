@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-987C1397716CDB92",
+  "filename": "pgcd.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/pgcd.py",
+  "sha256": "987c1397716cdb924a5f3787956e1ceae894a34ea67cae63ab7fc6e7bfc065fb",
+  "extractedAt": "2026-11-14T18:35:36.368Z",
+  "pageCount": 1,
+  "textSnippet": "def pgcd(a,b): while a!=b: if a>b: a=a-b else: b=b-a return a print(\"Le pgcd est: \",pgcd(a=int(input(\"Donner a: \")),b=int(input(\"Donner b: \"))))",
+  "fullText": "def pgcd(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\nprint(\"Le pgcd est: \",pgcd(a=int(input(\"Donner a: \")),b=int(input(\"Donner b: \"))))",
+  "chunks": [
+    {
+      "chunkId": "DOC-987C1397716CDB92-CHK-001",
+      "text": "def pgcd(a,b):\r\n    while a!=b:\r\n        if a>b:\r\n            a=a-b\r\n        else:\r\n            b=b-a\r\n    return a\r\nprint(\"Le pgcd est: \",pgcd(a=int(input(\"Donner a: \")),b=int(input(\"Donner b: \"))))"
+    }
+  ]
+}

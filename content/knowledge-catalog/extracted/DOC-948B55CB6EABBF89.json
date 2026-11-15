@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-948B55CB6EABBF89",
+  "filename": "index2.jpg",
+  "relPath": "bac info/sti/gym/files/index2.jpg",
+  "sha256": "948b55cb6eabbf89a9904e0186296105859ea72d092de963e9b065e4b1226a6f",
+  "extractedAt": "2026-11-06T14:24:17.921Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: index2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: index2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-948B55CB6EABBF89-CHK-001",
+      "text": "[Fichier Image Pédagogique: index2.jpg] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

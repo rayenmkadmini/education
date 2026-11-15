@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1B0594040AE95711",
+  "filename": "calcul_air.py",
+  "relPath": "bac info/Python/fichier QtDesigner/TP APPROXIMATION/TP APPROXIMATION/RESSOURCE-DC5/calcul_air.py",
+  "sha256": "1b0594040ae957114cbf644480052a915ca1c5b1663404d4455073aec7080d36",
+  "extractedAt": "2026-11-06T14:23:34.330Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import QApplication,QMessageBox,QTableWidgetItem def f(x): return (x*x)-(2*x) app=QApplication([]) win= loadUi(\"....................ui\") win.btn1.clicked.connect(verif_eps) win.show() app.exec_()",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication,QMessageBox,QTableWidgetItem\r\n\r\ndef f(x):\r\n    return (x*x)-(2*x)\r\n\r\n\r\n\r\n\r\n        \r\n\r\napp=QApplication([])\r\nwin= loadUi(\"....................ui\")\r\nwin.btn1.clicked.connect(verif_eps)\r\nwin.show()\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1B0594040AE95711-CHK-001",
+      "text": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication,QMessageBox,QTableWidgetItem\r\n\ndef f(x):\r\n    return (x*x)-(2*x)\r\n\napp=QApplication([])\r\nwin= loadUi(\"....................ui\")\r\nwin.btn1.clicked.connect(verif_eps)\r\nwin.show()\r\napp.exec_()"
+    }
+  ]
+}

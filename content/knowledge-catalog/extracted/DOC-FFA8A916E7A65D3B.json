@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-FFA8A916E7A65D3B",
+  "filename": "projet2.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/projet2.py",
+  "sha256": "ffa8a916e7a65d3b637649d21d6790a60914b82493247407f7ba56613d1de05e",
+  "extractedAt": "2026-11-06T14:24:33.199Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets, uic def verif(x): if len(x) > 0 and x.isnumeric(): if int(x) < 0 : return False else : return True else : return False def premier(x): s = 0 for i in range(1,x//2 +1): if x % i == 0 : s += 1 ok = s == 1 return ok def Factoriel(): a=p.t1.text () if verif(a): a = int(a) R = 1 for i in range(1,a+1): R *= i",
+  "fullText": "from PyQt5 import QtWidgets, uic\r\ndef verif(x):\r\n    if len(x) > 0 and x.isnumeric():\r\n        if int(x) < 0 :\r\n            return False\r\n        else :\r\n            return True\r\n    else :\r\n        return False\r\ndef premier(x):\r\n    s = 0\r\n    for i in range(1,x//2 +1):\r\n        if x % i == 0 :\r\n            s += 1\r\n    ok = s == 1\r\n    return ok\r\n\r\ndef Factoriel():\r\n    a=p.t1.text ()\r\n    if verif(a):\r\n        a = int(a)\r\n        R = 1\r\n        for i in range(1,a+1):\r\n            R *= i\r\n        p.l1.setText(str(R))\r\n    else:\r\n        p.l1.setText(\"INPUT ERROR\")\r\ndef Facteurs(n):\r\n    a=p.t1.text ()\r\n    a = int(a)\r\n    \r\n    ch = \"\"\r\n    for i in range (a+1):\r\n        if premier(i):\r\n            if a % i == 0:\r\n                ch+=str(i)+\"/\"\r\n    p.l1.setText(ch[:len(ch)-1])\r\n\r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Projet2.ui\")\r\np.show()\r\np.pb1.clicked.connect (Factoriel)\r\np.pb2.clicked.connect (Facteurs)\r\n\r\nApp.exec_()\r\n        \r\n        \r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-FFA8A916E7A65D3B-CHK-001",
+      "text": "from PyQt5 import QtWidgets, uic\r\ndef verif(x):\r\n    if len(x) > 0 and x.isnumeric():\r\n        if int(x) < 0 :\r\n            return False\r\n        else :\r\n            return True\r\n    else :\r\n        return False\r\ndef premier(x):\r\n    s = 0\r\n    for i in range(1,x//2 +1):\r\n        if x % i == 0 :\r\n            s += 1\r\n    ok = s == 1\r\n    return ok\r\n\ndef Factoriel():\r\n    a=p.t1.text ()\r\n    if verif(a):\r\n        a = int(a)\r\n        R = 1\r\n        for i in range(1,a+1):\r\n            R *= i\r\n        p.l1.setText(str(R))\r\n    else:\r\n        p.l1.setText(\"INPUT ERROR\")\r\ndef Facteurs(n):\r\n    a=p.t1.text ()\r\n    a = int(a)\r\n\n    ch = \"\"\r\n    for i in range (a+1):\r\n        if premier(i):\r\n            if a % i == 0:\r\n                ch+=str(i)+\"/\"\r\n    p.l1.setText(ch[:len(ch)-1])"
+    },
+    {
+      "chunkId": "DOC-FFA8A916E7A65D3B-CHK-002",
+      "text": "App = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Projet2.ui\")\r\np.show()\r\np.pb1.clicked.connect (Factoriel)\r\np.pb2.clicked.connect (Facteurs)\r\n\nApp.exec_()"
+    }
+  ]
+}

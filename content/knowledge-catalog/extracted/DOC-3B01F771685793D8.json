@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3B01F771685793D8",
+  "filename": "Ex1serie8.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 8/Ex1serie8.docx",
+  "sha256": "3b01f771685793d824e1110189e66aeb354bc78c67a048c26f959ee2e15e19f2",
+  "extractedAt": "2026-11-06T14:24:40.131Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex1serie8 Résultat =PROC affiche( a,b ) a ,b = PROC saisie(n) Fin Ex1serie8 DEF PROC affiche ( a ,b :entier) Pour i de a à b faire Si FN Poly(i)= Vrai Alors ecrire (i) Finsi Fin pour Fin affiche ____________________________________________________________________ DEF FN Poly(x : entier ) : booleen CONVCH( x,ch ) i ← 1 Répeter i ← i+1 Valeur( sous-chaine( ch ,1,i), y,e ) Ok ← y mod i = 0 Jusqu’à (ok=faux) ou ( i = long",
+  "fullText": "Nom : Ex1serie8\n\nRésultat =PROC \n\naffiche(\n\na,b\n\n)\n\na\n\n,b\n\n= PROC saisie(n)\n\nFin Ex1serie8\n\nDEF PROC affiche (\n\na\n\n,b\n\n :entier) \n\nPour i de a à b faire\n\n   Si FN Poly(i)= Vrai\n\n      Alors \n\necrire\n\n(i)\n\nFinsi\n\nFin pour\n\nFin affiche\n\n____________________________________________________________________\n\nDEF FN Poly(x :\n\nentier\n\n) :\n\nbooleen\n\nCONVCH(\n\nx,ch\n\n)\n\ni\n\n ← 1 \n\nRépeter\n\ni\n\n ← i+1\n\nValeur(\n\nsous-chaine(\n\nch\n\n,1,i),\n\ny,e\n\n)\n\n   Ok ← y mod \n\ni\n\n = 0\n\nJusqu’à\n\n (ok=faux) \n\nou\n\n (\n\ni\n\n=\n\nlong(\n\nch\n\n))\n\nPoly ← ok\n\nFin Poly  \n\n____________________________________________________________________\n\nDEF PROC saisie (var \n\na\n\n,b\n\n :entier)\n\nRépeter\n\n   Lire(a)\n\nJusqu’à a>=100\n\nRépeter\n\n   Lire(b)\n\nJusqu’à b>a\n\nFin saisie\n\n-514350-171450",
+  "chunks": [
+    {
+      "chunkId": "DOC-3B01F771685793D8-CHK-001",
+      "text": "Nom : Ex1serie8\n\nRésultat =PROC \n\naffiche(\n\na,b\n\n)\n\na\n\n,b\n\n= PROC saisie(n)\n\nFin Ex1serie8\n\nDEF PROC affiche (\n\na\n\n,b\n\n :entier) \n\nPour i de a à b faire\n\n   Si FN Poly(i)= Vrai\n\n      Alors \n\necrire\n\n(i)\n\nFinsi\n\nFin pour\n\nFin affiche\n\n____________________________________________________________________\n\nDEF FN Poly(x :\n\nentier\n\n) :\n\nbooleen\n\nCONVCH(\n\nx,ch\n\n)\n\ni\n\n ← 1 \n\nRépeter\n\ni\n\n ← i+1\n\nValeur(\n\nsous-chaine(\n\nch\n\n,1,i),\n\ny,e\n\n)\n\n   Ok ← y mod \n\ni\n\n = 0\n\nJusqu’à\n\n (ok=faux) \n\nou\n\n (\n\ni\n\n=\n\nlong(\n\nch\n\n))\n\nPoly ← ok\n\nFin Poly  \n\n____________________________________________________________________\n\nDEF PROC saisie (var \n\na\n\n,b\n\n :entier)\n\nRépeter\n\n   Lire(a)\n\nJusqu’à a>=100\n\nRépeter\n\n   Lire(b)\n\nJusqu’à b>a\n\nFin saisie\n\n-514350-171450"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4F12BBA6BB36B35C",
+  "filename": "ex2s4.py",
+  "relPath": "bac info/Python/serie 4/ex2s4.py",
+  "sha256": "4f12bba6bb36b35c9de833f8919f5f1169cc1eb6e0a0dd153285870f6b58951b",
+  "extractedAt": "2026-11-06T14:23:35.176Z",
+  "pageCount": 1,
+  "textSnippet": "def inconnue(x,y): if x==y: return x elif x>y: return inconnue(x-y,y) else: return inconnue(x,y-x) #pp x=int(input(\"x= \")) y=int(input(\"y= \")) print(f\"PGCD de {x} et {y} = \",inconnue(x,y))",
+  "fullText": "def inconnue(x,y):\r\n    if x==y:\r\n        return x\r\n    elif x>y:\r\n        return inconnue(x-y,y)\r\n    else:\r\n        return inconnue(x,y-x)\r\n\r\n\r\n#pp\r\nx=int(input(\"x= \"))\r\ny=int(input(\"y= \"))\r\nprint(f\"PGCD de {x} et {y} = \",inconnue(x,y))",
+  "chunks": [
+    {
+      "chunkId": "DOC-4F12BBA6BB36B35C-CHK-001",
+      "text": "def inconnue(x,y):\r\n    if x==y:\r\n        return x\r\n    elif x>y:\r\n        return inconnue(x-y,y)\r\n    else:\r\n        return inconnue(x,y-x)\r\n\n#pp\r\nx=int(input(\"x= \"))\r\ny=int(input(\"y= \"))\r\nprint(f\"PGCD de {x} et {y} = \",inconnue(x,y))"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+  "documentId": "DOC-8086F77AEF21A5A8",
+  "filename": "ENONCE-RC-PDF.pdf",
+  "relPath": "bac info/physique taki/ENONCE-RC-PDF.pdf",
+  "sha256": "8086f77aef21a5a8c907a9335c011b75b2d5a12a07f9308ec89ddc0fb9ad53ad",
+  "extractedAt": "2026-11-06T14:24:00.897Z",
+  "pageCount": 42,
+  "textSnippet": "1 1. Exercice 1 : I. A fin de déterminer la capacité C d’un condensateur, on réalise sa charge à l’aide d’un générateur de courant. L’intensité du courant électrique est maintenue constante 𝐼 = 20𝜇𝐴, et on mesure la tension aux bornes du condensateur à différents instants de dates t. 1- a- Donner la relation qui lie l’intensité I du courant qui traverse le condensateur à sa charge q à un instant t donné. b- Calculer cette charge q à l’instant de date t = 10s. 2- On trace la courbe, 𝒒 = 𝒇(𝒖",
+  "fullText": "1\n1. Exercice 1 :\nI. A fin de déterminer la capacité C d’un condensateur, on réalise sa charge à l’aide d’un\ngénérateur de courant.\nL’intensité du courant électrique est maintenue constante 𝐼 = 20𝜇𝐴, et on mesure la tension aux\nbornes du condensateur à différents instants de dates t.\n1-\na- Donner la relation qui lie l’intensité I du courant qui traverse le condensateur à sa charge q à\nun instant t donné.\nb- Calculer cette charge q à\nl’instant de date t = 10s.\n2- On trace la courbe,\n𝒒 = 𝒇(𝒖𝑪),\nreprésentée sur la figure1\nci-contre :\na. Déterminer\nl’équation\nnumérique de cette\ncourbe.\nb. En déduire la valeur de la capacité C du condensateur.\nII. Pour étudier la réponse d’un dipôle 𝑅𝐶 à un échelon de tension, on réalise un circuit série\ncomportant un générateur de tension de f.é.m 𝐸 = 10𝑉, d’un conducteur ohmique de résistance\n𝑅 = 1𝑘Ω et un condensateur, initialement déchargé et de capacité C inconnue, figure2. A la\ndate t = 0, on ferme l’interrupteur K sur la position1. Un oscilloscope à mémoire suit l'évolution\ntemporelle de deux tensions, on obtient les deux oscillogrammes (I) et (II) de la figure3.\n0 1 2 3 4 5 6 7 8 9 t (s)\n2\n4\n6\n8\n10\nu (V)\nII\nI\nfigure3\n0 2 4 6 8 10 12 14 16 18\n0,5\n1\n1,5\n𝒖𝑪(𝑽)\n𝒒(𝟏𝟎−𝟑𝑪)\nfigure1\nR\nC\nE\n1 2\nfigure2\n\n-- 1 of 42 --\n\n2\n1- Reproduire le circuit et représenter les connexions à faire avec l’oscilloscope à mémoire pour\nvisualiser la tension 𝑢𝐶 (𝑡) aux bornes du condensateur sur la voie Y1 et la tension 𝑢𝐺 (𝑡) aux\nbornes du générateur sur la voie Y2.\n2- Attribuer chacune des courbes (I) et (II) à la tension correspondante. Justifier la réponse.\n3-\na- Montrer que l’équation différentielle relative à la tension uc aux bornes du condensateur s’écrit\nsous la forme : 𝒅𝒖𝑪\n𝒅𝒕 + 𝒖𝑪\n𝜶 = 𝑬\n𝜶 avec 𝜶 est une constante qu’on la précisera.\nb- Sachant que l’équation différentielle admet comme solution 𝒖𝑪(𝒕) = 𝑨(𝟏 − 𝒆−𝒕/𝜷).\nDéterminer les constantes A et 𝛽.\n4-\na- En exploitant la courbe 𝑢𝑐 = 𝑓(𝑡), déterminer la valeur de la constante de temps 𝜏.\nb- En déduire la valeur de la capacité 𝐶 du condensateur.\n5- Déterminer l’énergie emmagasinée par le condensateur :\na- En régime permanent.\nb- Lorsque l’intensité est maximale.\n6- On bascule maintenant l’interrupteur K sur la position (2).\na- Etablir l’équation différentielle relative à la tension uc aux bornes du condensateur.\nb- Vérifier que 𝒖𝑪 = 𝑬. 𝒆−𝒕/𝝉 est solution de l’équation différentielle.\nEn déduire l’expression de l’intensité courant électrique 𝑖(𝑡) et représenter son allure en précisant les\nvaleurs des points particuliers\n\n-- 2 of 42 --\n\n3\nExercice 2 :\nPARTIE A\nLe montage de la figure ci-contre est constitué :\n-D’un générateur de tension, de force électromotrice E.\n-D’un commutateur k\n-Un condensateur de capacité C.\n-Deux résistors de résistance R = 100 Ω et R’.\n-Deux diodes électroluminescentes supposées idéales (interrupteur\nouvert en sens bloqué et fermé en sens passant).\nA l’aide d’un oscilloscope à mémoire on veut enregistrer la tension\nuc(t).\n1- Préciser les positions (A, B, D ou F) des fils de l’entrée principale et de la masse de\nl‘oscilloscope pour enregistrer :\n-uc au cours de la charge uniquement (k en position 1).\n-uC au cours de la décharge uniquement (k en position 2).\n-uC au cours de la charge et la décharge.\n2- A t= 0 s: l’interrupteur k est en position 1 et le condensateur est initialement déchargé.\nLa figure 3 représente un enregistrement de uc(t).\na- Etablir l’équation différentielle relative à us.\nb- La tension uc(t) = A (1 – e –t / 𝝉 ) déduire les expressions de A, 𝜏\n3-\na- Déterminer la constante de temps 𝜏 et préciser la méthode utilisée.\nb- Déduire la valeur de C.\nc- Etablir l’expression de UR(t). Représenter uR(t) pendant la charge.\nFig3\n\n-- 3 of 42 --\n\n4\n4- Au cours de l’enregistrement :\na- Déterminer la durée pendant lequel chaque diode reste allumée.\nb- Quel est le décalage entre l’instant ou l’une des deux diodes s’éteint et l’autre s’allume.\n5- L’expérience de charge a été réalisée par trois groupes\nd’élèves selon les conditions décrites dans le tableau ci-\ncontre.\nLes courbes (A), (B) et (C) de la figure 4 traduisent\nl’évolution de la charge q du condensateur en fonction du\ntemps.\na- Montrer que la courbe A correspond a l’expérience (3) la\ncourbe (B) correspond à l’expérience (1).\nb- On s’intéresse à présent à l’expérience réalisée par le groupe\n1.et le groupe 2.\n❖ Déterminer les constantes de temps 𝝉2 et 𝝉1.\n❖ Sachant que R2=600 Ω déterminer R1\nGroupe\nn°\n(1) (2) (3)\nC C1 C1 C3>\nC1\nR R1 R2>\nR1\nR3\nE E E E\n0 5 10 15 20 25 30 35 40 45\nt(ms)\n0\n1\n2\n3\n4\n5\n6\nq(μc)\nB\nC\nA\nFig4\n\n-- 4 of 42 --\n\n5\n6- Dans une deuxième expérience on charge le\nà l’aide d’un deuxième\t3\tcondensateur C\ngénérateur de f.e.m E’ puis on le décharge à\ntravers R’. La courbe de la fig 5 traduit\nl’énergie dissipée par effet joule dans R’ au\ncours de la décharge.\n.\tth\tE\tDéterminer l’équation numérique de\t-\ta\nb- Justifier l’allure de la courbe,.\nE’.\tet et\t3\tC\tDéduire\t-\tc\nPARTIE B\nPour visualiser des courbes stables, on applique à un circuit RC en série une tension en créneaux\nde fréquence délivrée par un GBF. Comme l’indique la figure ci-contre. R=1 K\t , C=1μF. 𝞃\nest la constante de temps du dipôle RC.\n1- Faire les connexions à l’oscilloscope pour pouvoir visualiser les tensions : uNM sur la voie(1) et\nuPM sur la voie(2).\n2- Sachant que uc= E(1- e-t/𝝉 ) pendant la charge et uc = E e-t/𝝉 pendant la décharge.\nEtablir l’expression de i(t) pendant la charge et pendant la décharge.\n3- Représenter i(t) pour t ∈ [𝟎; 𝟖 𝐦𝐬] pendant la charge et pendant la décharge.\n0 20 40 60 80 100\n𝐮𝐜\n𝟐\t\n(v²)\n0\n2\n4\n6\n8\n)\tJ\t4\t-\t\n( 10\tth\tE Fig5\n8\nt(ms)\nO\nU(V)\nE=10\n4\n\n-- 5 of 42 --\n\n6\nExercice 3 :\nOn se propose d’étudier la charge et la décharge d’un condensateur à travers un résistor, pour\ncela on réalise le circuit de la figure 2 formé d’un générateur de tension de fem E=10 V, d’un\ncondensateur de capacité C= 5μF d’un commutateur K et de trois résistors de résistances R1,\nR2 et R3.\nI- Etude de la charge du condensateur :\nLe condensateur étant initialement déchargé, on place le commutateur sur la position (1) et à l’aide\nd’un oscilloscope à mémoire on visualise la tension 𝒖𝑩𝑵(𝑡) aux bornes du résistor de résistance\nR1, on obtient la courbe de la figure 3.\n1-\na- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\nb- En déduire celle relative à 𝒖𝑩𝑵.\nc- Vérifier que 𝒖𝑩𝑵(𝑡) = 𝑬. 𝒆−𝒕/𝝉𝟏 est une solution de l’équation différentielle précédente si 𝝉𝟏\ncorrespond à une expression que l’on déterminera.\n2- En déduire 𝒖𝑨𝑩 (𝒕) et i(t).\n3-\na- Qu’appelle-t-on 𝝉𝟏 ?\nb- Déterminer graphiquement 𝝉𝟏 puis en déduire la valeur de R1.\n4- Exprimer l’énergie électrostatique 𝑬𝒆 emmagasinée dans le condensateur en fonction du temps\npuis calculer sa valeur à l’instant t = 200 ms.\n5- En supposant que le condensateur est complètement chargé quand la tension𝒖𝑨𝑩= E à 1% près,\ncalculer le temps mis par le condensateur pour se charger.\nII- Etude de la décharge du condensateur :\n0 25 50 75 100 125 150 175\n2\n4\n6\n8\n10\nuBN (V)\nt(ms)\nFigure 3\nM\nD\tE\nN\nA\nB\nFigure 2\nC\n1 2\nK\nR3\nR1\nR2\n\n-- 6 of 42 --\n\n7\nLe condensateur est complètement chargé, à un instant pris comme origine de temps, on place le\ncommutateur K sur position (2) et à l’aide\nd’un oscilloscope à mémoire on visualise la\ntension 𝒖𝑨𝑩 aux bornes du condensateur. On\nobtient la courbe de la figure 4.\n1- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\n2- Sachant que 𝒖𝑨𝑩 = 𝑬. 𝒆−𝒕/𝝉𝟐 est solution de\nl’équation différentielle donner l’expression de\nla constante de temps 𝝉𝟐 lors de la décharge du\ncondensateur.\n3-\na- Déterminer l’expression de la tension 𝒖𝑩𝑫(𝒕)\naux bornes du résistor R3 en fonction de temps.\nb- Déduire la valeur de la tension 𝒖𝑩𝑫 à l’origine\nde temps, si R2 = R3.\n4- Déterminer la valeur algébrique de l’intensité\ndu courant i à l’instant t1.\nOn donne R2 = R3 = 5 k.\n𝒕𝟏\nt\n0\n2\n4\n6\n8\n10\n𝒖𝑨𝑩(𝑽)\nFigure 4\n\n-- 7 of 42 --\n\n8\nExercice 4 :\nN.B: Les deux parties A et B sont indépendantes.\nPARTIE A :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R1=10kΩ .\n- Un condensateur de capacité C , initialement déchargé.\n- Un interrupteur K.\nOn ferme l’interrupteur K à un instant pris comme origine\ndes temps. Un système d acquisition permet de tracer les\ntension uC(t) et uR (t) respectivement aux bornes du\ncondensateur et aux bornes du résistor, on obtient les courbes\nde la figure 2\n1- Identifier les deux courbes 𝓒𝟏 𝑒𝑡 𝓒𝟐 .\n2- Trouver l'intensité du courant I1 débitée par le générateur.\n3- Déterminer la capacité C du condensateur.\n4- On désire charger le condensateur à une tension de 10V.\na- Calculer le temps de charge noté tC.\nb- Pour charger le condensateur 2 fois plus lentement, on se\npropose de modifier la résistance du résistor à une valeur R2\n= 2.R1 ou de modifier l’intensité du courant débitée à une\nvaleur 𝑰𝟐 = 𝑰𝟏\n𝟐\nPréciser laquelle des deux propositions est juste ? Justifier\nPARTIE B :\nPour étudier la réponse d’un dipôle RC à un échelon de tension, on réalise un\ncircuit série comportant un générateur de tension de f.é.m 𝐄, d’un conducteur\nohmique de résistance R et un condensateur, initialement déchargé et de\ncapacité C inconnue, figure 2. A la date t = 0, on ferme l’interrupteur K sur la\nposition1. Un dispositif d’acquisition relié à un ordinateur permet de suivre\nl’évolution au cours du temps de la charge q du condensateur (voir figure 3) et\nde tracer la courbe 𝒅𝒖𝒄\n𝒅𝒕 = f(uc) (voir figure 4)\n1- Etablir l’équation différentielle relative à uc.\n2- Vérifier que uc = E.(1- 𝒆−𝒕/𝑹𝑪) est solution de cette équation différentielle.\n0 1 2 3 4 t(s)\n0\n1\n2\n3\n4\nu(V)\n𝓒𝟏\n𝓒𝟐\nfigure 2\nR\nC\nE\n1\nfigure 2\nK\nR1\nC\nK\nGénérateur\nde courant\nfigure 1\n\n-- 8 of 42 --\n\n9\n3- donner les expressions de q(t) et i(t)\n4- Etude de la courbe de la figure 4\na. Justifier théoriquement l’allure de la courbe de la figure 4.\nb. Déterminer les expressions de A et B en fonction de E, R et C\nc. Exprimer 𝝉 en fonction de A et B\nd. Déduire la valeur de τ et de E sachant que 𝑩 = 𝟖𝑽 et 𝑨 = 𝟖. 𝟏𝟎𝟑𝑽𝒔−𝟏\n5- Etude de la courbe de la figure 3\na. Justifier théoriquement l’allure de la courbe de la figure 3\nb. Déterminer l'intensité du courant à t = τ\nc. Déterminer les valeurs de R et de C.\nd. Montrer que l'allure de q(t) permet de déduire celle de i(t). Représenter alors i(t) en précisant sa\nvaleur initiale\nt(ms)\n0\n𝟏, 𝟎𝟒\n𝟐, 𝟓𝟐\nq(𝟏𝟎−𝟓C)\n𝝉\nFigure 3\n𝒅𝒖𝑪\n𝒅𝒕 (𝟏𝟎𝟑𝑽. 𝒔−𝟏)\n0 B\n𝒖𝒄(𝑽)\nA\nFigure 4\n\n-- 9 of 42 --\n\n10\nExercice 5 :\nOn réalise le circuit de la figure 4 comportant un générateur de tension idéal de fém. E ; deux\nrésistors de résistances R1 = 1 k et R2 ; un\ncondensateur de capacité C.\nI.\n1- représenter les connexions à effectuer pour visualiser\nà un oscilloscope à mémoire les tensions uc sur la voie\n1 et la tension uR sur la voie 2.\n2- Le condensateur est initialement déchargé. A\nl’instant t = 0 on ferme K sur la position 1.\nMontrer que l ’équation différentielle régissant les\nvariations de la tension uR1 peut s’écrire sous la\nforme : R1.C duR1\ndt + uR1 = 0. Cette équation différentielle a pour solution uR1 (t) = A.e- t\n.\n.Déterminer les expressions de A et de .\n3- L’oscilloscope à mémoire a permis d’enregistrer l’évolution de la tension uC(t) aux bornes du\ncondensateur en fonction du temps. (Voir figure 5 ).\nFig4\nR2\nE\nR1\nC\nK\n1 2\nFigure 5\nuC(V)\n0 10 20\n5\n10\n0.002 \t0.004 \t0.006 \t0.008 \t0.01 \t0.012 \t0.014 \t0.016 \t0.018 \t0.02\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nt(ms)\n\n-- 10 of 42 --\n\n11\na- Déterminer la valeur de E.\nb- Déterminer la valeur de , en déduire la valeur de C.\nc- Tracer sur le système d’axe de la figure 4 ; l’allure soignée de la courbe donnant uR1 (t) en\nfonction du temps observé sur la voie2 de l’oscilloscope.\n4-\na- Déterminer par le calcul l’instant t1 auquel uc =11v .\nb- Retrouver ce résultat graphiquement.\nc- Calculer l’intensité du courant lorsque uC = 1,7 uR1 .\n5-\na- Déterminer l’énergie électrostatique maximale Em emmagasinée par le condensateur.\nb- Déterminer l’instant t2 au quel l’énergie emmagasinée\npar le condensateur est Ec =1\n4 Em\n6-\na- Etablir la relation : q (t) = C. E - . i( t )\nb- Une étude expérimentale a permis de tracer la courbe\n(figure6). Retrouver les valeurs\t et C en exploitant\nla courbe.\nII. Lorsque le condensateur est complètement chargé, on\nbascule l’interrupteur en position 2 , a une date prise\ncomme nouvelle origine du temps .\n1- Etablir l’équation différentielle en régissant les\nvariations de i.\n2- Vérifier que la solution de cette équation est 𝒊 =\n− 𝑬\n𝑹𝟏+𝑹𝟐 𝒆 −𝒕\n(𝑹𝟏+𝑹𝟐)𝑪\n3- Déterminer la valeur de R2 sachant que la durée de la décharge est le double de la durée de la\ncharge.\n4- Déterminer l’intensité du courant qui traverse le circuit à l’instant t = 2ms .\ni(10-3A)\nq(10-5 C)\n0 12\nFigure 6\n4,8\n\n-- 11 of 42 --\n\n12\n\n-- 12 of 42 --\n\n13\n\n-- 13 of 42 --\n\n14\n\n-- 14 of 42 --\n\n15\n\n-- 15 of 42 --\n\n16\n\n-- 16 of 42 --\n\n17\n\n-- 17 of 42 --\n\n18\n\n-- 18 of 42 --\n\n19\n\n-- 19 of 42 --\n\n20\n\n-- 20 of 42 --\n\n21\n\n-- 21 of 42 --\n\n22\n\n-- 22 of 42 --\n\n23\n\n-- 23 of 42 --\n\n24\n\n-- 24 of 42 --\n\n25\n\n-- 25 of 42 --\n\n26\n\n-- 26 of 42 --\n\n27\n\n-- 27 of 42 --\n\n28\n\n-- 28 of 42 --\n\n29\n\n-- 29 of 42 --\n\n30\n\n-- 30 of 42 --\n\n31\n\n-- 31 of 42 --\n\n32\n\n-- 32 of 42 --\n\n33\n\n-- 33 of 42 --\n\n34\n\n-- 34 of 42 --\n\n35\n\n-- 35 of 42 --\n\n36\n\n-- 36 of 42 --\n\n37\n\n-- 37 of 42 --\n\n38\n\n-- 38 of 42 --\n\n39\n\n-- 39 of 42 --\n\n40\n\n-- 40 of 42 --\n\n41\n\n-- 41 of 42 --\n\n42\n\n-- 42 of 42 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1\n1. Exercice 1 :\nI. A fin de déterminer la capacité C d’un condensateur, on réalise sa charge à l’aide d’un\ngénérateur de courant.\nL’intensité du courant électrique est maintenue constante 𝐼 = 20𝜇𝐴, et on mesure la tension aux\nbornes du condensateur à différents instants de dates t.\n1-\na- Donner la relation qui lie l’intensité I du courant qui traverse le condensateur à sa charge q à\nun instant t donné.\nb- Calculer cette charge q à\nl’instant de date t = 10s.\n2- On trace la courbe,\n𝒒 = 𝒇(𝒖𝑪),\nreprésentée sur la figure1\nci-contre :\na. Déterminer\nl’équation\nnumérique de cette\ncourbe.\nb. En déduire la valeur de la capacité C du condensateur.\nII. Pour étudier la réponse d’un dipôle 𝑅𝐶 à un échelon de tension, on réalise un circuit série\ncomportant un générateur de tension de f.é.m 𝐸 = 10𝑉, d’un conducteur ohmique de résistance\n𝑅 = 1𝑘Ω et un condensateur, initialement déchargé et de capacité C inconnue, figure2. A la\ndate t = 0, on ferme l’interrupteur K sur la position1. Un oscilloscope à mémoire suit l'évolution\ntemporelle de deux tensions, on obtient les deux oscillogrammes (I) et (II) de la figure3.\n0 1 2 3 4 5 6 7 8 9 t (s)\n2\n4\n6\n8\n10\nu (V)\nII\nI\nfigure3\n0 2 4 6 8 10 12 14 16 18\n0,5\n1\n1,5\n𝒖𝑪(𝑽)\n𝒒(𝟏𝟎−𝟑𝑪)\nfigure1\nR\nC\nE\n1 2\nfigure2"
+    },
+    {
+      "pageNumber": 2,
+      "text": "2\n1- Reproduire le circuit et représenter les connexions à faire avec l’oscilloscope à mémoire pour\nvisualiser la tension 𝑢𝐶 (𝑡) aux bornes du condensateur sur la voie Y1 et la tension 𝑢𝐺 (𝑡) aux\nbornes du générateur sur la voie Y2.\n2- Attribuer chacune des courbes (I) et (II) à la tension correspondante. Justifier la réponse.\n3-\na- Montrer que l’équation différentielle relative à la tension uc aux bornes du condensateur s’écrit\nsous la forme : 𝒅𝒖𝑪\n𝒅𝒕 + 𝒖𝑪\n𝜶 = 𝑬\n𝜶 avec 𝜶 est une constante qu’on la précisera.\nb- Sachant que l’équation différentielle admet comme solution 𝒖𝑪(𝒕) = 𝑨(𝟏 − 𝒆−𝒕/𝜷).\nDéterminer les constantes A et 𝛽.\n4-\na- En exploitant la courbe 𝑢𝑐 = 𝑓(𝑡), déterminer la valeur de la constante de temps 𝜏.\nb- En déduire la valeur de la capacité 𝐶 du condensateur.\n5- Déterminer l’énergie emmagasinée par le condensateur :\na- En régime permanent.\nb- Lorsque l’intensité est maximale.\n6- On bascule maintenant l’interrupteur K sur la position (2).\na- Etablir l’équation différentielle relative à la tension uc aux bornes du condensateur.\nb- Vérifier que 𝒖𝑪 = 𝑬. 𝒆−𝒕/𝝉 est solution de l’équation différentielle.\nEn déduire l’expression de l’intensité courant électrique 𝑖(𝑡) et représenter son allure en précisant les\nvaleurs des points particuliers"
+    },
+    {
+      "pageNumber": 3,
+      "text": "3\nExercice 2 :\nPARTIE A\nLe montage de la figure ci-contre est constitué :\n-D’un générateur de tension, de force électromotrice E.\n-D’un commutateur k\n-Un condensateur de capacité C.\n-Deux résistors de résistance R = 100 Ω et R’.\n-Deux diodes électroluminescentes supposées idéales (interrupteur\nouvert en sens bloqué et fermé en sens passant).\nA l’aide d’un oscilloscope à mémoire on veut enregistrer la tension\nuc(t).\n1- Préciser les positions (A, B, D ou F) des fils de l’entrée principale et de la masse de\nl‘oscilloscope pour enregistrer :\n-uc au cours de la charge uniquement (k en position 1).\n-uC au cours de la décharge uniquement (k en position 2).\n-uC au cours de la charge et la décharge.\n2- A t= 0 s: l’interrupteur k est en position 1 et le condensateur est initialement déchargé.\nLa figure 3 représente un enregistrement de uc(t).\na- Etablir l’équation différentielle relative à us.\nb- La tension uc(t) = A (1 – e –t / 𝝉 ) déduire les expressions de A, 𝜏\n3-\na- Déterminer la constante de temps 𝜏 et préciser la méthode utilisée.\nb- Déduire la valeur de C.\nc- Etablir l’expression de UR(t). Représenter uR(t) pendant la charge.\nFig3"
+    },
+    {
+      "pageNumber": 4,
+      "text": "4\n4- Au cours de l’enregistrement :\na- Déterminer la durée pendant lequel chaque diode reste allumée.\nb- Quel est le décalage entre l’instant ou l’une des deux diodes s’éteint et l’autre s’allume.\n5- L’expérience de charge a été réalisée par trois groupes\nd’élèves selon les conditions décrites dans le tableau ci-\ncontre.\nLes courbes (A), (B) et (C) de la figure 4 traduisent\nl’évolution de la charge q du condensateur en fonction du\ntemps.\na- Montrer que la courbe A correspond a l’expérience (3) la\ncourbe (B) correspond à l’expérience (1).\nb- On s’intéresse à présent à l’expérience réalisée par le groupe\n1.et le groupe 2.\n❖ Déterminer les constantes de temps 𝝉2 et 𝝉1.\n❖ Sachant que R2=600 Ω déterminer R1\nGroupe\nn°\n(1) (2) (3)\nC C1 C1 C3>\nC1\nR R1 R2>\nR1\nR3\nE E E E\n0 5 10 15 20 25 30 35 40 45\nt(ms)\n0\n1\n2\n3\n4\n5\n6\nq(μc)\nB\nC\nA\nFig4"
+    },
+    {
+      "pageNumber": 5,
+      "text": "5\n6- Dans une deuxième expérience on charge le\nà l’aide d’un deuxième\t3\tcondensateur C\ngénérateur de f.e.m E’ puis on le décharge à\ntravers R’. La courbe de la fig 5 traduit\nl’énergie dissipée par effet joule dans R’ au\ncours de la décharge.\n.\tth\tE\tDéterminer l’équation numérique de\t-\ta\nb- Justifier l’allure de la courbe,.\nE’.\tet et\t3\tC\tDéduire\t-\tc\nPARTIE B\nPour visualiser des courbes stables, on applique à un circuit RC en série une tension en créneaux\nde fréquence délivrée par un GBF. Comme l’indique la figure ci-contre. R=1 K\t , C=1μF. 𝞃\nest la constante de temps du dipôle RC.\n1- Faire les connexions à l’oscilloscope pour pouvoir visualiser les tensions : uNM sur la voie(1) et\nuPM sur la voie(2).\n2- Sachant que uc= E(1- e-t/𝝉 ) pendant la charge et uc = E e-t/𝝉 pendant la décharge.\nEtablir l’expression de i(t) pendant la charge et pendant la décharge.\n3- Représenter i(t) pour t ∈ [𝟎; 𝟖 𝐦𝐬] pendant la charge et pendant la décharge.\n0 20 40 60 80 100\n𝐮𝐜\n𝟐\t\n(v²)\n0\n2\n4\n6\n8\n)\tJ\t4\t-\t\n( 10\tth\tE Fig5\n8\nt(ms)\nO\nU(V)\nE=10\n4"
+    },
+    {
+      "pageNumber": 6,
+      "text": "6\nExercice 3 :\nOn se propose d’étudier la charge et la décharge d’un condensateur à travers un résistor, pour\ncela on réalise le circuit de la figure 2 formé d’un générateur de tension de fem E=10 V, d’un\ncondensateur de capacité C= 5μF d’un commutateur K et de trois résistors de résistances R1,\nR2 et R3.\nI- Etude de la charge du condensateur :\nLe condensateur étant initialement déchargé, on place le commutateur sur la position (1) et à l’aide\nd’un oscilloscope à mémoire on visualise la tension 𝒖𝑩𝑵(𝑡) aux bornes du résistor de résistance\nR1, on obtient la courbe de la figure 3.\n1-\na- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\nb- En déduire celle relative à 𝒖𝑩𝑵.\nc- Vérifier que 𝒖𝑩𝑵(𝑡) = 𝑬. 𝒆−𝒕/𝝉𝟏 est une solution de l’équation différentielle précédente si 𝝉𝟏\ncorrespond à une expression que l’on déterminera.\n2- En déduire 𝒖𝑨𝑩 (𝒕) et i(t).\n3-\na- Qu’appelle-t-on 𝝉𝟏 ?\nb- Déterminer graphiquement 𝝉𝟏 puis en déduire la valeur de R1.\n4- Exprimer l’énergie électrostatique 𝑬𝒆 emmagasinée dans le condensateur en fonction du temps\npuis calculer sa valeur à l’instant t = 200 ms.\n5- En supposant que le condensateur est complètement chargé quand la tension𝒖𝑨𝑩= E à 1% près,\ncalculer le temps mis par le condensateur pour se charger.\nII- Etude de la décharge du condensateur :\n0 25 50 75 100 125 150 175\n2\n4\n6\n8\n10\nuBN (V)\nt(ms)\nFigure 3\nM\nD\tE\nN\nA\nB\nFigure 2\nC\n1 2\nK\nR3\nR1\nR2"
+    },
+    {
+      "pageNumber": 7,
+      "text": "7\nLe condensateur est complètement chargé, à un instant pris comme origine de temps, on place le\ncommutateur K sur position (2) et à l’aide\nd’un oscilloscope à mémoire on visualise la\ntension 𝒖𝑨𝑩 aux bornes du condensateur. On\nobtient la courbe de la figure 4.\n1- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\n2- Sachant que 𝒖𝑨𝑩 = 𝑬. 𝒆−𝒕/𝝉𝟐 est solution de\nl’équation différentielle donner l’expression de\nla constante de temps 𝝉𝟐 lors de la décharge du\ncondensateur.\n3-\na- Déterminer l’expression de la tension 𝒖𝑩𝑫(𝒕)\naux bornes du résistor R3 en fonction de temps.\nb- Déduire la valeur de la tension 𝒖𝑩𝑫 à l’origine\nde temps, si R2 = R3.\n4- Déterminer la valeur algébrique de l’intensité\ndu courant i à l’instant t1.\nOn donne R2 = R3 = 5 k.\n𝒕𝟏\nt\n0\n2\n4\n6\n8\n10\n𝒖𝑨𝑩(𝑽)\nFigure 4"
+    },
+    {
+      "pageNumber": 8,
+      "text": "8\nExercice 4 :\nN.B: Les deux parties A et B sont indépendantes.\nPARTIE A :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R1=10kΩ .\n- Un condensateur de capacité C , initialement déchargé.\n- Un interrupteur K.\nOn ferme l’interrupteur K à un instant pris comme origine\ndes temps. Un système d acquisition permet de tracer les\ntension uC(t) et uR (t) respectivement aux bornes du\ncondensateur et aux bornes du résistor, on obtient les courbes\nde la figure 2\n1- Identifier les deux courbes 𝓒𝟏 𝑒𝑡 𝓒𝟐 .\n2- Trouver l'intensité du courant I1 débitée par le générateur.\n3- Déterminer la capacité C du condensateur.\n4- On désire charger le condensateur à une tension de 10V.\na- Calculer le temps de charge noté tC.\nb- Pour charger le condensateur 2 fois plus lentement, on se\npropose de modifier la résistance du résistor à une valeur R2\n= 2.R1 ou de modifier l’intensité du courant débitée à une\nvaleur 𝑰𝟐 = 𝑰𝟏\n𝟐\nPréciser laquelle des deux propositions est juste ? Justifier\nPARTIE B :\nPour étudier la réponse d’un dipôle RC à un échelon de tension, on réalise un\ncircuit série comportant un générateur de tension de f.é.m 𝐄, d’un conducteur\nohmique de résistance R et un condensateur, initialement déchargé et de\ncapacité C inconnue, figure 2. A la date t = 0, on ferme l’interrupteur K sur la\nposition1. Un dispositif d’acquisition relié à un ordinateur permet de suivre\nl’évolution au cours du temps de la charge q du condensateur (voir figure 3) et\nde tracer la courbe 𝒅𝒖𝒄\n𝒅𝒕 = f(uc) (voir figure 4)\n1- Etablir l’équation différentielle relative à uc.\n2- Vérifier que uc = E.(1- 𝒆−𝒕/𝑹𝑪) est solution de cette équation différentielle.\n0 1 2 3 4 t(s)\n0\n1\n2\n3\n4\nu(V)\n𝓒𝟏\n𝓒𝟐\nfigure 2\nR\nC\nE\n1\nfigure 2\nK\nR1\nC\nK\nGénérateur\nde courant\nfigure 1"
+    },
+    {
+      "pageNumber": 9,
+      "text": "9\n3- donner les expressions de q(t) et i(t)\n4- Etude de la courbe de la figure 4\na. Justifier théoriquement l’allure de la courbe de la figure 4.\nb. Déterminer les expressions de A et B en fonction de E, R et C\nc. Exprimer 𝝉 en fonction de A et B\nd. Déduire la valeur de τ et de E sachant que 𝑩 = 𝟖𝑽 et 𝑨 = 𝟖. 𝟏𝟎𝟑𝑽𝒔−𝟏\n5- Etude de la courbe de la figure 3\na. Justifier théoriquement l’allure de la courbe de la figure 3\nb. Déterminer l'intensité du courant à t = τ\nc. Déterminer les valeurs de R et de C.\nd. Montrer que l'allure de q(t) permet de déduire celle de i(t). Représenter alors i(t) en précisant sa\nvaleur initiale\nt(ms)\n0\n𝟏, 𝟎𝟒\n𝟐, 𝟓𝟐\nq(𝟏𝟎−𝟓C)\n𝝉\nFigure 3\n𝒅𝒖𝑪\n𝒅𝒕 (𝟏𝟎𝟑𝑽. 𝒔−𝟏)\n0 B\n𝒖𝒄(𝑽)\nA\nFigure 4"
+    },
+    {
+      "pageNumber": 10,
+      "text": "10\nExercice 5 :\nOn réalise le circuit de la figure 4 comportant un générateur de tension idéal de fém. E ; deux\nrésistors de résistances R1 = 1 k et R2 ; un\ncondensateur de capacité C.\nI.\n1- représenter les connexions à effectuer pour visualiser\nà un oscilloscope à mémoire les tensions uc sur la voie\n1 et la tension uR sur la voie 2.\n2- Le condensateur est initialement déchargé. A\nl’instant t = 0 on ferme K sur la position 1.\nMontrer que l ’équation différentielle régissant les\nvariations de la tension uR1 peut s’écrire sous la\nforme : R1.C duR1\ndt + uR1 = 0. Cette équation différentielle a pour solution uR1 (t) = A.e- t\n.\n.Déterminer les expressions de A et de .\n3- L’oscilloscope à mémoire a permis d’enregistrer l’évolution de la tension uC(t) aux bornes du\ncondensateur en fonction du temps. (Voir figure 5 ).\nFig4\nR2\nE\nR1\nC\nK\n1 2\nFigure 5\nuC(V)\n0 10 20\n5\n10\n0.002 \t0.004 \t0.006 \t0.008 \t0.01 \t0.012 \t0.014 \t0.016 \t0.018 \t0.02\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nt(ms)"
+    },
+    {
+      "pageNumber": 11,
+      "text": "11\na- Déterminer la valeur de E.\nb- Déterminer la valeur de , en déduire la valeur de C.\nc- Tracer sur le système d’axe de la figure 4 ; l’allure soignée de la courbe donnant uR1 (t) en\nfonction du temps observé sur la voie2 de l’oscilloscope.\n4-\na- Déterminer par le calcul l’instant t1 auquel uc =11v .\nb- Retrouver ce résultat graphiquement.\nc- Calculer l’intensité du courant lorsque uC = 1,7 uR1 .\n5-\na- Déterminer l’énergie électrostatique maximale Em emmagasinée par le condensateur.\nb- Déterminer l’instant t2 au quel l’énergie emmagasinée\npar le condensateur est Ec =1\n4 Em\n6-\na- Etablir la relation : q (t) = C. E - . i( t )\nb- Une étude expérimentale a permis de tracer la courbe\n(figure6). Retrouver les valeurs\t et C en exploitant\nla courbe.\nII. Lorsque le condensateur est complètement chargé, on\nbascule l’interrupteur en position 2 , a une date prise\ncomme nouvelle origine du temps .\n1- Etablir l’équation différentielle en régissant les\nvariations de i.\n2- Vérifier que la solution de cette équation est 𝒊 =\n− 𝑬\n𝑹𝟏+𝑹𝟐 𝒆 −𝒕\n(𝑹𝟏+𝑹𝟐)𝑪\n3- Déterminer la valeur de R2 sachant que la durée de la décharge est le double de la durée de la\ncharge.\n4- Déterminer l’intensité du courant qui traverse le circuit à l’instant t = 2ms .\ni(10-3A)\nq(10-5 C)\n0 12\nFigure 6\n4,8"
+    },
+    {
+      "pageNumber": 12,
+      "text": "12"
+    },
+    {
+      "pageNumber": 13,
+      "text": "13"
+    },
+    {
+      "pageNumber": 14,
+      "text": "14"
+    },
+    {
+      "pageNumber": 15,
+      "text": "15"
+    },
+    {
+      "pageNumber": 16,
+      "text": "16"
+    },
+    {
+      "pageNumber": 17,
+      "text": "17"
+    },
+    {
+      "pageNumber": 18,
+      "text": "18"
+    },
+    {
+      "pageNumber": 19,
+      "text": "19"
+    },
+    {
+      "pageNumber": 20,
+      "text": "20"
+    },
+    {
+      "pageNumber": 21,
+      "text": "21"
+    },
+    {
+      "pageNumber": 22,
+      "text": "22"
+    },
+    {
+      "pageNumber": 23,
+      "text": "23"
+    },
+    {
+      "pageNumber": 24,
+      "text": "24"
+    },
+    {
+      "pageNumber": 25,
+      "text": "25"
+    },
+    {
+      "pageNumber": 26,
+      "text": "26"
+    },
+    {
+      "pageNumber": 27,
+      "text": "27"
+    },
+    {
+      "pageNumber": 28,
+      "text": "28"
+    },
+    {
+      "pageNumber": 29,
+      "text": "29"
+    },
+    {
+      "pageNumber": 30,
+      "text": "30"
+    },
+    {
+      "pageNumber": 31,
+      "text": "31"
+    },
+    {
+      "pageNumber": 32,
+      "text": "32"
+    },
+    {
+      "pageNumber": 33,
+      "text": "33"
+    },
+    {
+      "pageNumber": 34,
+      "text": "34"
+    },
+    {
+      "pageNumber": 35,
+      "text": "35"
+    },
+    {
+      "pageNumber": 36,
+      "text": "36"
+    },
+    {
+      "pageNumber": 37,
+      "text": "37"
+    },
+    {
+      "pageNumber": 38,
+      "text": "38"
+    },
+    {
+      "pageNumber": 39,
+      "text": "39"
+    },
+    {
+      "pageNumber": 40,
+      "text": "40"
+    },
+    {
+      "pageNumber": 41,
+      "text": "41"
+    },
+    {
+      "pageNumber": 42,
+      "text": "42"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-001",
+      "pageNumber": 1,
+      "text": "1\n1. Exercice 1 :\nI. A fin de déterminer la capacité C d’un condensateur, on réalise sa charge à l’aide d’un\ngénérateur de courant.\nL’intensité du courant électrique est maintenue constante 𝐼 = 20𝜇𝐴, et on mesure la tension aux\nbornes du condensateur à différents instants de dates t.\n1-\na- Donner la relation qui lie l’intensité I du courant qui traverse le condensateur à sa charge q à\nun instant t donné.\nb- Calculer cette charge q à\nl’instant de date t = 10s.\n2- On trace la courbe,\n𝒒 = 𝒇(𝒖𝑪),\nreprésentée sur la figure1\nci-contre :\na. Déterminer\nl’équation\nnumérique de cette\ncourbe.\nb. En déduire la valeur de la capacité C du condensateur.\nII. Pour étudier la réponse d’un dipôle 𝑅𝐶 à un échelon de tension, on réalise un circuit série\ncomportant un générateur de tension de f.é.m 𝐸 = 10𝑉, d’un conducteur ohmique de résistance\n𝑅 = 1𝑘Ω et un condensateur, initialement déchargé et de capacité C inconnue, figure2. A la\ndate t = 0, on ferme l’interrupteur K sur la position1. Un oscilloscope à mémoire suit l'évolution\ntemporelle de deux tensions, on obtient les deux oscillogrammes (I) et (II) de la figure3.\n0 1 2 3 4 5 6 7 8 9 t (s)\n2\n4\n6\n8\n10\nu (V)\nII\nI\nfigure3\n0 2 4 6 8 10 12 14 16 18\n0,5\n1\n1,5\n𝒖𝑪(𝑽)\n𝒒(𝟏𝟎−𝟑𝑪)\nfigure1\nR\nC\nE\n1 2\nfigure2"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-002",
+      "pageNumber": 2,
+      "text": "2\n1- Reproduire le circuit et représenter les connexions à faire avec l’oscilloscope à mémoire pour\nvisualiser la tension 𝑢𝐶 (𝑡) aux bornes du condensateur sur la voie Y1 et la tension 𝑢𝐺 (𝑡) aux\nbornes du générateur sur la voie Y2.\n2- Attribuer chacune des courbes (I) et (II) à la tension correspondante. Justifier la réponse.\n3-\na- Montrer que l’équation différentielle relative à la tension uc aux bornes du condensateur s’écrit\nsous la forme : 𝒅𝒖𝑪\n𝒅𝒕 + 𝒖𝑪\n𝜶 = 𝑬\n𝜶 avec 𝜶 est une constante qu’on la précisera.\nb- Sachant que l’équation différentielle admet comme solution 𝒖𝑪(𝒕) = 𝑨(𝟏 − 𝒆−𝒕/𝜷).\nDéterminer les constantes A et 𝛽.\n4-\na- En exploitant la courbe 𝑢𝑐 = 𝑓(𝑡), déterminer la valeur de la constante de temps 𝜏.\nb- En déduire la valeur de la capacité 𝐶 du condensateur.\n5- Déterminer l’énergie emmagasinée par le condensateur :\na- En régime permanent.\nb- Lorsque l’intensité est maximale.\n6- On bascule maintenant l’interrupteur K sur la position (2).\na- Etablir l’équation différentielle relative à la tension uc aux bornes du condensateur.\nb- Vérifier que 𝒖𝑪 = 𝑬. 𝒆−𝒕/𝝉 est solution de l’équation différentielle.\nEn déduire l’expression de l’intensité courant électrique 𝑖(𝑡) et représenter son allure en précisant les\nvaleurs des points particuliers"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-003",
+      "pageNumber": 3,
+      "text": "3\nExercice 2 :\nPARTIE A\nLe montage de la figure ci-contre est constitué :\n-D’un générateur de tension, de force électromotrice E.\n-D’un commutateur k\n-Un condensateur de capacité C.\n-Deux résistors de résistance R = 100 Ω et R’.\n-Deux diodes électroluminescentes supposées idéales (interrupteur\nouvert en sens bloqué et fermé en sens passant).\nA l’aide d’un oscilloscope à mémoire on veut enregistrer la tension\nuc(t).\n1- Préciser les positions (A, B, D ou F) des fils de l’entrée principale et de la masse de\nl‘oscilloscope pour enregistrer :\n-uc au cours de la charge uniquement (k en position 1).\n-uC au cours de la décharge uniquement (k en position 2).\n-uC au cours de la charge et la décharge.\n2- A t= 0 s: l’interrupteur k est en position 1 et le condensateur est initialement déchargé.\nLa figure 3 représente un enregistrement de uc(t).\na- Etablir l’équation différentielle relative à us.\nb- La tension uc(t) = A (1 – e –t / 𝝉 ) déduire les expressions de A, 𝜏\n3-\na- Déterminer la constante de temps 𝜏 et préciser la méthode utilisée.\nb- Déduire la valeur de C.\nc- Etablir l’expression de UR(t). Représenter uR(t) pendant la charge.\nFig3"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-004",
+      "pageNumber": 4,
+      "text": "4\n4- Au cours de l’enregistrement :\na- Déterminer la durée pendant lequel chaque diode reste allumée.\nb- Quel est le décalage entre l’instant ou l’une des deux diodes s’éteint et l’autre s’allume.\n5- L’expérience de charge a été réalisée par trois groupes\nd’élèves selon les conditions décrites dans le tableau ci-\ncontre.\nLes courbes (A), (B) et (C) de la figure 4 traduisent\nl’évolution de la charge q du condensateur en fonction du\ntemps.\na- Montrer que la courbe A correspond a l’expérience (3) la\ncourbe (B) correspond à l’expérience (1).\nb- On s’intéresse à présent à l’expérience réalisée par le groupe\n1.et le groupe 2.\n❖ Déterminer les constantes de temps 𝝉2 et 𝝉1.\n❖ Sachant que R2=600 Ω déterminer R1\nGroupe\nn°\n(1) (2) (3)\nC C1 C1 C3>\nC1\nR R1 R2>\nR1\nR3\nE E E E\n0 5 10 15 20 25 30 35 40 45\nt(ms)\n0\n1\n2\n3\n4\n5\n6\nq(μc)\nB\nC\nA\nFig4"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-005",
+      "pageNumber": 5,
+      "text": "5\n6- Dans une deuxième expérience on charge le\nà l’aide d’un deuxième\t3\tcondensateur C\ngénérateur de f.e.m E’ puis on le décharge à\ntravers R’. La courbe de la fig 5 traduit\nl’énergie dissipée par effet joule dans R’ au\ncours de la décharge.\n.\tth\tE\tDéterminer l’équation numérique de\t-\ta\nb- Justifier l’allure de la courbe,.\nE’.\tet et\t3\tC\tDéduire\t-\tc\nPARTIE B\nPour visualiser des courbes stables, on applique à un circuit RC en série une tension en créneaux\nde fréquence délivrée par un GBF. Comme l’indique la figure ci-contre. R=1 K\t , C=1μF. 𝞃\nest la constante de temps du dipôle RC.\n1- Faire les connexions à l’oscilloscope pour pouvoir visualiser les tensions : uNM sur la voie(1) et\nuPM sur la voie(2).\n2- Sachant que uc= E(1- e-t/𝝉 ) pendant la charge et uc = E e-t/𝝉 pendant la décharge.\nEtablir l’expression de i(t) pendant la charge et pendant la décharge.\n3- Représenter i(t) pour t ∈ [𝟎; 𝟖 𝐦𝐬] pendant la charge et pendant la décharge.\n0 20 40 60 80 100\n𝐮𝐜\n𝟐\t\n(v²)\n0\n2\n4\n6\n8\n)\tJ\t4\t-\t\n( 10\tth\tE Fig5\n8\nt(ms)\nO\nU(V)\nE=10\n4"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-006",
+      "pageNumber": 6,
+      "text": "6\nExercice 3 :\nOn se propose d’étudier la charge et la décharge d’un condensateur à travers un résistor, pour\ncela on réalise le circuit de la figure 2 formé d’un générateur de tension de fem E=10 V, d’un\ncondensateur de capacité C= 5μF d’un commutateur K et de trois résistors de résistances R1,\nR2 et R3.\nI- Etude de la charge du condensateur :\nLe condensateur étant initialement déchargé, on place le commutateur sur la position (1) et à l’aide\nd’un oscilloscope à mémoire on visualise la tension 𝒖𝑩𝑵(𝑡) aux bornes du résistor de résistance\nR1, on obtient la courbe de la figure 3.\n1-\na- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\nb- En déduire celle relative à 𝒖𝑩𝑵.\nc- Vérifier que 𝒖𝑩𝑵(𝑡) = 𝑬. 𝒆−𝒕/𝝉𝟏 est une solution de l’équation différentielle précédente si 𝝉𝟏\ncorrespond à une expression que l’on déterminera.\n2- En déduire 𝒖𝑨𝑩 (𝒕) et i(t).\n3-\na- Qu’appelle-t-on 𝝉𝟏 ?\nb- Déterminer graphiquement 𝝉𝟏 puis en déduire la valeur de R1.\n4- Exprimer l’énergie électrostatique 𝑬𝒆 emmagasinée dans le condensateur en fonction du temps\npuis calculer sa valeur à l’instant t = 200 ms.\n5- En supposant que le condensateur est complètement chargé quand la tension𝒖𝑨𝑩= E à 1% près,\ncalculer le temps mis par le condensateur pour se charger.\nII- Etude de la décharge du condensateur :\n0 25 50 75 100 125 150 175\n2\n4\n6\n8\n10\nuBN (V)\nt(ms)\nFigure 3\nM\nD\tE\nN\nA\nB\nFigure 2\nC\n1 2\nK\nR3\nR1\nR2"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-007",
+      "pageNumber": 7,
+      "text": "7\nLe condensateur est complètement chargé, à un instant pris comme origine de temps, on place le\ncommutateur K sur position (2) et à l’aide\nd’un oscilloscope à mémoire on visualise la\ntension 𝒖𝑨𝑩 aux bornes du condensateur. On\nobtient la courbe de la figure 4.\n1- Etablir l’équation différentielle relative à 𝒖𝑨𝑩.\n2- Sachant que 𝒖𝑨𝑩 = 𝑬. 𝒆−𝒕/𝝉𝟐 est solution de\nl’équation différentielle donner l’expression de\nla constante de temps 𝝉𝟐 lors de la décharge du\ncondensateur.\n3-\na- Déterminer l’expression de la tension 𝒖𝑩𝑫(𝒕)\naux bornes du résistor R3 en fonction de temps.\nb- Déduire la valeur de la tension 𝒖𝑩𝑫 à l’origine\nde temps, si R2 = R3.\n4- Déterminer la valeur algébrique de l’intensité\ndu courant i à l’instant t1.\nOn donne R2 = R3 = 5 k.\n𝒕𝟏\nt\n0\n2\n4\n6\n8\n10\n𝒖𝑨𝑩(𝑽)\nFigure 4"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-008",
+      "pageNumber": 8,
+      "text": "8\nExercice 4 :\nN.B: Les deux parties A et B sont indépendantes.\nPARTIE A :\nLe circuit électrique de la figure 1 comporte :\n- Un générateur de courant idéal (G) débitant un courant\nd’intensité I1 constante\n- Un résistor de résistance R1=10kΩ .\n- Un condensateur de capacité C , initialement déchargé.\n- Un interrupteur K.\nOn ferme l’interrupteur K à un instant pris comme origine\ndes temps. Un système d acquisition permet de tracer les\ntension uC(t) et uR (t) respectivement aux bornes du\ncondensateur et aux bornes du résistor, on obtient les courbes\nde la figure 2\n1- Identifier les deux courbes 𝓒𝟏 𝑒𝑡 𝓒𝟐 .\n2- Trouver l'intensité du courant I1 débitée par le générateur.\n3- Déterminer la capacité C du condensateur.\n4- On désire charger le condensateur à une tension de 10V.\na- Calculer le temps de charge noté tC.\nb- Pour charger le condensateur 2 fois plus lentement, on se\npropose de modifier la résistance du résistor à une valeur R2\n= 2.R1 ou de modifier l’intensité du courant débitée à une\nvaleur 𝑰𝟐 = 𝑰𝟏\n𝟐\nPréciser laquelle des deux propositions est juste ? Justifier\nPARTIE B :\nPour étudier la réponse d’un dipôle RC à un échelon de tension, on réalise un\ncircuit série comportant un générateur de tension de f.é.m 𝐄, d’un conducteur\nohmique de résistance R et un condensateur, initialement déchargé et de\ncapacité C inconnue, figure 2. A la date t = 0, on ferme l’interrupteur K sur la\nposition1. Un dispositif d’acquisition relié à un ordinateur permet de suivre\nl’évolution au cours du temps de la charge q du condensateur (voir figure 3) et\nde tracer la courbe 𝒅𝒖𝒄\n𝒅𝒕 = f(uc) (voir figure 4)\n1- Etablir l’équation différentielle relative à uc.\n2- Vérifier que uc = E.(1- 𝒆−𝒕/𝑹𝑪) est solution de cette équation différentielle.\n0 1 2 3 4 t(s)\n0\n1\n2\n3\n4\nu(V)\n𝓒𝟏\n𝓒𝟐\nfigure 2\nR\nC\nE\n1\nfigure 2\nK\nR1\nC\nK\nGénérateur\nde courant\nfigure 1"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-009",
+      "pageNumber": 9,
+      "text": "9\n3- donner les expressions de q(t) et i(t)\n4- Etude de la courbe de la figure 4\na. Justifier théoriquement l’allure de la courbe de la figure 4.\nb. Déterminer les expressions de A et B en fonction de E, R et C\nc. Exprimer 𝝉 en fonction de A et B\nd. Déduire la valeur de τ et de E sachant que 𝑩 = 𝟖𝑽 et 𝑨 = 𝟖. 𝟏𝟎𝟑𝑽𝒔−𝟏\n5- Etude de la courbe de la figure 3\na. Justifier théoriquement l’allure de la courbe de la figure 3\nb. Déterminer l'intensité du courant à t = τ\nc. Déterminer les valeurs de R et de C.\nd. Montrer que l'allure de q(t) permet de déduire celle de i(t). Représenter alors i(t) en précisant sa\nvaleur initiale\nt(ms)\n0\n𝟏, 𝟎𝟒\n𝟐, 𝟓𝟐\nq(𝟏𝟎−𝟓C)\n𝝉\nFigure 3\n𝒅𝒖𝑪\n𝒅𝒕 (𝟏𝟎𝟑𝑽. 𝒔−𝟏)\n0 B\n𝒖𝒄(𝑽)\nA\nFigure 4"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-010",
+      "pageNumber": 10,
+      "text": "10\nExercice 5 :\nOn réalise le circuit de la figure 4 comportant un générateur de tension idéal de fém. E ; deux\nrésistors de résistances R1 = 1 k et R2 ; un\ncondensateur de capacité C.\nI.\n1- représenter les connexions à effectuer pour visualiser\nà un oscilloscope à mémoire les tensions uc sur la voie\n1 et la tension uR sur la voie 2.\n2- Le condensateur est initialement déchargé. A\nl’instant t = 0 on ferme K sur la position 1.\nMontrer que l ’équation différentielle régissant les\nvariations de la tension uR1 peut s’écrire sous la\nforme : R1.C duR1\ndt + uR1 = 0. Cette équation différentielle a pour solution uR1 (t) = A.e- t\n.\n.Déterminer les expressions de A et de .\n3- L’oscilloscope à mémoire a permis d’enregistrer l’évolution de la tension uC(t) aux bornes du\ncondensateur en fonction du temps. (Voir figure 5 ).\nFig4\nR2\nE\nR1\nC\nK\n1 2\nFigure 5\nuC(V)\n0 10 20\n5\n10\n0.002 \t0.004 \t0.006 \t0.008 \t0.01 \t0.012 \t0.014 \t0.016 \t0.018 \t0.02\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nt(ms)"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-011",
+      "pageNumber": 11,
+      "text": "11\na- Déterminer la valeur de E.\nb- Déterminer la valeur de , en déduire la valeur de C.\nc- Tracer sur le système d’axe de la figure 4 ; l’allure soignée de la courbe donnant uR1 (t) en\nfonction du temps observé sur la voie2 de l’oscilloscope.\n4-\na- Déterminer par le calcul l’instant t1 auquel uc =11v .\nb- Retrouver ce résultat graphiquement.\nc- Calculer l’intensité du courant lorsque uC = 1,7 uR1 .\n5-\na- Déterminer l’énergie électrostatique maximale Em emmagasinée par le condensateur.\nb- Déterminer l’instant t2 au quel l’énergie emmagasinée\npar le condensateur est Ec =1\n4 Em\n6-\na- Etablir la relation : q (t) = C. E - . i( t )\nb- Une étude expérimentale a permis de tracer la courbe\n(figure6). Retrouver les valeurs\t et C en exploitant\nla courbe.\nII. Lorsque le condensateur est complètement chargé, on\nbascule l’interrupteur en position 2 , a une date prise\ncomme nouvelle origine du temps .\n1- Etablir l’équation différentielle en régissant les\nvariations de i.\n2- Vérifier que la solution de cette équation est 𝒊 =\n− 𝑬\n𝑹𝟏+𝑹𝟐 𝒆 −𝒕\n(𝑹𝟏+𝑹𝟐)𝑪\n3- Déterminer la valeur de R2 sachant que la durée de la décharge est le double de la durée de la\ncharge.\n4- Déterminer l’intensité du courant qui traverse le circuit à l’instant t = 2ms .\ni(10-3A)\nq(10-5 C)\n0 12\nFigure 6\n4,8"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-012",
+      "pageNumber": 12,
+      "text": "12"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-013",
+      "pageNumber": 13,
+      "text": "13"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-014",
+      "pageNumber": 14,
+      "text": "14"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-015",
+      "pageNumber": 15,
+      "text": "15"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-016",
+      "pageNumber": 16,
+      "text": "16"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-017",
+      "pageNumber": 17,
+      "text": "17"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-018",
+      "pageNumber": 18,
+      "text": "18"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-019",
+      "pageNumber": 19,
+      "text": "19"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-020",
+      "pageNumber": 20,
+      "text": "20"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-021",
+      "pageNumber": 21,
+      "text": "21"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-022",
+      "pageNumber": 22,
+      "text": "22"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-023",
+      "pageNumber": 23,
+      "text": "23"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-024",
+      "pageNumber": 24,
+      "text": "24"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-025",
+      "pageNumber": 25,
+      "text": "25"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-026",
+      "pageNumber": 26,
+      "text": "26"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-027",
+      "pageNumber": 27,
+      "text": "27"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-028",
+      "pageNumber": 28,
+      "text": "28"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-029",
+      "pageNumber": 29,
+      "text": "29"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-030",
+      "pageNumber": 30,
+      "text": "30"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-031",
+      "pageNumber": 31,
+      "text": "31"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-032",
+      "pageNumber": 32,
+      "text": "32"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-033",
+      "pageNumber": 33,
+      "text": "33"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-034",
+      "pageNumber": 34,
+      "text": "34"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-035",
+      "pageNumber": 35,
+      "text": "35"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-036",
+      "pageNumber": 36,
+      "text": "36"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-037",
+      "pageNumber": 37,
+      "text": "37"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-038",
+      "pageNumber": 38,
+      "text": "38"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-039",
+      "pageNumber": 39,
+      "text": "39"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-040",
+      "pageNumber": 40,
+      "text": "40"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-041",
+      "pageNumber": 41,
+      "text": "41"
+    },
+    {
+      "chunkId": "DOC-8086F77AEF21A5A8-CHK-042",
+      "pageNumber": 42,
+      "text": "42"
+    }
+  ]
+}

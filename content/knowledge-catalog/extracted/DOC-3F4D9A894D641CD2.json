@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3F4D9A894D641CD2",
+  "filename": "Fibonacci.py",
+  "relPath": "bac info/algo/Python/Fibonacci.py",
+  "sha256": "3f4d9a894d641cd22dd1911423db7618863970528caf62a069995d9705dd7b4c",
+  "extractedAt": "2026-11-14T18:35:36.319Z",
+  "pageCount": 1,
+  "textSnippet": "def Fibonacci(n): U1=1 U2=1 for i in range(3,n): U=U1+U2 U1=U2 U2=U if n==1 or n==2: return 1 else: return U n=Fibonacci(n)",
+  "fullText": "def Fibonacci(n):\r\n    U1=1\r\n    U2=1\r\n    for i in range(3,n):\r\n        U=U1+U2\r\n        U1=U2\r\n        U2=U\r\n    if n==1 or n==2:\r\n        return 1\r\n    else:\r\n        return U\r\n    \r\nn=Fibonacci(n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-3F4D9A894D641CD2-CHK-001",
+      "text": "def Fibonacci(n):\r\n    U1=1\r\n    U2=1\r\n    for i in range(3,n):\r\n        U=U1+U2\r\n        U1=U2\r\n        U2=U\r\n    if n==1 or n==2:\r\n        return 1\r\n    else:\r\n        return U\r\n\nn=Fibonacci(n)"
+    }
+  ]
+}

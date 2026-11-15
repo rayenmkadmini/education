@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-6C5F2CC0EB4D521D",
+  "filename": "thuemorse sghira.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/thuemorse sghira.py",
+  "sha256": "6c5f2cc0eb4d521d50155f0a8dcdce07d3d0889e4689a9b675f68d37e209910d",
+  "extractedAt": "2026-11-14T18:35:36.437Z",
+  "pageCount": 1,
+  "textSnippet": "def morse(x,n): if(x==0): u0='0' u1='01' elif(x==1): u1='10' u0='1' else: print(\"nombre invalide\") for i in range(2,n): u=u1+u1[::-1] u0=u1 u1=u print(\"u\",i+1,\"== \",u) morse(1,6)",
+  "fullText": "def morse(x,n):\r\n    if(x==0):\r\n        u0='0'\r\n        u1='01'\r\n    elif(x==1):\r\n        u1='10'\r\n        u0='1'\r\n    else:\r\n        print(\"nombre invalide\")\r\n    for i in range(2,n):\r\n        u=u1+u1[::-1]\r\n        u0=u1\r\n        u1=u\r\n        print(\"u\",i+1,\"== \",u)\r\nmorse(1,6)",
+  "chunks": [
+    {
+      "chunkId": "DOC-6C5F2CC0EB4D521D-CHK-001",
+      "text": "def morse(x,n):\r\n    if(x==0):\r\n        u0='0'\r\n        u1='01'\r\n    elif(x==1):\r\n        u1='10'\r\n        u0='1'\r\n    else:\r\n        print(\"nombre invalide\")\r\n    for i in range(2,n):\r\n        u=u1+u1[::-1]\r\n        u0=u1\r\n        u1=u\r\n        print(\"u\",i+1,\"== \",u)\r\nmorse(1,6)"
+    }
+  ]
+}

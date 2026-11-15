@@ -1,0 +1,25 @@
+.vercel
+.env*
+.env*.local
+!.env.example
+
+# Node & Next.js
+node_modules/
+bac-ai-studio/node_modules/
+bac-ai-studio/.next/
+bac-ai-studio/out/
+*.log
+
+# Studio Cache & Local Generation Tasks
+content/tasks/pending/*.tmp*
+content/drafts/backups/
+content/drafts/active/*.tmp*
+
+# Temporary & Cache
+.npm-cache/
+.npm-temp/
+.remediation-backup/
+
+# Educational Raw Resource Archives (Protecting local binaries)
+# Keep raw source files local to drive D:
+bac info cours exam resourse/

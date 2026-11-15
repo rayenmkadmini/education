@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-E0EF28928DAEB606",
+  "filename": "Source.txt",
+  "relPath": "bac info/algo/Python/Source.txt",
+  "sha256": "e0ef28928daeb60641af2662980f3bade9d2f59182cc931f0ee987522978c36e",
+  "extractedAt": "2026-11-14T18:35:36.551Z",
+  "pageCount": 1,
+  "textSnippet": "Les modifications de l'aspect general de votre document s'effectuent sous l'onglet Mise en page.",
+  "fullText": "Les modifications de l'aspect\r\ngeneral de votre document\r\ns'effectuent sous l'onglet\r\nMise en page.",
+  "chunks": [
+    {
+      "chunkId": "DOC-E0EF28928DAEB606-CHK-001",
+      "text": "Les modifications de l'aspect\r\ngeneral de votre document\r\ns'effectuent sous l'onglet\r\nMise en page."
+    }
+  ]
+}

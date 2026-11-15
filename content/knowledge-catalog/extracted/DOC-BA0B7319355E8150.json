@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-BA0B7319355E8150",
+  "filename": "style.css",
+  "relPath": "bac info/sti/etude/bac preatique STI 2015/style.css",
+  "sha256": "ba0b7319355e815062ed181f987a04af39d9323eddcd8f9cfc9abe01bbd949df",
+  "extractedAt": "2026-11-06T14:24:17.103Z",
+  "pageCount": 1,
+  "textSnippet": "*{ padding: 0; margin: 0; line-height: 1.5; } header{ width: 100%; height: 80px; background-color: rgb(87, 119, 130); } h1{ text-align: center; text-decoration: wavy; color: darkgrey; font-family: cursive; font-weight: bold; text-transform: capitalize; } main{ width: 100%; height: 800px; } nav ul{ padding-left: 10%; padding-top: 20%; list-style: none; } nav ul li{ margin-bottom: 30px; } nav ul li",
+  "fullText": "*{\r\n    padding: 0;\r\n    margin: 0;\r\n    line-height: 1.5;\r\n}\r\nheader{\r\n    width: 100%;\r\n    height: 80px;\r\n    background-color: rgb(87, 119, 130);\r\n}\r\nh1{\r\n    text-align: center;\r\n    text-decoration: wavy;\r\n    color: darkgrey;\r\n    font-family: cursive;\r\n    font-weight: bold;\r\n    text-transform: capitalize;\r\n}\r\nmain{\r\n    width: 100%;\r\n    height: 800px;\r\n}\r\nnav ul{\r\n    padding-left: 10%;\r\n    padding-top: 20%;\r\n    list-style: none;\r\n}\r\nnav ul li{\r\n   margin-bottom: 30px;\r\n}\r\nnav ul li a{\r\n    text-decoration: none;\r\n    font-weight: bold;\r\n    font-size: larger;\r\n    color: cadetblue;\r\n}\r\nsection{\r\n    width: 30%;\r\n    float: left;\r\n    height: 100%;\r\n}\r\naside{\r\n    padding-top: 3.5%;\r\n    width: 70%;\r\n    height: 80%;\r\n    float: left;\r\n}\r\niframe{\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\nfooter{\r\n    width: 100%;\r\n    height: 60px;\r\n    background-color: rgb(87, 119, 130);\r\n}\r\n\r\n/*page ajout */\r\n\r\nlabel{\r\n    width: 20%;\r\n    display: inline-block;\r\n    margin-left: 3%;\r\n}\r\ninput[type=\"text\"]{\r\n    width: 300px;\r\n}\r\ndiv{\r\n    margin-bottom: 2%;\r\n}\r\ninput[type=\"sumbit\"],input[type=\"reset\"]{\r\n   margin-left: 40%;\r\n}",
+  "chunks": [
+    {
+      "chunkId": "DOC-BA0B7319355E8150-CHK-001",
+      "text": "*{\r\n    padding: 0;\r\n    margin: 0;\r\n    line-height: 1.5;\r\n}\r\nheader{\r\n    width: 100%;\r\n    height: 80px;\r\n    background-color: rgb(87, 119, 130);\r\n}\r\nh1{\r\n    text-align: center;\r\n    text-decoration: wavy;\r\n    color: darkgrey;\r\n    font-family: cursive;\r\n    font-weight: bold;\r\n    text-transform: capitalize;\r\n}\r\nmain{\r\n    width: 100%;\r\n    height: 800px;\r\n}\r\nnav ul{\r\n    padding-left: 10%;\r\n    padding-top: 20%;\r\n    list-style: none;\r\n}\r\nnav ul li{\r\n   margin-bottom: 30px;\r\n}\r\nnav ul li a{\r\n    text-decoration: none;\r\n    font-weight: bold;\r\n    font-size: larger;\r\n    color: cadetblue;\r\n}\r\nsection{\r\n    width: 30%;\r\n    float: left;\r\n    height: 100%;\r\n}\r\naside{\r\n    padding-top: 3.5%;\r\n    width: 70%;\r\n    height: 80%;\r\n    float: left;\r\n}\r\niframe{\r\n    width: 100%;\r\n    height: 100%;\r\n}"
+    },
+    {
+      "chunkId": "DOC-BA0B7319355E8150-CHK-002",
+      "text": "footer{\r\n    width: 100%;\r\n    height: 60px;\r\n    background-color: rgb(87, 119, 130);\r\n}\r\n\n/*page ajout */\r\n\nlabel{\r\n    width: 20%;\r\n    display: inline-block;\r\n    margin-left: 3%;\r\n}\r\ninput[type=\"text\"]{\r\n    width: 300px;\r\n}\r\ndiv{\r\n    margin-bottom: 2%;\r\n}\r\ninput[type=\"sumbit\"],input[type=\"reset\"]{\r\n   margin-left: 40%;\r\n}"
+    }
+  ]
+}

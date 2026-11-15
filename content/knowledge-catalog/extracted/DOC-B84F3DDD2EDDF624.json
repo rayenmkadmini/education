@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B84F3DDD2EDDF624",
+  "filename": "Pt fixe appro taki.py",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Pt fixe appro taki.py",
+  "sha256": "b84f3ddd2eddf62412305c2d421eb4ef36ff2eceb4251ac126f328de0c66cfaa",
+  "extractedAt": "2026-11-14T18:35:36.491Z",
+  "pageCount": 1,
+  "textSnippet": "def f(x): return x*x-3*x+4 def pt_fixe(): x=1.2 i=0 while abs(f(x)-x)>0.00001: x=f(x) i=i+1 print(\"Le nombre d'iteration est: \",i) return x #Programme Principale print(pt_fixe())",
+  "fullText": "def f(x):\r\n    return x*x-3*x+4\r\ndef pt_fixe():\r\n    x=1.2\r\n    i=0\r\n    while abs(f(x)-x)>0.00001:\r\n        x=f(x)\r\n        i=i+1\r\n    print(\"Le nombre d'iteration est: \",i)\r\n    return x\r\n#Programme Principale\r\nprint(pt_fixe())",
+  "chunks": [
+    {
+      "chunkId": "DOC-B84F3DDD2EDDF624-CHK-001",
+      "text": "def f(x):\r\n    return x*x-3*x+4\r\ndef pt_fixe():\r\n    x=1.2\r\n    i=0\r\n    while abs(f(x)-x)>0.00001:\r\n        x=f(x)\r\n        i=i+1\r\n    print(\"Le nombre d'iteration est: \",i)\r\n    return x\r\n#Programme Principale\r\nprint(pt_fixe())"
+    }
+  ]
+}

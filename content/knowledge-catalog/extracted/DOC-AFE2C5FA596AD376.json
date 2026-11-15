@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-AFE2C5FA596AD376",
+  "filename": "serie2ex3.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex3.py",
+  "sha256": "afe2c5fa596ad376ef8ab99af0cfa05c3347946dfea484ab9a589c05256c5132",
+  "extractedAt": "2026-11-06T14:24:39.750Z",
+  "pageCount": 1,
+  "textSnippet": "def saisie(): b=False while (not(b)): x=int(input(' un entier on nul svp')) b=x>0 return x def heureux(x): b=False while(not(b)) : s=str(x) som=0 for i in range(0,len(s)): c=s[i] a=int(c) som=som+a*a x=som b= x<10 #on s'arrete lorsque la somme devient <10, un seul chiffre b1=x==1 return b1 def affiche(x,b): if b: print(x,'est heureux')",
+  "fullText": "def saisie():\r\n    b=False\r\n    while (not(b)):\r\n        x=int(input(' un entier on nul svp'))\r\n        b=x>0\r\n    return x\r\ndef heureux(x):\r\n    b=False\r\n    while(not(b))  :\r\n        s=str(x)\r\n        som=0\r\n        for i in range(0,len(s)):\r\n            c=s[i]\r\n            a=int(c)\r\n            som=som+a*a\r\n        x=som\r\n        b= x<10\r\n        #on s'arrete lorsque la somme devient <10, un seul chiffre\r\n    b1=x==1\r\n    return b1\r\ndef affiche(x,b):\r\n    if b:\r\n        print(x,'est heureux')\r\n    else:\r\n        print(x,'n ''est pas heureux')\r\n    \r\n    \r\n    \r\n        \r\n####################pp###########################\r\nx=saisie()\r\nb=heureux(x)\r\naffiche(x,b)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-AFE2C5FA596AD376-CHK-001",
+      "text": "def saisie():\r\n    b=False\r\n    while (not(b)):\r\n        x=int(input(' un entier on nul svp'))\r\n        b=x>0\r\n    return x\r\ndef heureux(x):\r\n    b=False\r\n    while(not(b))  :\r\n        s=str(x)\r\n        som=0\r\n        for i in range(0,len(s)):\r\n            c=s[i]\r\n            a=int(c)\r\n            som=som+a*a\r\n        x=som\r\n        b= x<10\r\n        #on s'arrete lorsque la somme devient <10, un seul chiffre\r\n    b1=x==1\r\n    return b1\r\ndef affiche(x,b):\r\n    if b:\r\n        print(x,'est heureux')\r\n    else:\r\n        print(x,'n ''est pas heureux')\r\n\n####################pp###########################\r\nx=saisie()\r\nb=heureux(x)\r\naffiche(x,b)"
+    }
+  ]
+}

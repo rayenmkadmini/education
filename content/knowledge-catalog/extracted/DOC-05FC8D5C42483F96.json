@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-05FC8D5C42483F96",
+  "filename": "ImgHexa.txt",
+  "relPath": "bac info/algo/Python/Prototype 2022/ImgHexa.txt",
+  "sha256": "05fc8d5c42483f96eec38b2254eaadcad26b0d5c4aa3fe4f7fd81bf07c8d2b23",
+  "extractedAt": "2026-11-14T18:35:36.525Z",
+  "pageCount": 1,
+  "textSnippet": "41 26 4D 2D 37 74 AB 26 85 68 37 82 AE 94 80 35 44 B0 87 56 8C 8E 8D 8B 38 48",
+  "fullText": "41\r\n26\r\n4D\r\n2D\r\n37\r\n74\r\nAB\r\n26\r\n85\r\n68\r\n37\r\n82\r\nAE\r\n94\r\n80\r\n35\r\n44\r\nB0\r\n87\r\n56\r\n8C\r\n8E\r\n8D\r\n8B\r\n38\r\n48\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-05FC8D5C42483F96-CHK-001",
+      "text": "41\r\n26\r\n4D\r\n2D\r\n37\r\n74\r\nAB\r\n26\r\n85\r\n68\r\n37\r\n82\r\nAE\r\n94\r\n80\r\n35\r\n44\r\nB0\r\n87\r\n56\r\n8C\r\n8E\r\n8D\r\n8B\r\n38\r\n48"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-0B71968B6139DA35",
+  "filename": "affichage.php",
+  "relPath": "bac 2025/affichage.php",
+  "sha256": "0b71968b6139da35a3609cb6766cedea6ce89d64c3a5de67371ff803b4e70921",
+  "extractedAt": "2026-11-06T14:23:24.328Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\", \"root\", \"\", \"bd1920\"); $idDoc=$_POST[\"nomDoc\"]; if ($idDoc==\"\") { echo \"Aucun document sélectionné.\"; exit; } $r=mysqli_query($cnx, \"SELECT nomDoc FROM Document WHERE idDoc='$idDoc'\"); $doc=mysqli_fetch_assoc($r); echo \"<h3>Les droits d’accès relatifs au document : \".$doc[\"nomDoc\"].\"</h3>\"; $sql=\"SELECT Utilisateur.nomPrenom, Droit.ecriture, Droit.lecture, Droit.impression FROM Droit, Utilisateur WHERE Droit.i",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\", \"root\", \"\", \"bd1920\");\r\n\r\n$idDoc=$_POST[\"nomDoc\"];\r\n\r\nif ($idDoc==\"\") {\r\n    echo \"Aucun document sélectionné.\";\r\n    exit;\r\n}\r\n\r\n$r=mysqli_query($cnx, \"SELECT nomDoc FROM Document WHERE idDoc='$idDoc'\");\r\n$doc=mysqli_fetch_assoc($r);\r\n\r\necho \"<h3>Les droits d’accès relatifs au document : \".$doc[\"nomDoc\"].\"</h3>\";\r\n\r\n\r\n$sql=\"SELECT Utilisateur.nomPrenom, Droit.ecriture, Droit.lecture, Droit.impression\r\n        FROM Droit, Utilisateur\r\n        WHERE Droit.idUtil = Utilisateur.idUtil\r\n        AND Droit.idDoc = '$idDoc'\";\r\n\r\n$res=mysqli_query($cnx, $sql);\r\n\r\n\r\nif(mysqli_num_rows($res)==0){\r\n    echo \"Aucun droit attribué pour ce document.\";\r\n    exit;\r\n}\r\nwhile($ligne=mysqli_fetch_assoc($res)){\r\n    echo $ligne[\"nomPrenom\"].\" \".$ligne[\"ecriture\"].\" \".$ligne[\"lecture\"].\" \".$ligne[\"impression\"].\"<br>\";\r\n}\r\n?>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-0B71968B6139DA35-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\", \"root\", \"\", \"bd1920\");\r\n\n$idDoc=$_POST[\"nomDoc\"];\r\n\nif ($idDoc==\"\") {\r\n    echo \"Aucun document sélectionné.\";\r\n    exit;\r\n}\r\n\n$r=mysqli_query($cnx, \"SELECT nomDoc FROM Document WHERE idDoc='$idDoc'\");\r\n$doc=mysqli_fetch_assoc($r);\r\n\necho \"<h3>Les droits d’accès relatifs au document : \".$doc[\"nomDoc\"].\"</h3>\";\r\n\n$sql=\"SELECT Utilisateur.nomPrenom, Droit.ecriture, Droit.lecture, Droit.impression\r\n        FROM Droit, Utilisateur\r\n        WHERE Droit.idUtil = Utilisateur.idUtil\r\n        AND Droit.idDoc = '$idDoc'\";\r\n\n$res=mysqli_query($cnx, $sql);"
+    },
+    {
+      "chunkId": "DOC-0B71968B6139DA35-CHK-002",
+      "text": "if(mysqli_num_rows($res)==0){\r\n    echo \"Aucun droit attribué pour ce document.\";\r\n    exit;\r\n}\r\nwhile($ligne=mysqli_fetch_assoc($res)){\r\n    echo $ligne[\"nomPrenom\"].\" \".$ligne[\"ecriture\"].\" \".$ligne[\"lecture\"].\" \".$ligne[\"impression\"].\"<br>\";\r\n}\r\n?>"
+    }
+  ]
+}

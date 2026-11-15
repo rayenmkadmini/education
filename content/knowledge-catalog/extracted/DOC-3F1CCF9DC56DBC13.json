@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3F1CCF9DC56DBC13",
+  "filename": "Reponses.txt",
+  "relPath": "TD les fichiers textes/TD les fichiers textes/Reponses.txt",
+  "sha256": "3f1ccf9dc56dbc13a511f4afb650e89e4839c0397338050beb3dd2d42bdf5987",
+  "extractedAt": "2026-11-06T14:23:11.052Z",
+  "pageCount": 1,
+  "textSnippet": "38*54=2052 OK 48-30=18 X 65+45=110 OK 24-59=-35 X 53*9=477 X 13+47=60 OK 58+31=89 X 60-57=3 OK 31-31=0 OK 68*50=3400 X",
+  "fullText": "38*54=2052\tOK\r\n48-30=18\tX\r\n65+45=110\tOK\r\n24-59=-35\tX\r\n53*9=477\tX\r\n13+47=60\tOK\r\n58+31=89\tX\r\n60-57=3\tOK\r\n31-31=0\tOK\r\n68*50=3400\tX\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-3F1CCF9DC56DBC13-CHK-001",
+      "text": "38*54=2052\tOK\r\n48-30=18\tX\r\n65+45=110\tOK\r\n24-59=-35\tX\r\n53*9=477\tX\r\n13+47=60\tOK\r\n58+31=89\tX\r\n60-57=3\tOK\r\n31-31=0\tOK\r\n68*50=3400\tX"
+    }
+  ]
+}

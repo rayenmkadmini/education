@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-9ACA4F129D9A8ECA",
+  "filename": "detailabonne.html",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/detailabonne.html",
+  "sha256": "9aca4f129d9a8eca566acfe67c5ad9bec06745a5b5b26de219282d6a1463f9ca",
+  "extractedAt": "2026-11-06T14:24:19.553Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Detail abonne</title> <link rel=\"stylesheet\" href=\"styles.css\"> </head> <body> <form action=\"detailabonne.php\" method=\"post\"> <fieldset> <legend>detail abonne</legend> <input type=\"text\" name=\"cin\" id=\"cin\" placeholder=\"cin de l'abonne\" /><",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Detail abonne</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n<body>\r\n    <form action=\"detailabonne.php\" method=\"post\">\r\n        <fieldset>\r\n          <legend>detail abonne</legend>\r\n          <input type=\"text\" name=\"cin\" id=\"cin\" placeholder=\"cin de l'abonne\" /><br />\r\n          <input type=\"checkbox\" name=\"code\" id=\"code\">Code d'accés \r\n          <input type=\"checkbox\" name=\"emprunts\" id=\"emprunts\">Emprunts <br>\r\n          <hr />\r\n          <input type=\"submit\" value=\"afficher\" />\r\n        </fieldset>\r\n      </form>\r\n    \r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-9ACA4F129D9A8ECA-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Detail abonne</title>\r\n    <link rel=\"stylesheet\" href=\"styles.css\">\r\n</head>\r\n<body>\r\n    <form action=\"detailabonne.php\" method=\"post\">\r\n        <fieldset>\r\n          <legend>detail abonne</legend>\r\n          <input type=\"text\" name=\"cin\" id=\"cin\" placeholder=\"cin de l'abonne\" /><br />\r\n          <input type=\"checkbox\" name=\"code\" id=\"code\">Code d'accés \r\n          <input type=\"checkbox\" name=\"emprunts\" id=\"emprunts\">Emprunts <br>\r\n          <hr />\r\n          <input type=\"submit\" value=\"afficher\" />\r\n        </fieldset>\r\n      </form>\r\n\n</body>\r\n</html>"
+    }
+  ]
+}

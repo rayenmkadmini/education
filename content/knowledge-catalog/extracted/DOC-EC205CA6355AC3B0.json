@@ -1,0 +1,1161 @@
+{
+  "documentId": "DOC-EC205CA6355AC3B0",
+  "filename": "informatique baccalauréat-20261106T132337Z-1-001.zip",
+  "sha256": "ec205ca6355ac3b004f8d29ed01cd8514c962133bd6245bea932d2ca2e534084",
+  "extractedAt": "2026-11-06T14:00:28.918Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: informatique baccalauréat-20261106T132337Z-1-001.zip Nombre d'éléments: 230 --- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/saisie_entier.py --- #Ce programme permet de saisir un entier n vérifiant une contition (ex: 5 <= n <= 25) b = False while not b: n = int(input('Donnrer un entier entre 5 et 25: ')) b = 5 <= n <= 25 --- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/factoriel.py --- #déterminer le factoriel d'un entier",
+  "fullText": "Archive ZIP: informatique baccalauréat-20261106T132337Z-1-001.zip\nNombre d'éléments: 230\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/saisie_entier.py ---\n#Ce programme permet de saisir un entier n vérifiant une contition (ex: 5 <= n <= 25)\r\n\r\nb = False\r\nwhile not b:\r\n    n = int(input('Donnrer un entier entre 5 et 25: '))\r\n    b = 5 <= n <= 25\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/factoriel.py ---\n#déterminer le factoriel d'un entier \r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"un entier positif: \"))\r\n        b = n >= 0\r\n    return n\r\n\r\ndef Factoriel(n):\r\n    R = 1\r\n    for i in range (1,n+1):\r\n        R *= i\r\n    return R\r\n\r\n####################PP####################\r\nn = Saisie()\r\nprint(Factoriel(n))\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/conversion_dans_la_base_10.py ---\nfrom PyQt5 import QtWidgets,uic\r\n\r\ndef verif(a,b):\r\n    ok = b.isnumeric()\r\n    i = -1\r\n    while ok and i < len(a)-1 :\r\n        i += 1\r\n        if a[i].isnumeric():\r\n            ok = int(a[i]) < int(b) \r\n        else :\r\n            ok = int(b) > 9 and \"A\" <= a[i] <= chr(55+int(b))\r\n    return ok\r\n    \r\n    \r\ndef base10(a,b):\r\n    S = 0\r\n    for i in range (len(a)):\r\n        if a[i].isnumeric():\r\n            S = S*int(b) + int(a[i])\r\n        else :\r\n            S = S*int(b) + ord(a[i])-55\r\n    return str(S)\r\ndef traitement(a,b):\r\n    if verif(a,b):\r\n        p.t3.setText(base10(a,b))\r\n    else:\r\n        p.t3.setText(\"INPUT ERROR\")\r\n\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"conversion_dans_la_base_10.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text(),p.t2.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n    \r\n    \r\n    \r\n    \n\n--- FICHIER: informatique baccalauréat/DEVOIRS/Devoir de control 1/Chaine cunningham.py ---\ndef premier(x):\r\n    b=x>=2\r\n    d=1\r\n    while(b and (d< x // 2)):\r\n        d=d+1\r\n        b=x % d !=0\r\n    return b\r\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un nombre  premier'))\r\n        b=premier(x)\r\n    return x\r\ndef cunningham(x):\r\n    a=x\r\n    b=True\r\n    ch=str(x)\r\n    p=False\r\n    while(b):\r\n        y=2*x+1\r\n        b=premier(y)\r\n        if b:\r\n            ch=ch+'    '+str(y)\r\n            p=True\r\n            x=y\r\n    if not(p):\r\n        ch='il n''existe pas de chaine cunningham commençant par'+str(x)\r\n    else:\r\n        ch='la chaine de cunningham commençant par  '+str(a)+'  est  '+ch\r\n        \r\n    print(ch)\r\n##############pp############################################\r\nx=saisie()\r\ncunningham(x)\r\n\r\n        \r\n    \r\n\r\n\n\n--- FICHIER: informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex3v.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire une chaine')\r\n        b=len(s)>0 and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b='A'<=s[0].upper()<='Z' and  'A'<=s[len(s)-1].upper()<='Z' and s.find('  ')==-1\r\n    i=0\r\n    while(b and (i < len(s)-2)):\r\n        i=i+1\r\n        b=('A'<=s[i].upper()<='Z' )or (s[i]==' ')\r\n        \r\n    return b\r\n\r\ndef cryptage(s):\r\n    nb=1\r\n    ch=''\r\n    for i in range(len(s)):\r\n        if s[i]!=' ':\r\n            \r\n            r=(ord(s[i])+nb)\r\n            if 'A'<=s[i]<='Z':\r\n                p=ord('Z')\r\n            else:\r\n                p=ord('z')\r\n                \r\n            while(r>p):\r\n                r=r - 26\r\n            \r\n                    \r\n                    \r\n            ch=ch+chr(r)\r\n        else:\r\n            ch=ch+' '\r\n            nb=nb+1\r\n    return ch\r\n    \r\n    \r\n            \r\n            \r\n\r\ns=saisie()\r\nprint(cryptage(s))\r\n\r\n\r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_11.00.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner N: '))\r\n        b = n >= 10\r\n    return n\r\n\r\n\r\ndef palindrome(ch):\r\n    ch1 = ''\r\n    for i in range(len(ch)):\r\n        ch1 = ch[i] + ch1\r\n    return ch1 == ch\r\n\r\n\r\ndef Suite_Palindromique(N):\r\n    x = str(N)\r\n    R = x + ','\r\n    ok = palindrome(x)\r\n    i = 1\r\n    while not ok and i <= 11:\r\n        y = ''\r\n        for j in range(len(x)):\r\n            y = x[j] + y\r\n        S = int(y) + int(x)\r\n        x = str(S)\r\n        i += 1\r\n        R += x + \",\"\r\n        ok = palindrome(x)\r\n    R = R[:len(R) - 1]\r\n    if i > 11:\r\n        R = 'Le calcul de 11 termes ne donne pas une suite palindromique pour ce nombre'\r\n    return R\r\n\r\n\r\n##############\"\"pp##################\r\nN = Saisie()\r\nch = Suite_Palindromique(N)\r\nprint(ch)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/bac2013theo.py ---\nfrom numpy import*\r\nT=array([int]*50)\r\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input('Donner le nombre des cases: '))\r\n        b = 0 <= x <= 50\r\n    return x\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input('T['+str(i)+'] ='))\r\ndef renvoie_Max(t,x,f):\r\n    for i in range (x,f-1):\r\n        if T[i]>T[i+1]:\r\n            temp = T[i]\r\n            T[i] = T[i+1]\r\n            T[i+1] = temp\r\ndef renvoie_Min(t,x,f):\r\n    for i in range (f-1,d,-1):#check\r\n        if T[i]<T[i-1]:\r\n            temp = T[i]\r\n            T[i] = T[i-1]\r\n            T[i-1] = temp\r\ndef Test_echange(t,n):\r\n    ok = True\r\n    i= -1\r\n    while (ok) and i < n-2:\r\n        i+=1\r\n        ok = t[i]<=t[i+1]\r\n    return ok\r\ndef traitement(N,T):\r\n    n=0\r\n    d=N\r\n    verif=False\r\n    while (verif==False) and n<=d:\r\n        renvoie_Max(T,n,d)\r\n        renvoie_Min(T,n,d-1)\r\n        verif=Test_echange(T,N)\r\n        n+=1\r\n        d-=1\r\ndef Afficher(N,T):\r\n    for i in range(N):\r\n        print(T[i],end=\"\")\r\n##################PP##################\r\nN=Saisie()\r\nRemplir(N)\r\ntraitement(N,T)\r\nAfficher(N,T)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/binaire.py ---\n#ce programme permet de convertir un entier en sa forme binaire\r\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % 2\r\n        ch = str(r) + ch\r\n        x //= 2\r\n    return ch\r\nprint(binaire(n))\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2021/Bac2021theorique.py ---\nfrom numpy import *\r\n\r\nD = array([int] * 56)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n\"))\r\n        b = (n % 2 == 0) and (4 <= n <= 56)\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            D[i] = int(input(\"D[\" + str(i) + \"]= \"))\r\n            b = 0 <= D[i] <= 6\r\n\r\n\r\ndef Dominos(D, n):\r\n    i = 1\r\n    ok = True\r\n    while ok and i < n - 1:\r\n        ok = D[i] == D[i + 1]\r\n        print(ok)\r\n        i += 2\r\n    return ok\r\n\r\n\r\ndef Afficher(D, n):\r\n    if Dominos(D, n):\r\n        print(\"Suite de dominos valide\")\r\n    else:\r\n        print(\"Suite de dominos invalide\")\r\n\r\n\r\n###################PP##################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nAfficher(D, n)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Multiplication russe.py ---\nfrom PyQt5 import QtWidgets,uic  #☻\r\nfrom numpy import *\r\n\r\ndef verif(x):\r\n    if x.isnumeric() and len(x) != 0 :\r\n        if 2 <= int(x) <= 100 :\r\n            return True\r\n        else :\r\n            return False\r\n    else :\r\n        return False\r\n\r\ndef multiplication():\r\n    a=p.t1.text()\r\n    b=p.t2.text()\r\n    if verif(a) and verif(b):\r\n        a=int(a)\r\n        b=int(b)\r\n        DV=array([0]*(a+b))\r\n        MLT=array([0]*(a+b))\r\n        i = 0\r\n        while a != 0 :\r\n            DV[i]=a\r\n            MLT[i]=b\r\n            a = a // 2\r\n            b = b * 2\r\n            i += 1\r\n        ch = 0\r\n        for j in range (i):\r\n            if DV[j] % 2 == 1 :\r\n                ch += (MLT[j])\r\n        p.t3.setText(str(ch))\r\n    else :\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        \r\n######################pp#####################\r\n        \r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Multiplication Russe.ui\")\r\np.show()\r\np.pb1.clicked.connect(multiplication)\r\nApp.exec_()\r\n\r\n\r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/epreuve_bac_pratique_2019_sujet3_interface.py ---\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\r\nT1 = array([str] * 100)\r\nT2 = array([str] * 100)\r\n\r\n\r\ndef verif(ch1, ch2):\r\n    if ch1 != '' and ch2 != '':\r\n        if nombre_mot(ch1) == nombre_mot(ch2):\r\n            return True\r\n        else:\r\n            return False\r\n    else:\r\n        return False\r\n\r\n\r\ndef verif2(ch):\r\n    ok = ch[0] != ' ' and ch[len(ch) - 1] == '.' and len(ch) <= 200\r\n    i = -1\r\n    while i < len(ch) - 2 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\r\n\r\ndef nombre_mot(ch):\r\n    p = 0\r\n    for i in range(len(ch) - 1):\r\n        if \"A\" <= ch[i].upper() <= \"Z\" and ch[i + 1] == \" \":\r\n            p += 1\r\n    return p\r\n\r\n\r\ndef superflus(ch):\r\n    while ch[0] == ' ':\r\n        ch = ch[1:]\r\n    while ch[len(ch) - 1] == ' ':\r\n        ch = ch[:len(ch) - 2]\r\n    while ch.find(\"  \") != -1:\r\n        x = ch.find(\"  \")\r\n        ch = ch[:x] + ch[x + 1:]\r\n\r\n    return ch\r\n\r\n\r\ndef Remplir(T, ch, n):\r\n    i = 0\r\n    S = ch + ' '\r\n    while S != '' and i < n:\r\n        x = S.find(\" \")\r\n        T[i] = S[:x]\r\n        S = S[x + 1:]\r\n        i += 1\r\n\r\n\r\ndef commun(t1, t2, n):\r\n    p = 0\r\n    for i in range(n):\r\n        for j in range(n):\r\n            if t1[i] == t2[j]:\r\n                p += 1\r\n    return p\r\n\r\n\r\ndef Traitement(ch1, ch2):\r\n    if verif(ch1, ch2) and verif2(ch1) and verif2(ch2):\r\n        ph1 = superflus(ch1)\r\n        ph2 = superflus(ch2)\r\n        Remplir(T1, ph1, nombre_mot(ph1))\r\n        Remplir(T2, ph2, nombre_mot(ph1))\r\n        n = commun(T1, T2, nombre_mot(ph1))\r\n        if n > nombre_mot(ph1) / 2:\r\n            p.t1.setText('Le texte est plagiat')\r\n        else:\r\n            p.t1.setText('Le texte n\\'est pas plagiat')\r\n    else:\r\n        p.t1.setText('INPUT ERROR')\r\n\r\n\r\napp = QApplication([])\r\np = loadUi('epreuve_bac_pratique_2019_sujet3_interface.ui')\r\np.show()\r\np.pb.clicked.connect(lambda: Traitement(p.l1.text(), p.l2.text()))\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_9.30h.py ---\nfrom numpy import *\r\n\r\nT=array([int]*25)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Saisir le nombre des cases: \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n\r\n\r\ndef Majoritaire(N):\r\n    R = 0\r\n    for i in range (N) :\r\n        x = nombre_occurence(T,N,T[i])\r\n        if x > R :\r\n            S = T[i]\r\n            R = x\r\n    \r\n    return S, R\r\n\r\ndef nombre_occurence(t,n,x):\r\n    p = 0\r\n    for i in range (n):\r\n        if t[i] == x :\r\n            p += 1\r\n    return p \r\n\r\ndef Afficher(T,N,a,b):\r\n    if b > N - b  :    \r\n        print(\"l'élément majoritaire est \",a)\r\n    else :\r\n        print(\"Il n'existe pas un élément majoritaire dans le tableau.\")\r\n\r\n    \r\n##############PP##################\r\nN = Saisie()\r\nRemplir(N) # ça doit etre une procédure\r\na,b= Majoritaire(N)\r\nAfficher(T,N,a,b)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/nombre_premier.py ---\n#Déterminer si un nombre est premier ou non\r\n\r\nN=int(input(\"< \"))\r\n\r\ndef premier(n):\r\n    b = n > 1\r\n    d = 1\r\n    while b and d < n // 2 :\r\n        d = d + 1\r\n        b = n % d != 0\r\n    return b\r\n\r\nprint(premier(N))\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_8h.py ---\n#Saisie et Remplir sont toujours des procedures!\r\n\r\nfrom numpy import *\r\n\r\nMatricule = array([str] * 100)\r\nScore = array([int] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des participants: \"))\r\n        b = 5 <= n <= 100\r\n    return n\r\n\r\n\r\ndef RemplirMarticule(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            Matricule[i] = str(input(\"Matricule[\" + str(i) + \"]= \"))\r\n            b = Matricule[i].isnumeric() and len(Matricule[i]) == 8\r\n\r\n\r\ndef RemplirScore(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            Score[i] = int(input(\"Score[\" + str(i) + \"]= \"))\r\n            b = 20 <= Score[i] <= 120\r\n\r\n\r\ndef Resultat(Matricule, Score, N):\r\n    for i in range(N - 1):\r\n        idmax = maxi(Score, i + 1, N)\r\n        if idmax != i:\r\n            temp1 = Score[i]\r\n            Score[i] = Score[idmax]\r\n            Score[idmax] = temp1\r\n            temp2 = Matricule[i]\r\n            Matricule[i] = Matricule[idmax]\r\n            Matricule[idmax] = temp2\r\n\r\n\r\ndef maxi(t, a, b):\r\n    p = a\r\n    for i in range(a, b):\r\n        if t[p] < t[i]:\r\n            p = i\r\n    return p\r\n\r\n\r\ndef Afficher(Matricule, N):\r\n    p = int(round(N / 4, 0))\r\n    for i in range(p + 1):\r\n        print(\"liste des admis : \\t \", Matricule[i])\r\n\r\n\r\n#####################PP########################\r\n\r\nN = Saisie()\r\nRemplirMarticule(N)\r\nRemplirScore(N)\r\nResultat(Matricule, Score, N)\r\nAfficher(Matricule, N)\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/trier_les_caracteres_d_une_chaine.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x) == 4 and x.isnumeric():\r\n        return True\r\n    else:\r\n        return False\r\n    \r\ndef tri(ch):\r\n    if verif(ch):\r\n        i = 0\r\n        x = ch\r\n        y = ch\r\n        while i < len(x) -1 :\r\n            for j in range( len(x)-1 ) :\r\n                if x[j] < x[j+1] :\r\n                    x = x[:j] + x[j+1] + x[j] + x[j+2:]\r\n            for j in range( len(y)-1 ) :\r\n                if y[j] > y[j+1] :\r\n                    y = y[:j] + y[j+1] + y[j] + y[j+2:]\r\n            i += 1\r\n        while(y[0]==\"0\"):\r\n            y = y[1:]\r\n        p.t2.setText(x)\r\n        p.t3.setText(y)\r\n    else :\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()        \r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"trier_les_caracteres_dune_chaine.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:tri(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n            \r\n            \r\n\r\n    \r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/conversion_dans_la_base_10.py ---\nfrom PyQt5 import QtWidgets,uic\r\n\r\ndef verif(a,b):\r\n    ok = b.isnumeric()\r\n    i = -1\r\n    while ok and i < len(a)-1 :\r\n        i += 1\r\n        if a[i].isnumeric():\r\n            ok = int(a[i]) < int(b) \r\n        else :\r\n            ok = int(b) > 9 and \"A\" <= a[i] <= chr(55+int(b))\r\n    return ok\r\n    \r\n    \r\ndef base10(a,b):\r\n    S = 0\r\n    for i in range (len(a)):\r\n        if a[i].isnumeric():\r\n            S = S*int(b) + int(a[i])\r\n        else :\r\n            S = S*int(b) + ord(a[i])-55\r\n    return str(S)\r\ndef traitement(a,b):\r\n    if verif(a,b):\r\n        p.t3.setText(base10(a,b))\r\n    else:\r\n        p.t3.setText(\"INPUT ERROR\")\r\n\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"conversion_dans_la_base_10.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text(),p.t2.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n    \r\n    \r\n    \r\n    \n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/Multiplication russe.py ---\nfrom PyQt5 import QtWidgets,uic  #☻\r\nfrom numpy import *\r\n\r\ndef verif(x):\r\n    if x.isnumeric() and len(x) != 0 :\r\n        if 2 <= int(x) <= 100 :\r\n            return True\r\n        else :\r\n            return False\r\n    else :\r\n        return False\r\n\r\ndef multiplication():\r\n    a=p.t1.text()\r\n    b=p.t2.text()\r\n    if verif(a) and verif(b):\r\n        a=int(a)\r\n        b=int(b)\r\n        DV=array([0]*(a+b))\r\n        MLT=array([0]*(a+b))\r\n        i = 0\r\n        while a != 0 :\r\n            DV[i]=a\r\n            MLT[i]=b\r\n            a = a // 2\r\n            b = b * 2\r\n            i += 1\r\n        ch = 0\r\n        for j in range (i):\r\n            if DV[j] % 2 == 1 :\r\n                ch += (MLT[j])\r\n        p.t3.setText(str(ch))\r\n    else :\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        \r\n######################pp#####################\r\n        \r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Multiplication Russe.ui\")\r\np.show()\r\np.pb1.clicked.connect(multiplication)\r\nApp.exec_()\r\n\r\n\r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet5.py ---\nfrom numpy import *\r\n\r\nT = array([str] * 15)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 5 <= n <= 15\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input('T[' + str(i) + ']= '))\r\n            b = len(T[i]) == 5 and T[i].isnumeric()\r\n\r\n\r\ndef Urgence(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if int(T[i][:2]) > p:\r\n            p = int(T[i][:2])\r\n    print(\"Le plus grand degré d'urgence est: \", p)\r\n    print(\"Les appartements consernés sont\")\r\n    for i in range(N):\r\n        if int(T[i][:2]) == p:\r\n            print(i + 1, \"avec une quantité de fumée=\", T[i][2:5])\r\n\r\n\r\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nUrgence(T, N)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/espace_superflu2.py ---\n##Supprimer tous les espaces inutiles dans une phrase.\r\n\r\nCH=str(input())\r\ndef superflu (ch):\r\n    while ch[0]==\" \":\r\n        ch=ch[1:]\r\n    while ch.find(\"  \") != -1 :\r\n        x = ch.find(\"  \")\r\n        ch=ch[:x]+ch[x+1:]\r\n    if ch[len(ch)-2]==(\" \"):\r\n        ch = ch[:len(ch)-2]+ch[len(ch)-1]\r\n    return ch\r\nprint(superflu(CH))\r\n\n\n--- FICHIER: informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex2.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('un entier:  '))\r\n        b=x>=0\r\n    return x\r\ndef polydivisible(x):\r\n    p=2\r\n    s1=''\r\n    print('x=',x)\r\n    s=str(x)\r\n    print('s=',s)\r\n    b=True\r\n    while (b and s1!=s):\r\n      \r\n        s1=s[:p]\r\n        print('s1=',s1)\r\n        y=int(s1)\r\n        b=y % p==0\r\n        print('p=',p)\r\n        print('b=',b)\r\n        p=p+1\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('polydivisible')\r\n    else:\r\n        print('non polydivisible')\r\nx=saisie()\r\nb=polydivisible(x)\r\naffiche(b)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/sinus.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\nepsilon = 0.000001\r\n\r\n\r\ndef verif(x):\r\n    if len(x) != 0:\r\n        p = 0\r\n        i = -1\r\n        ok = x[0] != \".\" and x[len(x) - 1] != \".\"\r\n        for i in range(len(x)):\r\n            if x[i] == \".\":\r\n                p += 1\r\n        ok = ok and p <= 1\r\n\r\n        while ok and i < len(x) - 1:\r\n            i += 1\r\n            ok = x[i] == \".\" or 0 <= int(x[i]) <= 9\r\n        return ok\r\n    else:\r\n        return False\r\n\r\n\r\ndef factoriel(n):\r\n    r = 1\r\n    for i in range(1, n + 1):\r\n        r *= i\r\n    return r\r\n\r\n\r\ndef puissance(n, p):\r\n    r = 1\r\n    for i in range(p):\r\n        r *= n\r\n    return r\r\n\r\n\r\ndef SINUS(a):\r\n    if verif(a):\r\n        x = puissance(float(a), 1)\r\n        y = puissance(float(a), 3) / factoriel(3)\r\n        S = 0\r\n        i = 1\r\n        j = 3\r\n        k = 1\r\n        while (x >= epsilon and y >= epsilon) and k < 20:\r\n            S = S + puissance(float(a), i) / factoriel(i)\r\n            S = S - puissance(float(a), j) / factoriel(j)\r\n            x = puissance(float(a), i) / factoriel(i)\r\n            y = puissance(float(a), j) / factoriel(j)\r\n            i += 4\r\n            j += 4\r\n            k += 1\r\n        p.t3.setText(str(S))\r\n    else:\r\n        p.t3.setText(\"error\")\r\n\r\n\r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"SINUS.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda: SINUS(p.t1.text()))\r\napp.exec()\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_14.py ---\nfrom numpy import *\r\n\r\nT=array([int]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range (N) :\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n        \r\ndef Segmenter(T,N):\r\n    x = T[0]\r\n    i,n = 0,0\r\n    while n < N:\r\n        if T[i] > x  or (T[i]==x and i ==0)    :\r\n            for j in range(i,N-1):\r\n                temp = T[j]\r\n                T[j]=T[j+1]\r\n                T[j+1]=temp\r\n        else :\r\n            i += 1\r\n        n += 1\r\n        \r\ndef Afficher(T,N):\r\n    for i in range (N) :\r\n        print(T[i])\r\n         \r\n#############################p#############################\r\nN = Saisie()\r\nRemplir(N)\r\nSegmenter(T,N)\r\nAfficher(T,N)\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2019_14h.py ---\nfrom numpy import*\r\nNP = array([str]*20)\r\nHN = array([str]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Donner n:\"))\r\n        b = 0 <= n <= 20\r\n    return n\r\n\r\ndef Remplissage(n):\r\n    for i in range (n) :\r\n        b = False\r\n        while not(b):\r\n            NP[i] = str(input(\"Donner les noms du bébé n°:\"+str(i)+\" \"))\r\n            b = verif(NP[i])\r\n    for i in range (n) :\r\n        a = False\r\n        while not(a):\r\n            HH = int(input(\"Heure de naissance du bébé n°:\"+str(i)+\" \"))\r\n            MM = int(input(\"minute de naissance du bébé n°:\"+str(i)+\" \"))\r\n            a = 0 <= HH <= 23 and 0<= MM <= 59\r\n        HN[i]=str(HH)+\":\"+str(MM)\r\n        \r\ndef verif(ch):\r\n    ok = len(ch) <= 30 and \"A\"<=(ch[0])<=\"Z\"\r\n    j = -1\r\n    while ok and j < len(ch)-1:\r\n        j += 1\r\n        ok = \"A\"<=ch[j]<=\"Z\" or ch[j]==\" \" or \"a\"<=ch[j]<=\"z\"\r\n    j = -1\r\n    return ok \r\ndef Afficher(NP,HN,n):\r\n    print(\"Les nouveau-nés ayant l’heure de naissance miroir sont :\")\r\n    a = 0\r\n    b = 0\r\n    c = 0\r\n    for i in range(n):\r\n        if HN[i][0:2]==HN[i][3:5]:\r\n            print(NP[i]+\":\"+\"heure miroire doublée.\")\r\n            a += 1\r\n        elif HN[i][0]==HN[i][4] and HN[i][1]==HN[i][3] :\r\n            print(NP[i]+\":\"+\"heure miroire inversée.\")\r\n            b += 1\r\n        else :\r\n            R=HN[i][0:2]+HN[i][3:5]\r\n            for j in range(2):\r\n                if R[j]==R[j+1]==R[j+2]:\r\n                    print(NP[i]+\":\"+\"heure miroire triplée.\")\r\n                    c += 1\r\n    print(\"Le nombre des nouveau-nés ayant l’heure de naissance miroir doublée est\",a)\r\n    print(\"Le nombre des nouveau-nés ayant l’heure de naissance miroir inversée est\",b)\r\n    print(\"Le nombre des nouveau-nés ayant l’heure de naissance miroir triplée est\",c)\r\n    \r\n                    \r\n\r\n\r\n            \r\n\r\n######################PP############\r\nn = Saisie()\r\nRemplissage(n)\r\nAfficher(NP,HN,n)\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/trier_les_caracteres_dune_chaine.py ---\n#trier une chaine suivant l'ordre alphabetique croissant ou selon l'ordre des chiffres\r\n\r\nCH=input(\"< \")\r\n\r\ndef trier(ch):\r\n    i = 0\r\n    while i < len(ch) -1 :\r\n        for j in range( len(ch)-1 ) :\r\n            if ch[j] > ch[j+1] : # < pour l'ordre decroissant \r\n                ch = ch[:j] + ch[j+1] + ch[j] + ch[j+2:]    \r\n        i += 1\r\n    return ch\r\n\r\nprint(trier(CH))\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/trier_les_caracteres_d_une_chaine.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x) == 4 and x.isnumeric():\r\n        return True\r\n    else:\r\n        return False\r\n    \r\ndef tri(ch):\r\n    if verif(ch):\r\n        i = 0\r\n        x = ch\r\n        y = ch\r\n        while i < len(x) -1 :\r\n            for j in range( len(x)-1 ) :\r\n                if x[j] < x[j+1] :\r\n                    x = x[:j] + x[j+1] + x[j] + x[j+2:]\r\n            for j in range( len(y)-1 ) :\r\n                if y[j] > y[j+1] :\r\n                    y = y[:j] + y[j+1] + y[j] + y[j+2:]\r\n            i += 1\r\n        while(y[0]==\"0\"):\r\n            y = y[1:]\r\n        p.t2.setText(x)\r\n        p.t3.setText(y)\r\n    else :\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t1.setFocus()        \r\n    \r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"trier_les_caracteres_dune_chaine.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:tri(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n            \r\n            \r\n\r\n    \r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet7.py ---\nfrom numpy import *\r\n\r\nT1 = array([str] * 20)\r\nT2 = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 4 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T1[i] = str(input('T1[' + str(i) + ']= '))\r\n            b = verif(T1[i])\r\n\r\n\r\ndef poids(ch):\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += ord(ch[i])\r\n    return S\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 10\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Trier(T1, T2, N):\r\n    i = 0\r\n    while i < N:\r\n        p = minim(T1, N)\r\n        T2[i] = T1[p]\r\n        T1[p] = 'ZZZZZZZZZZ'\r\n        i += 1\r\n        print(T1)\r\n\r\n\r\ndef minim(t, n):\r\n    r = 0\r\n    for i in range(1, n):\r\n        if poids(t[i]) < poids(t[r]):\r\n            r = i\r\n    return r\r\n\r\n\r\ndef Afficher(T2, N):\r\n    for i in range(N):\r\n        print(T2[i], 'son poids=', poids(T2[i]))\r\n\r\n\r\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(T1, T2, N)\r\nAfficher(T2, N)\r\n\n\n--- FICHIER: informatique baccalauréat/DEVOIRS/Devoir de control 1/sublime.py ---\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        x=int(input('introduire un entier >10'))\r\n        b=x>10\r\n    return x\r\ndef somdiv(x):\r\n    s=1+x\r\n    for i in range(2,x // 2 +1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef nombrediv(x):\r\n    nb=2\r\n    for i in range(2, x // 2 +1):\r\n        if x % i==0:\r\n            nb=nb+1\r\n    return nb\r\ndef sublime(x):\r\n    som1=somdiv(x)\r\n    #print('som1=',som1)\r\n    som2=nombrediv(x)\r\n    #print('som2=',som2)\r\n    ch=  str(x)+'     n\\' est pas sublime'\r\n    if (somdiv(som1)//2 ==som1  )and( somdiv(som2)//2 ==som2 ):\r\n        ch= str(x)+  '          est sublime'\r\n    print(ch)\r\n####################pp######################\r\nx=saisie()\r\nsublime(x)\r\n\r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Bac2013theorique.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 50)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\ndef Trier(T, N):\r\n    d = 0\r\n    g = N\r\n    while d < g :\r\n        renvoie_max(T, d, g)\r\n        g -= 1\r\n        renvoie_min(T, d, g)\r\n        d += 1\r\n\r\ndef renvoie_max(T, d, g):\r\n    for i in range(d, g - 1):\r\n        if T[i] > T[i + 1]:\r\n            temp = T[i]\r\n            T[i] = T[i + 1]\r\n            T[i + 1] = temp\r\n\r\ndef renvoie_min(T, d, g):\r\n    for i in range(g - 1, d, -1):\r\n        if T[i] < T[i - 1]:\r\n            temp = T[i]\r\n            T[i] = T[i - 1]\r\n            T[i - 1] = temp\r\ndef Afficher(T,N):\r\n    for i in range(N):\r\n    print(T[i])\r\n    \r\n################################PP#########################\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(T, N)\r\nAfficher(T,N)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet3.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 30)\r\nT1 = array([0] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 30\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    b = False\r\n    while not b:\r\n        T[0] = int(input('T[0]='))\r\n        b = 0 < T[0] <= 99\r\n    for i in range(1, N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']='))\r\n            b = not (existe(T[i], T, i - 1)) and 0 < T[i] <= 99\r\n\r\n\r\ndef existe(x, t, n):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < n:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\r\n\r\ndef Trier(N):\r\n    m = 99\r\n    for i in range(N):\r\n        p = T[i]\r\n        T1[p - 1] = T[i]\r\n    i = 0\r\n    while i < N:\r\n\r\n        if T1[i] == 0:\r\n            m = supprimer(i, T1, m)\r\n        else:\r\n            i += 1\r\n\r\n\r\ndef supprimer(p, T1, N):\r\n    for i in range(p, N - 1):\r\n        T1[i] = T1[i + 1]\r\n    N = N - 1\r\n    return N\r\n\r\n\r\ndef Afficher(N):\r\n    for i in range(N):\r\n        print(T1[i], end=' ')\r\n\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(N)\r\nAfficher(N)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/saisie_tab_et_entier.py ---\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\n\r\ndef Appartenance(p, T, N):\r\n    if p.isnumeric():\r\n        a = int(p)\r\n        ok = False\r\n        i = -1\r\n        while i < N and ok == False:\r\n            i += 1\r\n            ok = T[i] == a\r\n        if ok == True:\r\n            f.t2.setText(\"appartient\")\r\n        else:\r\n            f.t2.setText(\"n'appartient pas\")\r\n    else:\r\n        f.t2.setText(\"INPUT ERROR\")\r\n\r\n\r\nN = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('saisie_tab_et_entier.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/bac_pratique_2019_11.00.INFINISHED.py ---\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        X1=str(input(\"Donner le texte d'origine: \"))\r\n        X2=str(input(\"Donner le texte à tester: \"))\r\n        b = verif(X1) and verif(X2) and  Nbmots(X1)==Nbmots(X2)\r\n    return X1,X2\r\n\r\ndef verif(ch):\r\n    ok = len(ch)<=200 and \"A\"<= ch[0] <= \"Z\" and ch[len(ch)-1]==\".\"\r\n    i = 1\r\n    while ok and i < len(ch)-1:\r\n        ok = \"A\"<= ch[i]<= \"Z\" or ch[i]==\" \"\r\n        i += 1\r\n    return ok \r\ndef Nbmots(ch):\r\n    p = 1\r\n    for i in range (1,len(ch)):\r\n        if ch[i]==\" \" and ch[i-1] != \" \":\r\n            p+=1\r\n    if ch[len(ch)-2]==\" \":\r\n        print(p-1)\r\n        return p-1\r\n    else:\r\n        print(p)\r\n        return p\r\ndef superflus(ch):\r\n    ch[len(ch)-1]==\"\"\r\n    x = ch.find(\" \")\r\n    R = ch\r\n    while R.find(\"  \")!=-1 :\r\n        s = \"\"\r\n        r = \"\"\r\n        if x != -1 :\r\n            for i in range (x):\r\n                s+=ch[i]\r\n            for i in  range (x+1,len(R)-1):\r\n                r+=ch[i]\r\n            R = s+r\r\n    return R\r\n    \r\n    \r\n    \r\n    \r\n\r\n\r\n\r\n\r\n#####################pp##########################\r\nT1,T2 = Saisie()\r\nT1 = superflus(T1)\r\nT2 = superflus(T2)\r\nprint(T1)\r\n\r\n\r\n\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2017/EPREUVE_PRATIQUE_2017_8h.py ---\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        ch=str(input(\"< \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\ndef verif(ch):\r\n    ok = ch[0] != \" \" and ch[len(ch)-1] != \" \"\r\n    i = -1\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] == \" \" or \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok \r\n    \r\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\r\ndef crypter(ch,x):\r\n    R = \"\"\r\n    for i in range (len(ch)):\r\n        if \"A\" <= chr(ord(ch[i])+x).upper() <=\"Z\" :\r\n            R += chr(ord(ch[i])+x)\r\n        elif ch[i] == \" \" :\r\n            R += \" \"\r\n        else:\r\n            R += chr(ord(ch[i])+x-26)\r\n    return R\r\n\r\n################PP########################\r\nch = Saisie()\r\nx = nombre_mots(ch)\r\nch1 = crypter(ch,x)\r\nprint(\"Le message crypté est: \",ch1)\r\n        \r\n    \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2017_8h.py ---\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        ch=str(input(\"< \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\ndef verif(ch):\r\n    ok = ch[0] != \" \" and ch[len(ch)-1] != \" \"\r\n    i = -1\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] == \" \" or \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok \r\n    \r\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\r\ndef crypter(ch,x):\r\n    R = \"\"\r\n    for i in range (len(ch)):\r\n        if \"A\" <= chr(ord(ch[i])+x).upper() <=\"Z\" :\r\n            R += chr(ord(ch[i])+x)\r\n        elif ch[i] == \" \" :\r\n            R += \" \"\r\n        else:\r\n            R += chr(ord(ch[i])+x-26)\r\n    return R\r\n\r\n################PP########################\r\nch = Saisie()\r\nx = nombre_mots(ch)\r\nch1 = crypter(ch,x)\r\nprint(\"Le message crypté est: \",ch1)\r\n        \r\n    \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet1.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 100 <= n < m\r\n    return n, m\r\n\r\n\r\ndef Somme(x):\r\n    ch = str(x)\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += int(ch[i])\r\n    return S\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\r\n\r\ndef Hazard(n, m):\r\n    for i in range(n, m + 1):\r\n        if premier(i - 1) and i % Somme(i) == 0:\r\n            print(i, 'car', i, 'est Hazard et son precedeur', i - 1, 'est un nombre premier')\r\n\r\n\r\n####################PP#################\r\nn, m = Saisie()\r\nHazard(n, m)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Bac2014theorique.py ---\n#ERREUR FONCTION Cryptage\r\nfrom numpy import *\r\n\r\nT1 = array([str] * 20)\r\nT2 = array([\" \"] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase à crypter: \")\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\r\n\r\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb\r\n\r\n\r\ndef traitement_T1(n, x):\r\n    for i in range(n):\r\n        for j in range(x - len(T1[i])):\r\n            T1[i] = T1[i] + \"*\" * (x - len(T1[i]))\r\n\r\n\r\ndef cryptage(T1, T2, x, n):\r\n    k = 0\r\n    while k < x:\r\n        for i in range(x):\r\n            for j in range(n):\r\n                #print(type(T2[j]))\r\n                T2[j] = T2[j] + T1[i][k]\r\n            k += 1\r\n\r\n\r\ndef Afficher(T2, n):\r\n    ch = \"\"\r\n    for i in range(n):\r\n        ch += ch[i] + \" \"\r\n    print(\"Les message crypté est : \")\r\n\r\n\r\n##################PP####################\r\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\ntraitement_T1(n, x)\r\ncryptage(T1, T2, x, n)\r\nfor i in range(n):\r\n    print(T1[i])\r\nfor i in range(n):\r\n    print(T2[i])\r\n#Afficher(T2,n)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet6.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner l\\'adresse mail: '))\r\n        b, p = verif(ch)  # p désigne la position de '@' dans la chaine\r\n    return ch, p\r\n\r\n\r\ndef verif(ch):\r\n    V = {'.', '_', '-'}\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == '@':\r\n            S += 1\r\n    p = ch.find('@')\r\n    R = ch[:p]\r\n    ok = S == 1 and \"A\" <= ch[0].upper() <= \"Z\"\r\n    i = -1\r\n    while i < len(R) - 1 and ok == True:\r\n        i += 1\r\n        ok = \"A\" <= R[i].upper() <= \"Z\" or '0' <= R[i] <= '9' or R[i] in V\r\n    return ok, p\r\n\r\n\r\ndef mot_de_passe(ch, p):\r\n    R = ch[:p] + ch[p + 1] + ch[len(ch) - 1]\r\n    return R\r\n\r\n\r\nch, p = Saisie()\r\nmdp = mot_de_passe(ch, p)\r\nprint(mdp)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet8.py ---\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner un entier a: \"))\r\n        m = int(input(\"Donner un entier b: \"))\r\n        b = 100 <= n <= m\r\n    return n, m\r\n\r\n\r\ndef Afficher(a, b):\r\n    for i in range(a, b + 1):\r\n        if poly(i):\r\n            print(i)\r\n\r\n\r\ndef poly(x):\r\n    x = str(x)\r\n    ok = True\r\n    i = 2\r\n    while ok and i < len(x):\r\n        ok = int(x[0:i]) % i == 0\r\n        i += 1\r\n    return ok\r\n\r\n\r\na, b = Saisie()\r\nAfficher(a, b)\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Livres/note à propo les livre des exercices en turbo.txt ---\nBien que ces exercices soient désignés pour Pascal, vous pouvez évidemment les traduire en Python!  \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/PROBLEME_BAC_2012_Version_complexe.py ---\nfrom numpy import*\r\nfrom cmath import*\r\nT=array([complex]*20)\r\nM=array([float]*20)\r\n\r\n\r\ndef Saisie():\r\n    b = 0\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 2 <= x <= 20\r\n    return x\r\ndef RemplirT(N,T):\r\n    for i in range(N):\r\n        T[i]=complex(input(\"T[\"+str(i)+\"]= \"))\r\ndef RemplirM(N,T,M):\r\n    for i in range(N):\r\n        M[i]=(module(T[i]).real)\r\ndef module(z):\r\n    w=(sqrt((z.real)*(z.real)+(z.imag)*(z.imag)))\r\n    return w\r\ndef Tri_simultane(T,M,N):\r\n        for i in range (N-1):\r\n            idmax = maxi(M,i,N)\r\n            if idmax!=i:\r\n                temp1 = M[i]\r\n                M[i] = M[idmax]\r\n                M[idmax] = temp1\r\n                temp2 = T[i]\r\n                T[i] = T[idmax]\r\n                T[idmax] = temp2\r\ndef maxi(t,a,b):\r\n    p = a\r\n    for i in range (a+1,b) :\r\n        if t[i]>t[p]:\r\n            p = i\r\n    return p\r\n###############################PP###############################\r\nN=Saisie()\r\nRemplirT(N,T)\r\nRemplirM(N,T,M)\r\nTri_simultane(T,M,N)\r\nAfficher(M,T,N)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_15.30.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"< \")\r\n        b = len(n) == 13\r\n    return n\r\n\r\n\r\ndef EAN13(n):\r\n    cc = int(n[len(n) - 1])\r\n    p = Traitement(n)\r\n    if (cc == p):\r\n        print(\"Le code est valide\")\r\n    else:\r\n        print(\"Le code n'est valide\")\r\n\r\n\r\ndef Traitement(n):\r\n    ch = n[:len(n) - 1]\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if (i + 1) % 2 == 0:\r\n            S = S + (int(ch[i])) * 3\r\n        else:\r\n            S = S + int(ch[i])\r\n    r = S % 10\r\n    p = 10 - r\r\n    return p\r\n\r\n\r\n##############\r\nn = Saisie()\r\nEAN13(n)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_14.00.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"Donner le numéro: \")\r\n        b = len(n) == 15\r\n    return n\r\n\r\n\r\ndef LUHN(n):\r\n    S = 0\r\n    for i in range(len(n)):\r\n        if (i + 1) % 2 == 0:\r\n            a = int(n[i]) * 2\r\n            if a >= 10:\r\n                b = a % 10 + a // 10\r\n                S = S + b\r\n            else:\r\n                S += a\r\n        else:\r\n            S += int(n[i])\r\n    return S\r\n\r\n\r\ndef IMEI(S):\r\n    if S % 10 == 0:\r\n        print(\"numéro IMEI\")\r\n    else:\r\n        print(\"numéro non IMEI\")\r\n\r\n\r\n##############\"pp#############\"\"\"\r\nn = Saisie()\r\nS = LUHN(n)\r\nIMEI(S)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet4.py ---\nfrom numpy import *\r\n\r\nNombre = array([int] * 25)\r\nTD = array([int] * 25)\r\nTA = array([int] * 25)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            Nombre[i] = int(input('Nombre[' + str(i) + ']='))\r\n            b = Nombre[i] > 0\r\n\r\n\r\ndef abandant(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\r\n\r\ndef Traitement(Nombre, TD, TA):\r\n    k = 0\r\n    j = 0\r\n    for i in range(N):\r\n        if abandant(Nombre[i]) < Nombre[i]:\r\n            TA[k] = Nombre[i]\r\n            k += 1\r\n        elif abandant(Nombre[i]) > Nombre[i]:\r\n            TD[j] = Nombre[i]\r\n            j += 1\r\n    return j, k\r\n\r\n\r\ndef Afficher(j, k, TD, TA):\r\n    for i in range(j):\r\n        print(TD[i], end=' ')\r\n    print(\"\")\r\n    for i in range(k):\r\n        print(TA[i], end=' ')\r\n\r\n\r\n############PP#############\r\nN = Saisie()\r\nRemplir(N)\r\nj, k = Traitement(Nombre, TD, TA)\r\nAfficher(j, k, TD, TA)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef saisie_p():\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner p: \"))\r\n        b = 1000 <= p <= 9999\r\n    return p\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\r\n\r\ndef Appartenance(T, N, p):\r\n    ok1 = False\r\n    i = -1\r\n    while (not ok1) and (i < N - 1) :\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while (not ok2) and (j <= N - 1) :\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]\r\n\r\n    return ok1, ok2\r\n\r\n\r\ndef Afficher(ok1, ok2):\r\n    if ok1:\r\n        print(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        print(\"p appartient partiellement à T\")\r\n    else:\r\n        print(\"p n'appartient pas à T\")\r\n\r\n\r\n#######################pp################\"######\r\nN = Saisie()\r\nRemplir(N)\r\np = saisie_p()\r\ntest1, test2 = Appartenance(T, N, p)\r\nAfficher(test1, test2)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet7.py ---\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 120\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Crypter(ch):\r\n    R = ''\r\n    R1 = ''\r\n    for i in range(len(ch)):\r\n        R += str(ord(ch[i]))\r\n    for i in range(len(R)):\r\n        R1 = R[i] + R1\r\n    return R1\r\n\r\n\r\n##########PP###############\"\r\nch = Saisie()\r\nR = Crypter(ch)\r\nprint(R)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet7.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 40)\r\nV = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 40\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"Donner t[\" + str(i) + \"]: \"))\r\n            b = 0 < T[i]\r\n\r\n\r\ndef remplirV(T, V, n):\r\n    k = 0\r\n    for i in range(n):\r\n        if appartenir(T[i]):\r\n            V[k] = T[i]\r\n            k += 1\r\n    return k\r\n\r\n\r\ndef appartenir(x):\r\n    u = 1\r\n    ok = False\r\n    while u <= x and ok == False:\r\n        u = 3 * u - 1\r\n        ok = u == x\r\n    return ok\r\n\r\n\r\ndef Afficher(V, k):\r\n    if k != 0:\r\n\r\n        for i in range(k):\r\n            print(V[i], end=\" \")\r\n    else:\r\n        print('Aucun élément ne correspond à la suite')\r\n\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nk = remplirV(T, V, n)\r\nAfficher(V, k)\r\n#print(V)\r\n#print(appartenir(41))\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/ppcm.py ---\n#déterminer le plus petit commun multiple de deux entiers naturels non nuls\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier naturel : \"))\r\n        b = n != 0\r\n    return n\r\n\r\ndef PPCM(x,y):\r\n    sx = x     \r\n    sy = y\r\n    while (sy != sx) :\r\n        if sx < sy :\r\n            sx = sx + x\r\n        else:\r\n            sy = sy + y\r\n    \r\n    return sx\r\n\r\n#############################PP#############################\r\na = Saisie()\r\nb = Saisie()\r\nprint(\"ppcm (\",a,\",\",b,\")=\",PPCM(a,b))\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1_interface.py ---\nfrom PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication\r\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    global N\r\n    b = False\r\n    while not b:\r\n        N = int(input(\"Donner n: \"))\r\n        b = 5 <= N <= 20\r\n    return N\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n            b = len(str(T[i])) == 4\r\n\r\n\r\ndef Appartenance(s, T, N):\r\n    p = int(s)\r\n    ok1 = False\r\n    i = -1\r\n    while not (ok1) and i < N - 1:\r\n        i += 1\r\n        ok1 = T[i] == p\r\n    ok2 = False\r\n    j = -1\r\n    while not (ok2) and j <= N - 1:\r\n        j += 1\r\n        ok2 = (str(p))[:3] == (str(T[j]))[:3]\r\n\r\n    if ok1:\r\n        f.t2.setText(\"p appartient totalement à T\")\r\n    elif ok2:\r\n        f.t2.setText(\"p appartient partiellement à T\")\r\n    else:\r\n        f.t2.setText(\"p n'appartient pas à T\")\r\n\r\n\r\n##############\"\"pp############\r\nN = Saisie()\r\nRemplir(N)\r\napp = QApplication([])\r\nf = loadUi('bac_pratique_2012_sujet1_interface.ui')\r\nf.show()\r\nf.pb.clicked.connect(lambda: Appartenance(f.t1.text(), T, N))\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/pgcd_par_methode_de_difference.py ---\n#déterminer le plus grand commun diviseur de deux entiers relatifs non nuls par la méthode de différence\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier relatif: \"))\r\n        b = n != 0\r\n    return n\r\n\r\ndef pgcd (x,y):\r\n    a = abs(x)\r\n    b = abs(y)\r\n    while a != b :\r\n        if a > b :\r\n            a = a - b\r\n        else :\r\n            b = b - a\r\n    return a\r\n\r\n#####################PP###########################\r\n\r\na = Saisie()\r\nb = Saisie()\r\nprint(\"pgcd (\",a,\",\",b,\")=\",pgcd(a,b))\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00.py ---\nfrom numpy import *\r\n\r\nT = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner N: \"))\r\n        b = 1 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"Donner le nom n°=\" + str(i) + \": \"))\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 20\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if voyelle(T[i]) > p:\r\n            p = voyelle(T[i])\r\n    for i in range(N):\r\n        if voyelle(T[i]) == p:\r\n            print(T[i])\r\n\r\n\r\ndef voyelle(ch):\r\n    voy = {\"A\", \"E\", \"U\", \"I\", \"O\", \"Y\"}\r\n    s = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] in voy:\r\n            s += 1\r\n    return s\r\n\r\n\r\n################pp#############\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/convertir_base.py ---\nfrom PyQt5 import QtWidgets,uic\r\n\r\ndef verif(x):\r\n    if len(x) != 0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\ndef convertir(a,b):\r\n    ch=\"\"\r\n    while a != 0 :\r\n        r = a % b\r\n        a = a // b\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+r) + ch\r\n    return ch\r\ndef traitement(a):\r\n    if verif(a):\r\n        p.t2.setText(convertir(int(a),2))\r\n        p.t3.setText(convertir(int(a),8))\r\n        p.t4.setText(convertir(int(a),16))\r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        p.t4.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t4.setText(\"\")\r\n    p.t1.setFocus()\r\n\r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"convertir_base.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n        \r\n    \r\n    \r\n        \r\n        \r\n        \n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/convertir_base.py ---\nfrom PyQt5 import QtWidgets,uic\r\n\r\ndef verif(x):\r\n    if len(x) != 0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\ndef convertir(a,b):\r\n    ch=\"\"\r\n    while a != 0 :\r\n        r = a % b\r\n        a = a // b\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+r) + ch\r\n    return ch\r\ndef traitement(a):\r\n    if verif(a):\r\n        p.t2.setText(convertir(int(a),2))\r\n        p.t3.setText(convertir(int(a),8))\r\n        p.t4.setText(convertir(int(a),16))\r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        p.t4.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t4.setText(\"\")\r\n    p.t1.setFocus()\r\n\r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"convertir_base.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n        \r\n    \r\n    \r\n        \r\n        \r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00_29-5.py ---\nfrom numpy import *\r\n\r\nfrom random import randint\r\n\r\nT = array([str] * 12)\r\n\r\n\r\ndef Remplir():\r\n    for i in range(12):\r\n        b = False\r\n        while not b:\r\n            T[i] = input(\"T[\" + str(i) + \"]=\")\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) > 3\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Trier(T):\r\n    p = randint(1, 3)\r\n    n = 12\r\n\r\n    echange = False\r\n    while n != 1 or not (echange):\r\n        for i in range(11):\r\n            if T[i][p] > T[i + 1][p]:\r\n                temp = T[i]\r\n                T[i] = T[i + 1]\r\n                T[i + 1] = temp\r\n                echange = True\r\n        n -= 1\r\n\r\n\r\ndef Afficher(T):\r\n    for i in range(0, 12, 3):\r\n        print(T[i], T[i + 1], T[i + 2], end=\"\\n\")\r\n\r\n\r\nRemplir()\r\nTrier(T)\r\nAfficher(T)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/effacer_caractères_redandants.py ---\n#Supprimer les caractères qui se répètent dans une chaine\r\n\r\nCH=str(input(\"< \"))\r\n\r\ndef sup(ch) : \r\n    p = 1\r\n    ok = True\r\n    while ok :\r\n        s = ch[:p] \r\n        x = s.find(ch[p])\r\n        if x != -1 :\r\n            ch = ch[:p] + ch[p+1:]\r\n        else:\r\n            p += 1\r\n        ok = p <= len(ch)-1\r\n    return (ch)\r\n\r\nprint(sup(CH))\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_14h.py ---\ndef Saisie():\r\n    b = False\r\n    while not (b) :\r\n        ch=str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] in {\"M\",\"C\",\"D\",\"L\",\"X\",\"V\",\"I\"}\r\n    return ok\r\n\r\ndef convert(x):\r\n    if x ==  \"M\" :\r\n        r = 1000\r\n    elif x == \"D\" :\r\n        r = 500\r\n    elif x == \"C\" :\r\n        r = 100\r\n    elif x == \"L\" :\r\n        r = 50\r\n    elif x == \"X\" :\r\n        r = 10\r\n    elif x == \"V\" :\r\n        r = 5\r\n    elif x == \"I\" :\r\n        r = 1\r\n    elif x ==\" \" :\r\n        r = 0\r\n    return r\r\n\r\ndef Romain(ch):\r\n    R = 0\r\n    ch = ch + \" \"\r\n    for i in range(len(ch)-1):\r\n        a = convert(ch[i])\r\n        b = convert(ch[i+1])\r\n        if  a < b :\r\n            a = -a\r\n        R += a\r\n    return R\r\n  \r\ndef Afficher(R):\r\n    print(R)\r\n            \r\n    \r\n#########################pp################\r\nch = Saisie()\r\nR = Romain(ch)\r\nAfficher(R)\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet10.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 10)\r\n\r\n\r\ndef Saisie_chaine():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(N, Ch):\r\n    n = len(Ch)\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i]) and len(T[i]) == n\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch != ''\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N, Ch):\r\n    for i in range(N):\r\n        print('le degré de ressemblance de', T[i], 'à', Ch, 'est: ', ressemblance(T[i], Ch))\r\n\r\n\r\ndef ressemblance(ch1, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch1[i] == ch[i]:\r\n            p += 1\r\n    DR = float((p / len(ch)) * 100)\r\n    return DR\r\n\r\n\r\n#####################PP##########################\r\nCh = Saisie_chaine()\r\nN = Saisie()\r\nRemplir(N, Ch)\r\nAfficher(T, N, Ch)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet1.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 100)\r\n\r\np = 17\r\nq = 19\r\ne = 5\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner une chaine :'))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Remplir(mot):\r\n    for i in range(len(mot)):\r\n        T[i] = ord(mot[i].upper()) - 64\r\n    return len(mot)\r\n\r\n\r\ndef Crypter(T, n):\r\n    for i in range(n):\r\n        a = puissance(T[i], e) % (p * q)\r\n        T[i] = a\r\n\r\n\r\ndef puissance(x, y):\r\n    R = 1\r\n    for i in range(y):\r\n        R *= x\r\n    return R\r\n\r\n\r\ndef Afficher(T, n):\r\n    for i in range(n):\r\n        print(T[i], end=' ')\r\n\r\n\r\n###############pp####################\r\nmot = Saisie()\r\nn = Remplir(mot)\r\nCrypter(T, n)\r\nAfficher(T, n)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet2.py ---\ndef Saisie_msg():\r\n    b = False\r\n    while not b:\r\n        ch = str(input(('Donner le message à crypter: ')))\r\n        b = verif(ch)\r\n    return ch, len(ch)\r\n\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == ' '\r\n    return ok\r\n\r\n\r\ndef Saisie_clé(n):\r\n    b = False\r\n    while not b:\r\n        ch = (input('Donner la clé du cryptage: '))\r\n        b = ch.isnumeric() and len(ch) == n\r\n    return ch\r\n\r\n\r\ndef Cryptage(msg, clé, n):\r\n    R = ''\r\n    for i in range(n):\r\n        if msg[i] != ' ':\r\n            if \"A\" <= chr(ord(msg[i]) + int(clé[i])) <= \"Z\":\r\n                R += chr(ord(msg[i]) + int(clé[i]))\r\n            else:\r\n                R += chr(ord(msg[i]) + int(clé[i]) - 26)\r\n\r\n        else:\r\n            R += msg[i]\r\n    return R\r\n\r\n\r\n##################PP###############\r\nmsg, n = Saisie_msg()\r\nclé = Saisie_clé(n)\r\nC = Cryptage(msg, clé, n)\r\nprint(C)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_9h.30.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner le nombre de cases: '))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = int(input('T[' + str(i) + ']= '))\r\n            b = T[i] > 0\r\n\r\n\r\ndef Derangement(T, N):\r\n    list = [''] * N\r\n    for i in range(N):\r\n        list[i] = i + 1\r\n    ok = True\r\n    i = -1\r\n    while ok and i < N - 1:\r\n        i += 1\r\n        ok = T[i] in list and T[i] != i + 1  #cette methode n'est pas accéptée\r\n    return ok\r\n\r\n\r\ndef Afficher(test):\r\n    if test:\r\n        print('T est un dérangement')\r\n    else:\r\n        print('T n\\'pas un dérangement')\r\n\r\n\r\n#######################PP#############################\r\n\r\nN = Saisie()\r\nRemplir(N)\r\ntest = Derangement(T, N)\r\nAfficher(test)\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/Calculatrice.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x)>0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\n\r\n\r\ndef Somme():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)+int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Soustraction():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)-int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef Produit():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) :\r\n        s=int(a)*int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\ndef division():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    if verif(a) and verif(b) and b!=0 :\r\n        s=int(a)/int(b)\r\n        p.t3.setText(str(s))\r\n    else :\r\n        p.t3.setText('erreur')\r\n\r\ndef PGCD():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        p.t3.setText(str(a))\r\n    \r\n    else:\r\n        p.t3.setText('Pas de PGCD')\r\ndef PPCM ():\r\n    a=p.t1.text ()\r\n    b=p.t2.text ()\r\n    a = abs(int(a))\r\n    b = abs(int(b))\r\n    m = a * b\r\n    if a != 0 and b!= 0 :\r\n        while a != b :\r\n            if a > b :\r\n                a -= b\r\n            else :\r\n                b -= a\r\n        c = int(m / a)\r\n        p.t3.setText(str(c))\r\n    else :\r\n        p.t3.setText('Pas de PPCM')\r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"calculatrice.ui\")\r\np.show()\r\np.pb1.clicked.connect (Somme)\r\np.pb2.clicked.connect (Soustraction)\r\np.pb3.clicked.connect (Produit)\r\np.pb4.clicked.connect (division)\r\np.pb5.clicked.connect (PGCD)\r\np.pb6.clicked.connect (PPCM)\r\napp.exec_()\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/nombre_de_mots.py ---\n#Determiner le nombre de mots d'une chaine sans espace superflu ni ponctuation\r\n\r\nch=str(input(\"< \"))\r\n\r\ndef nombre_mots(ch):\r\n    nb = 1\r\n    for i in range (len(ch)-1) :\r\n        if ch[i] == \" \" and ch[i+1] != \" \" :\r\n            nb += 1\r\n    return nb\r\n\r\nprint(\"le nombre de mots de la chaine est: \",nombre_mots(ch))\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_8.30_29-5.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = str(input(\"Donner unephrase: \"))\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = ch[len(ch) - 1] == \".\"\r\n    while ok and i < len(ch) - 2:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\r\n\r\ndef saisie_entier():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"< \"))\r\n        b = 2 <= n <= 10\r\n    return n\r\n\r\n\r\ndef cryptage(ph, p, q):\r\n    R = \"\"\r\n    for i in range(len(ph) - 1):\r\n        if ph[i] != \" \":  #and ph[i] != \".\":\r\n\r\n            R = R + chr((p * (ord(ph[i]) - 64) + q) % 26 + 1 + 64)\r\n        else:\r\n            R += ph[i]\r\n    print(R)\r\n\r\n\r\n#############\"\"pp################\"\"\"\"\r\nph = Saisie()\r\nprint(\"______saisie de p______\")\r\np = saisie_entier()\r\nprint(\"______saisie de q______\")\r\nq = saisie_entier()\r\ncryptage(ph, p, q)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Calculatrice.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\n\r\ndef verif(x):\r\n    if len(x) > 0 and x.isnumeric():\r\n        return True\r\n    else:\r\n        return False\r\n\r\n\r\ndef Somme():\r\n    a = p.t1.text()\r\n    b = p.t2.text()\r\n    if verif(a) and verif(b):\r\n        s = int(a) + int(b)\r\n        p.t3.setText(str(s))\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\ndef Soustraction():\r\n    a = p.t1.text()\r\n    b = p.t2.text()\r\n    if verif(a) and verif(b):\r\n        s = int(a) - int(b)\r\n        p.t3.setText(str(s))\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\ndef Produit():\r\n    a = p.t1.text()\r\n    b = p.t2.text()\r\n    if verif(a) and verif(b):\r\n        s = int(a) * int(b)\r\n        p.t3.setText(str(s))\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\ndef division():\r\n    a = p.t1.text()\r\n    b = p.t2.text()\r\n    if verif(a) and verif(b) and b != 0:\r\n        s = int(a) / int(b)\r\n        p.t3.setText(str(s))\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\ndef PGCD():\r\n    x = p.t1.text()\r\n    y = p.t2.text()\r\n    if verif(x) and verif(y):\r\n        a = abs(int(x))\r\n        b = abs(int(y))\r\n        if a != 0 and b != 0:\r\n            while a != b:\r\n                if a > b:\r\n                    a -= b\r\n                else:\r\n                    b -= a\r\n            p.t3.setText(str(a))\r\n\r\n        else:\r\n            p.t3.setText('Pas de PGCD')\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\ndef PPCM():\r\n    x = p.t1.text()\r\n    y = p.t2.text()\r\n    if verif(x) and verif(y):\r\n        a = abs(int(x))\r\n        b = abs(int(y))\r\n        if a != 0 and b != 0:\r\n            sa = a\r\n            sb = b\r\n            while (sa != sb):\r\n                if sa < sb:\r\n                    sa += a\r\n                else:\r\n                    sb += b\r\n\r\n            p.t3.setText(str(sa))\r\n        else:\r\n            p.t3.setText('Pas de PPCM')\r\n    else:\r\n        p.t3.setText('erreur')\r\n\r\n\r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"calculatrice.ui\")\r\np.show()\r\np.pb1.clicked.connect(Somme)\r\np.pb2.clicked.connect(Soustraction)\r\np.pb3.clicked.connect(Produit)\r\np.pb4.clicked.connect(division)\r\np.pb5.clicked.connect(PGCD)\r\np.pb6.clicked.connect(PPCM)\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2019_8h.py ---\nfrom numpy import *\r\n\r\nNom = array([str]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n=int(input(\"Donner le nombre de produits: \"))\r\n        b = 3 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not(b) :\r\n            Nom[i]=(str(input(\"Donner le nom du produit n° \"+str(i)+\": \")))\r\n            b = verif(Nom[i])\r\n\r\ndef verif(ch):\r\n    ok = len(ch) == 10\r\n    i = -1\r\n    while ok and ( i < len(ch)-1 ) :\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n    \r\ndef Spirale(Nom,N) :\r\n    b = False\r\n    while not(b):\r\n        P=int(input(\"Choisir une position p: \"))\r\n        b  = 0 <= P < 10\r\n    CH = \"\"\r\n    for i in range(N) :\r\n        CH += Nom[i][P]\r\n    TP = array([str]*20)\r\n    R = CH\r\n    for i in range(N):\r\n        TP[i] = R\r\n        R = traitement(R)\r\n    Afficher(TP,N)\r\n \r\ndef traitement(ch):\r\n    d = 0\r\n    g = len(ch)-1\r\n    R = \"\"\r\n    while len(R) < len(ch) :\r\n        R = R  + ch[g] + ch[d]\r\n        g -= 1\r\n        d += 1\r\n    if len(ch)%2 != 0 :\r\n        R = R[:len(ch)]\r\n    return R\r\n\r\ndef Afficher(TP,N):\r\n    for i in range (N):\r\n        print(TP[i])\r\n\r\n#######################PP###########################\r\nN = Saisie()\r\nRemplir(N)\r\nSpirale(Nom,N)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet7.py ---\n#idée du programme : mettre les facteurs premiers de N nombres chacun dans un tableau local puis vérifier dans ce tableau s'il y a des cases qui se répétent\r\n\r\nfrom numpy import array\r\n\r\nT = array([str] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Introduire le nombre de cases :\"))\r\n        b = 3 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not (b):\r\n            T[i] = int(input(\"T[\" + str(i) + \"]= \"))\r\n            b = T[i] > 0\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\r\n\r\ndef facteurs(n, t):  #Décompossition en facteurs premiers\r\n    ch = \"\"\r\n    i = 2\r\n    j = 0  #la variable j stocke le nombre des facteurs premiers se répétant ou pas donc le nombre des cases du futur tableau local\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + '/'\r\n                t[j] = i\r\n                j += 1\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return j\r\n\r\n\r\ndef Affiche(T, N):\r\n    R = ''  # la chaine R va stocker les cases du tableau T qui contiennent des entiers 'riches'\r\n    for i in range(N):  #parcous des cases du tableau intial\r\n        t = array([str] * 100)  #initialisation d'un tableau local qui se vide chaque fois que le compteur i avance\r\n        j = facteurs(T[i], t)  #j désigne le nombre des cases du tableau local\r\n        ok = False\r\n        k = -1\r\n        while k < j - 1 and not ok:\r\n            k += 1\r\n            ok = t[k] == t[\r\n                k +\r\n                1]  # si au moin une case se répéte càd au moin deux cases successives sont identique alors ok reçoit Vrai doc la boucle s'arréte\r\n        if ok == True:\r\n            R += str(T[i]) + ', '\r\n    R = R[:len(R) - 2]\r\n    print('Les nombres riches sont :', R)\r\n\r\n\r\n#####################PP####################\"\r\n\r\nN = Saisie()\r\nRemplir(N)\r\nAffiche(T, N)\r\n\n\n--- FICHIER: informatique baccalauréat/INSTALLATION/Note.txt ---\ncette version de thonny contient la bibliothèque numpy, pyqt5, le logiciel qt designer et plusieurs autres bibliothèques\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/converir_dans_la_base_n.py ---\n#ce programme permet de convertir un entier à un autre dans une base n\r\n\r\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    b = False \r\n    while not(b):\r\n        a=int(input(\"donner une base: \"))\r\n        b = a>1\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % a\r\n        x //= a\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+ r) +ch \r\n\r\n    return ch\r\nprint(binaire(n))\n\n--- FICHIER: informatique baccalauréat/DEVOIRS/Devoir de control 1/digipuissant.py ---\ndef saisie():\r\n    ok=False\r\n    while ok==False:\r\n        n=int(input(\"donner n\"))\r\n        ok =10<=n<=1000\r\n    return n\r\n        \r\ndef puiss(x,k):\r\n    p=1\r\n    for i in range(1,k+1):\r\n        p=p*x\r\n    return p\r\n\r\ndef somme(n):\r\n    ch=str(n)\r\n    s=0\r\n    for i in range(len(ch)):\r\n       s=s+int(ch[i])\r\n    return s\r\n\r\ndef trait(n):\r\n    k=0\r\n    ok=False\r\n    s=somme(n)\r\n    while not(ok):\r\n       k=k+1\r\n       Y=puiss(s,k)\r\n       ok=Y>=n or Y==1\r\n    ch=str(n)+ \" n\\'est pas digipuissant\"       \r\n    if Y==n:\r\n        ch=str(n)+ \" est digipuissant\"\r\n    print(ch)\r\n    \r\nn=saisie()\r\ntrait(n)\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet2.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = n >= 4 and n % 2 == 0\r\n    return n\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 1\r\n    while b and d <= x // 2:\r\n        d += 1\r\n        b = x % d != 0\r\n    return b\r\n\r\n\r\ndef couples_premiers(Nb):\r\n    R = ''\r\n    for i in range(Nb):\r\n        for j in range(Nb):\r\n            if premier(i) and premier(j) and i + j == Nb:\r\n                R += '(' + str(i) + ',' + str(j) + ')'\r\n    return R\r\n\r\n\r\n###############PP##################\r\nNb = Saisie()\r\ncouples = couples_premiers(Nb)\r\nprint(couples)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet8.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]= \"))\r\n\r\n\r\ndef Segmenter(T, N):  #valable seulement pour 0\r\n    x = T[0]\r\n    i, n = 0, 0\r\n    while n < N:\r\n        if T[i] > x or (T[i] == x and i == 0):\r\n            for j in range(i, N - 1):\r\n                temp = T[j]\r\n                T[j] = T[j + 1]\r\n                T[j + 1] = temp\r\n        else:\r\n            i += 1\r\n        n += 1\r\n\r\n\r\ndef Afficher(T, N):\r\n    for i in range(N):\r\n        print(T[i], end=' ')\r\n\r\n\r\n#############################p#############################\r\nN = Saisie()\r\nRemplir(N)\r\nSegmenter(T, N)\r\nAfficher(T, N)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N):\r\n    for i in range(N):\r\n        if zigzag(T[i]):\r\n            print(T[i], end=' ')\r\n\r\n\r\ndef zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\r\n\r\n#####################PP##########################\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9_interface.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\n\r\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(ch):\r\n    if verif(ch):\r\n        if zigzag(ch):\r\n            win.t2.setText(\"Nom zigazag\")\r\n        else:\r\n            win.t2.setText(\"Nom non-zigazag\")\r\n    else:\r\n        win.t2.setText(\"INPUT ERROR\")\r\n\r\n\r\ndef zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\r\n\r\ndef effacer():\r\n    win.t1.setText('')\r\n    win.t2.setText('')\r\n    win.t1.setFocus()\r\n\r\n\r\ndef fermer():\r\n    win.close()\r\n\r\n\r\n#####################PP##########################\r\napp = QtWidgets.QApplication([])\r\nwin = uic.loadUi(\"epreuve_bac_pratique_2015_sujet9_interface.ui\")\r\nwin.show()\r\nwin.pb1.clicked.connect(lambda: Afficher(win.t1.text()))\r\nwin.pb2.clicked.connect(effacer)\r\nwin.pb3.clicked.connect(fermer)\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/chiffres_romains.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x)!=0 :\r\n        for i in range(len(x)):\r\n            if x[i] in {'X','D','L','M','C','V','I'}:\r\n                return True\r\n            else:\r\n                return False\r\n    else:\r\n        return False\r\n    \r\ndef convert(x):\r\n    R = 0\r\n    if x == 'M' :\r\n        R = 1000\r\n    elif x == 'D' :\r\n        R = 500\r\n    elif x == 'C' :\r\n        R = 100\r\n    elif x == 'L' :\r\n        R = 50\r\n    elif x == 'X' :\r\n        R = 10\r\n    elif x == 'V' :\r\n        R = 5\r\n    elif x == 'I' :\r\n        R = 1\r\n    return R\r\ndef Romain(a):\r\n    if verif(a):\r\n        S = 0\r\n        for i in range(len(a)-1):\r\n            if convert(a[i]) < convert(a[i+1]) :\r\n                S += -convert(a[i])\r\n            else :\r\n                S += convert(a[i])\r\n        S += convert(a[len(a)-1])\r\n        p.t2.setText(str(S))   \r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")         \r\ndef Effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"chiffres_romains.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:Romain(p.t1.text()))\r\np.pb2.clicked.connect(Effacer)\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_les_cases_qui_se_repetent.py ---\n#Effacer toutes les cases qui se repetent dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef suppression(t, n):  #Recherche avec la boucle pour n'est pas preférée\r\n    i = 0\r\n    while i < n:\r\n        for j in range(n):\r\n            for k in range(j + 1, n):\r\n                if t[k] == t[j]:\r\n                    for l in range(k, n - 1):\r\n                        t[l] = t[l + 1]\r\n                    n -= 1\r\n        i += 1\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i], end=' ')\r\n\r\n\r\n####################PP####################\r\nn = Saisie()\r\nRemplir(n)\r\nn = suppression(t, n)\r\nAfficher(t, n)\r\n\n\n--- FICHIER: informatique baccalauréat/PROGRAMME OFFICIEL/prototype Bac 2022.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef chance(ch):\r\n    if not(ch.isnumeric() and len(ch) == 8 and ch[0] in {\"2\",\"4\",\"5\",\"9\"}):\r\n        msg = \"Vérifier le numéro de téléphone !\"\r\n    else:\r\n        msg = \"Désolé, vous n'avez pas gagner.\"\r\n        s = 0\r\n        for i in range(len(ch)):\r\n            s += int(ch[i])*i\r\n        if premier(s):\r\n            msg = \"Félicitation, vous avez gagné.\"\r\n    return msg\r\n\r\ndef premier(y):\r\n    test = y > 1\r\n    n = 1\r\n    while test and n < y//2 :\r\n        n += 1\r\n        test = y % n != 0\r\n    return test\r\n\r\ndef play():\r\n    x=p.t1.text()\r\n    y=chance(x)\r\n    p.l3.setText(y)\r\n    \r\nappli= QtWidgets.QApplication([])\r\np=uic.loadUi(\"interface_jeu.ui\")\r\np.show()\r\np.bt1.clicked.connect (play)\r\nappli.exec_()\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5.py ---\nfrom numpy import *\r\n\r\ntn = array([int] * 1000)\r\ntm = array([int] * 1000)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        m = int(input('Donner m: '))\r\n        b = 10 <= n < m <= 999\r\n    return n, m\r\n\r\n\r\ndef Somme_div(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\r\n\r\ndef Suite_aliquote(a, t):\r\n    t[0] = a\r\n    i = 1\r\n    while a != 1:\r\n        a = Somme_div(a)\r\n        t[i] = a\r\n        i += 1\r\n    return i\r\n\r\n\r\ndef commun(tn, tm, j, k):\r\n    S = 0\r\n    for i in range(j):\r\n        for loop in range(k):\r\n            if (tn[i]) == tm[loop]:\r\n                S += 1\r\n    return S\r\n\r\n\r\ndef Afficher(tn, tm, j, k, S):\r\n    chn = ''\r\n    chm = ''\r\n    for i in range(j):\r\n        chn += str(tn[i]) + ' '\r\n    for i in range(k):\r\n        chm += str(tm[i]) + ' '\r\n    print('La suite aliquote de n est: ', chn)\r\n    print('La suite aliquote de m est: ', chm)\r\n    print('le nombre des termes communs est: ', S)\r\n\r\n\r\n######################################\r\nn, m = Saisie()\r\nj = Suite_aliquote(n, tn)\r\nk = Suite_aliquote(m, tm)\r\nS = commun(tn, tm, j, k)\r\nAfficher(tn, tm, j, k, S)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection_deux_sens.py ---\nfrom numpy import *\r\nt=array([int]*50)\r\ndef saisie():\r\n    b=False\r\n    while b==False:\r\n        n=int(input(\"donner n\"))\r\n        b=2<=n<=20\r\n    return n\r\ndef rech(x,t,p):\r\n    b=False\r\n    i=-1\r\n    \r\n    while(not(b)) and (i<p):\r\n        i=i+1\r\n        b=t[i]==x\r\n    return b\r\ndef remplir(t,n):\r\n    t[0]=int(input(\"donner t[0]\"))\r\n    for i in range(1,n):\r\n        b1=False\r\n        while(not(b1)):\r\n            t[i]=int(input(\"donner t[\"+str(i)+\"]\"))\r\n            b1=rech(t[i],t,i-1)==False\r\n            \r\n            \r\ndef min(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]<t[mi]:\r\n            mi=i\r\n    return mi\r\ndef max(t,d,f):\r\n    mi=d\r\n    for i in range(d+1,f+1):\r\n        if t[i]>t[mi]:\r\n            mi=i\r\n    return mi\r\ndef permut(x,y):\r\n    aux=x\r\n    x=y\r\n    y=aux\r\n    return x,y\r\n#entree x=10 et y=20\r\n#sortie x=20 et y=10\r\n\r\n\r\n    \r\ndef tri(n,t):\r\n    b=False\r\n    d=0\r\n    f=n-1\r\n    while(not(b)):\r\n        mi=min(t,d,f)\r\n        if d!=mi:\r\n            t[d],t[mi]=permut(t[d],t[mi])\r\n        ma=max(t,d,f)\r\n        if f!=ma:\r\n            t[f],t[ma]=permut(t[f],t[ma])\r\n            \r\n        d=d+1\r\n        f=f-1\r\n        b=d>=f\r\n        \r\ndef affichage(t,n):\r\n    for i in range(n):\r\n        print(t[i],end='/')\r\n    \r\nn=saisie()\r\nremplir(t,n)\r\ntri(n,t)\r\naffichage(t,n)\r\n    \r\n\r\n        \r\n\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/chiffres_romains.py ---\nfrom PyQt5 import QtWidgets, uic\r\n\r\ndef verif(x):\r\n    if len(x)!=0 :\r\n        for i in range(len(x)):\r\n            if x[i] in {'X','D','L','M','C','V','I'}:\r\n                return True\r\n            else:\r\n                return False\r\n    else:\r\n        return False\r\n    \r\ndef convert(x):\r\n    R = 0\r\n    if x == 'M' :\r\n        R = 1000\r\n    elif x == 'D' :\r\n        R = 500\r\n    elif x == 'C' :\r\n        R = 100\r\n    elif x == 'L' :\r\n        R = 50\r\n    elif x == 'X' :\r\n        R = 10\r\n    elif x == 'V' :\r\n        R = 5\r\n    elif x == 'I' :\r\n        R = 1\r\n    return R\r\ndef Romain(a):\r\n    if verif(a):\r\n        S = 0\r\n        for i in range(len(a)-1):\r\n            if convert(a[i]) < convert(a[i+1]) :\r\n                S += -convert(a[i])\r\n            else :\r\n                S += convert(a[i])\r\n        S += convert(a[len(a)-1])\r\n        p.t2.setText(str(S))   \r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")         \r\ndef Effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t1.setFocus()\r\n    \r\napp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"chiffres_romains.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:Romain(p.t1.text()))\r\np.pb2.clicked.connect(Effacer)\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/projet2.py ---\nfrom PyQt5 import QtWidgets, uic\r\ndef verif(x):\r\n    if len(x) > 0 and x.isnumeric():\r\n        if int(x) < 0 :\r\n            return False\r\n        else :\r\n            return True\r\n    else :\r\n        return False\r\ndef premier(x):\r\n    s = 0\r\n    for i in range(1,x//2 +1):\r\n        if x % i == 0 :\r\n            s += 1\r\n    ok = s == 1\r\n    return ok\r\n\r\ndef Factoriel():\r\n    a=p.t1.text ()\r\n    if verif(a):\r\n        a = int(a)\r\n        R = 1\r\n        for i in range(1,a+1):\r\n            R *= i\r\n        p.l1.setText(str(R))\r\n    else:\r\n        p.l1.setText(\"INPUT ERROR\")\r\ndef Facteurs(n):\r\n    a=p.t1.text ()\r\n    a = int(a)\r\n    \r\n    ch = \"\"\r\n    for i in range (a+1):\r\n        if premier(i):\r\n            if a % i == 0:\r\n                ch+=str(i)+\"/\"\r\n    p.l1.setText(ch[:len(ch)-1])\r\n\r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Projet2.ui\")\r\np.show()\r\np.pb1.clicked.connect (Factoriel)\r\np.pb2.clicked.connect (Facteurs)\r\n\r\nApp.exec_()\r\n        \r\n        \r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/Bac2019theorique.py ---\nfrom numpy import *\r\n\r\nT = array([int] * 50)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 6 <= n <= 50\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        T[i] = int(input(\"T[\" + str(i) + \"]=\"))\r\n\r\n\r\n################################PP#########################\r\nN = Saisie()\r\nRemplir(N)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Tri_à_l_entrée.py ---\n#Trier les cases d'un tableau  à l'entrée\r\n\r\nfrom numpy import *\r\n\r\nt = array([int]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donnerle nombre de cases : \"))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\ndef Remplir(n):\r\n    t[0]=int(input(\"t[\"+str(0)+\"]= \"))\r\n    for i in range(1,n):\r\n        b = False\r\n        while not(b):\r\n            t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n            b = t[i] > t[i-1]\r\n            \r\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n        \r\n#########################PP############################\"\r\nn= Saisie()\r\nRemplir(n)\r\nAfficher(t,n)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/intersection_de_deux_tableaux.py ---\n#Insérer les cases communes de deux tableaux dans un troisiéme tableau \r\n\r\nfrom numpy import *\r\n\r\nt1 = array ( [int] * 20 )\r\nt2 = array ( [int] * 20 )\r\nt3 = array ( [int] * 20 )\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(t,x):\r\n    for i in range (x):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n    \r\ndef intersection(t1,t2,t3,n):\r\n    i = 0\r\n    for j in range(n):\r\n        if(existe(t1[j],t2,m)):\r\n            t3[i]=t1[j]\r\n            i += 1\r\n    return i \r\n\r\ndef existe(x,t,n):\r\n    ok = False\r\n    i = -1\r\n    while not(ok) and i < n :\r\n        i += 1\r\n        ok =t[i]==x\r\n    return ok \r\n    \r\ndef Afficher(t3,i):\r\n    for j in range(i):\r\n        print(t3[j],end=\"/\")\r\n        \r\n########################PP#######################\r\n     \r\nn=Saisie()\r\nm=Saisie()\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T1\")\r\nRemplir(t1,n)\r\nprint(\"_________________\")\r\nprint(\"Remplissage de T2\")\r\nRemplir(t2,m)\r\nprint(\"_________________\")\r\ni = intersection(t1,t2,t3,n)\r\nprint(\"les éléments communs sont: \")\r\nAfficher(t3,i)\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/remplir_tableau.py ---\n#Remplir un tableau t par n entiers vérifiants une certaine condition avec un message\r\n\r\nfrom numpy import *\r\n\r\nt = array([int]*100)\r\n\r\ndef Saisie ():\r\n    b = False\r\n    msg = \"Donner le nombre des cases : \"\r\n    while not b :\r\n        n=int(input(msg))\r\n        msg = \"Donner le nombre des cases entre 5 et 20: \"\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        msg = \"t[\"+str(i)+\"] = \"\r\n        b = False\r\n        while not b :\r\n            t[i]=int(input(msg))\r\n            msg = \"Donner t[\"+str(i)+\"] entre 0 et 100: \"\r\n            b = 0 <= t[i] <= 100\r\n\r\ndef Afficher(t,N):\r\n    for i in range (N):\r\n        print(t[i],end=\"/\")\r\n        \r\n####################PP####################\r\n        \r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(t,N)\r\n\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Eclater_un_tableau.py ---\n#Eclater un tableau (exemple: suivant la  strict positivité de chaque entier)\r\nfrom numpy import *\r\nt = array ( [str] * 20 )\r\ntp = array ( [str] * 20 )\r\ntn = array ( [str] * 20 )\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n        \r\ndef Eclater(t,n):\r\n    x = 0\r\n    y = 0\r\n    for i in range (n):\r\n        if (t[i] >= 0) :\r\n            tp[x] = t[i]\r\n            x += 1\r\n        else:\r\n            tn[y] = t[i]\r\n            y += 1\r\n    return x,y\r\n\r\ndef Afficher(t,n,tp,a,tn,b):\r\n    print(\"Le tableau initial est: \")\r\n    for i in range (n):\r\n        print(t[i],end=\" \")\r\n    print(\"\\nLes tableaux eclatés sont: \")\r\n    for j in range(a):\r\n        print(tp[j],end=\" \")\r\n    print(\"\\t\")\r\n    for k in range(b):\r\n        print(tn[k],end=\" \")\r\n            \r\n\r\nn = Saisie()\r\nRemplir(n)\r\na,b = Eclater(t,n)\r\nAfficher(t,n,tp,a,tn,b)\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/extraire_une_phrase_dans_un_tableau.py ---\n#Ce programme permet d'extraire une phrase dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nT1 = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ph = input(\"Donner la phrase sans espace superflu ni ponctuation: \")\r\n        b = verif(ph)\r\n    return ph\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch.find(\"  \") == -1\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] not in {\",\", \";\", \"?\", \"!\"}\r\n    return ok\r\n\r\n\r\ndef Remplir_T1(ph):\r\n    nb = 0\r\n    i = 0\r\n    S = ph + \" \"\r\n    while S.find(\" \") != -1:\r\n        p = S.find(\" \")\r\n        T1[i] = S[0:p]\r\n        S = S[p + 1:]\r\n        if (len(S[0:p]) > nb):\r\n            nb = len(S[0:p])\r\n        i += 1\r\n    return i, nb\r\n\r\n\r\ndef Afficher(T1, n):\r\n    for i in range(n):\r\n        print(T1[i])\r\n\r\n\r\n#######################PP###########################\r\n\r\nph = Saisie()\r\nn, x = Remplir_T1(ph)\r\nAfficher(T1, n)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection.py ---\n#Trier un tableau dans l'ordre croissant par la méthode de tri sélection\r\n\r\nfrom numpy import *\r\n\r\nt=array([int]*25)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 0<=x<=25\r\n    return x\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"]= \"))\r\n\r\ndef tri(n,t):\r\n    for i in range (n-1) :\r\n        idmin = mini(t,i,n)\r\n        if idmin != i :\r\n            temp = t[i]\r\n            t[i] = t[idmin]\r\n            t[idmin] = temp\r\n\r\ndef mini(t,a,b):\r\n    p = a\r\n    for i in range(a+1,b):\r\n        if t[p] > t[i] :\r\n            p = i\r\n    return p\r\n\r\ndef Afficher(t,n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n###############PP###################\r\nn=Saisie()\r\nRemplir(n)\r\ntri(n,t)\r\nAfficher(t,n)\r\n\r\n\r\n\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex1.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\ndef parfait(x):\r\n    s=1\r\n    for i in range(2, x // 2+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    b=(s==x)\r\n    return b\r\n\r\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if parfait(i):\r\n            print(i)\r\n#########################pp#########################\r\n\r\na,b=saisie()\r\naffiche(a,b)\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Serie 3/serie3 ex3v.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=input('introduire votre numero')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=len(s)==8\r\n    i=-1\r\n    while(b and i < len(s)-1):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\r\ndef miroir(s):\r\n    ch=''\r\n    for i in range(len(s)):\r\n        ch=ch+'-'\r\n    return ch\r\n\r\ndef trait(s):\r\n    \r\n    \r\n    \r\n    b=False\r\n    b2=False\r\n    nb=8\r\n    ch1=s\r\n    while(not(b) and not(b2) and nb>=1):\r\n        ch=miroir(s)\r\n        s=ch1\r\n        \r\n        b1=False\r\n        while(not(b1)):\r\n            s1=input('introduire votre proposition')\r\n            b1=verif(s1)\r\n        nb=nb-1\r\n        s2=s1\r\n        b=s1==s       \r\n        if not b:\r\n            for i in range(8):\r\n                #print(s1[i])\r\n                \r\n                if s1[i]==s[i]:\r\n                        ch=ch[:i]+s1[i]+ch[i+1:]\r\n                        s=s[:i]+'*'+s[i+1:]\r\n                        s1=s1[:i]+'*'+s1[i+1:]\r\n                        \r\n                x= s.find(s1[i])\r\n                if x!=-1 and x!=i and s1[i]!='*':\r\n                        print(s1[i],'qui est dans la position',i+1,'n\\'est pas dans son emplacement')\r\n            b2=ch==s\r\n            if not b2:\r\n               \r\n                print('il vous reste',nb,'essais')\r\n                print(ch)\r\n    if b or b2 :\r\n        print('bravo vous aves deviné')\r\n    else:\r\n        print('désolé le numéro est:',ch1)\r\n                \r\n            \r\n####################pp##########################\r\ns=saisie()\r\ntrait(s)\r\n                    \r\n            \r\n            \n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex2.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        y=int(input('introduire un entier non nul'))\r\n        b=10<x<y<1000\r\n    return x,y\r\n\r\n\r\ndef affiche(a,b):\r\n    for i in range(a,b+1):\r\n        if avogadro(i):\r\n            print(i)\r\n            \r\ndef avogadro(x):\r\n    c=x //100\r\n    d=x%100 //10\r\n    u=x % 10\r\n    s=c*c*c+d*d*d+u*u*u\r\n    b=(s==x)\r\n    return b\r\na,b=saisie()\r\naffiche(a,b)\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5_interface.py ---\nfrom PyQt5.uic import loadUi\r\n\r\nfrom PyQt5.QtWidgets import QApplication\r\n\r\nfrom numpy import *\r\n\r\ntn = array([int] * 999)\r\n\r\ntm = array([int] * 999)\r\n\r\n\r\ndef verif(ch1, ch2):\r\n    if ch1 != '' and ch1.isnumeric() and ch2.isnumeric():\r\n        if 10 <= int(ch1) < int(ch2) <= 999:\r\n            return True\r\n        else:\r\n            return False\r\n    else:\r\n        return False\r\n\r\n\r\ndef Somme_div(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\r\n\r\ndef Suite_aliquote(a, t):\r\n    t[0] = a\r\n    i = 1\r\n    while a != 1:\r\n        a = Somme_div(a)\r\n        t[i] = a\r\n        i += 1\r\n    return i\r\n\r\n\r\ndef commun(tn, tm, j, k):\r\n    S = 0\r\n    for i in range(j):\r\n        for loop in range(k):\r\n            if (tn[i]) == tm[loop]:\r\n                S += 1\r\n    return S\r\n\r\n\r\ndef Traitement(a, b, tn, tm):\r\n    if verif(a, b):\r\n        n = int(a)\r\n        m = int(b)\r\n        j = Suite_aliquote(n, tn)\r\n        k = Suite_aliquote(m, tm)\r\n        S = commun(tn, tm, j, k)\r\n        chn = ''\r\n        chm = ''\r\n        for i in range(j):\r\n            chn += str(tn[i]) + '/'\r\n        for i in range(k):\r\n            chm += str(tm[i]) + '/ '\r\n        p.t1.setText(chn[:len(chn) - 1])\r\n        p.t2.setText(chm[:len(chm) - 2])\r\n        p.t3.setText(str(S))\r\n\r\n    else:\r\n        p.t1.setText('INPUT ERROR')\r\n        p.t2.setText('INPUT ERROR')\r\n\r\n\r\ndef Annuler():\r\n    p.t1.setText('')\r\n    p.t2.setText('')\r\n    p.t3.setText('')\r\n    p.l1.setText('')\r\n    p.l1.setText('')\r\n    p.l2.setFocus()\r\n\r\n\r\ndef Fermer():\r\n    p.close()\r\n\r\n\r\napp = QApplication([])\r\np = loadUi('epreuve_pratique_2014_sujet5_interface.ui')\r\np.show()\r\np.pb1.clicked.connect(lambda: Traitement(p.l1.text(), p.l2.text(), tn, tm))\r\np.pb2.clicked.connect(Annuler)\r\np.pb3.clicked.connect(Fermer)\r\napp.exec_()\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex3.py ---\ndef saisie():\r\n    b=False\r\n    while (not(b)):\r\n        x=int(input(' un entier on nul svp'))\r\n        b=x>0\r\n    return x\r\ndef heureux(x):\r\n    b=False\r\n    while(not(b))  :\r\n        s=str(x)\r\n        som=0\r\n        for i in range(0,len(s)):\r\n            c=s[i]\r\n            a=int(c)\r\n            som=som+a*a\r\n        x=som\r\n        b= x<10\r\n        #on s'arrete lorsque la somme devient <10, un seul chiffre\r\n    b1=x==1\r\n    return b1\r\ndef affiche(x,b):\r\n    if b:\r\n        print(x,'est heureux')\r\n    else:\r\n        print(x,'n ''est pas heureux')\r\n    \r\n    \r\n    \r\n        \r\n####################pp###########################\r\nx=saisie()\r\nb=heureux(x)\r\naffiche(x,b)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2020/Bac2020theorique.py ---\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        NL = int(input(\"< Nombtre de lignes: \"))\r\n        b = 100 >= NL > 0\r\n    b = False\r\n    while not b:\r\n        NC = int(input(\"< Nombtre de colones: \"))\r\n        b = 100 >= NC > 0\r\n    b = False\r\n    while not b:\r\n        L = int(input(\"< Ligne n°= \"))\r\n        b = 0 < L <= NL\r\n    b = False\r\n    while not b:\r\n        C = int(input(\"< colone n°= \"))\r\n        b = 0 < C <= NC\r\n    b = False\r\n    while not b:\r\n        S = input(\"< Séquence: \")\r\n        b = verif(S)\r\n    return NL, NC, L, C, S\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] in {\"H\", \"B\", \"D\", \"G\"}\r\n    return ok\r\n\r\n\r\ndef Robot(NL, NC, L, C, S):\r\n    l = L\r\n    c = C\r\n    i = 0\r\n    ok = False\r\n    while not (ok) and i < len(S):\r\n        if S[i] == \"D\":\r\n            c += 1\r\n        elif S[i] == \"G\":\r\n            c -= 1\r\n        elif S[i] == \"H\":\r\n            l -= 1\r\n        elif S[i] == \"B\":\r\n            l += 1\r\n        ok = Depacement(i, l, c, NL, NC)\r\n        i += 1\r\n    if ok == False:\r\n        print(\"Je suis à la position (\", l, \",\", c, \") ^^ \")\r\n    else:\r\n        print(\"Attention cas de dépacement à cause du pas N°\", i, \" :( \")\r\n\r\n\r\ndef Depacement(i, l, c, NL, NC):\r\n    ok = c > NC or l > NL or c < 1 or l < 1\r\n    return ok\r\n\r\n\r\nNL, NC, L, C, S = Saisie()\r\nprint(\"_\" * 100)\r\nRobot(NL, NC, L, C, S)\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex5.py ---\ndef verif(s):\r\n    b=('A'<=s[0] <='Z') and (len (s)==12)\r\n    i=0\r\n    while(b and (i< len(s)-1)):\r\n        i=i+1\r\n        b='0'<=s[i]<='9'\r\n    return b\r\n\r\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        s=str(input('introduire une chaine'))\r\n        b=verif(s)\r\n    return s\r\ndef authentique(s):\r\n    c=s[0]\r\n    r=ord(c)-64\r\n    s=str(r)+s[1:]\r\n    som=0\r\n    for i in range(len(s)):\r\n        a=int(s[i])\r\n        som=som+a\r\n    b=som % 9==8\r\n    return b\r\ndef affiche(x,b):\r\n    if b :\r\n        print(x,'est authentique')\r\n    else:\r\n        print(x,' n   ''est pas authentique')\r\n        \r\n    \r\n    \r\n#################pp#######################\r\nch=saisie()\r\nb=authentique(ch)\r\naffiche(ch,b)\r\n    \r\n        \r\n    \n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex1.py ---\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une chaine')\r\n        b=verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) and ('A'<=s[0]<= 'Z') and (s[len(s)-1]=='.')\r\n    i=-1\r\n    while (b and (i<len(s)-2)):\r\n        i=i+1\r\n        c=s[i].upper()\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\ndef espacesuperflu(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-2]==' ':\r\n        s=s[:len(s)-2]+s[len(s)-1]\r\n    return s\r\ndef pal(s):\r\n    l=len(s)\r\n    b=l>=1\r\n    i=-1\r\n    #pour un seul caractere l=1 ,l div 2-1=-1 et comme -1 n'est pas <-1, on n'entre pas dans\r\n    #la boucle et la fonction renvoit vrai\r\n    while(b and i < l // 2 -1):  # si on met l //2 ça fonctionne mais il y a une itération de plus\r\n        i=i+1\r\n        b=s[i].upper()==s[l-i-1].upper()\r\n    return b\r\ndef palindrome(s):\r\n    s=s[:len(s)-1]+' '\r\n    s1=' '\r\n    b=True\r\n    while(s!='' and b):\r\n        x=s.find(s1)\r\n        s2=s[:x]\r\n        b=pal(s2)\r\n        s=s[x+1:]\r\n    return b\r\ndef affiche(b):\r\n    if b:\r\n        print('la chaine est totalement palindrome')\r\n    else:\r\n        print('la chaine n\\' est pas totalement palindrome')\r\n    \r\ns=saisie()\r\ns=espacesuperflu(s)\r\nb=palindrome(s)\r\naffiche(b)\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/nombre amis.py ---\ndef saisie():\r\n    b=False\r\n    while(b==False):\r\n        x=int(input('introduire un entier non nul'))\r\n        b=x!=0\r\n    return x\r\ndef somdiv(x):\r\n    s=1\r\n    for i in range(2, (x //2)+1):\r\n        if x % i==0:\r\n            s=s+i\r\n    return s\r\ndef affiche(a,b,sa,sb):\r\n    if a==sb and b==sa:\r\n        ch=str(a)+' et  '+str(b)+'  sont  amis '\r\n    else:\r\n        ch=str(a)+' et   '+ str(b)+'ne sont pas amis'\r\n    print(ch)\r\n\r\na=saisie()\r\nb=saisie()\r\ns1=somdiv(a)\r\ns2=somdiv(b)\r\naffiche(a,b,s1,s2)\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Insérer_une_case.py ---\n#Insérer une case à une position donnée\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef insérer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à insérer: \"))\r\n        b = 0 <= p <= n\r\n    x = int(input(\"Donner l'élément à insérer: \"))\r\n    n += 1\r\n    for i in range(n - 1, p, -1):\r\n        t[i] = t[i - 1]\r\n    t[p] = x\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n\r\n##############################PP##################################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nn = insérer(t, n)\r\nAfficher(t, n)\r\n\n\n--- FICHIER: informatique baccalauréat/COURS/INTERFACE/projet2.py ---\nfrom PyQt5 import QtWidgets, uic\r\ndef verif(x):\r\n    if len(x) > 0 and x.isnumeric():\r\n        if int(x) < 0 :\r\n            return False\r\n        else :\r\n            return True\r\n    else :\r\n        return False\r\ndef premier(x):\r\n    s = 0\r\n    for i in range(1,x//2 +1):\r\n        if x % i == 0 :\r\n            s += 1\r\n    ok = s == 1\r\n    return ok\r\n\r\ndef Factoriel():\r\n    a=p.t1.text ()\r\n    if verif(a):\r\n        a = int(a)\r\n        R = 1\r\n        for i in range(1,a+1):\r\n            R *= i\r\n        p.l1.setText(str(R))\r\n    else:\r\n        p.l1.setText(\"INPUT ERROR\")\r\ndef Facteurs(n):\r\n    a=p.t1.text ()\r\n    a = int(a)\r\n    \r\n    ch = \"\"\r\n    for i in range (a+1):\r\n        if premier(i):\r\n            if a % i == 0:\r\n                ch+=str(i)+\"/\"\r\n    p.l1.setText(ch[:len(ch)-1])\r\n\r\nApp = QtWidgets.QApplication([])\r\np=uic.loadUi(\"Projet2.ui\")\r\np.show()\r\np.pb1.clicked.connect (Factoriel)\r\np.pb2.clicked.connect (Facteurs)\r\n\r\nApp.exec_()\r\n        \r\n        \r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/PGCD_en_decomposition_de_facteurs_fremiers.py ---\nfrom numpy import array\r\n\r\nta = array([int] * 100)\r\ntb = array([int] * 100)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner un entier relatif non nul: \"))\r\n        b = n != 0\r\n    return n\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\r\n\r\ndef puissance(x, y):\r\n    R = 1\r\n    for i in range(y):\r\n        R *= x\r\n    return R\r\n\r\n\r\ndef facteurs(n, t):\r\n    ch = \"\"\r\n    i = 2\r\n    j = 0\r\n    while abs(n) != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + \"/\"\r\n                t[j] = i\r\n                j += 1\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return ch, i, j\r\n\r\n\r\ndef compter(x, t, n):  \r\n    s = 0\r\n    for i in range(n):\r\n        if t[i] == x:\r\n            s += 1\r\n    return s\r\n\r\n\r\ndef PGCD(a, b, a1, b1, a2, b2):\r\n    if a1 >= b1:\r\n        m = a1\r\n    else:\r\n        m = b1\r\n    d = 1\r\n    for i in range(2, m + 1):\r\n        if compter(i, ta, a2) <= compter(i, tb, b2):\r\n            d *= puissance(i, compter(i, ta, a2))\r\n        else:\r\n            d *= puissance(i, compter(i, tb, b2))\r\n    return d\r\n\r\n\r\n#####################PP####################\"\r\nx = Saisie()\r\ny = Saisie()\r\na, a1, a2 = facteurs(x, ta)\r\nb, b1, b2 = facteurs(y, tb)\r\ngcd = PGCD(a, b, a1, b1, a2, b2)\r\nprint('le pdcd est : ', gcd)\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex4.py ---\ndef saisie():\r\n    t=False\r\n    while(not(t)):\r\n        a=int(input('introduire a'))\r\n        b=int(input('introduire b'))\r\n        t=100<a<b<1000\r\n    return a,b\r\ndef premier(x):\r\n    b=x>1\r\n    i=1\r\n    while(b and (i< x // 2)):\r\n        i=i+1\r\n        b =x % i != 0\r\n    #on peut compter le nombre de diviseurs mais ça nécessite bcp d'itérations\r\n    return b\r\ndef affiche (a,b):\r\n    for i in range(a,b+1):\r\n        b=premier(i)\r\n        if b:\r\n            print(i)\r\n#########################pp##################################\r\na,b=saisie()\r\naffiche(a,b)\r\n    \r\n        \r\n        \n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet8.py ---\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef occurence(c, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] == c:\r\n            p += 1\r\n    return p\r\n\r\n\r\ndef Crypter(ch):\r\n    R = ''\r\n    for i in range(len(ch)):\r\n        n = occurence(ch[i], ch)\r\n        if n % 2 == 1:\r\n            k = 2 * n\r\n        else:\r\n            k = n // 2\r\n        if \"A\" <= chr(ord(ch[i]) + k) <= \"Z\":\r\n            R += chr(ord(ch[i]) + k)\r\n        else:\r\n            R += chr(ord(ch[i]) + k - 26)\r\n    return R\r\n\r\n\r\n##########PP###############\r\nM = Saisie()\r\nMC = Crypter(M)\r\nprint(MC)\r\n\n\n--- FICHIER: informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex2.py ---\ndef saisie():\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  1 ère chaine')\r\n        b=verif(s)\r\n    return s\r\ndef saisie1(l):\r\n    b=False\r\n    while(not(b)):\r\n        s=input('introduire une  2 ème chaine')\r\n        b=nb_mot(s)==l and verif(s)\r\n    return s\r\ndef verif(s):\r\n    b=(len(s)>0 ) \r\n    i=-1\r\n    while (b and (i<len(s)-1)):\r\n        i=i+1\r\n        c=s[i]\r\n        b=('A'<=c<='Z') or c==' '\r\n    return b\r\n\r\ndef nb_mot(s):\r\n    s1='  '\r\n    while(s.find(s1)!=-1):\r\n        x=s.find(s1)\r\n        s=s[:x]+s[x+1:]\r\n    if s[len(s)-1]==' ':\r\n        s=s[:len(s)-1]\r\n    if s[0]==' ':\r\n        s=s[1:]\r\n    nb=1\r\n    for i in range(0,len(s)):\r\n        if s[i]==' ':\r\n            nb=nb+1\r\n    return nb\r\n    \r\ndef nb_mot_commun(s1,s2):\r\n    ch=' '\r\n    nb=0\r\n    s1=s1[:]+' '\r\n    while(s1!=''):\r\n        x=s1.find(ch)\r\n        y=s1[:x]\r\n        #print('y=',y)\r\n        p=s2.find(y)\r\n        s1=s1[x+1:]\r\n        #print('s1=',s1)\r\n        if p!=-1:\r\n            nb=nb+1\r\n            s2=s2[:p]+s2[p+len(y)+1:len(s2)]\r\n        \r\n    return nb\r\n\r\ndef affiche(x,a):\r\n    b=(x/a)*100\r\n    print('b=',b)\r\n    if b>=50:\r\n        print('le texte est plagié')\r\n    else:\r\n        print('le texte n\\'est pas plagié')\r\nt1=saisie()\r\na=nb_mot(t1)\r\nt2=saisie1(a)\r\nx=nb_mot_commun(t1,t2)\r\naffiche(x,a)\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/decomposition_en_facteurs_premiers.py ---\n#Ce programme permet de décomposer un entier naturel en ses facteurs premiers\r\n\r\n\r\ndef premier(x):\r\n    b = x > 1\r\n    d = 2\r\n    while b and (d <= x // 2):\r\n        b = x % d != 0\r\n        d += 1\r\n    return b\r\n\r\n\r\ndef facteurs(n):  #Rq: si vous entrez 1, la chaine de sortie sera vide.\r\n    ch = \"\"\r\n    i = 2\r\n    while n != 1:\r\n        if premier(i):\r\n            if (n % i) == 0:\r\n                ch += str((i)) + \"/\"\r\n                n //= i\r\n            else:\r\n                i += 1\r\n        else:\r\n            i += 1\r\n    return ch[:len(ch) - 1]\r\n\r\n\r\n######################################PP############################\r\nn = int(input(\"< \"))\r\nd = facteurs(n)\r\nprint(d)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/PROBLEME_BAC_2012_1.py ---\nfrom numpy import*\r\nT=array([str]*20)\r\nM=array([float]*20)\r\ndef module(z):\r\n    p=z.find('+')\r\n    x=\"\"\r\n    y=\"\"\r\n    for i in range (p):\r\n        x+=z[i]\r\n    x=int(x)\r\n    for i in range (p+1,len(z)-1):\r\n        y+=z[i]\r\n    y=int(y)\r\n    w=sqrt(x*x+y*y)\r\n    return w\r\ndef Saisie():\r\n    b = 0\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 2 <= x <= 20\r\n    return x\r\ndef RemplirT(N,T):\r\n    for i in range(N):\r\n        B = False\r\n        while not(B):\r\n            a=int(input(\"<Partie réelle: \"))\r\n            b=int(input(\"<<Partie imaginaire:: \"))\r\n            B = a>0 and b>0\r\n\r\n        T[i]=str(a)+\"+\"+str(b)+\"i\"\r\ndef RemplirM(N,T,M):\r\n    for i in range(N):\r\n        M[i]=(module(T[i]))\r\ndef Tri_simultane(T,M,N):\r\n        for i in range (N-1):\r\n            idmax = maxi(M,i,N)\r\n            if idmax!=i:\r\n                temp1 = M[i]\r\n                M[i] = M[idmax]\r\n                M[idmax] = temp1\r\n                temp2 = T[i]\r\n                T[i] = T[idmax]\r\n                T[idmax] = temp2\r\ndef maxi(t,a,b):\r\n    p = a\r\n    for i in range (a+1,b) :\r\n        if t[i]>t[p]:\r\n            p = i\r\n    return p\r\ndef Afficher(M,N,T):\r\n    print(T[0],end=\"\")\r\n    for i in range(1,N):\r\n        if M[i]!=M[i-1]:\r\n            print(\"\\n\")\r\n        print(T[i],end=\"\")\r\n\r\n###############################PP###############################\r\nN=Saisie()\r\nRemplirT(N,T)\r\nRemplirM(N,T,M)\r\nTri_simultane(T,M,N)\r\nAfficher(M,N,T)\r\n\n\n--- FICHIER: informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_16h.py ---\ndef Saisie ():\r\n    b = False\r\n    while not (b) :\r\n        n=int(input(\"Donner un chiffre: \"))\r\n        b = 1 <= n <= 9 and n%2 == 1 \r\n    return n\r\ndef Traitement(E):\r\n    R = str(E)\r\n    print(R)\r\n    while not (divisible(R)) :\r\n        c = calcul(R)\r\n        R = c+str(R)+c\r\n        print(R)\r\n        print(end=\"\")\r\n        \r\ndef calcul(ch):\r\n    S = 0\r\n    for i in range (len(ch)):\r\n        S += int(ch[i])\r\n    x = ( S + len(ch) ) % 10\r\n    return str(x) \r\ndef divisible(ch):\r\n    s = 0\r\n    p =0\r\n    for i in range(len(ch)-1,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])\r\n    for i in range(len(ch)-4,-1,-6):\r\n        if i >= 2 :\r\n            s += int(ch[i-2:i+1])\r\n        else :\r\n            s += int(ch[0:i+1])\r\n\r\n\r\n    ok = (s - p) % 7 == 0\r\n    return ok\r\n    \r\n    \r\n################PP###################\r\nE = Saisie()\r\nTraitement(E)\r\nprint(\"a\")\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_qq_cases.py ---\n#Effacer toutes les cases qui se repetent dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef suppression(t, n):\r\n    i = 0\r\n    while i < n:\r\n        if t[i] == 5:  #par exemple en veut effacer les cases'5'\r\n            n = efface(t, i, n)\r\n        i += 1\r\n    return n\r\n\r\n\r\ndef efface(t, i, n):\r\n    for j in range(i, n - 1):\r\n        t[j] = t[j + 1]\r\n    n -= 1\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i], end=' ')\r\n\r\n\r\n####################PP####################\r\nn = Saisie()\r\nRemplir(n)\r\nn = suppression(t, n)\r\nAfficher(t, n)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/affichage_sans_redandance.py ---\n#Ce programme permet d'afficher les cases d'un tableau sans redandance\r\n\r\nfrom numpy import *\r\n\r\nt = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef Affichage(t, n):\r\n    for i in range(n):\r\n        if (rech(t[i], t, i - 1)):  #TENIR COMPTE DE L'INDICE i-1\r\n            print(t[i], end=\" \")\r\n\r\n\r\ndef rech(x, T, p):\r\n    ok = True\r\n    i = -1\r\n    while ok and (i < p):\r\n        i += 1\r\n        ok = t[i] != x\r\n    return ok\r\n\r\n\r\n#######################PP###########################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nAffichage(t, n)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_une_case.py ---\n#Effacer une case d'un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n\r\n\r\ndef Effacer(t, n):\r\n    b = False\r\n    while not b:\r\n        p = int(input(\"Donner la position de la case à effacer: \"))\r\n        b = 0 <= p <= n\r\n    for i in range(p, n - 1):\r\n        t[i] = t[i + 1]\r\n    n -= 1\r\n    return n\r\n\r\n\r\ndef Afficher(t, n):\r\n    for i in range(n):\r\n        print(t[i])\r\n\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nn = Effacer(t, n)\r\nAfficher(t, n)\r\nprint(t)\r\n\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_bulles.py ---\n#Trier un tableau dans l'ordre croissant par la méthode de tri à bulles\r\n\r\nfrom numpy import *\r\n\r\nt = array ( [int] * 20 )\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n\r\ndef tri(t,n):\r\n    echange = False \r\n    while n != 1 or not echange :\r\n        for i in range(n-1):\r\n            if t[i] > t[i+1]:\r\n                temp = t[i]\r\n                t[i] = t[i+1]\r\n                t[i+1] = temp\r\n                echange = True\r\n        n -= 1\r\n\r\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\ntri(t,n)\r\nAfficher(t,n)\n\n--- FICHIER: informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/insérer_des_éléments_distincts.py ---\n#Saisir des éléments distincts dans un tableau\r\n\r\nfrom numpy import *\r\n\r\nt = array([int] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    t[0] = int(input((\"t[0]=\")))\r\n    for i in range(1, n):\r\n        b = False\r\n        while not b:\r\n            t[i] = int(input(\"t[\" + str(i) + \"] = \"))\r\n            b = not (existe(t, t[i], i - 1))\r\n\r\n\r\ndef existe(t, x, p):\r\n    i = -1\r\n    ok = False\r\n    while not (ok) and i < p:\r\n        i += 1\r\n        ok = t[i] == x\r\n    return ok\r\n\r\n\r\nn = Saisie()\r\nRemplir(n)\r\n\n\n",
+  "zipEntries": [
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/saisie_entier.py",
+      "sizeBytes": 194,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/projet2.ui",
+      "sizeBytes": 3703,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/chiffres_romains.ui",
+      "sizeBytes": 3505,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/factoriel.py",
+      "sizeBytes": 340,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/Multiplication Russe.ui",
+      "sizeBytes": 3630,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/conversion_dans_la_base_10.py",
+      "sizeBytes": 983,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/DEVOIRS/Devoir de control 1/Chaine cunningham.py",
+      "sizeBytes": 778,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex3v.py",
+      "sizeBytes": 930,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_11.00.py",
+      "sizeBytes": 801,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/bac2013theo.py",
+      "sizeBytes": 1107,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/binaire.py",
+      "sizeBytes": 226,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2021/Bac2021theorique.py",
+      "sizeBytes": 759,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/chiffres_romains.ui",
+      "sizeBytes": 3505,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/INSTALLATION/Qt Designer Setup.exe.url",
+      "sizeBytes": 160,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Multiplication russe.py",
+      "sizeBytes": 995,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/epreuve_bac_pratique_2019_sujet3_interface.py",
+      "sizeBytes": 1968,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_9.30h.py",
+      "sizeBytes": 916,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/nombre_premier.py",
+      "sizeBytes": 249,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_8h.py",
+      "sizeBytes": 1493,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/trier_les_caracteres_d_une_chaine.py",
+      "sizeBytes": 1088,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/conversion_dans_la_base_10.py",
+      "sizeBytes": 983,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/Multiplication russe.py",
+      "sizeBytes": 995,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet5.py",
+      "sizeBytes": 787,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Multiplication Russe.ui",
+      "sizeBytes": 3630,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/espace_superflu2.py",
+      "sizeBytes": 334,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/DEVOIRS/Devoir de synthèse n°1/ex2.py",
+      "sizeBytes": 567,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Calculatrice.ui",
+      "sizeBytes": 7837,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/SINUS.ui",
+      "sizeBytes": 1560,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/sinus.py",
+      "sizeBytes": 1385,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_14.py",
+      "sizeBytes": 783,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2019_14h.py",
+      "sizeBytes": 1949,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/trier_les_caracteres_dune_chaine.py",
+      "sizeBytes": 377,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/trier_les_caracteres_d_une_chaine.py",
+      "sizeBytes": 1088,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet7.py",
+      "sizeBytes": 1121,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/trier_les_caracteres_dune_chaine.ui",
+      "sizeBytes": 3675,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/DEVOIRS/Devoir de control 1/sublime.py",
+      "sizeBytes": 728,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Bac2013theorique.py",
+      "sizeBytes": 969,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet3.py",
+      "sizeBytes": 1116,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/saisie_tab_et_entier.py",
+      "sizeBytes": 891,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/Calculatrice.ui",
+      "sizeBytes": 7837,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/bac_pratique_2019_11.00.INFINISHED.py",
+      "sizeBytes": 1172,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 6.pdf",
+      "sizeBytes": 184103,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/projet2.ui",
+      "sizeBytes": 3703,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2017/EPREUVE_PRATIQUE_2017_8h.py",
+      "sizeBytes": 903,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/procedure_python.pdf",
+      "sizeBytes": 88784,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2017_8h.py",
+      "sizeBytes": 903,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/conversion_dans_la_base_10.ui",
+      "sizeBytes": 4203,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2017/2017 Corrigé.pdf",
+      "sizeBytes": 107622,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet1.py",
+      "sizeBytes": 689,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/convertir_base.ui",
+      "sizeBytes": 4988,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Bac2014theorique.py",
+      "sizeBytes": 1403,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet6.py",
+      "sizeBytes": 727,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet8.py",
+      "sizeBytes": 482,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/trier_les_caracteres_dune_chaine.ui",
+      "sizeBytes": 3675,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/tableau_python.pdf",
+      "sizeBytes": 109476,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Les opérateurs.pdf",
+      "sizeBytes": 170589,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/sous_programmes_python.pdf",
+      "sizeBytes": 100602,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Livres/note à propo les livre des exercices en turbo.txt",
+      "sizeBytes": 103,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/conversion_dans_la_base_10.ui",
+      "sizeBytes": 4203,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/PROBLEME_BAC_2012_Version_complexe.py",
+      "sizeBytes": 1055,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5_interface.ui",
+      "sizeBytes": 6498,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/convertir_base.ui",
+      "sizeBytes": 4988,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_15.30.py",
+      "sizeBytes": 585,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/INSTALLATION/PySchool(Python 3.8-32bit)-1.0.0 full-Setup.exe.url",
+      "sizeBytes": 160,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_14.00.py",
+      "sizeBytes": 630,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 7.pdf",
+      "sizeBytes": 180655,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 4/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 2/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet4.py",
+      "sizeBytes": 1154,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1.py",
+      "sizeBytes": 1150,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet7.py",
+      "sizeBytes": 527,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet7.py",
+      "sizeBytes": 1013,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/ppcm.py",
+      "sizeBytes": 528,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1_interface.py",
+      "sizeBytes": 1147,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/pgcd_par_methode_de_difference.py",
+      "sizeBytes": 536,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00.py",
+      "sizeBytes": 979,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Les Structures de Contrôle Itératives.pdf",
+      "sizeBytes": 153765,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/convertir_base.py",
+      "sizeBytes": 1008,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Séries 3ème année/",
+      "sizeBytes": 0,
+      "isDirectory": true
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/convertir_base.py",
+      "sizeBytes": 1008,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_sujet1_interface.ui",
+      "sizeBytes": 2359,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00_29-5.py",
+      "sizeBytes": 859,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2018/Pratique2018 - 1.pdf",
+      "sizeBytes": 215026,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 6.pdf",
+      "sizeBytes": 116144,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/fonction_python.pdf",
+      "sizeBytes": 116260,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 1.pdf",
+      "sizeBytes": 105246,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/effacer_caractères_redandants.py",
+      "sizeBytes": 350,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Les Structures De Contrôle Conditionnelles.pdf",
+      "sizeBytes": 163960,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 3.pdf",
+      "sizeBytes": 95823,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_14h.py",
+      "sizeBytes": 979,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Démarche de résolution de problème.pdf",
+      "sizeBytes": 125816,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet10.py",
+      "sizeBytes": 1154,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 8.pdf",
+      "sizeBytes": 134054,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet1.py",
+      "sizeBytes": 867,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet2.py",
+      "sizeBytes": 967,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_9h.30.py",
+      "sizeBytes": 889,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/Calculatrice.py",
+      "sizeBytes": 1887,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/CHAINES/nombre_de_mots.py",
+      "sizeBytes": 318,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_8.30_29-5.py",
+      "sizeBytes": 875,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/Calculatrice.py",
+      "sizeBytes": 2153,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2019_8h.py",
+      "sizeBytes": 1267,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/INSTALLATION/desktop.ini",
+      "sizeBytes": 69,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 6.pdf",
+      "sizeBytes": 143447,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet7.py",
+      "sizeBytes": 2065,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 2.pdf",
+      "sizeBytes": 89417,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/INSTALLATION/Note.txt",
+      "sizeBytes": 122,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 2.pdf",
+      "sizeBytes": 117241,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2018/Pratique2018 - 2.pdf",
+      "sizeBytes": 203806,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/converir_dans_la_base_n.py",
+      "sizeBytes": 412,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/epreuve_bac_pratique_2019_sujet3_interface.ui",
+      "sizeBytes": 2070,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/DEVOIRS/Devoir de control 1/digipuissant.py",
+      "sizeBytes": 609,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet2.py",
+      "sizeBytes": 596,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/PROGRAMME OFFICIEL/interface_jeu.ui",
+      "sizeBytes": 2595,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet8.py",
+      "sizeBytes": 827,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9.py",
+      "sizeBytes": 1277,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9_interface.py",
+      "sizeBytes": 1393,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 1.pdf",
+      "sizeBytes": 156840,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/saisie_tab_et_entier.ui",
+      "sizeBytes": 1430,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/chiffres_romains.py",
+      "sizeBytes": 1193,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 4.pdf",
+      "sizeBytes": 135208,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_les_cases_qui_se_repetent.py",
+      "sizeBytes": 902,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/PROGRAMME OFFICIEL/prototype Bac 2022.py",
+      "sizeBytes": 764,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5.py",
+      "sizeBytes": 1243,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection_deux_sens.py",
+      "sizeBytes": 1336,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/chiffres_romains.py",
+      "sizeBytes": 1193,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 1/Projet_1_Phase_3_v2.jpg",
+      "sizeBytes": 193866,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/INTERFACE/projet2.py",
+      "sizeBytes": 969,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/Bac2019theorique.py",
+      "sizeBytes": 379,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Les Structures Simples.pdf",
+      "sizeBytes": 163852,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 2.pdf",
+      "sizeBytes": 168075,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Tableau_Algorithme.pdf",
+      "sizeBytes": 110232,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries de révision/Série de Révision 3.pdf",
+      "sizeBytes": 111973,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Tri_à_l_entrée.py",
+      "sizeBytes": 638,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 4.pdf",
+      "sizeBytes": 141631,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/intersection_de_deux_tableaux.py",
+      "sizeBytes": 1148,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/remplir_tableau.py",
+      "sizeBytes": 789,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 10.pdf",
+      "sizeBytes": 111558,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Eclater_un_tableau.py",
+      "sizeBytes": 1023,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/extraire_une_phrase_dans_un_tableau.py",
+      "sizeBytes": 904,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_selection.py",
+      "sizeBytes": 811,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 4.pdf",
+      "sizeBytes": 200624,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex1.py",
+      "sizeBytes": 503,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 1/Projet_1_Phase_3_v1.jpg",
+      "sizeBytes": 197003,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Serie 3/serie3 ex3v.py",
+      "sizeBytes": 1602,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex2.py",
+      "sizeBytes": 453,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 1.pdf",
+      "sizeBytes": 183062,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet5_interface.py",
+      "sizeBytes": 1879,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/~$érie 8.docx",
+      "sizeBytes": 162,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 7.pdf",
+      "sizeBytes": 118820,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 10.pdf",
+      "sizeBytes": 199831,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 1/Projet_1_Phase_1.jpg",
+      "sizeBytes": 152806,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 5.pdf",
+      "sizeBytes": 122468,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex3.py",
+      "sizeBytes": 672,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2020/Bac2020theorique.py",
+      "sizeBytes": 1418,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 8.pdf",
+      "sizeBytes": 135502,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex5.py",
+      "sizeBytes": 728,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex1.py",
+      "sizeBytes": 1288,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 7.pdf",
+      "sizeBytes": 129213,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/nombre amis.py",
+      "sizeBytes": 502,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/Insérer_une_case.py",
+      "sizeBytes": 854,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex3serie7.docx",
+      "sizeBytes": 68060,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/INTERFACE/projet2.py",
+      "sizeBytes": 969,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/PGCD_en_decomposition_de_facteurs_fremiers.py",
+      "sizeBytes": 1447,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/serie2ex4.py",
+      "sizeBytes": 589,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2018/Pratique2018 - 3.pdf",
+      "sizeBytes": 176997,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 3/Algorithme_projet_3.pdf",
+      "sizeBytes": 153168,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet8.py",
+      "sizeBytes": 808,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Serie 3/serie 3 ex2.py",
+      "sizeBytes": 1317,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 5.pdf",
+      "sizeBytes": 149432,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 8.pdf",
+      "sizeBytes": 131512,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 14.pdf",
+      "sizeBytes": 115537,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 8.pdf",
+      "sizeBytes": 93018,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 3/Projet_3_Phase_1_Algorithme_.pdf",
+      "sizeBytes": 154987,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/Pratique2019 - 4.pdf",
+      "sizeBytes": 171636,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 7.pdf",
+      "sizeBytes": 111042,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 4.pdf",
+      "sizeBytes": 96897,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex1serie7.docx",
+      "sizeBytes": 84559,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 3.pdf",
+      "sizeBytes": 217413,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/decomposition_en_facteurs_premiers.py",
+      "sizeBytes": 680,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/Pratique2012 - 3.pdf",
+      "sizeBytes": 141043,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 7.pdf",
+      "sizeBytes": 96248,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 9/Ex2serie9.docx",
+      "sizeBytes": 15238,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 8.pdf",
+      "sizeBytes": 149961,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 1.pdf",
+      "sizeBytes": 205832,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/Série 8.docx",
+      "sizeBytes": 23945,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/Pratique2014 - 5.pdf",
+      "sizeBytes": 114270,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex7serie7.docx",
+      "sizeBytes": 91235,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/PROBLEME_BAC_2012_1.py",
+      "sizeBytes": 1467,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/Pratique2013 - 5.pdf",
+      "sizeBytes": 136612,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Projet 3/D_Y_Projet3_3Sc_2020_2021_phase2.pdf",
+      "sizeBytes": 220113,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 22.pdf",
+      "sizeBytes": 120306,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex4serie7.docx",
+      "sizeBytes": 12864,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_16h.py",
+      "sizeBytes": 927,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2018/Pratique2018 - 5.pdf",
+      "sizeBytes": 213690,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_qq_cases.py",
+      "sizeBytes": 839,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Les structures Itiratives/Série les Structures Itératives.pdf",
+      "sizeBytes": 150174,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 19.pdf",
+      "sizeBytes": 131278,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9_interface.ui",
+      "sizeBytes": 2591,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Quizz et evaluation/D_Y_Projet2_3Sc_2020_2021_Evaluation.pdf",
+      "sizeBytes": 207971,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 5.pdf",
+      "sizeBytes": 176826,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/objet_local_global.pdf",
+      "sizeBytes": 183136,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/2012.pdf",
+      "sizeBytes": 151525,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 21.pdf",
+      "sizeBytes": 147834,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 16.pdf",
+      "sizeBytes": 128497,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/affichage_sans_redandance.py",
+      "sizeBytes": 753,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/effacer_une_case.py",
+      "sizeBytes": 749,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 9/Série 9.docx",
+      "sizeBytes": 21819,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 24.pdf",
+      "sizeBytes": 158226,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 9.pdf",
+      "sizeBytes": 152229,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_bulles.py",
+      "sizeBytes": 808,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/insérer_des_éléments_distincts.py",
+      "sizeBytes": 642,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 1.pdf",
+      "sizeBytes": 124300,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/Ex2serie8.docx",
+      "sizeBytes": 15814,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 2.pdf",
+      "sizeBytes": 147715,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 9/Ex1serie9.docx",
+      "sizeBytes": 13554,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 15.pdf",
+      "sizeBytes": 121578,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 11.pdf",
+      "sizeBytes": 143786,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 3.pdf",
+      "sizeBytes": 132668,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/Ex1serie8.docx",
+      "sizeBytes": 63022,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 20.pdf",
+      "sizeBytes": 138940,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex2serie7.docx",
+      "sizeBytes": 13851,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Série 7.docx",
+      "sizeBytes": 27330,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 6.pdf",
+      "sizeBytes": 125643,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/Pratique2015 - 12.pdf",
+      "sizeBytes": 103457,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/Ex8serie8.docx",
+      "sizeBytes": 14178,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 8/Ex9serie8.docx",
+      "sizeBytes": 14441,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2016/Pratique2016 - 9.pdf",
+      "sizeBytes": 165331,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/COURS/Projets/Quizz et evaluation/D_Y_Projet2_3Sc_2020_2021_Evaluation_correction.pdf",
+      "sizeBytes": 216452,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EXERCICES/Séries/Série 7/Ex6serie7.docx",
+      "sizeBytes": 138615,
+      "isDirectory": false
+    },
+    {
+      "name": "informatique baccalauréat/EPREUVES BAC PRATIQUE/2017/2017.pdf",
+      "sizeBytes": 174432,
+      "isDirectory": false
+    }
+  ]
+}

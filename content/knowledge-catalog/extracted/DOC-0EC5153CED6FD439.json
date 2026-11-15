@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-0EC5153CED6FD439",
+  "filename": "epreuve_bac_pratique_2015_sujet1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet1.py",
+  "sha256": "0ec5153ced6fd439f3d9b07dd66651ad6f4b6aea0b366b5ed5d4df812d868976",
+  "extractedAt": "2026-11-06T14:24:37.626Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 100) p = 17 q = 19 e = 5 def Saisie(): b = False while not b: ch = str(input('Donner une chaine :')) b = verif(ch) return ch def verif(ch): ok = True i = -1 while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch[i].upper() <= \"Z\" return ok def Remplir(mot): for i in range(len(mot)): T[i] = ord(mot[i].upper()) - 64 return len(mot) def Crypter(T,",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 100)\r\n\r\np = 17\r\nq = 19\r\ne = 5\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner une chaine :'))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Remplir(mot):\r\n    for i in range(len(mot)):\r\n        T[i] = ord(mot[i].upper()) - 64\r\n    return len(mot)\r\n\r\n\r\ndef Crypter(T, n):\r\n    for i in range(n):\r\n        a = puissance(T[i], e) % (p * q)\r\n        T[i] = a\r\n\r\n\r\ndef puissance(x, y):\r\n    R = 1\r\n    for i in range(y):\r\n        R *= x\r\n    return R\r\n\r\n\r\ndef Afficher(T, n):\r\n    for i in range(n):\r\n        print(T[i], end=' ')\r\n\r\n\r\n###############pp####################\r\nmot = Saisie()\r\nn = Remplir(mot)\r\nCrypter(T, n)\r\nAfficher(T, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-0EC5153CED6FD439-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 100)\r\n\np = 17\r\nq = 19\r\ne = 5\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        ch = str(input('Donner une chaine :'))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i].upper() <= \"Z\"\r\n    return ok\r\n\ndef Remplir(mot):\r\n    for i in range(len(mot)):\r\n        T[i] = ord(mot[i].upper()) - 64\r\n    return len(mot)\r\n\ndef Crypter(T, n):\r\n    for i in range(n):\r\n        a = puissance(T[i], e) % (p * q)\r\n        T[i] = a\r\n\ndef puissance(x, y):\r\n    R = 1\r\n    for i in range(y):\r\n        R *= x\r\n    return R\r\n\ndef Afficher(T, n):\r\n    for i in range(n):\r\n        print(T[i], end=' ')"
+    },
+    {
+      "chunkId": "DOC-0EC5153CED6FD439-CHK-002",
+      "text": "###############pp####################\r\nmot = Saisie()\r\nn = Remplir(mot)\r\nCrypter(T, n)\r\nAfficher(T, n)"
+    }
+  ]
+}

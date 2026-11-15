@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-D80C1E63C5F5EB17",
+  "filename": "ajout.html",
+  "relPath": "bac info/sti/projet 3 version élève/ajout.html",
+  "sha256": "d80c1e63c5f5eb17cdcec1bca17473a78aa0ab0d765175ce868fdbc30a55830c",
+  "extractedAt": "2026-11-06T14:24:18.527Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <link rel=\"stylesheet\" href=\"styles.css\" /> <title>inscription</title> <script src=\"controles.js\"></script> </head> <body class=\"body\"> <form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif()\"> <fieldset> <legend>Ajout d'un élève:</legend> <input cla",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\" />\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n  <link rel=\"stylesheet\" href=\"styles.css\" />\r\n  <title>inscription</title>\r\n  <script src=\"controles.js\"></script>\r\n</head>\r\n\r\n<body class=\"body\">\r\n  <form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif()\">\r\n    <fieldset>\r\n      <legend>Ajout d'un élève:</legend>\r\n      <input class=\"input\" type=\"text\" name=\"id\" id=\"id\" placeholder=\"Identifiant Eleve\" />\r\n      <input type=\"text\" class=\"input\" id=\"np\" name=\"np\" placeholder=\"Nom & prénom\" />\r\n      <input class=\"input\" type=\"date\" name=\"dn\" id=\"dn\" placeholder=\"Date de Naissance\" />\r\n      <div class=\"element\">\r\n        <input type=\"radio\" name=\"genre\" id=\"m\" value=\"M\" checked />\r\n        <label for=\"m\">Masculin</label>\r\n        <input type=\"radio\" name=\"genre\" id=\"f\" value=\"F\" />\r\n        <label for=\"f\">Feminin</label>\r\n      </div>\r\n      <input type=\"text\" id=\"tel\" name=\"tel\" class=\"input\" placeholder=\"Tel parent\" />\r\n      <input type=\"text\" id=\"adr\" name=\"adr\" class=\"input\" placeholder=\"Adresse\" />\r\n      <div id=\"boutton\">\r\n        <input type=\"submit\" value=\"S'inscrire\" class=\"bt\" />\r\n        <input type=\"reset\" value=\"Annuler\" class=\"bt\" />\r\n      </div>\r\n    </fieldset>\r\n  </form>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-D80C1E63C5F5EB17-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n  <meta charset=\"UTF-8\" />\r\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n  <link rel=\"stylesheet\" href=\"styles.css\" />\r\n  <title>inscription</title>\r\n  <script src=\"controles.js\"></script>\r\n</head>"
+    },
+    {
+      "chunkId": "DOC-D80C1E63C5F5EB17-CHK-002",
+      "text": "<body class=\"body\">\r\n  <form action=\"ajout.php\" method=\"post\" onsubmit=\"return verif()\">\r\n    <fieldset>\r\n      <legend>Ajout d'un élève:</legend>\r\n      <input class=\"input\" type=\"text\" name=\"id\" id=\"id\" placeholder=\"Identifiant Eleve\" />\r\n      <input type=\"text\" class=\"input\" id=\"np\" name=\"np\" placeholder=\"Nom & prénom\" />\r\n      <input class=\"input\" type=\"date\" name=\"dn\" id=\"dn\" placeholder=\"Date de Naissance\" />\r\n      <div class=\"element\">\r\n        <input type=\"radio\" name=\"genre\" id=\"m\" value=\"M\" checked />\r\n        <label for=\"m\">Masculin</label>\r\n        <input type=\"radio\" name=\"genre\" id=\"f\" value=\"F\" />\r\n        <label for=\"f\">Feminin</label>\r\n      </div>\r\n      <input type=\"text\" id=\"tel\" name=\"tel\" class=\"input\" placeholder=\"Tel parent\" />\r\n      <input type=\"text\" id=\"adr\" name=\"adr\" class=\"input\" placeholder=\"Adresse\" />\r\n      <div id=\"boutton\">\r\n        <input type=\"submit\" value=\"S'inscrire\" class=\"bt\" />\r\n        <input type=\"reset\" value=\"Annuler\" class=\"bt\" />\r\n      </div>\r\n    </fieldset>\r\n  </form>\r\n</body>"
+    },
+    {
+      "chunkId": "DOC-D80C1E63C5F5EB17-CHK-003",
+      "text": "</html>"
+    }
+  ]
+}

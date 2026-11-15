@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-25BEBA74D3ED594A",
+  "filename": "connexion.php",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/connexion.php",
+  "sha256": "25beba74d3ed594a8302a182ad5bb8325af3efea9cbee46e39e66ef31b3c785a",
+  "extractedAt": "2026-11-06T14:24:10.502Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"sti2023\") or die(\"erreur de cnx\".mysqli_error($cnx)); ?>",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"sti2023\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-25BEBA74D3ED594A-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"sti2023\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n?>"
+    }
+  ]
+}

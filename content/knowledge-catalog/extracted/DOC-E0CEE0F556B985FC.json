@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-E0CEE0F556B985FC",
+  "filename": "PROBLEME_BAC_2012_1.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/PROBLEME_BAC_2012_1.py",
+  "sha256": "e0cee0f556b985fc5d092bb4b162f6a0c2019f6121caf9826ec5cc42fc3118b8",
+  "extractedAt": "2026-11-06T14:24:35.522Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import* T=array([str]*20) M=array([float]*20) def module(z): p=z.find('+') x=\"\" y=\"\" for i in range (p): x+=z[i] x=int(x) for i in range (p+1,len(z)-1): y+=z[i] y=int(y) w=sqrt(x*x+y*y) return w def Saisie(): b = 0 while not(b): x=int(input(\"Donner le nombre des cases: \")) b = 2 <= x <= 20 return x def RemplirT(N,T): for i in range(N): B = False while not(B):",
+  "fullText": "from numpy import*\r\nT=array([str]*20)\r\nM=array([float]*20)\r\ndef module(z):\r\n    p=z.find('+')\r\n    x=\"\"\r\n    y=\"\"\r\n    for i in range (p):\r\n        x+=z[i]\r\n    x=int(x)\r\n    for i in range (p+1,len(z)-1):\r\n        y+=z[i]\r\n    y=int(y)\r\n    w=sqrt(x*x+y*y)\r\n    return w\r\ndef Saisie():\r\n    b = 0\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 2 <= x <= 20\r\n    return x\r\ndef RemplirT(N,T):\r\n    for i in range(N):\r\n        B = False\r\n        while not(B):\r\n            a=int(input(\"<Partie réelle: \"))\r\n            b=int(input(\"<<Partie imaginaire:: \"))\r\n            B = a>0 and b>0\r\n\r\n        T[i]=str(a)+\"+\"+str(b)+\"i\"\r\ndef RemplirM(N,T,M):\r\n    for i in range(N):\r\n        M[i]=(module(T[i]))\r\ndef Tri_simultane(T,M,N):\r\n        for i in range (N-1):\r\n            idmax = maxi(M,i,N)\r\n            if idmax!=i:\r\n                temp1 = M[i]\r\n                M[i] = M[idmax]\r\n                M[idmax] = temp1\r\n                temp2 = T[i]\r\n                T[i] = T[idmax]\r\n                T[idmax] = temp2\r\ndef maxi(t,a,b):\r\n    p = a\r\n    for i in range (a+1,b) :\r\n        if t[i]>t[p]:\r\n            p = i\r\n    return p\r\ndef Afficher(M,N,T):\r\n    print(T[0],end=\"\")\r\n    for i in range(1,N):\r\n        if M[i]!=M[i-1]:\r\n            print(\"\\n\")\r\n        print(T[i],end=\"\")\r\n\r\n###############################PP###############################\r\nN=Saisie()\r\nRemplirT(N,T)\r\nRemplirM(N,T,M)\r\nTri_simultane(T,M,N)\r\nAfficher(M,N,T)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-E0CEE0F556B985FC-CHK-001",
+      "text": "from numpy import*\r\nT=array([str]*20)\r\nM=array([float]*20)\r\ndef module(z):\r\n    p=z.find('+')\r\n    x=\"\"\r\n    y=\"\"\r\n    for i in range (p):\r\n        x+=z[i]\r\n    x=int(x)\r\n    for i in range (p+1,len(z)-1):\r\n        y+=z[i]\r\n    y=int(y)\r\n    w=sqrt(x*x+y*y)\r\n    return w\r\ndef Saisie():\r\n    b = 0\r\n    while not(b):\r\n        x=int(input(\"Donner le nombre des cases: \"))\r\n        b = 2 <= x <= 20\r\n    return x\r\ndef RemplirT(N,T):\r\n    for i in range(N):\r\n        B = False\r\n        while not(B):\r\n            a=int(input(\"<Partie réelle: \"))\r\n            b=int(input(\"<<Partie imaginaire:: \"))\r\n            B = a>0 and b>0"
+    },
+    {
+      "chunkId": "DOC-E0CEE0F556B985FC-CHK-002",
+      "text": "T[i]=str(a)+\"+\"+str(b)+\"i\"\r\ndef RemplirM(N,T,M):\r\n    for i in range(N):\r\n        M[i]=(module(T[i]))\r\ndef Tri_simultane(T,M,N):\r\n        for i in range (N-1):\r\n            idmax = maxi(M,i,N)\r\n            if idmax!=i:\r\n                temp1 = M[i]\r\n                M[i] = M[idmax]\r\n                M[idmax] = temp1\r\n                temp2 = T[i]\r\n                T[i] = T[idmax]\r\n                T[idmax] = temp2\r\ndef maxi(t,a,b):\r\n    p = a\r\n    for i in range (a+1,b) :\r\n        if t[i]>t[p]:\r\n            p = i\r\n    return p\r\ndef Afficher(M,N,T):\r\n    print(T[0],end=\"\")\r\n    for i in range(1,N):\r\n        if M[i]!=M[i-1]:\r\n            print(\"\\n\")\r\n        print(T[i],end=\"\")"
+    },
+    {
+      "chunkId": "DOC-E0CEE0F556B985FC-CHK-003",
+      "text": "###############################PP###############################\r\nN=Saisie()\r\nRemplirT(N,T)\r\nRemplirM(N,T,M)\r\nTri_simultane(T,M,N)\r\nAfficher(M,N,T)"
+    }
+  ]
+}

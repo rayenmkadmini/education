@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-492498540201D0AD",
+  "filename": "bac_pratique_2012_10.00.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_10.00.py",
+  "sha256": "492498540201d0ad04297db63159fd9b5a28b966f1e2b55f57cce17f3639afcb",
+  "extractedAt": "2026-11-06T14:24:35.779Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([str] * 20) def Saisie(): b = False while not b: n = int(input(\"Donner N: \")) b = 1 <= n <= 20 return n def Remplir(N): for i in range(N): b = False while not b: T[i] = str(input(\"Donner le nom n°=\" + str(i) + \": \")) b = verif(T[i]) def verif(ch): ok = len(ch) <= 20 i = -1 while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch[i] <= \"Z\" o",
+  "fullText": "from numpy import *\r\n\r\nT = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner N: \"))\r\n        b = 1 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"Donner le nom n°=\" + str(i) + \": \"))\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 20\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if voyelle(T[i]) > p:\r\n            p = voyelle(T[i])\r\n    for i in range(N):\r\n        if voyelle(T[i]) == p:\r\n            print(T[i])\r\n\r\n\r\ndef voyelle(ch):\r\n    voy = {\"A\", \"E\", \"U\", \"I\", \"O\", \"Y\"}\r\n    s = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] in voy:\r\n            s += 1\r\n    return s\r\n\r\n\r\n################pp#############\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-492498540201D0AD-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([str] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner N: \"))\r\n        b = 1 <= n <= 20\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"Donner le nom n°=\" + str(i) + \": \"))\r\n            b = verif(T[i])\r\n\ndef verif(ch):\r\n    ok = len(ch) <= 20\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\" or ch[i] == \" \"\r\n    return ok\r\n\ndef Afficher(T, N):\r\n    p = 0\r\n    for i in range(N):\r\n        if voyelle(T[i]) > p:\r\n            p = voyelle(T[i])\r\n    for i in range(N):\r\n        if voyelle(T[i]) == p:\r\n            print(T[i])"
+    },
+    {
+      "chunkId": "DOC-492498540201D0AD-CHK-002",
+      "text": "def voyelle(ch):\r\n    voy = {\"A\", \"E\", \"U\", \"I\", \"O\", \"Y\"}\r\n    s = 0\r\n    for i in range(len(ch)):\r\n        if ch[i] in voy:\r\n            s += 1\r\n    return s\r\n\n################pp#############\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)"
+    }
+  ]
+}

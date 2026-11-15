@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-B35A054468263557",
+  "filename": "conexion.php",
+  "relPath": "bac info/sti/projet 3 version élève/conexion.php",
+  "sha256": "b35a0544682635573c99ff5cbcde19f7e5c327a5a1482fe29a0da18d67426f23",
+  "extractedAt": "2026-11-06T14:24:18.627Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\") or die(\"erreur1 de conexion\"); mysqli_select_db($cnx,\"belle_vision\") or die (\"erreur1:\".mysqli_error($cnx)); ?>",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\") or die(\"erreur1 de conexion\");\r\nmysqli_select_db($cnx,\"belle_vision\") or die (\"erreur1:\".mysqli_error($cnx));\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-B35A054468263557-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\") or die(\"erreur1 de conexion\");\r\nmysqli_select_db($cnx,\"belle_vision\") or die (\"erreur1:\".mysqli_error($cnx));\r\n?>"
+    }
+  ]
+}

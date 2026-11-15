@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-33A080B21DF12D08",
+  "filename": "Pratique Bac 2012 Heni.py",
+  "relPath": "bac info/algo/Python/Pratique Bac 2012 Heni.py",
+  "sha256": "33a080b21df12d081011a00990b0fbcf8a31c3ee7023063f31fed459f01f05f9",
+  "extractedAt": "2026-11-14T18:35:36.323Z",
+  "pageCount": 1,
+  "textSnippet": "def remplir(): valide=False while valide==False: K=int(input(\"Donner les nombres de termes: \")) valide=2<=K<=15 F=open(\"Robinson.txt\",\"w\") #Programme Principale: F,K=remplir() Afficher(F,K)",
+  "fullText": "def remplir():\r\n    valide=False\r\n    while valide==False:\r\n        K=int(input(\"Donner les nombres de termes: \"))\r\n        valide=2<=K<=15\r\n    F=open(\"Robinson.txt\",\"w\")\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n#Programme Principale:\r\nF,K=remplir()\r\nAfficher(F,K)",
+  "chunks": [
+    {
+      "chunkId": "DOC-33A080B21DF12D08-CHK-001",
+      "text": "def remplir():\r\n    valide=False\r\n    while valide==False:\r\n        K=int(input(\"Donner les nombres de termes: \"))\r\n        valide=2<=K<=15\r\n    F=open(\"Robinson.txt\",\"w\")\r\n\n#Programme Principale:\r\nF,K=remplir()\r\nAfficher(F,K)"
+    }
+  ]
+}

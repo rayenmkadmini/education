@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-DF6956CC84F1FE8C",
+  "filename": "epreuve_bac_pratique_2013_sujet7.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/epreuve_bac_pratique_2013_sujet7.py",
+  "sha256": "df6956cc84f1fe8c9b913f23c9033c9e89eb4694736edbee05c00869b2ca5c11",
+  "extractedAt": "2026-11-06T14:24:36.419Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T1 = array([str] * 20) T2 = array([str] * 20) def Saisie(): b = False while not b: n = int(input('< ')) b = 4 <= n <= 20 return n def Remplir(N): for i in range(N): b = False while not b: T1[i] = str(input('T1[' + str(i) + ']= ')) b = verif(T1[i]) def poids(ch): S = 0 for i in range(len(ch)): S += ord(ch[i]) return S def verif(ch): ok = len(ch",
+  "fullText": "from numpy import *\r\n\r\nT1 = array([str] * 20)\r\nT2 = array([str] * 20)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 4 <= n <= 20\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T1[i] = str(input('T1[' + str(i) + ']= '))\r\n            b = verif(T1[i])\r\n\r\n\r\ndef poids(ch):\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += ord(ch[i])\r\n    return S\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 10\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Trier(T1, T2, N):\r\n    i = 0\r\n    while i < N:\r\n        p = minim(T1, N)\r\n        T2[i] = T1[p]\r\n        T1[p] = 'ZZZZZZZZZZ'\r\n        i += 1\r\n        print(T1)\r\n\r\n\r\ndef minim(t, n):\r\n    r = 0\r\n    for i in range(1, n):\r\n        if poids(t[i]) < poids(t[r]):\r\n            r = i\r\n    return r\r\n\r\n\r\ndef Afficher(T2, N):\r\n    for i in range(N):\r\n        print(T2[i], 'son poids=', poids(T2[i]))\r\n\r\n\r\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(T1, T2, N)\r\nAfficher(T2, N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-DF6956CC84F1FE8C-CHK-001",
+      "text": "from numpy import *\r\n\nT1 = array([str] * 20)\r\nT2 = array([str] * 20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('< '))\r\n        b = 4 <= n <= 20\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T1[i] = str(input('T1[' + str(i) + ']= '))\r\n            b = verif(T1[i])\r\n\ndef poids(ch):\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        S += ord(ch[i])\r\n    return S\r\n\ndef verif(ch):\r\n    ok = len(ch) <= 10\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef Trier(T1, T2, N):\r\n    i = 0\r\n    while i < N:\r\n        p = minim(T1, N)\r\n        T2[i] = T1[p]\r\n        T1[p] = 'ZZZZZZZZZZ'\r\n        i += 1\r\n        print(T1)"
+    },
+    {
+      "chunkId": "DOC-DF6956CC84F1FE8C-CHK-002",
+      "text": "def minim(t, n):\r\n    r = 0\r\n    for i in range(1, n):\r\n        if poids(t[i]) < poids(t[r]):\r\n            r = i\r\n    return r\r\n\ndef Afficher(T2, N):\r\n    for i in range(N):\r\n        print(T2[i], 'son poids=', poids(T2[i]))\r\n\n###############PP##############\r\nN = Saisie()\r\nRemplir(N)\r\nTrier(T1, T2, N)\r\nAfficher(T2, N)"
+    }
+  ]
+}

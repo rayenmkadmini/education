@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-581E84F734FF81FC",
+  "filename": "ex5s4.py",
+  "relPath": "bac info/Python/serie 4/ex5s4.py",
+  "sha256": "581e84f734ff81fc54900b06ee9c67c70afe416db915c94fa794f229367cab70",
+  "extractedAt": "2026-11-06T14:23:35.258Z",
+  "pageCount": 1,
+  "textSnippet": "def ackerman(n,m): if n==0: return n+1 elif m==0: return ackerman(n-1,1) else : return ackerman(n-1,ackerman(n,m-1)) #pp n=int(input(\"n= \")) m=int(input(\"m= \")) print(ackerman(n,m))",
+  "fullText": "def ackerman(n,m):\r\n    if n==0:\r\n        return n+1\r\n    elif m==0:\r\n        return ackerman(n-1,1)\r\n    else :\r\n        return ackerman(n-1,ackerman(n,m-1))\r\n\r\n\r\n#pp\r\nn=int(input(\"n= \"))\r\nm=int(input(\"m= \"))\r\nprint(ackerman(n,m))",
+  "chunks": [
+    {
+      "chunkId": "DOC-581E84F734FF81FC-CHK-001",
+      "text": "def ackerman(n,m):\r\n    if n==0:\r\n        return n+1\r\n    elif m==0:\r\n        return ackerman(n-1,1)\r\n    else :\r\n        return ackerman(n-1,ackerman(n,m-1))\r\n\n#pp\r\nn=int(input(\"n= \"))\r\nm=int(input(\"m= \"))\r\nprint(ackerman(n,m))"
+    }
+  ]
+}

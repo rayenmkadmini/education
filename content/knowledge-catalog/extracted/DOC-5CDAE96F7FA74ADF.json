@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5CDAE96F7FA74ADF",
+  "filename": "mesStyles.css",
+  "relPath": "bac 2025/mesStyles.css",
+  "sha256": "5cdae96f7fa74adf63bc30d2021f16c5e57775cd03804a56c353ccc23e87aff6",
+  "extractedAt": "2026-11-06T14:23:24.487Z",
+  "pageCount": 1,
+  "textSnippet": "h1, footer { background-color: blue; } h1, footer { text-align: center; color: white; margin: 0; padding: 12px 0; } a { text-decoration: none; text-shadow: 5px 5px 3px red; } a:active { font-style: italic; } .button-center { display: flex; justify-content: center; gap: 10px; margin-top: 12px; } fieldset { border: 2px dotted; padding: 10px; } label { display: inline-block; width: 160px; margin-bottom: 8px; }",
+  "fullText": "\r\nh1, footer {\r\n  background-color: blue;\r\n}\r\n\r\nh1, footer {\r\n  text-align: center;\r\n  color: white;\r\n  margin: 0;\r\n  padding: 12px 0;\r\n}\r\n\r\n\r\na {\r\n  text-decoration: none;\r\n  text-shadow: 5px 5px 3px red;\r\n}\r\n\r\na:active {\r\n  font-style: italic;\r\n}\r\n\r\n\r\n.button-center {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 10px;\r\n  margin-top: 12px;\r\n}\r\n\r\n\r\nfieldset {\r\n  border: 2px dotted;\r\n  padding: 10px;\r\n}\r\n\r\nlabel {\r\n  display: inline-block;\r\n  width: 160px;\r\n  margin-bottom: 8px;\r\n}\r\n\r\n\r\nsection {\r\n  padding: 12px;\r\n}\r\n\r\n\r\n.success { color: green; font-weight: bold; }\r\n.error { color: red; font-weight: bold; }\r\n\r\n\r\ntable {\r\n  border-collapse: collapse;\r\n}\r\ntable, th, td {\r\n  border: 1px solid #333;\r\n  padding: 6px 8px;\r\n}\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-5CDAE96F7FA74ADF-CHK-001",
+      "text": "h1, footer {\r\n  background-color: blue;\r\n}\r\n\nh1, footer {\r\n  text-align: center;\r\n  color: white;\r\n  margin: 0;\r\n  padding: 12px 0;\r\n}\r\n\na {\r\n  text-decoration: none;\r\n  text-shadow: 5px 5px 3px red;\r\n}\r\n\na:active {\r\n  font-style: italic;\r\n}\r\n\n.button-center {\r\n  display: flex;\r\n  justify-content: center;\r\n  gap: 10px;\r\n  margin-top: 12px;\r\n}\r\n\nfieldset {\r\n  border: 2px dotted;\r\n  padding: 10px;\r\n}\r\n\nlabel {\r\n  display: inline-block;\r\n  width: 160px;\r\n  margin-bottom: 8px;\r\n}\r\n\nsection {\r\n  padding: 12px;\r\n}\r\n\n.success { color: green; font-weight: bold; }\r\n.error { color: red; font-weight: bold; }\r\n\ntable {\r\n  border-collapse: collapse;\r\n}\r\ntable, th, td {\r\n  border: 1px solid #333;\r\n  padding: 6px 8px;\r\n}"
+    }
+  ]
+}

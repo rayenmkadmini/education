@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-EE347EE8DDC18510",
+  "filename": "epreuve_pratique_2014_sujet4.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_2014_sujet4.py",
+  "sha256": "ee347ee8ddc1851079e185ae6eb6df259c7179a6057261ca4f4aa47426251f40",
+  "extractedAt": "2026-11-06T14:24:36.834Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * Nombre = array([int] * 25) TD = array([int] * 25) TA = array([int] * 25) def Saisie(): b = False while not b: n = int(input('Donner n: ')) b = 5 <= n <= 25 return n def Remplir(N): for i in range(N): b = False while not b: Nombre[i] = int(input('Nombre[' + str(i) + ']=')) b = Nombre[i] > 0 def abandant(n): S = 0 d = 1 while d < n: if n % d == 0:",
+  "fullText": "from numpy import *\r\n\r\nNombre = array([int] * 25)\r\nTD = array([int] * 25)\r\nTA = array([int] * 25)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            Nombre[i] = int(input('Nombre[' + str(i) + ']='))\r\n            b = Nombre[i] > 0\r\n\r\n\r\ndef abandant(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S\r\n\r\n\r\ndef Traitement(Nombre, TD, TA):\r\n    k = 0\r\n    j = 0\r\n    for i in range(N):\r\n        if abandant(Nombre[i]) < Nombre[i]:\r\n            TA[k] = Nombre[i]\r\n            k += 1\r\n        elif abandant(Nombre[i]) > Nombre[i]:\r\n            TD[j] = Nombre[i]\r\n            j += 1\r\n    return j, k\r\n\r\n\r\ndef Afficher(j, k, TD, TA):\r\n    for i in range(j):\r\n        print(TD[i], end=' ')\r\n    print(\"\")\r\n    for i in range(k):\r\n        print(TA[i], end=' ')\r\n\r\n\r\n############PP#############\r\nN = Saisie()\r\nRemplir(N)\r\nj, k = Traitement(Nombre, TD, TA)\r\nAfficher(j, k, TD, TA)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-EE347EE8DDC18510-CHK-001",
+      "text": "from numpy import *\r\n\nNombre = array([int] * 25)\r\nTD = array([int] * 25)\r\nTA = array([int] * 25)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input('Donner n: '))\r\n        b = 5 <= n <= 25\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            Nombre[i] = int(input('Nombre[' + str(i) + ']='))\r\n            b = Nombre[i] > 0\r\n\ndef abandant(n):\r\n    S = 0\r\n    d = 1\r\n    while d < n:\r\n        if n % d == 0:\r\n            S += d\r\n            d += 1\r\n        else:\r\n            d += 1\r\n    return S"
+    },
+    {
+      "chunkId": "DOC-EE347EE8DDC18510-CHK-002",
+      "text": "def Traitement(Nombre, TD, TA):\r\n    k = 0\r\n    j = 0\r\n    for i in range(N):\r\n        if abandant(Nombre[i]) < Nombre[i]:\r\n            TA[k] = Nombre[i]\r\n            k += 1\r\n        elif abandant(Nombre[i]) > Nombre[i]:\r\n            TD[j] = Nombre[i]\r\n            j += 1\r\n    return j, k\r\n\ndef Afficher(j, k, TD, TA):\r\n    for i in range(j):\r\n        print(TD[i], end=' ')\r\n    print(\"\")\r\n    for i in range(k):\r\n        print(TA[i], end=' ')\r\n\n############PP#############\r\nN = Saisie()\r\nRemplir(N)\r\nj, k = Traitement(Nombre, TD, TA)\r\nAfficher(j, k, TD, TA)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-CC1D85BF5F894509",
+  "filename": "Moyen.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Moyen.html",
+  "sha256": "cc1d85bf5f89450981460d601ff433cbab7cdc31aa95e315fd13ff43091838a7",
+  "extractedAt": "2026-11-14T18:35:36.487Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title>Moyen eleves</title> <script type=\"text/javascript\"> var n=parseInt(prompt(\"Donner N=\")); var moy=new Array(); for(var i=0; i<n; i++) { moy[i]=parseFloat(prompt(\"Moyenne eleve :\"+(i+1))); } var s=0; for(i=0 ; i<n ; i++) { s=s+moy[i]; } document.write(\"Moyenne de la classe =\"+(s/n)); var nb=0; for(i=0;i<n;i++) { if(moy[i]>=10) { nb=nb+1; } } var p=(nb/n)*100;",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Moyen eleves</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tvar n=parseInt(prompt(\"Donner N=\"));\r\n\t\tvar moy=new Array();\r\n\t\tfor(var i=0; i<n; i++)\r\n\t\t{\r\n\t\t\tmoy[i]=parseFloat(prompt(\"Moyenne eleve :\"+(i+1)));\r\n\t\t}\r\n\t\tvar s=0;\r\n\t\tfor(i=0 ; i<n ; i++)\r\n\t\t{\r\n\t\t\ts=s+moy[i];\r\n\t\t}\r\n\t\tdocument.write(\"Moyenne de la classe =\"+(s/n));\r\n\t\tvar nb=0;\r\n\t\tfor(i=0;i<n;i++)\r\n\t\t{\r\n\t\t\tif(moy[i]>=10)\r\n\t\t\t{\r\n\t\t\t\tnb=nb+1;\r\n\t\t\t}\r\n\t\t}\r\n\t\tvar p=(nb/n)*100;\r\n\t\tdocument.write(\"<br>Pourcentage de reussite =\"+p+\"%\");\r\n\t\tvar max = moy[0];\r\n\t\tfor(i=0 ; i<n ;i++)\r\n\t\t{\r\n\t\t\tif (max<moy[i])\r\n\t\t\t{\r\n\t\t\t\tmax=moy[i];\r\n\t\t\t}\r\n\t\t}\r\n\t\tdocument.write(\"<br> La meilleur moyenne de la classe est: \"+max);\r\n\t</script>\r\n</head>\r\n<body>\r\n\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-CC1D85BF5F894509-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Moyen eleves</title>\r\n\t<script type=\"text/javascript\">\r\n\t\tvar n=parseInt(prompt(\"Donner N=\"));\r\n\t\tvar moy=new Array();\r\n\t\tfor(var i=0; i<n; i++)\r\n\t\t{\r\n\t\t\tmoy[i]=parseFloat(prompt(\"Moyenne eleve :\"+(i+1)));\r\n\t\t}\r\n\t\tvar s=0;\r\n\t\tfor(i=0 ; i<n ; i++)\r\n\t\t{\r\n\t\t\ts=s+moy[i];\r\n\t\t}\r\n\t\tdocument.write(\"Moyenne de la classe =\"+(s/n));\r\n\t\tvar nb=0;\r\n\t\tfor(i=0;i<n;i++)\r\n\t\t{\r\n\t\t\tif(moy[i]>=10)\r\n\t\t\t{\r\n\t\t\t\tnb=nb+1;\r\n\t\t\t}\r\n\t\t}\r\n\t\tvar p=(nb/n)*100;\r\n\t\tdocument.write(\"<br>Pourcentage de reussite =\"+p+\"%\");\r\n\t\tvar max = moy[0];\r\n\t\tfor(i=0 ; i<n ;i++)\r\n\t\t{\r\n\t\t\tif (max<moy[i])\r\n\t\t\t{\r\n\t\t\t\tmax=moy[i];\r\n\t\t\t}\r\n\t\t}\r\n\t\tdocument.write(\"<br> La meilleur moyenne de la classe est: \"+max);\r\n\t</script>\r\n</head>\r\n<body>\r\n\n</body>\r\n</html>"
+    }
+  ]
+}

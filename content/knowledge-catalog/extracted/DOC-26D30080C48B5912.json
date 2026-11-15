@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-26D30080C48B5912",
+  "filename": "epreuve_bac_pratique_2015_sujet10.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet10.py",
+  "sha256": "26d30080c48b5912894d7252682f33cd666276ebb2fe2680971b45b6559b4d72",
+  "extractedAt": "2026-11-06T14:24:37.635Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 10) def Saisie_chaine(): b = False while not (b): ch = str(input(\"Donner une chaine: \")) b = verif(ch) return ch def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 10 return n def Remplir(N, Ch): n = len(Ch) for i in range(N): b = False while not b: T[i] = str(input(\"T[\" + str(i) + \"] =",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 10)\r\n\r\n\r\ndef Saisie_chaine():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(N, Ch):\r\n    n = len(Ch)\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i]) and len(T[i]) == n\r\n\r\n\r\ndef verif(ch):\r\n    ok = ch != ''\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N, Ch):\r\n    for i in range(N):\r\n        print('le degré de ressemblance de', T[i], 'à', Ch, 'est: ', ressemblance(T[i], Ch))\r\n\r\n\r\ndef ressemblance(ch1, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch1[i] == ch[i]:\r\n            p += 1\r\n    DR = float((p / len(ch)) * 100)\r\n    return DR\r\n\r\n\r\n#####################PP##########################\r\nCh = Saisie_chaine()\r\nN = Saisie()\r\nRemplir(N, Ch)\r\nAfficher(T, N, Ch)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-26D30080C48B5912-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 10)\r\n\ndef Saisie_chaine():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\ndef Remplir(N, Ch):\r\n    n = len(Ch)\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i]) and len(T[i]) == n\r\n\ndef verif(ch):\r\n    ok = ch != ''\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok"
+    },
+    {
+      "chunkId": "DOC-26D30080C48B5912-CHK-002",
+      "text": "def Afficher(T, N, Ch):\r\n    for i in range(N):\r\n        print('le degré de ressemblance de', T[i], 'à', Ch, 'est: ', ressemblance(T[i], Ch))\r\n\ndef ressemblance(ch1, ch):\r\n    p = 0\r\n    for i in range(len(ch)):\r\n        if ch1[i] == ch[i]:\r\n            p += 1\r\n    DR = float((p / len(ch)) * 100)\r\n    return DR\r\n\n#####################PP##########################\r\nCh = Saisie_chaine()\r\nN = Saisie()\r\nRemplir(N, Ch)\r\nAfficher(T, N, Ch)"
+    }
+  ]
+}

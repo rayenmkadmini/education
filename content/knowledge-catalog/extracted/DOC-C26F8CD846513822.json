@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C26F8CD846513822",
+  "filename": "bac_pratique_2012_15.30.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_15.30.py",
+  "sha256": "c26f8cd846513822c1b28258d7e557dc3128fc27fdc860af355d6a4127bb7dc8",
+  "extractedAt": "2026-11-06T14:24:35.888Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: n = input(\"< \") b = len(n) == 13 return n def EAN13(n): cc = int(n[len(n) - 1]) p = Traitement(n) if (cc == p): print(\"Le code est valide\") else: print(\"Le code n'est valide\") def Traitement(n): ch = n[:len(n) - 1] S = 0 for i in range(len(ch)): if (i + 1) % 2 == 0: S = S + (int(ch[i])) * 3 else: S = S + int(ch[i]) r",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"< \")\r\n        b = len(n) == 13\r\n    return n\r\n\r\n\r\ndef EAN13(n):\r\n    cc = int(n[len(n) - 1])\r\n    p = Traitement(n)\r\n    if (cc == p):\r\n        print(\"Le code est valide\")\r\n    else:\r\n        print(\"Le code n'est valide\")\r\n\r\n\r\ndef Traitement(n):\r\n    ch = n[:len(n) - 1]\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if (i + 1) % 2 == 0:\r\n            S = S + (int(ch[i])) * 3\r\n        else:\r\n            S = S + int(ch[i])\r\n    r = S % 10\r\n    p = 10 - r\r\n    return p\r\n\r\n\r\n##############\r\nn = Saisie()\r\nEAN13(n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C26F8CD846513822-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"< \")\r\n        b = len(n) == 13\r\n    return n\r\n\ndef EAN13(n):\r\n    cc = int(n[len(n) - 1])\r\n    p = Traitement(n)\r\n    if (cc == p):\r\n        print(\"Le code est valide\")\r\n    else:\r\n        print(\"Le code n'est valide\")\r\n\ndef Traitement(n):\r\n    ch = n[:len(n) - 1]\r\n    S = 0\r\n    for i in range(len(ch)):\r\n        if (i + 1) % 2 == 0:\r\n            S = S + (int(ch[i])) * 3\r\n        else:\r\n            S = S + int(ch[i])\r\n    r = S % 10\r\n    p = 10 - r\r\n    return p\r\n\n##############\r\nn = Saisie()\r\nEAN13(n)"
+    }
+  ]
+}

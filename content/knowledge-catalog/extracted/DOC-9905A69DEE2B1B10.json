@@ -1,0 +1,76 @@
+{
+  "documentId": "DOC-9905A69DEE2B1B10",
+  "filename": "algorithme -20261106T124713Z-1-001.zip",
+  "sha256": "9905a69dee2b1b1008842d9f79d824577038eca02771225c99cbc143ac2087a7",
+  "extractedAt": "2026-11-06T14:00:11.116Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: algorithme -20261106T124713Z-1-001.zip Nombre d'éléments: 13",
+  "fullText": "Archive ZIP: algorithme -20261106T124713Z-1-001.zip\nNombre d'éléments: 13\n\n",
+  "zipEntries": [
+    {
+      "name": "algorithme /Les Matrices /Serie 1 - Enonce.pdf",
+      "sizeBytes": 1106697,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Points à retenir _ Les algorithmes d’arithmétique/Enonce.pdf",
+      "sizeBytes": 1706874,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /La récursivité/résumé.pdf",
+      "sizeBytes": 1108343,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /La récursivité/Serie 3 - Enonce.pdf",
+      "sizeBytes": 1515934,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /La récursivité/Serie 1 - Enonce.pdf",
+      "sizeBytes": 1496825,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Les Matrices /Serie 2 - Enonce.pdf",
+      "sizeBytes": 1675403,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /les algorithme de tri /résumé.pdf",
+      "sizeBytes": 2309116,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Points à retenir _ Les algorithmes d’arithmétique/résumé.pdf",
+      "sizeBytes": 3482095,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /La récursivité/Serie 2 - Enonce.pdf",
+      "sizeBytes": 1608036,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Rappel/résumé.pdf",
+      "sizeBytes": 1642709,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /les algorithme de tri /Chapitre 2 - Enonce.pdf",
+      "sizeBytes": 2040246,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Rappel/Chapitre 1 - Enonce.pdf",
+      "sizeBytes": 1861122,
+      "isDirectory": false
+    },
+    {
+      "name": "algorithme /Les Matrices /matrice (résumé) .pdf",
+      "sizeBytes": 1756899,
+      "isDirectory": false
+    }
+  ]
+}

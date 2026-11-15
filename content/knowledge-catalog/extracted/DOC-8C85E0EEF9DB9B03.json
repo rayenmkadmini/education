@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-8C85E0EEF9DB9B03",
+  "filename": "phone.png",
+  "relPath": "bac info/sti/projet cabinet_docteur,ebaluation des pré-requis,4SI,STI/files/phone.png",
+  "sha256": "8c85e0eef9db9b035ce67d38b51aee228709054ccff232c1dbe30c766b65f0c5",
+  "extractedAt": "2026-11-06T14:24:19.997Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: phone.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: phone.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-8C85E0EEF9DB9B03-CHK-001",
+      "text": "[Fichier Image Pédagogique: phone.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

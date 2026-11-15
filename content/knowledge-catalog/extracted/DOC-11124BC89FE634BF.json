@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-11124BC89FE634BF",
+  "filename": "Thue Morse.py",
+  "relPath": "bac info/algo/Python/Thue Morse.py",
+  "sha256": "11124bc89fe634bf97ebb3650f1840d962e6a4eb43268184070a525a26227ff9",
+  "extractedAt": "2026-11-14T18:35:36.564Z",
+  "pageCount": 1,
+  "textSnippet": "#THUE MORSE def saisir_x(): x=input(\"Donner un chiffre binaire: \") while not (x in [\"0\",\"1\"]): x=input(\"Donner un chiffre binaire: \") return x def saisir_n(): n=int(input(\"Donner le nombre de termes: \")) while not(n>2): n=int(input(\"Donner le nombre de termes: \")) return n def afficher(x,n): for i in range(n): #afficher les termes de la suite print(x) U=\"\" for j in range(len(x)): #construire le nouveau",
+  "fullText": "#THUE MORSE\r\ndef saisir_x():\r\n    x=input(\"Donner un chiffre binaire: \")\r\n    while not (x in [\"0\",\"1\"]):\r\n        x=input(\"Donner un chiffre binaire: \")\r\n    return x\r\n\r\ndef saisir_n():\r\n    n=int(input(\"Donner le nombre de termes: \"))\r\n    while not(n>2):\r\n        n=int(input(\"Donner le nombre de termes: \"))\r\n    return n\r\n\r\ndef afficher(x,n):\r\n    for i in range(n):  #afficher les termes de la suite \r\n        print(x)\r\n        U=\"\"\r\n        for j in range(len(x)):       #construire le nouveau terme \r\n            if x[j]==\"0\":\r\n                U=U+\"01\"\r\n            else:\r\n                U=U+\"10\"\r\n        x=U\r\n        \r\n#programme principale\r\nx=saisir_x()\r\nn=saisir_n()\r\nafficher(x,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-11124BC89FE634BF-CHK-001",
+      "text": "#THUE MORSE\r\ndef saisir_x():\r\n    x=input(\"Donner un chiffre binaire: \")\r\n    while not (x in [\"0\",\"1\"]):\r\n        x=input(\"Donner un chiffre binaire: \")\r\n    return x\r\n\ndef saisir_n():\r\n    n=int(input(\"Donner le nombre de termes: \"))\r\n    while not(n>2):\r\n        n=int(input(\"Donner le nombre de termes: \"))\r\n    return n\r\n\ndef afficher(x,n):\r\n    for i in range(n):  #afficher les termes de la suite \r\n        print(x)\r\n        U=\"\"\r\n        for j in range(len(x)):       #construire le nouveau terme \r\n            if x[j]==\"0\":\r\n                U=U+\"01\"\r\n            else:\r\n                U=U+\"10\"\r\n        x=U\r\n\n#programme principale\r\nx=saisir_x()\r\nn=saisir_n()\r\nafficher(x,n)"
+    }
+  ]
+}

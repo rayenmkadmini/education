@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A81F19928B2E84F4",
+  "filename": "logo1.png",
+  "relPath": "bac info/sti/projet 3 version élève/files/logo1.png",
+  "sha256": "a81f19928b2e84f451bde0a2ee89a67472b4bceb788d47aabdb516116383bbb8",
+  "extractedAt": "2026-11-06T14:24:18.819Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: logo1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: logo1.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-A81F19928B2E84F4-CHK-001",
+      "text": "[Fichier Image Pédagogique: logo1.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4D714E794ECE28C1",
+  "filename": "distance.txt",
+  "relPath": "bac info/sti/etude/ex8 bateaux/MARINE RADAR/distance.txt",
+  "sha256": "4d714e794ece28c1e2b84c6d18aba4b5cd9b1b8c429085d89d6c3e6c592e7e6e",
+  "extractedAt": "2026-11-06T14:24:17.306Z",
+  "pageCount": 1,
+  "textSnippet": "(145,236) (212,112) (321,123) (354,330)",
+  "fullText": "(145,236)\r\n(212,112)\r\n(321,123)\r\n(354,330)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-4D714E794ECE28C1-CHK-001",
+      "text": "(145,236)\r\n(212,112)\r\n(321,123)\r\n(354,330)"
+    }
+  ]
+}

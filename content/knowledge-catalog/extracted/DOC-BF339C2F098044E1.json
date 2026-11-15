@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-BF339C2F098044E1",
+  "filename": "detailabonne.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/detailabonne.php",
+  "sha256": "bf339c2f098044e1a987d1bd3f9c99857d69a8a3cab1ada92716fd404ff2e387",
+  "extractedAt": "2026-11-06T14:24:19.590Z",
+  "pageCount": 1,
+  "textSnippet": "<link rel=\"stylesheet\" href=\"styles.css\"> <?php require(\"connexion.php\"); if($_POST[\"cin\"]==\"\" || (!isset($_post[\"code\"]) || !isset($_POST[\"emprunts\"]) )){ die(\"Veuillez vérifier la saisie du formulaire SVP\"); } $cin=$_POST[\"cin\"]; $req1=\"SELECT * from abonne where cin='$cin'\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx)); if(mysqli_num_rows($res1)==0){ die(\" Vérifier N°CIN SVP \"); } if(isset($_post[\"code\"])){ $req2=\"SELECT nom , prenom , cod",
+  "fullText": "<link rel=\"stylesheet\" href=\"styles.css\">\r\n<?php\r\nrequire(\"connexion.php\");\r\n\r\nif($_POST[\"cin\"]==\"\" || (!isset($_post[\"code\"]) || !isset($_POST[\"emprunts\"]) )){\r\n    die(\"Veuillez vérifier la saisie du formulaire SVP\");\r\n}\r\n$cin=$_POST[\"cin\"];\r\n\r\n$req1=\"SELECT * from abonne where cin='$cin'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\" Vérifier N°CIN SVP \");\r\n}\r\n\r\nif(isset($_post[\"code\"])){\r\n    $req2=\"SELECT nom , prenom , code from abonne where cin='$cin'\";\r\n    $res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\n    $t=mysqli_fetch_array($res2);\r\n    echo\"<table>\";\r\n    echo\"<tr>\r\n        <th>Nom et Prenom</th>\r\n        <th>Code d'accés </th>\r\n    </tr>\r\n    <tr>\r\n    <td>$t[0].' '.$t[1]</td>\r\n    <td>$t[2]</td>\r\n    </tr>\";\r\n    echo\"</table>\";\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-BF339C2F098044E1-CHK-001",
+      "text": "<link rel=\"stylesheet\" href=\"styles.css\">\r\n<?php\r\nrequire(\"connexion.php\");\r\n\nif($_POST[\"cin\"]==\"\" || (!isset($_post[\"code\"]) || !isset($_POST[\"emprunts\"]) )){\r\n    die(\"Veuillez vérifier la saisie du formulaire SVP\");\r\n}\r\n$cin=$_POST[\"cin\"];\r\n\n$req1=\"SELECT * from abonne where cin='$cin'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\" Vérifier N°CIN SVP \");\r\n}"
+    },
+    {
+      "chunkId": "DOC-BF339C2F098044E1-CHK-002",
+      "text": "if(isset($_post[\"code\"])){\r\n    $req2=\"SELECT nom , prenom , code from abonne where cin='$cin'\";\r\n    $res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\n    $t=mysqli_fetch_array($res2);\r\n    echo\"<table>\";\r\n    echo\"<tr>\r\n        <th>Nom et Prenom</th>\r\n        <th>Code d'accés </th>\r\n    </tr>\r\n    <tr>\r\n    <td>$t[0].' '.$t[1]</td>\r\n    <td>$t[2]</td>\r\n    </tr>\";\r\n    echo\"</table>\";\r\n}\r\n\n?>"
+    }
+  ]
+}

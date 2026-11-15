@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A36F9B8E4979B38E",
+  "filename": "find.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/find.py",
+  "sha256": "a36f9b8e4979b38e6c979af308fad85b98b4edc80f5e03451c6324e65dfa47aa",
+  "extractedAt": "2026-11-14T18:35:36.359Z",
+  "pageCount": 1,
+  "textSnippet": "ch=\"bonjour\" print(ch.find(\"j\"))",
+  "fullText": "ch=\"bonjour\"\r\nprint(ch.find(\"j\"))",
+  "chunks": [
+    {
+      "chunkId": "DOC-A36F9B8E4979B38E-CHK-001",
+      "text": "ch=\"bonjour\"\r\nprint(ch.find(\"j\"))"
+    }
+  ]
+}

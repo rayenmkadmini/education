@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-54B8651C81CD73E4",
+  "filename": "Commande.html",
+  "relPath": "bac info/sti/etude/bac pratique STI2020/Commande.html",
+  "sha256": "54b8651c81cd73e4ed68f31573ff9107b76584d0d062cc9abc56c62b4b2e3fbb",
+  "extractedAt": "2026-11-06T14:24:16.754Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Commande</title> <link rel=\"stylesheet\" href=\"style.css\"> <script src=\"biblio.js\"></script> </head> <body> <form action=\"Commande.php\" method=\"post\" id=\"formcom\" onsubmit=\"return Verif2()\"> <fieldset> <legend>Commande de Pizzas</legend> <label for=\"type\">Type de Pizza</label>",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Commande</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"biblio.js\"></script>\r\n</head>\r\n\r\n<body>\r\n    <form action=\"Commande.php\" method=\"post\" id=\"formcom\" onsubmit=\"return Verif2()\">\r\n        <fieldset>\r\n            <legend>Commande de Pizzas</legend>\r\n\r\n            <label for=\"type\">Type de Pizza</label>\r\n            <select name=\"type\" id=\"type\">\r\n                <option value=\"\">Choisir une Pizza</option>\r\n                <option value=\"Fmr\">Fruits de mer</option>\r\n                <option value=\"Mgh\">Margeritha</option>\r\n                <option value=\"Nap\">Napolitaine</option>\r\n                <option value=\"Nep\">Neptune</option>\r\n                <option value=\"Roy\">Royal</option>\r\n            </select>\r\n            <label for=\"qte\">Quantite :</label>\r\n            <input type=\"text\" id=\"qte\" name=\"qte\"><br>\r\n\r\n            <label for=\"tel2\">Tel :</label>\r\n            <input type=\"text\" id=\"tel2\" name=\"tel2\">\r\n\r\n            <label for=\"psw1\">Mot de pass :</label>\r\n            <input type=\"password\" id=\"psw1\" name=\"psw1\"><br>\r\n\r\n            <div id=\"btn\">\r\n                <input type=\"reset\" value=\"annuler\" id=\"btn2\">\r\n                <input type=\"submit\" value=\"Commander\" id=\"btn1\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-54B8651C81CD73E4-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Commande</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n    <script src=\"biblio.js\"></script>\r\n</head>\r\n\n<body>\r\n    <form action=\"Commande.php\" method=\"post\" id=\"formcom\" onsubmit=\"return Verif2()\">\r\n        <fieldset>\r\n            <legend>Commande de Pizzas</legend>"
+    },
+    {
+      "chunkId": "DOC-54B8651C81CD73E4-CHK-002",
+      "text": "<label for=\"type\">Type de Pizza</label>\r\n            <select name=\"type\" id=\"type\">\r\n                <option value=\"\">Choisir une Pizza</option>\r\n                <option value=\"Fmr\">Fruits de mer</option>\r\n                <option value=\"Mgh\">Margeritha</option>\r\n                <option value=\"Nap\">Napolitaine</option>\r\n                <option value=\"Nep\">Neptune</option>\r\n                <option value=\"Roy\">Royal</option>\r\n            </select>\r\n            <label for=\"qte\">Quantite :</label>\r\n            <input type=\"text\" id=\"qte\" name=\"qte\"><br>\r\n\n            <label for=\"tel2\">Tel :</label>\r\n            <input type=\"text\" id=\"tel2\" name=\"tel2\">\r\n\n            <label for=\"psw1\">Mot de pass :</label>\r\n            <input type=\"password\" id=\"psw1\" name=\"psw1\"><br>"
+    },
+    {
+      "chunkId": "DOC-54B8651C81CD73E4-CHK-003",
+      "text": "<div id=\"btn\">\r\n                <input type=\"reset\" value=\"annuler\" id=\"btn2\">\r\n                <input type=\"submit\" value=\"Commander\" id=\"btn1\">\r\n            </div>\r\n        </fieldset>\r\n    </form>\r\n</body>\r\n\n</html>"
+    }
+  ]
+}

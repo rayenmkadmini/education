@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-584BB86728477E29",
+  "filename": "login(2).php",
+  "sha256": "584bb86728477e296a24719bd7dd04be1592bfed329dd51e4f468e7dce7efbbd",
+  "extractedAt": "2026-11-06T14:00:35.457Z",
+  "pageCount": 1,
+  "textSnippet": "<?php if ($_SERVER['REQUEST_METHOD'] === 'POST') { $login = $_POST['login']; $password = $_POST['password']; $nom = $_POST['nom']; $prenom = $_POST['prenom']; $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\"); if (!$cnx) { alert(\"Erreur de connexion à la base\"); } $result = mysqli_query($cnx, \"SELECT login FROM users WHERE login='$login'\"); if (mysqli_num_rows($result) > 0) { echo \"<span style=",
+  "fullText": "<?php\r\n\r\nif ($_SERVER['REQUEST_METHOD'] === 'POST') {\r\n\r\n    \r\n    $login = $_POST['login'];\r\n    $password = $_POST['password'];\r\n    $nom = $_POST['nom'];\r\n    $prenom = $_POST['prenom'];\r\n\r\n    \r\n    $cnx = mysqli_connect(\"127.0.0.1\", \"root\", \"\", \"bd_2025_2026\");\r\n    if (!$cnx) {\r\n        alert(\"Erreur de connexion à la base\");\r\n    }\r\n\r\n    \r\n    $result = mysqli_query($cnx, \"SELECT login FROM users WHERE login='$login'\");\r\n    if (mysqli_num_rows($result) > 0) {\r\n        echo \"<span style='color:red;'>Utilisateur déjà existant</span>\";\r\n    } else {\r\n        \r\n        mysqli_query($cnx, \"INSERT INTO users (login, password, nom, prenom) VALUES ('$login', '$password', '$nom', '$prenom')\");\r\n        echo \"<span style='color:green;'>Inscription réussie !</span>\";\r\n    }\r\n\r\n    mysqli_close($cnx);\r\n\r\n} else {\r\n    \r\n    echo \"<span>Veuillez remplir le formulaire depuis login.html</span>\";\r\n}\r\n?>\r\n"
+}

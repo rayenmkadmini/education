@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FF31BB03318DC450",
+  "filename": "fond.png",
+  "relPath": "bac info/sti/projet 4/filesProjet4/fond.png",
+  "sha256": "ff31bb03318dc450d4481aff673ec982d7583d7eae2e3bb25c745957dcf734c3",
+  "extractedAt": "2026-11-06T14:24:19.224Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: fond.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: fond.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-FF31BB03318DC450-CHK-001",
+      "text": "[Fichier Image Pédagogique: fond.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

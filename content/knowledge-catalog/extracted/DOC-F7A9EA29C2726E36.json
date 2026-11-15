@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F7A9EA29C2726E36",
+  "filename": "conv men ay base ll 10.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/conv men ay base ll 10.py",
+  "sha256": "f7a9ea29c2726e3617ac0417b1e0b0fd9d0c9567e76f7cce2f5ef256fe62650a",
+  "extractedAt": "2026-11-14T18:35:36.347Z",
+  "pageCount": 1,
+  "textSnippet": "def puis(x,y): p=1 for i in range(1,y+1): p=p*x return p def conv_10(ch,b): s=0 for i in range(len(ch)): if \"0\"<=ch[i]<=\"9\": k=int(ch[i]) else: k=ord(ch[i])-55 s=s+k*puis(b,len(ch)-i-1) return s print(conv_10(\"123\",16))",
+  "fullText": "def puis(x,y):\r\n    p=1\r\n    for i in range(1,y+1):\r\n        p=p*x\r\n    return p\r\ndef conv_10(ch,b):\r\n    s=0\r\n    for i in range(len(ch)):\r\n        if \"0\"<=ch[i]<=\"9\":\r\n            k=int(ch[i])\r\n        else:\r\n            k=ord(ch[i])-55\r\n        s=s+k*puis(b,len(ch)-i-1)\r\n    return s\r\n\r\nprint(conv_10(\"123\",16))",
+  "chunks": [
+    {
+      "chunkId": "DOC-F7A9EA29C2726E36-CHK-001",
+      "text": "def puis(x,y):\r\n    p=1\r\n    for i in range(1,y+1):\r\n        p=p*x\r\n    return p\r\ndef conv_10(ch,b):\r\n    s=0\r\n    for i in range(len(ch)):\r\n        if \"0\"<=ch[i]<=\"9\":\r\n            k=int(ch[i])\r\n        else:\r\n            k=ord(ch[i])-55\r\n        s=s+k*puis(b,len(ch)-i-1)\r\n    return s\r\n\nprint(conv_10(\"123\",16))"
+    }
+  ]
+}

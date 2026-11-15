@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-D733E0E6F78C9E81",
+  "filename": "divisibilté par 13.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/test conversion/divisibilté par 13.py",
+  "sha256": "d733e0e6f78c9e813128fbe44bea17eab8137aff3b651f56f37b0822fda5aedd",
+  "extractedAt": "2026-11-14T18:35:36.394Z",
+  "pageCount": 1,
+  "textSnippet": "def verifdiv(a): a=int(input(\"Donner a: \")) if a%13==0: print(\"Le nombre est divisible par 13\") else: print(\"Le nombre n'est pas divisible par 13\") verifdiv(13)",
+  "fullText": "def verifdiv(a):\r\n    a=int(input(\"Donner a: \"))\r\n    if a%13==0:\r\n        print(\"Le nombre est divisible par 13\")\r\n    else:\r\n        print(\"Le nombre n'est pas divisible par 13\")\r\n\r\nverifdiv(13)",
+  "chunks": [
+    {
+      "chunkId": "DOC-D733E0E6F78C9E81-CHK-001",
+      "text": "def verifdiv(a):\r\n    a=int(input(\"Donner a: \"))\r\n    if a%13==0:\r\n        print(\"Le nombre est divisible par 13\")\r\n    else:\r\n        print(\"Le nombre n'est pas divisible par 13\")\r\n\nverifdiv(13)"
+    }
+  ]
+}

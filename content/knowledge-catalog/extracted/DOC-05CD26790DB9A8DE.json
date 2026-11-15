@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-05CD26790DB9A8DE",
+  "filename": "modification.php",
+  "relPath": "bac info/sti/projet 3 version élève/modification.php",
+  "sha256": "05cd26790db9a8de7881d215840cea77ed3ca0367291c18cd9bc459d41d147a2",
+  "extractedAt": "2026-11-06T14:24:18.982Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require \"connexion.php\"; $id=$_POST[\"id\"]; $np=$_POST[\"np\"]; $genre=$_POST[\"genre\"]; $adr=$_POST[\"adr\"]; $tel=$_POST[\"tel\"]; $dn=$_POST[\"dn\"]; $req=\"UPDATE eleve SET nomprenom='$np' and Genre='$genre' and Datenaiss='$dn' and Adresse='$adr' and numtelp='$tel' WHERE IdEleve='$id' \"; $res=mysqli_query($cnx,$req) or die(\" \".mysqli_error($cnx)); if(mysqli_affected_rows($cnx)){ echo \"modification reussie\"; } else{ echo \"modification echoue\"; } ?>",
+  "fullText": "<?php\r\nrequire \"connexion.php\";\r\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n$tel=$_POST[\"tel\"];\r\n$dn=$_POST[\"dn\"];\r\n\r\n\r\n$req=\"UPDATE eleve SET nomprenom='$np' and Genre='$genre' and Datenaiss='$dn' and Adresse='$adr' and numtelp='$tel' WHERE IdEleve='$id' \";\r\n$res=mysqli_query($cnx,$req) or die(\" \".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo \"modification reussie\";\r\n}\r\nelse{\r\n    echo \"modification echoue\";\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-05CD26790DB9A8DE-CHK-001",
+      "text": "<?php\r\nrequire \"connexion.php\";\r\n$id=$_POST[\"id\"];\r\n$np=$_POST[\"np\"];\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n$tel=$_POST[\"tel\"];\r\n$dn=$_POST[\"dn\"];\r\n\n$req=\"UPDATE eleve SET nomprenom='$np' and Genre='$genre' and Datenaiss='$dn' and Adresse='$adr' and numtelp='$tel' WHERE IdEleve='$id' \";\r\n$res=mysqli_query($cnx,$req) or die(\" \".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo \"modification reussie\";\r\n}\r\nelse{\r\n    echo \"modification echoue\";\r\n}\r\n\n?>"
+    }
+  ]
+}

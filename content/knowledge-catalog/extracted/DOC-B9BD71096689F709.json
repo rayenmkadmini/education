@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-B9BD71096689F709",
+  "filename": "convertir_base.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/INTERFACE/convertir_base.py",
+  "sha256": "b9bd71096689f70987f60ebba6956336b84b22dae90c7398989074be5f260756",
+  "extractedAt": "2026-11-06T14:24:33.199Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5 import QtWidgets,uic def verif(x): if len(x) != 0 and x.isnumeric(): return True else : return False def convertir(a,b): ch=\"\" while a != 0 : r = a % b a = a // b if r < 10 : ch = str(r) + ch else : ch = chr(55+r) + ch return ch def traitement(a): if verif(a): p.t2.setText(convertir(int(a),2)) p.t3.setText(convertir(int(a),8)) p.t4.setText(c",
+  "fullText": "from PyQt5 import QtWidgets,uic\r\n\r\ndef verif(x):\r\n    if len(x) != 0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\ndef convertir(a,b):\r\n    ch=\"\"\r\n    while a != 0 :\r\n        r = a % b\r\n        a = a // b\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+r) + ch\r\n    return ch\r\ndef traitement(a):\r\n    if verif(a):\r\n        p.t2.setText(convertir(int(a),2))\r\n        p.t3.setText(convertir(int(a),8))\r\n        p.t4.setText(convertir(int(a),16))\r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        p.t4.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t4.setText(\"\")\r\n    p.t1.setFocus()\r\n\r\napp = QtWidgets.QApplication([])\r\np = uic.loadUi(\"convertir_base.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()\r\n    \r\n        \r\n    \r\n    \r\n        \r\n        \r\n        ",
+  "chunks": [
+    {
+      "chunkId": "DOC-B9BD71096689F709-CHK-001",
+      "text": "from PyQt5 import QtWidgets,uic\r\n\ndef verif(x):\r\n    if len(x) != 0 and x.isnumeric():\r\n        return True\r\n    else :\r\n        return False\r\ndef convertir(a,b):\r\n    ch=\"\"\r\n    while a != 0 :\r\n        r = a % b\r\n        a = a // b\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+r) + ch\r\n    return ch\r\ndef traitement(a):\r\n    if verif(a):\r\n        p.t2.setText(convertir(int(a),2))\r\n        p.t3.setText(convertir(int(a),8))\r\n        p.t4.setText(convertir(int(a),16))\r\n    else:\r\n        p.t2.setText(\"INPUT ERROR\")\r\n        p.t3.setText(\"INPUT ERROR\")\r\n        p.t4.setText(\"INPUT ERROR\")\r\ndef effacer():\r\n    p.t1.setText(\"\")\r\n    p.t2.setText(\"\")\r\n    p.t3.setText(\"\")\r\n    p.t4.setText(\"\")\r\n    p.t1.setFocus()"
+    },
+    {
+      "chunkId": "DOC-B9BD71096689F709-CHK-002",
+      "text": "app = QtWidgets.QApplication([])\r\np = uic.loadUi(\"convertir_base.ui\")\r\np.show()\r\np.pb1.clicked.connect(lambda:traitement(p.t1.text()))\r\np.pb2.clicked.connect(effacer)\r\napp.exec_()"
+    }
+  ]
+}

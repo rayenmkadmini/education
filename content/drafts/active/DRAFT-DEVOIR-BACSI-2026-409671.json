@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-DEVOIR-BACSI-2026-409671",
+  "taskId": "BACSI-2026-409671",
+  "version": 4,
+  "createdAt": "2026-11-06T11:15:18.867Z",
+  "updatedAt": "2026-11-06T12:25:09.460Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "contentType": "DEVOIR",
+  "totalPoints": 20,
+  "isOfficialBac": false,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+        "page": 1,
+        "section": "VERIFIED_OFFICIAL_EXAM : Contexte muséologique et manipulation d'objets"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "Lycée Pilote de l'Excellence — Évaluation Pédagogique Formative",
+    "sessionLabel": "Devoir de Synthèse N°1 — 4ème Année Sciences de l'Informatique",
+    "duration": "2h00",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "dev-ex-1",
+      "number": 1,
+      "title": "Projet Carthage — Partie 1 : Décodage & Validation Canonique des Nombres Romains (5.0 points)",
+      "points": 5,
+      "statementMarkdown": "### Contexte Général du Devoir : Informatisation du Musée National de Carthage\nLa conservation du Musée National de Carthage modernise son système d'inventaire archéologique.\nDans les anciens registres manuscrits, les quantités des pièces sont exprimées en **chiffres romains** (contexte officiel du Bac Pratique 2026).\nLe devoir a pour objectif de concevoir une application modulaire et robuste en trois étapes :\n1. **Partie 1 :** Décodage et validation des quantités en chiffres romains.\n2. **Partie 2 :** Archivage et persistance des fiches d'inventaire dans un fichier binaire sérialisé.\n3. **Partie 3 :** Moteur d'interrogation, de tri multi-critères et de recherche rapide pour les conservateurs.\n\n---\n\n### Partie 1 : Décodage & Validation Algorithmique (5.0 points)\n**Durée indicative :** 30 minutes.\n\nConformément au cahier des charges officiel du Ministère de l'Éducation :\nUn nombre romain est une chaîne de caractères non vide, composée de chiffres romains choisis uniquement parmi les lettres :\n`I` (1), `V` (5), `X` (10), `L` (50), `C` (100), `D` (500), `M` (1000).\n\n**Contrainte officielle :**\nLa chaîne ne contient pas plus de trois lettres identiques consécutives (ex: `\"IIII\"` est invalide, `\"IV\"` est valide).\n\n**Règles officielles de conversion en décimal :**\nOn parcourt la chaîne de gauche à droite :\n- Si la valeur du caractère courant est $\\ge$ à celle du caractère suivant, on **ajoute** sa valeur.\n- Si la valeur du caractère courant est $<$ à celle du caractère suivant, on **retranche** sa valeur.\n- La valeur du dernier caractère est **toujours ajoutée**.\n\n**Questions :**\n1. **(1.5 pt)** Donner la trace manuelle de calcul pour convertir la chaîne `\"CXCII\"` en décimal. Détailler chaque opération d'addition et de soustraction.\n2. **(1.5 pt)** Écrire en pseudocode conventionnel tunisien une fonction `Valider(ch: chaîne) : booléen` qui vérifie si une chaîne respecte strictement les deux conditions du sujet officiel (lettres autorisées et au plus 3 lettres identiques consécutives).\n3. **(2.0 pts)** Traduire en script Python 3 la fonction `RomainToDecimal(ch: str) -> int` effectuant la conversion décimale selon les règles officielles du sujet.",
+      "solutionMarkdown": "*(Corrigé détaillé inclus dans le document de correction)*",
+      "gradingCriteria": [
+        {
+          "id": "crit-dev1-trace",
+          "description": "Trace d'exécution et justification exacte de CXCII (192)",
+          "points": 1.5
+        },
+        {
+          "id": "crit-dev1-valider",
+          "description": "Fonction Valider en pseudocode avec contraintes canoniques",
+          "points": 1.5
+        },
+        {
+          "id": "crit-dev1-convert",
+          "description": "Fonction Python RomainToDecimal avec validation préalable et exception",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "id": "dev-ex-2",
+      "number": 2,
+      "title": "Projet Carthage — Partie 2 : Fiches d'Inventaire et Persistance Binaire (6.0 points)",
+      "points": 6,
+      "statementMarkdown": "### Partie 2 : Modélisation des Objets et Persistance Binaire (6.0 points)\n**Durée indicative :** 40 minutes.\n\nChaque objet archéologique enregistré dans l'inventaire du musée est défini par les attributs suivants :\n- `code` : chaîne de 6 caractères (ex: \"OBJ042\").\n- `designation` : chaîne de caractères non vide (ex: \"Stèle funéraire\").\n- `qte_romain` : chaîne (quantité originale en chiffres romains, ex: \"XLVI\").\n- `qte_decimal` : entier (quantité décimale calculée par le module de la Partie 1, ex: 46).\n\nLes objets doivent être conservés sur disque dans un fichier binaire sérialisé nommé `\"objets.dat\"`.\n\n**Questions :**\n1. **(1.0 pt)** Proposer la déclaration TDO de cet enregistrement en pseudocode conventionnel et expliciter sa structure équivalente sous forme de dictionnaire Python 3.\n2. **(2.5 pts)** Écrire une procédure Python `EnregistrerObjet(nom_fich: str, obj: dict) -> None` qui permet d'ajouter cet objet en fin de fichier binaire avec `pickle.dump`. Justifier rigoureusement le mode d'ouverture choisi (`\"ab\"`) et l'obligation d'appeler `f.close()`.\n3. **(2.5 pts)** Écrire une fonction Python `ChargerObjets(nom_fich: str) -> list` qui lit l'ensemble des enregistrements du fichier et les renvoie sous la forme d'un tableau/liste d'enregistrements. Expliquer le rôle du bloc `try ... except EOFError` et préciser le comportement de la fonction dans le cas où le fichier sur disque est initialement vide (0 octet).",
+      "solutionMarkdown": "*(Corrigé détaillé inclus dans le document de correction)*",
+      "gradingCriteria": [
+        {
+          "id": "crit-dev2-tdo",
+          "description": "Déclaration TDO et dictionnaire conforme",
+          "points": 1
+        },
+        {
+          "id": "crit-dev2-dump",
+          "description": "Procédure EnregistrerObjet avec mode 'ab'",
+          "points": 2.5
+        },
+        {
+          "id": "crit-dev2-load",
+          "description": "Fonction ChargerObjets avec gestion propre EOFError et fichier vide",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "id": "dev-ex-3",
+      "number": 3,
+      "title": "Projet Carthage — Partie 3 : Moteur d'Exploitation, Tri Multi-Critères et Recherche (9.0 points)",
+      "points": 9,
+      "statementMarkdown": "### Partie 3 : Moteur de Tri Multi-Critères et Consultation Rapide (9.0 points)\n**Durée indicative :** 50 minutes.\n\nLa direction du musée souhaite organiser une exposition des pièces majeures et disposer d'un outil de consultation pour ses chercheurs :\n1. Les objets chargés depuis `\"objets.dat\"` doivent être triés par ordre **décroissant de quantité décimale** (`qte_decimal`). En cas d'égalité sur la quantité, ils doivent être ordonnés par ordre **alphabétique croissant de leur désignation**.\n2. Un module d'édition doit lister les objets dont la quantité dépasse un seuil de sécurité $S$.\n3. Une fonction de recherche dichotomique doit permettre de localiser un objet à partir de son code unique en un temps d'accès optimal $\\mathcal{O}(\\log_2 N)$.\n\n**Questions :**\n1. **(4.0 pts)** Écrire en pseudocode conventionnel tunisien puis implémenter en Python 3 la procédure de tri par sélection `TriSelectionMultiCriteres(T, N)` réalisant le tri selon les deux critères énoncés. Préciser pourquoi l'échange doit concerner l'objet complet `T[i], T[pos_max] = T[pos_max], T[i]` et non pas seulement la quantité.\n2. **(2.5 pts)** Développer la procédure `AfficherSelonSeuil(T, S)` affichant chaque objet sous la forme :\n```text\n[CODE] - DESIGNATION : QTE_DECIMAL unité(s) (QTE_ROMAIN)\n```\nainsi que le nombre total de pièces retenues.\n3. **(2.5 pts)** Consultation rapide par code :\n   - a) **(0.5 pt)** Expliquer pourquoi la recherche dichotomique sur le `code` ne peut **pas** être appliquée directement sur le tableau issu de la Question 1. Donner un contre-exemple concret.\n   - b) **(0.5 pt)** Proposer la procédure `TrierParCode(Var T : Tableau ; N : entier)` préparant le tableau selon la clé requise.\n   - c) **(1.5 pt)** Implémenter en Python 3 la fonction `RechercheObjetParCode(T, code_rech) -> int` retournant l'indice de l'objet dans `T` ou `-1` en cas d'absence, et donner sa complexité temporelle asymptotique.",
+      "solutionMarkdown": "*(Corrigé détaillé inclus dans le document de correction)*",
+      "gradingCriteria": [
+        {
+          "id": "crit-dev3-tri",
+          "description": "Tri sélection double critère exact avec échange global",
+          "points": 4
+        },
+        {
+          "id": "crit-dev3-aff",
+          "description": "Filtrage et affichage formaté avec seuil",
+          "points": 2.5
+        },
+        {
+          "id": "crit-dev3-dicho",
+          "description": "Recherche dichotomique rigoureuse avec justification de précondition",
+          "points": 2.5
+        }
+      ]
+    }
+  ]
+}

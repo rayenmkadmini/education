@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-1707B78A729B035A",
+  "filename": "mesControles.js",
+  "relPath": "bac-pratique-19052025-sti-fichiers/mesControles.js",
+  "sha256": "1707b78a729b035af51f575227be3b4fb725d39b5633e05fec51df6b49d8e532",
+  "extractedAt": "2026-11-06T14:24:27.144Z",
+  "pageCount": 1,
+  "textSnippet": "function alpha(ch) { let cp=0; ch=ch.toUpperCase(); let valid=true; do{ if(ch[cp]>=\"A\" && ch[cp]<=\"Z\" ||ch[cp]==\" \" ) { cp=cp+1; } else { valid=false; } } while(valid==true && cp<ch.length); return valid; }",
+  "fullText": "﻿function alpha(ch)\r\n{\r\n    let cp=0;\r\n    ch=ch.toUpperCase();\r\n\tlet valid=true;\r\n    do{\r\n        if(ch[cp]>=\"A\" && ch[cp]<=\"Z\" ||ch[cp]==\" \" )\r\n        {\r\n            cp=cp+1;\r\n        }\r\n        else\r\n        {\r\n            valid=false;\r\n        }\r\n    }\r\n    while(valid==true && cp<ch.length);\r\n    return valid;\r\n}\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-1707B78A729B035A-CHK-001",
+      "text": "function alpha(ch)\r\n{\r\n    let cp=0;\r\n    ch=ch.toUpperCase();\r\n\tlet valid=true;\r\n    do{\r\n        if(ch[cp]>=\"A\" && ch[cp]<=\"Z\" ||ch[cp]==\" \" )\r\n        {\r\n            cp=cp+1;\r\n        }\r\n        else\r\n        {\r\n            valid=false;\r\n        }\r\n    }\r\n    while(valid==true && cp<ch.length);\r\n    return valid;\r\n}"
+    }
+  ]
+}

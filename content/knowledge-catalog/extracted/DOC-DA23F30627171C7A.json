@@ -1,0 +1,61 @@
+{
+  "documentId": "DOC-DA23F30627171C7A",
+  "filename": "Anglais-20261106T124707Z-1-001.zip",
+  "sha256": "da23f30627171c7a3241bff5f7a31cdf3b238f7877c5b94102ad95ce95f38a2e",
+  "extractedAt": "2026-11-06T13:57:43.962Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: Anglais-20261106T124707Z-1-001.zip Nombre d'éléments: 10",
+  "fullText": "Archive ZIP: Anglais-20261106T124707Z-1-001.zip\nNombre d'éléments: 10\n\n",
+  "zipEntries": [
+    {
+      "name": "Anglais/5.writing summary.pdf",
+      "sizeBytes": 181107,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/2.unit 2.pdf",
+      "sizeBytes": 463803,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/7.WRITING IN BAC EXAMS.docx",
+      "sizeBytes": 17709,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/6.Education systems.docx",
+      "sizeBytes": 18689,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/3.unit 3.pdf",
+      "sizeBytes": 572455,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/1.unit 1.pdf",
+      "sizeBytes": 597249,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/gramma-summary-part-1.pdf",
+      "sizeBytes": 388949,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/gramma-summary-part-2.pdf",
+      "sizeBytes": 347019,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/4.unit 4.pdf",
+      "sizeBytes": 1682407,
+      "isDirectory": false
+    },
+    {
+      "name": "Anglais/gramma-summary-part-3.pdf",
+      "sizeBytes": 353109,
+      "isDirectory": false
+    }
+  ]
+}

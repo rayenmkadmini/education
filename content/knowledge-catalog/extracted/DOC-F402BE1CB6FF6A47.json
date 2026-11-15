@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-F402BE1CB6FF6A47",
+  "filename": "Recherche.py",
+  "sha256": "f402be1cb6ff6a474316ba0b261696a3d7bf8266f057e5932a263506e0c0da26",
+  "extractedAt": "2026-11-06T13:58:05.161Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import * from pickle import load,dump from numpy import array #Exploitation de l'interface graphique app = QApplication([]) w = loadUi (\"Nom_Interface.ui\") w.show() w.Nom_bouton.clicked.connect(Nom_module) w.Nom_bouton.clicked.connect(Nom_module) w.Nom_bouton.clicked.connect (Nom_module) app.exec_()",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import *\r\nfrom pickle import load,dump\r\nfrom numpy  import array\r\n\r\n#Exploitation de l'interface graphique \r\napp = QApplication([])\r\nw = loadUi (\"Nom_Interface.ui\")\r\nw.show()\r\nw.Nom_bouton.clicked.connect(Nom_module)\r\nw.Nom_bouton.clicked.connect(Nom_module)\r\nw.Nom_bouton.clicked.connect (Nom_module)\r\napp.exec_()"
+}

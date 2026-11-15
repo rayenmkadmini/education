@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-304B247CE6A4FFE8",
+  "filename": "conversion.py",
+  "relPath": "bac info/Python/fichier QtDesigner/Convertisseur entre les Bases (liste déroulante) à faire/conversion.py",
+  "sha256": "304b247ce6a4ffe801a94d8021167278cd48df870a549a6d623c1a98625ed2f4",
+  "extractedAt": "2026-11-06T14:23:26.322Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.uic import loadUi from PyQt5.QtWidgets import QApplication, QMessageBox def verif_base(ch,dom): i=0 while i<len(ch) and dom.find(ch[i])!=-1 : i+=1 return i==len(ch) def verif_entree(bd,entree): if bd==\"2\" and not verif_base(entree,\"01\"): QMessageBox.critical(win,\"erreur\",\"nombre binaire non valide\") return False if bd==\"8\" and not verif_base(entree,\"01234567\"): QMessageBox.critical(win,\"erreur\",\"no",
+  "fullText": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication, QMessageBox\r\n\r\n\r\ndef verif_base(ch,dom):\r\n    i=0\r\n    while i<len(ch) and dom.find(ch[i])!=-1 :\r\n        i+=1\r\n    return i==len(ch)\r\n        \r\n    \r\n\r\n\r\ndef verif_entree(bd,entree):\r\n    if bd==\"2\" and not verif_base(entree,\"01\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre binaire non valide\")\r\n        return False\r\n    if bd==\"8\" and not verif_base(entree,\"01234567\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre octale  non valide\")\r\n        return False\r\n    if bd==\"10\" and not verif_base(entree,\"0123456789\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre decimale  non valide\")\r\n        return False\r\n    if bd==\"16\" and not verif_base(entree,\"0123456789ABCDEF\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre hexadecimale non valide\")\r\n        return False\r\n    return True\r\n        \r\n  \r\n  \r\ndef conversion():\r\n    bd=win.bd.currentText()\r\n    bf=win.bf.currentText()\r\n    entree=win.entree.text()\r\n    if bd==\"choisir une base\" or bf==\"choisir une base\" :\r\n        QMessageBox.critical(win,\"erreur\",\"base depart ou base final invalide\")\r\n    elif bd==bf :\r\n        QMessageBox.critical(win,\"erreur\",\"base depart egale a la  base final \")\r\n    elif entree==\"\" or   verif_entree(bd,entree)==False:\r\n         QMessageBox.critical(win,\"erreur\",\"entree invalide \")\r\n         \r\n\r\napp = QApplication([])\r\nwin = loadUi(\"interface_conversion.ui\")\r\nwin.show()\r\nwin.btn1.clicked.connect(conversion)\r\napp.exec_()\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-304B247CE6A4FFE8-CHK-001",
+      "text": "from PyQt5.uic import loadUi\r\nfrom PyQt5.QtWidgets import QApplication, QMessageBox\r\n\ndef verif_base(ch,dom):\r\n    i=0\r\n    while i<len(ch) and dom.find(ch[i])!=-1 :\r\n        i+=1\r\n    return i==len(ch)"
+    },
+    {
+      "chunkId": "DOC-304B247CE6A4FFE8-CHK-002",
+      "text": "def verif_entree(bd,entree):\r\n    if bd==\"2\" and not verif_base(entree,\"01\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre binaire non valide\")\r\n        return False\r\n    if bd==\"8\" and not verif_base(entree,\"01234567\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre octale  non valide\")\r\n        return False\r\n    if bd==\"10\" and not verif_base(entree,\"0123456789\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre decimale  non valide\")\r\n        return False\r\n    if bd==\"16\" and not verif_base(entree,\"0123456789ABCDEF\"):\r\n        QMessageBox.critical(win,\"erreur\",\"nombre hexadecimale non valide\")\r\n        return False\r\n    return True"
+    },
+    {
+      "chunkId": "DOC-304B247CE6A4FFE8-CHK-003",
+      "text": "def conversion():\r\n    bd=win.bd.currentText()\r\n    bf=win.bf.currentText()\r\n    entree=win.entree.text()\r\n    if bd==\"choisir une base\" or bf==\"choisir une base\" :\r\n        QMessageBox.critical(win,\"erreur\",\"base depart ou base final invalide\")\r\n    elif bd==bf :\r\n        QMessageBox.critical(win,\"erreur\",\"base depart egale a la  base final \")\r\n    elif entree==\"\" or   verif_entree(bd,entree)==False:\r\n         QMessageBox.critical(win,\"erreur\",\"entree invalide \")\r\n\napp = QApplication([])\r\nwin = loadUi(\"interface_conversion.ui\")\r\nwin.show()\r\nwin.btn1.clicked.connect(conversion)\r\napp.exec_()"
+    }
+  ]
+}

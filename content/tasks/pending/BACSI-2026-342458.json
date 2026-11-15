@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0.0",
+  "taskId": "BACSI-2026-342458",
+  "createdAt": "2026-11-05T21:03:20.192Z",
+  "contentType": "SERIE_EXERCICES",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "La Récursivité",
+  "academicYear": "2026-2027",
+  "level": "4ème Année Secondaire — Sciences de l'Informatique",
+  "durationMinutes": 120,
+  "totalPoints": 20,
+  "difficulty": "BAC_OFFICIEL",
+  "language": "fr_tn_derja",
+  "generationMode": "STRICT_SOURCE_GROUNDED",
+  "sourceReferences": [],
+  "instructions": "Générer une série de 3 exercices récursifs avec barème conforme Bac SI.",
+  "expectedOutputStructure": {
+    "format": "JSON",
+    "targetPath": "content/drafts/active/DRAFT-BACSI-2026-342458.json",
+    "requireMarkingScheme": true,
+    "requirePythonValidation": true
+  },
+  "status": "PENDING",
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-791E43415A7229A4",
+  "filename": "ord.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/ord.py",
+  "sha256": "791e43415a7229a4ace0371144dedd6405fa09adcc403c5bc1cbbbc53b413021",
+  "extractedAt": "2026-11-14T18:35:36.431Z",
+  "pageCount": 1,
+  "textSnippet": "print(chr(90))",
+  "fullText": "print(chr(90))",
+  "chunks": [
+    {
+      "chunkId": "DOC-791E43415A7229A4-CHK-001",
+      "text": "print(chr(90))"
+    }
+  ]
+}

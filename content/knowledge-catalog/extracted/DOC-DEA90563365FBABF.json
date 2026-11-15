@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DEA90563365FBABF",
+  "filename": "mesStyles.css",
+  "relPath": "bac-pratique-19052025-sti-fichiers/mesStyles.css",
+  "sha256": "dea90563365fbabf92271ffd63ff86fe613dfdba93025459539569a7995fbe6a",
+  "extractedAt": "2026-11-06T14:24:27.130Z",
+  "pageCount": 1,
+  "textSnippet": "#divbt { text-align: right } h1 { position : relative; left : 75px; width : 95%; height : 60px; padding : 20px 0px 0px 0px; } img { width : 70px; height : 80px; position : fixed; margin: 0px 0px 20px 0px ; } nav { height : 450px; position : fixed; width : 30%; } section { width : 70%; height : 450px; position : relative; left : 25%; border-radius : 3px; box-shadow :",
+  "fullText": "#divbt { text-align: right }\r\n\r\nh1 {\r\n    position : relative;\r\n    left : 75px;\r\n    width : 95%;\r\n    height : 60px;\r\n    padding : 20px 0px 0px 0px; \r\n}\r\n\r\nimg {\r\n    width : 70px;\r\n    height : 80px;\r\n    position : fixed;\r\n    margin: 0px 0px 20px 0px   ;\r\n}\r\n\r\nnav {\r\n    height : 450px;\r\n    position : fixed;\r\n    width : 30%;\r\n}\r\n\r\nsection {\r\n        width : 70%;\r\n        height : 450px;\r\n        position : relative;\r\n        left : 25%;\r\n        border-radius : 3px;\r\n        box-shadow : 2px 5px 10px black;\r\n}\r\n\r\niframe {\r\n        width : 100%;\r\n        height : 100%;\r\n}\r\n\r\nfooter { margin : 20px 0px 0px 0px; }\r\n\r\nlabel {\r\n\t   width: 180px;\r\n       display: inline-block  ;\r\n       margin: 10px;\r\n}\r\n\r\nlegend { font-weight: bold ;}\r\n\r\ninput[type=\"text\"] { width: 172px; }",
+  "chunks": [
+    {
+      "chunkId": "DOC-DEA90563365FBABF-CHK-001",
+      "text": "#divbt { text-align: right }\r\n\nh1 {\r\n    position : relative;\r\n    left : 75px;\r\n    width : 95%;\r\n    height : 60px;\r\n    padding : 20px 0px 0px 0px; \r\n}\r\n\nimg {\r\n    width : 70px;\r\n    height : 80px;\r\n    position : fixed;\r\n    margin: 0px 0px 20px 0px   ;\r\n}\r\n\nnav {\r\n    height : 450px;\r\n    position : fixed;\r\n    width : 30%;\r\n}\r\n\nsection {\r\n        width : 70%;\r\n        height : 450px;\r\n        position : relative;\r\n        left : 25%;\r\n        border-radius : 3px;\r\n        box-shadow : 2px 5px 10px black;\r\n}\r\n\niframe {\r\n        width : 100%;\r\n        height : 100%;\r\n}\r\n\nfooter { margin : 20px 0px 0px 0px; }\r\n\nlabel {\r\n\t   width: 180px;\r\n       display: inline-block  ;\r\n       margin: 10px;\r\n}\r\n\nlegend { font-weight: bold ;}\r\n\ninput[type=\"text\"] { width: 172px; }"
+    }
+  ]
+}

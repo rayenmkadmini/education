@@ -1,0 +1,50 @@
+{
+  "documentId": "DOC-8041CF19D5562AC9",
+  "filename": "Serie 1 - Enonce.pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/limite et contuinité_/Serie 1 - Enonce.pdf",
+  "sha256": "8041cf19d5562ac942c22ff9d2b85af6063c4d6f3e9a3f0f6581e789717f7fe6",
+  "extractedAt": "2026-11-06T14:24:49.627Z",
+  "pageCount": 4,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Continuité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 4 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓContinuitée Exercice 1 Soit f la fonction définie sur IR par : Exercice 2 C H A P I T R E 3 Continuitée — Énoncé f(x) = ⎧ ⎪⎨⎪⎩2x2 − 1 si x < 0 x + 1 x − 1 si 0 ≤ x < 1 √x − 1 si x ≥ 1 Calculer : f(-1) ; f(0) et f(1) 1 Calculer : puis 2 lim +∞ f(x) lim −∞ f(x) 3 Calculer et a) lim 0+ f(x) lim 0− f(x) Déduire que f est continue en 0 b) Etudier la continu",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nContinuité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 4 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓContinuitée\nExercice 1\nSoit f la fonction définie sur IR par :\nExercice 2\nC H A P I T R E 3\nContinuitée — Énoncé\nf(x) =\n⎧\n⎪⎨⎪⎩2x2 − 1 si x < 0\nx + 1\nx − 1 si 0 ≤ x < 1\n√x − 1 si x ≥ 1\nCalculer : f(-1) ; f(0) et f(1)\t1\nCalculer : \tpuis\t2 \tlim\n+∞ f(x) \tlim\n−∞ f(x)\n3 \tCalculer \tet\ta) \tlim\n0+ f(x) lim\n0− f(x)\nDéduire que f est continue en 0\tb)\nEtudier la continuité de f en 1\t4\nEtudier la continuité de f sur \t; \tet\t5 \t] − ∞; 0[ ]0 ; 1[ ]1 ; +∞[\nDéduire le domaine de continuité de f\t6\nSoit la fontion g définie sur IR\\{1} par\n1 g(x) = (x − 1)2\n|x − 1|\nCalculer \tet\ta) \tlim\n1+ g(x) lim\n1− g(x)\nLa fonction g admet elle une limite en 1 ? justifier.\tb)\nSoit la fonction f définie sur IR par :\t2\n{f(x) = g(x) si x ≠ 1\nf(1) = 0\nEtudier la continuité de f a droite et a gauche de 1\ta)\nLa fonction f est elle continue en 1\tb)\nLa fonction f est elle continue sur IR\tc)\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 3\nsuite à la page suivante →\n\n-- 2 of 4 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\nSoit f une fonction définie par :\nDonner un prolongement par continuité de la fonction f en 0\nExercice 4\n−3 \t−2 \t−1 \t1 \t2 \t3\n1\n−1\n−2\n−3\n−4\n−5\n0\n(Δ)\n(C)\nSoit f une fonction dont la réprésentation graphique est ci-dessus :\nPar lecture graphique déterminer :\nf(x) = 1 − cos x\nx\nDf domaine de définition de f\t1\nen justifiant\t2 lim\n−∞ f(x)\net\t3 lim\n1+ f(x) lim\n1− f(x)\n4 \tDéterminer equation de la droite Δ\ta)\net\nc) lim\n+∞ f(x) lim\n+∞\nf(x)\nx\nd) lim\n+∞(f(x) + 2x − 4)\nMontrer que l'equation : f(x) = 0 admet unique solution sur IR\\{1}\t5\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 3\nsuite à la page suivante →\n\n-- 3 of 4 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 5\nSoit f une fonction dont la réprésentation graphique est ci-dessous :\nPar lecture graphique déterminer :\nDf\t1\nLes asymptotes de la fonction f\t2\n3 \tet\ta) lim\n0+ f(x) lim\n0− f(x)\nf admet elle une limite en 0\tb)\net\t4 lim\n−∞ f(x) lim\n+∞ f(x)\net\t5 lim\n−∞(f(x) + x + 1) lim\n−∞(f(x) + x)\nEtudier le domaine continuité de f\t6\nDresser le tableau des variation de f\t7\nDéterminer f(]0 ;2|) et f(]-2 , 0[)\t8\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 3\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nContinuité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓContinuitée\nExercice 1\nSoit f la fonction définie sur IR par :\nExercice 2\nC H A P I T R E 3\nContinuitée — Énoncé\nf(x) =\n⎧\n⎪⎨⎪⎩2x2 − 1 si x < 0\nx + 1\nx − 1 si 0 ≤ x < 1\n√x − 1 si x ≥ 1\nCalculer : f(-1) ; f(0) et f(1)\t1\nCalculer : \tpuis\t2 \tlim\n+∞ f(x) \tlim\n−∞ f(x)\n3 \tCalculer \tet\ta) \tlim\n0+ f(x) lim\n0− f(x)\nDéduire que f est continue en 0\tb)\nEtudier la continuité de f en 1\t4\nEtudier la continuité de f sur \t; \tet\t5 \t] − ∞; 0[ ]0 ; 1[ ]1 ; +∞[\nDéduire le domaine de continuité de f\t6\nSoit la fontion g définie sur IR\\{1} par\n1 g(x) = (x − 1)2\n|x − 1|\nCalculer \tet\ta) \tlim\n1+ g(x) lim\n1− g(x)\nLa fonction g admet elle une limite en 1 ? justifier.\tb)\nSoit la fonction f définie sur IR par :\t2\n{f(x) = g(x) si x ≠ 1\nf(1) = 0\nEtudier la continuité de f a droite et a gauche de 1\ta)\nLa fonction f est elle continue en 1\tb)\nLa fonction f est elle continue sur IR\tc)\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 3\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\nSoit f une fonction définie par :\nDonner un prolongement par continuité de la fonction f en 0\nExercice 4\n−3 \t−2 \t−1 \t1 \t2 \t3\n1\n−1\n−2\n−3\n−4\n−5\n0\n(Δ)\n(C)\nSoit f une fonction dont la réprésentation graphique est ci-dessus :\nPar lecture graphique déterminer :\nf(x) = 1 − cos x\nx\nDf domaine de définition de f\t1\nen justifiant\t2 lim\n−∞ f(x)\net\t3 lim\n1+ f(x) lim\n1− f(x)\n4 \tDéterminer equation de la droite Δ\ta)\net\nc) lim\n+∞ f(x) lim\n+∞\nf(x)\nx\nd) lim\n+∞(f(x) + 2x − 4)\nMontrer que l'equation : f(x) = 0 admet unique solution sur IR\\{1}\t5\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 3\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 4,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 5\nSoit f une fonction dont la réprésentation graphique est ci-dessous :\nPar lecture graphique déterminer :\nDf\t1\nLes asymptotes de la fonction f\t2\n3 \tet\ta) lim\n0+ f(x) lim\n0− f(x)\nf admet elle une limite en 0\tb)\net\t4 lim\n−∞ f(x) lim\n+∞ f(x)\net\t5 lim\n−∞(f(x) + x + 1) lim\n−∞(f(x) + x)\nEtudier le domaine continuité de f\t6\nDresser le tableau des variation de f\t7\nDéterminer f(]0 ;2|) et f(]-2 , 0[)\t8\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-8041CF19D5562AC9-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nContinuité — Série 1 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-8041CF19D5562AC9-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓContinuitée\nExercice 1\nSoit f la fonction définie sur IR par :\nExercice 2\nC H A P I T R E 3\nContinuitée — Énoncé\nf(x) =\n⎧\n⎪⎨⎪⎩2x2 − 1 si x < 0\nx + 1\nx − 1 si 0 ≤ x < 1\n√x − 1 si x ≥ 1\nCalculer : f(-1) ; f(0) et f(1)\t1\nCalculer : \tpuis\t2 \tlim\n+∞ f(x) \tlim\n−∞ f(x)\n3 \tCalculer \tet\ta) \tlim\n0+ f(x) lim\n0− f(x)\nDéduire que f est continue en 0\tb)\nEtudier la continuité de f en 1\t4\nEtudier la continuité de f sur \t; \tet\t5 \t] − ∞; 0[ ]0 ; 1[ ]1 ; +∞[\nDéduire le domaine de continuité de f\t6\nSoit la fontion g définie sur IR\\{1} par\n1 g(x) = (x − 1)2\n|x − 1|\nCalculer \tet\ta) \tlim\n1+ g(x) lim\n1− g(x)\nLa fonction g admet elle une limite en 1 ? justifier.\tb)\nSoit la fonction f définie sur IR par :\t2\n{f(x) = g(x) si x ≠ 1\nf(1) = 0\nEtudier la continuité de f a droite et a gauche de 1\ta)\nLa fonction f est elle continue en 1\tb)\nLa fonction f est elle continue sur IR\tc)\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 3\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-8041CF19D5562AC9-CHK-003",
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\nSoit f une fonction définie par :\nDonner un prolongement par continuité de la fonction f en 0\nExercice 4\n−3 \t−2 \t−1 \t1 \t2 \t3\n1\n−1\n−2\n−3\n−4\n−5\n0\n(Δ)\n(C)\nSoit f une fonction dont la réprésentation graphique est ci-dessus :\nPar lecture graphique déterminer :\nf(x) = 1 − cos x\nx\nDf domaine de définition de f\t1\nen justifiant\t2 lim\n−∞ f(x)\net\t3 lim\n1+ f(x) lim\n1− f(x)\n4 \tDéterminer equation de la droite Δ\ta)\net\nc) lim\n+∞ f(x) lim\n+∞\nf(x)\nx\nd) lim\n+∞(f(x) + 2x − 4)\nMontrer que l'equation : f(x) = 0 admet unique solution sur IR\\{1}\t5\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 3\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-8041CF19D5562AC9-CHK-004",
+      "pageNumber": 4,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 5\nSoit f une fonction dont la réprésentation graphique est ci-dessous :\nPar lecture graphique déterminer :\nDf\t1\nLes asymptotes de la fonction f\t2\n3 \tet\ta) lim\n0+ f(x) lim\n0− f(x)\nf admet elle une limite en 0\tb)\net\t4 lim\n−∞ f(x) lim\n+∞ f(x)\net\t5 lim\n−∞(f(x) + x + 1) lim\n−∞(f(x) + x)\nEtudier le domaine continuité de f\t6\nDresser le tableau des variation de f\t7\nDéterminer f(]0 ;2|) et f(]-2 , 0[)\t8\nMathématiques\nChapitre 3 · Continuitée · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 3 / 3"
+    }
+  ]
+}

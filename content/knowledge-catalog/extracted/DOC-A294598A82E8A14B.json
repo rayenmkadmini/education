@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A294598A82E8A14B",
+  "filename": "Decomposition en facteur premier.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/Decomposition en facteur premier.py",
+  "sha256": "a294598a82e8a14b75a3614ce2a7e9106f18bd547db4718d826149b6ca57f162",
+  "extractedAt": "2026-11-14T18:35:36.348Z",
+  "pageCount": 1,
+  "textSnippet": "def decomp(q): s=str(q) + \" = \" i=2 while q!=1: if q%i==0: s=s+str(i)+\" * \" q=q//2 else: i=i+1 return s[:len(s)-2] print(decomp(16))",
+  "fullText": "def decomp(q):\r\n    s=str(q) + \" = \"\r\n    i=2\r\n    while q!=1:\r\n        if q%i==0:\r\n            s=s+str(i)+\" * \"\r\n            q=q//2\r\n        else:\r\n            i=i+1\r\n    return s[:len(s)-2]\r\nprint(decomp(16))\r\n    ",
+  "chunks": [
+    {
+      "chunkId": "DOC-A294598A82E8A14B-CHK-001",
+      "text": "def decomp(q):\r\n    s=str(q) + \" = \"\r\n    i=2\r\n    while q!=1:\r\n        if q%i==0:\r\n            s=s+str(i)+\" * \"\r\n            q=q//2\r\n        else:\r\n            i=i+1\r\n    return s[:len(s)-2]\r\nprint(decomp(16))"
+    }
+  ]
+}

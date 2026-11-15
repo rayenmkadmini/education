@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-03DBD69FF36FD03C",
+  "filename": "nombre or.py",
+  "relPath": "nombre or/nombre or/nombre or.py",
+  "sha256": "03dbd69ff36fd03c8814571914a1bab9ad4acbd22a45f8bf03ca7da34278172c",
+  "extractedAt": "2026-11-06T14:24:51.782Z",
+  "pageCount": 1,
+  "textSnippet": "from PyQt5.QtWidgets import * from PyQt5.uic import loadUi def calculV(Uact,Upre): return Uact/Upre def calcul(): eps=float(w.precision.text()) u0=1 u1=1 v0=1 w.table.setRowCount(0) # vider le QTableWidget w.table.insertRow(0) w.table.setItem(0,0,QTableWidgetItem(\"0\")) w.table.setItem(0,1,QTableWidgetItem(str(u0))) w.table.setItem(0,2,QTableWidgetItem(str(v0))) w.table.insertRow(1) w.table.setItem(1,0,QTableWidgetItem(\"1",
+  "fullText": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import loadUi\r\ndef calculV(Uact,Upre):\r\n    return Uact/Upre\r\ndef calcul():\r\n        \r\n    eps=float(w.precision.text())\r\n    u0=1\r\n    u1=1\r\n    v0=1\r\n\r\n    w.table.setRowCount(0)  # vider le QTableWidget\r\n    w.table.insertRow(0)\r\n    w.table.setItem(0,0,QTableWidgetItem(\"0\"))\r\n    w.table.setItem(0,1,QTableWidgetItem(str(u0)))\r\n    w.table.setItem(0,2,QTableWidgetItem(str(v0)))\r\n    w.table.insertRow(1)\r\n    w.table.setItem(1,0,QTableWidgetItem(\"1\"))\r\n    w.table.setItem(1,1,QTableWidgetItem(str(u1)))\r\n    v1=calculV(u1,u0)\r\n    w.table.setItem(1,2,QTableWidgetItem(str(v1)))\r\n    arret=False\r\n    i=2\r\n    while not arret:\r\n        u=u0+u1\r\n        v=calculV(u,u1)\r\n        u0=u1\r\n        u1=u\r\n        \r\n        w.table.insertRow(i)\r\n        w.table.setItem(i,0,QTableWidgetItem(str(i)))\r\n        w.table.setItem(i,1,QTableWidgetItem(str(u)))\r\n        w.table.setItem(i,2,QTableWidgetItem(str(v)))\r\n        arret=abs(v-v1)<eps\r\n        v1=v\r\n        i=i+1\r\n    \r\n\r\n###############  PP  ###########\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnCalculer.clicked.connect(calcul)\r\n\r\nw.show()\r\napp.exec_()",
+  "chunks": [
+    {
+      "chunkId": "DOC-03DBD69FF36FD03C-CHK-001",
+      "text": "from PyQt5.QtWidgets import *\r\nfrom PyQt5.uic import loadUi\r\ndef calculV(Uact,Upre):\r\n    return Uact/Upre\r\ndef calcul():\r\n\n    eps=float(w.precision.text())\r\n    u0=1\r\n    u1=1\r\n    v0=1\r\n\n    w.table.setRowCount(0)  # vider le QTableWidget\r\n    w.table.insertRow(0)\r\n    w.table.setItem(0,0,QTableWidgetItem(\"0\"))\r\n    w.table.setItem(0,1,QTableWidgetItem(str(u0)))\r\n    w.table.setItem(0,2,QTableWidgetItem(str(v0)))\r\n    w.table.insertRow(1)\r\n    w.table.setItem(1,0,QTableWidgetItem(\"1\"))\r\n    w.table.setItem(1,1,QTableWidgetItem(str(u1)))\r\n    v1=calculV(u1,u0)\r\n    w.table.setItem(1,2,QTableWidgetItem(str(v1)))\r\n    arret=False\r\n    i=2\r\n    while not arret:\r\n        u=u0+u1\r\n        v=calculV(u,u1)\r\n        u0=u1\r\n        u1=u"
+    },
+    {
+      "chunkId": "DOC-03DBD69FF36FD03C-CHK-002",
+      "text": "w.table.insertRow(i)\r\n        w.table.setItem(i,0,QTableWidgetItem(str(i)))\r\n        w.table.setItem(i,1,QTableWidgetItem(str(u)))\r\n        w.table.setItem(i,2,QTableWidgetItem(str(v)))\r\n        arret=abs(v-v1)<eps\r\n        v1=v\r\n        i=i+1\r\n\n###############  PP  ###########\r\napp=QApplication([])\r\nw=loadUi(\"interface.ui\")\r\nw.btnCalculer.clicked.connect(calcul)\r\n\nw.show()\r\napp.exec_()"
+    }
+  ]
+}

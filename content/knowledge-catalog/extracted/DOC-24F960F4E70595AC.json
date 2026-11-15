@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-24F960F4E70595AC",
+  "filename": "index.html",
+  "relPath": "bac 2025/index.html",
+  "sha256": "24f960f4e70595ac9fbbdb9829c37263201239faf43eb11a04facb9a097ff56a",
+  "extractedAt": "2026-11-06T14:23:24.389Z",
+  "pageCount": 1,
+  "textSnippet": "<!doctype html> <html lang=\"fr\"> <head> <meta charset=\"utf-8\"> <title>Les droits d'accès aux documents partagés</title> <link rel=\"stylesheet\" href=\"mesStyles.css\"> </head> <body> <header> <img src=\"logo.png\" alt=\"Logo\" style=\"height:60px; vertical-align: middle;\"> <h1>Les droits d’accès aux documents partagés</h1> </header> <main> <nav> <p><a href=\"utilisateur.html\" target=\"zone\">Ajout d’un utilisateur</a></p> <p><a href=\"droit.html\" target=\"",
+  "fullText": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Les droits d'accès aux documents partagés</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n</head>\r\n<body>\r\n  <header>\r\n    <img src=\"logo.png\" alt=\"Logo\" style=\"height:60px; vertical-align: middle;\">\r\n    <h1>Les droits d’accès aux documents partagés</h1>\r\n  </header>\r\n\r\n  <main>\r\n    <nav>\r\n      <p><a href=\"utilisateur.html\" target=\"zone\">Ajout d’un utilisateur</a></p>\r\n      <p><a href=\"droit.html\" target=\"zone\">Attribution des droits d’accès</a></p>\r\n      <p><a href=\"affichage.html\" target=\"zone\">Affichage des droits d’accès</a></p>\r\n    </nav>\r\n\r\n    <section>\r\n      <iframe src=\"utilisateur.html\" name=\"zone\" style=\"width:100%; height:650px; border:none;\"></iframe>\r\n    </section>\r\n  </main>\r\n\r\n  <footer>\r\n    Copyright - Futura Horizon AI - 2025\r\n  </footer>\r\n</body>\r\n</html>\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-24F960F4E70595AC-CHK-001",
+      "text": "<!doctype html>\r\n<html lang=\"fr\">\r\n<head>\r\n  <meta charset=\"utf-8\">\r\n  <title>Les droits d'accès aux documents partagés</title>\r\n  <link rel=\"stylesheet\" href=\"mesStyles.css\">\r\n</head>\r\n<body>\r\n  <header>\r\n    <img src=\"logo.png\" alt=\"Logo\" style=\"height:60px; vertical-align: middle;\">\r\n    <h1>Les droits d’accès aux documents partagés</h1>\r\n  </header>\r\n\n  <main>\r\n    <nav>\r\n      <p><a href=\"utilisateur.html\" target=\"zone\">Ajout d’un utilisateur</a></p>\r\n      <p><a href=\"droit.html\" target=\"zone\">Attribution des droits d’accès</a></p>\r\n      <p><a href=\"affichage.html\" target=\"zone\">Affichage des droits d’accès</a></p>\r\n    </nav>\r\n\n    <section>\r\n      <iframe src=\"utilisateur.html\" name=\"zone\" style=\"width:100%; height:650px; border:none;\"></iframe>\r\n    </section>\r\n  </main>"
+    },
+    {
+      "chunkId": "DOC-24F960F4E70595AC-CHK-002",
+      "text": "<footer>\r\n    Copyright - Futura Horizon AI - 2025\r\n  </footer>\r\n</body>\r\n</html>"
+    }
+  ]
+}

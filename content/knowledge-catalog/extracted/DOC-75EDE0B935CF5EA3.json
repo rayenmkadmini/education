@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-75EDE0B935CF5EA3",
+  "filename": "app.py",
+  "relPath": "TD les fichiers textes/TD les fichiers textes/app.py",
+  "sha256": "75ede0b935cf5ea3cb6437283999ba17cfebe9b631c6ce548bf5d366838d6b7c",
+  "extractedAt": "2026-11-06T14:23:11.064Z",
+  "pageCount": 1,
+  "textSnippet": "from random import randint def generer(chm): f=open(chm,\"w\") # ouverture du fichier en mode ecriture for i in range(10): # generer 10 opérations op=randint(1,3) # opérateur 1-3 oper1=randint(0,99) # 1ere opérande oper2=randint(0,99) # 2eme opérande match op: # selon la valeur de l'opérateur case 1: # addition r=oper1+oper2 lg=str(oper1)+\"+\"+str(oper2) case 2: # soustraction",
+  "fullText": "from random import randint \r\ndef generer(chm):\r\n    f=open(chm,\"w\") # ouverture du fichier en mode ecriture\r\n    for i in range(10):  # generer 10 opérations\r\n        op=randint(1,3)    # opérateur 1-3\r\n        oper1=randint(0,99) # 1ere opérande\r\n        oper2=randint(0,99) # 2eme opérande\r\n        match op:      # selon la valeur de l'opérateur\r\n            case 1:  # addition \r\n                r=oper1+oper2\r\n                lg=str(oper1)+\"+\"+str(oper2)\r\n            case 2:  # soustraction\r\n                r=oper1-oper2\r\n                lg=str(oper1)+\"-\"+str(oper2)\r\n            case 3:   # multiplication\r\n                r=oper1*oper2\r\n                lg=str(oper1)+\"*\"+str(oper2)\r\n        lg=lg+\"=\"+str(r)\r\n        f.write(lg+\"\\n\")\r\n    \r\n    f.close()     \r\ndef corriger(chm1,chm2):\r\n    f=open(chm1,\"r\")  #lecture\r\n    res=open(chm2,\"w\") #ecriture\r\n    ch=f.readline() # lecture de la 1ere ligne\r\n    while ch!=\"\" :\r\n        quest=ch[0:ch.find(\"=\")+1]\r\n        sol=ch[ch.find(\"=\")+1:len(ch)].strip()\r\n        print(\"quest:\",quest,\"sol:\",sol)\r\n        rep=input(quest+\"?: \")\r\n        if rep==sol:\r\n            ligne=quest+sol+\"\\t\"+\"OK\"\r\n        else:\r\n            ligne=quest+sol+\"\\t\"+\"X\"\r\n        res.write(ligne+\"\\n\")\r\n            \r\n        ch=f.readline()  # passer à la ligne suivante\r\n    f.close()\r\n    res.close()\r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n    \r\n######  PP  #########\r\ngenerer(\"Questions.txt\")\r\ncorriger(\"Questions.txt\",\"Reponses.txt\")\r\n\r\n\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-75EDE0B935CF5EA3-CHK-001",
+      "text": "from random import randint \r\ndef generer(chm):\r\n    f=open(chm,\"w\") # ouverture du fichier en mode ecriture\r\n    for i in range(10):  # generer 10 opérations\r\n        op=randint(1,3)    # opérateur 1-3\r\n        oper1=randint(0,99) # 1ere opérande\r\n        oper2=randint(0,99) # 2eme opérande\r\n        match op:      # selon la valeur de l'opérateur\r\n            case 1:  # addition \r\n                r=oper1+oper2\r\n                lg=str(oper1)+\"+\"+str(oper2)\r\n            case 2:  # soustraction\r\n                r=oper1-oper2\r\n                lg=str(oper1)+\"-\"+str(oper2)\r\n            case 3:   # multiplication\r\n                r=oper1*oper2\r\n                lg=str(oper1)+\"*\"+str(oper2)\r\n        lg=lg+\"=\"+str(r)\r\n        f.write(lg+\"\\n\")"
+    },
+    {
+      "chunkId": "DOC-75EDE0B935CF5EA3-CHK-002",
+      "text": "f.close()     \r\ndef corriger(chm1,chm2):\r\n    f=open(chm1,\"r\")  #lecture\r\n    res=open(chm2,\"w\") #ecriture\r\n    ch=f.readline() # lecture de la 1ere ligne\r\n    while ch!=\"\" :\r\n        quest=ch[0:ch.find(\"=\")+1]\r\n        sol=ch[ch.find(\"=\")+1:len(ch)].strip()\r\n        print(\"quest:\",quest,\"sol:\",sol)\r\n        rep=input(quest+\"?: \")\r\n        if rep==sol:\r\n            ligne=quest+sol+\"\\t\"+\"OK\"\r\n        else:\r\n            ligne=quest+sol+\"\\t\"+\"X\"\r\n        res.write(ligne+\"\\n\")\r\n\n        ch=f.readline()  # passer à la ligne suivante\r\n    f.close()\r\n    res.close()\r\n\n######  PP  #########\r\ngenerer(\"Questions.txt\")\r\ncorriger(\"Questions.txt\",\"Reponses.txt\")"
+    }
+  ]
+}

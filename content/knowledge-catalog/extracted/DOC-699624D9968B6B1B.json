@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-699624D9968B6B1B",
+  "filename": "mesControles.js",
+  "relPath": "bac 2025/mesControles.js",
+  "sha256": "699624d9968b6b1babc84e17258550cc50c890581aafb787bb6099685e0bcb2b",
+  "extractedAt": "2026-11-06T14:23:24.534Z",
+  "pageCount": 1,
+  "textSnippet": "function verif1(f){ if(f.idUtil.value==\"\"){ alert(\"ID vide\"); return false;} if(f.nomPrenom.value==\"\"){ alert(\"Nom vide\"); return false;} return true; } function verif2(f){ if(f.nomDoc.value==\"\"){ alert(\"Choisir document\"); return false;} if(f.idUtil.value==\"\"){ alert(\"ID vide\"); return false;} if(!f.ecriture.checked&&!f.lecture.checked&&!f.impression.checked){ alert(\"Choisir un droit\"); return false;} return true; } function choix",
+  "fullText": "function verif1(f){\r\nif(f.idUtil.value==\"\"){\r\n    alert(\"ID vide\");\r\n    return false;}\r\nif(f.nomPrenom.value==\"\"){\r\n    alert(\"Nom vide\");\r\n    return false;}\r\nreturn true;\r\n}\r\n\r\nfunction verif2(f){\r\nif(f.nomDoc.value==\"\"){\r\n    alert(\"Choisir document\");\r\n    return false;}\r\nif(f.idUtil.value==\"\"){\r\n    alert(\"ID vide\");\r\n    return false;}\r\nif(!f.ecriture.checked&&!f.lecture.checked&&!f.impression.checked){\r\n    alert(\"Choisir un droit\");\r\n    return false;}\r\nreturn true;\r\n}\r\n\r\nfunction choix1(c,f){\r\n    if(c.checked)\r\n        f.lecture.checked=true;}\r\nfunction choix2(c,f){\r\n    if(!c.checked){\r\n        f.ecriture.checked=false;\r\n        f.impression.checked=false;}}\r\nfunction choix3(c,f){\r\n    if(c.checked)f.lecture.checked=true;}\r\nfunction annuler(f){\r\n    f.reset();\r\n    return false;}\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-699624D9968B6B1B-CHK-001",
+      "text": "function verif1(f){\r\nif(f.idUtil.value==\"\"){\r\n    alert(\"ID vide\");\r\n    return false;}\r\nif(f.nomPrenom.value==\"\"){\r\n    alert(\"Nom vide\");\r\n    return false;}\r\nreturn true;\r\n}\r\n\nfunction verif2(f){\r\nif(f.nomDoc.value==\"\"){\r\n    alert(\"Choisir document\");\r\n    return false;}\r\nif(f.idUtil.value==\"\"){\r\n    alert(\"ID vide\");\r\n    return false;}\r\nif(!f.ecriture.checked&&!f.lecture.checked&&!f.impression.checked){\r\n    alert(\"Choisir un droit\");\r\n    return false;}\r\nreturn true;\r\n}\r\n\nfunction choix1(c,f){\r\n    if(c.checked)\r\n        f.lecture.checked=true;}\r\nfunction choix2(c,f){\r\n    if(!c.checked){\r\n        f.ecriture.checked=false;\r\n        f.impression.checked=false;}}\r\nfunction choix3(c,f){\r\n    if(c.checked)f.lecture.checked=true;}\r\nfunction annuler(f){\r\n    f.reset();\r\n    return false;}"
+    }
+  ]
+}

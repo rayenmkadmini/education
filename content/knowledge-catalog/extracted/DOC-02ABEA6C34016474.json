@@ -1,0 +1,50 @@
+{
+  "documentId": "DOC-02ABEA6C34016474",
+  "filename": "Bac 2018 Pratique.pdf",
+  "relPath": "bac info/algo/Python/Bac 2018 Pratique.pdf",
+  "sha256": "02abea6c3401647463fd3cb8ac393b1034c15c8e83d94ff382db2fd1c90d4270",
+  "extractedAt": "2026-11-14T18:35:35.470Z",
+  "pageCount": 4,
+  "textSnippet": "Algorithmique et Programmation Série : Bac Pratique 2018 4ème année Sciences de l’Informatique -- 1 of 4 -- 1 • Matière : Algorithmique & Programmation • Niveau : 4ème Année Sciences de l’informatique • Type : Pratique Corriger Bac Pratique 2018 (26/05/2018) • Professeur : -- 2 of 4 -- 2 -- 3 of 4 -- 3 -- 4 of 4 --",
+  "fullText": "Algorithmique\net Programmation\nSérie : Bac Pratique 2018\n4ème année Sciences de l’Informatique\n\n-- 1 of 4 --\n\n1\n• Matière : Algorithmique & Programmation\n• Niveau : 4ème Année Sciences de l’informatique\n• Type : Pratique\nCorriger Bac Pratique 2018 (26/05/2018)\n• Professeur :\n\n-- 2 of 4 --\n\n2\n\n-- 3 of 4 --\n\n3\n\n-- 4 of 4 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Algorithmique\net Programmation\nSérie : Bac Pratique 2018\n4ème année Sciences de l’Informatique"
+    },
+    {
+      "pageNumber": 2,
+      "text": "1\n• Matière : Algorithmique & Programmation\n• Niveau : 4ème Année Sciences de l’informatique\n• Type : Pratique\nCorriger Bac Pratique 2018 (26/05/2018)\n• Professeur :"
+    },
+    {
+      "pageNumber": 3,
+      "text": "2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-02ABEA6C34016474-CHK-001",
+      "pageNumber": 1,
+      "text": "Algorithmique\net Programmation\nSérie : Bac Pratique 2018\n4ème année Sciences de l’Informatique"
+    },
+    {
+      "chunkId": "DOC-02ABEA6C34016474-CHK-002",
+      "pageNumber": 2,
+      "text": "1\n• Matière : Algorithmique & Programmation\n• Niveau : 4ème Année Sciences de l’informatique\n• Type : Pratique\nCorriger Bac Pratique 2018 (26/05/2018)\n• Professeur :"
+    },
+    {
+      "chunkId": "DOC-02ABEA6C34016474-CHK-003",
+      "pageNumber": 3,
+      "text": "2"
+    },
+    {
+      "chunkId": "DOC-02ABEA6C34016474-CHK-004",
+      "pageNumber": 4,
+      "text": "3"
+    }
+  ]
+}

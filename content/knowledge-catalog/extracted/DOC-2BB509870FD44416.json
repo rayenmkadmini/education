@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-2BB509870FD44416",
+  "filename": "nombre.dat",
+  "relPath": "bac info/Python/ex4s1/nombre.dat",
+  "sha256": "2bb509870fd4441602da3afd1b21e610502d800a0028995349c6900423f385cc",
+  "extractedAt": "2026-11-06T14:23:26.156Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier de données binaires / persistance pickle Bac SI: nombre.dat] — Support pour exercices de fichiers.",
+  "fullText": "[Fichier de données binaires / persistance pickle Bac SI: nombre.dat] — Support pour exercices de fichiers.",
+  "chunks": [
+    {
+      "chunkId": "DOC-2BB509870FD44416-CHK-001",
+      "text": "[Fichier de données binaires / persistance pickle Bac SI: nombre.dat] — Support pour exercices de fichiers."
+    }
+  ]
+}

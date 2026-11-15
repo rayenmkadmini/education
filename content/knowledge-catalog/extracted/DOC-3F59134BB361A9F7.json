@@ -1,0 +1,76 @@
+{
+  "documentId": "DOC-3F59134BB361A9F7",
+  "filename": "philo-20261106T124746Z-1-001.zip",
+  "sha256": "3f59134bb361a9f76ab6dda049c4a4d8c0ee0bed06c269569233667734ba7d0f",
+  "extractedAt": "2026-11-06T14:00:38.569Z",
+  "pageCount": 1,
+  "textSnippet": "Archive ZIP: philo-20261106T124746Z-1-001.zip Nombre d'éléments: 13",
+  "fullText": "Archive ZIP: philo-20261106T124746Z-1-001.zip\nNombre d'éléments: 13\n\n",
+  "zipEntries": [
+    {
+      "name": "philo/الإنية و الغيرية/05 - Exercice - الفرض العادي الأول.pdf",
+      "sizeBytes": 1398257,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الإنية و الغيرية/06- Exercice - الفرض التأليفي عدد 1.pdf",
+      "sizeBytes": 1399416,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/07 - Exercice - فرض تأليفي عدد 2.pdf",
+      "sizeBytes": 1390334,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/المنهجية/01 - Résumé - المنهجية.pdf",
+      "sizeBytes": 2085149,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/02 - Exercice - تمارين.pdf",
+      "sizeBytes": 1560564,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الإنية و الغيرية/02 - Exercice - تمارين.pdf",
+      "sizeBytes": 1634730,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/01 - Résumé - الدرس.pdf",
+      "sizeBytes": 3014679,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الإنية و الغيرية/03 - Résumé - نصوص.pdf",
+      "sizeBytes": 2241204,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/05 - Exercice - فرض مراقبة عدد 2.pdf",
+      "sizeBytes": 1400357,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/04 - Résumé - محاولات في مقالات فلسفية.pdf",
+      "sizeBytes": 4112672,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الخصوصية و الكونية/03 - Résumé - نصوص.pdf",
+      "sizeBytes": 2529384,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الإنية و الغيرية/04 - Résumé - محاولات في مقالات فلسفية.pdf",
+      "sizeBytes": 2993266,
+      "isDirectory": false
+    },
+    {
+      "name": "philo/الإنية و الغيرية/01 - Résumé - الدرس.pdf",
+      "sizeBytes": 3657249,
+      "isDirectory": false
+    }
+  ]
+}

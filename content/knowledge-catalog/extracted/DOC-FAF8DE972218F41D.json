@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-FAF8DE972218F41D",
+  "filename": "ex1s4.py",
+  "relPath": "bac info/Python/serie 4/ex1s4.py",
+  "sha256": "faf8de972218f41d43b3ed9cae42066f5ac32446e645d6ab9a0d8224b5f3667a",
+  "extractedAt": "2026-11-06T14:23:35.178Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir(): n=int(input(\"n= \")) return n def inconnue(n,i): if n%i != 0 and n//2==i: return True elif n%i==0: return False else: return inconnue(n,i+1) #pp n=saisir() print(inconnue(n,2))",
+  "fullText": "def saisir():\r\n    n=int(input(\"n= \"))\r\n    return n\r\n\r\ndef inconnue(n,i):\r\n    if n%i != 0 and n//2==i:\r\n        return True\r\n    elif n%i==0:\r\n        return False\r\n    else:\r\n        return inconnue(n,i+1)\r\n        \r\n#pp\r\nn=saisir()\r\nprint(inconnue(n,2))",
+  "chunks": [
+    {
+      "chunkId": "DOC-FAF8DE972218F41D-CHK-001",
+      "text": "def saisir():\r\n    n=int(input(\"n= \"))\r\n    return n\r\n\ndef inconnue(n,i):\r\n    if n%i != 0 and n//2==i:\r\n        return True\r\n    elif n%i==0:\r\n        return False\r\n    else:\r\n        return inconnue(n,i+1)\r\n\n#pp\r\nn=saisir()\r\nprint(inconnue(n,2))"
+    }
+  ]
+}

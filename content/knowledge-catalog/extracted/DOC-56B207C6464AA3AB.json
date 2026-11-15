@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-56B207C6464AA3AB",
+  "filename": "men ay base ll 10.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/test conversion/men ay base ll 10.py",
+  "sha256": "56b207c6464aa3ab8530c2104a55233a35eccea73f13b5248f9164e0370504e6",
+  "extractedAt": "2026-11-14T18:35:36.404Z",
+  "pageCount": 1,
+  "textSnippet": "def puis(xx,yy): if yy==0: return 1 else: return xx * puis(xx,yy-1) def conv_10(ch,b): s=0 for i in range(len(ch)): if \"0\"<=ch[i]<=\"9\": k=int(ch[i]) else: k=ord(ch[i])-55 s=s+k*puis(b,len(ch)-i-1) return s #---------------------------------------------- def conv_b(aa,bb): ch=\"\" while aa!=0: r=aa%bb if r<10: c=str(r) else: c=chr(r+55)",
+  "fullText": "def puis(xx,yy):\r\n    if yy==0:\r\n        return 1\r\n    else:\r\n        return xx * puis(xx,yy-1)\r\ndef conv_10(ch,b):\r\n    s=0\r\n    for i in range(len(ch)):\r\n        if \"0\"<=ch[i]<=\"9\":\r\n            k=int(ch[i])\r\n        else:\r\n            k=ord(ch[i])-55\r\n        s=s+k*puis(b,len(ch)-i-1)\r\n    return s\r\n#----------------------------------------------\r\ndef conv_b(aa,bb):\r\n    ch=\"\"\r\n    while aa!=0:\r\n        r=aa%bb\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        aa=aa//bb\r\n    return ch\r\naa=int(input(\"Donner la chaine a convertir:\"))\r\nbb=int(input(\"Donner la base a convertir:\"))\r\nprint(conv_b(aa,bb))\r\nch=input(\"Donner  chaine pour le convertir au base 10:\")\r\nb=int(input(\"Donner le base:\"))\r\nprint(conv_10(ch,b))",
+  "chunks": [
+    {
+      "chunkId": "DOC-56B207C6464AA3AB-CHK-001",
+      "text": "def puis(xx,yy):\r\n    if yy==0:\r\n        return 1\r\n    else:\r\n        return xx * puis(xx,yy-1)\r\ndef conv_10(ch,b):\r\n    s=0\r\n    for i in range(len(ch)):\r\n        if \"0\"<=ch[i]<=\"9\":\r\n            k=int(ch[i])\r\n        else:\r\n            k=ord(ch[i])-55\r\n        s=s+k*puis(b,len(ch)-i-1)\r\n    return s\r\n#----------------------------------------------\r\ndef conv_b(aa,bb):\r\n    ch=\"\"\r\n    while aa!=0:\r\n        r=aa%bb\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        aa=aa//bb\r\n    return ch\r\naa=int(input(\"Donner la chaine a convertir:\"))\r\nbb=int(input(\"Donner la base a convertir:\"))\r\nprint(conv_b(aa,bb))\r\nch=input(\"Donner  chaine pour le convertir au base 10:\")\r\nb=int(input(\"Donner le base:\"))\r\nprint(conv_10(ch,b))"
+    }
+  ]
+}

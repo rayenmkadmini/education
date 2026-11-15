@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7A6D64D455E45D7A",
+  "filename": "Test pour afficher un somme de deux nombres.html",
+  "relPath": "bac info/algo/Python/Prep Dvr Prat/Test pour afficher un somme de deux nombres.html",
+  "sha256": "7a6d64d455e45d7a744a74ffc0ca0e48b656c59e3b3ac99e5ddc77234b8e7851",
+  "extractedAt": "2026-11-14T18:35:36.504Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html> <head> <script type=\"text/javascript\"> function calcul(){ var v1=Number(document.f.z1.value); var v2=Number(document.f.z2.value); {alert(\"Le Resultat est : \" + (v1+v2));} } </script> <title>Calcul de Somme</title> </head> <body> <form name=\"f\"> <p>Valeur 1: <input type=\"text\" name=\"z1\"></p> <p>Valeur 2: <input type=\"text\" name=\"z2\"></p> <p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"calcul()\"> <input type=\"reset\" name=\"b2\" v",
+  "fullText": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction calcul(){\r\n\t\t\tvar v1=Number(document.f.z1.value);\r\n\t\t\tvar v2=Number(document.f.z2.value);\r\n\t\t\t{alert(\"Le Resultat est : \" + (v1+v2));}\r\n\t\t}\r\n\t</script>\r\n\t<title>Calcul de Somme</title>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Valeur 1: <input type=\"text\" name=\"z1\"></p>\r\n\t<p>Valeur 2: <input type=\"text\" name=\"z2\"></p>\r\n\t<p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"calcul()\"> <input type=\"reset\" name=\"b2\" value=\"Annuler\"></p>\r\n</form>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-7A6D64D455E45D7A-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<script type=\"text/javascript\">\r\n\t\tfunction calcul(){\r\n\t\t\tvar v1=Number(document.f.z1.value);\r\n\t\t\tvar v2=Number(document.f.z2.value);\r\n\t\t\t{alert(\"Le Resultat est : \" + (v1+v2));}\r\n\t\t}\r\n\t</script>\r\n\t<title>Calcul de Somme</title>\r\n</head>\r\n<body>\r\n\t<form name=\"f\">\r\n\t<p>Valeur 1: <input type=\"text\" name=\"z1\"></p>\r\n\t<p>Valeur 2: <input type=\"text\" name=\"z2\"></p>\r\n\t<p><input type=\"submit\" name=\"b1\" value=\"Calculer\" onclick=\"calcul()\"> <input type=\"reset\" name=\"b2\" value=\"Annuler\"></p>\r\n</form>\r\n</body>\r\n</html>"
+    }
+  ]
+}

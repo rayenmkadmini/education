@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.0.0",
+  "draftId": "DRAFT-COURS-BACSI-2026-409671",
+  "taskId": "BACSI-2026-409671",
+  "version": 4,
+  "createdAt": "2026-11-06T11:15:18.823Z",
+  "updatedAt": "2026-11-06T12:25:09.401Z",
+  "status": "DRAFT",
+  "subject": "Algorithmique et Programmation",
+  "chapter": "Structures de Données Simples et Composées",
+  "academicYear": "2026-2027",
+  "contentType": "COURS",
+  "totalPoints": 20,
+  "isOfficialBac": true,
+  "provenance": {
+    "generatedBy": "Antigravity Educational AI",
+    "sourcesCited": [
+      {
+        "document": "Algorithmique_et_programmation__Seance_de_8h30_Sciences_de_linformatique__Algorithmique_et_programmation_2026_samedi_23_mai_2026.pdf",
+        "page": 1,
+        "section": "VERIFIED_OFFICIAL_EXAM : Épreuve pratique officielle Bac SI 2026"
+      },
+      {
+        "document": "bac-pratique-23052026-algo-8h30-fichiers.zip",
+        "page": 1,
+        "section": "VERIFIED_OFFICIAL_EXAM : Squelette Python officiel AjoutObjet.py et Manip.py"
+      },
+      {
+        "document": "Programme Officiel 4ème SI — Ministère de l'Éducation",
+        "page": 1,
+        "section": "CURRICULUM_OFFICIAL_CNP : Structures de données simples et composées"
+      }
+    ],
+    "verifiedCurriculum": true
+  },
+  "header": {
+    "institution": "République Tunisienne — Ministère de l'Éducation",
+    "sessionLabel": "Cours Magistral Interactif — Section Sciences de l'Informatique",
+    "duration": "2h00",
+    "coefficient": 3
+  },
+  "exercises": [
+    {
+      "id": "cours-sec-1",
+      "number": 1,
+      "title": "Module 1 : Chma3naha Enregistrement ? (Modélisation Conceptuelle & TDO)",
+      "points": 5,
+      "statementMarkdown": "### 1.1 El Mochkla : 3lesh les types simples ma ykattiwsh ?\n\nAslema bikom ya jme3et el 4ème SI !\nKima ta3rfou men 3ème SI, l9ina les types standards scalaires kima `entier`, `réel`, `booléen`, `caractère`, w les types composés kima `chaine` w `tableau`.\nAma f'denya el wa9e3ya w fil machari3 mte3 l'Informatique, ma nakhdmoush b'données isolées.\nMethel men sujet el **Bac Pratique 2026 (Séance 8h30)** :\n> 3andna musée y7eb yjeri el stock mte3 les **objets archéologiques**. Kol objet 3andou :\n> - `code` : chaîne (ex: \"OBJ101\")\n> - `designation` : chaîne (ex: \"Amphore punique\")\n> - `qte_romain` : chaîne (ex: \"XLVI\")\n> - `qte_decimal` : entier (ex: 46)\n\nKan bech nesta3mlou des tableaux séparés (`T_code`, `T_desig`, `T_qte`), ywali 3andna risque kbir mte3 désynchronisation wa9t el tri walla el suppression !\nHouni yji concept el **Enregistrement (Record)**.\n\n---\n\n### 1.2 Définition Formelle & Pseudocode Officiel Tunisien\n\n> **Définition :** Un **enregistrement** est une structure de données composite, statique et **hétérogène**, formée d'un ensemble fini d'éléments appelés **champs** (fields). Chaque champ possède un nom (identificateur) et un type spécifique.\n\nFil notation algorithmique officielle mte3 el Baccalauréat tunisien, n3arfou el type fil partie déclaration kima hakka :\n\n```text\nType\n    ObjetArcheo = Enregistrement\n        code        : chaîne\n        designation : chaîne\n        qte_romain  : chaîne\n        qte_decimal : entier\n    Fin\n```\n\nFil **TDO (Tableau de Déclaration des Objets)** :\n| Objet | Type / Nature | Rôle |\n| :--- | :--- | :--- |\n| `obj` | `ObjetArcheo` | Variable de type enregistrement représentant une pièce de musée |\n| `T` | `Tableau de N ObjetArcheo` | Tableau contenant les enregistrements |\n\nPour accéder à un champ spécifique, on utilise l'opérateur point (`.`) :\n```text\nobj.code <- \"OBJ101\"\nobj.designation <- \"Amphore punique\"\nobj.qte_decimal <- 46\n```\n\n---\n\n### 1.3 Traduction Python 3 Conforme au Bac Tunisien\n\nF'Python standard (environnement **Thonny** recommandé par le Ministère), la structure d'enregistrement est canoniquement implémentée sous forme de **dictionnaire** :\n\n```python\n# Création d'un enregistrement sous forme de dictionnaire Python\nobj = {\n    'code': \"OBJ101\",\n    'designation': \"Amphore punique\",\n    'qte_romain': \"XLVI\",\n    'qte_decimal': 46\n}\n\n# Accès et modification d'un champ :\nprint(\"Désignation :\", obj['designation'])\nobj['qte_decimal'] = 50\n```\n\n> [!TIP]\n> **Conseil Bac :** Fil épreuve pratique, ma tbadalsh les noms des clés ('code', 'designation', etc.) elli ya3tihomlek fil énoncé ! El correction automatique tthabet bel les clés exactes.",
+      "solutionMarkdown": "**Synthèse Pédagogique du Module 1 :**\n1. L'enregistrement regroupe des champs de types différents sous une même entité logique.\n2. En pseudocode : syntaxe `Type ... = Enregistrement ... Fin`.\n3. En Python : dictionnaire `{'cle': valeur}` avec accès indexé `obj['cle']`.",
+      "gradingCriteria": [
+        {
+          "id": "crit-m1-1",
+          "description": "Compréhension de l'hétérogénéité de l'enregistrement",
+          "points": 2.5
+        },
+        {
+          "id": "crit-m1-2",
+          "description": "Conformité de la syntaxe TDO et dictionnaire Python",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "id": "cours-sec-2",
+      "number": 2,
+      "title": "Module 2 : La Persistance — Fichiers Binaires & Module pickle",
+      "points": 5,
+      "statementMarkdown": "### 2.1 3lesh les Fichiers de Données ? (Mémoire Volatile vs Permanente)\n\nKi nruniw un script Python w n3abiw liste mte3 objets, les données yo93dou mawjoudin fil **RAM** (mémoire vive).\nMellé nsakrou el programme walla t9oss el dhou, **les données el koll yetfasskhou !**\nBech nkhalliw les données yo93dou dima mawjoudin, lezmna na3mloulhom la **persistance** fi fichier 3al disque dur (mémoire de masse).\n\nFil Bac SI, pour enregistrer des objets complexes (dictionnaires/enregistrements), on utilise le module standard officiel : **`pickle`**.\n\n---\n\n### 2.2 Les Modes d'Ouverture des Fichiers Binaires\n\nFil fonction `open(\"chemin\", mode)`, lezm dima nzidou la lettre **`b`** (binary) :\n1. **`\"wb\"` (Write Binary) :** Écriture men jdid. Si le fichier existe, il est écrasé (effacé à zéro). Si le fichier n'existe pas, il est créé.\n2. **`\"ab\"` (Append Binary) :** Ajout en fin de fichier. Si le fichier existe, les nouveaux objets sont écrits après les anciens sans rien effacer. S'il n'existe pas, il est créé. **(C'est le mode le plus utilisé fil Bac pratique pour ajouter un nouvel enregistrement !)**\n3. **`\"rb\"` (Read Binary) :** Lecture seule. Le fichier doit impérativement exister sur le disque, sinon Python déclenche une exception `FileNotFoundError`.\n\n---\n\n### 2.3 Écriture d'un Enregistrement avec `pickle.dump()`\n\nKifeh nkaydou un objet fil fichier ?\n```python\nfrom pickle import dump\n\ndef enregistrer_objet(nom_fichier: str, obj: dict) -> None:\n    # 1. Ouvrir le fichier en mode ajout binaire (\"ab\")\n    f = open(nom_fichier, \"ab\")\n    \n    # 2. Sérialiser et écrire l'objet avec dump(objet, fichier)\n    dump(obj, f)\n    \n    # 3. Fermer impérativement le fichier !\n    f.close()\n```\n\n---\n\n### 2.4 Le Motif Canonique de Lecture jusqu'à la Fin de Fichier (`EOFError`)\n\n> [!IMPORTANT]\n> **Règle d'or du Bac SI :** Dans un fichier binaire sérialisé avec `pickle`, il n'y a pas de fonction `feof()` directe !\n> Lorsque `load(f)` arrive à la fin du fichier, Python lève automatiquement l'exception **`EOFError`** (End Of File Error).\n> Le candidat doit obligatoirement maîtriser la boucle infinie `while True` sécurisée par un bloc `try ... except EOFError: break`.\n\nVoici le code standard officiel à connaître par cœur :\n\n```python\nfrom pickle import load\n\ndef charger_tous_les_objets(nom_fichier: str) -> list:\n    objets = []\n    \n    # 1. Ouvrir en mode lecture binaire (\"rb\")\n    f = open(nom_fichier, \"rb\")\n    \n    # 2. Boucle de lecture jusqu'à la fin de fichier\n    while True:\n        try:\n            e = load(f)          # Lit un enregistrement\n            objets.append(e)     # L'ajoute à la liste en mémoire\n        except EOFError:\n            break               # Sortie propre de la boucle dès qu'on atteint la fin\n            \n    # 3. Fermer le fichier\n    f.close()\n    \n    return objets\n```\n\n> [!NOTE]\n> **Comportement sur fichier vide (0 octet) :**  \n> Si le fichier est vide (taille 0 octet), le tout premier appel à `load(f)` lève immédiatement `EOFError`. Le bloc `except` intercepte l'erreur, quitte la boucle via `break` et la fonction retourne proprement la liste vide `[]` sans planter !\n\n---\n\n### 2.5 ALERTE DE SÉCURITÉ CRUCIALE : LES DANGERS DU MODULE PICKLE\n\n> [!CAUTION]\n> **Avertissement de Sécurité Informatique (Culture Cybersécurité Bac SI) :**  \n> En environnement professionnel et sur le Web, **le module `pickle` ne doit JAMAIS être utilisé pour charger des fichiers d'origine inconnue ou non fiable !**  \n> \n> **Pourquoi ?**  \n> La désérialisation par `pickle.load()` n'est pas sécurisée : un fichier malveillant spécialement forgé peut exécuter du code arbitraire sur votre machine (RCE - Remote Code Execution) dès son ouverture, par exemple en exécutant des commandes système via le mécanisme `__reduce__`.  \n> \n> **Bonnes pratiques professionnelles :**\n> - Pour échanger des données sur Internet ou entre applications Web : on utilise exclusivement des formats de sérialisation stricts et neutres comme le **JSON** (`json.loads`, `json.dumps`) ou des bases de données SQL / SQLite.\n> - Dans le cadre scolaire du Baccalauréat tunisien : `pickle` est utilisé sur l'ordinateur de l'élève en local comme outil pédagogique pour simuler les fichiers d'enregistrements du programme officiel.",
+      "solutionMarkdown": "**Synthèse Pédagogique du Module 2 :**\n1. Toujours spécifier le `b` dans les modes d'ouverture (`\"ab\"`, `\"rb\"`, `\"wb\"`).\n2. `dump(donnee, f)` pour écrire, `load(f)` pour lire.\n3. Toujours utiliser `try: load(f) except EOFError: break` pour lire jusqu'au bout sans planter le programme.\n4. Ne jamais oublier `f.close()` pour libérer le fichier sur le système d'exploitation.",
+      "gradingCriteria": [
+        {
+          "id": "crit-m2-1",
+          "description": "Maîtrise des modes d'ouverture binaire",
+          "points": 2.5
+        },
+        {
+          "id": "crit-m2-2",
+          "description": "Gestion parfaite de l'exception EOFError",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "id": "cours-sec-3",
+      "number": 3,
+      "title": "Module 3 : Algorithmes Fondamentaux sur Tableaux d'Enregistrements",
+      "points": 5,
+      "statementMarkdown": "### 3.1 Tri d'un Tableau d'Enregistrements (Tri par Sélection Multi-Critères)\n\nFil sujet officiel du **Bac Pratique 2026**, ba3d ma nchargez les objets mel fichier, el matloub howa :\n> *Afficher de manière triée les objets enregistrés selon leur quantité décroissante. En cas d'égalité sur la quantité, ordonner selon la désignation croissante.*\n\nKifeh ntriw un tableau d'enregistrements `T` selon plusieurs critères ?\nEl principe howa nafssou el **Tri par sélection**, ama fil comparaison, n9arnou le premier critère (`qte_decimal`), w ken famma égalité n9arnou le deuxième critère (`designation`).\nW fil permutation, **npermutiw tout l'enregistrement** (mouch juste la quantité !) :\n\n```python\ndef tri_selection_multi_criteres(T: list) -> None:\n    n = len(T)\n    for i in range(n - 1):\n        pos_max = i\n        for j in range(i + 1, n):\n            # Critère 1 : quantité décroissante\n            if T[j]['qte_decimal'] > T[pos_max]['qte_decimal']:\n                pos_max = j\n            # Critère 2 : égalité -> ordre alphabétique croissant de la désignation\n            elif (T[j]['qte_decimal'] == T[pos_max]['qte_decimal']) and (T[j]['designation'] < T[pos_max]['designation']):\n                pos_max = j\n        \n        # Permutation globale des deux enregistrements si nécessaire\n        if pos_max != i:\n            T[i], T[pos_max] = T[pos_max], T[i]\n```\n\n> [!WARNING]\n> **Erreur fatale d'élève :** Écrire `T[i]['qte_decimal'], T[pos_max]['qte_decimal'] = ...` !\n> Si vous faites ça, vous permutez seulement les quantités en laissant les désignations et les codes à leur place ! Les données deviennent totalement fausses et mélangées !\n> On permute **toujours** l'objet entier : `T[i], T[pos_max] = T[pos_max], T[i]`.\n\n---\n\n### 3.2 La Condition Préalable Obligatoire de la Recherche Dichotomique\n\n> [!CAUTION]\n> **PIÈGE FONDAMENTAL D'ALGORITHMIQUE :**\n> La recherche dichotomique compare l'élément recherché avec l'élément au milieu `T[mil]` et élimine la moitié gauche ou droite.\n> **Cette logique n'est valide QUE SI et SEULEMENT SI le tableau est trié selon LA CLÉ DE RECHERCHE EXACTE !**\n\nSi le tableau `T` a été trié par quantité décroissante `qte_decimal`, les codes `code` sont dans le désordre le plus complet.\nSi l'on exécute une recherche dichotomique sur le `code` sur ce tableau, **la recherche dichotomique échouera et renverra -1 même si l'objet existe bel et bien dans le tableau !**\n\n**Règle d'or :**\n- Pour rechercher un objet par son `code` avec la recherche dichotomique $\\mathcal{O}(\\log_2 N)$ : le tableau doit obligatoirement être ordonné selon `code` (via une procédure `TrierParCode(T)`).\n- Si le tableau n'est pas trié selon le code, on doit soit le trier au préalable par code, soit utiliser une **recherche séquentielle** en temps linéaire $\\mathcal{O}(N)$.\n\n```python\ndef trier_par_code(T: list) -> None:\n    \"\"\"Trie le tableau par ordre croissant du champ 'code'.\"\"\"\n    n = len(T)\n    for i in range(n - 1):\n        pos_min = i\n        for j in range(i + 1, n):\n            if T[j]['code'] < T[pos_min]['code']:\n                pos_min = j\n        if pos_min != i:\n            T[i], T[pos_min] = T[pos_min], T[i]\n\ndef recherche_dichotomique_objet_code(T: list, code_cherche: str) -> int:\n    \"\"\"Recherche dichotomique sur tableau IMPÉRATIVEMENT trié par 'code'.\"\"\"\n    deb = 0\n    fin = len(T) - 1\n    \n    while deb <= fin:\n        mil = (deb + fin) // 2\n        if T[mil]['code'] == code_cherche:\n            return mil  # Objet trouvé à l'indice mil\n        elif T[mil]['code'] < code_cherche:\n            deb = mil + 1\n        else:\n            fin = mil - 1\n            \n    return -1  # Non trouvé\n```\n\n---\n\n### 3.3 Traitement des Nombres Romains selon le Sujet Officiel du Bac 2026\n\nFil épreuve pratique officielle du **Bac 2026 (Séance 8h30)**, la consigne ministérielle est claire et directe :\n> *\"On supposera qu’un nombre romain est une chaine de caractères non vide, composée de chiffres romains choisis uniquement parmi les lettres suivantes : I, V, X, L, C, D et M et qu’elle ne contient pas plus de trois lettres identiques consécutives.\"*\n\nEn Python standard de 4ème SI (environnement Thonny, **sans aucune bibliothèque externe**) :\n1. On vérifie que chaque caractère appartient à la chaîne autorisée `\"IVXLCDM\"`.\n2. On vérifie qu'aucun quadruplet identique n'apparaît avec une simple boucle : `ch[i] == ch[i+1] == ch[i+2] == ch[i+3]`.\n3. Pour la conversion en décimal : on utilise un dictionnaire de correspondances et on compare `valeurs[ch[i]]` avec `valeurs[ch[i+1]]`.",
+      "solutionMarkdown": "**Synthèse Pédagogique du Module 3 :**\n1. Dans un tri d'enregistrements, la comparaison se fait sur un champ (`T[j]['cle']`), mais la permutation s'applique à l'enregistrement entier (`T[i], T[j] = T[j], T[i]`).\n2. La recherche dichotomique exige impérativement que le tableau soit préalablement ordonné selon la clé exacte de recherche.\n3. La validation canonique des nombres romains précède obligatoirement toute conversion décimale.",
+      "gradingCriteria": [
+        {
+          "id": "crit-m3-1",
+          "description": "Application rigoureuse de la permutation globale",
+          "points": 2.5
+        },
+        {
+          "id": "crit-m3-2",
+          "description": "Compréhension de la condition préalable du tri pour la recherche dichotomique",
+          "points": 2.5
+        }
+      ]
+    },
+    {
+      "id": "cours-sec-4",
+      "number": 4,
+      "title": "Module 4 : Pièges Classiques du Bac, Fiche Résumé & Lexique Bilingue",
+      "points": 5,
+      "statementMarkdown": "### 4.1 Les 5 Pièges Éliminatoires à Éviter au Bac SI\n\n1. **Oublier le mode binaire :** Faire `open(\"fich.dat\", \"a\")` au lieu de `\"ab\"`. Python lèvera une exception `TypeError` car `dump` n'accepte que des flux binaires !\n2. **Utiliser `readline()` ou `readlines()` sur un fichier pickle :** `pickle` enregistre des octets binaires sérialisés, pas du texte brut ! Ces méthodes ne fonctionnent pas sur les fichiers typés.\n3. **Oublier de fermer le fichier (`f.close()`) :** Le fichier reste verrouillé par le système d'exploitation et les données risquent de ne pas être écrites physiquement sur le disque.\n4. **Appliquer la recherche dichotomique sur un tableau trié selon une autre clé :** Ce piège détruit la logique algorithmique et renvoie des faux négatifs.\n5. **Ne pas intercepter `EOFError` :** Votre programme plantera dès qu'il finira de lire le fichier, entraînant la perte des points de fonctionnement !\n\n---\n\n### 4.2 Fiche Résumé / Cheat-Sheet Express\n\n```python\n# 1. Enregistrement = Dictionnaire\neleve = {'cin': \"12345678\", 'nom': \"Ali\", 'moyenne': 16.5}\n\n# 2. Écriture (Ajout)\nfrom pickle import dump, load\nf = open(\"donnees.dat\", \"ab\")\ndump(eleve, f)\nf.close()\n\n# 3. Lecture Complète avec gestion EOFError\nf = open(\"donnees.dat\", \"rb\")\ntous = []\nwhile True:\n    try:\n        tous.append(load(f))\n    except EOFError:\n        break\nf.close()\n```\n\n---\n\n### 4.3 Lexique Bilingue Officiel (Français — Arabe)\n\n| Terme Français | Équivalent Arabe Officiel | Définition Didactique |\n| :--- | :--- | :--- |\n| **Enregistrement** | **تسجيلة / قيد** | Structure composite hétérogène regroupant plusieurs attributs. |\n| **Champ** | **حقل** | Composante élémentaire d'un enregistrement dotée d'un type précis. |\n| **Persistance** | **استدامة البيانات** | Conservation des données sur support de stockage permanent. |\n| **Fichier typé / binaire** | **ملف مهيكل / ثنائي** | Fichier stockant des données structurées sérialisées. |\n| **Fin de fichier (EOF)** | **نهاية الملف** | Condition indiquant qu'il n'y a plus d'octets à lire dans le fichier. |\n| **Sérialisation (`dump`)** | **تسلسل البيانات** | Transformation d'un objet mémoire en flux d'octets enregistrable. |\n| **Recherche dichotomique** | **بحث ثنائي / تناصف** | Algorithme de recherche en complexité logarithmique sur données triées. |\n\n---\n\n### 4.4 Questions d'Auto-Évaluation Rapide\n\n1. **Question 1 :** Quelle est la différence fondamentale entre un tableau et un enregistrement ?\n2. **Question 2 :** Quel mode d'ouverture devez-vous choisir pour insérer un nouvel enregistrement sans supprimer les précédents ?\n3. **Question 3 :** Quelle exception est levée lorsque la fonction `load(f)` arrive au bout d'un fichier `pickle` ?\n4. **Question 4 :** Pourquoi la recherche dichotomique sur le code échoue-t-elle sur un tableau trié par quantité décroissante ?",
+      "solutionMarkdown": "**Réponses aux Questions d'Auto-Évaluation :**\n1. Un tableau est une structure **homogène** (tous les éléments ont obligatoirement le même type). Un enregistrement est une structure **hétérogène** (les champs peuvent avoir des types différents).\n2. Le mode d'ouverture est l'ajout binaire : **`\"ab\"`**.\n3. L'exception levée est **`EOFError`** (End Of File Error).\n4. La recherche dichotomique repose sur la relation d'ordre. Si le tableau est trié selon la quantité, les codes ne sont pas monotones ; tester le milieu `T[mil]['code']` ne permet donc pas d'éliminer la moitié gauche ou droite.",
+      "gradingCriteria": [
+        {
+          "id": "crit-m4-1",
+          "description": "Identification des erreurs classiques et syntaxe",
+          "points": 2.5
+        },
+        {
+          "id": "crit-m4-2",
+          "description": "Exactitude des réponses d'auto-évaluation",
+          "points": 2.5
+        }
+      ]
+    }
+  ]
+}

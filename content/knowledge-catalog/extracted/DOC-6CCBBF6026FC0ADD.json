@@ -1,0 +1,9 @@
+{
+  "documentId": "DOC-6CCBBF6026FC0ADD",
+  "filename": "Question.txt",
+  "sha256": "6ccbbf6026fc0adda09169c45f34c5bbb93c7837770b53d42fcb9f1f4dbf9bcb",
+  "extractedAt": "2026-11-06T13:58:04.344Z",
+  "pageCount": 1,
+  "textSnippet": "Ecrire un programme javascript qui permet générér un mot de passe à partir de votre nom et prenom en utilisant un formulaire comme le montre l'image \"maquette.png\". le mot de passe sera généré comme suit : - la moitité du nom - suivi du nombre de lettre du nom - suivi la moitité du prénom - suivi du nombre de lettre du prénom Enregistrer le programme sous le nom \"mot-de-passe.html\" dans le dossier \"Activité 9\" dans votre dossier de travail",
+  "fullText": "Ecrire un programme javascript qui permet générér un mot de passe à partir de votre nom et prenom\r\nen utilisant un formulaire comme le montre l'image \"maquette.png\".\r\n\r\nle mot de passe sera généré comme suit : \r\n\t- la moitité du nom \r\n\t- suivi du nombre de lettre du nom\r\n\t- suivi la moitité du prénom \r\n\t- suivi du nombre de lettre du prénom\r\n\r\nEnregistrer le programme sous le nom \"mot-de-passe.html\" dans le dossier \"Activité 9\" dans votre dossier de travail\r\n"
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-489D905977787A2F",
+  "filename": "Ex7serie7.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 7/Ex7serie7.docx",
+  "sha256": "489d905977787a2f9c6b74aaa880c7d96362e4f9548c497af11b82c68257e795",
+  "extractedAt": "2026-11-06T14:24:40.097Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex7serie7 Résultat= PROC affiche ( T ,n ) T ,n = PROC trait ( msg,t,n ) msg = PROC saisie( msg ) Fin Ex7serie7 ____________________________________________________________________ DEF PROC saisie ( var msg :chaine ) Répeter Lire( msg ) Jusqu’à (FN verif ( msg )=vrai) et( msg <>\"\") Fin saisie ____________________________________________________________________ DEF FN verif ( msg : chaine ): booleen i ← 0 Répeter i ← i+1 ok ← maj",
+  "fullText": "Nom : Ex7serie7\n\nRésultat= PROC affiche (\n\nT\n\n,n\n\n)\n\nT\n\n,n\n\n=  PROC trait (\n\nmsg,t,n\n\n)\n\nmsg\n\n= PROC \n\nsaisie(\n\nmsg\n\n)\n\nFin Ex7serie7\n\n____________________________________________________________________\n\nDEF PROC saisie \n\n( var\n\nmsg\n\n :chaine )\n\nRépeter\n\nLire(\n\nmsg\n\n)\n\nJusqu’à (FN \n\nverif\n\n(\n\nmsg\n\n)=vrai) et(\n\nmsg\n\n<>\"\")\n\nFin saisie\n\n____________________________________________________________________\n\nDEF FN \n\nverif\n\n ( \n\nmsg\n\n :\n\nchaine\n\n ):\n\nbooleen\n\ni ← 0 \n\nRépeter\n\ni\n\n ← i+1\n\n   ok ← \n\nmajus\n\n(\n\nmsg\n\n[i]) dans [\"A\"..\"Z\"]\n\nJusqu’à (ok=faux) ou (i=\n\nlong(\n\nmsg\n\n)) \n\nVerif\n\n ← ok\n\nFin \n\nverif\n\n____________________________________________________________________\n\nDEF PROC trait \n\n( \n\nmsg:chaine\n\n ; var T:tab ; var n:entier)\n\nPour I de 1 à n faire\n\n   T[\n\ni\n\n] ← \n\nord\n\n(\n\nmajus\n\n(\n\nmsg\n\n[\n\ni\n\n]))-64\n\nFin pour\n\nPour i de 1 à n faire\n\n   T[i] ← FN \n\npuiss\n\n(T[i]) \n\nmod\n\n (p*q)\n\nFin pour\n\nFin trait\n\n-285750-133350",
+  "chunks": [
+    {
+      "chunkId": "DOC-489D905977787A2F-CHK-001",
+      "text": "Nom : Ex7serie7\n\nRésultat= PROC affiche (\n\nT\n\n,n\n\n)\n\nT\n\n,n\n\n=  PROC trait (\n\nmsg,t,n\n\n)\n\nmsg\n\n= PROC \n\nsaisie(\n\nmsg\n\n)\n\nFin Ex7serie7\n\n____________________________________________________________________\n\nDEF PROC saisie \n\n( var\n\nmsg\n\n :chaine )\n\nRépeter\n\nLire(\n\nmsg\n\n)\n\nJusqu’à (FN \n\nverif\n\n(\n\nmsg\n\n)=vrai) et(\n\nmsg\n\n<>\"\")\n\nFin saisie\n\n____________________________________________________________________\n\nDEF FN \n\nverif\n\n ( \n\nmsg\n\n :\n\nchaine\n\n ):\n\nbooleen\n\ni ← 0 \n\nRépeter\n\ni\n\n ← i+1\n\n   ok ← \n\nmajus\n\n(\n\nmsg\n\n[i]) dans [\"A\"..\"Z\"]\n\nJusqu’à (ok=faux) ou (i=\n\nlong(\n\nmsg\n\n)) \n\nVerif\n\n ← ok\n\nFin \n\nverif\n\n____________________________________________________________________\n\nDEF PROC trait \n\n( \n\nmsg:chaine\n\n ; var T:tab ; var n:entier)\n\nPour I de 1 à n faire\n\n   T[\n\ni\n\n] ← \n\nord\n\n(\n\nmajus\n\n(\n\nmsg\n\n["
+    },
+    {
+      "chunkId": "DOC-489D905977787A2F-CHK-002",
+      "text": "i\n\n]))-64\n\nFin pour\n\nPour i de 1 à n faire\n\n   T[i] ← FN \n\npuiss\n\n(T[i]) \n\nmod\n\n (p*q)\n\nFin pour\n\nFin trait\n\n-285750-133350"
+    }
+  ]
+}

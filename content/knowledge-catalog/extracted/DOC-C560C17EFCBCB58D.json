@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-C560C17EFCBCB58D",
+  "filename": "Triangle Pascal.py",
+  "relPath": "bac info/algo/Python/Triangle Pascal.py",
+  "sha256": "c560c17efcbcb58d691f2285cac5ee470db30e3d472876967c67a154cc3f9c3c",
+  "extractedAt": "2026-11-14T18:35:36.571Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array def saisir(): n=int(input(\"Donner N: \")) while not 3<=n<20: n=int(inpu t(\"Donner N: \")) return n def triangle(n): M=array([[int()]*n]*n) #Initialiser la matrice par 0 for i in range(n): for j in range(n): M[i,j]=0 #Remplissage de la colonne 0 for i in range(n): M[i,0]=1 #Remplissage de la reste de la matrice for i in range(1,n): for j in range(1,n): M[i,j]=M",
+  "fullText": "from numpy import array\r\ndef saisir():\r\n    n=int(input(\"Donner N: \"))\r\n    while not 3<=n<20:\r\n        n=int(inpu t(\"Donner N: \"))\r\n    return n\r\n\r\ndef triangle(n):\r\n    M=array([[int()]*n]*n)\r\n    #Initialiser la matrice par 0\r\n    for i in range(n):\r\n        for j in range(n):\r\n            M[i,j]=0\r\n    #Remplissage de la colonne 0\r\n    for i in range(n):\r\n        M[i,0]=1\r\n    #Remplissage de la reste de la matrice\r\n    for i in range(1,n):\r\n        for j in range(1,n):\r\n            M[i,j]=M[i-1,j] + M[i-1,j-1]\r\n    return M\r\n            \r\ndef afficher(M,n):\r\n    for i in range(n):\r\n        for j in range(n):\r\n            print(M[i,j], end=\" | \")\r\n        print()\r\n            \r\n            \r\n#programme Principale\r\nn=saisir()\r\nM=triangle(n)\r\nafficher(M,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-C560C17EFCBCB58D-CHK-001",
+      "text": "from numpy import array\r\ndef saisir():\r\n    n=int(input(\"Donner N: \"))\r\n    while not 3<=n<20:\r\n        n=int(inpu t(\"Donner N: \"))\r\n    return n\r\n\ndef triangle(n):\r\n    M=array([[int()]*n]*n)\r\n    #Initialiser la matrice par 0\r\n    for i in range(n):\r\n        for j in range(n):\r\n            M[i,j]=0\r\n    #Remplissage de la colonne 0\r\n    for i in range(n):\r\n        M[i,0]=1\r\n    #Remplissage de la reste de la matrice\r\n    for i in range(1,n):\r\n        for j in range(1,n):\r\n            M[i,j]=M[i-1,j] + M[i-1,j-1]\r\n    return M\r\n\ndef afficher(M,n):\r\n    for i in range(n):\r\n        for j in range(n):\r\n            print(M[i,j], end=\" | \")\r\n        print()\r\n\n#programme Principale\r\nn=saisir()\r\nM=triangle(n)\r\nafficher(M,n)"
+    }
+  ]
+}

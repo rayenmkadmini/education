@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-CF1987FAE170DFD9",
+  "filename": "ex8.py",
+  "relPath": "bac info/Python/cours reccurent/ex6 rob/ex8.py",
+  "sha256": "cf1987fae170dfd902e879b7b0b6b94569e6fbe9a5235a2ce6de86ce654c23cf",
+  "extractedAt": "2026-11-06T14:23:24.833Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import array #pp print(\"1:remplire matrice\") print(\"2:affiche matrice\") print(\"3:verif magique\") print(\"4:quitter\") choix=int(input(\"choix=\")) while not 1<choix<4: int(input(\"choix=\")",
+  "fullText": "from numpy import array\r\n\r\n\r\n\r\n\r\n\r\n#pp\r\nprint(\"1:remplire matrice\")\r\nprint(\"2:affiche matrice\")\r\nprint(\"3:verif magique\")\r\nprint(\"4:quitter\")\r\nchoix=int(input(\"choix=\"))\r\nwhile not 1<choix<4:\r\n    int(input(\"choix=\")\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-CF1987FAE170DFD9-CHK-001",
+      "text": "from numpy import array\r\n\n#pp\r\nprint(\"1:remplire matrice\")\r\nprint(\"2:affiche matrice\")\r\nprint(\"3:verif magique\")\r\nprint(\"4:quitter\")\r\nchoix=int(input(\"choix=\"))\r\nwhile not 1<choix<4:\r\n    int(input(\"choix=\")"
+    }
+  ]
+}

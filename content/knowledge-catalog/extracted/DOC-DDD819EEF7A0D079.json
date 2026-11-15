@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-DDD819EEF7A0D079",
+  "filename": "location.php",
+  "relPath": "bac info/sti/Ressources bac 2023 sti pratique/location.php",
+  "sha256": "ddd819eef7a0d079d178aad3e64a9b3e6c5d011b77c9e9953ec59f4fa0ce6e8c",
+  "extractedAt": "2026-11-06T14:24:10.738Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); $codehab=$_POST[\"codehab\"]; $cin=$_POST[\"cin\"]; $duree=$_POST[\"duree\"]; $date=date(\"Y-m-d\"); $req1=\"SELECT * from habit where codeHab='$codehab'\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur2\".mysqli_error($cnx)); if(mysqli_num_rows($res1)==0){ die(\"Erreur : habit inexistant \"); } $req2=\"SELECT * from habit where codeHab='$codehab' and disponible=='N' \"; $res2=mysqli_query($cnx,$req2) or die(\"erreur3\".mysqli_error($cnx)); if(mysqli_num_r",
+  "fullText": "<?php\r\nrequire(\"connexion.php\");\r\n\r\n\r\n$codehab=$_POST[\"codehab\"];\r\n$cin=$_POST[\"cin\"];\r\n$duree=$_POST[\"duree\"];\r\n$date=date(\"Y-m-d\");\r\n\r\n$req1=\"SELECT * from habit where codeHab='$codehab'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\"Erreur : habit inexistant \");\r\n}\r\n\r\n$req2=\"SELECT * from habit where codeHab='$codehab' and disponible=='N' \";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur3\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res2)!=0){\r\n    die(\"Erreur : habit deja louée \");\r\n}  \r\n\r\n$req3=\"SELECT * from client where cin='$cin'  \";\r\n$res3=mysqli_query($cnx,$req2) or die(\"erreur4\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res3)==0){\r\n    die(\"Erreur : client inexistant \");\r\n}  \r\n\r\n$req4=\"INSERT INTO location values('$date','$codehab','$cin','$duree') \";\r\n$res4=mysqli_query($cnx,$req4) or die(\"erreur 5\".mysqli_error($cnx));\r\n\r\n$req5=\"UPDATE habit set disponible='N' where codeHab='$codehab'\";\r\n$res5=mysqli_query($cnx,$req5) or die(\"erreur 6\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\"Location effectuée avec succés\");\r\n    echo(\"mise à jour effectuée avec succés\");\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-DDD819EEF7A0D079-CHK-001",
+      "text": "<?php\r\nrequire(\"connexion.php\");\r\n\n$codehab=$_POST[\"codehab\"];\r\n$cin=$_POST[\"cin\"];\r\n$duree=$_POST[\"duree\"];\r\n$date=date(\"Y-m-d\");\r\n\n$req1=\"SELECT * from habit where codeHab='$codehab'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)==0){\r\n    die(\"Erreur : habit inexistant \");\r\n}\r\n\n$req2=\"SELECT * from habit where codeHab='$codehab' and disponible=='N' \";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur3\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res2)!=0){\r\n    die(\"Erreur : habit deja louée \");\r\n}  \r\n\n$req3=\"SELECT * from client where cin='$cin'  \";\r\n$res3=mysqli_query($cnx,$req2) or die(\"erreur4\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res3)==0){\r\n    die(\"Erreur : client inexistant \");\r\n}"
+    },
+    {
+      "chunkId": "DOC-DDD819EEF7A0D079-CHK-002",
+      "text": "$req4=\"INSERT INTO location values('$date','$codehab','$cin','$duree') \";\r\n$res4=mysqli_query($cnx,$req4) or die(\"erreur 5\".mysqli_error($cnx));\r\n\n$req5=\"UPDATE habit set disponible='N' where codeHab='$codehab'\";\r\n$res5=mysqli_query($cnx,$req5) or die(\"erreur 6\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\"Location effectuée avec succés\");\r\n    echo(\"mise à jour effectuée avec succés\");\r\n}\r\n\n?>"
+    }
+  ]
+}

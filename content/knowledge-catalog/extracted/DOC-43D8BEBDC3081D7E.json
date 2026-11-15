@@ -1,0 +1,24 @@
+{
+  "documentId": "DOC-43D8BEBDC3081D7E",
+  "filename": "controles.js",
+  "relPath": "bac info/sti/projet cabinet_docteur,ebaluation des pré-requis,4SI,STI/controles.js",
+  "sha256": "43d8bebdc3081d7efd39961f0e7cab9baee6dbe56a8737453161431c83b42c70",
+  "extractedAt": "2026-11-06T14:24:19.746Z",
+  "pageCount": 1,
+  "textSnippet": "function verifpatient() { const idp = document.getElementById(\"idp\").value; const f = document.getElementById(\"femme\").checked; const h = document.getElementById(\"homme\").checked; const np = document.getElementById(\"np\").value; const tel = document.getElementById(\"tel\").value; const ville = document.getElementById(\"ville\").selectedIndex; if (idp.length != 4 || idp[0] != \"p\" || !numerique(idp.substr(1))) { alert(\" veuiller verifier votre id\");",
+  "fullText": "function verifpatient() {\r\n    const idp = document.getElementById(\"idp\").value;\r\n    const f = document.getElementById(\"femme\").checked;\r\n    const h = document.getElementById(\"homme\").checked;\r\n    const np = document.getElementById(\"np\").value;\r\n    const tel = document.getElementById(\"tel\").value;\r\n    const ville = document.getElementById(\"ville\").selectedIndex;\r\n  \r\n    if (idp.length != 4 || idp[0] != \"p\" || !numerique(idp.substr(1))) {\r\n      alert(\" veuiller verifier votre id\");\r\n      return false;\r\n    }\r\n    if (!h && !f) {\r\n      alert(\"veuiller choisir le sexe \");\r\n      return false;\r\n    }\r\n    if (np.length > 10 || !verifalpha(np)) {\r\n      alert(\"veuiller verifier votre nom et prenom\");\r\n      return false;\r\n    }\r\n    if (tel.length != 8 || !numerique(tel)) {\r\n      alert(\"verifier votre numero de telephone\");\r\n      return false;\r\n    }\r\n    if (ville == 0) {\r\n      alert(\"veuiller choisir une ville\");\r\n      return false;\r\n    }\r\n  }\r\n  \r\n  function numerique(ch) {\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if (\"0\" < ch[i] || ch[i] > \"9\") {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }\r\n  function verifalpha(ch) {\r\n    ch = ch.toUpperCase();\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if (\"A\" < ch[i] || (ch[i] > \"Z\" && ch[i] != \" \")) {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }\r\n  ",
+  "chunks": [
+    {
+      "chunkId": "DOC-43D8BEBDC3081D7E-CHK-001",
+      "text": "function verifpatient() {\r\n    const idp = document.getElementById(\"idp\").value;\r\n    const f = document.getElementById(\"femme\").checked;\r\n    const h = document.getElementById(\"homme\").checked;\r\n    const np = document.getElementById(\"np\").value;\r\n    const tel = document.getElementById(\"tel\").value;\r\n    const ville = document.getElementById(\"ville\").selectedIndex;"
+    },
+    {
+      "chunkId": "DOC-43D8BEBDC3081D7E-CHK-002",
+      "text": "if (idp.length != 4 || idp[0] != \"p\" || !numerique(idp.substr(1))) {\r\n      alert(\" veuiller verifier votre id\");\r\n      return false;\r\n    }\r\n    if (!h && !f) {\r\n      alert(\"veuiller choisir le sexe \");\r\n      return false;\r\n    }\r\n    if (np.length > 10 || !verifalpha(np)) {\r\n      alert(\"veuiller verifier votre nom et prenom\");\r\n      return false;\r\n    }\r\n    if (tel.length != 8 || !numerique(tel)) {\r\n      alert(\"verifier votre numero de telephone\");\r\n      return false;\r\n    }\r\n    if (ville == 0) {\r\n      alert(\"veuiller choisir une ville\");\r\n      return false;\r\n    }\r\n  }"
+    },
+    {
+      "chunkId": "DOC-43D8BEBDC3081D7E-CHK-003",
+      "text": "function numerique(ch) {\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if (\"0\" < ch[i] || ch[i] > \"9\") {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }\r\n  function verifalpha(ch) {\r\n    ch = ch.toUpperCase();\r\n    for (let i = 0; i < ch.length; i++) {\r\n      if (\"A\" < ch[i] || (ch[i] > \"Z\" && ch[i] != \" \")) {\r\n        return false;\r\n      }\r\n    }\r\n    return true;\r\n  }"
+    }
+  ]
+}

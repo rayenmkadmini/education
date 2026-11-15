@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-6A90CDC11520B2A3",
+  "filename": "ex3s4.py",
+  "relPath": "bac info/Python/serie 4/ex3s4.py",
+  "sha256": "6a90cdc11520b2a3a9fc2288171262a708ecc0ad570f0dfc2a6153f7de9c7e08",
+  "extractedAt": "2026-11-06T14:23:35.185Z",
+  "pageCount": 1,
+  "textSnippet": "def palindrome(ch): if len(ch)<=1: return True elif ch[0]!=ch[len(ch)-1]: return False else: return(ch[1:len(ch)-1]) #pp ch=input(\"ch= \") if palindrome(ch): print(f\"{ch} est une chaine palindrome\") else: print(f\"{ch} n'est pas une chaine palindrome\")",
+  "fullText": "def palindrome(ch):\r\n    if len(ch)<=1:\r\n        return True\r\n    elif ch[0]!=ch[len(ch)-1]:\r\n        return False\r\n    else:\r\n        return(ch[1:len(ch)-1])\r\n\r\n#pp\r\nch=input(\"ch= \")\r\nif palindrome(ch):\r\n    print(f\"{ch} est une chaine palindrome\")\r\nelse:\r\n    print(f\"{ch} n'est pas une chaine palindrome\")",
+  "chunks": [
+    {
+      "chunkId": "DOC-6A90CDC11520B2A3-CHK-001",
+      "text": "def palindrome(ch):\r\n    if len(ch)<=1:\r\n        return True\r\n    elif ch[0]!=ch[len(ch)-1]:\r\n        return False\r\n    else:\r\n        return(ch[1:len(ch)-1])\r\n\n#pp\r\nch=input(\"ch= \")\r\nif palindrome(ch):\r\n    print(f\"{ch} est une chaine palindrome\")\r\nelse:\r\n    print(f\"{ch} n'est pas une chaine palindrome\")"
+    }
+  ]
+}

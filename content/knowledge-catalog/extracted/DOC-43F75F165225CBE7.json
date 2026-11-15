@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-43F75F165225CBE7",
+  "filename": "bac_pratique_2012_14.00.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/bac_pratique_2012_14.00.py",
+  "sha256": "43f75f165225cbe7d62284ecf70c8b2bc4c7d9282bb2af83c4cd22dad6b71f63",
+  "extractedAt": "2026-11-06T14:24:35.824Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: n = input(\"Donner le numéro: \") b = len(n) == 15 return n def LUHN(n): S = 0 for i in range(len(n)): if (i + 1) % 2 == 0: a = int(n[i]) * 2 if a >= 10: b = a % 10 + a // 10 S = S + b else: S += a else: S += int(n[i]) return S def IMEI(S): if S % 10 == 0: print(\"numéro I",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"Donner le numéro: \")\r\n        b = len(n) == 15\r\n    return n\r\n\r\n\r\ndef LUHN(n):\r\n    S = 0\r\n    for i in range(len(n)):\r\n        if (i + 1) % 2 == 0:\r\n            a = int(n[i]) * 2\r\n            if a >= 10:\r\n                b = a % 10 + a // 10\r\n                S = S + b\r\n            else:\r\n                S += a\r\n        else:\r\n            S += int(n[i])\r\n    return S\r\n\r\n\r\ndef IMEI(S):\r\n    if S % 10 == 0:\r\n        print(\"numéro IMEI\")\r\n    else:\r\n        print(\"numéro non IMEI\")\r\n\r\n\r\n##############\"pp#############\"\"\"\r\nn = Saisie()\r\nS = LUHN(n)\r\nIMEI(S)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-43F75F165225CBE7-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        n = input(\"Donner le numéro: \")\r\n        b = len(n) == 15\r\n    return n\r\n\ndef LUHN(n):\r\n    S = 0\r\n    for i in range(len(n)):\r\n        if (i + 1) % 2 == 0:\r\n            a = int(n[i]) * 2\r\n            if a >= 10:\r\n                b = a % 10 + a // 10\r\n                S = S + b\r\n            else:\r\n                S += a\r\n        else:\r\n            S += int(n[i])\r\n    return S\r\n\ndef IMEI(S):\r\n    if S % 10 == 0:\r\n        print(\"numéro IMEI\")\r\n    else:\r\n        print(\"numéro non IMEI\")\r\n\n##############\"pp#############\"\"\"\r\nn = Saisie()\r\nS = LUHN(n)\r\nIMEI(S)"
+    }
+  ]
+}

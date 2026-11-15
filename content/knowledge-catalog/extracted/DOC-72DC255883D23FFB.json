@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-72DC255883D23FFB",
+  "filename": "index.html",
+  "relPath": "bac info/sti/projet2,computer tech/index.html",
+  "sha256": "72dc255883d23ffb505cf5dab8313cb916e06fa715fdce3e97900ff52a7f51dd",
+  "extractedAt": "2026-11-06T14:24:20.610Z",
+  "pageCount": 1,
+  "textSnippet": "<!DOCTYPE html> <html lang=\"fr\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>index</title> <link rel=\"stylesheet\" href=\"style.css\"> </head> <body> <header> <img src=\"files/logo.png\" alt=\"logo\"> <h1>COMPUTER TECH</h1> <nav> <ul> <li><a href=\"\">Nos magasines</a></li> <li><a href=\"\">Nous contacter</a></li> <li><a href",
+  "fullText": "<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <img src=\"files/logo.png\" alt=\"logo\">\r\n        <h1>COMPUTER TECH</h1>\r\n        <nav>\r\n            <ul>\r\n                <li><a href=\"\">Nos magasines</a></li>\r\n                <li><a href=\"\">Nous contacter</a></li>\r\n                <li><a href=\"\">Besoin d'aide</a></li>\r\n            </ul>\r\n        </nav>\r\n    </header>\r\n    <main>\r\n        <nav>\r\n            <ul>\r\n                <li><a href=\"acceuille.html\" target=\"zone3\">Acceuille</a></li>\r\n                <li><a href=\"inscription.html\" target=\"zone3\">Inscription</a></li>\r\n                <li><a href=\"commande.html\" target=\"zone3\">Commande</a></li>\r\n            </ul>\r\n        </nav>\r\n        <section>\r\n            <iframe src=\"acceuille.html\" frameborder=\"0\" name=\"zone3\"></iframe>\r\n        </section>\r\n\r\n    </main>\r\n    <footer>\r\n        <img src=\"files/Facebook.png\" alt=\"\">\r\n        <img src=\"files/Twitter.png\" alt=\"\">\r\n        <img src=\"files/Linkedin.png\" alt=\"\">\r\n        <img src=\"files/Website.png\" alt=\"\">\r\n    </footer>\r\n</body>\r\n</html>",
+  "chunks": [
+    {
+      "chunkId": "DOC-72DC255883D23FFB-CHK-001",
+      "text": "<!DOCTYPE html>\r\n<html lang=\"fr\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>index</title>\r\n    <link rel=\"stylesheet\" href=\"style.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <img src=\"files/logo.png\" alt=\"logo\">\r\n        <h1>COMPUTER TECH</h1>\r\n        <nav>\r\n            <ul>\r\n                <li><a href=\"\">Nos magasines</a></li>\r\n                <li><a href=\"\">Nous contacter</a></li>\r\n                <li><a href=\"\">Besoin d'aide</a></li>\r\n            </ul>\r\n        </nav>\r\n    </header>\r\n    <main>\r\n        <nav>\r\n            <ul>\r\n                <li><a href=\"acceuille.html\" target=\"zone3\">Acceuille</a></li>\r\n                <li><a href=\"inscription.html\" target=\"zone3\">Inscription</a></li>\r\n                <li><a href=\"commande.html\" target=\"zone3\">Commande</a></li>\r\n            </ul>\r\n        </nav>\r\n        <section>\r\n            <iframe src=\"acceuille.html\" frameborder=\"0\" name=\"zone3\"></iframe>\r\n        </section>"
+    },
+    {
+      "chunkId": "DOC-72DC255883D23FFB-CHK-002",
+      "text": "</main>\r\n    <footer>\r\n        <img src=\"files/Facebook.png\" alt=\"\">\r\n        <img src=\"files/Twitter.png\" alt=\"\">\r\n        <img src=\"files/Linkedin.png\" alt=\"\">\r\n        <img src=\"files/Website.png\" alt=\"\">\r\n    </footer>\r\n</body>\r\n</html>"
+    }
+  ]
+}

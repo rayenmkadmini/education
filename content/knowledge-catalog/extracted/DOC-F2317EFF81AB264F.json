@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-F2317EFF81AB264F",
+  "filename": "statistique.php",
+  "relPath": "bac info/sti/etude/bac preatique STI 2015/statistique.php",
+  "sha256": "f2317eff81ab264feb8e4ad808f7e57e49e08b57dc4ccab4aea0585edd92f370",
+  "extractedAt": "2026-11-06T14:24:17.110Z",
+  "pageCount": 1,
+  "textSnippet": "<?php $cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx)); $mat=$_POST[\"pilote\"]; /* $req=\"SELECT p.nom , p.prenom,a.marque ,SUM(duree),COUNT(idvol) from vol v and pilote p and avion a where p.matricule='$mat' and v.matpilote=p.matricule and a.idavion=v.idavion \"; $res=mysqli_query($cnx,$req) or die(mysqli_error($cnx)); if(mysqli_num_rows($res)!=0){ } */ $pilote=$_POST['pilote']; $req1=\"select nom,prenom from pilo",
+  "fullText": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n$mat=$_POST[\"pilote\"];\r\n/*\r\n$req=\"SELECT p.nom , p.prenom,a.marque ,SUM(duree),COUNT(idvol)\r\n        from vol v and pilote p and avion a\r\n        where p.matricule='$mat' and v.matpilote=p.matricule and a.idavion=v.idavion \";\r\n$res=mysqli_query($cnx,$req) or die(mysqli_error($cnx));\r\nif(mysqli_num_rows($res)!=0){\r\n    \r\n}\r\n*/\r\n$pilote=$_POST['pilote'];\r\n\r\n$req1=\"select nom,prenom from pilote where matricule='$pilote'\";\r\n$res1=mysqli_query($cnx,$req1);\r\n$l=mysqli_fetch_array($res1);\r\n$nom=$l[0];\r\n$pr=$l[1];\r\necho $nom.' '.$pr.\" a effectuer les vols suivant\";\r\n\r\n$req2=\"select marque,sum(duree)/60,count(*) from vol v,avion a where a.idavion=v.idavion and matpilote='$pilote' group by marque\";\r\n$res2=mysqli_query($cnx,$req2);\r\n\r\necho \"<table border='2'>\r\n<tr>\r\n<td>marque</td>\r\n<td>total de durée</td>\r\n<td>nombres de vols</td>\r\n</tr>\";\r\nwhile ($e=mysqli_fetch_array($res2)){\r\n\techo \"\r\n<tr>\r\n<td>\".$e[0].\"</td>\r\n<td>\".$e[1].\"</td>\r\n<td>\".$e[2].\"</td>\r\n</tr>\";\r\n\t\r\n}\r\necho \"</table>\";\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-F2317EFF81AB264F-CHK-001",
+      "text": "<?php\r\n$cnx=mysqli_connect(\"localhost\",\"root\",\"\",\"bd_bac2015\") or die(\"erreur de cnx\".mysqli_error($cnx));\r\n$mat=$_POST[\"pilote\"];\r\n/*\r\n$req=\"SELECT p.nom , p.prenom,a.marque ,SUM(duree),COUNT(idvol)\r\n        from vol v and pilote p and avion a\r\n        where p.matricule='$mat' and v.matpilote=p.matricule and a.idavion=v.idavion \";\r\n$res=mysqli_query($cnx,$req) or die(mysqli_error($cnx));\r\nif(mysqli_num_rows($res)!=0){\r\n\n}\r\n*/\r\n$pilote=$_POST['pilote'];\r\n\n$req1=\"select nom,prenom from pilote where matricule='$pilote'\";\r\n$res1=mysqli_query($cnx,$req1);\r\n$l=mysqli_fetch_array($res1);\r\n$nom=$l[0];\r\n$pr=$l[1];\r\necho $nom.' '.$pr.\" a effectuer les vols suivant\";"
+    },
+    {
+      "chunkId": "DOC-F2317EFF81AB264F-CHK-002",
+      "text": "$req2=\"select marque,sum(duree)/60,count(*) from vol v,avion a where a.idavion=v.idavion and matpilote='$pilote' group by marque\";\r\n$res2=mysqli_query($cnx,$req2);\r\n\necho \"<table border='2'>\r\n<tr>\r\n<td>marque</td>\r\n<td>total de durée</td>\r\n<td>nombres de vols</td>\r\n</tr>\";\r\nwhile ($e=mysqli_fetch_array($res2)){\r\n\techo \"\r\n<tr>\r\n<td>\".$e[0].\"</td>\r\n<td>\".$e[1].\"</td>\r\n<td>\".$e[2].\"</td>\r\n</tr>\";\r\n\n}\r\necho \"</table>\";\r\n\n?>"
+    }
+  ]
+}

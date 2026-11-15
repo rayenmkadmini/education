@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-7438B3646139C4D3",
+  "filename": "epreuve_pratique_bac2014_sujet8.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2014/epreuve_pratique_bac2014_sujet8.py",
+  "sha256": "7438b3646139c4d38a60e7f28cc20afb8177e45de3401cfff053a29f140a42ec",
+  "extractedAt": "2026-11-06T14:24:37.004Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not (b): n = int(input(\"Donner un entier a: \")) m = int(input(\"Donner un entier b: \")) b = 100 <= n <= m return n, m def Afficher(a, b): for i in range(a, b + 1): if poly(i): print(i) def poly(x): x = str(x) ok = True i = 2 while ok and i < len(x): ok = int(x[0:i]) % i == 0 i += 1 return ok a, b = Saisie() Afficher(a, b)",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner un entier a: \"))\r\n        m = int(input(\"Donner un entier b: \"))\r\n        b = 100 <= n <= m\r\n    return n, m\r\n\r\n\r\ndef Afficher(a, b):\r\n    for i in range(a, b + 1):\r\n        if poly(i):\r\n            print(i)\r\n\r\n\r\ndef poly(x):\r\n    x = str(x)\r\n    ok = True\r\n    i = 2\r\n    while ok and i < len(x):\r\n        ok = int(x[0:i]) % i == 0\r\n        i += 1\r\n    return ok\r\n\r\n\r\na, b = Saisie()\r\nAfficher(a, b)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-7438B3646139C4D3-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner un entier a: \"))\r\n        m = int(input(\"Donner un entier b: \"))\r\n        b = 100 <= n <= m\r\n    return n, m\r\n\ndef Afficher(a, b):\r\n    for i in range(a, b + 1):\r\n        if poly(i):\r\n            print(i)\r\n\ndef poly(x):\r\n    x = str(x)\r\n    ok = True\r\n    i = 2\r\n    while ok and i < len(x):\r\n        ok = int(x[0:i]) % i == 0\r\n        i += 1\r\n    return ok\r\n\na, b = Saisie()\r\nAfficher(a, b)"
+    }
+  ]
+}

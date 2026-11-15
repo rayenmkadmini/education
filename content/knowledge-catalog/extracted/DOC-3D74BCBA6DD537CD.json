@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-3D74BCBA6DD537CD",
+  "filename": "Ex8serie8.docx",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EXERCICES/Séries/Série 8/Ex8serie8.docx",
+  "sha256": "3d74bcba6dd537cd6ea121ab9c5bd1e2bba1e341fad9f647d61ddd883dc971d4",
+  "extractedAt": "2026-11-06T14:24:40.145Z",
+  "pageCount": 1,
+  "textSnippet": "Nom : Ex8serie8 T.D.N.T. tab : Tableau de 50 entiers Résultat =PROC affiche( T ,n,k ) t= PROC remplir( T ,n ) k ← aléa(4 )+ 2 n= PROC saisie(n) Fin Ex8serie8 DEF PROC remplir (var T :tab ; n :entier) Pour i de 1 à n faire Répeter Lire(T[i]) Jusqu’à (T[i]>=100) et (T[i ]< =999) Fin remplir ____________________________________________________________________ DEF PROC affiche (T :tab ; n,k :entier) Pour i de 1 à n faire x ← T[i] j ← 2 nb",
+  "fullText": "Nom : Ex8serie8\n\nT.D.N.T.\n\ntab : Tableau de 50 entiers\n\nRésultat =PROC affiche(\n\nT\n\n,n,k\n\n)\n\nt= PROC remplir(\n\nT\n\n,n\n\n)\n\nk ← aléa(4\n\n)+\n\n2\n\nn= PROC saisie(n)\n\nFin Ex8serie8\n\nDEF PROC remplir (var T \n\n:tab\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépeter\n\n      Lire(T[i])\n\n   Jusqu’à (T[i]>=100) et (T[i\n\n]<\n\n=999)\n\nFin remplir   \n\n____________________________________________________________________\n\nDEF PROC affiche (T \n\n:tab\n\n ; \n\nn,k\n\n :entier)\n\nPour i de 1 à n faire\n\n   x ← T[i]\n\nj\n\n ← 2\n\nnb\n\n ← 0\n\nTantque\n\n (x<>1) faire\n\n      Si x \n\nmod\n\n j=0\n\n         Alors nb ← nb+1\n\n               x ← x \n\ndiv\n\n j\n\n         Sinon j ← j+1\n\nFinsi\n\n   Fin \n\ntantque\n\n   Si nb=k\n\n      Alors \n\necrire\n\n(T[i])\n\nFinsi\n\nFin pour\n\nFin affiche",
+  "chunks": [
+    {
+      "chunkId": "DOC-3D74BCBA6DD537CD-CHK-001",
+      "text": "Nom : Ex8serie8\n\nT.D.N.T.\n\ntab : Tableau de 50 entiers\n\nRésultat =PROC affiche(\n\nT\n\n,n,k\n\n)\n\nt= PROC remplir(\n\nT\n\n,n\n\n)\n\nk ← aléa(4\n\n)+\n\n2\n\nn= PROC saisie(n)\n\nFin Ex8serie8\n\nDEF PROC remplir (var T \n\n:tab\n\n ; n :entier) \n\nPour i de 1 à n faire\n\nRépeter\n\n      Lire(T[i])\n\n   Jusqu’à (T[i]>=100) et (T[i\n\n]<\n\n=999)\n\nFin remplir   \n\n____________________________________________________________________\n\nDEF PROC affiche (T \n\n:tab\n\n ; \n\nn,k\n\n :entier)\n\nPour i de 1 à n faire\n\n   x ← T[i]\n\nj\n\n ← 2\n\nnb\n\n ← 0\n\nTantque\n\n (x<>1) faire\n\n      Si x \n\nmod\n\n j=0\n\n         Alors nb ← nb+1\n\n               x ← x \n\ndiv\n\n j\n\n         Sinon j ← j+1\n\nFinsi\n\n   Fin \n\ntantque\n\n   Si nb=k\n\n      Alors \n\necrire\n\n(T[i])\n\nFinsi\n\nFin pour\n\nFin affiche"
+    }
+  ]
+}

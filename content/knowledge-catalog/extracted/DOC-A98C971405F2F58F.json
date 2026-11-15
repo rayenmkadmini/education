@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-A98C971405F2F58F",
+  "filename": "tri_bulles.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/TABLEAUX/tri_bulles.py",
+  "sha256": "a98c971405f2f58f88af946a48f4dd7c42e61b7e96326338292900f1422cb77c",
+  "extractedAt": "2026-11-06T14:24:41.071Z",
+  "pageCount": 1,
+  "textSnippet": "#Trier un tableau dans l'ordre croissant par la méthode de tri à bulles from numpy import * t = array ( [int] * 20 ) def Saisie(): b = False while not(b) : n=int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(n): for i in range (n): t[i]=int(input(\"t[\"+str(i)+\"] = \")) def tri(t,n): echange = False while n != 1 or not echange : for i in range(n-1): if t[i] > t[i+1]:",
+  "fullText": "#Trier un tableau dans l'ordre croissant par la méthode de tri à bulles\r\n\r\nfrom numpy import *\r\n\r\nt = array ( [int] * 20 )\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n\r\ndef tri(t,n):\r\n    echange = False \r\n    while n != 1 or not echange :\r\n        for i in range(n-1):\r\n            if t[i] > t[i+1]:\r\n                temp = t[i]\r\n                t[i] = t[i+1]\r\n                t[i+1] = temp\r\n                echange = True\r\n        n -= 1\r\n\r\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n\r\n####################PP####################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\ntri(t,n)\r\nAfficher(t,n)",
+  "chunks": [
+    {
+      "chunkId": "DOC-A98C971405F2F58F-CHK-001",
+      "text": "#Trier un tableau dans l'ordre croissant par la méthode de tri à bulles\r\n\nfrom numpy import *\r\n\nt = array ( [int] * 20 )\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range (n):\r\n        t[i]=int(input(\"t[\"+str(i)+\"] = \"))\r\n\ndef tri(t,n):\r\n    echange = False \r\n    while n != 1 or not echange :\r\n        for i in range(n-1):\r\n            if t[i] > t[i+1]:\r\n                temp = t[i]\r\n                t[i] = t[i+1]\r\n                t[i+1] = temp\r\n                echange = True\r\n        n -= 1\r\n\ndef Afficher(t,n):\r\n    for i in range (n):\r\n        print(t[i],end=\"/\")\r\n\n####################PP####################\r\n\nn = Saisie()\r\nRemplir(n)\r\ntri(t,n)\r\nAfficher(t,n)"
+    }
+  ]
+}

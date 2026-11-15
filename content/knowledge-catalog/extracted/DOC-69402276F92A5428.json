@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-69402276F92A5428",
+  "filename": "suite thuemorse.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/suite thuemorse.py",
+  "sha256": "69402276f92a5428dbbe3ef602a1523e769e60c8fe55a0efc912677b6ded94ad",
+  "extractedAt": "2026-11-14T18:35:36.385Z",
+  "pageCount": 1,
+  "textSnippet": "def saisir_x(): x=input(\"Donner une chiffre binaire\") while not x in [\"0\",\"1\"]: x=input(\"Donner un chiffre binaire\") return x def saisir_n(): n=int(input(\"Donner n: \")) while n<=2: n=int(input(\"Donner n: \")) return n def morse(x): R=\"\" for j in range(len(x)): if x[j]==\"0\": R=R+\"01\" else: R=R+\"10\" return R def afficher(x,n): print(x) for i in range(n-1): M=morse(x)",
+  "fullText": "def saisir_x():\r\n    x=input(\"Donner une chiffre binaire\")\r\n    while not x in [\"0\",\"1\"]:\r\n        x=input(\"Donner un chiffre binaire\")\r\n    return x\r\ndef saisir_n():\r\n    n=int(input(\"Donner n: \"))\r\n    while n<=2:\r\n        n=int(input(\"Donner n: \"))\r\n    return n\r\ndef morse(x):\r\n    R=\"\"\r\n    for j in range(len(x)):\r\n        if x[j]==\"0\":\r\n            R=R+\"01\"\r\n        else:\r\n            R=R+\"10\"\r\n    return R\r\ndef afficher(x,n):\r\n    print(x)\r\n    for i in range(n-1):\r\n        M=morse(x)\r\n        print(M)\r\n        x=M\r\n#programme principale;\r\nx=saisir_x()\r\nn=saisir_n()\r\nafficher(x,n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-69402276F92A5428-CHK-001",
+      "text": "def saisir_x():\r\n    x=input(\"Donner une chiffre binaire\")\r\n    while not x in [\"0\",\"1\"]:\r\n        x=input(\"Donner un chiffre binaire\")\r\n    return x\r\ndef saisir_n():\r\n    n=int(input(\"Donner n: \"))\r\n    while n<=2:\r\n        n=int(input(\"Donner n: \"))\r\n    return n\r\ndef morse(x):\r\n    R=\"\"\r\n    for j in range(len(x)):\r\n        if x[j]==\"0\":\r\n            R=R+\"01\"\r\n        else:\r\n            R=R+\"10\"\r\n    return R\r\ndef afficher(x,n):\r\n    print(x)\r\n    for i in range(n-1):\r\n        M=morse(x)\r\n        print(M)\r\n        x=M\r\n#programme principale;\r\nx=saisir_x()\r\nn=saisir_n()\r\nafficher(x,n)"
+    }
+  ]
+}

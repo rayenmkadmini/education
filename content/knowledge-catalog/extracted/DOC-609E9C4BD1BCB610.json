@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-609E9C4BD1BCB610",
+  "filename": "ajoutlivre.php",
+  "relPath": "bac info/sti/projet 4 rafeh maddouri/ajoutlivre.php",
+  "sha256": "609e9c4bd1bcb610807c18bb69fb26c7c0cde70a39f1f13cde02888ccbddfed6",
+  "extractedAt": "2026-11-06T14:24:19.425Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require(\"connexion.php\"); if($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\" && $_get[\"nbr\"]!=\"\") { $titre=$_get[\"titre\"]; $type=$_get[\"type\"]; $nbr=$_get[\"nbr\"]; } else { die(\"veuillez saisir les donnes du formulair\"); } $req1=\"SELECT * from livre where titrelivre='$titre'\"; $res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx)); if(mysqli_num_rows($res1)!=0){ die(\" Livre déjà existant ! \"); } $date=date(\"Y/m/d\"); $req2=\"INSERT into livre",
+  "fullText": "<?php\r\n\r\n\r\nrequire(\"connexion.php\");\r\n\r\nif($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\" && $_get[\"nbr\"]!=\"\")\r\n{\r\n    $titre=$_get[\"titre\"];\r\n    $type=$_get[\"type\"];\r\n    $nbr=$_get[\"nbr\"];\r\n}\r\nelse\r\n{\r\n    die(\"veuillez saisir les donnes du formulair\");\r\n}\r\n\r\n$req1=\"SELECT * from livre where titrelivre='$titre'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)!=0){\r\n    die(\" Livre déjà existant ! \");\r\n}\r\n$date=date(\"Y/m/d\");\r\n$req2=\"INSERT into livre values('','$titre','$type','$nbr')\";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\" Ajout effectué avec succès le \".$date);\r\n}else{\r\n    echo(\" Echec d'ajout!.\");\r\n}\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-609E9C4BD1BCB610-CHK-001",
+      "text": "<?php\r\n\nrequire(\"connexion.php\");\r\n\nif($_get[\"titre\"]!=\"\" && $_get[\"type\"]!=\"\" && $_get[\"nbr\"]!=\"\")\r\n{\r\n    $titre=$_get[\"titre\"];\r\n    $type=$_get[\"type\"];\r\n    $nbr=$_get[\"nbr\"];\r\n}\r\nelse\r\n{\r\n    die(\"veuillez saisir les donnes du formulair\");\r\n}\r\n\n$req1=\"SELECT * from livre where titrelivre='$titre'\";\r\n$res1=mysqli_query($cnx,$req1) or die(\"erreur1\".mysqli_error($cnx));\r\nif(mysqli_num_rows($res1)!=0){\r\n    die(\" Livre déjà existant ! \");\r\n}\r\n$date=date(\"Y/m/d\");\r\n$req2=\"INSERT into livre values('','$titre','$type','$nbr')\";\r\n$res2=mysqli_query($cnx,$req2) or die(\"erreur2\".mysqli_error($cnx));\r\nif(mysqli_affected_rows($cnx)){\r\n    echo(\" Ajout effectué avec succès le \".$date);\r\n}else{\r\n    echo(\" Echec d'ajout!.\");\r\n}\r\n\n?>"
+    }
+  ]
+}

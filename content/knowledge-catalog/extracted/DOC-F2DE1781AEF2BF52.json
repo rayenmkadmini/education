@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-F2DE1781AEF2BF52",
+  "filename": "epreuve_bac_pratique_2012_sujet7.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2012/epreuve_bac_pratique_2012_sujet7.py",
+  "sha256": "f2de1781aef2bf52852500fc52b124dedadbcab484cb36453a72bd56c75bd3aa",
+  "extractedAt": "2026-11-06T14:24:35.971Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not (b): ch = str(input('< ')) b = verif(ch) return ch def verif(ch): ok = len(ch) <= 120 i = -1 while i < len(ch) - 1 and ok: i += 1 ok = \"A\" <= ch[i] <= \"Z\" return ok def Crypter(ch): R = '' R1 = '' for i in range(len(ch)): R += str(ord(ch[i])) for i in range(len(R)): R1 = R[i] + R1 return R1 ##########PP###############\" ch = Saisie()",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\r\n\r\ndef verif(ch):\r\n    ok = len(ch) <= 120\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Crypter(ch):\r\n    R = ''\r\n    R1 = ''\r\n    for i in range(len(ch)):\r\n        R += str(ord(ch[i]))\r\n    for i in range(len(R)):\r\n        R1 = R[i] + R1\r\n    return R1\r\n\r\n\r\n##########PP###############\"\r\nch = Saisie()\r\nR = Crypter(ch)\r\nprint(R)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-F2DE1781AEF2BF52-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not (b):\r\n        ch = str(input('< '))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef verif(ch):\r\n    ok = len(ch) <= 120\r\n    i = -1\r\n    while i < len(ch) - 1 and ok:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef Crypter(ch):\r\n    R = ''\r\n    R1 = ''\r\n    for i in range(len(ch)):\r\n        R += str(ord(ch[i]))\r\n    for i in range(len(R)):\r\n        R1 = R[i] + R1\r\n    return R1\r\n\n##########PP###############\"\r\nch = Saisie()\r\nR = Crypter(ch)\r\nprint(R)"
+    }
+  ]
+}

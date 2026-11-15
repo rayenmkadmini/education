@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-110A79A251FC8A72",
+  "filename": "pgcd_par_methode_de_difference.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/pgcd_par_methode_de_difference.py",
+  "sha256": "110a79a251fc8a7283d69b5d8feb4dc1bde014190cb7c179a137266316d8c888",
+  "extractedAt": "2026-11-06T14:24:40.843Z",
+  "pageCount": 1,
+  "textSnippet": "#déterminer le plus grand commun diviseur de deux entiers relatifs non nuls par la méthode de différence def Saisie(): b = False while not(b) : n=int(input(\"Donner un entier relatif: \")) b = n != 0 return n def pgcd (x,y): a = abs(x) b = abs(y) while a != b : if a > b : a = a - b else : b = b - a return a #####################PP########################### a = Saisie() b = Saisie() print",
+  "fullText": "#déterminer le plus grand commun diviseur de deux entiers relatifs non nuls par la méthode de différence\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier relatif: \"))\r\n        b = n != 0\r\n    return n\r\n\r\ndef pgcd (x,y):\r\n    a = abs(x)\r\n    b = abs(y)\r\n    while a != b :\r\n        if a > b :\r\n            a = a - b\r\n        else :\r\n            b = b - a\r\n    return a\r\n\r\n#####################PP###########################\r\n\r\na = Saisie()\r\nb = Saisie()\r\nprint(\"pgcd (\",a,\",\",b,\")=\",pgcd(a,b))",
+  "chunks": [
+    {
+      "chunkId": "DOC-110A79A251FC8A72-CHK-001",
+      "text": "#déterminer le plus grand commun diviseur de deux entiers relatifs non nuls par la méthode de différence\r\n\ndef Saisie():\r\n    b = False\r\n    while not(b) :\r\n        n=int(input(\"Donner un entier relatif: \"))\r\n        b = n != 0\r\n    return n\r\n\ndef pgcd (x,y):\r\n    a = abs(x)\r\n    b = abs(y)\r\n    while a != b :\r\n        if a > b :\r\n            a = a - b\r\n        else :\r\n            b = b - a\r\n    return a\r\n\n#####################PP###########################\r\n\na = Saisie()\r\nb = Saisie()\r\nprint(\"pgcd (\",a,\",\",b,\")=\",pgcd(a,b))"
+    }
+  ]
+}

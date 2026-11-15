@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #F6F7F9;
+    --surface: #FFFFFF;
+    --surface-subdued: #F8FAFC;
+    --border: #E5E9EF;
+    --border-subdued: #EDF2F7;
+    
+    --navy-primary: #14243A;
+    --navy-secondary: #203751;
+    --blue-accent: #3478B8;
+    --blue-soft: #EBF2F9;
+    
+    --text-primary: #202B38;
+    --text-secondary: #718096;
+    --text-tertiary: #A0AEC0;
+    
+    --success: #27835C;
+    --success-soft: #EBF5F0;
+    --warning: #C58A32;
+    --warning-soft: #FEF8EC;
+    --danger: #C34E4E;
+    --danger-soft: #FDF2F2;
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "IBM Plex Sans Arabic", "Noto Sans Arabic";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
+
+/* Subtle, clean scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F4F8;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] .ltr-only {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Code block container styling — Strictly LTR */
+.code-container, pre, code {
+  direction: ltr !important;
+  text-align: left !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+/* Math formula styling — Strictly LTR */
+.katex, .katex-display {
+  direction: ltr !important;
+  text-align: center;
+}
+.katex-inline {
+  direction: ltr !important;
+}
+
+/* Print-Friendly Styling for Official Tunisian Bac Exams */
+@media print {
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+
+  nav, header, aside, button, .no-print, [role="navigation"] {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .print-page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  .exercise-card, .math-markdown-content table {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 1px solid #333333 !important;
+  }
+
+  th, td {
+    border: 1px solid #333333 !important;
+    padding: 6px !important;
+    color: #000000 !important;
+  }
+}

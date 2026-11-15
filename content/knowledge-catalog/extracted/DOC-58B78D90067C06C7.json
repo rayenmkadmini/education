@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-58B78D90067C06C7",
+  "filename": "Bac2020theorique.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2020/Bac2020theorique.py",
+  "sha256": "58b78d90067c06c7c578643f34895d3a83b8a520982ee32f5b5d69c1d0db23de",
+  "extractedAt": "2026-11-06T14:24:39.523Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not b: NL = int(input(\"< Nombtre de lignes: \")) b = 100 >= NL > 0 b = False while not b: NC = int(input(\"< Nombtre de colones: \")) b = 100 >= NC > 0 b = False while not b: L = int(input(\"< Ligne n°= \")) b = 0 < L <= NL b = False while not b: C = int(input(\"< colone n°= \")) b = 0 < C <= NC b = False while not b: S = input(\"< Séquence: \")",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        NL = int(input(\"< Nombtre de lignes: \"))\r\n        b = 100 >= NL > 0\r\n    b = False\r\n    while not b:\r\n        NC = int(input(\"< Nombtre de colones: \"))\r\n        b = 100 >= NC > 0\r\n    b = False\r\n    while not b:\r\n        L = int(input(\"< Ligne n°= \"))\r\n        b = 0 < L <= NL\r\n    b = False\r\n    while not b:\r\n        C = int(input(\"< colone n°= \"))\r\n        b = 0 < C <= NC\r\n    b = False\r\n    while not b:\r\n        S = input(\"< Séquence: \")\r\n        b = verif(S)\r\n    return NL, NC, L, C, S\r\n\r\n\r\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] in {\"H\", \"B\", \"D\", \"G\"}\r\n    return ok\r\n\r\n\r\ndef Robot(NL, NC, L, C, S):\r\n    l = L\r\n    c = C\r\n    i = 0\r\n    ok = False\r\n    while not (ok) and i < len(S):\r\n        if S[i] == \"D\":\r\n            c += 1\r\n        elif S[i] == \"G\":\r\n            c -= 1\r\n        elif S[i] == \"H\":\r\n            l -= 1\r\n        elif S[i] == \"B\":\r\n            l += 1\r\n        ok = Depacement(i, l, c, NL, NC)\r\n        i += 1\r\n    if ok == False:\r\n        print(\"Je suis à la position (\", l, \",\", c, \") ^^ \")\r\n    else:\r\n        print(\"Attention cas de dépacement à cause du pas N°\", i, \" :( \")\r\n\r\n\r\ndef Depacement(i, l, c, NL, NC):\r\n    ok = c > NC or l > NL or c < 1 or l < 1\r\n    return ok\r\n\r\n\r\nNL, NC, L, C, S = Saisie()\r\nprint(\"_\" * 100)\r\nRobot(NL, NC, L, C, S)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-58B78D90067C06C7-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not b:\r\n        NL = int(input(\"< Nombtre de lignes: \"))\r\n        b = 100 >= NL > 0\r\n    b = False\r\n    while not b:\r\n        NC = int(input(\"< Nombtre de colones: \"))\r\n        b = 100 >= NC > 0\r\n    b = False\r\n    while not b:\r\n        L = int(input(\"< Ligne n°= \"))\r\n        b = 0 < L <= NL\r\n    b = False\r\n    while not b:\r\n        C = int(input(\"< colone n°= \"))\r\n        b = 0 < C <= NC\r\n    b = False\r\n    while not b:\r\n        S = input(\"< Séquence: \")\r\n        b = verif(S)\r\n    return NL, NC, L, C, S\r\n\ndef verif(ch):\r\n    ok = True\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = ch[i] in {\"H\", \"B\", \"D\", \"G\"}\r\n    return ok"
+    },
+    {
+      "chunkId": "DOC-58B78D90067C06C7-CHK-002",
+      "text": "def Robot(NL, NC, L, C, S):\r\n    l = L\r\n    c = C\r\n    i = 0\r\n    ok = False\r\n    while not (ok) and i < len(S):\r\n        if S[i] == \"D\":\r\n            c += 1\r\n        elif S[i] == \"G\":\r\n            c -= 1\r\n        elif S[i] == \"H\":\r\n            l -= 1\r\n        elif S[i] == \"B\":\r\n            l += 1\r\n        ok = Depacement(i, l, c, NL, NC)\r\n        i += 1\r\n    if ok == False:\r\n        print(\"Je suis à la position (\", l, \",\", c, \") ^^ \")\r\n    else:\r\n        print(\"Attention cas de dépacement à cause du pas N°\", i, \" :( \")\r\n\ndef Depacement(i, l, c, NL, NC):\r\n    ok = c > NC or l > NL or c < 1 or l < 1\r\n    return ok\r\n\nNL, NC, L, C, S = Saisie()\r\nprint(\"_\" * 100)\r\nRobot(NL, NC, L, C, S)"
+    }
+  ]
+}

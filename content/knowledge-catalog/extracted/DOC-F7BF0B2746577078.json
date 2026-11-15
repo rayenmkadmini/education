@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-F7BF0B2746577078",
+  "filename": "EPREUVE_PRATIQUE_2015_14h.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/EPREUVE_PRATIQUE_2015_14h.py",
+  "sha256": "f7bf0b2746577078546e259563e60c9d01fc53555dd0d6f0375561ca7b832820",
+  "extractedAt": "2026-11-06T14:24:37.031Z",
+  "pageCount": 1,
+  "textSnippet": "def Saisie(): b = False while not (b) : ch=str(input(\"Donner une chaine: \")) b = verif(ch) return ch def verif(ch): i = -1 ok = True while ok and i < len(ch)-1 : i += 1 ok = ch[i] in {\"M\",\"C\",\"D\",\"L\",\"X\",\"V\",\"I\"} return ok def convert(x): if x == \"M\" : r = 1000 elif x == \"D\" : r = 500 elif x == \"C\" : r = 100 elif x == \"L\" : r = 50 elif x == \"X\" : r =",
+  "fullText": "def Saisie():\r\n    b = False\r\n    while not (b) :\r\n        ch=str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\r\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] in {\"M\",\"C\",\"D\",\"L\",\"X\",\"V\",\"I\"}\r\n    return ok\r\n\r\ndef convert(x):\r\n    if x ==  \"M\" :\r\n        r = 1000\r\n    elif x == \"D\" :\r\n        r = 500\r\n    elif x == \"C\" :\r\n        r = 100\r\n    elif x == \"L\" :\r\n        r = 50\r\n    elif x == \"X\" :\r\n        r = 10\r\n    elif x == \"V\" :\r\n        r = 5\r\n    elif x == \"I\" :\r\n        r = 1\r\n    elif x ==\" \" :\r\n        r = 0\r\n    return r\r\n\r\ndef Romain(ch):\r\n    R = 0\r\n    ch = ch + \" \"\r\n    for i in range(len(ch)-1):\r\n        a = convert(ch[i])\r\n        b = convert(ch[i+1])\r\n        if  a < b :\r\n            a = -a\r\n        R += a\r\n    return R\r\n  \r\ndef Afficher(R):\r\n    print(R)\r\n            \r\n    \r\n#########################pp################\r\nch = Saisie()\r\nR = Romain(ch)\r\nAfficher(R)",
+  "chunks": [
+    {
+      "chunkId": "DOC-F7BF0B2746577078-CHK-001",
+      "text": "def Saisie():\r\n    b = False\r\n    while not (b) :\r\n        ch=str(input(\"Donner une chaine: \"))\r\n        b = verif(ch)\r\n    return ch\r\n\ndef verif(ch):\r\n    i = -1\r\n    ok = True\r\n    while ok and i < len(ch)-1 :\r\n        i += 1\r\n        ok = ch[i] in {\"M\",\"C\",\"D\",\"L\",\"X\",\"V\",\"I\"}\r\n    return ok\r\n\ndef convert(x):\r\n    if x ==  \"M\" :\r\n        r = 1000\r\n    elif x == \"D\" :\r\n        r = 500\r\n    elif x == \"C\" :\r\n        r = 100\r\n    elif x == \"L\" :\r\n        r = 50\r\n    elif x == \"X\" :\r\n        r = 10\r\n    elif x == \"V\" :\r\n        r = 5\r\n    elif x == \"I\" :\r\n        r = 1\r\n    elif x ==\" \" :\r\n        r = 0\r\n    return r"
+    },
+    {
+      "chunkId": "DOC-F7BF0B2746577078-CHK-002",
+      "text": "def Romain(ch):\r\n    R = 0\r\n    ch = ch + \" \"\r\n    for i in range(len(ch)-1):\r\n        a = convert(ch[i])\r\n        b = convert(ch[i+1])\r\n        if  a < b :\r\n            a = -a\r\n        R += a\r\n    return R\r\n\ndef Afficher(R):\r\n    print(R)\r\n\n#########################pp################\r\nch = Saisie()\r\nR = Romain(ch)\r\nAfficher(R)"
+    }
+  ]
+}

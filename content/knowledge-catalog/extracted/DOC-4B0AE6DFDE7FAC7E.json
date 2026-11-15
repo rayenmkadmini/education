@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-4B0AE6DFDE7FAC7E",
+  "filename": "modifier.php",
+  "relPath": "bac info/sti/projet 3 version élève/modifier.php",
+  "sha256": "4b0ae6dfde7fac7eaf6fc218c490f30a2e18b8aebeb46ceb26f3e2e09e844eb4",
+  "extractedAt": "2026-11-06T14:24:19.051Z",
+  "pageCount": 1,
+  "textSnippet": "<?php require \"connexion.php\"; $genre=$_POST[\"genre\"]; $adr=$_POST[\"adr\"]; ?>",
+  "fullText": "<?php\r\n\r\nrequire \"connexion.php\";\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n\r\n\r\n\r\n\r\n\r\n?>",
+  "chunks": [
+    {
+      "chunkId": "DOC-4B0AE6DFDE7FAC7E-CHK-001",
+      "text": "<?php\r\n\nrequire \"connexion.php\";\r\n$genre=$_POST[\"genre\"];\r\n$adr=$_POST[\"adr\"];\r\n\n?>"
+    }
+  ]
+}

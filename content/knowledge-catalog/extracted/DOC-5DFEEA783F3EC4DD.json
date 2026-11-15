@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5DFEEA783F3EC4DD",
+  "filename": "EPREUVE_PRATIQUE_2013_14.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2013/EPREUVE_PRATIQUE_2013_14.py",
+  "sha256": "5dfeea783f3ec4dde39d6084bbd1d26bac79d5af3b904183454026eb371c9378",
+  "extractedAt": "2026-11-06T14:24:36.048Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T=array([int]*20) def Saisie(): b = False while not b : n=int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 20 return n def Remplir(N): for i in range (N) : T[i]=int(input(\"T[\"+str(i)+\"]= \")) def Segmenter(T,N): x = T[0] i,n = 0,0 while n < N: if T[i] > x or (T[i]==x and i ==0) : for j in range(i,N-1): temp = T[j] T[j]=T[j+1]",
+  "fullText": "from numpy import *\r\n\r\nT=array([int]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range (N) :\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n        \r\ndef Segmenter(T,N):\r\n    x = T[0]\r\n    i,n = 0,0\r\n    while n < N:\r\n        if T[i] > x  or (T[i]==x and i ==0)    :\r\n            for j in range(i,N-1):\r\n                temp = T[j]\r\n                T[j]=T[j+1]\r\n                T[j+1]=temp\r\n        else :\r\n            i += 1\r\n        n += 1\r\n        \r\ndef Afficher(T,N):\r\n    for i in range (N) :\r\n        print(T[i])\r\n         \r\n#############################p#############################\r\nN = Saisie()\r\nRemplir(N)\r\nSegmenter(T,N)\r\nAfficher(T,N)",
+  "chunks": [
+    {
+      "chunkId": "DOC-5DFEEA783F3EC4DD-CHK-001",
+      "text": "from numpy import *\r\n\nT=array([int]*20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b :\r\n        n=int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 20\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range (N) :\r\n        T[i]=int(input(\"T[\"+str(i)+\"]= \"))\r\n\ndef Segmenter(T,N):\r\n    x = T[0]\r\n    i,n = 0,0\r\n    while n < N:\r\n        if T[i] > x  or (T[i]==x and i ==0)    :\r\n            for j in range(i,N-1):\r\n                temp = T[j]\r\n                T[j]=T[j+1]\r\n                T[j+1]=temp\r\n        else :\r\n            i += 1\r\n        n += 1\r\n\ndef Afficher(T,N):\r\n    for i in range (N) :\r\n        print(T[i])\r\n\n#############################p#############################\r\nN = Saisie()\r\nRemplir(N)\r\nSegmenter(T,N)\r\nAfficher(T,N)"
+    }
+  ]
+}

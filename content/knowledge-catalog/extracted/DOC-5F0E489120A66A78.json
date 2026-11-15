@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-5F0E489120A66A78",
+  "filename": "conv ay base.py",
+  "relPath": "bac info/algo/Python/Prep BAC PRATIQUE PYTHON/TEX/conv ay base.py",
+  "sha256": "5f0e489120a66a78c428596be70cc7640cbb986e2d73f6520ebf6a2947051aee",
+  "extractedAt": "2026-11-14T18:35:36.417Z",
+  "pageCount": 1,
+  "textSnippet": "def conv_10_b(x,b): ch='' while x!=0: r=x%b if r<10: c=str(r) else: c=chr(r+55) ch=c+ch x=x//b return ch print(conv_10_b(240439,16))",
+  "fullText": "def conv_10_b(x,b):\r\n    ch=''\r\n    while x!=0:\r\n        r=x%b\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        x=x//b\r\n    return ch\r\nprint(conv_10_b(240439,16))",
+  "chunks": [
+    {
+      "chunkId": "DOC-5F0E489120A66A78-CHK-001",
+      "text": "def conv_10_b(x,b):\r\n    ch=''\r\n    while x!=0:\r\n        r=x%b\r\n        if r<10:\r\n            c=str(r)\r\n        else:\r\n            c=chr(r+55)\r\n        ch=c+ch\r\n        x=x//b\r\n    return ch\r\nprint(conv_10_b(240439,16))"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "documentId": "DOC-94722439DFD71359",
+  "filename": "Les Structures Simples.pdf",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/COURS/Les Structures Simples.pdf",
+  "sha256": "94722439dfd71359a91b074d74e58ff43d8b8f6ba81954c362d300472b2453e8",
+  "extractedAt": "2026-11-06T14:24:33.550Z",
+  "pageCount": 1,
+  "textSnippet": "LPBT AS :21-22 2ème,3ème et 4ème scientifiques Nadia El Mekni Lassoued I- Les Structures Simples Au niveau de l’algorithme Au niveau de python Opération d’affectation Nom_variableexpression Nom_variable=expression Opération d’entrée de données(lecture) Lire(variable) Variable =type( input (‘’message’’)) Opération de sortie(affichage) Ecrire(‘’message’’,variable ,expression) Print(‘’message’’,variable,expression) II- Savoir-Faire : La fonction aléa Description Algorithme Python Générer un nombre",
+  "fullText": "LPBT AS :21-22\n2ème,3ème et 4ème scientifiques Nadia El Mekni Lassoued\nI- Les Structures Simples\nAu niveau de l’algorithme Au niveau de python\nOpération\nd’affectation\nNom_variableexpression Nom_variable=expression\nOpération\nd’entrée de\ndonnées(lecture)\nLire(variable) Variable =type( input (‘’message’’))\nOpération de\nsortie(affichage)\nEcrire(‘’message’’,variable ,expression) Print(‘’message’’,variable,expression)\nII- Savoir-Faire : La fonction aléa\nDescription Algorithme Python\nGénérer un nombre entier\ndans [val1, val2] X  Aléa (val1, val2)\nVal1 et val2 entiers\nX=randint (val1, val2)\nX=randint(10,20)\n12 ou 20 ou 15 etc..\nRemarques :\nLorsqu’on utilise la fonction random,randint ou la fonction uniform , il faut importer la\nbibliothèque random => from random import*\n\n-- 1 of 1 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "LPBT AS :21-22\n2ème,3ème et 4ème scientifiques Nadia El Mekni Lassoued\nI- Les Structures Simples\nAu niveau de l’algorithme Au niveau de python\nOpération\nd’affectation\nNom_variableexpression Nom_variable=expression\nOpération\nd’entrée de\ndonnées(lecture)\nLire(variable) Variable =type( input (‘’message’’))\nOpération de\nsortie(affichage)\nEcrire(‘’message’’,variable ,expression) Print(‘’message’’,variable,expression)\nII- Savoir-Faire : La fonction aléa\nDescription Algorithme Python\nGénérer un nombre entier\ndans [val1, val2] X  Aléa (val1, val2)\nVal1 et val2 entiers\nX=randint (val1, val2)\nX=randint(10,20)\n12 ou 20 ou 15 etc..\nRemarques :\nLorsqu’on utilise la fonction random,randint ou la fonction uniform , il faut importer la\nbibliothèque random => from random import*"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-94722439DFD71359-CHK-001",
+      "pageNumber": 1,
+      "text": "LPBT AS :21-22\n2ème,3ème et 4ème scientifiques Nadia El Mekni Lassoued\nI- Les Structures Simples\nAu niveau de l’algorithme Au niveau de python\nOpération\nd’affectation\nNom_variableexpression Nom_variable=expression\nOpération\nd’entrée de\ndonnées(lecture)\nLire(variable) Variable =type( input (‘’message’’))\nOpération de\nsortie(affichage)\nEcrire(‘’message’’,variable ,expression) Print(‘’message’’,variable,expression)\nII- Savoir-Faire : La fonction aléa\nDescription Algorithme Python\nGénérer un nombre entier\ndans [val1, val2] X  Aléa (val1, val2)\nVal1 et val2 entiers\nX=randint (val1, val2)\nX=randint(10,20)\n12 ou 20 ou 15 etc..\nRemarques :\nLorsqu’on utilise la fonction random,randint ou la fonction uniform , il faut importer la\nbibliothèque random => from random import*"
+    }
+  ]
+}

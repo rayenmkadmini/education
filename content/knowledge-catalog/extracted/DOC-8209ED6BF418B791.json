@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-8209ED6BF418B791",
+  "filename": "Serie 2 - Enonce.pdf",
+  "relPath": "maths -20261106T124732Z-1-001/maths_/Nombres Complexes_/Serie 2 - Enonce.pdf",
+  "sha256": "8209ed6bf418b7911d5adde3b2c67758eaea8fcb4041c9f29fc87af38e24c2e9",
+  "extractedAt": "2026-11-06T14:24:48.432Z",
+  "pageCount": 3,
+  "textSnippet": "Bac — Informatique Bac — Informatique Maths Maths Les nombres complexes — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا -- 1 of 3 -- Wael Academ y ةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ(Nombre Complexe) Exercice 1 1/On considère, dans , l'équation (E) : . a/Vérifier que . b/Résoudre, dans , l'équation (E). 2/Dans le plan complexe, muni d'un repère orthonormé direct , on considère les points A, B, C et D d'affixes respectives , , et a/Placer les points A, B, C et D dans le repère . b/Calculer et . c/Calculer . d/Déduire",
+  "fullText": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLes nombres complexes — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا\n\n-- 1 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ(Nombre Complexe)\nExercice 1\n1/On considère, dans , l'équation (E) : \t.\na/Vérifier que \t.\nb/Résoudre, dans , l'équation (E).\n2/Dans le plan complexe, muni d'un repère orthonormé direct \t, on considère les\npoints A, B, C et D d'affixes respectives \t, \t, \tet\na/Placer les points A, B, C et D dans le repère \t.\nb/Calculer \tet \t.\nc/Calculer \t.\nd/Déduire que ABCD est un carré et calculer son aire.\nExercice 2\nLe plan complexe est rapporté à un repère orthonormé \t.\n1/ a/Vérifier que \t.\nb/Résoudre alors , dans , l'équation \t.\n2/Soient A, B et C les points d'affixes respectives \t, \tet \t.\na/Placer les points A, B et C .\nb/ Montrer que le triangle ABC est isocèle et rectangle.\nc/Déterminer l'affixe du point D pour lequel ABCD est un carré.\n3/Soit ( ) l'ensemble des points M d'affixe z tels que \t.\na/Déterminer l'ensemble ( ).\nb/Que représente l'ensemble ( ) pour le carré ABCD ? Construire ( ).\nC H A P I T R E 1 4\n(Nombre Complexe) — Énoncé\nC \tz2 − 2(1 + i) z + 3 − 2i = 0\n(1 + 2i)2 = −3 + 4i\nC\n(o, →u, →v)\nzA = −i zB = 3 zC = 2 + 3i zD = −1 + 2i\n(o, →u, →v)\n|zC − zA| |zD − zB|\n(zC − zA) (zD − zB)\n(o, →u, →v)\n(1 − 5i)2 = −24 − 10i\nC \tz2 + (3 − i) z + 8 + i = 0\nzA = −2 + 3i zB = −1 − 2i zC = 4 − i\nΓ \t|z − 1 − i| = √13\nΓ\nΓ \tΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →\n\n-- 2 of 3 --\n\nWael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\n1/On considère dans l'équation (E) : \t.\na/Vérifier que\nb/Résoudre l'équation (E).\n2/Dans le plan complexe muni d'un repère orthonormé direct \t, on considère les\npoints A, B et C d'affixes respectives \t, \tet \t.\na/Calculer \tet en déduire que \t.\nb/Montrer que les points A et B appartiennent au cercle de centre O et de rayon 2.\nc/Placer le point A et construire les points B et C.\nd/Montrer que OACB est un losange.\nC \tz2 − (√3 + 3i) z − 2 + 2i√3 = 0\n(√3 − i)2 = 2 − 2i√3\n(o, →u, →v)\nzA = 2i zB = √3 + i zC = zA + zB\n¯zc( zB − zA) \t(OC) ⊥ (AB)\nΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2\n\n-- 3 of 3 --",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLes nombres complexes — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ(Nombre Complexe)\nExercice 1\n1/On considère, dans , l'équation (E) : \t.\na/Vérifier que \t.\nb/Résoudre, dans , l'équation (E).\n2/Dans le plan complexe, muni d'un repère orthonormé direct \t, on considère les\npoints A, B, C et D d'affixes respectives \t, \t, \tet\na/Placer les points A, B, C et D dans le repère \t.\nb/Calculer \tet \t.\nc/Calculer \t.\nd/Déduire que ABCD est un carré et calculer son aire.\nExercice 2\nLe plan complexe est rapporté à un repère orthonormé \t.\n1/ a/Vérifier que \t.\nb/Résoudre alors , dans , l'équation \t.\n2/Soient A, B et C les points d'affixes respectives \t, \tet \t.\na/Placer les points A, B et C .\nb/ Montrer que le triangle ABC est isocèle et rectangle.\nc/Déterminer l'affixe du point D pour lequel ABCD est un carré.\n3/Soit ( ) l'ensemble des points M d'affixe z tels que \t.\na/Déterminer l'ensemble ( ).\nb/Que représente l'ensemble ( ) pour le carré ABCD ? Construire ( ).\nC H A P I T R E 1 4\n(Nombre Complexe) — Énoncé\nC \tz2 − 2(1 + i) z + 3 − 2i = 0\n(1 + 2i)2 = −3 + 4i\nC\n(o, →u, →v)\nzA = −i zB = 3 zC = 2 + 3i zD = −1 + 2i\n(o, →u, →v)\n|zC − zA| |zD − zB|\n(zC − zA) (zD − zB)\n(o, →u, →v)\n(1 − 5i)2 = −24 − 10i\nC \tz2 + (3 − i) z + 8 + i = 0\nzA = −2 + 3i zB = −1 − 2i zC = 4 − i\nΓ \t|z − 1 − i| = √13\nΓ\nΓ \tΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\n1/On considère dans l'équation (E) : \t.\na/Vérifier que\nb/Résoudre l'équation (E).\n2/Dans le plan complexe muni d'un repère orthonormé direct \t, on considère les\npoints A, B et C d'affixes respectives \t, \tet \t.\na/Calculer \tet en déduire que \t.\nb/Montrer que les points A et B appartiennent au cercle de centre O et de rayon 2.\nc/Placer le point A et construire les points B et C.\nd/Montrer que OACB est un losange.\nC \tz2 − (√3 + 3i) z − 2 + 2i√3 = 0\n(√3 − i)2 = 2 − 2i√3\n(o, →u, →v)\nzA = 2i zB = √3 + i zC = zA + zB\n¯zc( zB − zA) \t(OC) ⊥ (AB)\nΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-8209ED6BF418B791-CHK-001",
+      "pageNumber": 1,
+      "text": "Bac — Informatique\tBac — Informatique\nMaths\tMaths\nLes nombres complexes — Série 2 — Énoncé :ﺔﻠﺴﻠﺴﻟا"
+    },
+    {
+      "chunkId": "DOC-8209ED6BF418B791-CHK-002",
+      "pageNumber": 2,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ(Nombre Complexe)\nExercice 1\n1/On considère, dans , l'équation (E) : \t.\na/Vérifier que \t.\nb/Résoudre, dans , l'équation (E).\n2/Dans le plan complexe, muni d'un repère orthonormé direct \t, on considère les\npoints A, B, C et D d'affixes respectives \t, \t, \tet\na/Placer les points A, B, C et D dans le repère \t.\nb/Calculer \tet \t.\nc/Calculer \t.\nd/Déduire que ABCD est un carré et calculer son aire.\nExercice 2\nLe plan complexe est rapporté à un repère orthonormé \t.\n1/ a/Vérifier que \t.\nb/Résoudre alors , dans , l'équation \t.\n2/Soient A, B et C les points d'affixes respectives \t, \tet \t.\na/Placer les points A, B et C .\nb/ Montrer que le triangle ABC est isocèle et rectangle.\nc/Déterminer l'affixe du point D pour lequel ABCD est un carré.\n3/Soit ( ) l'ensemble des points M d'affixe z tels que \t.\na/Déterminer l'ensemble ( ).\nb/Que représente l'ensemble ( ) pour le carré ABCD ? Construire ( ).\nC H A P I T R E 1 4\n(Nombre Complexe) — Énoncé\nC \tz2 − 2(1 + i) z + 3 − 2i = 0\n(1 + 2i)2 = −3 + 4i\nC\n(o, →u, →v)\nzA = −i zB = 3 zC = 2 + 3i zD = −1 + 2i\n(o, →u, →v)\n|zC − zA| |zD − zB|\n(zC − zA) (zD − zB)\n(o, →u, →v)\n(1 − 5i)2 = −24 − 10i\nC \tz2 + (3 − i) z + 8 + i = 0\nzA = −2 + 3i zB = −1 − 2i zC = 4 − i\nΓ \t|z − 1 − i| = √13\nΓ\nΓ \tΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 1 / 2\nsuite à la page suivante →"
+    },
+    {
+      "chunkId": "DOC-8209ED6BF418B791-CHK-003",
+      "pageNumber": 3,
+      "text": "Wael Academ\ny\nةﻮﻄﺨﺑ ةﻮﻄﺧ ..ﻚﺘﯾاﺮﻗ ﻲﻓ\nExercice 3\n1/On considère dans l'équation (E) : \t.\na/Vérifier que\nb/Résoudre l'équation (E).\n2/Dans le plan complexe muni d'un repère orthonormé direct \t, on considère les\npoints A, B et C d'affixes respectives \t, \tet \t.\na/Calculer \tet en déduire que \t.\nb/Montrer que les points A et B appartiennent au cercle de centre O et de rayon 2.\nc/Placer le point A et construire les points B et C.\nd/Montrer que OACB est un losange.\nC \tz2 − (√3 + 3i) z − 2 + 2i√3 = 0\n(√3 − i)2 = 2 − 2i√3\n(o, →u, →v)\nzA = 2i zB = √3 + i zC = zA + zB\n¯zc( zB − zA) \t(OC) ⊥ (AB)\nΓ\nMathématiques\nChapitre 14 · (Nombre Complexe) · Énoncé\n@WaelAcademy \twww.WaelAcademy.com \t+(216) 50 404 334 2 / 2"
+    }
+  ]
+}

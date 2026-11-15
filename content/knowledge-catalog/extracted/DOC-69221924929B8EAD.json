@@ -1,0 +1,41 @@
+{
+  "documentId": "DOC-69221924929B8EAD",
+  "filename": "63f3eefcddce8_Magazine n°7 logarithme népérien (1).pdf",
+  "relPath": "bac info/math taki/log/63f3eefcddce8_Magazine n°7 logarithme népérien (1).pdf",
+  "sha256": "69221924929b8ead52ec8a72a6e7a8e3e8bc1c2b04c46e819b9e80d30668cc7d",
+  "extractedAt": "2026-11-06T14:23:54.047Z",
+  "pageCount": 5,
+  "textSnippet": "-- 1 of 5 -- 40 min 5 pt Exercice 1 35 min 5 pt Exercice 2 1 -- 2 of 5 -- 2 -- 3 of 5 -- 40 min 5,5 pt Exercice 3 3 -- 4 of 5 -- -- 5 of 5 --",
+  "fullText": "-- 1 of 5 --\n\n40 min 5 pt\tExercice 1\n35 min 5 pt\tExercice 2\n1\n\n-- 2 of 5 --\n\n2\n\n-- 3 of 5 --\n\n40 min 5,5 pt\tExercice 3\n3\n\n-- 4 of 5 --\n\n\n\n-- 5 of 5 --",
+  "pages": [
+    {
+      "pageNumber": 2,
+      "text": "40 min 5 pt\tExercice 1\n35 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "pageNumber": 3,
+      "text": "2"
+    },
+    {
+      "pageNumber": 4,
+      "text": "40 min 5,5 pt\tExercice 3\n3"
+    }
+  ],
+  "chunks": [
+    {
+      "chunkId": "DOC-69221924929B8EAD-CHK-001",
+      "pageNumber": 2,
+      "text": "40 min 5 pt\tExercice 1\n35 min 5 pt\tExercice 2\n1"
+    },
+    {
+      "chunkId": "DOC-69221924929B8EAD-CHK-002",
+      "pageNumber": 3,
+      "text": "2"
+    },
+    {
+      "chunkId": "DOC-69221924929B8EAD-CHK-003",
+      "pageNumber": 4,
+      "text": "40 min 5,5 pt\tExercice 3\n3"
+    }
+  ]
+}

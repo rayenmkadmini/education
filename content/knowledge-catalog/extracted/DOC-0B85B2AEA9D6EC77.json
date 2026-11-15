@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-0B85B2AEA9D6EC77",
+  "filename": "Bac2021theorique.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2021/Bac2021theorique.py",
+  "sha256": "0b85b2aea9d6ec77574f1cd34b74f2ada724ba61f073ac6c4e8e4c53b6e95a63",
+  "extractedAt": "2026-11-06T14:24:39.534Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * D = array([int] * 56) def Saisie(): b = False while not b: n = int(input(\"Donner n\")) b = (n % 2 == 0) and (4 <= n <= 56) return n def Remplir(n): for i in range(n): b = False while not b: D[i] = int(input(\"D[\" + str(i) + \"]= \")) b = 0 <= D[i] <= 6 def Dominos(D, n): i = 1 ok = True while ok and i < n - 1: ok = D[i] == D[i + 1] print(ok)",
+  "fullText": "from numpy import *\r\n\r\nD = array([int] * 56)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n\"))\r\n        b = (n % 2 == 0) and (4 <= n <= 56)\r\n    return n\r\n\r\n\r\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            D[i] = int(input(\"D[\" + str(i) + \"]= \"))\r\n            b = 0 <= D[i] <= 6\r\n\r\n\r\ndef Dominos(D, n):\r\n    i = 1\r\n    ok = True\r\n    while ok and i < n - 1:\r\n        ok = D[i] == D[i + 1]\r\n        print(ok)\r\n        i += 2\r\n    return ok\r\n\r\n\r\ndef Afficher(D, n):\r\n    if Dominos(D, n):\r\n        print(\"Suite de dominos valide\")\r\n    else:\r\n        print(\"Suite de dominos invalide\")\r\n\r\n\r\n###################PP##################\r\n\r\nn = Saisie()\r\nRemplir(n)\r\nAfficher(D, n)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-0B85B2AEA9D6EC77-CHK-001",
+      "text": "from numpy import *\r\n\nD = array([int] * 56)\r\n\ndef Saisie():\r\n    b = False\r\n    while not b:\r\n        n = int(input(\"Donner n\"))\r\n        b = (n % 2 == 0) and (4 <= n <= 56)\r\n    return n\r\n\ndef Remplir(n):\r\n    for i in range(n):\r\n        b = False\r\n        while not b:\r\n            D[i] = int(input(\"D[\" + str(i) + \"]= \"))\r\n            b = 0 <= D[i] <= 6\r\n\ndef Dominos(D, n):\r\n    i = 1\r\n    ok = True\r\n    while ok and i < n - 1:\r\n        ok = D[i] == D[i + 1]\r\n        print(ok)\r\n        i += 2\r\n    return ok\r\n\ndef Afficher(D, n):\r\n    if Dominos(D, n):\r\n        print(\"Suite de dominos valide\")\r\n    else:\r\n        print(\"Suite de dominos invalide\")\r\n\n###################PP##################\r\n\nn = Saisie()\r\nRemplir(n)\r\nAfficher(D, n)"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-C7836D4EA7716299",
+  "filename": "epreuve_bac_pratique_2015_sujet9.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2015/epreuve_bac_pratique_2015_sujet9.py",
+  "sha256": "c7836d4ea771629922bf9bb83b76e07ba6627452b30d64b0e699de6ed4c528c9",
+  "extractedAt": "2026-11-06T14:24:37.737Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * T = array([int] * 10) def Saisie(): b = False while not (b): n = int(input(\"Donner le nombre des cases: \")) b = 5 <= n <= 10 return n def Remplir(N): for i in range(N): b = False while not b: T[i] = str(input(\"T[\" + str(i) + \"] = \")) b = verif(T[i]) def verif(ch): ok = 2 <= len(ch) <= 12 i = -1 while ok and i < len(ch) - 1: i += 1 ok = \"A\" <= ch",
+  "fullText": "from numpy import *\r\n\r\nT = array([int] * 10)\r\n\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i])\r\n\r\n\r\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\r\n\r\ndef Afficher(T, N):\r\n    for i in range(N):\r\n        if zigzag(T[i]):\r\n            print(T[i], end=' ')\r\n\r\n\r\ndef zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\r\n\r\n#####################PP##########################\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-C7836D4EA7716299-CHK-001",
+      "text": "from numpy import *\r\n\nT = array([int] * 10)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n = int(input(\"Donner le nombre des cases: \"))\r\n        b = 5 <= n <= 10\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not b:\r\n            T[i] = str(input(\"T[\" + str(i) + \"] = \"))\r\n            b = verif(T[i])\r\n\ndef verif(ch):\r\n    ok = 2 <= len(ch) <= 12\r\n    i = -1\r\n    while ok and i < len(ch) - 1:\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n\ndef Afficher(T, N):\r\n    for i in range(N):\r\n        if zigzag(T[i]):\r\n            print(T[i], end=' ')"
+    },
+    {
+      "chunkId": "DOC-C7836D4EA7716299-CHK-002",
+      "text": "def zigzag(ch):\r\n    i = -1\r\n    c = 1\r\n    ok = True\r\n    test_croissance = ch[0] < ch[1]\r\n    if test_croissance:\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a < b\r\n            c *= -1\r\n    elif not (test_croissance):\r\n        while ok and i < len(ch) - 2:\r\n            i += 1\r\n            a = ord(ch[i]) * c\r\n            b = ord(ch[i + 1]) * c\r\n            ok = a > b\r\n            c *= -1\r\n    else:\r\n        ok = False\r\n    return ok\r\n\n#####################PP##########################\r\nN = Saisie()\r\nRemplir(N)\r\nAfficher(T, N)"
+    }
+  ]
+}

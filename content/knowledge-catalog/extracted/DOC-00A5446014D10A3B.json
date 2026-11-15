@@ -1,0 +1,20 @@
+{
+  "documentId": "DOC-00A5446014D10A3B",
+  "filename": "EPREUVE_PRATIQUE_2019_8h.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/EPREUVES BAC PRATIQUE/2019/EPREUVE_PRATIQUE_2019_8h.py",
+  "sha256": "00a5446014d10a3b9321d25ab27a2433519f4d8bc9960e567b0e23823a0b1f75",
+  "extractedAt": "2026-11-06T14:24:39.214Z",
+  "pageCount": 1,
+  "textSnippet": "from numpy import * Nom = array([str]*20) def Saisie(): b = False while not (b): n=int(input(\"Donner le nombre de produits: \")) b = 3 <= n <= 20 return n def Remplir(N): for i in range(N): b = False while not(b) : Nom[i]=(str(input(\"Donner le nom du produit n° \"+str(i)+\": \"))) b = verif(Nom[i]) def verif(ch): ok = len(ch) == 10 i = -1 while ok and ( i < len(ch)-1 ) : i += 1",
+  "fullText": "from numpy import *\r\n\r\nNom = array([str]*20)\r\n\r\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n=int(input(\"Donner le nombre de produits: \"))\r\n        b = 3 <= n <= 20\r\n    return n\r\n\r\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not(b) :\r\n            Nom[i]=(str(input(\"Donner le nom du produit n° \"+str(i)+\": \")))\r\n            b = verif(Nom[i])\r\n\r\ndef verif(ch):\r\n    ok = len(ch) == 10\r\n    i = -1\r\n    while ok and ( i < len(ch)-1 ) :\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok\r\n    \r\ndef Spirale(Nom,N) :\r\n    b = False\r\n    while not(b):\r\n        P=int(input(\"Choisir une position p: \"))\r\n        b  = 0 <= P < 10\r\n    CH = \"\"\r\n    for i in range(N) :\r\n        CH += Nom[i][P]\r\n    TP = array([str]*20)\r\n    R = CH\r\n    for i in range(N):\r\n        TP[i] = R\r\n        R = traitement(R)\r\n    Afficher(TP,N)\r\n \r\ndef traitement(ch):\r\n    d = 0\r\n    g = len(ch)-1\r\n    R = \"\"\r\n    while len(R) < len(ch) :\r\n        R = R  + ch[g] + ch[d]\r\n        g -= 1\r\n        d += 1\r\n    if len(ch)%2 != 0 :\r\n        R = R[:len(ch)]\r\n    return R\r\n\r\ndef Afficher(TP,N):\r\n    for i in range (N):\r\n        print(TP[i])\r\n\r\n#######################PP###########################\r\nN = Saisie()\r\nRemplir(N)\r\nSpirale(Nom,N)\r\n",
+  "chunks": [
+    {
+      "chunkId": "DOC-00A5446014D10A3B-CHK-001",
+      "text": "from numpy import *\r\n\nNom = array([str]*20)\r\n\ndef Saisie():\r\n    b = False\r\n    while not (b):\r\n        n=int(input(\"Donner le nombre de produits: \"))\r\n        b = 3 <= n <= 20\r\n    return n\r\n\ndef Remplir(N):\r\n    for i in range(N):\r\n        b = False\r\n        while not(b) :\r\n            Nom[i]=(str(input(\"Donner le nom du produit n° \"+str(i)+\": \")))\r\n            b = verif(Nom[i])\r\n\ndef verif(ch):\r\n    ok = len(ch) == 10\r\n    i = -1\r\n    while ok and ( i < len(ch)-1 ) :\r\n        i += 1\r\n        ok = \"A\" <= ch[i] <= \"Z\"\r\n    return ok"
+    },
+    {
+      "chunkId": "DOC-00A5446014D10A3B-CHK-002",
+      "text": "def Spirale(Nom,N) :\r\n    b = False\r\n    while not(b):\r\n        P=int(input(\"Choisir une position p: \"))\r\n        b  = 0 <= P < 10\r\n    CH = \"\"\r\n    for i in range(N) :\r\n        CH += Nom[i][P]\r\n    TP = array([str]*20)\r\n    R = CH\r\n    for i in range(N):\r\n        TP[i] = R\r\n        R = traitement(R)\r\n    Afficher(TP,N)\r\n\ndef traitement(ch):\r\n    d = 0\r\n    g = len(ch)-1\r\n    R = \"\"\r\n    while len(R) < len(ch) :\r\n        R = R  + ch[g] + ch[d]\r\n        g -= 1\r\n        d += 1\r\n    if len(ch)%2 != 0 :\r\n        R = R[:len(ch)]\r\n    return R\r\n\ndef Afficher(TP,N):\r\n    for i in range (N):\r\n        print(TP[i])\r\n\n#######################PP###########################\r\nN = Saisie()\r\nRemplir(N)\r\nSpirale(Nom,N)"
+    }
+  ]
+}

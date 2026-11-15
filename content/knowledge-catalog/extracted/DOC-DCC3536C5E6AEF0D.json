@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-DCC3536C5E6AEF0D",
+  "filename": "acer.png",
+  "relPath": "bac info/sti/projet2,computer tech/files/acer.png",
+  "sha256": "dcc3536c5e6aef0dbfde1cd388d7da46a2af0b5d338439212416f1c1d1fa0212",
+  "extractedAt": "2026-11-06T14:24:20.444Z",
+  "pageCount": 1,
+  "textSnippet": "[Fichier Image Pédagogique: acer.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "fullText": "[Fichier Image Pédagogique: acer.png] — Document visuel sans outil OCR local installé. Requiert OCR.",
+  "chunks": [
+    {
+      "chunkId": "DOC-DCC3536C5E6AEF0D-CHK-001",
+      "text": "[Fichier Image Pédagogique: acer.png] — Document visuel sans outil OCR local installé. Requiert OCR."
+    }
+  ]
+}

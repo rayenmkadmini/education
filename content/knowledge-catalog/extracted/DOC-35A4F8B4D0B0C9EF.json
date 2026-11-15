@@ -1,0 +1,16 @@
+{
+  "documentId": "DOC-35A4F8B4D0B0C9EF",
+  "filename": "converir_dans_la_base_n.py",
+  "relPath": "informatique baccalauréat-20261106T132337Z-1-001/informatique baccalauréat/METHODES BAC PRATIQUE/NOMBRES/converir_dans_la_base_n.py",
+  "sha256": "35a4f8b4d0b0c9ef8d8a561a6912668f7472a0b7c49d2d485dbe15f40e6f5068",
+  "extractedAt": "2026-11-06T14:24:40.779Z",
+  "pageCount": 1,
+  "textSnippet": "#ce programme permet de convertir un entier à un autre dans une base n n=int(input(\"<\")) def binaire (x): b = False while not(b): a=int(input(\"donner une base: \")) b = a>1 ch = \"\" while x!=0: r = x % a x //= a if r < 10 : ch = str(r) + ch else : ch = chr(55+ r) +ch return ch print(binaire(n))",
+  "fullText": "#ce programme permet de convertir un entier à un autre dans une base n\r\n\r\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    b = False \r\n    while not(b):\r\n        a=int(input(\"donner une base: \"))\r\n        b = a>1\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % a\r\n        x //= a\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+ r) +ch \r\n\r\n    return ch\r\nprint(binaire(n))",
+  "chunks": [
+    {
+      "chunkId": "DOC-35A4F8B4D0B0C9EF-CHK-001",
+      "text": "#ce programme permet de convertir un entier à un autre dans une base n\r\n\nn=int(input(\"<\"))\r\ndef binaire (x):\r\n    b = False \r\n    while not(b):\r\n        a=int(input(\"donner une base: \"))\r\n        b = a>1\r\n    ch = \"\"\r\n    while x!=0:\r\n        r = x % a\r\n        x //= a\r\n        if r < 10 :    \r\n            ch = str(r) + ch\r\n        else :\r\n            ch = chr(55+ r) +ch \r\n\n    return ch\r\nprint(binaire(n))"
+    }
+  ]
+}
